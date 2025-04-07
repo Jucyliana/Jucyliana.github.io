@@ -667,7 +667,7 @@
     "Name": "Column of Crystal",
     "Type": "Magical Vortex",
     "Attributes": {},
-    "Description": "Remains in Play. Place a large (5\") blast template so that its central hole is within 9\" of the cater. Whilst in play, the template does nor move and its treated as impassible terrain over which no line of sight can be drawn.",
+    "Description": "Remains in Play. Place a large (5\") blast template so that its central hole is within 9\" of the caster. Whilst in play, the template does nor move and its treated as impassible terrain over which no line of sight can be drawn.",
     "CastingValue": "10+",
     "Range": "9\"",
     "Duration": "",
@@ -836,7 +836,7 @@
     "Name": "Devolve",
     "Type": "Magic Missile",
     "Attributes": {},
-    "Description": "The target enemy unit timmediately make a Leadership test. If this test is failed, it loses a number of Wounds equal to the amount by which if failed the test.",
+    "Description": "The target enemy unit immediately make a Leadership test. If this test is failed, it loses a number of Wounds equal to the amount by which if failed the test.",
     "CastingValue": "8+",
     "Range": "15\"",
     "Duration": "",
@@ -1191,7 +1191,7 @@
     "CastingValue": "8+",
     "Range": "15",
     "Duration": "",
-    "Level": "1",
+    "Level": "",
     "PathId": "7f26-d4f0-a758-1fbb",
     "PathName": "Engine of The Gods"
   },
@@ -1282,7 +1282,7 @@
     "CastingValue": "7+",
     "Range": "12\"",
     "Duration": "",
-    "Level": "-",
+    "Level": "",
     "PathId": "98c1-602-e06e-18ee",
     "PathName": "Lore of Daemons"
   },
@@ -1295,7 +1295,7 @@
     "CastingValue": "10+",
     "Range": "12\"",
     "Duration": "",
-    "Level": "-",
+    "Level": "",
     "PathId": "98c1-602-e06e-18ee",
     "PathName": "Lore of Daemons"
   },
@@ -1308,7 +1308,7 @@
     "CastingValue": "8+",
     "Range": "18\"",
     "Duration": "",
-    "Level": "-",
+    "Level": "",
     "PathId": "98c1-602-e06e-18ee",
     "PathName": "Lore of Daemons"
   },
@@ -1321,7 +1321,7 @@
     "CastingValue": "8+/12+",
     "Range": "12\"",
     "Duration": "",
-    "Level": "-",
+    "Level": "",
     "PathId": "98c1-602-e06e-18ee",
     "PathName": "Lore of Daemons"
   },
@@ -1360,7 +1360,7 @@
     "CastingValue": "9+",
     "Range": "12\"",
     "Duration": "",
-    "Level": "1",
+    "Level": "",
     "PathId": "375e-7fb1-c651-433e",
     "PathName": "Lore of Naggaroth"
   },
@@ -1373,7 +1373,7 @@
     "CastingValue": "9+",
     "Range": "18\"",
     "Duration": "",
-    "Level": "2",
+    "Level": "",
     "PathId": "375e-7fb1-c651-433e",
     "PathName": "Lore of Naggaroth"
   },
@@ -1551,12 +1551,38 @@
     "Name": "Beam of Chotec",
     "Type": "Magic Missile",
     "Attributes": {},
-    "Description": "This model can cast the following Bound spell, with a Power Level of 2:\n\n\nThe target enemy unit suffers 3D3 Strength 5 hits, each with an AP of -2. This Bound spell has the Flaming Attacks special rule.",
+    "Description": "The target enemy unit suffers 3D3 Strength 5 hits, each with an AP of -2. This Bound spell has the Flaming Attacks special rule.",
     "CastingValue": "9+",
     "Range": "24\"",
     "Duration": "",
     "Level": "B",
     "PathId": "2ba9-9364-ff96-58ea",
     "PathName": "Solar Engine"
+  },
+  {
+    "Id": "blessings of khaine/bb96-1acf-9e5d-a071",
+    "Name": "Blessings of Khaine",
+    "Type": "Enchantment",
+    "Attributes": {},
+    "Description": "Until your next Start of Turn sub-phase, this model and every friendly Death Hag, unit of Witch Elves, or unit of Sisters of Slaughter that is within Command range gains one of the following:\n- Fury of Khaine (the Furious Charge special rule)\n- Strength of Khaine (the Cleaving Blow special rule)\n- Bloodshield of Khaine (a 5+ Ward save against any wounds suffered)",
+    "CastingValue": "9+",
+    "Range": "Self",
+    "Duration": "",
+    "Level": "",
+    "PathId": "bb96-1acf-9e5d-a071",
+    "PathName": "Cauldron of Blood"
+  },
+  {
+    "Id": "scrying pool/8956-9484-4d5f-abad",
+    "Name": "Scrying Pool",
+    "Type": "Enchantment",
+    "Attributes": {},
+    "Description": "Until your next Start of Turn sub-phase, this model may re-roll any rolls To Hit of a natural 1.",
+    "CastingValue": "9+",
+    "Range": "Self",
+    "Duration": "",
+    "Level": "",
+    "PathId": "8956-9484-4d5f-abad",
+    "PathName": "Coven Throne"
   }
 ]
