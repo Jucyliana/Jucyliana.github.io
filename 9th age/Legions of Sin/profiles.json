@@ -1,0 +1,64 @@
+[
+  {
+    "Id": "67f591e741ec312f3db5f025",
+    "Name": "Legion",
+    "Attributes": {
+      "rnf": "legion_unit",
+      "basic": "True"
+    },
+    "AttributeLists": {},
+    "RuleIds": [
+      "ls-descent_into_sin",
+      "rulebook-hand_weapon"
+    ],
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Legion",
+        "Values": {
+          "Ad": "0",
+          "Ma": "0",
+          "Di": "0"
+        },
+        "RuleIds": [
+          "ls-descent_into_sin"
+        ]
+      },
+      {
+        "Name": "Legion",
+        "Values": {
+          "HP": "1",
+          "Df": "0",
+          "Re": "0",
+          "Arm": "0"
+        },
+        "RuleIds": []
+      },
+      {
+        "Name": "Legion",
+        "Values": {
+          "At": "0",
+          "Of": "0",
+          "St": "0",
+          "AP": "0",
+          "Ag": "0"
+        },
+        "RuleIds": [
+          "rulebook-hand_weapon"
+        ]
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "100"
+      }
+    }
+  }
+]
