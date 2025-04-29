@@ -1,6 +1,6 @@
 [
   {
-    "Id": "68911b09-d5c2-43e9-8976-4c89712dd12b",
+    "Id": "09d9934f-cc39-4ee9-bbb0-03c4b83b13eb",
     "Name": "Fleet Pegasus",
     "Attributes": {
       "type": "",
@@ -8,16 +8,16 @@
       "totalcost": "245"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "df-sea_serpents_hide",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-fly": "Fly (8\", 16\")",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -28,12 +28,12 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-fly": "Fly (8\", 16\")",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -43,10 +43,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -57,10 +57,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -76,7 +76,7 @@
     }
   },
   {
-    "Id": "23c24321-005b-43a3-ae62-603a796dc9c6",
+    "Id": "92e7364b-d479-4cf0-9b20-46c24432abbd",
     "Name": "Ocean Terror",
     "Attributes": {
       "type": "",
@@ -84,17 +84,17 @@
       "totalcost": "335"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "df-coastal_predator",
-      "rulebook-terror",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack",
-      "df-sea_serpents_hide",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "df-coastal_predator": "Coastal Predator",
+      "rulebook-terror": "Terror",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -105,11 +105,11 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "df-coastal_predator",
-          "rulebook-terror"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "df-coastal_predator": "Coastal Predator",
+          "rulebook-terror": "Terror"
+        }
       },
       {
         "Name": "Ocean Terror",
@@ -119,10 +119,10 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Ocean Terror",
@@ -134,12 +134,12 @@
           "Ag": "4",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -155,7 +155,7 @@
     }
   },
   {
-    "Id": "04f215d1-1586-492e-a2c6-61cb04ae09aa",
+    "Id": "d7839481-1927-46ce-9547-f09aba9d81bc",
     "Name": "Colossal Kraken",
     "Attributes": {
       "type": "",
@@ -163,18 +163,18 @@
       "totalcost": "535"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "df-terrors_of_the_deep",
-      "df-coastal_predator",
-      "df-colossal_kraken",
-      "rulebook-hand_weapon",
-      "rulebook-multiple_wounds",
-      "rulebook-hatred",
-      "df-sea_serpents_hide",
-      "rulebook-distracting",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "df-terrors_of_the_deep": "Terrors of the Deep",
+      "df-coastal_predator": "Coastal Predator",
+      "df-colossal_kraken": "Colossal Kraken",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+      "rulebook-hatred": "Hatred ( against Against)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide",
+      "rulebook-distracting": "Distracting",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -185,12 +185,12 @@
           "Ma": "12",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "df-terrors_of_the_deep",
-          "df-coastal_predator",
-          "df-colossal_kraken"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "df-terrors_of_the_deep": "Terrors of the Deep",
+          "df-coastal_predator": "Coastal Predator",
+          "df-colossal_kraken": "Colossal Kraken"
+        }
       },
       {
         "Name": "Colossal Kraken",
@@ -200,11 +200,11 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide",
-          "rulebook-distracting",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide",
+          "rulebook-distracting": "Distracting",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Colossal Kraken",
@@ -216,11 +216,11 @@
           "Ag": "3",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-multiple_wounds",
-          "rulebook-hatred"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+          "rulebook-hatred": "Hatred ( against Against)"
+        }
       }
     ],
     "Amount": {
@@ -236,16 +236,16 @@
     }
   },
   {
-    "Id": "68109468229aecc8c39d9925",
+    "Id": "6810a3a5583a6c61de56b88e",
     "Name": "Dread Captain",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -256,9 +256,9 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Dread Captain",
@@ -268,9 +268,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Dread Captain",
@@ -281,10 +281,10 @@
           "AP": "1",
           "Ag": "8"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency"
+        }
       }
     ],
     "Amount": {
@@ -300,21 +300,21 @@
     }
   },
   {
-    "Id": "68109468229aecc8c39d9a52",
+    "Id": "6810a3a6583a6c61de56b9bb",
     "Name": "Renegade Assassin",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hidden",
-      "df-professional_courtesy",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-multiple_wounds",
-      "df-artistry_of_death",
-      "df-repeater_handbow",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-hidden": "Hidden",
+      "df-professional_courtesy": "Professional Courtesy",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-multiple_wounds": "Multiple Wounds (2 against Character)",
+      "df-artistry_of_death": "Artistry of Death",
+      "df-repeater_handbow": "Repeater Handbow (3, 2+)",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -325,11 +325,11 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-hidden",
-          "df-professional_courtesy",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "rulebook-hidden": "Hidden",
+          "df-professional_courtesy": "Professional Courtesy",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Renegade Assassin",
@@ -339,7 +339,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Renegade Assassin",
@@ -350,14 +350,14 @@
           "AP": "3",
           "Ag": "9"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-multiple_wounds",
-          "df-artistry_of_death",
-          "df-repeater_handbow",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-multiple_wounds": "Multiple Wounds (2 against Character)",
+          "df-artistry_of_death": "Artistry of Death",
+          "df-repeater_handbow": "Repeater Handbow (3, 2+)",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -373,18 +373,18 @@
     }
   },
   {
-    "Id": "68109469229aecc8c39d9a5b",
+    "Id": "6810a3a6583a6c61de56b9c4",
     "Name": "Seaboard Exarch",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-mist_weaver",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-aegis",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "df-mist_weaver": "Mist Weaver",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-aegis": "Aegis (4+ against Melee Attacks)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -395,10 +395,10 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "df-mist_weaver",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "df-mist_weaver": "Mist Weaver",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Seaboard Exarch",
@@ -408,10 +408,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+ against Melee Attacks)",
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Seaboard Exarch",
@@ -422,10 +422,10 @@
           "AP": "1",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency"
+        }
       }
     ],
     "Amount": {
@@ -441,7 +441,7 @@
     }
   },
   {
-    "Id": "7d8b68ae-85ff-443f-90ef-20b2dc1a97f6",
+    "Id": "f203bc1a-afe7-4e1e-88ec-4558c5b17d4e",
     "Name": "Fleet Pegasus",
     "Attributes": {
       "type": "",
@@ -449,18 +449,18 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-irresistible_will",
-      "df-mistrusted",
-      "rulebook-strider",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "df-irresistible_will": "Irresistible Will",
+      "df-mistrusted": "Mistrusted",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-fly": "Fly (8\", 16\")",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -471,15 +471,15 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "df-irresistible_will",
-          "df-mistrusted",
-          "rulebook-strider",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "df-irresistible_will": "Irresistible Will",
+          "df-mistrusted": "Mistrusted",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-fly": "Fly (8\", 16\")",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -489,9 +489,9 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -502,10 +502,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -521,7 +521,7 @@
     }
   },
   {
-    "Id": "2a6ab20e-35d3-4758-8b28-5cac1f727ce1",
+    "Id": "3a250403-4c03-427e-9cf2-74a60ace1015",
     "Name": "Ocean Terror",
     "Attributes": {
       "type": "",
@@ -529,19 +529,19 @@
       "totalcost": "320"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-irresistible_will",
-      "df-mistrusted",
-      "rulebook-strider",
-      "df-coastal_predator",
-      "rulebook-terror",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "df-irresistible_will": "Irresistible Will",
+      "df-mistrusted": "Mistrusted",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "df-coastal_predator": "Coastal Predator",
+      "rulebook-terror": "Terror",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -552,14 +552,14 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "df-irresistible_will",
-          "df-mistrusted",
-          "rulebook-strider",
-          "df-coastal_predator",
-          "rulebook-terror",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "df-irresistible_will": "Irresistible Will",
+          "df-mistrusted": "Mistrusted",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "df-coastal_predator": "Coastal Predator",
+          "rulebook-terror": "Terror",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Ocean Terror",
@@ -569,9 +569,9 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Ocean Terror",
@@ -583,12 +583,12 @@
           "Ag": "4",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -604,7 +604,7 @@
     }
   },
   {
-    "Id": "664905ec-59a0-4c56-97a7-d425552e9617",
+    "Id": "d1abd5cb-b09b-4e88-8926-a871046ec5b0",
     "Name": "Colossal Kraken",
     "Attributes": {
       "type": "",
@@ -612,20 +612,20 @@
       "totalcost": "615"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-irresistible_will",
-      "df-mistrusted",
-      "rulebook-strider",
-      "df-terrors_of_the_deep",
-      "df-coastal_predator",
-      "df-colossal_kraken",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-multiple_wounds",
-      "rulebook-hatred",
-      "rulebook-distracting",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "df-irresistible_will": "Irresistible Will",
+      "df-mistrusted": "Mistrusted",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "df-terrors_of_the_deep": "Terrors of the Deep",
+      "df-coastal_predator": "Coastal Predator",
+      "df-colossal_kraken": "Colossal Kraken",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+      "rulebook-hatred": "Hatred ( against Against)",
+      "rulebook-distracting": "Distracting",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -636,15 +636,15 @@
           "Ma": "12",
           "Di": "9"
         },
-        "RuleIds": [
-          "df-irresistible_will",
-          "df-mistrusted",
-          "rulebook-strider",
-          "df-terrors_of_the_deep",
-          "df-coastal_predator",
-          "df-colossal_kraken",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "df-irresistible_will": "Irresistible Will",
+          "df-mistrusted": "Mistrusted",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "df-terrors_of_the_deep": "Terrors of the Deep",
+          "df-coastal_predator": "Coastal Predator",
+          "df-colossal_kraken": "Colossal Kraken",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Colossal Kraken",
@@ -654,10 +654,10 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Colossal Kraken",
@@ -669,11 +669,11 @@
           "Ag": "3",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-multiple_wounds",
-          "rulebook-hatred"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+          "rulebook-hatred": "Hatred ( against Against)"
+        }
       }
     ],
     "Amount": {
@@ -689,18 +689,18 @@
     }
   },
   {
-    "Id": "68109469229aecc8c39d9a90",
+    "Id": "6810a3a6583a6c61de56b9f9",
     "Name": "Warlock Freebooter",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-irresistible_will",
-      "df-mistrusted",
-      "rulebook-strider",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency"
-    ],
+    "RuleIds": {
+      "df-irresistible_will": "Irresistible Will",
+      "df-mistrusted": "Mistrusted",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -711,12 +711,12 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "df-irresistible_will",
-          "df-mistrusted",
-          "rulebook-strider",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "df-irresistible_will": "Irresistible Will",
+          "df-mistrusted": "Mistrusted",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Warlock Freebooter",
@@ -726,7 +726,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Warlock Freebooter",
@@ -737,10 +737,10 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency"
+        }
       }
     ],
     "Amount": {
@@ -756,17 +756,17 @@
     }
   },
   {
-    "Id": "68109469229aecc8c39d9b70",
+    "Id": "6810a3a7583a6c61de56bad9",
     "Name": "Corsairs Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-paired_weapons",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -777,9 +777,9 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Corsairs Champion",
@@ -789,9 +789,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Corsair",
@@ -802,11 +802,11 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -822,18 +822,18 @@
     }
   },
   {
-    "Id": "68109469229aecc8c39d9b86",
+    "Id": "6810a3a7583a6c61de56baef",
     "Name": "Corsairs Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-paired_weapons",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -844,10 +844,10 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Corsairs Musician",
@@ -857,9 +857,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Corsair",
@@ -870,11 +870,11 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -890,18 +890,18 @@
     }
   },
   {
-    "Id": "68109469229aecc8c39d9b9c",
+    "Id": "6810a3a7583a6c61de56bb05",
     "Name": "Corsairs Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-paired_weapons",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -912,10 +912,10 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Corsairs Standard Bearer",
@@ -925,9 +925,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Corsair",
@@ -938,11 +938,11 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -958,18 +958,18 @@
     }
   },
   {
-    "Id": "68109469229aecc8c39d9b53",
+    "Id": "6810a3a7583a6c61de56babc",
     "Name": "Corsairs",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "df-corsair_boarders",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-paired_weapons",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "df-corsair_boarders": "Corsair Boarders",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -980,10 +980,10 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "df-corsair_boarders"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "df-corsair_boarders": "Corsair Boarders"
+        }
       },
       {
         "Name": "Corsairs",
@@ -993,9 +993,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Corsair",
@@ -1006,11 +1006,11 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1026,17 +1026,17 @@
     }
   },
   {
-    "Id": "68109469229aecc8c39d9ba7",
+    "Id": "6810a3a7583a6c61de56bb10",
     "Name": "Sea Wolves",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-coastal_predator",
-      "rulebook-insignificant",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks"
-    ],
+    "RuleIds": {
+      "df-coastal_predator": "Coastal Predator",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1047,11 +1047,11 @@
           "Ma": "14",
           "Di": "6"
         },
-        "RuleIds": [
-          "df-coastal_predator",
-          "rulebook-insignificant",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "df-coastal_predator": "Coastal Predator",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Sea Wolves",
@@ -1061,7 +1061,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Sea Wolf",
@@ -1073,10 +1073,10 @@
           "Ag": "4",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1092,18 +1092,18 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9bc1",
+    "Id": "6810a3a7583a6c61de56bb2a",
     "Name": "Dread Mariners Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-great_weapon",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-great_weapon": "Great Weapon",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1114,10 +1114,10 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Dread Mariners Champion",
@@ -1127,9 +1127,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Dread Mariner",
@@ -1141,11 +1141,11 @@
           "Ag": "5",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1161,19 +1161,19 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9bd3",
+    "Id": "6810a3a7583a6c61de56bb3c",
     "Name": "Dread Mariners Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-fearless",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-great_weapon",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-great_weapon": "Great Weapon",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1184,11 +1184,11 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-fearless",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Dread Mariners Musician",
@@ -1198,9 +1198,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Dread Mariner",
@@ -1212,11 +1212,11 @@
           "Ag": "5",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1232,19 +1232,19 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9be5",
+    "Id": "6810a3a7583a6c61de56bb4e",
     "Name": "Dread Mariners Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-fearless",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-great_weapon",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-great_weapon": "Great Weapon",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1255,11 +1255,11 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-fearless",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Dread Mariners Standard Bearer",
@@ -1269,9 +1269,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Dread Mariner",
@@ -1283,11 +1283,11 @@
           "Ag": "5",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1303,18 +1303,18 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9bac",
+    "Id": "6810a3a7583a6c61de56bb15",
     "Name": "Dread Mariners",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-great_weapon",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-great_weapon": "Great Weapon",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1325,10 +1325,10 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Dread Mariners",
@@ -1338,9 +1338,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Dread Mariner",
@@ -1352,11 +1352,11 @@
           "Ag": "5",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1372,20 +1372,20 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9bfe",
+    "Id": "6810a3a7583a6c61de56bb67",
     "Name": "Salt Veterans Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-captains_orders",
-      "rulebook-scout",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "df-barbed_nets",
-      "df-ruthless_efficiency",
-      "rulebook-halberd",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "df-captains_orders": "Captain's Orders",
+      "rulebook-scout": "Scout",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-barbed_nets": "Barbed Nets",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-halberd": "Halberd",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1396,11 +1396,11 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "df-captains_orders",
-          "rulebook-scout",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "df-captains_orders": "Captain's Orders",
+          "rulebook-scout": "Scout",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Salt Veterans Champion",
@@ -1410,9 +1410,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Salt Veteran",
@@ -1423,12 +1423,12 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-barbed_nets",
-          "df-ruthless_efficiency",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-barbed_nets": "Barbed Nets",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-halberd": "Halberd"
+        }
       }
     ],
     "Amount": {
@@ -1444,21 +1444,21 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9c09",
+    "Id": "6810a3a8583a6c61de56bb72",
     "Name": "Salt Veterans Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-captains_orders",
-      "rulebook-scout",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "df-barbed_nets",
-      "df-ruthless_efficiency",
-      "rulebook-halberd",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "df-captains_orders": "Captain's Orders",
+      "rulebook-scout": "Scout",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-barbed_nets": "Barbed Nets",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-halberd": "Halberd",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1469,12 +1469,12 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "df-captains_orders",
-          "rulebook-scout",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "df-captains_orders": "Captain's Orders",
+          "rulebook-scout": "Scout",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Salt Veterans Musician",
@@ -1484,9 +1484,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Salt Veteran",
@@ -1497,12 +1497,12 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-barbed_nets",
-          "df-ruthless_efficiency",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-barbed_nets": "Barbed Nets",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-halberd": "Halberd"
+        }
       }
     ],
     "Amount": {
@@ -1518,20 +1518,20 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9bf0",
+    "Id": "6810a3a7583a6c61de56bb59",
     "Name": "Salt Veterans",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-captains_orders",
-      "rulebook-scout",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "df-barbed_nets",
-      "df-ruthless_efficiency",
-      "rulebook-halberd",
-      "df-sea_serpents_hide"
-    ],
+    "RuleIds": {
+      "df-captains_orders": "Captain's Orders",
+      "rulebook-scout": "Scout",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-barbed_nets": "Barbed Nets",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-halberd": "Halberd",
+      "df-sea_serpents_hide": "Sea Serpent's Hide"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1542,11 +1542,11 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "df-captains_orders",
-          "rulebook-scout",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "df-captains_orders": "Captain's Orders",
+          "rulebook-scout": "Scout",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Salt Veterans",
@@ -1556,9 +1556,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide"
+        }
       },
       {
         "Name": "Salt Veteran",
@@ -1569,12 +1569,12 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-barbed_nets",
-          "df-ruthless_efficiency",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-barbed_nets": "Barbed Nets",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-halberd": "Halberd"
+        }
       }
     ],
     "Amount": {
@@ -1590,25 +1590,23 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9c23",
+    "Id": "6810a3a8583a6c61de56bb8c",
     "Name": "Thunder Riders Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-devastating_charge",
-      "rulebook-light_lance",
-      "df-repeater_handbow",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "df-sea_serpents_hide",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly (8\", 16\")",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-light_lance": "Light Lance",
+      "df-repeater_handbow": "Repeater Handbow (2, 3+)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1619,12 +1617,12 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly (8\", 16\")",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Thunder Riders Champion",
@@ -1634,10 +1632,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Thunder Rider",
@@ -1648,13 +1646,13 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-devastating_charge",
-          "rulebook-light_lance",
-          "df-repeater_handbow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-light_lance": "Light Lance",
+          "df-repeater_handbow": "Repeater Handbow (2, 3+)"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -1665,10 +1663,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1684,26 +1682,24 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9c35",
+    "Id": "6810a3a8583a6c61de56bb9e",
     "Name": "Thunder Riders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-vanguard",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-devastating_charge",
-      "rulebook-light_lance",
-      "df-repeater_handbow",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "df-sea_serpents_hide",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly (8\", 16\")",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-light_lance": "Light Lance",
+      "df-repeater_handbow": "Repeater Handbow (2, 3+)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1714,13 +1710,13 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-vanguard",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly (8\", 16\")",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Thunder Riders Musician",
@@ -1730,10 +1726,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Thunder Rider",
@@ -1744,13 +1740,13 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-devastating_charge",
-          "rulebook-light_lance",
-          "df-repeater_handbow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-light_lance": "Light Lance",
+          "df-repeater_handbow": "Repeater Handbow (2, 3+)"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -1761,10 +1757,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1780,26 +1776,24 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9c47",
+    "Id": "6810a3a8583a6c61de56bbb0",
     "Name": "Thunder Riders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-vanguard",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-devastating_charge",
-      "rulebook-light_lance",
-      "df-repeater_handbow",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "df-sea_serpents_hide",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly (8\", 16\")",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-light_lance": "Light Lance",
+      "df-repeater_handbow": "Repeater Handbow (2, 3+)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1810,13 +1804,13 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-vanguard",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly (8\", 16\")",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Thunder Riders Standard Bearer",
@@ -1826,10 +1820,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Thunder Rider",
@@ -1840,13 +1834,13 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-devastating_charge",
-          "rulebook-light_lance",
-          "df-repeater_handbow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-light_lance": "Light Lance",
+          "df-repeater_handbow": "Repeater Handbow (2, 3+)"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -1857,10 +1851,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1876,25 +1870,23 @@
     }
   },
   {
-    "Id": "6810946a229aecc8c39d9c0e",
+    "Id": "6810a3a8583a6c61de56bb77",
     "Name": "Thunder Riders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-devastating_charge",
-      "rulebook-light_lance",
-      "df-repeater_handbow",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "df-sea_serpents_hide",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly (8\", 16\")",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-light_lance": "Light Lance",
+      "df-repeater_handbow": "Repeater Handbow (2, 3+)",
+      "df-sea_serpents_hide": "Sea Serpent's Hide",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1905,12 +1897,12 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly (8\", 16\")",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Thunder Riders",
@@ -1920,10 +1912,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "df-sea_serpents_hide",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "df-sea_serpents_hide": "Sea Serpent's Hide",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Thunder Rider",
@@ -1934,13 +1926,13 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency",
-          "rulebook-devastating_charge",
-          "rulebook-light_lance",
-          "df-repeater_handbow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-light_lance": "Light Lance",
+          "df-repeater_handbow": "Repeater Handbow (2, 3+)"
+        }
       },
       {
         "Name": "Fleet Pegasus",
@@ -1951,10 +1943,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1970,23 +1962,23 @@
     }
   },
   {
-    "Id": "6810946b229aecc8c39d9c50",
+    "Id": "6810a3a9583a6c61de56bbb9",
     "Name": "Avatar of Harag",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-omen_of_the_dread_fleet",
-      "df-coastal_predator",
-      "df-terrors_of_the_deep",
-      "rulebook-fearless",
-      "rulebook-supernal",
-      "rulebook-water_terrain",
-      "rulebook-hand_weapon",
-      "rulebook-hatred",
-      "df-toxic_scum",
-      "rulebook-regeneration",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "df-omen_of_the_dread_fleet": "Omen of the Dread Fleet",
+      "df-coastal_predator": "Coastal Predator",
+      "df-terrors_of_the_deep": "Terrors of the Deep",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-water_terrain": "Water Terrain",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against non-Supernal)",
+      "df-toxic_scum": "Toxic Scum",
+      "rulebook-regeneration": "Regeneration (5+)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1997,14 +1989,14 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "df-omen_of_the_dread_fleet",
-          "df-coastal_predator",
-          "df-terrors_of_the_deep",
-          "rulebook-fearless",
-          "rulebook-supernal",
-          "rulebook-water_terrain"
-        ]
+        "RuleIds": {
+          "df-omen_of_the_dread_fleet": "Omen of the Dread Fleet",
+          "df-coastal_predator": "Coastal Predator",
+          "df-terrors_of_the_deep": "Terrors of the Deep",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-water_terrain": "Water Terrain"
+        }
       },
       {
         "Name": "Avatar of Harag",
@@ -2014,10 +2006,10 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-regeneration",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Avatar of Harag",
@@ -2029,11 +2021,11 @@
           "Ag": "5",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-hatred",
-          "df-toxic_scum"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against non-Supernal)",
+          "df-toxic_scum": "Toxic Scum"
+        }
       }
     ],
     "Amount": {
@@ -2049,21 +2041,20 @@
     }
   },
   {
-    "Id": "6810946b229aecc8c39d9c51",
+    "Id": "6810a3a9583a6c61de56bbba",
     "Name": "Kraken",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-coastal_predator",
-      "df-terrors_of_the_deep",
-      "rulebook-hand_weapon",
-      "rulebook-multiple_wounds",
-      "rulebook-hatred",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-distracting",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "df-coastal_predator": "Coastal Predator",
+      "df-terrors_of_the_deep": "Terrors of the Deep",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+      "rulebook-hatred": "Hatred ( against Against)",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-distracting": "Distracting",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2074,10 +2065,10 @@
           "Ma": "12",
           "Di": "8"
         },
-        "RuleIds": [
-          "df-coastal_predator",
-          "df-terrors_of_the_deep"
-        ]
+        "RuleIds": {
+          "df-coastal_predator": "Coastal Predator",
+          "df-terrors_of_the_deep": "Terrors of the Deep"
+        }
       },
       {
         "Name": "Kraken",
@@ -2087,10 +2078,10 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Kraken",
@@ -2102,11 +2093,11 @@
           "Ag": "3",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-multiple_wounds",
-          "rulebook-hatred"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+          "rulebook-hatred": "Hatred ( against Against)"
+        }
       },
       {
         "Name": "Lashmaster (2)",
@@ -2117,10 +2108,10 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency"
+        }
       }
     ],
     "Amount": {
@@ -2136,20 +2127,19 @@
     }
   },
   {
-    "Id": "6810946b229aecc8c39d9c54",
+    "Id": "6810a3a9583a6c61de56bbbd",
     "Name": "Sea-Fog Leviathan",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-advancing_gloom",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "df-terrors_of_the_deep",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-distracting"
-    ],
+    "RuleIds": {
+      "df-advancing_gloom": "Advancing Gloom",
+      "rulebook-fly": "Fly (7\", 14\")",
+      "rulebook-light_troops": "Light Troops",
+      "df-terrors_of_the_deep": "Terrors of the Deep",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-distracting": "Distracting"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2160,12 +2150,12 @@
           "Ma": "4",
           "Di": "8"
         },
-        "RuleIds": [
-          "df-advancing_gloom",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "df-terrors_of_the_deep"
-        ]
+        "RuleIds": {
+          "df-advancing_gloom": "Advancing Gloom",
+          "rulebook-fly": "Fly (7\", 14\")",
+          "rulebook-light_troops": "Light Troops",
+          "df-terrors_of_the_deep": "Terrors of the Deep"
+        }
       },
       {
         "Name": "Sea-Fog Leviathan",
@@ -2175,9 +2165,9 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-distracting"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting"
+        }
       },
       {
         "Name": "Sea-Fog Leviathan",
@@ -2188,9 +2178,9 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Lashmaster (4)",
@@ -2201,10 +2191,10 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency"
+        }
       }
     ],
     "Amount": {
@@ -2220,20 +2210,20 @@
     }
   },
   {
-    "Id": "6810946b229aecc8c39d9c66",
+    "Id": "6810a3a9583a6c61de56bbcf",
     "Name": "Tritons Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-coastal_predator",
-      "rulebook-fearless",
-      "rulebook-supernal",
-      "rulebook-wizard_conclave",
-      "df-sirens_song",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "df-coastal_predator": "Coastal Predator",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-wizard_conclave": "Wizard Conclave",
+      "df-sirens_song": "Siren's Song",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2244,13 +2234,13 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "df-coastal_predator",
-          "rulebook-fearless",
-          "rulebook-supernal",
-          "rulebook-wizard_conclave",
-          "df-sirens_song"
-        ]
+        "RuleIds": {
+          "df-coastal_predator": "Coastal Predator",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-wizard_conclave": "Wizard Conclave",
+          "df-sirens_song": "Siren's Song"
+        }
       },
       {
         "Name": "Tritons Champion",
@@ -2260,9 +2250,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Triton",
@@ -2274,10 +2264,10 @@
           "Ag": "5",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency"
+        }
       }
     ],
     "Amount": {
@@ -2293,20 +2283,20 @@
     }
   },
   {
-    "Id": "6810946b229aecc8c39d9c57",
+    "Id": "6810a3a9583a6c61de56bbc0",
     "Name": "Tritons",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-coastal_predator",
-      "rulebook-fearless",
-      "rulebook-supernal",
-      "rulebook-wizard_conclave",
-      "df-sirens_song",
-      "rulebook-hand_weapon",
-      "df-ruthless_efficiency",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "df-coastal_predator": "Coastal Predator",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-wizard_conclave": "Wizard Conclave",
+      "df-sirens_song": "Siren's Song",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "df-ruthless_efficiency": "Ruthless Efficiency",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2317,13 +2307,13 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "df-coastal_predator",
-          "rulebook-fearless",
-          "rulebook-supernal",
-          "rulebook-wizard_conclave",
-          "df-sirens_song"
-        ]
+        "RuleIds": {
+          "df-coastal_predator": "Coastal Predator",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-wizard_conclave": "Wizard Conclave",
+          "df-sirens_song": "Siren's Song"
+        }
       },
       {
         "Name": "Tritons",
@@ -2333,9 +2323,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Triton",
@@ -2347,10 +2337,10 @@
           "Ag": "5",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "df-ruthless_efficiency"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "df-ruthless_efficiency": "Ruthless Efficiency"
+        }
       }
     ],
     "Amount": {

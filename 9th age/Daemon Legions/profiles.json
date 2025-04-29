@@ -1,6 +1,6 @@
 [
   {
-    "Id": "3c20f6ed-64ae-4975-bc02-c86b090ac5e1",
+    "Id": "7e444ab5-c3a6-4e13-bbf6-b50888d1a971",
     "Name": "Hellsteed",
     "Attributes": {
       "type": "",
@@ -8,21 +8,20 @@
       "totalcost": "160"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-strider",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-light_troops",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-strider": "Strider",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -34,18 +33,17 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-strider",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-light_troops",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-strider": "Strider",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
       },
       {
         "Name": "Hellsteed",
@@ -56,9 +54,9 @@
           "Arm": "0",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Hellsteed",
@@ -69,10 +67,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -88,7 +86,7 @@
     }
   },
   {
-    "Id": "1f964fb6-0e37-493e-8776-d5521dd700f0",
+    "Id": "f00dd673-4c74-4b2f-8572-1234374a5403",
     "Name": "Great Beast",
     "Attributes": {
       "type": "",
@@ -96,18 +94,18 @@
       "totalcost": "190"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -119,14 +117,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Great Beast",
@@ -137,9 +135,9 @@
           "Arm": "0",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Great Beast",
@@ -150,11 +148,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -170,7 +168,7 @@
     }
   },
   {
-    "Id": "84d20c78-2a85-4c29-bde2-62f5992e6a5d",
+    "Id": "fb908e95-c8f3-4ad4-bd0e-13de5aac5050",
     "Name": "Burning Wheel",
     "Attributes": {
       "type": "",
@@ -178,21 +176,20 @@
       "totalcost": "205"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-vanguard",
-      "rulebook-captain",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-captain": "Captain",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -204,17 +201,16 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "rulebook-vanguard",
-          "rulebook-captain",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-captain": "Captain"
+        }
       },
       {
         "Name": "Burning Wheel",
@@ -225,10 +221,10 @@
           "Arm": "1",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Burning Wheel",
@@ -239,10 +235,10 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -258,7 +254,7 @@
     }
   },
   {
-    "Id": "78ce4b25-8118-415c-a6f2-02e7d2e4bd6a",
+    "Id": "17639e63-cfff-4b16-b438-0a745449ba5f",
     "Name": "Dark Pulpit",
     "Attributes": {
       "type": "",
@@ -266,19 +262,19 @@
       "totalcost": "210"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-exclusive",
-      "rulebook-warplatform",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Core unit)",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -290,16 +286,16 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-exclusive",
-          "rulebook-warplatform",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Core unit)",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Dark Pulpit",
@@ -310,9 +306,9 @@
           "Arm": "1",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Dark Pulpit",
@@ -323,10 +319,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -342,21 +338,21 @@
     }
   },
   {
-    "Id": "6810945b229aecc8c39d88c9",
+    "Id": "6810a392583a6c61de56a832",
     "Name": "Harbinger of Father Chaos",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -368,14 +364,14 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Harbinger of Father Chaos",
@@ -386,9 +382,9 @@
           "Arm": "0",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Harbinger",
@@ -399,10 +395,10 @@
           "AP": "2",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -418,23 +414,23 @@
     }
   },
   {
-    "Id": "6810945b229aecc8c39d8ac0",
+    "Id": "6810a393583a6c61de56aa29",
     "Name": "Kuulima's Deceiver",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-protean_magic",
-      "rulebook-wizard_adept",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "dl-know_thyself",
-      "rulebook-poison_attacks",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-protean_magic": "Protean Magic (2)",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-know_thyself": "Know Thyself",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -446,14 +442,14 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-protean_magic",
-          "rulebook-wizard_adept",
-          "rulebook-light_troops",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-protean_magic": "Protean Magic (2)",
+          "rulebook-wizard_adept": "Wizard Adept",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Kuulima's Deceiver",
@@ -464,9 +460,9 @@
           "Arm": "0",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Kuulima's Deceiver",
@@ -477,12 +473,12 @@
           "AP": "2",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-know_thyself",
-          "rulebook-poison_attacks",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-know_thyself": "Know Thyself",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -498,25 +494,25 @@
     }
   },
   {
-    "Id": "6810945c229aecc8c39d8aec",
+    "Id": "6810a393583a6c61de56aa55",
     "Name": "Maw of Akaan",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-stomp_attack",
-      "dl-path_of_destruction",
-      "dl-devour",
-      "rulebook-regeneration",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "dl-path_of_destruction": "Path of Destruction",
+      "dl-devour": "Devour",
+      "rulebook-regeneration": "Regeneration (5+)",
+      "rulebook-aegis": "Aegis (5+ against Magical Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -528,14 +524,14 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Maw of Akaan",
@@ -546,11 +542,11 @@
           "Arm": "0",
           "Aeg": "0"
         },
-        "RuleIds": [
-          "dl-devour",
-          "rulebook-regeneration",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "dl-devour": "Devour",
+          "rulebook-regeneration": "Regeneration (5+)",
+          "rulebook-aegis": "Aegis (5+ against Magical Attacks)"
+        }
       },
       {
         "Name": "Maw of Akaan",
@@ -561,12 +557,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "rulebook-stomp_attack",
-          "dl-path_of_destruction"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "dl-path_of_destruction": "Path of Destruction"
+        }
       }
     ],
     "Amount": {
@@ -582,24 +578,24 @@
     }
   },
   {
-    "Id": "6810945c229aecc8c39d8b1a",
+    "Id": "6810a393583a6c61de56aa83",
     "Name": "Miser of Sugulag",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-terror",
-      "dl-bribed_enchantments",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-resistance",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",
+      "dl-bribed_enchantments": "Bribed Enchantments",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-resistance": "Resistance ( against Attacks From Front Facing)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -611,15 +607,15 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-terror",
-          "dl-bribed_enchantments",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror",
+          "dl-bribed_enchantments": "Bribed Enchantments",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Miser of Sugulag",
@@ -630,10 +626,10 @@
           "Arm": "3",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-resistance",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance ( against Attacks From Front Facing)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Miser of Sugulag",
@@ -644,11 +640,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -664,28 +660,28 @@
     }
   },
   {
-    "Id": "6810945c229aecc8c39d8b47",
+    "Id": "6810a393583a6c61de56aab0",
     "Name": "Courtesan of Cibaresh",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-solitary",
-      "rulebook-terror",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "dl-razor_tentacles",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-hard_target",
-      "rulebook-distracting",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider",
+      "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-razor_tentacles": "Razor Tentacles",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -697,17 +693,17 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-solitary",
-          "rulebook-terror",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-musician",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider",
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Courtesan of Cibaresh",
@@ -718,11 +714,11 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-distracting",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Courtesan of Cibaresh",
@@ -733,12 +729,12 @@
           "AP": "4",
           "Ag": "7"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-razor_tentacles",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-razor_tentacles": "Razor Tentacles",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -754,7 +750,7 @@
     }
   },
   {
-    "Id": "775a480b-a909-4f02-a2cc-6677b9604830",
+    "Id": "0a0f74c0-bf1e-4d32-9ff8-c0915d845fb6",
     "Name": "Hellsteed (2)",
     "Attributes": {
       "type": "",
@@ -762,24 +758,21 @@
       "totalcost": "450"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "dl-divine_right",
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-fly",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-impact_hits",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "dl-divine_right": "Divine Right",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fly": "Fly",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-impact_hits": "Impact Hits (2D3)",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -791,17 +784,17 @@
           "Di": "10",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "dl-divine_right",
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "rulebook-fly",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "dl-divine_right": "Divine Right",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fly": "Fly",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Hellsteed (2)",
@@ -812,11 +805,9 @@
           "Arm": "0",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
+        }
       },
       {
         "Name": "Hellsteed (2)",
@@ -827,10 +818,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       },
       {
         "Name": "Chassis",
@@ -841,10 +832,10 @@
           "AP": "3",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (2D3)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -860,24 +851,23 @@
     }
   },
   {
-    "Id": "6810945c229aecc8c39d8b74",
+    "Id": "6810a394583a6c61de56aadd",
     "Name": "Omen of Savar",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "dl-divine_right",
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-lethal_strike",
-      "rulebook-magical_attacks",
-      "rulebook-multiple_wounds",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "dl-divine_right": "Divine Right",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lethal_strike": "Lethal Strike (towards Characters)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Characters)",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -889,14 +879,14 @@
           "Di": "10",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "dl-divine_right",
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "dl-divine_right": "Divine Right",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Omen of Savar",
@@ -907,10 +897,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
+        }
       },
       {
         "Name": "Omen of Savar",
@@ -921,12 +910,12 @@
           "AP": "3",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lethal_strike",
-          "rulebook-magical_attacks",
-          "rulebook-multiple_wounds"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike (towards Characters)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Characters)"
+        }
       }
     ],
     "Amount": {
@@ -942,7 +931,7 @@
     }
   },
   {
-    "Id": "215fcbf3-1680-4dd8-b742-e45e9817df75",
+    "Id": "729b9d99-46d8-429a-8e00-5421d5b9ecfb",
     "Name": "Dark Pulpit",
     "Attributes": {
       "type": "",
@@ -950,19 +939,19 @@
       "totalcost": "650"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-wizard_master",
-      "dl-omniscience",
-      "rulebook-swiftstride",
-      "rulebook-channel",
-      "rulebook-exclusive",
-      "rulebook-warplatform",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-wizard_master": "Wizard Master",
+      "dl-omniscience": "Omniscience",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-exclusive": "Exclusive (Core unit)",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -974,16 +963,16 @@
           "Di": "9",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-wizard_master",
-          "dl-omniscience",
-          "rulebook-swiftstride",
-          "rulebook-channel",
-          "rulebook-exclusive",
-          "rulebook-warplatform"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-wizard_master": "Wizard Master",
+          "dl-omniscience": "Omniscience",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-exclusive": "Exclusive (Core unit)",
+          "rulebook-warplatform": "WarPlatform"
+        }
       },
       {
         "Name": "Dark Pulpit",
@@ -994,9 +983,9 @@
           "Arm": "1",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Dark Pulpit",
@@ -1007,10 +996,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1026,26 +1015,24 @@
     }
   },
   {
-    "Id": "6810945c229aecc8c39d8bd3",
+    "Id": "6810a394583a6c61de56ab3c",
     "Name": "Sentinel of Nukuja",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-wizard_master",
-      "dl-omniscience",
-      "rulebook-swiftstride",
-      "rulebook-channel",
-      "rulebook-exclusive",
-      "rulebook-warplatform",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "rulebook-magical_attacks",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-wizard_master": "Wizard Master",
+      "dl-omniscience": "Omniscience",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-exclusive": "Exclusive (Core unit)",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (3)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1057,16 +1044,16 @@
           "Di": "9",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-wizard_master",
-          "dl-omniscience",
-          "rulebook-swiftstride",
-          "rulebook-channel",
-          "rulebook-exclusive",
-          "rulebook-warplatform"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-wizard_master": "Wizard Master",
+          "dl-omniscience": "Omniscience",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-exclusive": "Exclusive (Core unit)",
+          "rulebook-warplatform": "WarPlatform"
+        }
       },
       {
         "Name": "Sentinel of Nukuja",
@@ -1077,9 +1064,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Sentinel of Nukuja",
@@ -1090,11 +1077,11 @@
           "AP": "2",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (3)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       },
       {
         "Name": "Dark Pulpit",
@@ -1105,10 +1092,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1124,25 +1111,24 @@
     }
   },
   {
-    "Id": "6810945c229aecc8c39d8c31",
+    "Id": "6810a395583a6c61de56ab9a",
     "Name": "Vanadra's Scourge",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-hand_weapon",
-      "rulebook-rage",
-      "cl-fury",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "cl-fury": "Fury",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+ against Melee Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1154,14 +1140,14 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "rulebook-terror"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"
+        }
       },
       {
         "Name": "Vanadra's Scourge",
@@ -1172,10 +1158,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+ against Melee Attacks)"
+        }
       },
       {
         "Name": "Vanadra's Scourge",
@@ -1186,13 +1171,13 @@
           "AP": "4",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-rage",
-          "cl-fury",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "cl-fury": "Fury",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1208,21 +1193,20 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8c7c",
+    "Id": "6810a395583a6c61de56abe5",
     "Name": "Imps Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "dl-energy_bolts",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-energy_bolts": "Energy Bolts (4+)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1234,12 +1218,12 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Imps Musician",
@@ -1250,10 +1234,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
+        }
       },
       {
         "Name": "Imp",
@@ -1264,11 +1247,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-energy_bolts",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-energy_bolts": "Energy Bolts (4+)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1284,21 +1267,20 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8c89",
+    "Id": "6810a395583a6c61de56abf2",
     "Name": "Imps Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "dl-energy_bolts",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-energy_bolts": "Energy Bolts (4+)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1310,12 +1292,12 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Imps Standard Bearer",
@@ -1326,10 +1308,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
+        }
       },
       {
         "Name": "Imp",
@@ -1340,11 +1321,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-energy_bolts",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-energy_bolts": "Energy Bolts (4+)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1360,20 +1341,19 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8c61",
+    "Id": "6810a395583a6c61de56abca",
     "Name": "Imps",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "dl-energy_bolts",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-energy_bolts": "Energy Bolts (4+)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1385,11 +1365,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Imps",
@@ -1400,10 +1380,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
+        }
       },
       {
         "Name": "Imp",
@@ -1414,11 +1393,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-energy_bolts",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-energy_bolts": "Energy Bolts (4+)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1434,20 +1413,20 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8ca8",
+    "Id": "6810a395583a6c61de56ac11",
     "Name": "Succubi Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1459,12 +1438,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Succubi Musician",
@@ -1475,9 +1454,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Succubus",
@@ -1488,11 +1467,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (1)"
+        }
       }
     ],
     "Amount": {
@@ -1508,20 +1487,20 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8cb5",
+    "Id": "6810a395583a6c61de56ac1e",
     "Name": "Succubi Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1533,12 +1512,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Succubi Standard Bearer",
@@ -1549,9 +1528,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Succubus",
@@ -1562,11 +1541,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (1)"
+        }
       }
     ],
     "Amount": {
@@ -1582,19 +1561,19 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8c91",
+    "Id": "6810a395583a6c61de56abfa",
     "Name": "Succubi",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1606,11 +1585,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Succubi",
@@ -1621,9 +1600,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Succubus",
@@ -1634,11 +1613,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (1)"
+        }
       }
     ],
     "Amount": {
@@ -1654,19 +1633,19 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8cd2",
+    "Id": "6810a396583a6c61de56ac3b",
     "Name": "Lemures Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1678,12 +1657,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Lemures Musician",
@@ -1694,9 +1673,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Lemure",
@@ -1707,10 +1686,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1726,19 +1705,19 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8cdf",
+    "Id": "6810a396583a6c61de56ac48",
     "Name": "Lemures Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1750,12 +1729,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Lemures Standard Bearer",
@@ -1766,9 +1745,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Lemure",
@@ -1779,10 +1758,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1798,18 +1777,18 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8cbb",
+    "Id": "6810a396583a6c61de56ac24",
     "Name": "Lemures",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1821,11 +1800,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Lemures",
@@ -1836,9 +1815,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Lemure",
@@ -1849,10 +1828,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1868,21 +1847,21 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8cfc",
+    "Id": "6810a396583a6c61de56ac65",
     "Name": "Myrmidons Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-fight_in_extra_rank",
-      "cl-fury",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+      "cl-fury": "Fury",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1894,12 +1873,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Myrmidons Musician",
@@ -1910,9 +1889,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Myrmidon",
@@ -1923,12 +1902,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-fight_in_extra_rank",
-          "cl-fury",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+          "cl-fury": "Fury",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1944,21 +1923,21 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8d09",
+    "Id": "6810a396583a6c61de56ac72",
     "Name": "Myrmidons Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-fight_in_extra_rank",
-      "cl-fury",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+      "cl-fury": "Fury",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1970,12 +1949,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Myrmidons Standard Bearer",
@@ -1986,9 +1965,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Myrmidon",
@@ -1999,12 +1978,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-fight_in_extra_rank",
-          "cl-fury",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+          "cl-fury": "Fury",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2020,20 +1999,20 @@
     }
   },
   {
-    "Id": "6810945d229aecc8c39d8ce5",
+    "Id": "6810a396583a6c61de56ac4e",
     "Name": "Myrmidons",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-fight_in_extra_rank",
-      "cl-fury",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+      "cl-fury": "Fury",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2045,11 +2024,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Myrmidons",
@@ -2060,9 +2039,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Myrmidon",
@@ -2073,12 +2052,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-fight_in_extra_rank",
-          "cl-fury",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+          "cl-fury": "Fury",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2094,23 +2073,23 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8d0f",
+    "Id": "6810a396583a6c61de56ac78",
     "Name": "Eidolons",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-stand_and_shoot",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-dark_fire",
-      "rulebook-hard_target",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-stand_and_shoot": "Stand and Shoot",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-dark_fire": "Dark Fire (3+)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2122,14 +2101,14 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-stand_and_shoot"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-stand_and_shoot": "Stand and Shoot"
+        }
       },
       {
         "Name": "Eidolons",
@@ -2140,10 +2119,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Eidolon",
@@ -2154,11 +2133,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-dark_fire"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-dark_fire": "Dark Fire (3+)"
+        }
       }
     ],
     "Amount": {
@@ -2174,21 +2153,21 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8d31",
+    "Id": "6810a397583a6c61de56ac9a",
     "Name": "Hellhounds Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-horror",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-lethal_strike",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-horror": "Horror",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2200,13 +2179,13 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-horror",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-horror": "Horror",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Hellhounds Musician",
@@ -2217,9 +2196,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Hellhound",
@@ -2230,11 +2209,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lethal_strike",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2250,20 +2229,20 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8d1c",
+    "Id": "6810a397583a6c61de56ac85",
     "Name": "Hellhounds",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-horror",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-lethal_strike",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-horror": "Horror",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2275,12 +2254,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-horror",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-horror": "Horror",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Hellhounds",
@@ -2291,9 +2270,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Hellhound",
@@ -2304,11 +2283,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lethal_strike",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2324,26 +2303,23 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8d86",
+    "Id": "6810a397583a6c61de56acef",
     "Name": "Threshing Engine Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-light_troops",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-impact_hits",
-      "rulebook-magical_attacks",
-      "rulebook-hard_target",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (1)",
+      "rulebook-impact_hits": "Impact Hits (2D3)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2355,13 +2331,13 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-light_troops",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Threshing Engine Standard Bearer",
@@ -2372,10 +2348,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Tiller (2)",
@@ -2386,11 +2362,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (1)"
+        }
       },
       {
         "Name": "Hellsteed (2)",
@@ -2401,10 +2377,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       },
       {
         "Name": "Chassis",
@@ -2415,10 +2391,10 @@
           "AP": "3",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (2D3)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2434,25 +2410,22 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8d36",
+    "Id": "6810a397583a6c61de56ac9f",
     "Name": "Threshing Engine",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-impact_hits",
-      "rulebook-magical_attacks",
-      "rulebook-hard_target",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (1)",
+      "rulebook-impact_hits": "Impact Hits (2D3)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2464,12 +2437,12 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Threshing Engine",
@@ -2480,10 +2453,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Tiller (2)",
@@ -2494,11 +2467,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (1)"
+        }
       },
       {
         "Name": "Hellsteed (2)",
@@ -2509,10 +2482,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       },
       {
         "Name": "Chassis",
@@ -2523,10 +2496,10 @@
           "AP": "3",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (2D3)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2542,27 +2515,23 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8d89",
+    "Id": "6810a397583a6c61de56acf2",
     "Name": "Titanslayer Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "dl-mountain_breaker",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "cl-fury",
-      "rulebook-magical_attacks",
-      "rulebook-devastating_charge",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-magical_attacks",
-      "rulebook-impact_hits",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "dl-mountain_breaker": "Mountain Breaker",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "cl-fury": "Fury",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-devastating_charge": "Devastating Charge (+2Att, +1AP)",
+      "rulebook-impact_hits": "Impact Hits (D3+1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2574,13 +2543,13 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "dl-mountain_breaker",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "dl-mountain_breaker": "Mountain Breaker",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Titanslayer Chariot",
@@ -2591,9 +2560,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Myrmidon (2)",
@@ -2604,12 +2573,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "cl-fury",
-          "rulebook-magical_attacks",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "cl-fury": "Fury",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-devastating_charge": "Devastating Charge (+2Att, +1AP)"
+        }
       },
       {
         "Name": "Beast",
@@ -2620,11 +2589,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1Str, +1AP)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       },
       {
         "Name": "Chassis",
@@ -2635,10 +2604,10 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D3+1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2654,25 +2623,25 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8d9d",
+    "Id": "6810a398583a6c61de56ad06",
     "Name": "Mageblight Gremlins",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ambush",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-skirmisher",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-magical_attacks",
-      "dl-veil_stalker",
-      "rulebook-hard_target",
-      "rulebook-distracting",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge, or unit containing Wizard)",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks (towards units containing Wizard)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-veil_stalker": "Veil Stalker",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2684,14 +2653,14 @@
           "Di": "4",
           "Hgt": "0"
         },
-        "RuleIds": [
-          "rulebook-ambush",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-skirmisher",
-          "rulebook-light_troops",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge, or unit containing Wizard)",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Mageblight Gremlins",
@@ -2702,12 +2671,12 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "dl-veil_stalker",
-          "rulebook-hard_target",
-          "rulebook-distracting",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "dl-veil_stalker": "Veil Stalker",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Mageblight Gremlin",
@@ -2718,11 +2687,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks (towards units containing Wizard)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2738,20 +2707,20 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8dc0",
+    "Id": "6810a398583a6c61de56ad29",
     "Name": "Clawed Fiends Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "dl-smother",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-smother": "Smother (3, 4)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2763,12 +2732,12 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Clawed Fiends Musician",
@@ -2779,9 +2748,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Clawed Fiend",
@@ -2792,11 +2761,11 @@
           "AP": "2",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-smother",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-smother": "Smother (3, 4)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2812,20 +2781,20 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8dcd",
+    "Id": "6810a398583a6c61de56ad36",
     "Name": "Clawed Fiends Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "dl-smother",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-smother": "Smother (3, 4)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2837,12 +2806,12 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Clawed Fiends Standard Bearer",
@@ -2853,9 +2822,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Clawed Fiend",
@@ -2866,11 +2835,11 @@
           "AP": "2",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-smother",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-smother": "Smother (3, 4)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2886,19 +2855,19 @@
     }
   },
   {
-    "Id": "6810945e229aecc8c39d8da9",
+    "Id": "6810a398583a6c61de56ad12",
     "Name": "Clawed Fiends",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "dl-smother",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-smother": "Smother (3, 4)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2910,11 +2879,11 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Clawed Fiends",
@@ -2925,9 +2894,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Clawed Fiend",
@@ -2938,11 +2907,11 @@
           "AP": "2",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-smother",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-smother": "Smother (3, 4)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2958,23 +2927,23 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8df0",
+    "Id": "6810a398583a6c61de56ad59",
     "Name": "Hoarders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "dl-tightening_grasp",
-      "rulebook-magical_attacks",
-      "rulebook-grind_attack",
-      "rulebook-parry",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-tightening_grasp": "Tightening Grasp",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-grind_attack": "Grind Attack (X)",
+      "rulebook-parry": "Parry",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2986,13 +2955,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Hoarders Musician",
@@ -3003,10 +2972,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-parry",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-parry": "Parry",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Hoarder",
@@ -3017,12 +2986,12 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-tightening_grasp",
-          "rulebook-magical_attacks",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-tightening_grasp": "Tightening Grasp",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-grind_attack": "Grind Attack (X)"
+        }
       }
     ],
     "Amount": {
@@ -3038,23 +3007,23 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8e00",
+    "Id": "6810a398583a6c61de56ad69",
     "Name": "Hoarders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "dl-tightening_grasp",
-      "rulebook-magical_attacks",
-      "rulebook-grind_attack",
-      "rulebook-parry",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-tightening_grasp": "Tightening Grasp",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-grind_attack": "Grind Attack (X)",
+      "rulebook-parry": "Parry",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3066,13 +3035,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Hoarders Standard Bearer",
@@ -3083,10 +3052,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-parry",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-parry": "Parry",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Hoarder",
@@ -3097,12 +3066,12 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-tightening_grasp",
-          "rulebook-magical_attacks",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-tightening_grasp": "Tightening Grasp",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-grind_attack": "Grind Attack (X)"
+        }
       }
     ],
     "Amount": {
@@ -3118,22 +3087,22 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8dd3",
+    "Id": "6810a398583a6c61de56ad3c",
     "Name": "Hoarders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "dl-tightening_grasp",
-      "rulebook-magical_attacks",
-      "rulebook-grind_attack",
-      "rulebook-parry",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-tightening_grasp": "Tightening Grasp",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-grind_attack": "Grind Attack (X)",
+      "rulebook-parry": "Parry",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3145,12 +3114,12 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Hoarders",
@@ -3161,10 +3130,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-parry",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-parry": "Parry",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Hoarder",
@@ -3175,12 +3144,12 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-tightening_grasp",
-          "rulebook-magical_attacks",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-tightening_grasp": "Tightening Grasp",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-grind_attack": "Grind Attack (X)"
+        }
       }
     ],
     "Amount": {
@@ -3196,26 +3165,24 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8e21",
+    "Id": "6810a399583a6c61de56ad8a",
     "Name": "Succubi Tempters Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-feigned_flight",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (2)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3227,16 +3194,16 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-feigned_flight",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Succubi Tempters Musician",
@@ -3247,9 +3214,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Succubus",
@@ -3260,11 +3227,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (2)"
+        }
       },
       {
         "Name": "Hellsteed",
@@ -3275,10 +3242,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -3294,26 +3261,24 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8e30",
+    "Id": "6810a399583a6c61de56ad99",
     "Name": "Succubi Tempters Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-feigned_flight",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (2)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3325,16 +3290,16 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-feigned_flight",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Succubi Tempters Standard Bearer",
@@ -3345,9 +3310,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Succubus",
@@ -3358,11 +3323,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (2)"
+        }
       },
       {
         "Name": "Hellsteed",
@@ -3373,10 +3338,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -3392,25 +3357,23 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8e06",
+    "Id": "6810a399583a6c61de56ad6f",
     "Name": "Succubi Tempters",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-feigned_flight",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-smother",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-smother": "Smother (2)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3422,15 +3385,15 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-feigned_flight",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Succubi Tempters",
@@ -3441,9 +3404,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Succubus",
@@ -3454,11 +3417,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-smother"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-smother": "Smother (2)"
+        }
       },
       {
         "Name": "Hellsteed",
@@ -3469,10 +3432,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -3488,24 +3451,23 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8e34",
+    "Id": "6810a399583a6c61de56ad9d",
     "Name": "Blazing Glory",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-solitary",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "dl-falling_star",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-hard_target",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "dl-falling_star": "Falling Star",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3517,14 +3479,14 @@
           "Di": "10",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-solitary",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "dl-falling_star",
-          "rulebook-light_troops",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "dl-falling_star": "Falling Star",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Blazing Glory",
@@ -3535,11 +3497,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-hard_target",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Blazing Glory",
@@ -3550,11 +3511,11 @@
           "AP": "5",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -3570,22 +3531,22 @@
     }
   },
   {
-    "Id": "6810945f229aecc8c39d8e3e",
+    "Id": "6810a399583a6c61de56ada7",
     "Name": "Hope Harvester",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-warplatform",
-      "rulebook-swiftstride",
-      "rulebook-attached",
-      "rulebook-exclusive",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "dl-aether_battery",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (Core Unit)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "dl-aether_battery": "Aether Battery (3+)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3597,14 +3558,14 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-warplatform",
-          "rulebook-swiftstride",
-          "rulebook-attached",
-          "rulebook-exclusive"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (Core Unit)"
+        }
       },
       {
         "Name": "Hope Harvester",
@@ -3615,9 +3576,9 @@
           "Arm": "3",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Hope Harvester",
@@ -3628,11 +3589,11 @@
           "AP": "3",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "dl-aether_battery"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "dl-aether_battery": "Aether Battery (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3648,26 +3609,23 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8e66",
+    "Id": "6810a399583a6c61de56adcf",
     "Name": "Brazen Beasts Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-magical_attacks",
-      "cl-fury",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-devastating_charge",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (2)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3679,12 +3637,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Brazen Beasts Musician",
@@ -3695,9 +3653,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Myrmidon",
@@ -3708,12 +3666,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-magical_attacks",
-          "cl-fury"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "cl-fury": "Fury"
+        }
       },
       {
         "Name": "Beast",
@@ -3724,13 +3682,13 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-devastating_charge",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (2)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -3746,26 +3704,23 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8e75",
+    "Id": "6810a39a583a6c61de56adde",
     "Name": "Brazen Beasts Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-magical_attacks",
-      "cl-fury",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-devastating_charge",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (2)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3777,12 +3732,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Brazen Beasts Standard Bearer",
@@ -3793,9 +3748,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Myrmidon",
@@ -3806,12 +3761,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-magical_attacks",
-          "cl-fury"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "cl-fury": "Fury"
+        }
       },
       {
         "Name": "Beast",
@@ -3822,13 +3777,13 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-devastating_charge",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (2)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -3844,25 +3799,22 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8e4b",
+    "Id": "6810a399583a6c61de56adb4",
     "Name": "Brazen Beasts",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-magical_attacks",
-      "cl-fury",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-devastating_charge",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (2)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3874,11 +3826,11 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Brazen Beasts",
@@ -3889,9 +3841,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Myrmidon",
@@ -3902,12 +3854,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-magical_attacks",
-          "cl-fury"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "cl-fury": "Fury"
+        }
       },
       {
         "Name": "Beast",
@@ -3918,13 +3870,13 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-devastating_charge",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (2)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -3940,23 +3892,23 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8ebb",
+    "Id": "6810a39a583a6c61de56ae24",
     "Name": "Furies",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-light_troops",
-      "rulebook-fly",
-      "rulebook-skirmisher",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-magical_attacks",
-      "rulebook-hard_target",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-fly": "Fly",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3968,14 +3920,14 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-light_troops",
-          "rulebook-fly",
-          "rulebook-skirmisher",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-fly": "Fly",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Furies",
@@ -3986,10 +3938,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Fury",
@@ -4000,11 +3952,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -4020,22 +3972,22 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8ec6",
+    "Id": "6810a39a583a6c61de56ae2f",
     "Name": "Veil Serpents",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-fly",
-      "dl-morphlings",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-hard_target",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-fly": "Fly",
+      "dl-morphlings": "Morphlings",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4047,14 +3999,14 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-fly",
-          "dl-morphlings"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-fly": "Fly",
+          "dl-morphlings": "Morphlings"
+        }
       },
       {
         "Name": "Veil Serpents",
@@ -4065,10 +4017,10 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Veil Serpent",
@@ -4079,10 +4031,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -4098,23 +4050,23 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8ee6",
+    "Id": "6810a39a583a6c61de56ae4f",
     "Name": "Bloat Flies Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "dl-acid_blood",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-acid_blood": "Acid Blood",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4126,13 +4078,13 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Bloat Flies Musician",
@@ -4143,10 +4095,10 @@
           "Arm": "0",
           "Aeg": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Bloat Fly",
@@ -4157,12 +4109,12 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-acid_blood",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-acid_blood": "Acid Blood",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -4178,23 +4130,23 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8ef4",
+    "Id": "6810a39a583a6c61de56ae5d",
     "Name": "Bloat Flies Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "dl-acid_blood",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-acid_blood": "Acid Blood",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4206,13 +4158,13 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Bloat Flies Standard Bearer",
@@ -4223,10 +4175,10 @@
           "Arm": "0",
           "Aeg": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Bloat Fly",
@@ -4237,12 +4189,12 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-acid_blood",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-acid_blood": "Acid Blood",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -4258,22 +4210,22 @@
     }
   },
   {
-    "Id": "68109460229aecc8c39d8ecd",
+    "Id": "6810a39a583a6c61de56ae36",
     "Name": "Bloat Flies",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "dl-acid_blood",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "dl-acid_blood": "Acid Blood",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4285,12 +4237,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-fly",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Bloat Flies",
@@ -4301,10 +4253,10 @@
           "Arm": "0",
           "Aeg": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Bloat Fly",
@@ -4315,12 +4267,12 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "dl-acid_blood",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "dl-acid_blood": "Acid Blood",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {

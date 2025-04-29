@@ -1,6 +1,6 @@
 [
   {
-    "Id": "2d1e8864-4342-43e1-93aa-c474f26e22dd",
+    "Id": "57d7c140-bc2d-4be8-a211-af9fe3ba9b42",
     "Name": "Horse",
     "Attributes": {
       "type": "",
@@ -8,14 +8,14 @@
       "totalcost": "100"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -27,13 +27,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Horse",
@@ -43,7 +43,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse",
@@ -54,9 +54,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -72,7 +72,7 @@
     }
   },
   {
-    "Id": "9000b256-ee3a-4e63-9116-fcee45b43e4b",
+    "Id": "e8024ebd-b4f2-451f-b898-dd9bb8c9fb89",
     "Name": "Pegasus",
     "Attributes": {
       "type": "",
@@ -80,17 +80,16 @@
       "totalcost": "130"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -102,15 +101,14 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
       },
       {
         "Name": "Pegasus",
@@ -120,9 +118,9 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Pegasus",
@@ -133,9 +131,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -151,7 +149,7 @@
     }
   },
   {
-    "Id": "13dd4800-e644-4730-8a58-adf98ae2c464",
+    "Id": "5a28bc4a-ea94-400b-a853-79c9d1306957",
     "Name": "Great Griffon",
     "Attributes": {
       "type": "",
@@ -159,19 +157,18 @@
       "totalcost": "190"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "eos-trained_ferocity",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -183,16 +180,15 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
       },
       {
         "Name": "Great Griffon",
@@ -202,7 +198,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Great Griffon",
@@ -213,11 +209,11 @@
           "AP": "3",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "eos-trained_ferocity",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -233,7 +229,7 @@
     }
   },
   {
-    "Id": "b84af2ea-69c2-46ca-bba7-57e4683a9689",
+    "Id": "5ce9069b-c253-4ff2-b57e-b2bf210ea1ea",
     "Name": "Commanding Dragon",
     "Attributes": {
       "type": "",
@@ -241,20 +237,20 @@
       "totalcost": "410"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-fly",
-      "rulebook-terror",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "eos-meeting_of_minds",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-breath_attack",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-terror": "Terror",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "eos-meeting_of_minds": "Meeting of Minds",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -266,17 +262,17 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-fly",
-          "rulebook-terror",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "eos-meeting_of_minds",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-terror": "Terror",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "eos-meeting_of_minds": "Meeting of Minds",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Commanding Dragon",
@@ -286,7 +282,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Commanding Dragon",
@@ -297,11 +293,11 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-breath_attack",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -317,17 +313,17 @@
     }
   },
   {
-    "Id": "68109471229aecc8c39da1ea",
+    "Id": "6810a3b2583a6c61de56c153",
     "Name": "Marshal",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -339,12 +335,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Marshal",
@@ -354,7 +350,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Marshal",
@@ -365,9 +361,9 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -383,7 +379,7 @@
     }
   },
   {
-    "Id": "4dfb6316-ea0d-4f17-a985-acde76c39491",
+    "Id": "05525332-a1f5-4c4c-9cab-a2351e2b7d5f",
     "Name": "Horse",
     "Attributes": {
       "type": "",
@@ -391,12 +387,12 @@
       "totalcost": "180"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-first_knight",
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-first_knight": "First Knight",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -408,11 +404,11 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "eos-first_knight",
-          "rulebook-disciplined",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "eos-first_knight": "First Knight",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Horse",
@@ -422,7 +418,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse",
@@ -433,9 +429,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -451,7 +447,7 @@
     }
   },
   {
-    "Id": "47068ccc-4f3b-4760-b73a-6d1dccccfa8e",
+    "Id": "05d4ef7b-07aa-46ad-90e4-c556fe9b8251",
     "Name": "Horse",
     "Attributes": {
       "type": "",
@@ -459,12 +455,12 @@
       "totalcost": "205"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-first_knight",
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-first_knight": "First Knight",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -476,11 +472,11 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "eos-first_knight",
-          "rulebook-disciplined",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "eos-first_knight": "First Knight",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Horse",
@@ -490,7 +486,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse",
@@ -501,9 +497,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -519,17 +515,16 @@
     }
   },
   {
-    "Id": "68109472229aecc8c39da3f9",
+    "Id": "6810a3b3583a6c61de56c362",
     "Name": "Knight Commander",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-first_knight",
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-first_knight": "First Knight",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -541,11 +536,11 @@
           "Di": "9",
           "Hgt": "0"
         },
-        "RuleIds": [
-          "eos-first_knight",
-          "rulebook-disciplined",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "eos-first_knight": "First Knight",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Knight Commander",
@@ -555,7 +550,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Knight Commander",
@@ -566,9 +561,9 @@
           "AP": "1",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -579,9 +574,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -597,7 +592,7 @@
     }
   },
   {
-    "Id": "817bf4e9-4779-4e42-ab7b-d57ed7beaea0",
+    "Id": "8ebc5fe7-98e1-4740-9662-769a91f0e00c",
     "Name": "Horse",
     "Attributes": {
       "type": "",
@@ -605,12 +600,12 @@
       "totalcost": "190"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-blessings",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-blessings": "Blessings",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -622,11 +617,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "eos-blessings",
-          "rulebook-swiftstride",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "eos-blessings": "Blessings",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Horse",
@@ -636,7 +631,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse",
@@ -647,9 +642,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -665,7 +660,7 @@
     }
   },
   {
-    "Id": "3dd2117d-bd0c-4fa6-a851-a58125b36420",
+    "Id": "f8cda865-e011-4359-b3fe-a9161140c9ed",
     "Name": "Horse (2)",
     "Attributes": {
       "type": "",
@@ -673,18 +668,17 @@
       "totalcost": "380"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-blessings",
-      "rulebook-light_troops",
-      "rulebook-stubborn",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "eos-holy_relic",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "eos-blessings": "Blessings",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "eos-holy_relic": "Holy Relic",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -696,15 +690,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "eos-blessings",
-          "rulebook-light_troops",
-          "rulebook-stubborn",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "eos-holy_relic",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "eos-blessings": "Blessings",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "eos-holy_relic": "Holy Relic"
+        }
       },
       {
         "Name": "Horse (2)",
@@ -714,9 +707,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Horse (2)",
@@ -727,9 +720,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -740,9 +733,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -758,16 +751,16 @@
     }
   },
   {
-    "Id": "68109472229aecc8c39da4ec",
+    "Id": "6810a3b3583a6c61de56c455",
     "Name": "Prelate",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-blessings",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-divine_attacks"
-    ],
+    "RuleIds": {
+      "eos-blessings": "Blessings",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-divine_attacks": "Divine Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -779,10 +772,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-blessings",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "eos-blessings": "Blessings",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Prelate",
@@ -792,7 +785,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Prelate",
@@ -803,10 +796,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-divine_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-divine_attacks": "Divine Attacks"
+        }
       }
     ],
     "Amount": {
@@ -822,7 +815,7 @@
     }
   },
   {
-    "Id": "74417d23-d69e-42f3-8ab6-cd337fa5fb78",
+    "Id": "709a1465-1ca7-4475-8095-7f3a8594e449",
     "Name": "Horse",
     "Attributes": {
       "type": "",
@@ -830,12 +823,12 @@
       "totalcost": "260"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -847,11 +840,11 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Horse",
@@ -861,7 +854,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse",
@@ -872,9 +865,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -890,7 +883,7 @@
     }
   },
   {
-    "Id": "17aad487-5c3d-427c-86bf-088e130e1a42",
+    "Id": "d8c60012-5c78-4089-9a8a-25ff14abb882",
     "Name": "Pegasus",
     "Attributes": {
       "type": "",
@@ -898,15 +891,14 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -918,13 +910,12 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Pegasus",
@@ -934,9 +925,9 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Pegasus",
@@ -947,9 +938,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -965,7 +956,7 @@
     }
   },
   {
-    "Id": "8bfc9f4d-f81f-4004-91cb-c5d46af3b21d",
+    "Id": "6e96a94b-c6f3-4a41-8d5f-4fa6dcc1b3ff",
     "Name": "Great Griffon",
     "Attributes": {
       "type": "",
@@ -973,17 +964,16 @@
       "totalcost": "375"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "eos-trained_ferocity",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -995,14 +985,13 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Great Griffon",
@@ -1012,7 +1001,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Great Griffon",
@@ -1023,11 +1012,11 @@
           "AP": "3",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "eos-trained_ferocity",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -1043,7 +1032,7 @@
     }
   },
   {
-    "Id": "c1b42791-b673-41b4-9130-29e90dc36d50",
+    "Id": "14df2b17-71e1-43f3-ba2a-6a98328ebdc0",
     "Name": "Horse (2)",
     "Attributes": {
       "type": "",
@@ -1051,18 +1040,17 @@
       "totalcost": "400"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-channel",
-      "rulebook-solitary",
-      "eos-aura_of_power",
-      "rulebook-light_troops",
-      "rulebook-ice_and_fire",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-solitary": "Solitary",
+      "eos-aura_of_power": "Aura of Power",
+      "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1074,16 +1062,15 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-channel",
-          "rulebook-solitary",
-          "eos-aura_of_power",
-          "rulebook-light_troops",
-          "rulebook-ice_and_fire",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-solitary": "Solitary",
+          "eos-aura_of_power": "Aura of Power",
+          "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Horse (2)",
@@ -1093,7 +1080,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse (2)",
@@ -1104,9 +1091,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -1117,9 +1104,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -1135,15 +1122,15 @@
     }
   },
   {
-    "Id": "68109472229aecc8c39da5cd",
+    "Id": "6810a3b3583a6c61de56c536",
     "Name": "Battlefield Wizard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1155,10 +1142,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Battlefield Wizard",
@@ -1168,7 +1155,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Battlefield Wizard",
@@ -1179,9 +1166,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1197,7 +1184,7 @@
     }
   },
   {
-    "Id": "ec20ac78-cc5e-470d-8645-cb662116d0f2",
+    "Id": "2363761c-e9ad-4861-83a2-66845f03270d",
     "Name": "Horse",
     "Attributes": {
       "type": "",
@@ -1205,14 +1192,14 @@
       "totalcost": "100"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-master_artificer",
-      "rulebook-engineer",
-      "rulebook-attached",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-master_artificer": "Master Artificer",
+      "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+      "rulebook-attached": "Attached",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1224,13 +1211,13 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "eos-master_artificer",
-          "rulebook-engineer",
-          "rulebook-attached",
-          "rulebook-swiftstride",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "eos-master_artificer": "Master Artificer",
+          "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+          "rulebook-attached": "Attached",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Horse",
@@ -1240,7 +1227,7 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse",
@@ -1251,9 +1238,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1269,17 +1256,17 @@
     }
   },
   {
-    "Id": "68109473229aecc8c39da72c",
+    "Id": "6810a3b4583a6c61de56c695",
     "Name": "Artificer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-master_artificer",
-      "rulebook-engineer",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-master_artificer": "Master Artificer",
+      "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1291,12 +1278,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-master_artificer",
-          "rulebook-engineer",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "eos-master_artificer": "Master Artificer",
+          "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Artificer",
@@ -1306,7 +1293,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Artificer",
@@ -1317,9 +1304,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1335,7 +1322,7 @@
     }
   },
   {
-    "Id": "b70ee525-febe-4022-9efb-f4e10ba14f1c",
+    "Id": "deb161b3-8621-40be-bde9-52a15d96dfb3",
     "Name": "Horse",
     "Attributes": {
       "type": "",
@@ -1343,14 +1330,14 @@
       "totalcost": "135"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-attached",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1362,13 +1349,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-attached",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Horse",
@@ -1378,7 +1365,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Horse",
@@ -1389,9 +1376,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1407,21 +1394,21 @@
     }
   },
   {
-    "Id": "68109473229aecc8c39da79f",
+    "Id": "6810a3b4583a6c61de56c708",
     "Name": "Inquisitor",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-attached",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-lethal_strike",
-      "rulebook-zeal",
-      "rulebook-march_and_shoot",
-      "eos-silver_shots"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-zeal": "Zeal",
+      "rulebook-march_and_shoot": "March and Shoot",
+      "eos-silver_shots": "Silver Shots"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1433,12 +1420,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-attached",
-          "rulebook-exclusive",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Inquisitor",
@@ -1448,7 +1435,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Inquisitor",
@@ -1459,13 +1446,13 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lethal_strike",
-          "rulebook-zeal",
-          "rulebook-march_and_shoot",
-          "eos-silver_shots"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-zeal": "Zeal",
+          "rulebook-march_and_shoot": "March and Shoot",
+          "eos-silver_shots": "Silver Shots"
+        }
       }
     ],
     "Amount": {
@@ -1481,15 +1468,15 @@
     }
   },
   {
-    "Id": "68109473229aecc8c39da867",
+    "Id": "6810a3b4583a6c61de56c7d0",
     "Name": "State Marksmen Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1501,10 +1488,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "State Marksmen Musician",
@@ -1514,7 +1501,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1525,9 +1512,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1543,15 +1530,15 @@
     }
   },
   {
-    "Id": "68109473229aecc8c39da871",
+    "Id": "6810a3b4583a6c61de56c7da",
     "Name": "State Marksmen Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1563,10 +1550,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "State Marksmen Standard Bearer",
@@ -1576,7 +1563,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1587,9 +1574,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1605,14 +1592,14 @@
     }
   },
   {
-    "Id": "68109473229aecc8c39da844",
+    "Id": "6810a3b4583a6c61de56c7ad",
     "Name": "State Marksmen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1624,9 +1611,9 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit"
+        }
       },
       {
         "Name": "State Marksmen",
@@ -1636,7 +1623,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1647,9 +1634,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1665,15 +1652,15 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da8a3",
+    "Id": "6810a3b4583a6c61de56c80c",
     "Name": "State Marksmen Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1685,10 +1672,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "State Marksmen Musician",
@@ -1698,7 +1685,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1709,9 +1696,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1727,15 +1714,15 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da8ad",
+    "Id": "6810a3b5583a6c61de56c816",
     "Name": "State Marksmen Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1747,10 +1734,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "State Marksmen Standard Bearer",
@@ -1760,7 +1747,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1771,9 +1758,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1789,14 +1776,14 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da880",
+    "Id": "6810a3b4583a6c61de56c7e9",
     "Name": "State Marksmen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1808,9 +1795,9 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit"
+        }
       },
       {
         "Name": "State Marksmen",
@@ -1820,7 +1807,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1831,9 +1818,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1849,15 +1836,15 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da8df",
+    "Id": "6810a3b5583a6c61de56c848",
     "Name": "State Marksmen Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1869,10 +1856,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "State Marksmen Musician",
@@ -1882,7 +1869,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1893,9 +1880,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1911,15 +1898,15 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da8e9",
+    "Id": "6810a3b5583a6c61de56c852",
     "Name": "State Marksmen Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1931,10 +1918,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "State Marksmen Standard Bearer",
@@ -1944,7 +1931,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -1955,9 +1942,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1973,15 +1960,15 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da8bc",
+    "Id": "6810a3b5583a6c61de56c825",
     "Name": "State Marksmen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-support_unit",
-      "rulebook-hand_weapon",
-      "rulebook-handgun"
-    ],
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handgun": "Handgun (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1993,9 +1980,9 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-support_unit"
-        ]
+        "RuleIds": {
+          "eos-support_unit": "Support Unit"
+        }
       },
       {
         "Name": "State Marksmen",
@@ -2005,7 +1992,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "State Marksman",
@@ -2016,10 +2003,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handgun"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handgun": "Handgun (4+)"
+        }
       }
     ],
     "Amount": {
@@ -2035,20 +2022,20 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da905",
+    "Id": "6810a3b5583a6c61de56c86e",
     "Name": "Local Militia Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-light_troops",
-      "rulebook-unruly",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-bow",
-      "rulebook-pistol"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-pistol": "Pistol (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2060,12 +2047,12 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-light_troops",
-          "rulebook-unruly",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Local Militia Musician",
@@ -2075,7 +2062,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Local Militia",
@@ -2086,12 +2073,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons",
-          "rulebook-bow",
-          "rulebook-pistol"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-bow": "Bow (4+)",
+          "rulebook-pistol": "Pistol (4+)"
+        }
       }
     ],
     "Amount": {
@@ -2107,19 +2094,19 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da8f8",
+    "Id": "6810a3b5583a6c61de56c861",
     "Name": "Local Militia",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-light_troops",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-bow",
-      "rulebook-pistol"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-pistol": "Pistol (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2131,11 +2118,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-light_troops",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Local Militia",
@@ -2145,7 +2132,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Local Militia",
@@ -2156,12 +2143,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons",
-          "rulebook-bow",
-          "rulebook-pistol"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-bow": "Bow (4+)",
+          "rulebook-pistol": "Pistol (4+)"
+        }
       }
     ],
     "Amount": {
@@ -2177,16 +2164,15 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da92f",
+    "Id": "6810a3b5583a6c61de56c898",
     "Name": "Electoral Cavalry Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2198,10 +2184,10 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Electoral Cavalry Musician",
@@ -2211,7 +2197,7 @@
           "Re": "3",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Knight",
@@ -2222,9 +2208,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -2235,9 +2221,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2253,16 +2239,15 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da93a",
+    "Id": "6810a3b5583a6c61de56c8a3",
     "Name": "Electoral Cavalry Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2274,10 +2259,10 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Electoral Cavalry Standard Bearer",
@@ -2287,7 +2272,7 @@
           "Re": "3",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Knight",
@@ -2298,9 +2283,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -2311,9 +2296,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2329,15 +2314,14 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da90a",
+    "Id": "6810a3b5583a6c61de56c873",
     "Name": "Electoral Cavalry",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2349,9 +2333,9 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Electoral Cavalry",
@@ -2361,7 +2345,7 @@
           "Re": "3",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Knight",
@@ -2372,9 +2356,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -2385,9 +2369,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2403,16 +2387,15 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da96e",
+    "Id": "6810a3b5583a6c61de56c8d7",
     "Name": "Knightly Orders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2424,10 +2407,10 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Knightly Orders Musician",
@@ -2437,7 +2420,7 @@
           "Re": "3",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Knight",
@@ -2448,9 +2431,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -2461,9 +2444,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2479,16 +2462,15 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da979",
+    "Id": "6810a3b5583a6c61de56c8e2",
     "Name": "Knightly Orders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2500,10 +2482,10 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Knightly Orders Standard Bearer",
@@ -2513,7 +2495,7 @@
           "Re": "3",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Knight",
@@ -2524,9 +2506,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -2537,9 +2519,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2555,15 +2537,14 @@
     }
   },
   {
-    "Id": "68109474229aecc8c39da949",
+    "Id": "6810a3b5583a6c61de56c8b2",
     "Name": "Knightly Orders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2575,9 +2556,9 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Knightly Orders",
@@ -2587,7 +2568,7 @@
           "Re": "3",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Knight",
@@ -2598,9 +2579,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -2611,9 +2592,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2629,17 +2610,17 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da9ab",
+    "Id": "6810a3b6583a6c61de56c914",
     "Name": "Imperial Guard Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-parent_unit",
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2651,12 +2632,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-parent_unit",
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Imperial Guard Musician",
@@ -2666,7 +2647,7 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Imperial Guard",
@@ -2677,9 +2658,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2695,17 +2676,17 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da9b5",
+    "Id": "6810a3b6583a6c61de56c91e",
     "Name": "Imperial Guard Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-parent_unit",
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2717,12 +2698,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-parent_unit",
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Imperial Guard Standard Bearer",
@@ -2732,7 +2713,7 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Imperial Guard",
@@ -2743,9 +2724,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2761,17 +2742,17 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da988",
+    "Id": "6810a3b6583a6c61de56c8f1",
     "Name": "Imperial Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-parent_unit",
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2783,11 +2764,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-parent_unit",
-          "rulebook-bodyguard",
-          "rulebook-disciplined"
-        ]
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined"
+        }
       },
       {
         "Name": "Imperial Guard",
@@ -2797,9 +2778,9 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Imperial Guard",
@@ -2810,9 +2791,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2828,17 +2809,17 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da9e7",
+    "Id": "6810a3b6583a6c61de56c950",
     "Name": "Imperial Guard Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-parent_unit",
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2850,12 +2831,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-parent_unit",
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Imperial Guard Musician",
@@ -2865,7 +2846,7 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Imperial Guard",
@@ -2876,9 +2857,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2894,17 +2875,17 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da9f1",
+    "Id": "6810a3b6583a6c61de56c95a",
     "Name": "Imperial Guard Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-parent_unit",
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2916,12 +2897,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-parent_unit",
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Imperial Guard Standard Bearer",
@@ -2931,7 +2912,7 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Imperial Guard",
@@ -2942,9 +2923,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2960,17 +2941,17 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39da9c4",
+    "Id": "6810a3b6583a6c61de56c92d",
     "Name": "Imperial Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eos-parent_unit",
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2982,11 +2963,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "eos-parent_unit",
-          "rulebook-bodyguard",
-          "rulebook-disciplined"
-        ]
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined"
+        }
       },
       {
         "Name": "Imperial Guard",
@@ -2996,9 +2977,9 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Imperial Guard",
@@ -3009,9 +2990,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3027,20 +3008,19 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39daa23",
+    "Id": "6810a3b6583a6c61de56c98c",
     "Name": "Knights of the Sun Griffon Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "eos-trained_ferocity",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3052,11 +3032,11 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Knights of the Sun Griffon Musician",
@@ -3066,9 +3046,9 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Knight",
@@ -3079,9 +3059,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Young Griffon",
@@ -3092,11 +3072,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "eos-trained_ferocity",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -3112,20 +3092,19 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39daa2d",
+    "Id": "6810a3b6583a6c61de56c996",
     "Name": "Knights of the Sun Griffon Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "eos-trained_ferocity",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3137,11 +3116,11 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Knights of the Sun Griffon Standard Bearer",
@@ -3151,9 +3130,9 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Knight",
@@ -3164,9 +3143,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Young Griffon",
@@ -3177,11 +3156,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "eos-trained_ferocity",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -3197,20 +3176,19 @@
     }
   },
   {
-    "Id": "68109475229aecc8c39daa00",
+    "Id": "6810a3b6583a6c61de56c969",
     "Name": "Knights of the Sun Griffon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "eos-trained_ferocity",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3222,10 +3200,10 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Knights of the Sun Griffon",
@@ -3235,9 +3213,9 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Knight",
@@ -3248,10 +3226,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Young Griffon",
@@ -3262,11 +3240,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "eos-trained_ferocity",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -3282,21 +3260,20 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa3a",
+    "Id": "6810a3b7583a6c61de56c9a3",
     "Name": "Arcane Engine",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-channel",
-      "rulebook-solitary",
-      "eos-aura_of_power",
-      "rulebook-ice_and_fire",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-solitary": "Solitary",
+      "eos-aura_of_power": "Aura of Power",
+      "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3308,14 +3285,14 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-channel",
-          "rulebook-solitary",
-          "eos-aura_of_power",
-          "rulebook-ice_and_fire"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-solitary": "Solitary",
+          "eos-aura_of_power": "Aura of Power",
+          "rulebook-ice_and_fire": "Ice and Fire (Cosmology)"
+        }
       },
       {
         "Name": "Arcane Engine",
@@ -3325,7 +3302,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew (2)",
@@ -3336,9 +3313,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse (2)",
@@ -3349,9 +3326,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -3362,9 +3339,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -3380,23 +3357,23 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa49",
+    "Id": "6810a3b7583a6c61de56c9b2",
     "Name": "Imperial Rangers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-scout",
-      "rulebook-skirmisher",
-      "rulebook-solitary",
-      "rulebook-disciplined",
-      "eos-support_unit",
-      "eos-wilderness_guides",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-bow",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-scout": "Scout",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-solitary": "Solitary",
+      "rulebook-disciplined": "Disciplined",
+      "eos-support_unit": "Support Unit",
+      "eos-wilderness_guides": "Wilderness Guides",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-bow": "Bow (3+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3408,16 +3385,16 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-scout",
-          "rulebook-skirmisher",
-          "rulebook-solitary",
-          "rulebook-disciplined",
-          "eos-support_unit",
-          "eos-wilderness_guides",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-scout": "Scout",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-solitary": "Solitary",
+          "rulebook-disciplined": "Disciplined",
+          "eos-support_unit": "Support Unit",
+          "eos-wilderness_guides": "Wilderness Guides",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Imperial Rangers Musician",
@@ -3427,9 +3404,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Imperial Ranger",
@@ -3440,10 +3417,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-bow": "Bow (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3459,22 +3436,22 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa40",
+    "Id": "6810a3b7583a6c61de56c9a9",
     "Name": "Imperial Rangers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-scout",
-      "rulebook-skirmisher",
-      "rulebook-solitary",
-      "rulebook-disciplined",
-      "eos-support_unit",
-      "eos-wilderness_guides",
-      "rulebook-hand_weapon",
-      "rulebook-bow",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-scout": "Scout",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-solitary": "Solitary",
+      "rulebook-disciplined": "Disciplined",
+      "eos-support_unit": "Support Unit",
+      "eos-wilderness_guides": "Wilderness Guides",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-bow": "Bow (3+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3486,15 +3463,15 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-scout",
-          "rulebook-skirmisher",
-          "rulebook-solitary",
-          "rulebook-disciplined",
-          "eos-support_unit",
-          "eos-wilderness_guides"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-scout": "Scout",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-solitary": "Solitary",
+          "rulebook-disciplined": "Disciplined",
+          "eos-support_unit": "Support Unit",
+          "eos-wilderness_guides": "Wilderness Guides"
+        }
       },
       {
         "Name": "Imperial Rangers",
@@ -3504,9 +3481,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Imperial Ranger",
@@ -3517,10 +3494,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-bow": "Bow (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3536,19 +3513,18 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa5d",
+    "Id": "6810a3b7583a6c61de56c9c6",
     "Name": "Reiters Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3560,13 +3536,13 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Reiters Musician",
@@ -3576,7 +3552,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Reiter",
@@ -3587,9 +3563,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse",
@@ -3600,9 +3576,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3618,20 +3594,19 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa4e",
+    "Id": "6810a3b7583a6c61de56c9b7",
     "Name": "Reiters",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "eos-brace_of_pistols",
-      "eos-fire_on_impact",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-brace_of_pistols": "Brace of Pistols (4+)",
+      "eos-fire_on_impact": "Fire on Impact!"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3643,12 +3618,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-light_troops",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Reiters",
@@ -3658,7 +3633,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Reiter",
@@ -3669,11 +3644,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "eos-brace_of_pistols",
-          "eos-fire_on_impact"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-brace_of_pistols": "Brace of Pistols (4+)",
+          "eos-fire_on_impact": "Fire on Impact!"
+        }
       },
       {
         "Name": "Horse",
@@ -3684,9 +3659,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3702,16 +3677,16 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa60",
+    "Id": "6810a3b7583a6c61de56c9c9",
     "Name": "Blackpowder Artillery",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-emplacement",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "eos-imperial_rocketeer"
-    ],
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-imperial_rocketeer": "Imperial Rocketeer (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3723,10 +3698,10 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-emplacement",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Blackpowder Artillery",
@@ -3736,7 +3711,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew",
@@ -3747,10 +3722,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "eos-imperial_rocketeer"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-imperial_rocketeer": "Imperial Rocketeer (5+)"
+        }
       }
     ],
     "Amount": {
@@ -3766,24 +3741,24 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa89",
+    "Id": "6810a3b8583a6c61de56c9f2",
     "Name": "Flagellants Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-exclusive",
-      "rulebook-resistance",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-frenzy",
-      "rulebook-unruly",
-      "rulebook-dying_blow",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "cl-fury",
-      "rulebook-great_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-exclusive": "Exclusive (Zealot)",
+      "rulebook-resistance": "Resistance ( against Str 15)",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-unruly": "Unruly",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "cl-fury": "Fury",
+      "rulebook-great_weapon": "Great Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3795,17 +3770,17 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-exclusive",
-          "rulebook-resistance",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-frenzy",
-          "rulebook-unruly",
-          "rulebook-dying_blow",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-exclusive": "Exclusive (Zealot)",
+          "rulebook-resistance": "Resistance ( against Str 15)",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-unruly": "Unruly",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Flagellants Musician",
@@ -3815,7 +3790,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Flagellant",
@@ -3827,11 +3802,11 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "cl-fury",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "cl-fury": "Fury",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3847,23 +3822,23 @@
     }
   },
   {
-    "Id": "68109476229aecc8c39daa80",
+    "Id": "6810a3b8583a6c61de56c9e9",
     "Name": "Flagellants",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-exclusive",
-      "rulebook-resistance",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-frenzy",
-      "rulebook-unruly",
-      "rulebook-dying_blow",
-      "rulebook-hand_weapon",
-      "cl-fury",
-      "rulebook-great_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-exclusive": "Exclusive (Zealot)",
+      "rulebook-resistance": "Resistance ( against Str 15)",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-unruly": "Unruly",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "cl-fury": "Fury",
+      "rulebook-great_weapon": "Great Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3875,16 +3850,16 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-exclusive",
-          "rulebook-resistance",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-frenzy",
-          "rulebook-unruly",
-          "rulebook-dying_blow"
-        ]
+        "RuleIds": {
+          "rulebook-exclusive": "Exclusive (Zealot)",
+          "rulebook-resistance": "Resistance ( against Str 15)",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-unruly": "Unruly",
+          "rulebook-dying_blow": "Dying Blow"
+        }
       },
       {
         "Name": "Flagellants",
@@ -3894,7 +3869,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Flagellant",
@@ -3906,11 +3881,11 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "cl-fury",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "cl-fury": "Fury",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3926,24 +3901,24 @@
     }
   },
   {
-    "Id": "68109477229aecc8c39daa8c",
+    "Id": "6810a3b8583a6c61de56c9f5",
     "Name": "Steam Tank",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-stubborn",
-      "rulebook-unstable",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-fearless",
-      "rulebook-random_movement",
-      "eos-steam_powered",
-      "rulebook-rally_around_the_flag",
-      "rulebook-breath_attack",
-      "rulebook-grind_attack",
-      "rulebook-devastating_charge",
-      "eos-steam_cannon"
-    ],
+    "RuleIds": {
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-fearless": "Fearless",
+      "rulebook-random_movement": "Random Movement (2D6\")",
+      "eos-steam_powered": "Steam Powered",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+      "rulebook-breath_attack": "Breath Attack (Str 2, AP 3, Stand and Shoot)",
+      "rulebook-grind_attack": "Grind Attack (3D3)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+      "eos-steam_cannon": "Steam Cannon (3+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3955,16 +3930,16 @@
           "Di": "7",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-stubborn",
-          "rulebook-unstable",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-fearless",
-          "rulebook-random_movement",
-          "eos-steam_powered",
-          "rulebook-rally_around_the_flag"
-        ]
+        "RuleIds": {
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-fearless": "Fearless",
+          "rulebook-random_movement": "Random Movement (2D6\")",
+          "eos-steam_powered": "Steam Powered",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")"
+        }
       },
       {
         "Name": "Steam Tank",
@@ -3974,7 +3949,7 @@
           "Re": "8",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Chassis",
@@ -3985,12 +3960,12 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-breath_attack",
-          "rulebook-grind_attack",
-          "rulebook-devastating_charge",
-          "eos-steam_cannon"
-        ]
+        "RuleIds": {
+          "rulebook-breath_attack": "Breath Attack (Str 2, AP 3, Stand and Shoot)",
+          "rulebook-grind_attack": "Grind Attack (3D3)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+          "eos-steam_cannon": "Steam Cannon (3+)"
+        }
       }
     ],
     "Amount": {

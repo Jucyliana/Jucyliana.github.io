@@ -1,6 +1,6 @@
 [
   {
-    "Id": "82a00b0b-91ab-4e33-9b8b-b243e5745c5d",
+    "Id": "c27991e3-af40-41a0-80f1-943ec5d8bfb9",
     "Name": "Heraldic Steed",
     "Attributes": {
       "type": "",
@@ -8,20 +8,19 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-clergy",
-      "rulebook-stand_behind",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-aegis",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "koe-clergy": "Clergy",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -33,16 +32,15 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-stand_behind",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Heraldic Steed",
@@ -53,10 +51,10 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Heraldic Steed",
@@ -67,10 +65,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+        }
       }
     ],
     "Amount": {
@@ -86,7 +84,7 @@
     }
   },
   {
-    "Id": "24877d80-e4e2-490e-8ffa-76da2af8fc70",
+    "Id": "632874db-e6eb-43ba-a0bb-c4a8a3d2b78a",
     "Name": "Pegasus Charger",
     "Attributes": {
       "type": "",
@@ -94,19 +92,18 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-clergy",
-      "rulebook-stand_behind",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-aegis",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "koe-clergy": "Clergy",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -118,16 +115,15 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-stand_behind",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -138,10 +134,10 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -152,9 +148,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -170,7 +166,7 @@
     }
   },
   {
-    "Id": "7aab5b69-4954-40a5-a3c6-bce787be0b51",
+    "Id": "c0081a6a-ede8-42d5-b788-f4c9483c7021",
     "Name": "Fey Steed",
     "Attributes": {
       "type": "",
@@ -178,22 +174,21 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-clergy",
-      "rulebook-stand_behind",
-      "rulebook-ghost_step",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-clergy": "Clergy",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -205,17 +200,17 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-stand_behind",
-          "rulebook-ghost_step",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -226,10 +221,9 @@
           "Arm": "1",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -240,11 +234,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -260,7 +254,7 @@
     }
   },
   {
-    "Id": "9d732241-9bdd-4b12-9557-88e597d3b6d8",
+    "Id": "86106987-8f9d-45de-9d9d-f934131cdedb",
     "Name": "Destrier",
     "Attributes": {
       "type": "",
@@ -268,16 +262,16 @@
       "totalcost": "320"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-clergy",
-      "rulebook-stand_behind",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-clergy": "Clergy",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -289,14 +283,14 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-stand_behind",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Destrier",
@@ -307,9 +301,9 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Destrier",
@@ -320,9 +314,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -338,7 +332,7 @@
     }
   },
   {
-    "Id": "3a25aed5-12fb-48ae-99aa-bfd03be65459",
+    "Id": "bab53e26-9e5f-412c-a666-2bc61f4ccd59",
     "Name": "Revered Unicorn",
     "Attributes": {
       "type": "",
@@ -346,19 +340,19 @@
       "totalcost": "350"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-clergy",
-      "rulebook-stand_behind",
-      "koe-forest_guide",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-aegis",
-      "rulebook-magic_resistance"
-    ],
+    "RuleIds": {
+      "koe-clergy": "Clergy",
+      "rulebook-stand_behind": "Stand Behind",
+      "koe-forest_guide": "Forest Guide",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -370,16 +364,16 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-stand_behind",
-          "koe-forest_guide",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-stand_behind": "Stand Behind",
+          "koe-forest_guide": "Forest Guide",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -390,10 +384,10 @@
           "Arm": "1",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-magic_resistance"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -404,9 +398,9 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -422,18 +416,18 @@
     }
   },
   {
-    "Id": "6810948c229aecc8c39dc50c",
+    "Id": "6810a3d5583a6c61de56e475",
     "Name": "Damsel",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-clergy",
-      "rulebook-stand_behind",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-clergy": "Clergy",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -445,12 +439,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-stand_behind",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Damsel",
@@ -461,9 +455,9 @@
           "Arm": "0",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Damsel",
@@ -474,9 +468,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -492,7 +486,7 @@
     }
   },
   {
-    "Id": "74af3eaf-5cf5-449b-bfcd-110915d3d519",
+    "Id": "3b1e1717-ebb7-4007-879e-a71b2b6994e3",
     "Name": "Revered Unicorn",
     "Attributes": {
       "type": "",
@@ -500,19 +494,19 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "koe-forest_guide",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis",
-      "rulebook-magic_resistance"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "koe-forest_guide": "Forest Guide",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -524,14 +518,14 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "koe-forest_guide",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "koe-forest_guide": "Forest Guide",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -542,12 +536,12 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis",
-          "rulebook-magic_resistance"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -558,9 +552,9 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -576,7 +570,7 @@
     }
   },
   {
-    "Id": "2b701e6f-4b31-49dd-857d-d655d07a26a5",
+    "Id": "56f60034-0ad3-4972-9b4b-1bcb6192d2c0",
     "Name": "Destrier",
     "Attributes": {
       "type": "",
@@ -584,16 +578,16 @@
       "totalcost": "210"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -605,12 +599,12 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Destrier",
@@ -621,11 +615,11 @@
           "Arm": "5",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Destrier",
@@ -636,9 +630,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -654,7 +648,7 @@
     }
   },
   {
-    "Id": "1096a4a5-e883-4754-891e-4749015a5b48",
+    "Id": "689bd34f-3026-474d-b2a4-24e54539133a",
     "Name": "Fey Steed",
     "Attributes": {
       "type": "",
@@ -662,22 +656,21 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-ghost_step",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -689,15 +682,15 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-ghost_step",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -708,12 +701,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -724,11 +716,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -744,7 +736,7 @@
     }
   },
   {
-    "Id": "2ab65c10-dde6-438d-98d3-a09c183b973b",
+    "Id": "4bb3e867-170d-40be-bd9b-904b7c188da2",
     "Name": "Pegasus Charger",
     "Attributes": {
       "type": "",
@@ -752,19 +744,18 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -776,14 +767,13 @@
           "Di": "9",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -794,12 +784,12 @@
           "Arm": "5",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -810,9 +800,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -828,7 +818,7 @@
     }
   },
   {
-    "Id": "ef5e6564-ca3e-421f-a2b4-6ba0a0630a59",
+    "Id": "a446c687-240b-4ca7-b189-f0b2d1314d21",
     "Name": "Hippogriff",
     "Attributes": {
       "type": "",
@@ -836,20 +826,19 @@
       "totalcost": "400"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-stubborn",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -861,15 +850,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-stubborn",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-stubborn": "Stubborn"
+        }
       },
       {
         "Name": "Hippogriff",
@@ -880,11 +868,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Hippogriff",
@@ -895,10 +883,10 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -914,18 +902,18 @@
     }
   },
   {
-    "Id": "6810948c229aecc8c39dc677",
+    "Id": "6810a3d6583a6c61de56e5e0",
     "Name": "Duke",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -937,10 +925,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Duke",
@@ -951,11 +939,11 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Duke",
@@ -966,9 +954,9 @@
           "AP": "1",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -984,7 +972,7 @@
     }
   },
   {
-    "Id": "6ed700b0-09d4-4244-80c8-138d5de9f509",
+    "Id": "fa75ae21-2693-4035-9222-51df5a27c16d",
     "Name": "Destrier",
     "Attributes": {
       "type": "",
@@ -992,16 +980,15 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-aegis",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1013,11 +1000,11 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Destrier",
@@ -1028,12 +1015,11 @@
           "Arm": "5",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Destrier",
@@ -1044,9 +1030,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1062,7 +1048,7 @@
     }
   },
   {
-    "Id": "5e715103-afe7-4302-89c5-547cdc44ab9e",
+    "Id": "237828c4-25a3-449e-932e-c2c490c88290",
     "Name": "Revered Unicorn",
     "Attributes": {
       "type": "",
@@ -1070,19 +1056,18 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-forest_guide",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-aegis",
-      "rulebook-shield",
-      "rulebook-aegis",
-      "rulebook-magic_resistance"
-    ],
+    "RuleIds": {
+      "koe-forest_guide": "Forest Guide",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "rulebook-shield": "Shield",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1094,13 +1079,13 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-forest_guide",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "koe-forest_guide": "Forest Guide",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -1111,13 +1096,12 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis",
-          "rulebook-shield",
-          "rulebook-aegis",
-          "rulebook-magic_resistance"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "rulebook-shield": "Shield",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -1128,9 +1112,9 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1146,7 +1130,7 @@
     }
   },
   {
-    "Id": "0f70991c-d5f5-42af-bf75-2087bb55c14d",
+    "Id": "05d3dd75-24ae-4574-b255-02cd9601b7d1",
     "Name": "Pegasus Charger",
     "Attributes": {
       "type": "",
@@ -1154,19 +1138,17 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-aegis",
-      "rulebook-shield",
-      "rulebook-aegis",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "rulebook-shield": "Shield",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1178,13 +1160,12 @@
           "Di": "9",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -1195,13 +1176,12 @@
           "Arm": "5",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis",
-          "rulebook-shield",
-          "rulebook-aegis",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "rulebook-shield": "Shield",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -1212,9 +1192,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1230,7 +1210,7 @@
     }
   },
   {
-    "Id": "c95ef42d-33e4-4e91-b1e0-f1396b42b806",
+    "Id": "2c78087c-4ee8-41d2-bff6-c7aa3ed547fd",
     "Name": "Fey Steed",
     "Attributes": {
       "type": "",
@@ -1238,22 +1218,20 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ghost_step",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "koe-clergy",
-      "rulebook-aegis",
-      "rulebook-shield",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1265,14 +1243,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-ghost_step",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -1283,13 +1261,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis",
-          "rulebook-shield",
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -1300,11 +1276,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1320,7 +1296,7 @@
     }
   },
   {
-    "Id": "7ed3b617-2dd2-4d7e-bb9c-39f58a524085",
+    "Id": "3a5f1995-0895-4fea-bdca-2572c04dfb74",
     "Name": "Hippogriff",
     "Attributes": {
       "type": "",
@@ -1328,20 +1304,18 @@
       "totalcost": "440"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-stubborn",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "koe-clergy",
-      "rulebook-aegis",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1353,14 +1327,13 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-stubborn",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-stubborn": "Stubborn"
+        }
       },
       {
         "Name": "Hippogriff",
@@ -1371,12 +1344,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Hippogriff",
@@ -1387,10 +1359,10 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1406,20 +1378,19 @@
     }
   },
   {
-    "Id": "6810948d229aecc8c39dc944",
+    "Id": "6810a3d7583a6c61de56e8ad",
     "Name": "Paladin",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-divine_attacks",
-      "rulebook-magical_attacks",
-      "koe-clergy",
-      "rulebook-aegis",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1431,9 +1402,9 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Paladin",
@@ -1444,12 +1415,11 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Paladin",
@@ -1460,11 +1430,11 @@
           "AP": "1",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-divine_attacks",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1480,7 +1450,7 @@
     }
   },
   {
-    "Id": "27357bdd-84f3-42e6-b67c-1a355fe34829",
+    "Id": "2b47d626-6b62-4569-b763-576f98f36ad0",
     "Name": "Pegasus Charger",
     "Attributes": {
       "type": "",
@@ -1488,20 +1458,19 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-traits_of_a_hero",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-attached",
-      "koe-quin",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-attached": "Attached",
+      "koe-quin": "Quin",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1513,16 +1482,15 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "koe-traits_of_a_hero",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops",
-          "rulebook-attached",
-          "koe-quin"
-        ]
+        "RuleIds": {
+          "koe-traits_of_a_hero": "Traits of a Hero",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-attached": "Attached",
+          "koe-quin": "Quin"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -1533,11 +1501,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -1548,9 +1516,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1566,7 +1534,7 @@
     }
   },
   {
-    "Id": "73897808-8c68-45dd-9f96-363773f76f71",
+    "Id": "29d4ed1d-2243-40de-8522-a88b24f0a759",
     "Name": "Heraldic Steed",
     "Attributes": {
       "type": "",
@@ -1574,21 +1542,20 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-traits_of_a_hero",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-attached",
-      "koe-quin",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "koe-commonfolk",
-      "rulebook-aegis",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-attached": "Attached",
+      "koe-quin": "Quin",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1600,16 +1567,15 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-traits_of_a_hero",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-attached",
-          "koe-quin"
-        ]
+        "RuleIds": {
+          "koe-traits_of_a_hero": "Traits of a Hero",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-attached": "Attached",
+          "koe-quin": "Quin"
+        }
       },
       {
         "Name": "Heraldic Steed",
@@ -1620,11 +1586,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Heraldic Steed",
@@ -1635,10 +1601,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+        }
       }
     ],
     "Amount": {
@@ -1654,7 +1620,7 @@
     }
   },
   {
-    "Id": "5998e368-b2d5-41f6-9169-5d0c6904d53c",
+    "Id": "45a1b9ae-2d38-4ec3-867a-0f5e40560cdf",
     "Name": "Destrier",
     "Attributes": {
       "type": "",
@@ -1662,17 +1628,17 @@
       "totalcost": "310"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-traits_of_a_hero",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-attached",
-      "koe-quin",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-attached": "Attached",
+      "koe-quin": "Quin",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1684,14 +1650,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-traits_of_a_hero",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops",
-          "rulebook-attached",
-          "koe-quin"
-        ]
+        "RuleIds": {
+          "koe-traits_of_a_hero": "Traits of a Hero",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-attached": "Attached",
+          "koe-quin": "Quin"
+        }
       },
       {
         "Name": "Destrier",
@@ -1702,10 +1668,10 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Destrier",
@@ -1716,9 +1682,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1734,7 +1700,7 @@
     }
   },
   {
-    "Id": "f8c8fe05-2d2b-468f-a905-946733eb8ecb",
+    "Id": "c54ce586-7b88-4d36-94f5-71c2d5eb523d",
     "Name": "Revered Unicorn",
     "Attributes": {
       "type": "",
@@ -1742,20 +1708,20 @@
       "totalcost": "310"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-traits_of_a_hero",
-      "koe-forest_guide",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-light_troops",
-      "rulebook-attached",
-      "koe-quin",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis",
-      "rulebook-magic_resistance"
-    ],
+    "RuleIds": {
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "koe-forest_guide": "Forest Guide",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-attached": "Attached",
+      "koe-quin": "Quin",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1767,16 +1733,16 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-traits_of_a_hero",
-          "koe-forest_guide",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-light_troops",
-          "rulebook-attached",
-          "koe-quin"
-        ]
+        "RuleIds": {
+          "koe-traits_of_a_hero": "Traits of a Hero",
+          "koe-forest_guide": "Forest Guide",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-attached": "Attached",
+          "koe-quin": "Quin"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -1787,11 +1753,11 @@
           "Arm": "3",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis",
-          "rulebook-magic_resistance"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
       },
       {
         "Name": "Revered Unicorn",
@@ -1802,9 +1768,9 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1820,7 +1786,7 @@
     }
   },
   {
-    "Id": "fb0be81e-a70a-46be-830e-9c9bfda08cb2",
+    "Id": "7542c56a-7f04-4090-8207-7fc8e5800f99",
     "Name": "Fey Steed",
     "Attributes": {
       "type": "",
@@ -1828,23 +1794,22 @@
       "totalcost": "320"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-traits_of_a_hero",
-      "rulebook-ghost_step",
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-attached",
-      "koe-quin",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "koe-commonfolk",
-      "rulebook-aegis",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-attached": "Attached",
+      "koe-quin": "Quin",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1856,17 +1821,17 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "koe-traits_of_a_hero",
-          "rulebook-ghost_step",
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-attached",
-          "koe-quin"
-        ]
+        "RuleIds": {
+          "koe-traits_of_a_hero": "Traits of a Hero",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-attached": "Attached",
+          "koe-quin": "Quin"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -1877,11 +1842,10 @@
           "Arm": "3",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -1892,11 +1856,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1912,19 +1876,19 @@
     }
   },
   {
-    "Id": "6810948e229aecc8c39dcb93",
+    "Id": "6810a3d8583a6c61de56eafc",
     "Name": "Folk Hero",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-traits_of_a_hero",
-      "rulebook-light_troops",
-      "rulebook-attached",
-      "koe-quin",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-attached": "Attached",
+      "koe-quin": "Quin",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1936,12 +1900,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "koe-traits_of_a_hero",
-          "rulebook-light_troops",
-          "rulebook-attached",
-          "koe-quin"
-        ]
+        "RuleIds": {
+          "koe-traits_of_a_hero": "Traits of a Hero",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-attached": "Attached",
+          "koe-quin": "Quin"
+        }
       },
       {
         "Name": "Folk Hero",
@@ -1952,10 +1916,10 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Folk Hero",
@@ -1966,9 +1930,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1984,21 +1948,20 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcee0",
+    "Id": "6810a3da583a6c61de56ee49",
     "Name": "Knights of the Realm Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2010,11 +1973,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Knights of the Realm Musician",
@@ -2025,11 +1988,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Realm Knight",
@@ -2040,10 +2003,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Destrier",
@@ -2054,9 +2017,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2072,21 +2035,20 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcefc",
+    "Id": "6810a3da583a6c61de56ee65",
     "Name": "Knights of the Realm Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2098,11 +2060,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Knights of the Realm Standard Bearer",
@@ -2113,11 +2075,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Realm Knight",
@@ -2128,10 +2090,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Destrier",
@@ -2142,9 +2104,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2160,20 +2122,19 @@
     }
   },
   {
-    "Id": "6810948e229aecc8c39dcec2",
+    "Id": "6810a3da583a6c61de56ee2b",
     "Name": "Knights of the Realm",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-hand_weapon",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2185,10 +2146,10 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "koe-lance_formation"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Knights of the Realm",
@@ -2199,11 +2160,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Realm Knight",
@@ -2214,10 +2175,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Destrier",
@@ -2228,9 +2189,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2246,18 +2207,18 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf27",
+    "Id": "6810a3da583a6c61de56ee90",
     "Name": "Lowborn Archers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "koe-braziers",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "koe-braziers": "Braziers",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2269,11 +2230,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "koe-braziers",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "koe-braziers": "Braziers",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Lowborn Archers Musician",
@@ -2284,10 +2245,10 @@
           "Arm": "0",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Lowborn Archer",
@@ -2298,9 +2259,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2316,18 +2277,18 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf35",
+    "Id": "6810a3da583a6c61de56ee9e",
     "Name": "Lowborn Archers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "koe-braziers",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "koe-braziers": "Braziers",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2339,11 +2300,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "koe-braziers",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "koe-braziers": "Braziers",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Lowborn Archers Standard Bearer",
@@ -2354,10 +2315,10 @@
           "Arm": "0",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Lowborn Archer",
@@ -2368,9 +2329,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2386,17 +2347,17 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf13",
+    "Id": "6810a3da583a6c61de56ee7c",
     "Name": "Lowborn Archers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "koe-braziers",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "koe-braziers": "Braziers",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2408,10 +2369,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "koe-braziers"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "koe-braziers": "Braziers"
+        }
       },
       {
         "Name": "Lowborn Archers",
@@ -2422,10 +2383,10 @@
           "Arm": "0",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Lowborn Archer",
@@ -2436,9 +2397,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2454,17 +2415,17 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf4e",
+    "Id": "6810a3da583a6c61de56eeb7",
     "Name": "Lowborn Levies Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2476,10 +2437,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Lowborn Levies Musician",
@@ -2490,10 +2451,10 @@
           "Arm": "1",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Lowborn Levy",
@@ -2504,9 +2465,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2522,17 +2483,17 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf5c",
+    "Id": "6810a3db583a6c61de56eec5",
     "Name": "Lowborn Levies Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2544,10 +2505,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Lowborn Levies Standard Bearer",
@@ -2558,10 +2519,10 @@
           "Arm": "1",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Lowborn Levy",
@@ -2572,9 +2533,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2590,17 +2551,17 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf3a",
+    "Id": "6810a3da583a6c61de56eea3",
     "Name": "Lowborn Levies",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2612,9 +2573,9 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant"
+        }
       },
       {
         "Name": "Lowborn Levies",
@@ -2625,10 +2586,10 @@
           "Arm": "1",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Lowborn Levy",
@@ -2639,10 +2600,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2658,21 +2619,20 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf7d",
+    "Id": "6810a3db583a6c61de56eee6",
     "Name": "Mounted Serjeants Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-ordo_minister",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-first_strike",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-ordo_minister": "Ordo Minister",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2684,11 +2644,11 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-ordo_minister",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "koe-ordo_minister": "Ordo Minister",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Mounted Serjeants Musician",
@@ -2699,11 +2659,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Mounted Serjeant",
@@ -2714,10 +2674,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-first_strike"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-first_strike": "First Strike (Hatred)"
+        }
       },
       {
         "Name": "Rouncey",
@@ -2728,9 +2688,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2746,21 +2706,20 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf95",
+    "Id": "6810a3db583a6c61de56eefe",
     "Name": "Mounted Serjeants Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-ordo_minister",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-first_strike",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-ordo_minister": "Ordo Minister",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2772,11 +2731,11 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-ordo_minister",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "koe-ordo_minister": "Ordo Minister",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Mounted Serjeants Standard Bearer",
@@ -2787,11 +2746,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Mounted Serjeant",
@@ -2802,10 +2761,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-first_strike"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-first_strike": "First Strike (Hatred)"
+        }
       },
       {
         "Name": "Rouncey",
@@ -2816,9 +2775,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2834,21 +2793,20 @@
     }
   },
   {
-    "Id": "6810948f229aecc8c39dcf61",
+    "Id": "6810a3db583a6c61de56eeca",
     "Name": "Mounted Serjeants",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "koe-ordo_minister",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-first_strike",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "koe-ordo_minister": "Ordo Minister",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-light_lance": "Light Lance",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2860,10 +2818,10 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "koe-ordo_minister",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "koe-ordo_minister": "Ordo Minister",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Mounted Serjeants",
@@ -2874,11 +2832,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Mounted Serjeant",
@@ -2889,11 +2847,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-first_strike",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Rouncey",
@@ -2904,9 +2862,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2922,24 +2880,23 @@
     }
   },
   {
-    "Id": "68109490229aecc8c39dcfc2",
+    "Id": "6810a3db583a6c61de56ef2b",
     "Name": "Hedge Knights Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "koe-lance_formation",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-hand_weapon",
-      "rulebook-shield",
-      "koe-nobility",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (Fury, Fearless, Frenzy)",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-shield": "Shield",
+      "koe-nobility": "Nobility",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2951,12 +2908,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "koe-lance_formation",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Hedge Knights Musician",
@@ -2967,11 +2924,11 @@
           "Arm": "3",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-shield",
-          "koe-nobility",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield",
+          "koe-nobility": "Nobility",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Hedge Knight",
@@ -2982,12 +2939,12 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (Fury, Fearless, Frenzy)",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       },
       {
         "Name": "Cob",
@@ -2998,9 +2955,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3016,24 +2973,23 @@
     }
   },
   {
-    "Id": "68109490229aecc8c39dcfdd",
+    "Id": "6810a3db583a6c61de56ef46",
     "Name": "Hedge Knights Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "koe-lance_formation",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-hand_weapon",
-      "rulebook-shield",
-      "koe-nobility",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (Fury, Fearless, Frenzy)",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-shield": "Shield",
+      "koe-nobility": "Nobility",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3045,12 +3001,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "koe-lance_formation",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Hedge Knights Standard Bearer",
@@ -3061,11 +3017,11 @@
           "Arm": "3",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-shield",
-          "koe-nobility",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield",
+          "koe-nobility": "Nobility",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Hedge Knight",
@@ -3076,12 +3032,12 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (Fury, Fearless, Frenzy)",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       },
       {
         "Name": "Cob",
@@ -3092,9 +3048,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3110,23 +3066,22 @@
     }
   },
   {
-    "Id": "68109490229aecc8c39dcfa6",
+    "Id": "6810a3db583a6c61de56ef0f",
     "Name": "Hedge Knights",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "koe-lance_formation",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-hand_weapon",
-      "rulebook-shield",
-      "koe-nobility",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (Fury, Fearless, Frenzy)",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-shield": "Shield",
+      "koe-nobility": "Nobility",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3138,11 +3093,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "koe-lance_formation"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Hedge Knights",
@@ -3153,11 +3108,11 @@
           "Arm": "3",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "rulebook-shield",
-          "koe-nobility",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield",
+          "koe-nobility": "Nobility",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Hedge Knight",
@@ -3168,12 +3123,12 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (Fury, Fearless, Frenzy)",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       },
       {
         "Name": "Cob",
@@ -3184,9 +3139,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3202,23 +3157,23 @@
     }
   },
   {
-    "Id": "68109490229aecc8c39dcff4",
+    "Id": "6810a3dc583a6c61de56ef5d",
     "Name": "Enlisted Outlaws",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-scout",
-      "rulebook-light_troops",
-      "rulebook-insignificant",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-stand_and_shoot",
-      "rulebook-quick_to_fire",
-      "rulebook-paired_weapons",
-      "rulebook-throwing_weapons",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-scout": "Scout",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stand_and_shoot": "Stand and Shoot",
+      "rulebook-quick_to_fire": "Quick to Fire",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-throwing_weapons": "Throwing Weapons (5+)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3230,12 +3185,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-scout",
-          "rulebook-light_troops",
-          "rulebook-insignificant",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-scout": "Scout",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Enlisted Outlaws",
@@ -3246,10 +3201,10 @@
           "Arm": "0",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Enlisted Outlaw",
@@ -3260,13 +3215,13 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stand_and_shoot",
-          "rulebook-quick_to_fire",
-          "rulebook-paired_weapons",
-          "rulebook-throwing_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stand_and_shoot": "Stand and Shoot",
+          "rulebook-quick_to_fire": "Quick to Fire",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+        }
       }
     ],
     "Amount": {
@@ -3282,23 +3237,22 @@
     }
   },
   {
-    "Id": "68109490229aecc8c39dd01a",
+    "Id": "6810a3dc583a6c61de56ef83",
     "Name": "Knights of the Quest Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "koe-the_quest",
-      "koe-bastard_sword",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-the_quest": "The Quest",
+      "koe-bastard_sword": "Bastard Sword",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3310,12 +3264,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Knights of the Quest Musician",
@@ -3326,11 +3280,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Questing Knight",
@@ -3341,11 +3295,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "koe-the_quest",
-          "koe-bastard_sword"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "koe-the_quest": "The Quest",
+          "koe-bastard_sword": "Bastard Sword"
+        }
       },
       {
         "Name": "Destrier",
@@ -3356,9 +3310,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3374,23 +3328,22 @@
     }
   },
   {
-    "Id": "68109490229aecc8c39dd035",
+    "Id": "6810a3dc583a6c61de56ef9e",
     "Name": "Knights of the Quest Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "koe-the_quest",
-      "koe-bastard_sword",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-the_quest": "The Quest",
+      "koe-bastard_sword": "Bastard Sword",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3402,12 +3355,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Knights of the Quest Standard Bearer",
@@ -3418,11 +3371,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Questing Knight",
@@ -3433,11 +3386,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "koe-the_quest",
-          "koe-bastard_sword"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "koe-the_quest": "The Quest",
+          "koe-bastard_sword": "Bastard Sword"
+        }
       },
       {
         "Name": "Destrier",
@@ -3448,9 +3401,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3466,22 +3419,21 @@
     }
   },
   {
-    "Id": "68109490229aecc8c39dcffe",
+    "Id": "6810a3dc583a6c61de56ef67",
     "Name": "Knights of the Quest",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-hand_weapon",
-      "koe-the_quest",
-      "koe-bastard_sword",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-the_quest": "The Quest",
+      "koe-bastard_sword": "Bastard Sword",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3493,11 +3445,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "koe-lance_formation"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Knights of the Quest",
@@ -3508,11 +3460,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Questing Knight",
@@ -3523,11 +3475,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "koe-the_quest",
-          "koe-bastard_sword"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "koe-the_quest": "The Quest",
+          "koe-bastard_sword": "Bastard Sword"
+        }
       },
       {
         "Name": "Destrier",
@@ -3538,9 +3490,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3556,25 +3508,24 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd062",
+    "Id": "6810a3dd583a6c61de56efcb",
     "Name": "Knights Penitent Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-unstable",
-      "rulebook-first_strike",
-      "koe-lance_formation",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-handandahalf",
-      "rulebook-great_weapon",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unstable": "Unstable",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-great_weapon": "Great Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3586,14 +3537,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-unstable",
-          "rulebook-first_strike",
-          "koe-lance_formation",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unstable": "Unstable",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Knights Penitent Musician",
@@ -3604,11 +3555,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Penitent Knight",
@@ -3620,11 +3571,11 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handandahalf",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       },
       {
         "Name": "Draughthorse",
@@ -3635,9 +3586,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3653,25 +3604,24 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd077",
+    "Id": "6810a3dd583a6c61de56efe0",
     "Name": "Knights Penitent Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-unstable",
-      "rulebook-first_strike",
-      "koe-lance_formation",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-handandahalf",
-      "rulebook-great_weapon",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unstable": "Unstable",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-great_weapon": "Great Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3683,14 +3633,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-unstable",
-          "rulebook-first_strike",
-          "koe-lance_formation",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unstable": "Unstable",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Knights Penitent Standard Bearer",
@@ -3701,11 +3651,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Penitent Knight",
@@ -3717,11 +3667,11 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handandahalf",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       },
       {
         "Name": "Draughthorse",
@@ -3732,9 +3682,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3750,24 +3700,23 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd04c",
+    "Id": "6810a3dd583a6c61de56efb5",
     "Name": "Knights Penitent",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-unstable",
-      "rulebook-first_strike",
-      "koe-lance_formation",
-      "rulebook-hand_weapon",
-      "rulebook-handandahalf",
-      "rulebook-great_weapon",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unstable": "Unstable",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-great_weapon": "Great Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3779,13 +3728,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-unstable",
-          "rulebook-first_strike",
-          "koe-lance_formation"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unstable": "Unstable",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Knights Penitent",
@@ -3796,11 +3745,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Penitent Knight",
@@ -3812,11 +3761,11 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handandahalf",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       },
       {
         "Name": "Draughthorse",
@@ -3827,9 +3776,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3845,22 +3794,21 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd0a4",
+    "Id": "6810a3dd583a6c61de56f00d",
     "Name": "Knights of the Court Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3872,11 +3820,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Knights of the Court Musician",
@@ -3887,11 +3835,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Court Knight",
@@ -3903,11 +3851,11 @@
           "Ag": "3",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Destrier",
@@ -3918,9 +3866,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3936,22 +3884,21 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd0bf",
+    "Id": "6810a3de583a6c61de56f028",
     "Name": "Knights of the Court Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3963,11 +3910,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Knights of the Court Standard Bearer",
@@ -3978,11 +3925,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Court Knight",
@@ -3994,11 +3941,11 @@
           "Ag": "3",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Destrier",
@@ -4009,9 +3956,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4027,21 +3974,20 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd088",
+    "Id": "6810a3dd583a6c61de56eff1",
     "Name": "Knights of the Court",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4053,10 +3999,10 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "koe-lance_formation"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Knights of the Court",
@@ -4067,11 +4013,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Court Knight",
@@ -4083,11 +4029,11 @@
           "Ag": "3",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Destrier",
@@ -4098,9 +4044,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4116,17 +4062,17 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd0fa",
+    "Id": "6810a3de583a6c61de56f063",
     "Name": "Men-at-Arms Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "koe-stalwart_defense",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-stalwart_defense": "Stalwart Defense",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4138,9 +4084,9 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Men-at-Arms Musician",
@@ -4151,11 +4097,11 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-stalwart_defense",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-stalwart_defense": "Stalwart Defense",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Man-at-Arms",
@@ -4166,9 +4112,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4184,17 +4130,17 @@
     }
   },
   {
-    "Id": "68109492229aecc8c39dd119",
+    "Id": "6810a3de583a6c61de56f082",
     "Name": "Men-at-Arms Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "koe-stalwart_defense",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-stalwart_defense": "Stalwart Defense",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4206,9 +4152,9 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Men-at-Arms Standard Bearer",
@@ -4219,11 +4165,11 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-stalwart_defense",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-stalwart_defense": "Stalwart Defense",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Man-at-Arms",
@@ -4234,9 +4180,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4252,16 +4198,16 @@
     }
   },
   {
-    "Id": "68109491229aecc8c39dd0d6",
+    "Id": "6810a3de583a6c61de56f03f",
     "Name": "Men-at-Arms",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "koe-stalwart_defense",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-stalwart_defense": "Stalwart Defense",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4273,7 +4219,7 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Men-at-Arms",
@@ -4284,11 +4230,11 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-stalwart_defense",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-stalwart_defense": "Stalwart Defense",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Man-at-Arms",
@@ -4299,9 +4245,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4317,24 +4263,23 @@
     }
   },
   {
-    "Id": "68109492229aecc8c39dd14c",
+    "Id": "6810a3de583a6c61de56f0b5",
     "Name": "Pegasus Knights Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4346,13 +4291,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Pegasus Knights Musician",
@@ -4363,11 +4308,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Pegasus Knight",
@@ -4378,11 +4323,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -4393,9 +4338,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4411,24 +4356,23 @@
     }
   },
   {
-    "Id": "68109492229aecc8c39dd167",
+    "Id": "6810a3de583a6c61de56f0d0",
     "Name": "Pegasus Knights Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4440,13 +4384,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-lance_formation",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Pegasus Knights Standard Bearer",
@@ -4457,11 +4401,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Pegasus Knight",
@@ -4472,11 +4416,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -4487,9 +4431,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4505,23 +4449,22 @@
     }
   },
   {
-    "Id": "68109492229aecc8c39dd130",
+    "Id": "6810a3de583a6c61de56f099",
     "Name": "Pegasus Knights",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-lance_formation",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "koe-nobility",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-lance": "Lance",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4533,12 +4476,12 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-lance_formation"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation"
+        }
       },
       {
         "Name": "Pegasus Knights",
@@ -4549,11 +4492,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-nobility",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Pegasus Knight",
@@ -4564,11 +4507,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Pegasus Charger",
@@ -4579,9 +4522,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4597,20 +4540,20 @@
     }
   },
   {
-    "Id": "68109492229aecc8c39dd17c",
+    "Id": "6810a3df583a6c61de56f0e5",
     "Name": "Sacred Reliquary",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-warplatform",
-      "koe-sacred_relic",
-      "rulebook-attached",
-      "rulebook-exclusive",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-warplatform": "WarPlatform",
+      "koe-sacred_relic": "Sacred Relic",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (Lowborn Levies, Men-at-Arms)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4622,13 +4565,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-warplatform",
-          "koe-sacred_relic",
-          "rulebook-attached",
-          "rulebook-exclusive",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "rulebook-warplatform": "WarPlatform",
+          "koe-sacred_relic": "Sacred Relic",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (Lowborn Levies, Men-at-Arms)",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Sacred Reliquary",
@@ -4639,10 +4582,10 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Sacred Reliquary",
@@ -4653,9 +4596,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4671,17 +4614,17 @@
     }
   },
   {
-    "Id": "68109492229aecc8c39dd17d",
+    "Id": "6810a3df583a6c61de56f0e6",
     "Name": "Siege Weapon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-emplacement",
-      "koe-scorpion",
-      "rulebook-hand_weapon",
-      "koe-clergy",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "koe-scorpion": "\n    Scorpion\n       (4+)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "koe-clergy": "Clergy",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4693,10 +4636,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-emplacement",
-          "koe-scorpion"
-        ]
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "koe-scorpion": "\n    Scorpion\n       (4+)"
+        }
       },
       {
         "Name": "Siege Weapon",
@@ -4707,10 +4650,10 @@
           "Arm": "0",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-clergy",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-clergy": "Clergy",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Crew",
@@ -4721,9 +4664,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4739,26 +4682,24 @@
     }
   },
   {
-    "Id": "68109493229aecc8c39dd19b",
+    "Id": "6810a3df583a6c61de56f104",
     "Name": "Sky Heralds Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "koe-commonfolk",
-      "rulebook-hard_target",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4770,14 +4711,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Sky Heralds Musician",
@@ -4788,12 +4729,12 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-hard_target",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Herald",
@@ -4804,10 +4745,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))"
+        }
       },
       {
         "Name": "Heraldic Steed",
@@ -4818,10 +4759,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+        }
       }
     ],
     "Amount": {
@@ -4837,26 +4778,24 @@
     }
   },
   {
-    "Id": "68109493229aecc8c39dd1a7",
+    "Id": "6810a3e0583a6c61de56f110",
     "Name": "Sky Heralds Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "koe-commonfolk",
-      "rulebook-hard_target",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4868,14 +4807,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Sky Heralds Standard Bearer",
@@ -4886,12 +4825,12 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-hard_target",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Herald",
@@ -4902,10 +4841,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))"
+        }
       },
       {
         "Name": "Heraldic Steed",
@@ -4916,10 +4855,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+        }
       }
     ],
     "Amount": {
@@ -4935,26 +4874,24 @@
     }
   },
   {
-    "Id": "68109492229aecc8c39dd18b",
+    "Id": "6810a3df583a6c61de56f0f4",
     "Name": "Sky Heralds",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "koe-commonfolk",
-      "rulebook-hard_target",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))",
+      "rulebook-light_lance": "Light Lance",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4966,13 +4903,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-vanguard",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Sky Heralds",
@@ -4983,12 +4920,12 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-hard_target",
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Herald",
@@ -4999,11 +4936,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Heraldic Steed",
@@ -5014,10 +4951,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+        }
       }
     ],
     "Amount": {
@@ -5033,22 +4970,21 @@
     }
   },
   {
-    "Id": "68109493229aecc8c39dd1c0",
+    "Id": "6810a3e0583a6c61de56f129",
     "Name": "Yeoman Outriders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5060,13 +4996,13 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Yeoman Outriders Musician",
@@ -5077,10 +5013,10 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Yeoman Outrider",
@@ -5091,10 +5027,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Rouncey",
@@ -5105,9 +5041,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5123,22 +5059,21 @@
     }
   },
   {
-    "Id": "68109493229aecc8c39dd1ce",
+    "Id": "6810a3e0583a6c61de56f137",
     "Name": "Yeoman Outriders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5150,13 +5085,13 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Yeoman Outriders Standard Bearer",
@@ -5167,10 +5102,10 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Yeoman Outrider",
@@ -5181,10 +5116,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Rouncey",
@@ -5195,9 +5130,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5213,22 +5148,21 @@
     }
   },
   {
-    "Id": "68109493229aecc8c39dd1ac",
+    "Id": "6810a3e0583a6c61de56f115",
     "Name": "Yeoman Outriders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "koe-commonfolk",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-bow": "Bow (4+)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5240,12 +5174,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-light_troops",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Yeoman Outriders",
@@ -5256,10 +5190,10 @@
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": [
-          "koe-commonfolk",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "koe-commonfolk": "Commonfolk",
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Yeoman Outrider",
@@ -5270,11 +5204,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Rouncey",
@@ -5285,9 +5219,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5303,26 +5237,24 @@
     }
   },
   {
-    "Id": "68109493229aecc8c39dd1d8",
+    "Id": "6810a3e1583a6c61de56f141",
     "Name": "Fey Knight",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-ghost_step",
-      "rulebook-fearless",
-      "rulebook-ambush",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "koe-champion_of_the_green_knight",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-shield",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ambush": "Ambush (Water Terrain or Forest)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-champion_of_the_green_knight": "Champion of the Green Knight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5334,15 +5266,15 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-ghost_step",
-          "rulebook-fearless",
-          "rulebook-ambush",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "koe-champion_of_the_green_knight"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ambush": "Ambush (Water Terrain or Forest)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-champion_of_the_green_knight": "Champion of the Green Knight"
+        }
       },
       {
         "Name": "Fey Knight",
@@ -5353,10 +5285,10 @@
           "Arm": "4",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-shield",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Fey Rider",
@@ -5367,10 +5299,10 @@
           "AP": "3",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       },
       {
         "Name": "Fey Steed",
@@ -5381,11 +5313,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -5401,28 +5333,28 @@
     }
   },
   {
-    "Id": "68109493229aecc8c39dd1df",
+    "Id": "6810a3e1583a6c61de56f148",
     "Name": "Friar's Lanterns",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-scout",
-      "rulebook-insignificant",
-      "rulebook-fearless",
-      "rulebook-ghost_step",
-      "rulebook-supernal",
-      "rulebook-skirmisher",
-      "rulebook-light_troops",
-      "rulebook-mindless",
-      "rulebook-unruly",
-      "rulebook-feigned_flight",
-      "rulebook-afflict",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-hard_target",
-      "rulebook-distracting",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-scout": "Scout",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-supernal": "Supernal",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-mindless": "Mindless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-afflict": "Afflict (Pursuit rolls are set to always 0\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5434,19 +5366,19 @@
           "Di": "4",
           "Hgt": "0"
         },
-        "RuleIds": [
-          "rulebook-scout",
-          "rulebook-insignificant",
-          "rulebook-fearless",
-          "rulebook-ghost_step",
-          "rulebook-supernal",
-          "rulebook-skirmisher",
-          "rulebook-light_troops",
-          "rulebook-mindless",
-          "rulebook-unruly",
-          "rulebook-feigned_flight",
-          "rulebook-afflict"
-        ]
+        "RuleIds": {
+          "rulebook-scout": "Scout",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-supernal": "Supernal",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-mindless": "Mindless",
+          "rulebook-unruly": "Unruly",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-afflict": "Afflict (Pursuit rolls are set to always 0\")"
+        }
       },
       {
         "Name": "Friar's Lanterns",
@@ -5457,11 +5389,11 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-distracting",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Friar's Lanterns",
@@ -5472,10 +5404,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -5491,22 +5423,22 @@
     }
   },
   {
-    "Id": "68109494229aecc8c39dd1e4",
+    "Id": "6810a3e1583a6c61de56f14d",
     "Name": "Naiads",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-scout",
-      "rulebook-strider",
-      "rulebook-ambush",
-      "rulebook-light_troops",
-      "rulebook-supernal",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-scout": "Scout",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-ambush": "Ambush (Water Terrain)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-supernal": "Supernal",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (2)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5518,14 +5450,14 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-scout",
-          "rulebook-strider",
-          "rulebook-ambush",
-          "rulebook-light_troops",
-          "rulebook-supernal"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-scout": "Scout",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-ambush": "Ambush (Water Terrain)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-supernal": "Supernal"
+        }
       },
       {
         "Name": "Naiads",
@@ -5536,9 +5468,9 @@
           "Arm": "0",
           "Aeg": "5"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Naiad",
@@ -5549,11 +5481,11 @@
           "AP": "3",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (2)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -5569,22 +5501,22 @@
     }
   },
   {
-    "Id": "68109494229aecc8c39dd1e9",
+    "Id": "6810a3e2583a6c61de56f152",
     "Name": "The Lady's Courtier",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-supernal",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "koe-courtier_of_the_dawn",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-courtier_of_the_dawn": "Courtier of the Dawn",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5596,14 +5528,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-supernal",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "koe-courtier_of_the_dawn"
-        ]
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-courtier_of_the_dawn": "Courtier of the Dawn"
+        }
       },
       {
         "Name": "The Lady's Courtier",
@@ -5614,9 +5546,9 @@
           "Arm": "3",
           "Aeg": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Lady's Courtier",
@@ -5627,11 +5559,11 @@
           "AP": "2",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {

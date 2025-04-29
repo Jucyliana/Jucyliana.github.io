@@ -1,6 +1,6 @@
 [
   {
-    "Id": "5dcd430b-e89d-40cd-b4e7-3aaa303c6f31",
+    "Id": "74ea5715-4d1e-47ca-ae28-2ed2de3beef7",
     "Name": "Favoured Disciple",
     "Attributes": {
       "type": "",
@@ -8,14 +8,14 @@
       "totalcost": "210"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "er-callous",
-      "er-martyrdom",
-      "er-apostle_of_plague",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "er-callous": "Callous",
+      "er-martyrdom": "Martyrdom",
+      "er-apostle_of_plague": "Apostle of Plague",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -26,12 +26,12 @@
           "Ma": "12",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "er-callous",
-          "er-martyrdom",
-          "er-apostle_of_plague"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "er-callous": "Callous",
+          "er-martyrdom": "Martyrdom",
+          "er-apostle_of_plague": "Apostle of Plague"
+        }
       },
       {
         "Name": "Favoured Disciple",
@@ -41,7 +41,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Favoured Disciple",
@@ -52,10 +52,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
       }
     ],
     "Amount": {
@@ -71,7 +71,7 @@
     }
   },
   {
-    "Id": "2711dd13-a2a3-4e6d-875c-73d5acfed1c7",
+    "Id": "4b2c59df-4149-42e0-a004-a568b9be75c2",
     "Name": "Plague Disciple (2)",
     "Attributes": {
       "type": "",
@@ -79,23 +79,21 @@
       "totalcost": "430"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "er-callous",
-      "er-martyrdom",
-      "er-apostle_of_plague",
-      "rulebook-warplatform",
-      "er-virulent_fumes",
-      "rulebook-rally_around_the_flag",
-      "rulebook-hand_weapon",
-      "er-bloodpox_blades",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-poison_attacks",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "er-callous": "Callous",
+      "er-martyrdom": "Martyrdom",
+      "er-apostle_of_plague": "Apostle of Plague",
+      "rulebook-warplatform": "WarPlatform",
+      "er-virulent_fumes": "Virulent Fumes",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-bloodpox_blades": "Bloodpox Blades",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -106,15 +104,15 @@
           "Ma": "10",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "er-callous",
-          "er-martyrdom",
-          "er-apostle_of_plague",
-          "rulebook-warplatform",
-          "er-virulent_fumes",
-          "rulebook-rally_around_the_flag"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "er-callous": "Callous",
+          "er-martyrdom": "Martyrdom",
+          "er-apostle_of_plague": "Apostle of Plague",
+          "rulebook-warplatform": "WarPlatform",
+          "er-virulent_fumes": "Virulent Fumes",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag"
+        }
       },
       {
         "Name": "Plague Disciple (2)",
@@ -124,9 +122,9 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Plague Disciple (2)",
@@ -137,10 +135,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-bloodpox_blades": "Bloodpox Blades"
+        }
       },
       {
         "Name": "Rodent of Unusual <br>Symptoms (4)",
@@ -151,11 +149,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-poison_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
       },
       {
         "Name": "Chassis",
@@ -166,10 +164,10 @@
           "AP": "1",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -185,19 +183,19 @@
     }
   },
   {
-    "Id": "68109457229aecc8c39d83e4",
+    "Id": "6810a38c583a6c61de56a34d",
     "Name": "Plague Patriarch",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "er-callous",
-      "er-martyrdom",
-      "er-apostle_of_plague",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "rulebook-hatred"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "er-callous": "Callous",
+      "er-martyrdom": "Martyrdom",
+      "er-apostle_of_plague": "Apostle of Plague",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "rulebook-hatred": "Hatred"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -208,12 +206,12 @@
           "Ma": "10",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "er-callous",
-          "er-martyrdom",
-          "er-apostle_of_plague"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "er-callous": "Callous",
+          "er-martyrdom": "Martyrdom",
+          "er-apostle_of_plague": "Apostle of Plague"
+        }
       },
       {
         "Name": "Plague Patriarch",
@@ -223,7 +221,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Patriarch",
@@ -234,11 +232,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "rulebook-hatred"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "rulebook-hatred": "Hatred"
+        }
       }
     ],
     "Amount": {
@@ -254,7 +252,7 @@
     }
   },
   {
-    "Id": "48e47b4e-c95e-46ed-8b5d-0a2ff6825ce8",
+    "Id": "ebbe4810-87ff-4cdc-87c3-d67c500a26e0",
     "Name": "Favoured Disciple",
     "Attributes": {
       "type": "",
@@ -262,13 +260,13 @@
       "totalcost": "170"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-martyrdom",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -279,11 +277,11 @@
           "Ma": "12",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-martyrdom",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Favoured Disciple",
@@ -293,7 +291,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Favoured Disciple",
@@ -304,10 +302,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
       }
     ],
     "Amount": {
@@ -323,7 +321,7 @@
     }
   },
   {
-    "Id": "07769c27-368c-452d-adf5-774e59c65a8c",
+    "Id": "e4936bbd-c594-4c84-9bf9-662e24cd4f26",
     "Name": "Acolyte (8)",
     "Attributes": {
       "type": "",
@@ -331,22 +329,21 @@
       "totalcost": "365"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-martyrdom",
-      "rulebook-attached",
-      "rulebook-exclusive",
-      "rulebook-warplatform",
-      "er-pestilent_pulpit",
-      "rulebook-fearless",
-      "rulebook-channel",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-great_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (Cult of Errahman)",
+      "rulebook-warplatform": "WarPlatform",
+      "er-pestilent_pulpit": "Pestilent Pulpit",
+      "rulebook-fearless": "Fearless",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-impact_hits": "Impact Hits (2D3)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -357,17 +354,17 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-martyrdom",
-          "rulebook-attached",
-          "rulebook-exclusive",
-          "rulebook-warplatform",
-          "er-pestilent_pulpit",
-          "rulebook-fearless",
-          "rulebook-channel",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (Cult of Errahman)",
+          "rulebook-warplatform": "WarPlatform",
+          "er-pestilent_pulpit": "Pestilent Pulpit",
+          "rulebook-fearless": "Fearless",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Acolyte (8)",
@@ -377,9 +374,9 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Acolyte (8)",
@@ -391,10 +388,10 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -405,10 +402,10 @@
           "AP": "2",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (2D3)"
+        }
       }
     ],
     "Amount": {
@@ -424,18 +421,18 @@
     }
   },
   {
-    "Id": "68109457229aecc8c39d8489",
+    "Id": "6810a38c583a6c61de56a3f2",
     "Name": "Swarm Priest",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-martyrdom",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "er-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "er-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -446,11 +443,11 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-martyrdom",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Swarm Priest",
@@ -460,7 +457,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Swarm Priest",
@@ -471,11 +468,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "er-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "er-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -491,16 +488,16 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d8526",
+    "Id": "6810a38d583a6c61de56a48f",
     "Name": "Cult Converts Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-hand_weapon",
-      "rulebook-spear"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-spear": "Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -511,10 +508,10 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Cult Converts Champion",
@@ -524,7 +521,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Cult Convert",
@@ -535,10 +532,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-spear"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-spear": "Spear"
+        }
       }
     ],
     "Amount": {
@@ -554,17 +551,17 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d8530",
+    "Id": "6810a38d583a6c61de56a499",
     "Name": "Cult Converts Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-spear"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-spear": "Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -575,11 +572,11 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Cult Converts Musician",
@@ -589,7 +586,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Cult Convert",
@@ -600,10 +597,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-spear"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-spear": "Spear"
+        }
       }
     ],
     "Amount": {
@@ -619,17 +616,17 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d853a",
+    "Id": "6810a38d583a6c61de56a4a3",
     "Name": "Cult Converts Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-spear"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-spear": "Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -640,11 +637,11 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Cult Converts Standard Bearer",
@@ -654,7 +651,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Cult Convert",
@@ -665,10 +662,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-spear"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-spear": "Spear"
+        }
       }
     ],
     "Amount": {
@@ -684,16 +681,16 @@
     }
   },
   {
-    "Id": "68109457229aecc8c39d851b",
+    "Id": "6810a38d583a6c61de56a484",
     "Name": "Cult Converts",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-hand_weapon",
-      "rulebook-spear"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-spear": "Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -704,10 +701,10 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Cult Converts",
@@ -717,7 +714,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Cult Convert",
@@ -728,10 +725,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-spear"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-spear": "Spear"
+        }
       }
     ],
     "Amount": {
@@ -747,18 +744,18 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d855b",
+    "Id": "6810a38d583a6c61de56a4c4",
     "Name": "Plague Disciples Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -769,12 +766,12 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Plague Disciples Champion",
@@ -784,7 +781,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Disciple",
@@ -795,10 +792,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman"
+        }
       }
     ],
     "Amount": {
@@ -814,19 +811,19 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d8578",
+    "Id": "6810a38d583a6c61de56a4e1",
     "Name": "Plague Disciples Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -837,13 +834,13 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Plague Disciples Musician",
@@ -853,7 +850,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Disciple",
@@ -864,10 +861,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman"
+        }
       }
     ],
     "Amount": {
@@ -883,19 +880,19 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d8590",
+    "Id": "6810a38d583a6c61de56a4f9",
     "Name": "Plague Disciples Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -906,13 +903,13 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Plague Disciples Standard Bearer",
@@ -922,7 +919,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Disciple",
@@ -933,10 +930,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman"
+        }
       }
     ],
     "Amount": {
@@ -952,18 +949,18 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d853f",
+    "Id": "6810a38d583a6c61de56a4a8",
     "Name": "Plague Disciples",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -974,12 +971,12 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Sacred Platform)",
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Plague Disciples",
@@ -989,7 +986,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Disciple",
@@ -1000,10 +997,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman"
+        }
       }
     ],
     "Amount": {
@@ -1019,16 +1016,16 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d85a4",
+    "Id": "6810a38e583a6c61de56a50d",
     "Name": "Brute Disciples Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "rulebook-hand_weapon",
-      "rulebook-fight_in_extra_rank",
-      "er-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+      "er-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1039,9 +1036,9 @@
           "Ma": "12",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous"
+        }
       },
       {
         "Name": "Brute Disciples Champion",
@@ -1051,7 +1048,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Brute Disciple",
@@ -1062,11 +1059,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-fight_in_extra_rank",
-          "er-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+          "er-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -1082,16 +1079,16 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d859b",
+    "Id": "6810a38e583a6c61de56a504",
     "Name": "Brute Disciples",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "rulebook-hand_weapon",
-      "rulebook-fight_in_extra_rank",
-      "er-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+      "er-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1102,9 +1099,9 @@
           "Ma": "12",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous"
+        }
       },
       {
         "Name": "Brute Disciples",
@@ -1114,7 +1111,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Brute Disciple",
@@ -1125,11 +1122,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-fight_in_extra_rank",
-          "er-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+          "er-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -1145,18 +1142,18 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d85a9",
+    "Id": "6810a38e583a6c61de56a512",
     "Name": "Giant Plague Rats",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "rulebook-insignificant",
-      "rulebook-unstable",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-poison_attacks"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unstable": "Unstable",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-poison_attacks": "Poison Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1167,11 +1164,11 @@
           "Ma": "14",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "rulebook-insignificant",
-          "rulebook-unstable"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unstable": "Unstable"
+        }
       },
       {
         "Name": "Giant Plague Rats",
@@ -1181,7 +1178,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Giant Rat",
@@ -1192,11 +1189,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-poison_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1212,16 +1209,16 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d85af",
+    "Id": "6810a38e583a6c61de56a518",
     "Name": "Pestilent Onager",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "er-bubonic_brew"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-bubonic_brew": "Bubonic Brew (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1232,10 +1229,10 @@
           "Ma": "5",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Pestilent Onager",
@@ -1245,7 +1242,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew",
@@ -1256,10 +1253,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-bubonic_brew"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-bubonic_brew": "Bubonic Brew (4+)"
+        }
       }
     ],
     "Amount": {
@@ -1275,23 +1272,23 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d85b2",
+    "Id": "6810a38e583a6c61de56a51b",
     "Name": "Plague Swarms",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "rulebook-insignificant",
-      "rulebook-unstable",
-      "rulebook-fearless",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-hand_weapon",
-      "rulebook-extra_support",
-      "rulebook-poison_attacks",
-      "rulebook-distracting",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unstable": "Unstable",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-extra_support": "Extra Support (3)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-distracting": "Distracting",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1302,14 +1299,14 @@
           "Ma": "10",
           "Di": "7"
         },
-        "RuleIds": [
-          "er-callous",
-          "rulebook-insignificant",
-          "rulebook-unstable",
-          "rulebook-fearless",
-          "rulebook-light_troops",
-          "rulebook-skirmisher"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unstable": "Unstable",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher"
+        }
       },
       {
         "Name": "Plague Swarms",
@@ -1319,10 +1316,10 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Plague Swarm",
@@ -1333,11 +1330,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-extra_support",
-          "rulebook-poison_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-extra_support": "Extra Support (3)",
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
       }
     ],
     "Amount": {
@@ -1353,17 +1350,17 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d85b5",
+    "Id": "6810a38e583a6c61de56a51e",
     "Name": "Underworld Beast",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "rulebook-fearless",
-      "rulebook-random_movement",
-      "rulebook-hand_weapon",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "rulebook-fearless": "Fearless",
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1374,11 +1371,11 @@
           "Ma": "0",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "rulebook-fearless",
-          "rulebook-random_movement"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "rulebook-fearless": "Fearless",
+          "rulebook-random_movement": "Random Movement (3D6\")"
+        }
       },
       {
         "Name": "Underworld Beast",
@@ -1388,9 +1385,9 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Underworld Beast",
@@ -1401,9 +1398,9 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1419,17 +1416,17 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d85d3",
+    "Id": "6810a38e583a6c61de56a53c",
     "Name": "Urban Agitators Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1440,11 +1437,11 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-vanguard": "Vanguard (6\"\")"
+        }
       },
       {
         "Name": "Urban Agitators Champion",
@@ -1454,7 +1451,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Urban Agitator",
@@ -1465,10 +1462,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1484,18 +1481,18 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d85e8",
+    "Id": "6810a38f583a6c61de56a551",
     "Name": "Urban Agitators Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-vanguard",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1506,12 +1503,12 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap",
-          "rulebook-vanguard",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Urban Agitators Musician",
@@ -1521,7 +1518,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Urban Agitator",
@@ -1532,10 +1529,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1551,18 +1548,18 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d85fd",
+    "Id": "6810a38f583a6c61de56a566",
     "Name": "Urban Agitators Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-vanguard",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1573,12 +1570,12 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap",
-          "rulebook-vanguard",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Urban Agitators Standard Bearer",
@@ -1588,7 +1585,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Urban Agitator",
@@ -1599,10 +1596,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1618,17 +1615,17 @@
     }
   },
   {
-    "Id": "68109458229aecc8c39d85b8",
+    "Id": "6810a38e583a6c61de56a521",
     "Name": "Urban Agitators",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-life_is_cheap",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-life_is_cheap": "Life is Cheap",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1639,11 +1636,11 @@
           "Ma": "10",
           "Di": "5"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-life_is_cheap",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-life_is_cheap": "Life is Cheap",
+          "rulebook-vanguard": "Vanguard (6\"\")"
+        }
       },
       {
         "Name": "Urban Agitators",
@@ -1653,7 +1650,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Urban Agitator",
@@ -1664,10 +1661,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1683,16 +1680,16 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d8606",
+    "Id": "6810a38f583a6c61de56a56f",
     "Name": "Infected Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-giant_see_giant_do",
-      "rulebook-hand_weapon",
-      "rulebook-rage",
-      "er-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "er-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "er-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1703,9 +1700,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "er-giant_see_giant_do"
-        ]
+        "RuleIds": {
+          "er-giant_see_giant_do": "Giant See, Giant Do"
+        }
       },
       {
         "Name": "Infected Giant",
@@ -1715,7 +1712,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Infected Giant",
@@ -1726,11 +1723,11 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-rage",
-          "er-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "er-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -1746,22 +1743,22 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d8625",
+    "Id": "6810a38f583a6c61de56a58e",
     "Name": "Leper Monks Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-stubborn",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "er-rabid_spasms",
-      "rulebook-distracting",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "er-rabid_spasms": "Rabid Spasms",
+      "rulebook-distracting": "Distracting",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1772,13 +1769,13 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom",
-          "rulebook-stubborn"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-stubborn": "Stubborn"
+        }
       },
       {
         "Name": "Leper Monks Champion",
@@ -1788,10 +1785,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Leper Monk",
@@ -1802,11 +1799,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "er-rabid_spasms"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "er-rabid_spasms": "Rabid Spasms"
+        }
       }
     ],
     "Amount": {
@@ -1822,23 +1819,23 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d863f",
+    "Id": "6810a38f583a6c61de56a5a8",
     "Name": "Leper Monks Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-stubborn",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "er-rabid_spasms",
-      "rulebook-distracting",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "er-rabid_spasms": "Rabid Spasms",
+      "rulebook-distracting": "Distracting",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1849,14 +1846,14 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom",
-          "rulebook-stubborn",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Leper Monks Musician",
@@ -1866,10 +1863,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Leper Monk",
@@ -1880,11 +1877,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "er-rabid_spasms"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "er-rabid_spasms": "Rabid Spasms"
+        }
       }
     ],
     "Amount": {
@@ -1900,23 +1897,23 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d8654",
+    "Id": "6810a38f583a6c61de56a5bd",
     "Name": "Leper Monks Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-stubborn",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "er-rabid_spasms",
-      "rulebook-distracting",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "er-rabid_spasms": "Rabid Spasms",
+      "rulebook-distracting": "Distracting",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1927,14 +1924,14 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom",
-          "rulebook-stubborn",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Leper Monks Standard Bearer",
@@ -1944,10 +1941,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Leper Monk",
@@ -1958,11 +1955,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "er-rabid_spasms"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "er-rabid_spasms": "Rabid Spasms"
+        }
       }
     ],
     "Amount": {
@@ -1978,22 +1975,22 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d860f",
+    "Id": "6810a38f583a6c61de56a578",
     "Name": "Leper Monks",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-stubborn",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "er-rabid_spasms",
-      "rulebook-distracting",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "er-rabid_spasms": "Rabid Spasms",
+      "rulebook-distracting": "Distracting",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2004,13 +2001,13 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom",
-          "rulebook-stubborn"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-stubborn": "Stubborn"
+        }
       },
       {
         "Name": "Leper Monks",
@@ -2020,10 +2017,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Leper Monk",
@@ -2034,11 +2031,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "er-rabid_spasms"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "er-rabid_spasms": "Rabid Spasms"
+        }
       }
     ],
     "Amount": {
@@ -2054,20 +2051,20 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d867b",
+    "Id": "6810a390583a6c61de56a5e4",
     "Name": "Plague Acolytes Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "rulebook-hatred",
-      "er-plague_flail"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "rulebook-hatred": "Hatred",
+      "er-plague_flail": "Plague Flail"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2078,12 +2075,12 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom"
+        }
       },
       {
         "Name": "Plague Acolytes Champion",
@@ -2093,7 +2090,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Acolyte",
@@ -2104,12 +2101,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "rulebook-hatred",
-          "er-plague_flail"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "rulebook-hatred": "Hatred",
+          "er-plague_flail": "Plague Flail"
+        }
       }
     ],
     "Amount": {
@@ -2125,21 +2122,21 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d8698",
+    "Id": "6810a390583a6c61de56a601",
     "Name": "Plague Acolytes Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "rulebook-hatred",
-      "er-plague_flail"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "rulebook-hatred": "Hatred",
+      "er-plague_flail": "Plague Flail"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2150,13 +2147,13 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Plague Acolytes Musician",
@@ -2166,7 +2163,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Acolyte",
@@ -2177,12 +2174,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "rulebook-hatred",
-          "er-plague_flail"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "rulebook-hatred": "Hatred",
+          "er-plague_flail": "Plague Flail"
+        }
       }
     ],
     "Amount": {
@@ -2198,21 +2195,21 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d86b0",
+    "Id": "6810a390583a6c61de56a619",
     "Name": "Plague Acolytes Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "rulebook-hatred",
-      "er-plague_flail"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "rulebook-hatred": "Hatred",
+      "er-plague_flail": "Plague Flail"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2223,13 +2220,13 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Plague Acolytes Standard Bearer",
@@ -2239,7 +2236,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Acolyte",
@@ -2250,12 +2247,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "rulebook-hatred",
-          "er-plague_flail"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "rulebook-hatred": "Hatred",
+          "er-plague_flail": "Plague Flail"
+        }
       }
     ],
     "Amount": {
@@ -2271,20 +2268,20 @@
     }
   },
   {
-    "Id": "68109459229aecc8c39d865f",
+    "Id": "6810a38f583a6c61de56a5c8",
     "Name": "Plague Acolytes",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "er-callous",
-      "er-fear_no_evil",
-      "er-life_is_cheap",
-      "er-martyrdom",
-      "rulebook-hand_weapon",
-      "er-cult_of_errahman",
-      "rulebook-hatred",
-      "er-plague_flail"
-    ],
+    "RuleIds": {
+      "er-callous": "Callous",
+      "er-fear_no_evil": "Fear no Evil",
+      "er-life_is_cheap": "Life is Cheap",
+      "er-martyrdom": "Martyrdom",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "er-cult_of_errahman": "Cult of Errahman",
+      "rulebook-hatred": "Hatred",
+      "er-plague_flail": "Plague Flail"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2295,12 +2292,12 @@
           "Ma": "10",
           "Di": "6"
         },
-        "RuleIds": [
-          "er-callous",
-          "er-fear_no_evil",
-          "er-life_is_cheap",
-          "er-martyrdom"
-        ]
+        "RuleIds": {
+          "er-callous": "Callous",
+          "er-fear_no_evil": "Fear no Evil",
+          "er-life_is_cheap": "Life is Cheap",
+          "er-martyrdom": "Martyrdom"
+        }
       },
       {
         "Name": "Plague Acolytes",
@@ -2310,7 +2307,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Acolyte",
@@ -2321,12 +2318,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "er-cult_of_errahman",
-          "rulebook-hatred",
-          "er-plague_flail"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "er-cult_of_errahman": "Cult of Errahman",
+          "rulebook-hatred": "Hatred",
+          "er-plague_flail": "Plague Flail"
+        }
       }
     ],
     "Amount": {

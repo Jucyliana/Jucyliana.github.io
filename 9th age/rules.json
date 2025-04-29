@@ -7,7 +7,7 @@
   },
   {
     "Id": "rulebook-strider",
-    "Name": "Strider (Forest)",
+    "Name": "Strider",
     "Type": "Global",
     "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"strider\">Strider</link></u> may (must if <u><link=\"shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
   },
@@ -31,7 +31,7 @@
   },
   {
     "Id": "rulebook-exclusive",
-    "Name": "Exclusive (Raiding Chariots)",
+    "Name": "Exclusive",
     "Type": "Global",
     "Description": "This rule limits which Units an Attachable <u><link=\"model\">Model</link></u> is allowed to join.\n\n-   <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"exclusive\">Exclusive(X)</link></u> can only join Units containing X.\n-   Non-<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"exclusive\">Exclusive(X)</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with X.\n- \n-   If a unit has multiple instances of <u><link=\"exclusive\">Exclusive</link></u>, all criteria must be fullfilled.\nEx: a Goblin Chieftain with <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"exclusive\">Exclusive</link></u> (Orc) would not be able to join any units.\nIf it instead had <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Orc) it would only be able to join goblins.\nThe specific criteria for X can include but is not limited to\n: Unit names, <u><link=\"model\">Model</link></u> Rules, or upgrades.\nIf a <u><link=\"model\">model</link></u> has both <u><link=\"exclusive\">Exclusive</link></u> and <u><link=\"attached\">Attached</link></u>, apply all requirements from both rules. (Remember that a <u><link=\"model\">model</link></u> that cannot be Deployed is considered a casualty.)"
   },
@@ -43,13 +43,13 @@
   },
   {
     "Id": "rulebook-devastating_charge",
-    "Name": "Devastating Charge (+1 Str, +1 AP)",
+    "Name": "Devastating Charge",
     "Type": "Equipment",
     "Description": "Charging <u><link=\"model\">model</link></u> parts with <u><link=\"devastating_charge\">Devastating Charge</link></u>, or using a weapon with <u><link=\"devastating_charge\">Devastating Charge</link></u>, gains the rules and Characteristic <u><link=\"modifiers\">modifiers</link></u> stated in brackets. For example, a <u><link=\"model\">model</link></u> part with <u><link=\"devastating_charge\">Devastating Charge(+1 Str)</link></u> gains +1 Str when Charging."
   },
   {
     "Id": "rulebook-impact_hits",
-    "Name": "Impact Hits (D6)",
+    "Name": "Impact Hits",
     "Type": "Equipment",
     "Description": "If Charging, the <u><link=\"model\">model</link></u> part can make a Special Attack which is resolved at Agility Step 10, and inflicts X hits, using the <u><link=\"model\">model</link></u> part’s Strength, Armour Penetration, and <u><link=\"attack_attributes\">Attack Attributes</link></u>, but not <u><link=\"weapons\">Weapons</link></u>.\nRemember that <u><link=\"attacks\">attacks</link></u> multiplied into several hits are allocated after establishing how many hits are scored (i.e. after the attack has hit).\nIf more than one <u><link=\"model\">model</link></u> part of a combined <u><link=\"model\">model</link></u> has <u><link=\"impact_hits\">Impact Hits</link></u>, only a single <u><link=\"model\">Model</link></u> Part can perform its <u><link=\"impact_hits\">Impact Hits</link></u> in each Round of Combat (owner’s choice)."
   },
@@ -157,7 +157,7 @@
   },
   {
     "Id": "rulebook-hard_target",
-    "Name": "Hard Target (1)",
+    "Name": "Hard Target",
     "Type": "Global",
     "Description": "Shooting <u><link=\"attacks\">Attacks</link></u> allocated against a Health Pool with <u><link=\"hard_target\">Hard Target</link></u> suffer X to hit."
   },
@@ -169,7 +169,7 @@
   },
   {
     "Id": "rulebook-bow",
-    "Name": "Bow (4+)",
+    "Name": "Bow",
     "Type": "Equipment",
     "Description": "Range 24\", Shots 1, Str 3, AP 0, <u><link=\"shoot_in_extra_rank\">Shoot in Extra Rank</link></u>"
   },
@@ -187,7 +187,7 @@
   },
   {
     "Id": "rulebook-ambush",
-    "Name": "Ambush (Table Edge)",
+    "Name": "Ambush",
     "Type": "Global",
     "Description": "Units entirely with <u><link=\"ambush\">Ambush</link></u> may choose to not be Deployed normally, but placed in <u><link=\"ambush\">Ambush</link></u> by simply not placing it on the Battlefield during Deployment. A unit placed in <u><link=\"ambush\">Ambush</link></u> will arrive at the Battlefield later during the game. From your Player Turn 2 and onwards, roll a D6 for each unit placed in <u><link=\"ambush\">Ambush</link></u> at the start of the <u><link=\"movement_phase\">Movement Phase</link></u>. All units that rolled 3+ will arrive at the Battlefield if possible. During your Player Turn 5 and 6, this roll is always considered to have rolled a 3+.\nWhen a unit arrives at the Battlefield, choose a point as specified by (X). If no suitable point is available where the unit can be placed on the Battlefield, the unit cannot arrive at the Battlefield this turn.\nDeploy each unit arriving at the Battlefield with at least three of its four corners within 6\" from the chosen point in any legal formation following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. There must be no other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u> directly between any point on the unit’s Boundary and the chosen point. See the figure below for examples.\n<u><link=\"ambush\">Ambush</link></u>ing units count as having performed an <u><link=\"advance_move\">Advance Move</link></u> when they arrive, and cannot perform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> in the same Phase.\nIf an <u><link=\"ambush\">Ambush</link></u>ing unit does not arrive at the Battlefield by the end of the game, it is considered <u><link=\"removed\">removed</link></u> as a casualty.\nAn Attachable <u><link=\"model\">Model</link></u> placed in <u><link=\"ambush\">Ambush</link></u> can be Deployed joined to a unit placed in <u><link=\"ambush\">Ambush</link></u> with the same (X), following the usual restrictions. In each of its Turns, before rolling to see if it arrives, it may choose a unit to be joined to. Make a single <u><link=\"dice\">dice</link></u> roll for the Combined Unit. Note: <u><link=\"attached\">Attached</link></u> has no effect on this, and it may change unit each turn.\nA unit arriving at the Battlefield in Game Turn 6 loses Scoring.\nDeploying <u><link=\"ambush\">Ambush</link></u>ing units.In these examples, the unit has <u><link=\"ambush\">Ambush(Table Edge)</link></u>. The unit with the yellow check mark is placed in a legal position, while the two units with red crosses are not. The left one because there is an <u><link=\"impassable_terrain\">Impassable Terrain</link></u> Feature between its unit Boundary and the chosen point, and the right one because parts of the unit are more than 6\" away from the chosen point."
   },
@@ -199,7 +199,7 @@
   },
   {
     "Id": "rulebook-bodyguard",
-    "Name": "Bodyguard (Wildhorn Lord, Wildhorn Chieftain)",
+    "Name": "Bodyguard",
     "Type": "Global",
     "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
   },
@@ -223,7 +223,7 @@
   },
   {
     "Id": "rulebook-random_movement",
-    "Name": "Random Movement (3D6\")",
+    "Name": "Random Movement",
     "Type": "Global",
     "Description": "Units entirely with <u><link=\"random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"random_movement\">Random Movement</link></u> cannot perform <u><link=\"magical_move\">Magical Moves</link></u> or use <u><link=\"vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
   },
@@ -259,7 +259,7 @@
   },
   {
     "Id": "rulebook-stomp_attack",
-    "Name": "Stomp Attack (D6)",
+    "Name": "Stomp Attack",
     "Type": "Equipment",
     "Description": "The <u><link=\"model\">model</link></u> part can make a Special Attack which is resolved at Agility Step 0, can only be allocated towards a Health Pool of Height 0 - 1, and inflicts X hits, using the <u><link=\"model\">model</link></u> part’s Strength, Armour Penetration and <u><link=\"attack_attributes\">Attack Attributes</link></u>, but not <u><link=\"weapons\">Weapons</link></u>.\n\nIf more than one <u><link=\"model\">model</link></u> part of a combined <u><link=\"model\">model</link></u> has <u><link=\"stomp_attack\">Stomp Attack</link></u>, only a single <u><link=\"model\">Model</link></u> Part can perform its <u><link=\"stomp_attack\">Stomp Attack</link></u> in each Round of Combat (owner’s choice)."
   },
@@ -283,13 +283,13 @@
   },
   {
     "Id": "rulebook-magic_resistance",
-    "Name": "Magic Resistance (3)",
+    "Name": "Magic Resistance",
     "Type": "Defense",
     "Description": "When an enemy <u><link=\"model\">model</link></u> casts a spell that targets one or more units containing <u><link=\"magic_resistance\">Magic Resistance</link></u>, the Casting Roll of the spell is modified by X, where X is the highest <u><link=\"magic_resistance\">Magic Resistance</link></u> value across all targets ."
   },
   {
     "Id": "rulebook-aegis",
-    "Name": "Aegis (5+)",
+    "Name": "Aegis",
     "Type": "Defense",
     "Description": "<u><link=\"aegis\">Aegis</link></u> is a Special Save, with a value indicated in brackets (X). If X is given as a modifier and with a maximum value (e.g. +2), the <u><link=\"model\">model</link></u> gains this as a modifier to all its <u><link=\"aegis\">Aegis</link></u> Special Save rolls, which cannot be increased to rolls better than 3+. If the <u><link=\"model\">model</link></u> does not have <u><link=\"aegis\">Aegis</link></u>, it instead gains a <u><link=\"aegis\">Aegis</link></u>(7  X+). For example, a <u><link=\"model\">model</link></u> without <u><link=\"aegis\">Aegis</link></u> that gains <u><link=\"aegis\">Aegis(+2)</link></u> will gain <u><link=\"aegis\">Aegis(5+)</link></u>.\nNote that <u><link=\"aegis\">Aegis</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"attacks\">attacks</link></u> with the <u><link=\"divine_attacks\">Divine Attacks</link></u> Attack Attribute."
   },
@@ -319,7 +319,7 @@
   },
   {
     "Id": "rulebook-breath_attack",
-    "Name": "Breath Attack (Str 3, AP 2)",
+    "Name": "Breath Attack",
     "Type": "Equipment",
     "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"march_and_shoot\">March and Shoot</link></u>. Hits automatically (no to-hit roll required). The Strength, Armour Penetration, and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in brackets (X)."
   },
@@ -967,7 +967,7 @@
   },
   {
     "Id": "rulebook-regeneration",
-    "Name": "Regeneration (5+)",
+    "Name": "Regeneration",
     "Type": "Defense",
     "Description": "<u><link=\"regeneration\">Regeneration</link></u> is a Special Save, with a value indicated in brackets (X).\nIf X is given as a modifier and with a maximum value (e.g. +2), the <u><link=\"model\">model</link></u> gains this as a modifier to all its <u><link=\"regeneration\">Regeneration</link></u> Special Save rolls, which cannot be increased to rolls better than 3+. If the <u><link=\"model\">model</link></u> does not have <u><link=\"regeneration\">Regeneration</link></u>, it instead gains a <u><link=\"regeneration\">Regeneration</link></u>(7  X+). For example, a <u><link=\"model\">model</link></u> without <u><link=\"regeneration\">Regeneration</link></u> that gains <u><link=\"regeneration\">Regeneration(+2)</link></u> will gain <u><link=\"regeneration\">Regeneration(5+)</link></u>.\n<u><link=\"regeneration\">Regeneration</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"attacks\">attacks</link></u> with <u><link=\"flaming_attacks\">Flaming Attacks</link></u>, nor against <u><link=\"attacks\">attacks</link></u> with <u><link=\"lethal_strike\">Lethal Strike</link></u> that roll a natural ‘6’ to wound."
   },
@@ -997,7 +997,7 @@
   },
   {
     "Id": "rulebook-channel",
-    "Name": "Channel (1)",
+    "Name": "Channel",
     "Type": "Global",
     "Description": "During <u><link=\"siphon_the_veil\">Siphon the Veil</link></u>, each of the Active Player’s <u><link=\"model\">models</link></u> with <u><link=\"channel\">Channel</link></u> may gain ‘X’ Magic <u><link=\"dice\">Dice</link></u>.\nNote, <u><link=\"shaken\">Shaken</link></u> <u><link=\"model\">models</link></u> may not use <u><link=\"channel\">Channel</link></u>."
   },
@@ -1027,13 +1027,13 @@
   },
   {
     "Id": "er-bubonic_brew",
-    "Name": "Bubonic Brew (4+)",
+    "Name": "Bubonic Brew",
     "Type": "Equipment",
     "Description": "Catapult(6×6). Range 12--60\", Shots 1, Str 1, AP 10.  Units that suffer one or more Health Point losses from a Shooting Attack made with this weapon count as having the Sacred Plague <u><link=\"dread_rot\">Dread Rot</link></u> successfully cast on them."
   },
   {
     "Id": "rulebook-extra_support",
-    "Name": "Extra Support (3)",
+    "Name": "Extra Support",
     "Type": "Equipment",
     "Description": "The <u><link=\"model\">model</link></u> part replaces the limit on the maximum number of <u><link=\"attacks\">Attacks</link></u> that can be done as Restricted <u><link=\"attacks\">Attacks</link></u> with the value in brackets (X), or if it includes a +, increases the limit with +X."
   },
@@ -1177,7 +1177,7 @@
   },
   {
     "Id": "rulebook-protean_magic",
-    "Name": "Protean Magic (2)",
+    "Name": "Protean Magic",
     "Type": "Global",
     "Description": "The <u><link=\"model\">model</link></u> knows X Learned <u><link=\"spells\">Spells</link></u> and is a Wizard. It does not choose a Path of Magic, instead it can select the Apprentice Spell (#1) from all Paths available to it. See Battle Preparation chapter for details."
   },
@@ -1207,7 +1207,7 @@
   },
   {
     "Id": "rulebook-resistance",
-    "Name": "Resistance ( against Attacks From Front Facing)",
+    "Name": "Resistance",
     "Type": "Defense",
     "Description": "<u><link=\"attacks\">Attacks</link></u> allocated against the <u><link=\"model\">model’s</link></u> Health Pool must reroll successful <u><link=\"towound_rolls\">to-wound rolls</link></u>."
   },
@@ -1225,7 +1225,7 @@
   },
   {
     "Id": "rulebook-multiple_wounds",
-    "Name": "Multiple Wounds (2, towards Characters)",
+    "Name": "Multiple Wounds",
     "Type": "Equipment",
     "Description": "Unsaved wounds caused by the attack are multiplied into the value given in brackets (X). If the value is a <u><link=\"dice\">dice</link></u>, roll one <u><link=\"dice\">dice</link></u> for each unsaved wound from an attack with <u><link=\"multiple_wounds\">Multiple Wounds</link></u>. The amount of wounds that the attack is multiplied into can never be higher than the Health Points Characteristic of the target, excluding Health Points lost previously in the battle.\nFor example, if a <u><link=\"multiple_wounds\">Multiple Wounds(D6)</link></u> attack wounds a unit of Trolls (HP 3) and rolls a ‘5’ for the multiplier, the number of unsaved wounds is reduced to 3, even if the Troll unit has already lost one or two Health Points previously in battle."
   },
@@ -1243,19 +1243,19 @@
   },
   {
     "Id": "rulebook-grind_attack",
-    "Name": "Grind Attack (3)",
+    "Name": "Grind Attack",
     "Type": "Equipment",
     "Description": "The <u><link=\"model\">model</link></u> part can make a Special Attack which is resolved with the <u><link=\"model\">model</link></u> part’s Agility, and inflicts X hits, using the <u><link=\"model\">model</link></u> part’s Strength, Armour Penetration, and <u><link=\"attack_attributes\">Attack Attributes</link></u>, but not <u><link=\"weapons\">Weapons</link></u>.\nRemember that <u><link=\"attacks\">attacks</link></u> multiplied into several hits are allocated after establishing how many hits are scored (i.e. after the attack has hit)."
   },
   {
     "Id": "dl-energy_bolts",
-    "Name": "Energy Bolts (4+)",
+    "Name": "Energy Bolts",
     "Type": "Equipment",
     "Description": "<u><link=\"energy_bolts\">Energy Bolts</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"energy_bolts\">Energy Bolts</link></u>424\"150-"
   },
   {
     "Id": "dl-smother",
-    "Name": "Smother (1)",
+    "Name": "Smother",
     "Type": "Equipment",
     "Description": "Melee Attacks towards a model with  Height X  gain +1 to hit and +1 to wound."
   },
@@ -1267,7 +1267,7 @@
   },
   {
     "Id": "dl-dark_fire",
-    "Name": "Dark Fire (3+)",
+    "Name": "Dark Fire",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack Attributes<u><link=\"dark_fire\">Dark Fire</link></u>X18\"240Armour Save rolls of ‘1’, ‘2’, ‘3’, and ‘4’ are always considered failed when saving wounds caused by <u><link=\"dark_fire\">Dark Fire</link></u>. Magical Attacks\nArmour Save rolls of ‘1’, ‘2’, ‘3’, and ‘4’ are always considered failed when saving wounds caused by <u><link=\"dark_fire\">Dark Fire</link></u>."
   },
@@ -1321,7 +1321,7 @@
   },
   {
     "Id": "dl-aether_battery",
-    "Name": "Aether Battery (3+)",
+    "Name": "Aether Battery",
     "Type": "Equipment",
     "Description": "If the model did not move this turn, the number of Shots gain Maximised.\nAether BatteryNameAimRangeShotsStrAPAttack AttributesAeth. Battery318\"3D641If the model did not move this turn, the number of Shots gain Maximised.\n"
   },
@@ -1441,7 +1441,7 @@
   },
   {
     "Id": "rulebook-first_strike",
-    "Name": "First Strike (Artistry of Death)",
+    "Name": "First Strike",
     "Type": "Equipment",
     "Description": "During the First Round of Combat, <u><link=\"model\">model</link></u> parts with <u><link=\"first_strike\">First Strike</link></u>, or using a weapon with <u><link=\"first_strike\">First Strike</link></u>, gains the rules and Characteristic <u><link=\"modifiers\">modifiers</link></u> stated in brackets. For example, a <u><link=\"model\">model</link></u> part with <u><link=\"first_strike\">First Strike(+1 Str)</link></u> gains +1 Str in the first round of combat."
   },
@@ -1453,13 +1453,13 @@
   },
   {
     "Id": "rulebook-zeal",
-    "Name": "Zeal (towards Characters)",
+    "Name": "Zeal",
     "Type": "Equipment",
     "Description": "An attack with <u><link=\"zeal\">Zeal</link></u> must reroll failed <u><link=\"towound_rolls\">to-wound rolls</link></u>."
   },
   {
     "Id": "de-repeater_handbow",
-    "Name": "Repeater Handbow (2+)",
+    "Name": "Repeater Handbow",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater HandbowX12\"231*Quick to Fire, Accurate, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
   },
@@ -1483,13 +1483,13 @@
   },
   {
     "Id": "de-repeater_crossbow",
-    "Name": "Repeater Crossbow (3+)",
+    "Name": "Repeater Crossbow",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater CrossbowX18\"231**Attacks made at  Long Range have their AP set to 0."
   },
   {
     "Id": "rulebook-afflict",
-    "Name": "Afflict (-1 Dis)",
+    "Name": "Afflict",
     "Type": "Global",
     "Description": "Units in contact with one or more enemy <u><link=\"model\">models</link></u> with <u><link=\"afflict\">Afflict(X)</link></u>, suffer the effects given by X.\nA unit can only be affected by one instance of each <u><link=\"afflict\">Afflict(X)</link></u>, provided that the X in brackets is identical. If the brackets from two instances of <u><link=\"afflict\">Afflict</link></u> are not identical, i.e. different X, then they are considered different rules and the effects from both are applied."
   },
@@ -1507,7 +1507,7 @@
   },
   {
     "Id": "rulebook-sweeping_attack",
-    "Name": "Sweeping Attack (1)",
+    "Name": "Sweeping Attack",
     "Type": "Equipment",
     "Description": "When a <u><link=\"model\">model</link></u> with <u><link=\"sweeping_attack\">Sweeping Attack</link></u> is within 1\" of an unengaged enemy unit during a Move Manoeuvre (even temporarily), the <u><link=\"model\">model’s</link></u> unit may perform a <u><link=\"sweeping_attack\">Sweeping Attack</link></u> against that enemy unit. This can only be used once per friendly Player Turn. Resolve the <u><link=\"sweeping_attack\">Sweeping Attack</link></u> when the Move Manoeuvre is completed.\nThe attack hits automatically, and counts as a Ranged Attack. Each <u><link=\"model\">model</link></u> in the unit with <u><link=\"sweeping_attack\">Sweeping Attack</link></u> must use its <u><link=\"sweeping_attack\">Sweeping Attack</link></u> against the same enemy unit. The <u><link=\"sweeping_attack\">Sweeping Attack</link></u> hits automatically, causing a number of hits as defined in the brackets (X hits). These hits are resolved with the <u><link=\"model\">model</link></u> part’s Strength, Armour Penetration and <u><link=\"attack_attributes\">Attack Attributes</link></u>, but not <u><link=\"weapons\">Weapons</link></u>.\nIf values for Strength, Armour Penetration and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in the bracket (Y), these are used instead. In this case, note that characteristics <u><link=\"modifiers\">modifiers</link></u> and <u><link=\"attack_attributes\">Attack Attributes</link></u> on the <u><link=\"model\">model</link></u> part itself do not affect this attack."
   },
@@ -1531,7 +1531,7 @@
   },
   {
     "Id": "de-harpoon_launcher",
-    "Name": "Harpoon Launcher (3+)",
+    "Name": "Harpoon Launcher",
     "Type": "Equipment",
     "Description": "Units that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>318\"363Accurate, Quick to Fire, <u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\nUnits that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n"
   },
@@ -1543,7 +1543,7 @@
   },
   {
     "Id": "de-daeb_bolt_thrower",
-    "Name": "Daeb Bolt Thrower (3+)",
+    "Name": "Daeb Bolt Thrower",
     "Type": "Equipment",
     "Description": " - \nRange 24\", Shots 8, Str 5, AP 2.\nNote that the model can move and shoot.\n<u><link=\"daeb_bolt_thrower\">Daeb Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"daeb_bolt_thrower\">Daeb Bolt Thrower</link></u>324\"852 - \nRange 24\", Shots 8, Str 5, AP 2.\nNote that the model can move and shoot.\n"
   },
@@ -1687,7 +1687,7 @@
   },
   {
     "Id": "df-repeater_handbow",
-    "Name": "Repeater Handbow (3, 2+)",
+    "Name": "Repeater Handbow",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater HandbowX12\"231*Quick to Fire, Accurate, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
   },
@@ -1831,7 +1831,7 @@
   },
   {
     "Id": "dh-ancient_grudge",
-    "Name": "Ancient Grudge (1)",
+    "Name": "Ancient Grudge",
     "Type": "Global",
     "Description": "During Pre-game Selections, a Dwarven Holds army marks units on the opponent's Army List with Grudge Markers (note that Characters can be marked, too). The number of Grudge Markers placed is equal to the number of instances of <u><link=\"ancient_grudge\">Ancient Grudge</link></u> on units in your Army List.\nAll models with Dwarf in your army gain First Strike(Hatred(towards units with a Grudge Marker))."
   },
@@ -1855,19 +1855,19 @@
   },
   {
     "Id": "rulebook-engineer",
-    "Name": "Engineer (Field Artillery)",
+    "Name": "Engineer",
     "Type": "Global",
     "Description": "Once during each <u><link=\"shooting_phase\">Shooting Phase</link></u>, a non-Shaken and Unengaged <u><link=\"model\">model</link></u> with <u><link=\"engineer\">Engineer</link></u> can select a friendly <u><link=\"model\">model</link></u> with X in a unit within 6\" of it.\nThe chosen <u><link=\"model\">model</link></u> gains +1 to hit with Shooting <u><link=\"attacks\">Attacks</link></u>, to a maximum of 3+. No <u><link=\"model\">model</link></u> can be affected by more than one instance of this effect simultaneously.\nThe usage of this must be declared before shooting with the chosen <u><link=\"model\">model</link></u>."
   },
   {
     "Id": "rulebook-crossbow",
-    "Name": "Crossbow (4+)",
+    "Name": "Crossbow",
     "Type": "Equipment",
     "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"unwieldy\">Unwieldy</link></u>"
   },
   {
     "Id": "rulebook-resolute",
-    "Name": "Resolute (1)",
+    "Name": "Resolute",
     "Type": "Global",
     "Description": "A unit containing <u><link=\"resolute\">Resolute</link></u>, that has at least one Proper Rank is considered to have X additional Proper Ranks, when Engaged."
   },
@@ -1897,13 +1897,13 @@
   },
   {
     "Id": "dh-forge_repeater",
-    "Name": "Forge Repeater (4+)",
+    "Name": "Forge Repeater",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesForge Repeater418\"452Flaming Attacks, Quick to Fire"
   },
   {
     "Id": "dh-forge_gun",
-    "Name": "\n\t\tForge Gun (3+)",
+    "Name": "\n\t\tForge Gun",
     "Type": "Equipment",
     "Description": "<u><link=\"forge_gun\">Forge Gun</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"forge_gun\">Forge Gun</link></u>318\"140March and Shoot, Flaming Attacks, Stand and Shoot, Always hits on 3+\n"
   },
@@ -1999,7 +1999,7 @@
   },
   {
     "Id": "rulebook-ice_and_fire",
-    "Name": "Ice and Fire (Cosmology)",
+    "Name": "Ice and Fire",
     "Type": "Global",
     "Description": "The target suffers 2D6 hits with Str 4, AP 0, and <u><link=\"magical_attacks\">Magical Attacks</link></u>. Successful [𝛼] against wounds caused by this spell must be rerolled.\\\n[𝛼]: Special Saves[𝛽]: <u><link=\"armour_saves\">Armour Saves</link></u>"
   },
@@ -2023,13 +2023,13 @@
   },
   {
     "Id": "rulebook-handgun",
-    "Name": "Handgun (4+)",
+    "Name": "Handgun",
     "Type": "Equipment",
     "Description": "Range 24\", Shots 1, Str 4, AP 2, <u><link=\"unwieldy\">Unwieldy</link></u>"
   },
   {
     "Id": "rulebook-pistol",
-    "Name": "Pistol (4+)",
+    "Name": "Pistol",
     "Type": "Equipment",
     "Description": "Range 12\", Shots 1, Str 4, AP 2, <u><link=\"quick_to_fire\">Quick to Fire</link></u>"
   },
@@ -2047,7 +2047,7 @@
   },
   {
     "Id": "eos-brace_of_pistols",
-    "Name": "Brace of Pistols (4+)",
+    "Name": "Brace of Pistols",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesBrace of PistolsX12\"242Stand and Shoot, Quick to Fire, Counts as Paired Weapons when Engaged in Combat\nCounts as Paired Weapons when Engaged in Combat"
   },
@@ -2059,7 +2059,7 @@
   },
   {
     "Id": "eos-imperial_rocketeer",
-    "Name": "Imperial Rocketeer (5+)",
+    "Name": "Imperial Rocketeer",
     "Type": "Equipment",
     "Description": " - Shooting Weapon\nNameAimRangeShotsStrAPAttack AttributesImperial Rocketeer548\"363Artillery, Multiple Wounds(2)"
   },
@@ -2071,7 +2071,7 @@
   },
   {
     "Id": "eos-steam_cannon",
-    "Name": "Steam Cannon (3+)",
+    "Name": "Steam Cannon",
     "Type": "Equipment",
     "Description": " - Shooting Weapon\nNameAimRangeShotsStrAPAttack AttributesSteam Cannon336\"152Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1)), Unwieldy(1)"
   },
@@ -2137,7 +2137,7 @@
   },
   {
     "Id": "he-ancient_allies",
-    "Name": "Ancient Allies (1)",
+    "Name": "Ancient Allies",
     "Type": "Global",
     "Description": "Units marked <u><link=\"ancient_allies\">Ancient Allies</link></u> count toward this category.The sum of the 1 per 1500 Army Points (round fractions up)\nFor example, at 4000 Army Points the Army List is restricted to <u><link=\"ancient_allies\">Ancient Allies(3)</link></u>.\nvalues stated in brackets of all models in the army is restricted to ."
   },
@@ -2161,7 +2161,7 @@
   },
   {
     "Id": "rulebook-longbow",
-    "Name": "Longbow (3+)",
+    "Name": "Longbow",
     "Type": "Equipment",
     "Description": "Range 30\", Shots 1, Str 3, AP 0, "
   },
@@ -2209,7 +2209,7 @@
   },
   {
     "Id": "he-elven_bolt_thrower",
-    "Name": "Elven Bolt Thrower (3+)",
+    "Name": "Elven Bolt Thrower",
     "Type": "Equipment",
     "Description": "This Shooting Weapon can be fired in two ways:\n<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u>348\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\n<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u>348\"642\n"
   },
@@ -2221,7 +2221,7 @@
   },
   {
     "Id": "he-sky_reaper",
-    "Name": "Sky Reaper (3+)",
+    "Name": "Sky Reaper",
     "Type": "Equipment",
     "Description": "<u><link=\"sky_reaper\">Sky Reaper</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"sky_reaper\">Sky Reaper</link></u>324\"453Quick to Fire"
   },
@@ -2329,13 +2329,13 @@
   },
   {
     "Id": "hg-ballista",
-    "Name": "Ballista (4+)",
+    "Name": "Ballista",
     "Type": "Equipment",
     "Description": "Range 48\", Shots 1, Str 3 [6], AP 10, [Multiple Wounds(D3)], Area Attack(1×5)."
   },
   {
     "Id": "hg-saddle_cannon",
-    "Name": "Saddle Cannon (4+)",
+    "Name": "Saddle Cannon",
     "Type": "Equipment",
     "Description": " - Shooting Weapon\nRange 24\", Shots D6, Str 4, AP 2, Quick to Fire."
   },
@@ -2353,7 +2353,7 @@
   },
   {
     "Id": "rulebook-commanding_presence",
-    "Name": "Commanding Presence (6\", Insignificant)",
+    "Name": "Commanding Presence",
     "Type": "Global",
     "Description": "Friendly <u><link=\"model\">models</link></u> in units within 12\" of a non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"commanding_presence\">Commanding Presence</link></u> set their Discipline to that <u><link=\"model\">model’s</link></u> Discipline. (Ignore if their original value is higher.) Apply any <u><link=\"modifiers\">modifiers</link></u> to the Discipline of the <u><link=\"model\">model</link></u> with <u><link=\"commanding_presence\">Commanding Presence</link></u> first, then set any affected <u><link=\"model\">models</link></u>' Discipline to that modified value.\nIf rules, <u><link=\"properties\">properties</link></u>, unit names etc. are mentioned in brackets following this rule \"(X)\", it means that only units possessing these qualities can benefit from the <u><link=\"model\">model’s</link></u> <u><link=\"commanding_presence\">Commanding Presence</link></u>."
   },
@@ -2377,7 +2377,7 @@
   },
   {
     "Id": "id-flintlock_axe",
-    "Name": "Flintlock Axe (2+)",
+    "Name": "Flintlock Axe",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesFlintlock AxeX18\"142Counts as Halberd when Engaged in Combat \nCounts as Halberd when Engaged in Combat "
   },
@@ -2419,13 +2419,13 @@
   },
   {
     "Id": "rulebook-weakness",
-    "Name": "Weakness (Flaming Attacks)",
+    "Name": "Weakness",
     "Type": "Global",
     "Description": "<u><link=\"attacks\">Attacks</link></u> allocated against the <u><link=\"model\">model’s</link></u> Health Pool must reroll failed <u><link=\"towound_rolls\">to-wound rolls</link></u>."
   },
   {
     "Id": "id-oil_flasks",
-    "Name": "Oil Flasks (2)",
+    "Name": "Oil Flasks",
     "Type": "Equipment",
     "Description": "A Health Pool can use <u><link=\"oil_flasks\">Oil Flasks</link></u> X times. Each use reduces X by 1, and when X is 0, the rule cannot be used. Before rolling to hit with an attack using <u><link=\"oil_flasks\">Oil Flasks</link></u>, you may declare that the rule is used.\nWhen using <u><link=\"oil_flasks\">Oil Flasks</link></u>, apply the following rules:\nAfter resolving all simultaneous attacks, any unit hit by at least one attack with <u><link=\"oil_flasks\">Oil Flasks</link></u> gains <u><link=\"incendiary\">Incendiary</link></u>."
   },
@@ -2455,13 +2455,13 @@
   },
   {
     "Id": "id-volcanic_embrace",
-    "Name": "Volcanic Embrace (1)",
+    "Name": "Volcanic Embrace",
     "Type": "Equipment",
     "Description": "The model part gains Grind Attack(X* hits, AP 4, Flaming Attacks, Magical Attacks, Unmodifiable, Zeal(against Metal Armour)).\n*These hits always wound on a 4+."
   },
   {
     "Id": "id-vassal_slingshot",
-    "Name": "Vassal Slingshot (4+)",
+    "Name": "Vassal Slingshot",
     "Type": "Equipment",
     "Description": "<u><link=\"vassal_slingshot\">Vassal Slingshot</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"vassal_slingshot\">Vassal Slingshot</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), <u><link=\"oil_flasks\">Oil Flasks(4)</link></u>\n"
   },
@@ -2629,7 +2629,7 @@
   },
   {
     "Id": "rulebook-throwing_weapons",
-    "Name": "Throwing Weapons (5+)",
+    "Name": "Throwing Weapons",
     "Type": "Equipment",
     "Description": "Range 8\", Shots 2, Str as user, AP as user, <u><link=\"accurate\">Accurate</link></u>, <u><link=\"quick_to_fire\">Quick to Fire</link></u>, <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>"
   },
@@ -2665,7 +2665,7 @@
   },
   {
     "Id": "koe-scorpion",
-    "Name": "\n    Scorpion\n       (4+)",
+    "Name": "\n    Scorpion",
     "Type": "Global",
     "Description": "    <u><link=\"scorpion\">Scorpion</link></u>\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scorpion\">Scorpion</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\nTrebuchet\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesTrebuchet448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
   },
@@ -2737,7 +2737,7 @@
   },
   {
     "Id": "scorpion",
-    "Name": "\n    Scorpion\n      ",
+    "Name": "\n    Scorpion",
     "Type": "General",
     "Description": "    <u><link=\"scorpion\">Scorpion</link></u>\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scorpion\">Scorpion</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\nTrebuchet\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesTrebuchet448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
   },
@@ -2809,7 +2809,7 @@
   },
   {
     "Id": "mh-recurve_bow",
-    "Name": "Recurve Bow (3+)",
+    "Name": "Recurve Bow",
     "Type": "Equipment",
     "Description": "Bow. Attacks made with a <u><link=\"recurve_bow\">Recurve Bow</link></u> gain Quick to Fire. Furthermore, when shooting from Short Range, they gain +1 to hit and +1 Armour Penetration."
   },
@@ -2893,7 +2893,7 @@
   },
   {
     "Id": "ok-hunting_spear",
-    "Name": "Hunting Spear (2+)",
+    "Name": "Hunting Spear",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesHunting SpearX12\"1User +1User +1Quick to Fire, March and Shoot, Multiple Wounds(D3, towards Height 5)"
   },
@@ -2911,31 +2911,31 @@
   },
   {
     "Id": "ok-brace_of_ogre_pistols",
-    "Name": "Brace of Ogre Pistols (4+)",
+    "Name": "Brace of Ogre Pistols",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesBrace of Ogre PistolsX24\"242Stand and Shoot, Quick to Fire. Counts as Paired Weapons in Combat"
   },
   {
     "Id": "ok-thunder_cannon",
-    "Name": "Thunder Cannon (4+)",
+    "Name": "Thunder Cannon",
     "Type": "Equipment",
     "Description": "<u><link=\"thunder_cannon\">Thunder Cannon</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"thunder_cannon\">Thunder Cannon</link></u>448\"152Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))"
   },
   {
     "Id": "ok-scratapult",
-    "Name": "Scratapult (4+)",
+    "Name": "Scratapult",
     "Type": "Equipment",
     "Description": "<u><link=\"scratapult\">Scratapult</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scratapult\">Scratapult</link></u>448\"141Artillery, Area Attack(3×3), Lethal Strike"
   },
   {
     "Id": "ok-hand_cannon",
-    "Name": "Hand Cannon (5+)",
+    "Name": "Hand Cannon",
     "Type": "Equipment",
     "Description": "<u><link=\"hand_cannon\">Hand Cannon</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"hand_cannon\">Hand Cannon</link></u>512\"353Accurate, March and Shoot, Stand and Shoot, Quick to Fire"
   },
   {
     "Id": "ok-ogre_crossbow",
-    "Name": "Ogre Crossbow (3+)",
+    "Name": "Ogre Crossbow",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesOgre CrossbowX30\"131Area Attack(1×5), Direct Hit(Str 6, AP 2)"
   },
@@ -3037,7 +3037,7 @@
   },
   {
     "Id": "ong-force_of_destruction",
-    "Name": "Force of Destruction (2D6)",
+    "Name": "Force of Destruction",
     "Type": "Equipment",
     "Description": "The model must perform a move in the Movement Phase if able to, and cannot declare any Charges; other units cannot Declare any Charges against the model. The model and other units ignore each other regarding the Unit Spacing rule for all movement and can touch and move through one another during any movement (excluding Ambush).\nWhen the model touches another unit, the model is immediately removed as a casualty, and the other unit immediately suffers X hits with the model's Str and AP. If several units are touched simultaneously, the owner of the model with <u><link=\"force_of_destruction\">Force of Destruction</link></u> chooses which unit suffers the hits.\nIf the model was removed due to another unit moving into contact with it, that unit suffers an additional D6 hits.\n\nHealth Point losses caused by <u><link=\"force_of_destruction\">Force of Destruction</link></u> in the Charge Phase do not cause Panic Test."
   },
@@ -3067,7 +3067,7 @@
   },
   {
     "Id": "ong-skewerer",
-    "Name": "Skewerer (4+)",
+    "Name": "Skewerer",
     "Type": "Global",
     "Description": "The model's base is changed to 60×60 mm."
   },
@@ -3169,7 +3169,7 @@
   },
   {
     "Id": "sa-poisoned_javelin",
-    "Name": "Poisoned Javelin (4+)",
+    "Name": "Poisoned Javelin",
     "Type": "Equipment",
     "Description": "\nNameAimRangeShotsStrAPAttack AttributesPoisoned JavelinX12\"1UserUserStand and Shoot, Poison Attacks, Quick to Fire"
   },
@@ -3187,7 +3187,7 @@
   },
   {
     "Id": "sa-magnetic_short_bow",
-    "Name": "Magnetic Short Bow (3+)",
+    "Name": "Magnetic Short Bow",
     "Type": "Equipment",
     "Description": "Bow, Range is set to 18\", +1 to hit against Metal Armour, AP is set to 1."
   },
@@ -3235,7 +3235,7 @@
   },
   {
     "Id": "se-sylvan_beasts",
-    "Name": "Sylvan Beasts (2)",
+    "Name": "Sylvan Beasts",
     "Type": "Global",
     "Description": "The sum of the <u><link=\"sylvan_beasts\">Sylvan Beasts</link></u> values stated in brackets of all models in the army is restricted to 1 per 1500 Army Points, rounding fractions up."
   },
@@ -3277,7 +3277,7 @@
   },
   {
     "Id": "se-sylvan_bow",
-    "Name": "Sylvan Bow (3+)",
+    "Name": "Sylvan Bow",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesSylvan BowX30\"141Quick to Fire.\n"
   },
@@ -3301,7 +3301,7 @@
   },
   {
     "Id": "se-big_game_hunters",
-    "Name": "Big Game Hunters (Shooting)",
+    "Name": "Big Game Hunters",
     "Type": "Equipment",
     "Description": "    When rolling to wound against a Health Pool with Height 5, the Attack always wounds on at least 4+."
   },
@@ -3415,7 +3415,7 @@
   },
   {
     "Id": "ud-great_aspis_bow",
-    "Name": "Great Aspis Bow (4+)",
+    "Name": "Great Aspis Bow",
     "Type": "Equipment",
     "Description": "NameAimRangeShotsStrAPAttack AttributesGreat Aspis BowX36\"152Aspis Arrows, Shoot in Extra Rank."
   },
@@ -3427,7 +3427,7 @@
   },
   {
     "Id": "ud-charnel_catapult",
-    "Name": "Charnel Catapult (4+)",
+    "Name": "Charnel Catapult",
     "Type": "Equipment",
     "Description": "If this weapon causes any HP loss, the target must immediately take a Panic Test.\n<u><link=\"charnel_catapult\">Charnel Catapult</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"charnel_catapult\">Charnel Catapult</link></u>448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2)).\nIf this weapon causes any HP loss, the target must immediately take a Panic Test.\n"
   },
@@ -3475,7 +3475,7 @@
   },
   {
     "Id": "vc-awaken",
-    "Name": "Awaken (Zombies)",
+    "Name": "Awaken",
     "Type": "Global",
     "Description": "The model can Raise Health Points above a unit's starting size for the units stated within brackets (X). However, units cannot be increased beyond twice their starting size or beyond the unmodified maximum unit size  (that is printed in their unit entry). A unit's starting size is the size of the unit as written on the Army List or the size of the unit when it is Summoned."
   },
@@ -3493,7 +3493,7 @@
   },
   {
     "Id": "vc-vampiric",
-    "Name": "Vampiric (6+)",
+    "Name": "Vampiric",
     "Type": "Equipment",
     "Description": "At the end of each Melee Phase, check and resolve the following effects for all models with <u><link=\"vampiric\">Vampiric</link></u>:\n-   Character -- If at least one attack with <u><link=\"vampiric\">Vampiric</link></u> made by the Character caused an unsaved wound against enemy units, the Character can make a single <u><link=\"vampiric\">Vampiric</link></u> roll. If successful, the Character's model Recovers a single HP.\n-   Rank-and-File model -- If at least one attack with <u><link=\"vampiric\">Vampiric</link></u> made by a Rank-and-File model in the unit caused an unsaved wound against enemy units, the unit can make a single <u><link=\"vampiric\">Vampiric</link></u> roll. If successful, the unit Raises a single HP.\nA <u><link=\"vampiric\">Vampiric</link></u> roll is successful if the D6 scores X+, where X is the number stated within brackets. If a unit or Character has multiple model parts with this Attack Attribute that each caused unsaved wounds, use the best value."
   },
@@ -3715,7 +3715,7 @@
   },
   {
     "Id": "vs-sling",
-    "Name": "Sling (4+)",
+    "Name": "Sling",
     "Type": "Equipment",
     "Description": "+1 Str when shooting not at Long Range.\n<u><link=\"sling\">Sling</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"sling\">Sling</link></u>418\"130+1 Str when shooting not at Long Range., Quick to Fire"
   },
@@ -3733,7 +3733,7 @@
   },
   {
     "Id": "vs-jezail",
-    "Name": "Jezail (4+)",
+    "Name": "Jezail",
     "Type": "Global",
     "Description": "Max. 18 models/army.\nNameAimRangeShotsStrAPAttack AttributesJezailX36\"153Accurate, Unwieldy(1), <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm(To-hit roll)</link></u>"
   },
@@ -3745,7 +3745,7 @@
   },
   {
     "Id": "vs-deepfire_grenades",
-    "Name": "Deepfire Grenades (5+)",
+    "Name": "Deepfire Grenades",
     "Type": "Equipment",
     "Description": "When shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>58\"262Accurate, Flaming Attacks, Quick to Fire,  <u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>\n<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>\nWhen shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n"
   },
@@ -3757,13 +3757,13 @@
   },
   {
     "Id": "vs-skorchit_ordnance",
-    "Name": "\n\t\tSkorchit Ordnance (4+)",
+    "Name": "\n\t\tSkorchit Ordnance",
     "Type": "Global",
     "Description": "<u><link=\"skorchit_ordnance\">Skorchit Ordnance</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"skorchit_ordnance\">Skorchit Ordnance</link></u>548\"141Artillery, Flaming Attacks, Area Attack(3×3)\nRakachit Mauss Rifle - Shooting Weapon\nNameAimRangeShotsStrAPAttack AttributesRakachit Mauss Rifle548\"152Artillery, Lightning Attacks, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))\n"
   },
   {
     "Id": "vs-maniacal_enthusiasm",
-    "Name": "Maniacal Enthusiasm (To-hit roll)",
+    "Name": "Maniacal Enthusiasm",
     "Type": "Equipment",
     "Description": "When models in a unit make a dice roll of the type defined in brackets (X), after seeing the result(s) of all simultaneous rolls for X, and rolling eventual re-rolls, you may choose to add 2 to X for all simultaneous rolls with this attribute.\nIf this modifier is used, immediately roll a D6 and consult the table below:\n-   1--2 Oops: Change the target of all simultaneous Attacks or a spell with <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm</link></u> to a friendly unit within Range chosen by the controlling player. The model’s own unit is always an eligible target.\n-   3--4 Room for Improvement: After fully resolving the simultaneous Attacks or a spell that triggered the roll on this table, the model’s unit suffers 3 hits with Str 4 and AP 10.\n-   5--6 Glorious Success!: No additional effect.\n"
   },

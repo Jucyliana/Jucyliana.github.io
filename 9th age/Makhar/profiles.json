@@ -1,6 +1,6 @@
 [
   {
-    "Id": "7ec81010-1bad-4574-a597-ea58868ae412",
+    "Id": "1d98349f-19b7-458b-8392-5e8314c9949e",
     "Name": "Black Stallion",
     "Attributes": {
       "type": "",
@@ -8,11 +8,11 @@
       "totalcost": "150"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -23,10 +23,10 @@
           "Ma": "16",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Black Stallion",
@@ -36,7 +36,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Stallion",
@@ -47,9 +47,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -65,7 +65,7 @@
     }
   },
   {
-    "Id": "3cfd889f-602f-4280-a3d1-4a565a2a870b",
+    "Id": "b79f8723-daf7-4d37-9546-674eed815266",
     "Name": "Black Steed (2)",
     "Attributes": {
       "type": "",
@@ -73,13 +73,13 @@
       "totalcost": "160"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -90,11 +90,11 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -104,7 +104,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed (2)",
@@ -115,9 +115,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -128,9 +128,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -146,7 +146,7 @@
     }
   },
   {
-    "Id": "2bacd3d7-aded-4a6a-87d7-3e630dab5deb",
+    "Id": "74ee5a61-97b7-46c3-bf52-11a4f5ae9c64",
     "Name": "Great Elk",
     "Attributes": {
       "type": "",
@@ -154,12 +154,12 @@
       "totalcost": "160"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-strider",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -170,11 +170,11 @@
           "Ma": "16",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-strider",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Great Elk",
@@ -184,7 +184,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Great Elk",
@@ -195,9 +195,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -213,7 +213,7 @@
     }
   },
   {
-    "Id": "012bdf75-5229-44e2-a2ea-572692fd65a5",
+    "Id": "df627696-33ab-43fe-bc00-076fee96da2c",
     "Name": "Wasteland Behemoth",
     "Attributes": {
       "type": "",
@@ -221,11 +221,11 @@
       "totalcost": "420"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -236,10 +236,10 @@
           "Ma": "14",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Wasteland Behemoth",
@@ -249,7 +249,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wasteland Behemoth",
@@ -260,9 +260,9 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -278,15 +278,15 @@
     }
   },
   {
-    "Id": "68109497229aecc8c39dd571",
+    "Id": "6810a3e6583a6c61de56f4da",
     "Name": "Táltos",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -297,10 +297,10 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Táltos",
@@ -310,7 +310,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Táltos",
@@ -321,9 +321,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -339,7 +339,7 @@
     }
   },
   {
-    "Id": "32902d55-54c2-49b9-b956-cd872f5983e0",
+    "Id": "722ac779-9842-44b7-bb59-ba774a276c18",
     "Name": "War Dais",
     "Attributes": {
       "type": "",
@@ -347,10 +347,10 @@
       "totalcost": "145"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -361,9 +361,9 @@
           "Ma": "8",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "War Dais",
@@ -373,7 +373,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "War Dais",
@@ -384,9 +384,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -402,7 +402,7 @@
     }
   },
   {
-    "Id": "2cd58179-9200-423b-b238-612fe8da1c9a",
+    "Id": "5fbcb273-b1b8-4779-bf83-f5676a570b0b",
     "Name": "Shadow Chaser",
     "Attributes": {
       "type": "",
@@ -410,13 +410,13 @@
       "totalcost": "170"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -427,12 +427,12 @@
           "Ma": "20",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -442,7 +442,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Shadow Chaser",
@@ -453,9 +453,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -471,7 +471,7 @@
     }
   },
   {
-    "Id": "e7f1e1cd-1462-44d7-adde-7ebb4d78182b",
+    "Id": "c3ce499f-e128-47c5-8b7c-affd50458ad3",
     "Name": "Black Stallion",
     "Attributes": {
       "type": "",
@@ -479,10 +479,10 @@
       "totalcost": "180"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -493,9 +493,9 @@
           "Ma": "16",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Black Stallion",
@@ -505,7 +505,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Stallion",
@@ -516,9 +516,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -534,7 +534,7 @@
     }
   },
   {
-    "Id": "951fe64b-b180-4ef1-8231-9fd57bacbf68",
+    "Id": "df83bcbf-9250-4a42-a03f-a15b493e1587",
     "Name": "Great Elk",
     "Attributes": {
       "type": "",
@@ -542,11 +542,11 @@
       "totalcost": "190"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-strider",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -557,10 +557,10 @@
           "Ma": "16",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-strider": "Strider (Forest)"
+        }
       },
       {
         "Name": "Great Elk",
@@ -570,7 +570,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Great Elk",
@@ -581,9 +581,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -599,7 +599,7 @@
     }
   },
   {
-    "Id": "7f48e48b-d665-4007-a1d7-ecd6796a4a10",
+    "Id": "0dbb842f-12e3-44b5-aef1-6385145a1bea",
     "Name": "Black Steed (2)",
     "Attributes": {
       "type": "",
@@ -607,12 +607,12 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -623,10 +623,10 @@
           "Ma": "8",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -636,7 +636,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed (2)",
@@ -647,9 +647,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -660,9 +660,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -678,7 +678,7 @@
     }
   },
   {
-    "Id": "563c01f9-5c0c-4039-9ad0-23bee5c83803",
+    "Id": "0554e180-04b0-47d4-9980-19a919a8ed16",
     "Name": "Chimera",
     "Attributes": {
       "type": "",
@@ -686,10 +686,10 @@
       "totalcost": "230"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -700,9 +700,9 @@
           "Ma": "20",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Chimera",
@@ -712,7 +712,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Chimera",
@@ -723,9 +723,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -741,7 +741,7 @@
     }
   },
   {
-    "Id": "1e318e2d-f99d-4e0b-8918-0db4da16401b",
+    "Id": "b3250628-426c-480a-a1b8-876673df0a49",
     "Name": "Wasteland Behemoth",
     "Attributes": {
       "type": "",
@@ -749,10 +749,10 @@
       "totalcost": "430"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -763,9 +763,9 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Wasteland Behemoth",
@@ -775,7 +775,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wasteland Behemoth",
@@ -786,9 +786,9 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -804,15 +804,15 @@
     }
   },
   {
-    "Id": "68109497229aecc8c39dd669",
+    "Id": "6810a3e6583a6c61de56f5d2",
     "Name": "Makhar Gyula",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon",
-      "mh-deeds_not_words"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-deeds_not_words": "Deeds not Words"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -823,9 +823,9 @@
           "Ma": "8",
           "Di": "9"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Makhar Gyula",
@@ -835,7 +835,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Makhar Gyula",
@@ -846,10 +846,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-deeds_not_words"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-deeds_not_words": "Deeds not Words"
+        }
       }
     ],
     "Amount": {
@@ -865,22 +865,21 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd974",
+    "Id": "6810a3e7583a6c61de56f8dd",
     "Name": "Horse Archers Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-feigned_flight",
-      "mh-parting_shot",
-      "rulebook-hand_weapon",
-      "mh-recurve_bow",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "mh-parting_shot": "Parting Shot",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-recurve_bow": "Recurve Bow (3+)",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -891,13 +890,13 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-feigned_flight",
-          "mh-parting_shot"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "mh-parting_shot": "Parting Shot"
+        }
       },
       {
         "Name": "Horse Archers Champion",
@@ -907,9 +906,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Rider",
@@ -920,11 +919,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-recurve_bow",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-recurve_bow": "Recurve Bow (3+)",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Horse",
@@ -935,9 +934,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -953,23 +952,22 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd983",
+    "Id": "6810a3e7583a6c61de56f8ec",
     "Name": "Horse Archers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-feigned_flight",
-      "mh-parting_shot",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "mh-recurve_bow",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "mh-parting_shot": "Parting Shot",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-recurve_bow": "Recurve Bow (3+)",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -980,14 +978,14 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-feigned_flight",
-          "mh-parting_shot",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "mh-parting_shot": "Parting Shot",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Horse Archers Musician",
@@ -997,9 +995,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Rider",
@@ -1010,11 +1008,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-recurve_bow",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-recurve_bow": "Recurve Bow (3+)",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Horse",
@@ -1025,9 +1023,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1043,23 +1041,22 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd992",
+    "Id": "6810a3e7583a6c61de56f8fb",
     "Name": "Horse Archers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-feigned_flight",
-      "mh-parting_shot",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "mh-recurve_bow",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "mh-parting_shot": "Parting Shot",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-recurve_bow": "Recurve Bow (3+)",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1070,14 +1067,14 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-feigned_flight",
-          "mh-parting_shot",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "mh-parting_shot": "Parting Shot",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Horse Archers Standard Bearer",
@@ -1087,9 +1084,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Rider",
@@ -1100,11 +1097,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-recurve_bow",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-recurve_bow": "Recurve Bow (3+)",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Horse",
@@ -1115,9 +1112,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1133,22 +1130,21 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd964",
+    "Id": "6810a3e7583a6c61de56f8cd",
     "Name": "Horse Archers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-feigned_flight",
-      "mh-parting_shot",
-      "rulebook-hand_weapon",
-      "mh-recurve_bow",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "mh-parting_shot": "Parting Shot",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-recurve_bow": "Recurve Bow (3+)",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1159,13 +1155,13 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-feigned_flight",
-          "mh-parting_shot"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "mh-parting_shot": "Parting Shot"
+        }
       },
       {
         "Name": "Horse Archers",
@@ -1175,9 +1171,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Rider",
@@ -1188,11 +1184,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-recurve_bow",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-recurve_bow": "Recurve Bow (3+)",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Horse",
@@ -1203,9 +1199,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1221,15 +1217,14 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd9c4",
+    "Id": "6810a3e7583a6c61de56f92d",
     "Name": "Makhar Lancers Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1240,9 +1235,9 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Makhar Lancers Champion",
@@ -1252,7 +1247,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Makhar Lancer",
@@ -1263,9 +1258,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1276,9 +1271,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1294,16 +1289,15 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd9df",
+    "Id": "6810a3e7583a6c61de56f948",
     "Name": "Makhar Lancers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1314,10 +1308,10 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Makhar Lancers Musician",
@@ -1327,7 +1321,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Makhar Lancer",
@@ -1338,9 +1332,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1351,9 +1345,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1369,16 +1363,15 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd9fa",
+    "Id": "6810a3e8583a6c61de56f963",
     "Name": "Makhar Lancers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1389,10 +1382,10 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Makhar Lancers Standard Bearer",
@@ -1402,7 +1395,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Makhar Lancer",
@@ -1413,9 +1406,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1426,9 +1419,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1444,15 +1437,14 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dd99c",
+    "Id": "6810a3e7583a6c61de56f905",
     "Name": "Makhar Lancers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1463,9 +1455,9 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Makhar Lancers",
@@ -1475,7 +1467,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Makhar Lancer",
@@ -1486,9 +1478,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1499,9 +1491,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1517,15 +1509,15 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dda04",
+    "Id": "6810a3e8583a6c61de56f96d",
     "Name": "Steppe Wolfhounds",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1536,10 +1528,10 @@
           "Ma": "16",
           "Di": "5"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Steppe Wolfhounds",
@@ -1549,7 +1541,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Steppe Wolfhound",
@@ -1560,9 +1552,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1578,14 +1570,14 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dda2b",
+    "Id": "6810a3e8583a6c61de56f994",
     "Name": "Tamyir Vassals Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1596,9 +1588,9 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Tamyir Vassals Champion",
@@ -1608,7 +1600,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tamyir Vassal",
@@ -1619,9 +1611,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1637,15 +1629,15 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dda43",
+    "Id": "6810a3e8583a6c61de56f9ac",
     "Name": "Tamyir Vassals Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1656,10 +1648,10 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Tamyir Vassals Musician",
@@ -1669,7 +1661,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tamyir Vassal",
@@ -1680,9 +1672,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1698,15 +1690,15 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39dda5b",
+    "Id": "6810a3e8583a6c61de56f9c4",
     "Name": "Tamyir Vassals Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1717,10 +1709,10 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Tamyir Vassals Standard Bearer",
@@ -1730,7 +1722,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tamyir Vassal",
@@ -1741,9 +1733,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1759,14 +1751,14 @@
     }
   },
   {
-    "Id": "68109498229aecc8c39dda09",
+    "Id": "6810a3e8583a6c61de56f972",
     "Name": "Tamyir Vassals",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1777,9 +1769,9 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever"
+        }
       },
       {
         "Name": "Tamyir Vassals",
@@ -1789,7 +1781,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tamyir Vassal",
@@ -1800,9 +1792,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1818,20 +1810,20 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39dda65",
+    "Id": "6810a3e8583a6c61de56f9ce",
     "Name": "Karkadan Herd",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-terror",
-      "rulebook-frenzy",
-      "rulebook-fearless",
-      "rulebook-insignificant",
-      "mh-follow_the_herd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "mh-stampede"
-    ],
+    "RuleIds": {
+      "rulebook-terror": "Terror",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "rulebook-insignificant": "Insignificant",
+      "mh-follow_the_herd": "Follow The Herd",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "mh-stampede": "Stampede"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1842,13 +1834,13 @@
           "Ma": "14",
           "Di": "6"
         },
-        "RuleIds": [
-          "rulebook-terror",
-          "rulebook-frenzy",
-          "rulebook-fearless",
-          "rulebook-insignificant",
-          "mh-follow_the_herd"
-        ]
+        "RuleIds": {
+          "rulebook-terror": "Terror",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "rulebook-insignificant": "Insignificant",
+          "mh-follow_the_herd": "Follow The Herd"
+        }
       },
       {
         "Name": "Karkadan Herd",
@@ -1858,7 +1850,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Karkadan",
@@ -1869,11 +1861,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "mh-stampede"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "mh-stampede": "Stampede"
+        }
       }
     ],
     "Amount": {
@@ -1889,22 +1881,21 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39dda7e",
+    "Id": "6810a3e8583a6c61de56f9e7",
     "Name": "Makhar Chariots Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "mh-parting_shot",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-hard_target",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "mh-parting_shot": "Parting Shot",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1915,13 +1906,13 @@
           "Ma": "12",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "mh-parting_shot",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "mh-parting_shot": "Parting Shot",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Makhar Chariots Musician",
@@ -1931,10 +1922,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Crew and Rider (4)",
@@ -1945,9 +1936,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Horse (2)",
@@ -1958,9 +1949,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -1971,9 +1962,9 @@
           "AP": "1",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -1989,22 +1980,21 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39dda6b",
+    "Id": "6810a3e8583a6c61de56f9d4",
     "Name": "Makhar Chariots",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "mh-parting_shot",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "mh-makhar_lance",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-hard_target",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "mh-parting_shot": "Parting Shot",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-makhar_lance": "Makhar Lance",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2015,12 +2005,12 @@
           "Ma": "12",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "mh-parting_shot",
-          "rulebook-light_troops",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "mh-parting_shot": "Parting Shot",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Makhar Chariots",
@@ -2030,10 +2020,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Crew and Rider (4)",
@@ -2044,10 +2034,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-makhar_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-makhar_lance": "Makhar Lance"
+        }
       },
       {
         "Name": "Horse (2)",
@@ -2058,9 +2048,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -2071,9 +2061,9 @@
           "AP": "1",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -2089,21 +2079,20 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39dda99",
+    "Id": "6810a3e9583a6c61de56fa02",
     "Name": "Makhar Flayers Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "mh-makhar_battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "mh-beast_taker",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-beast_taker": "Beast Taker",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2114,13 +2103,13 @@
           "Ma": "20",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "mh-makhar_battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Makhar Flayers Champion",
@@ -2130,9 +2119,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Makhar Flayer",
@@ -2143,10 +2132,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-beast_taker"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-beast_taker": "Beast Taker"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -2157,9 +2146,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2175,22 +2164,21 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39ddaa8",
+    "Id": "6810a3e9583a6c61de56fa11",
     "Name": "Makhar Flayers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "mh-makhar_battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "mh-beast_taker",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-beast_taker": "Beast Taker",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2201,14 +2189,14 @@
           "Ma": "20",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "mh-makhar_battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Makhar Flayers Musician",
@@ -2218,9 +2206,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Makhar Flayer",
@@ -2231,10 +2219,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-beast_taker"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-beast_taker": "Beast Taker"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -2245,9 +2233,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2263,21 +2251,20 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39dda83",
+    "Id": "6810a3e9583a6c61de56f9ec",
     "Name": "Makhar Flayers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "mh-makhar_battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "mh-beast_taker",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-beast_taker": "Beast Taker",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2288,13 +2275,13 @@
           "Ma": "20",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "mh-makhar_battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Makhar Flayers",
@@ -2304,9 +2291,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Makhar Flayer",
@@ -2317,10 +2304,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-beast_taker"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-beast_taker": "Beast Taker"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -2331,9 +2318,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2349,15 +2336,15 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39ddaab",
+    "Id": "6810a3e9583a6c61de56fa14",
     "Name": "Nomadic Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-giant_see_giant_do",
-      "rulebook-hand_weapon",
-      "rulebook-rage"
-    ],
+    "RuleIds": {
+      "mh-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2368,9 +2355,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-giant_see_giant_do"
-        ]
+        "RuleIds": {
+          "mh-giant_see_giant_do": "Giant See, Giant Do"
+        }
       },
       {
         "Name": "Nomadic Giant",
@@ -2380,7 +2367,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Nomadic Giant",
@@ -2391,10 +2378,10 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-rage"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage"
+        }
       }
     ],
     "Amount": {
@@ -2410,15 +2397,15 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39ddab2",
+    "Id": "6810a3e9583a6c61de56fa1b",
     "Name": "Turul",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly (8\", 16\")",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2429,10 +2416,10 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly (8\", 16\")",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Turul",
@@ -2442,7 +2429,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Turul",
@@ -2453,9 +2440,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2471,18 +2458,17 @@
     }
   },
   {
-    "Id": "6810949a229aecc8c39ddad2",
+    "Id": "6810a3e9583a6c61de56fa3b",
     "Name": "Warrior Knights Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-path_of_the_favoured",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "mh-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "mh-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2493,10 +2479,10 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-path_of_the_favoured",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "mh-path_of_the_favoured": "Path of the Favoured",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Warrior Knights Champion",
@@ -2506,10 +2492,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "mh-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "mh-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior Knight",
@@ -2520,9 +2506,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2533,9 +2519,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2551,19 +2537,18 @@
     }
   },
   {
-    "Id": "6810949a229aecc8c39ddadc",
+    "Id": "6810a3e9583a6c61de56fa45",
     "Name": "Warrior Knights Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-path_of_the_favoured",
-      "rulebook-fearless",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "mh-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "mh-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-fearless": "Fearless",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2574,11 +2559,11 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-path_of_the_favoured",
-          "rulebook-fearless",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "mh-path_of_the_favoured": "Path of the Favoured",
+          "rulebook-fearless": "Fearless",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Warrior Knights Musician",
@@ -2588,10 +2573,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "mh-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "mh-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior Knight",
@@ -2602,9 +2587,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2615,9 +2600,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2633,19 +2618,18 @@
     }
   },
   {
-    "Id": "6810949a229aecc8c39ddaee",
+    "Id": "6810a3ea583a6c61de56fa57",
     "Name": "Warrior Knights Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-path_of_the_favoured",
-      "rulebook-fearless",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "mh-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "mh-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-fearless": "Fearless",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2656,11 +2640,11 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-path_of_the_favoured",
-          "rulebook-fearless",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "mh-path_of_the_favoured": "Path of the Favoured",
+          "rulebook-fearless": "Fearless",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Warrior Knights Standard Bearer",
@@ -2670,10 +2654,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "mh-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "mh-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior Knight",
@@ -2684,9 +2668,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2697,9 +2681,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2715,18 +2699,17 @@
     }
   },
   {
-    "Id": "68109499229aecc8c39ddab5",
+    "Id": "6810a3e9583a6c61de56fa1e",
     "Name": "Warrior Knights",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-path_of_the_favoured",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "mh-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "mh-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2737,10 +2720,10 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-path_of_the_favoured",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "mh-path_of_the_favoured": "Path of the Favoured",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Warrior Knights",
@@ -2750,10 +2733,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "mh-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "mh-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior Knight",
@@ -2764,9 +2747,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2777,9 +2760,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2795,19 +2778,18 @@
     }
   },
   {
-    "Id": "6810949a229aecc8c39ddaf7",
+    "Id": "6810a3ea583a6c61de56fa60",
     "Name": "Steppe Mammoth",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "mh-makhar_battle_fever",
-      "mh-parting_shot",
-      "rulebook-hand_weapon",
-      "mh-recurve_bow",
-      "mh-makhar_lance",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "mh-makhar_battle_fever": "Makhar Battle Fever",
+      "mh-parting_shot": "Parting Shot",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "mh-recurve_bow": "Recurve Bow (3+)",
+      "mh-makhar_lance": "Makhar Lance",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2818,10 +2800,10 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "mh-makhar_battle_fever",
-          "mh-parting_shot"
-        ]
+        "RuleIds": {
+          "mh-makhar_battle_fever": "Makhar Battle Fever",
+          "mh-parting_shot": "Parting Shot"
+        }
       },
       {
         "Name": "Steppe Mammoth",
@@ -2831,7 +2813,7 @@
           "Re": "6",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew (6)",
@@ -2842,11 +2824,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "mh-recurve_bow",
-          "mh-makhar_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "mh-recurve_bow": "Recurve Bow (3+)",
+          "mh-makhar_lance": "Makhar Lance"
+        }
       },
       {
         "Name": "Mammoth",
@@ -2857,10 +2839,10 @@
           "AP": "3",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {

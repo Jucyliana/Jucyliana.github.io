@@ -1,13 +1,13 @@
 [
   {
-    "Id": "68109495229aecc8c39dd234",
+    "Id": "6810a3e3583a6c61de56f19d",
     "Name": "Legion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ls-descent_into_sin",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ls-descent_into_sin": "Descent into Sin",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -18,9 +18,9 @@
           "Ma": "0",
           "Di": "0"
         },
-        "RuleIds": [
-          "ls-descent_into_sin"
-        ]
+        "RuleIds": {
+          "ls-descent_into_sin": "Descent into Sin"
+        }
       },
       {
         "Name": "Legion",
@@ -30,7 +30,7 @@
           "Re": "0",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Legion",
@@ -41,9 +41,9 @@
           "AP": "0",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {

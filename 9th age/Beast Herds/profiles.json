@@ -1,6 +1,6 @@
 [
   {
-    "Id": "ac500a02-d6e1-4f27-b16a-bb92d95c4d52",
+    "Id": "884aad42-f711-4806-b6e8-17c1c1bd067f",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -8,19 +8,17 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-disciplined",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Raiding Chariots)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -32,16 +30,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-disciplined",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-exclusive",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Raiding Chariots)"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -51,7 +47,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter (2)",
@@ -62,10 +58,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -76,9 +72,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -94,7 +90,7 @@
     }
   },
   {
-    "Id": "f9e7733f-c169-4638-a199-c4fde38bb1f6",
+    "Id": "bf379339-87a7-47c2-bc5c-c045aa84ac17",
     "Name": "Razortusk",
     "Attributes": {
       "type": "",
@@ -102,20 +98,18 @@
       "totalcost": "375"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-disciplined",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "bh-hunting_horn",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "bh-hunting_horn": "Hunting Horn",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -127,17 +121,15 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-disciplined",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "bh-hunting_horn",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "bh-hunting_horn": "Hunting Horn"
+        }
       },
       {
         "Name": "Razortusk",
@@ -147,7 +139,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Razortusk",
@@ -158,10 +150,10 @@
           "AP": "3",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -172,9 +164,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -190,18 +182,18 @@
     }
   },
   {
-    "Id": "68109452229aecc8c39d7e8b",
+    "Id": "6810a387583a6c61de569df4",
     "Name": "Wildhorn Lord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-disciplined",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -213,12 +205,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-disciplined",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Wildhorn Lord",
@@ -228,7 +220,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wildhorn Lord",
@@ -239,10 +231,10 @@
           "AP": "2",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -258,7 +250,7 @@
     }
   },
   {
-    "Id": "a95790c9-2c77-43d4-8073-aa5aabf27408",
+    "Id": "606fc9b0-05f1-4d9a-b97a-50807cca58b2",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -266,20 +258,18 @@
       "totalcost": "175"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-exclusive",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Raiding Chariots)",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -291,17 +281,15 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-exclusive",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Raiding Chariots)",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -311,7 +299,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter (2)",
@@ -322,10 +310,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -336,9 +324,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -354,19 +342,19 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d7fab",
+    "Id": "6810a387583a6c61de569f14",
     "Name": "Wildhorn Chieftain",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -378,13 +366,13 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Wildhorn Chieftain",
@@ -394,7 +382,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wildhorn Chieftain",
@@ -405,10 +393,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -424,7 +412,7 @@
     }
   },
   {
-    "Id": "2421e920-3caa-4800-81b3-15bb9ae617f5",
+    "Id": "b8a541a0-082d-4971-a39a-d0da29b127bc",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -432,20 +420,18 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "bh-blood_offering",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "bh-blood_offering": "Blood Offering",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Raiding Chariots)",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -457,17 +443,15 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "bh-blood_offering",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-exclusive",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "bh-blood_offering": "Blood Offering",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Raiding Chariots)",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -477,7 +461,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter (2)",
@@ -488,10 +472,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -502,9 +486,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -520,19 +504,19 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d8082",
+    "Id": "6810a388583a6c61de569feb",
     "Name": "Soothsayer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "bh-blood_offering",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "bh-blood_offering": "Blood Offering",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -544,13 +528,13 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "bh-blood_offering",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "bh-blood_offering": "Blood Offering",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Soothsayer",
@@ -560,7 +544,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Soothsayer",
@@ -571,10 +555,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -590,20 +574,20 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d8111",
+    "Id": "6810a388583a6c61de56a07a",
     "Name": "Minotaur Warlord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-frenzy",
-      "rulebook-strider",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "cl-fury",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -615,12 +599,12 @@
           "Di": "9",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-frenzy",
-          "rulebook-strider",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Minotaur Warlord",
@@ -630,7 +614,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Minotaur Warlord",
@@ -641,12 +625,12 @@
           "AP": "3",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "cl-fury",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "cl-fury": "Fury",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -662,21 +646,21 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d815c",
+    "Id": "6810a388583a6c61de56a0c5",
     "Name": "Minotaur Chieftain",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-frenzy",
-      "rulebook-strider",
-      "rulebook-light_troops",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "cl-fury",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -688,13 +672,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-frenzy",
-          "rulebook-strider",
-          "rulebook-light_troops",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Minotaur Chieftain",
@@ -704,7 +688,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Minotaur Chieftain",
@@ -715,12 +699,12 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "cl-fury",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "cl-fury": "Fury",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -736,19 +720,18 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d81b4",
+    "Id": "6810a388583a6c61de56a11d",
     "Name": "Centaur Chieftain",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "bh-looted_booze",
-      "bh-drunkard",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Forest)",
+      "bh-looted_booze": "Looted Booze",
+      "bh-drunkard": "Drunkard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -760,12 +743,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "bh-looted_booze",
-          "bh-drunkard",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Forest)",
+          "bh-looted_booze": "Looted Booze",
+          "bh-drunkard": "Drunkard",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Centaur Chieftain",
@@ -775,7 +758,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Centaur Chieftain",
@@ -786,11 +769,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -806,17 +788,17 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d8244",
+    "Id": "6810a388583a6c61de56a1ad",
     "Name": "Wildhorn Herd Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -828,11 +810,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Wildhorn Herd Musician",
@@ -842,7 +824,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wildhorn",
@@ -853,10 +835,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -872,17 +854,17 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d8257",
+    "Id": "6810a388583a6c61de56a1c0",
     "Name": "Wildhorn Herd Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -894,11 +876,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Wildhorn Herd Standard Bearer",
@@ -908,7 +890,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wildhorn",
@@ -919,10 +901,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -938,17 +920,17 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d8216",
+    "Id": "6810a388583a6c61de56a17f",
     "Name": "Wildhorn Herd",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -960,10 +942,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)"
+        }
       },
       {
         "Name": "Wildhorn Herd",
@@ -973,9 +955,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Wildhorn",
@@ -986,10 +968,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -1005,18 +987,18 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d828d",
+    "Id": "6810a388583a6c61de56a1f6",
     "Name": "Mongrel Herd Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1028,11 +1010,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Mongrel Herd Musician",
@@ -1042,9 +1024,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Mongrel",
@@ -1055,10 +1037,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -1074,18 +1056,18 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d8298",
+    "Id": "6810a388583a6c61de56a201",
     "Name": "Mongrel Herd Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1097,11 +1079,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Mongrel Herd Standard Bearer",
@@ -1111,9 +1093,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Mongrel",
@@ -1124,10 +1106,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -1143,17 +1125,17 @@
     }
   },
   {
-    "Id": "68109453229aecc8c39d826a",
+    "Id": "6810a388583a6c61de56a1d3",
     "Name": "Mongrel Herd",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1165,10 +1147,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)"
+        }
       },
       {
         "Name": "Mongrel Herd",
@@ -1178,9 +1160,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Mongrel",
@@ -1191,10 +1173,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -1210,23 +1192,23 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d82b3",
+    "Id": "6810a388583a6c61de56a21c",
     "Name": "Mongrel Raiders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "bh-pack_tactics",
-      "rulebook-skirmisher",
-      "rulebook-strider",
-      "rulebook-hard_target",
-      "rulebook-scout",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-bow",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-scout": "Scout",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1238,15 +1220,15 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "bh-pack_tactics",
-          "rulebook-skirmisher",
-          "rulebook-strider",
-          "rulebook-hard_target",
-          "rulebook-scout",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-scout": "Scout",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Mongrel Raiders Musician",
@@ -1256,7 +1238,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Mongrel Raider",
@@ -1267,12 +1249,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-bow",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "rulebook-bow": "Bow (4+)",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1288,22 +1270,22 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d82a6",
+    "Id": "6810a388583a6c61de56a20f",
     "Name": "Mongrel Raiders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "bh-pack_tactics",
-      "rulebook-skirmisher",
-      "rulebook-strider",
-      "rulebook-hard_target",
-      "rulebook-scout",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-bow",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-scout": "Scout",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1315,14 +1297,14 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "bh-pack_tactics",
-          "rulebook-skirmisher",
-          "rulebook-strider",
-          "rulebook-hard_target",
-          "rulebook-scout"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-scout": "Scout"
+        }
       },
       {
         "Name": "Mongrel Raiders",
@@ -1332,7 +1314,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Mongrel Raider",
@@ -1343,12 +1325,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-bow",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "rulebook-bow": "Bow (4+)",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1364,20 +1346,20 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d82b8",
+    "Id": "6810a388583a6c61de56a221",
     "Name": "Feral Hounds",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-ambush",
-      "rulebook-vanguard",
-      "rulebook-strider",
-      "bh-pack_tactics",
-      "rulebook-swiftstride",
-      "rulebook-unruly",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-strider": "Strider (Forest)",
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1389,15 +1371,15 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-ambush",
-          "rulebook-vanguard",
-          "rulebook-strider",
-          "bh-pack_tactics",
-          "rulebook-swiftstride",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-strider": "Strider (Forest)",
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Feral Hounds",
@@ -1407,7 +1389,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Feral Hound",
@@ -1418,9 +1400,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1436,18 +1418,18 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d82e7",
+    "Id": "6810a389583a6c61de56a250",
     "Name": "Longhorn Herd Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-bodyguard",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-bodyguard": "Bodyguard (Wildhorn Lord, Wildhorn Chieftain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1459,12 +1441,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-bodyguard",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-bodyguard": "Bodyguard (Wildhorn Lord, Wildhorn Chieftain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Longhorn Herd Musician",
@@ -1474,7 +1456,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Longhorn",
@@ -1485,10 +1467,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -1504,18 +1486,18 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d82f8",
+    "Id": "6810a389583a6c61de56a261",
     "Name": "Longhorn Herd Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-bodyguard",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-bodyguard": "Bodyguard (Wildhorn Lord, Wildhorn Chieftain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1527,12 +1509,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-bodyguard",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-bodyguard": "Bodyguard (Wildhorn Lord, Wildhorn Chieftain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Longhorn Herd Standard Bearer",
@@ -1542,7 +1524,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Longhorn",
@@ -1553,10 +1535,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -1572,18 +1554,18 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d82bd",
+    "Id": "6810a389583a6c61de56a226",
     "Name": "Longhorn Herd",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-pack_tactics",
-      "rulebook-strider",
-      "rulebook-bodyguard",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-halberd"
-    ],
+    "RuleIds": {
+      "bh-pack_tactics": "Pack Tactics",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-bodyguard": "Bodyguard (Wildhorn Lord, Wildhorn Chieftain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-halberd": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1595,11 +1577,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "bh-pack_tactics",
-          "rulebook-strider",
-          "rulebook-bodyguard"
-        ]
+        "RuleIds": {
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-bodyguard": "Bodyguard (Wildhorn Lord, Wildhorn Chieftain)"
+        }
       },
       {
         "Name": "Longhorn Herd",
@@ -1609,7 +1591,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Longhorn",
@@ -1620,11 +1602,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "rulebook-halberd": "Halberd"
+        }
       }
     ],
     "Amount": {
@@ -1640,21 +1622,21 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d8333",
+    "Id": "6810a389583a6c61de56a29c",
     "Name": "Minotaurs Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-frenzy",
-      "rulebook-unruly",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "cl-fury",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-unruly": "Unruly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1666,13 +1648,13 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-frenzy",
-          "rulebook-unruly",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-unruly": "Unruly",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Minotaurs Musician",
@@ -1682,7 +1664,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Minotaur",
@@ -1693,12 +1675,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "cl-fury",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "cl-fury": "Fury",
+          "rulebook-impact_hits": "Impact Hits (1)"
+        }
       }
     ],
     "Amount": {
@@ -1714,21 +1696,21 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d8343",
+    "Id": "6810a389583a6c61de56a2ac",
     "Name": "Minotaurs Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-frenzy",
-      "rulebook-unruly",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "cl-fury",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-unruly": "Unruly",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1740,13 +1722,13 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-frenzy",
-          "rulebook-unruly",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-unruly": "Unruly",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Minotaurs Standard Bearer",
@@ -1756,7 +1738,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Minotaur",
@@ -1767,12 +1749,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "cl-fury",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "cl-fury": "Fury",
+          "rulebook-impact_hits": "Impact Hits (1)"
+        }
       }
     ],
     "Amount": {
@@ -1788,20 +1770,20 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d830b",
+    "Id": "6810a389583a6c61de56a274",
     "Name": "Minotaurs",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-frenzy",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "cl-fury",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "cl-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1813,12 +1795,12 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-frenzy",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Minotaurs",
@@ -1828,7 +1810,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Minotaur",
@@ -1839,12 +1821,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "cl-fury",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "cl-fury": "Fury",
+          "rulebook-impact_hits": "Impact Hits (1)"
+        }
       }
     ],
     "Amount": {
@@ -1860,20 +1842,19 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d8386",
+    "Id": "6810a389583a6c61de56a2ef",
     "Name": "Centaurs Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-drunkard",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "bh-drunkard": "Drunkard",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1885,12 +1866,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "bh-drunkard",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "bh-drunkard": "Drunkard",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Centaurs Musician",
@@ -1900,9 +1881,9 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Centaur",
@@ -1913,11 +1894,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -1933,20 +1913,19 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d839a",
+    "Id": "6810a389583a6c61de56a303",
     "Name": "Centaurs Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-drunkard",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "bh-drunkard": "Drunkard",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1958,12 +1937,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "bh-drunkard",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "bh-drunkard": "Drunkard",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Centaurs Standard Bearer",
@@ -1973,9 +1952,9 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Centaur",
@@ -1986,11 +1965,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -2006,19 +1984,18 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d8356",
+    "Id": "6810a389583a6c61de56a2bf",
     "Name": "Centaurs",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-drunkard",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "bh-drunkard": "Drunkard",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2030,11 +2007,11 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "bh-drunkard",
-          "rulebook-strider",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "bh-drunkard": "Drunkard",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Centaurs",
@@ -2044,9 +2021,9 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Centaur",
@@ -2057,11 +2034,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       }
     ],
     "Amount": {
@@ -2077,23 +2053,22 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d83ad",
+    "Id": "6810a389583a6c61de56a316",
     "Name": "Raiding Chariots",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-exclusive",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-great_weapon",
-      "bh-primal_instinct",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Raiding Chariots)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-great_weapon": "Great Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2105,12 +2080,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-exclusive"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Raiding Chariots)"
+        }
       },
       {
         "Name": "Raiding Chariots",
@@ -2120,7 +2095,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Longhorn Crew (2)",
@@ -2131,12 +2106,12 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance",
-          "rulebook-great_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-great_weapon": "Great Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -2147,10 +2122,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -2161,9 +2136,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -2179,17 +2154,17 @@
     }
   },
   {
-    "Id": "68109454229aecc8c39d83b2",
+    "Id": "6810a389583a6c61de56a31b",
     "Name": "Razortusk Herd",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2201,11 +2176,11 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Razortusk Herd",
@@ -2215,7 +2190,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Razortusk",
@@ -2226,10 +2201,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -2245,24 +2220,23 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83b5",
+    "Id": "6810a389583a6c61de56a31e",
     "Name": "Razortusk Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "bh-hunting_horn",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-great_weapon",
-      "bh-primal_instinct",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "bh-hunting_horn": "Hunting Horn",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-great_weapon": "Great Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2274,13 +2248,13 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "bh-hunting_horn"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "bh-hunting_horn": "Hunting Horn"
+        }
       },
       {
         "Name": "Razortusk Chariot",
@@ -2290,7 +2264,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Longhorn Crew (2)",
@@ -2301,12 +2275,12 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance",
-          "rulebook-great_weapon",
-          "bh-primal_instinct"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-great_weapon": "Great Weapon",
+          "bh-primal_instinct": "Primal Instinct"
+        }
       },
       {
         "Name": "Razortusk",
@@ -2317,10 +2291,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -2331,9 +2305,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -2349,21 +2323,21 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83b6",
+    "Id": "6810a389583a6c61de56a31f",
     "Name": "Briar Beast",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-random_movement",
-      "rulebook-stubborn",
-      "rulebook-unstable",
-      "rulebook-ambush",
-      "bh-sleeper",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "rulebook-ambush": "Ambush (Field, Forest, or Water Terrain)",
+      "bh-sleeper": "Sleeper",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2375,16 +2349,16 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-random_movement",
-          "rulebook-stubborn",
-          "rulebook-unstable",
-          "rulebook-ambush",
-          "bh-sleeper"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "rulebook-ambush": "Ambush (Field, Forest, or Water Terrain)",
+          "bh-sleeper": "Sleeper"
+        }
       },
       {
         "Name": "Briar Beast",
@@ -2394,7 +2368,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Briar Beast",
@@ -2405,9 +2379,9 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2423,22 +2397,22 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83b9",
+    "Id": "6810a389583a6c61de56a322",
     "Name": "Gargoyles",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-skirmisher",
-      "rulebook-fly",
-      "rulebook-strider",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-hard_target",
-      "rulebook-scout",
-      "rulebook-hand_weapon",
-      "bh-primal_instinct",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-fly": "Fly",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-scout": "Scout",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-devastating_charge": "Devastating Charge (Distracting)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2450,15 +2424,15 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-skirmisher",
-          "rulebook-fly",
-          "rulebook-strider",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-hard_target",
-          "rulebook-scout"
-        ]
+        "RuleIds": {
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-fly": "Fly",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-scout": "Scout"
+        }
       },
       {
         "Name": "Gargoyles",
@@ -2468,7 +2442,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gargoyle",
@@ -2479,11 +2453,11 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "bh-primal_instinct",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "bh-primal_instinct": "Primal Instinct",
+          "rulebook-devastating_charge": "Devastating Charge (Distracting)"
+        }
       }
     ],
     "Amount": {
@@ -2499,23 +2473,23 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83bc",
+    "Id": "6810a38a583a6c61de56a325",
     "Name": "Cyclops",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-divine_attacks",
-      "rulebook-quick_to_fire",
-      "bh-hurl_attack",
-      "rulebook-magic_resistance",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-quick_to_fire": "Quick to Fire",
+      "bh-hurl_attack": "Hurl Attack",
+      "rulebook-magic_resistance": "Magic Resistance (3)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2527,12 +2501,12 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-terror",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Cyclops",
@@ -2542,10 +2516,10 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-magic_resistance",
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-magic_resistance": "Magic Resistance (3)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Cyclops",
@@ -2556,13 +2530,13 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-divine_attacks",
-          "rulebook-quick_to_fire",
-          "bh-hurl_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-quick_to_fire": "Quick to Fire",
+          "bh-hurl_attack": "Hurl Attack"
+        }
       }
     ],
     "Amount": {
@@ -2578,25 +2552,25 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83bd",
+    "Id": "6810a38a583a6c61de56a326",
     "Name": "Gortach",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-frenzy",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-lethal_strike",
-      "bh-primal_instinct",
-      "rulebook-impact_hits",
-      "cl-fury",
-      "bh-strength_from_flesh",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "cl-fury": "Fury",
+      "bh-strength_from_flesh": "Strength from Flesh",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2608,14 +2582,14 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-frenzy",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Gortach",
@@ -2625,7 +2599,7 @@
           "Re": "7",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gortach",
@@ -2636,15 +2610,15 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lethal_strike",
-          "bh-primal_instinct",
-          "rulebook-impact_hits",
-          "cl-fury",
-          "bh-strength_from_flesh",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "bh-primal_instinct": "Primal Instinct",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "cl-fury": "Fury",
+          "bh-strength_from_flesh": "Strength from Flesh",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -2660,25 +2634,25 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83be",
+    "Id": "6810a38a583a6c61de56a327",
     "Name": "Jabberwock",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-fearless",
-      "rulebook-strider",
-      "rulebook-fly",
-      "bh-aura_of_madness",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-terror",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-breath_attack"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-fly": "Fly",
+      "bh-aura_of_madness": "Aura of Madness",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-breath_attack": "Breath Attack (Str 3, AP 2)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2690,17 +2664,17 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-fearless",
-          "rulebook-strider",
-          "rulebook-fly",
-          "bh-aura_of_madness",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "rulebook-terror",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-fly": "Fly",
+          "bh-aura_of_madness": "Aura of Madness",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Jabberwock",
@@ -2710,7 +2684,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Jabberwock",
@@ -2721,12 +2695,12 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack",
-          "rulebook-breath_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-breath_attack": "Breath Attack (Str 3, AP 2)"
+        }
       }
     ],
     "Amount": {
@@ -2742,20 +2716,20 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83bf",
+    "Id": "6810a38a583a6c61de56a328",
     "Name": "Beast Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "bh-giant_see_giant_do",
-      "rulebook-light_troops",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-rage",
-      "rulebook-stomp_attack",
-      "bh-uprooted_tree"
-    ],
+    "RuleIds": {
+      "bh-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "bh-uprooted_tree": "Uprooted Tree"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2767,12 +2741,12 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "bh-giant_see_giant_do",
-          "rulebook-light_troops",
-          "rulebook-terror",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "bh-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Beast Giant",
@@ -2782,7 +2756,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Beast Giant",
@@ -2793,12 +2767,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-rage",
-          "rulebook-stomp_attack",
-          "bh-uprooted_tree"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "bh-uprooted_tree": "Uprooted Tree"
+        }
       }
     ],
     "Amount": {
@@ -2814,16 +2788,16 @@
     }
   },
   {
-    "Id": "68109455229aecc8c39d83ce",
+    "Id": "6810a38a583a6c61de56a337",
     "Name": "Totemic Beast",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-random_movement",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "rulebook-breath_attack"
-    ],
+    "RuleIds": {
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-breath_attack": "Breath Attack (Str 3, AP 0)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2835,10 +2809,10 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-random_movement",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Totemic Beast",
@@ -2848,7 +2822,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Totemic Beast",
@@ -2859,10 +2833,10 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-breath_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-breath_attack": "Breath Attack (Str 3, AP 0)"
+        }
       }
     ],
     "Amount": {

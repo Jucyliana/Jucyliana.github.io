@@ -1,6 +1,6 @@
 [
   {
-    "Id": "17e82e75-dee8-4b3d-8292-8413c4432ad7",
+    "Id": "28d670c6-8092-49de-bc04-ce6cef7a3914",
     "Name": "War Dais",
     "Attributes": {
       "type": "",
@@ -8,10 +8,10 @@
       "totalcost": "165"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -22,9 +22,9 @@
           "Ma": "8",
           "Di": "9"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "War Dais",
@@ -34,7 +34,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "War Dais",
@@ -45,9 +45,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -63,7 +63,7 @@
     }
   },
   {
-    "Id": "d2ca8e20-ab58-4e41-bc14-16589328b74f",
+    "Id": "f35bdb2f-8557-4755-8d54-f3c98975e963",
     "Name": "Black Stallion",
     "Attributes": {
       "type": "",
@@ -71,10 +71,10 @@
       "totalcost": "170"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -85,9 +85,9 @@
           "Ma": "16",
           "Di": "9"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Black Stallion",
@@ -97,7 +97,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Stallion",
@@ -108,9 +108,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -126,7 +126,7 @@
     }
   },
   {
-    "Id": "c3fd3f27-bb41-4c33-9bf9-b26e83893681",
+    "Id": "5f6dbbb9-d195-4e6d-aaf8-19ad009aded8",
     "Name": "Shadow Chaser",
     "Attributes": {
       "type": "",
@@ -134,13 +134,13 @@
       "totalcost": "170"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -151,12 +151,12 @@
           "Ma": "20",
           "Di": "9"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-vanguard": "Vanguard (6\"\")"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -166,7 +166,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Shadow Chaser",
@@ -177,9 +177,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -195,7 +195,7 @@
     }
   },
   {
-    "Id": "d18e475f-7761-4fe7-96a9-324b91a3b9b6",
+    "Id": "a7b7c40c-6cb6-4496-a5ef-2b35c4687f45",
     "Name": "Black Steed (2)",
     "Attributes": {
       "type": "",
@@ -203,12 +203,12 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -219,10 +219,10 @@
           "Ma": "8",
           "Di": "9"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -232,7 +232,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed (2)",
@@ -243,9 +243,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -256,9 +256,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -274,7 +274,7 @@
     }
   },
   {
-    "Id": "8bf4d355-4787-4a4b-91a4-e2c344f1a1f1",
+    "Id": "8ceef48a-f446-44b7-bb61-33da40dc4c53",
     "Name": "Chimera",
     "Attributes": {
       "type": "",
@@ -282,10 +282,10 @@
       "totalcost": "240"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -296,9 +296,9 @@
           "Ma": "20",
           "Di": "9"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Chimera",
@@ -308,7 +308,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Chimera",
@@ -319,9 +319,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -337,7 +337,7 @@
     }
   },
   {
-    "Id": "54e2cdbd-ddc3-43e9-8df5-34783f15e123",
+    "Id": "b0d78e38-73f2-4f53-806f-31e9c2be7541",
     "Name": "Wasteland Behemoth",
     "Attributes": {
       "type": "",
@@ -345,10 +345,10 @@
       "totalcost": "445"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -359,9 +359,9 @@
           "Ma": "14",
           "Di": "9"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Wasteland Behemoth",
@@ -371,7 +371,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wasteland Behemoth",
@@ -382,9 +382,9 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -400,15 +400,15 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e1f9f",
+    "Id": "6810a44b583a6c61de573edf",
     "Name": "Åsklander Chief",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon",
-      "al-deeds_not_words"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-deeds_not_words": "Deeds not Words"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -419,9 +419,9 @@
           "Ma": "8",
           "Di": "9"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Åsklander Chief",
@@ -431,7 +431,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander Chief",
@@ -442,10 +442,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "al-deeds_not_words"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "al-deeds_not_words": "Deeds not Words"
+        }
       }
     ],
     "Amount": {
@@ -461,7 +461,7 @@
     }
   },
   {
-    "Id": "6f7c7e40-224f-4966-ba46-800524e1fdc9",
+    "Id": "678d4f71-bd0e-450a-81bb-538e6a2e3f28",
     "Name": "Black Steed (2)",
     "Attributes": {
       "type": "",
@@ -469,13 +469,13 @@
       "totalcost": "150"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -486,11 +486,11 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -500,7 +500,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed (2)",
@@ -511,9 +511,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -524,9 +524,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -542,15 +542,15 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e2211",
+    "Id": "6810a44b583a6c61de574151",
     "Name": "Seidhkennar",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -561,10 +561,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Seidhkennar",
@@ -574,7 +574,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Seidhkennar",
@@ -585,9 +585,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -603,14 +603,14 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e2294",
+    "Id": "6810a44c583a6c61de5741d4",
     "Name": "Åsklanders Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -621,9 +621,9 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Åsklanders Champion",
@@ -633,7 +633,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander",
@@ -644,9 +644,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -662,15 +662,15 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e22ab",
+    "Id": "6810a44c583a6c61de5741eb",
     "Name": "Åsklanders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -681,10 +681,10 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Åsklanders Musician",
@@ -694,7 +694,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander",
@@ -705,9 +705,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -723,15 +723,15 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e22c2",
+    "Id": "6810a44c583a6c61de574202",
     "Name": "Åsklanders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -742,10 +742,10 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Åsklanders Standard Bearer",
@@ -755,7 +755,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander",
@@ -766,9 +766,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -784,14 +784,14 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e2274",
+    "Id": "6810a44b583a6c61de5741b4",
     "Name": "Åsklanders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -802,9 +802,9 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Åsklanders",
@@ -814,7 +814,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander",
@@ -825,9 +825,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -843,15 +843,15 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e22cc",
+    "Id": "6810a44c583a6c61de57420c",
     "Name": "Warhounds",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "al-release_the_hounds",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "al-release_the_hounds": "Release the Hounds",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -862,10 +862,10 @@
           "Ma": "16",
           "Di": "5"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "al-release_the_hounds"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "al-release_the_hounds": "Release the Hounds"
+        }
       },
       {
         "Name": "Warhounds",
@@ -875,7 +875,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Warhound",
@@ -886,9 +886,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -904,20 +904,19 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e22ea",
+    "Id": "6810a44c583a6c61de57422a",
     "Name": "Åsklander Flayers Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "al-sklander_battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-ambush",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-ambush": "Ambush",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -928,14 +927,14 @@
           "Ma": "20",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "al-sklander_battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-ambush"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-ambush": "Ambush"
+        }
       },
       {
         "Name": "Åsklander Flayers Champion",
@@ -945,7 +944,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander Flayer",
@@ -956,9 +955,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -969,9 +968,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -987,21 +986,20 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e22fa",
+    "Id": "6810a44c583a6c61de57423a",
     "Name": "Åsklander Flayers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "al-sklander_battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-ambush",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-ambush": "Ambush",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1012,15 +1010,15 @@
           "Ma": "20",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "al-sklander_battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-ambush",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-ambush": "Ambush",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Åsklander Flayers Musician",
@@ -1030,7 +1028,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander Flayer",
@@ -1041,9 +1039,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -1054,9 +1052,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1072,20 +1070,19 @@
     }
   },
   {
-    "Id": "681094d9229aecc8c39e22d2",
+    "Id": "6810a44c583a6c61de574212",
     "Name": "Åsklander Flayers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "al-sklander_battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-ambush",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-ambush": "Ambush",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1096,14 +1093,14 @@
           "Ma": "20",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "al-sklander_battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-ambush"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-ambush": "Ambush"
+        }
       },
       {
         "Name": "Åsklander Flayers",
@@ -1113,7 +1110,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Åsklander Flayer",
@@ -1124,9 +1121,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -1137,9 +1134,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1155,16 +1152,15 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e2319",
+    "Id": "6810a44d583a6c61de574259",
     "Name": "Åsklander Horsemen Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1175,9 +1171,9 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Åsklander Horsemen Champion",
@@ -1187,9 +1183,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Åsklander Horseman",
@@ -1200,9 +1196,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1213,9 +1209,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1231,17 +1227,16 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e232e",
+    "Id": "6810a44d583a6c61de57426e",
     "Name": "Åsklander Horsemen Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1252,10 +1247,10 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Åsklander Horsemen Musician",
@@ -1265,9 +1260,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Åsklander Horseman",
@@ -1278,9 +1273,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1291,9 +1286,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1309,17 +1304,16 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e2343",
+    "Id": "6810a44d583a6c61de574283",
     "Name": "Åsklander Horsemen Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1330,10 +1324,10 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Åsklander Horsemen Standard Bearer",
@@ -1343,9 +1337,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Åsklander Horseman",
@@ -1356,9 +1350,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1369,9 +1363,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1387,16 +1381,15 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e22ff",
+    "Id": "6810a44d583a6c61de57423f",
     "Name": "Åsklander Horsemen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1407,9 +1400,9 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever"
+        }
       },
       {
         "Name": "Åsklander Horsemen",
@@ -1419,9 +1412,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Åsklander Horseman",
@@ -1432,9 +1425,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1445,9 +1438,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1463,17 +1456,17 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e2361",
+    "Id": "6810a44d583a6c61de5742a1",
     "Name": "Berserkers Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "al-berserkers_bear_pelt",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-berserkers_bear_pelt": "Berserker's Bear Pelt",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1484,10 +1477,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Berserkers Champion",
@@ -1497,10 +1490,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "al-berserkers_bear_pelt",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "al-berserkers_bear_pelt": "Berserker's Bear Pelt",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Berserker",
@@ -1511,9 +1504,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1529,18 +1522,18 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e236e",
+    "Id": "6810a44d583a6c61de5742ae",
     "Name": "Berserkers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "al-berserkers_bear_pelt",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-berserkers_bear_pelt": "Berserker's Bear Pelt",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1551,11 +1544,11 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-light_troops",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Berserkers Musician",
@@ -1565,10 +1558,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "al-berserkers_bear_pelt",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "al-berserkers_bear_pelt": "Berserker's Bear Pelt",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Berserker",
@@ -1579,9 +1572,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1597,17 +1590,17 @@
     }
   },
   {
-    "Id": "681094da229aecc8c39e234f",
+    "Id": "6810a44d583a6c61de57428f",
     "Name": "Berserkers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "al-berserkers_bear_pelt",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-berserkers_bear_pelt": "Berserker's Bear Pelt",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1618,10 +1611,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Berserkers",
@@ -1631,10 +1624,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "al-berserkers_bear_pelt",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "al-berserkers_bear_pelt": "Berserker's Bear Pelt",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Berserker",
@@ -1645,9 +1638,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1663,15 +1656,15 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e238f",
+    "Id": "6810a44d583a6c61de5742cf",
     "Name": "Huskarls Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-bodyguard",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-bodyguard": "Bodyguard (Åsklander Chief)",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1682,10 +1675,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-bodyguard"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-bodyguard": "Bodyguard (Åsklander Chief)"
+        }
       },
       {
         "Name": "Huskarls Champion",
@@ -1695,7 +1688,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Huskarl",
@@ -1706,9 +1699,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1724,16 +1717,16 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e23a4",
+    "Id": "6810a44e583a6c61de5742e4",
     "Name": "Huskarls Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-bodyguard",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-bodyguard": "Bodyguard (Åsklander Chief)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1744,11 +1737,11 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-bodyguard",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-bodyguard": "Bodyguard (Åsklander Chief)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Huskarls Musician",
@@ -1758,7 +1751,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Huskarl",
@@ -1769,9 +1762,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1787,16 +1780,16 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e23b9",
+    "Id": "6810a44e583a6c61de5742f9",
     "Name": "Huskarls Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-bodyguard",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-bodyguard": "Bodyguard (Åsklander Chief)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1807,11 +1800,11 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-bodyguard",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-bodyguard": "Bodyguard (Åsklander Chief)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Huskarls Standard Bearer",
@@ -1821,7 +1814,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Huskarl",
@@ -1832,9 +1825,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1850,16 +1843,16 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e2373",
+    "Id": "6810a44d583a6c61de5742b3",
     "Name": "Huskarls",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-sklander_battle_fever",
-      "rulebook-bodyguard",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "al-sklander_battle_fever": "Åsklander Battle Fever",
+      "rulebook-bodyguard": "Bodyguard (Åsklander Chief)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1870,10 +1863,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-sklander_battle_fever",
-          "rulebook-bodyguard"
-        ]
+        "RuleIds": {
+          "al-sklander_battle_fever": "Åsklander Battle Fever",
+          "rulebook-bodyguard": "Bodyguard (Åsklander Chief)"
+        }
       },
       {
         "Name": "Huskarls",
@@ -1883,9 +1876,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Huskarl",
@@ -1896,9 +1889,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1914,17 +1907,17 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e23e2",
+    "Id": "6810a44e583a6c61de574322",
     "Name": "Warriors Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "al-path_of_the_favoured",
-      "rulebook-hand_weapon",
-      "al-hellforged_armour",
-      "al-spiked_shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "al-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-hellforged_armour": "Hell-Forged Armour",
+      "al-spiked_shield": "Spiked Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1935,10 +1928,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "al-path_of_the_favoured"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "al-path_of_the_favoured": "Path of the Favoured"
+        }
       },
       {
         "Name": "Warriors Champion",
@@ -1948,10 +1941,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "al-hellforged_armour",
-          "al-spiked_shield"
-        ]
+        "RuleIds": {
+          "al-hellforged_armour": "Hell-Forged Armour",
+          "al-spiked_shield": "Spiked Shield"
+        }
       },
       {
         "Name": "Warrior",
@@ -1962,9 +1955,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1980,18 +1973,18 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e23ed",
+    "Id": "6810a44e583a6c61de57432d",
     "Name": "Warriors Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "al-path_of_the_favoured",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "al-hellforged_armour",
-      "al-spiked_shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "al-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-hellforged_armour": "Hell-Forged Armour",
+      "al-spiked_shield": "Spiked Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2002,11 +1995,11 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "al-path_of_the_favoured",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "al-path_of_the_favoured": "Path of the Favoured",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Warriors Musician",
@@ -2016,10 +2009,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "al-hellforged_armour",
-          "al-spiked_shield"
-        ]
+        "RuleIds": {
+          "al-hellforged_armour": "Hell-Forged Armour",
+          "al-spiked_shield": "Spiked Shield"
+        }
       },
       {
         "Name": "Warrior",
@@ -2030,9 +2023,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2048,18 +2041,18 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e2400",
+    "Id": "6810a44e583a6c61de574340",
     "Name": "Warriors Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "al-path_of_the_favoured",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "al-hellforged_armour",
-      "al-spiked_shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "al-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-hellforged_armour": "Hell-Forged Armour",
+      "al-spiked_shield": "Spiked Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2070,11 +2063,11 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "al-path_of_the_favoured",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "al-path_of_the_favoured": "Path of the Favoured",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Warriors Standard Bearer",
@@ -2084,10 +2077,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "al-hellforged_armour",
-          "al-spiked_shield"
-        ]
+        "RuleIds": {
+          "al-hellforged_armour": "Hell-Forged Armour",
+          "al-spiked_shield": "Spiked Shield"
+        }
       },
       {
         "Name": "Warrior",
@@ -2098,9 +2091,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2116,17 +2109,17 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e23c3",
+    "Id": "6810a44e583a6c61de574303",
     "Name": "Warriors",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "al-path_of_the_favoured",
-      "rulebook-hand_weapon",
-      "al-hellforged_armour",
-      "al-spiked_shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "al-path_of_the_favoured": "Path of the Favoured",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-hellforged_armour": "Hell-Forged Armour",
+      "al-spiked_shield": "Spiked Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2137,10 +2130,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "al-path_of_the_favoured"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "al-path_of_the_favoured": "Path of the Favoured"
+        }
       },
       {
         "Name": "Warriors",
@@ -2150,10 +2143,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "al-hellforged_armour",
-          "al-spiked_shield"
-        ]
+        "RuleIds": {
+          "al-hellforged_armour": "Hell-Forged Armour",
+          "al-spiked_shield": "Spiked Shield"
+        }
       },
       {
         "Name": "Warrior",
@@ -2164,9 +2157,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2182,18 +2175,18 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e240b",
+    "Id": "6810a44e583a6c61de57434b",
     "Name": "Ice Trolls",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "al-stupid",
-      "rulebook-hand_weapon",
-      "al-troll_belch",
-      "rulebook-regeneration",
-      "al-unburnt"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "al-stupid": "Stupid",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-troll_belch": "Troll Belch",
+      "rulebook-regeneration": "Regeneration (4+)",
+      "al-unburnt": "Unburnt"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2204,10 +2197,10 @@
           "Ma": "12",
           "Di": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "al-stupid"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "al-stupid": "Stupid"
+        }
       },
       {
         "Name": "Ice Trolls",
@@ -2217,10 +2210,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-regeneration",
-          "al-unburnt"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (4+)",
+          "al-unburnt": "Unburnt"
+        }
       },
       {
         "Name": "Ice Troll",
@@ -2231,10 +2224,10 @@
           "AP": "2",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "al-troll_belch"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "al-troll_belch": "Troll Belch"
+        }
       }
     ],
     "Amount": {
@@ -2250,15 +2243,15 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e2411",
+    "Id": "6810a44f583a6c61de574351",
     "Name": "Wargs",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2269,10 +2262,10 @@
           "Ma": "18",
           "Di": "6"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Wargs",
@@ -2282,7 +2275,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Warg",
@@ -2293,9 +2286,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2311,16 +2304,16 @@
     }
   },
   {
-    "Id": "681094db229aecc8c39e2415",
+    "Id": "6810a44f583a6c61de574355",
     "Name": "Jötunn",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-stubborn",
-      "al-freezing_aura",
-      "rulebook-hand_weapon",
-      "al-unburnt"
-    ],
+    "RuleIds": {
+      "rulebook-stubborn": "Stubborn",
+      "al-freezing_aura": "Freezing Aura",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "al-unburnt": "Unburnt"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2331,10 +2324,10 @@
           "Ma": "10",
           "Di": "9"
         },
-        "RuleIds": [
-          "rulebook-stubborn",
-          "al-freezing_aura"
-        ]
+        "RuleIds": {
+          "rulebook-stubborn": "Stubborn",
+          "al-freezing_aura": "Freezing Aura"
+        }
       },
       {
         "Name": "Jötunn",
@@ -2344,9 +2337,9 @@
           "Re": "7",
           "Arm": "3"
         },
-        "RuleIds": [
-          "al-unburnt"
-        ]
+        "RuleIds": {
+          "al-unburnt": "Unburnt"
+        }
       },
       {
         "Name": "Jötunn",
@@ -2357,9 +2350,9 @@
           "AP": "3",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2375,18 +2368,18 @@
     }
   },
   {
-    "Id": "681094dc229aecc8c39e2417",
+    "Id": "6810a44f583a6c61de574357",
     "Name": "Kraken",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-coastal_predator",
-      "rulebook-hand_weapon",
-      "rulebook-multiple_wounds",
-      "rulebook-hatred",
-      "rulebook-distracting",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "al-coastal_predator": "Coastal Predator",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+      "rulebook-hatred": "Hatred ( against Against)",
+      "rulebook-distracting": "Distracting",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2397,9 +2390,9 @@
           "Ma": "12",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-coastal_predator"
-        ]
+        "RuleIds": {
+          "al-coastal_predator": "Coastal Predator"
+        }
       },
       {
         "Name": "Kraken",
@@ -2409,10 +2402,10 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Kraken",
@@ -2424,11 +2417,11 @@
           "Ag": "3",
           "undefined": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-multiple_wounds",
-          "rulebook-hatred"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-multiple_wounds": "Multiple Wounds (D3)",
+          "rulebook-hatred": "Hatred ( against Against)"
+        }
       }
     ],
     "Amount": {
@@ -2444,15 +2437,15 @@
     }
   },
   {
-    "Id": "681094dc229aecc8c39e2419",
+    "Id": "6810a44f583a6c61de574359",
     "Name": "Marauding Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "al-giant_see_giant_do",
-      "rulebook-hand_weapon",
-      "rulebook-rage"
-    ],
+    "RuleIds": {
+      "al-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2463,9 +2456,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "al-giant_see_giant_do"
-        ]
+        "RuleIds": {
+          "al-giant_see_giant_do": "Giant See, Giant Do"
+        }
       },
       {
         "Name": "Marauding Giant",
@@ -2475,7 +2468,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Marauding Giant",
@@ -2486,10 +2479,10 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-rage"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage"
+        }
       }
     ],
     "Amount": {

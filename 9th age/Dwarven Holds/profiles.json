@@ -1,6 +1,6 @@
 [
   {
-    "Id": "951a78fe-3720-4130-83ce-78c614fa9f47",
+    "Id": "9f5f72e4-7e26-4b19-9724-493856b66f77",
     "Name": "Shield Bearer (2)",
     "Attributes": {
       "type": "",
@@ -8,14 +8,14 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "dh-ancient_grudge",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "dh-ancient_grudge": "Ancient Grudge (1)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -27,11 +27,11 @@
           "Di": "10",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "dh-ancient_grudge",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "dh-ancient_grudge": "Ancient Grudge (1)",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Shield Bearer (2)",
@@ -41,9 +41,9 @@
           "Re": "5",
           "Arm": "6"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Shield Bearer (2)",
@@ -54,10 +54,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -73,7 +73,7 @@
     }
   },
   {
-    "Id": "947f3496-9551-44ae-b83e-c1e75c7314c0",
+    "Id": "b8520136-9f56-4889-8b79-7e99debc8e23",
     "Name": "Throne Bearer (4)",
     "Attributes": {
       "type": "",
@@ -81,18 +81,17 @@
       "totalcost": "370"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "dh-ancient_grudge",
-      "dh-ancient_grudge",
-      "rulebook-exclusive",
-      "rulebook-attached",
-      "rulebook-warplatform",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "dh-ancient_grudge": "Ancient Grudge (1)",
+      "rulebook-exclusive": "Exclusive (Height 1)",
+      "rulebook-attached": "Attached",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -104,15 +103,14 @@
           "Di": "10",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "dh-ancient_grudge",
-          "dh-ancient_grudge",
-          "rulebook-exclusive",
-          "rulebook-attached",
-          "rulebook-warplatform",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "dh-ancient_grudge": "Ancient Grudge (1)",
+          "rulebook-exclusive": "Exclusive (Height 1)",
+          "rulebook-attached": "Attached",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Throne Bearer (4)",
@@ -122,9 +120,9 @@
           "Re": "5",
           "Arm": "6"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Throne Bearer (4)",
@@ -135,10 +133,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -154,18 +152,18 @@
     }
   },
   {
-    "Id": "6810946c229aecc8c39d9c85",
+    "Id": "6810a3ab583a6c61de56bbee",
     "Name": "King",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "dh-ancient_grudge",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "dh-ancient_grudge": "Ancient Grudge (1)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -177,11 +175,11 @@
           "Di": "10",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "dh-ancient_grudge",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "dh-ancient_grudge": "Ancient Grudge (1)",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "King",
@@ -191,9 +189,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "King",
@@ -204,10 +202,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -223,7 +221,7 @@
     }
   },
   {
-    "Id": "208ce5d1-c62a-4120-abe9-5f7637dc169f",
+    "Id": "8a8b3561-ad56-4bf8-94f5-01cbce512b61",
     "Name": "Shield Bearer (2)",
     "Attributes": {
       "type": "",
@@ -231,15 +229,15 @@
       "totalcost": "150"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -251,12 +249,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Shield Bearer (2)",
@@ -266,9 +264,9 @@
           "Re": "5",
           "Arm": "6"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Shield Bearer (2)",
@@ -279,10 +277,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -298,19 +296,19 @@
     }
   },
   {
-    "Id": "6810946c229aecc8c39d9d36",
+    "Id": "6810a3ab583a6c61de56bc9f",
     "Name": "Thane",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -322,12 +320,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Thane",
@@ -337,9 +335,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Thane",
@@ -350,10 +348,10 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -369,25 +367,25 @@
     }
   },
   {
-    "Id": "6810946c229aecc8c39d9dcf",
+    "Id": "6810a3ab583a6c61de56bd38",
     "Name": "Dragon Seeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-weapon_master",
-      "rulebook-zeal",
-      "rulebook-great_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-zeal": "Zeal (Melee)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -399,14 +397,14 @@
           "Di": "10",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Dragon Seeker",
@@ -416,9 +414,9 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Dragon Seeker",
@@ -430,14 +428,14 @@
           "Ag": "5",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-weapon_master",
-          "rulebook-zeal",
-          "rulebook-great_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-zeal": "Zeal (Melee)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -453,19 +451,19 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9de8",
+    "Id": "6810a3ab583a6c61de56bd51",
     "Name": "Runic Smith",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-channel",
-      "rulebook-magic_resistance",
-      "dh-rune_craft_mastery",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "dh-rune_craft_mastery": "Rune Craft Mastery",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -478,12 +476,12 @@
           "Hgt": "1",
           "AP": "0"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-channel",
-          "rulebook-magic_resistance",
-          "dh-rune_craft_mastery"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "dh-rune_craft_mastery": "Rune Craft Mastery"
+        }
       },
       {
         "Name": "Runic Smith",
@@ -493,9 +491,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Runic Smith",
@@ -506,10 +504,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -525,17 +523,17 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9e19",
+    "Id": "6810a3ab583a6c61de56bd82",
     "Name": "Engineer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-engineer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-engineer": "Engineer (Field Artillery)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -547,10 +545,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-engineer"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-engineer": "Engineer (Field Artillery)"
+        }
       },
       {
         "Name": "Engineer",
@@ -560,9 +558,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Engineer",
@@ -573,10 +571,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -592,16 +590,16 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9e8f",
+    "Id": "6810a3ac583a6c61de56bdf8",
     "Name": "Clan Warriors Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -613,9 +611,9 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Clan Warriors Musician",
@@ -625,9 +623,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Clan Warrior",
@@ -638,10 +636,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -657,16 +655,16 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9e9e",
+    "Id": "6810a3ac583a6c61de56be07",
     "Name": "Clan Warriors Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -678,9 +676,9 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Clan Warriors Standard Bearer",
@@ -690,9 +688,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Clan Warrior",
@@ -703,10 +701,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -722,15 +720,15 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9e52",
+    "Id": "6810a3ac583a6c61de56bdbb",
     "Name": "Clan Warriors",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -742,7 +740,7 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Clan Warriors",
@@ -752,9 +750,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Clan Warrior",
@@ -765,10 +763,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -784,18 +782,18 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9eee",
+    "Id": "6810a3ac583a6c61de56be57",
     "Name": "Greybeards Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-rally_around_the_flag",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -807,11 +805,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-rally_around_the_flag",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Greybeards Musician",
@@ -821,9 +819,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Greybeard",
@@ -834,10 +832,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -853,18 +851,18 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9efb",
+    "Id": "6810a3ac583a6c61de56be64",
     "Name": "Greybeards Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-rally_around_the_flag",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -876,11 +874,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-rally_around_the_flag",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Greybeards Standard Bearer",
@@ -890,9 +888,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Greybeard",
@@ -903,10 +901,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -922,17 +920,17 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9eb5",
+    "Id": "6810a3ac583a6c61de56be1e",
     "Name": "Greybeards",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-rally_around_the_flag",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -944,10 +942,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-rally_around_the_flag"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")"
+        }
       },
       {
         "Name": "Greybeards",
@@ -957,9 +955,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Greybeard",
@@ -970,10 +968,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -989,16 +987,16 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9f4b",
+    "Id": "6810a3ac583a6c61de56beb4",
     "Name": "Clan Marksmen Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1010,9 +1008,9 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Clan Marksmen Musician",
@@ -1022,9 +1020,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Clan Marksman",
@@ -1035,10 +1033,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1054,16 +1052,16 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9f58",
+    "Id": "6810a3ac583a6c61de56bec1",
     "Name": "Clan Marksmen Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1075,9 +1073,9 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Clan Marksmen Standard Bearer",
@@ -1087,9 +1085,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Clan Marksman",
@@ -1100,10 +1098,10 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1119,16 +1117,16 @@
     }
   },
   {
-    "Id": "6810946d229aecc8c39d9f12",
+    "Id": "6810a3ac583a6c61de56be7b",
     "Name": "Clan Marksmen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-crossbow",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-crossbow": "Crossbow (4+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1140,7 +1138,7 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Clan Marksmen",
@@ -1150,9 +1148,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Clan Marksman",
@@ -1163,11 +1161,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-crossbow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-crossbow": "Crossbow (4+)"
+        }
       }
     ],
     "Amount": {
@@ -1183,20 +1181,20 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39d9f9c",
+    "Id": "6810a3ac583a6c61de56bf05",
     "Name": "Deep Watch Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-resolute",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-aegis",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-resolute": "Resolute (1)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-aegis": "Aegis (5+ against Melee Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1208,12 +1206,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-resolute",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-resolute": "Resolute (1)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Deep Watch Musician",
@@ -1223,10 +1221,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+ against Melee Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Deep Watch",
@@ -1237,10 +1235,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1256,20 +1254,20 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39d9fa3",
+    "Id": "6810a3ac583a6c61de56bf0c",
     "Name": "Deep Watch Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-resolute",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-aegis",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-resolute": "Resolute (1)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-aegis": "Aegis (5+ against Melee Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1281,12 +1279,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-resolute",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-resolute": "Resolute (1)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Deep Watch Standard Bearer",
@@ -1296,10 +1294,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+ against Melee Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Deep Watch",
@@ -1310,10 +1308,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1329,19 +1327,19 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39d9f6f",
+    "Id": "6810a3ac583a6c61de56bed8",
     "Name": "Deep Watch",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-resolute",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-aegis",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-resolute": "Resolute (1)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-aegis": "Aegis (5+ against Melee Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1353,11 +1351,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-resolute"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-resolute": "Resolute (1)"
+        }
       },
       {
         "Name": "Deep Watch",
@@ -1367,10 +1365,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+ against Melee Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Deep Watch",
@@ -1381,10 +1379,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1400,22 +1398,22 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39d9fb8",
+    "Id": "6810a3ad583a6c61de56bf21",
     "Name": "Anvil of Power",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-channel",
-      "rulebook-emplacement",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-magic_resistance",
-      "dh-runic_anvil",
-      "rulebook-hand_weapon",
-      "rulebook-great_weapon",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-channel": "Channel (2)",
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-magic_resistance": "Magic Resistance (2)",
+      "dh-runic_anvil": "Runic Anvil",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1427,15 +1425,15 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-channel",
-          "rulebook-emplacement",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-magic_resistance",
-          "dh-runic_anvil"
-        ]
+        "RuleIds": {
+          "rulebook-channel": "Channel (2)",
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-magic_resistance": "Magic Resistance (2)",
+          "dh-runic_anvil": "Runic Anvil"
+        }
       },
       {
         "Name": "Anvil of Power",
@@ -1445,9 +1443,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Anvil Guard (3)",
@@ -1459,10 +1457,10 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1478,21 +1476,21 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39d9fe9",
+    "Id": "6810a3ad583a6c61de56bf52",
     "Name": "King's Guard Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-hatred",
-      "dh-kingsoath",
-      "rulebook-great_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General, King)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-hatred": "Hatred",
+      "dh-kingsoath": "Kingsoath",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1504,11 +1502,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General, King)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "King's Guard Musician",
@@ -1518,9 +1516,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "King's Guard",
@@ -1532,13 +1530,13 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-hatred",
-          "dh-kingsoath",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-hatred": "Hatred",
+          "dh-kingsoath": "Kingsoath",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1554,21 +1552,21 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39d9ff0",
+    "Id": "6810a3ad583a6c61de56bf59",
     "Name": "King's Guard Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-hatred",
-      "dh-kingsoath",
-      "rulebook-great_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General, King)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-hatred": "Hatred",
+      "dh-kingsoath": "Kingsoath",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1580,11 +1578,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-disciplined",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General, King)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "King's Guard Standard Bearer",
@@ -1594,9 +1592,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "King's Guard",
@@ -1608,13 +1606,13 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-hatred",
-          "dh-kingsoath",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-hatred": "Hatred",
+          "dh-kingsoath": "Kingsoath",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1630,20 +1628,20 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39d9fbc",
+    "Id": "6810a3ad583a6c61de56bf25",
     "Name": "King's Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-disciplined",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-hatred",
-      "dh-kingsoath",
-      "rulebook-great_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General, King)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-hatred": "Hatred",
+      "dh-kingsoath": "Kingsoath",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1655,10 +1653,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-disciplined"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General, King)",
+          "rulebook-disciplined": "Disciplined"
+        }
       },
       {
         "Name": "King's Guard",
@@ -1668,9 +1666,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "King's Guard",
@@ -1682,13 +1680,13 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-hatred",
-          "dh-kingsoath",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-hatred": "Hatred",
+          "dh-kingsoath": "Kingsoath",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1704,17 +1702,17 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39da01e",
+    "Id": "6810a3ad583a6c61de56bf87",
     "Name": "Miners Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ambush",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1726,10 +1724,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-ambush",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Miners Musician",
@@ -1739,9 +1737,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Miner",
@@ -1752,10 +1750,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1771,17 +1769,17 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39da02b",
+    "Id": "6810a3ae583a6c61de56bf94",
     "Name": "Miners Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ambush",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1793,10 +1791,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-ambush",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Miners Standard Bearer",
@@ -1806,9 +1804,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Miner",
@@ -1819,10 +1817,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1838,17 +1836,17 @@
     }
   },
   {
-    "Id": "6810946e229aecc8c39da007",
+    "Id": "6810a3ad583a6c61de56bf70",
     "Name": "Miners",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ambush",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-great_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1860,9 +1858,9 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-ambush"
-        ]
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge)"
+        }
       },
       {
         "Name": "Miners",
@@ -1872,9 +1870,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Miner",
@@ -1886,11 +1884,11 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1906,24 +1904,24 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da040",
+    "Id": "6810a3ae583a6c61de56bfa9",
     "Name": "Seekers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "rulebook-zeal",
-      "rulebook-devastating_charge",
-      "rulebook-great_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-zeal": "Zeal (Melee)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1935,13 +1933,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Seekers Musician",
@@ -1951,9 +1949,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Seeker",
@@ -1965,14 +1963,14 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "rulebook-zeal",
-          "rulebook-devastating_charge",
-          "rulebook-great_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-zeal": "Zeal (Melee)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1988,24 +1986,24 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da049",
+    "Id": "6810a3ae583a6c61de56bfb2",
     "Name": "Seekers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "rulebook-zeal",
-      "rulebook-devastating_charge",
-      "rulebook-great_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-zeal": "Zeal (Melee)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2017,13 +2015,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Seekers Standard Bearer",
@@ -2033,9 +2031,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Seeker",
@@ -2047,14 +2045,14 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "rulebook-zeal",
-          "rulebook-devastating_charge",
-          "rulebook-great_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-zeal": "Zeal (Melee)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2070,23 +2068,23 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da031",
+    "Id": "6810a3ae583a6c61de56bf9a",
     "Name": "Seekers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "rulebook-zeal",
-      "rulebook-devastating_charge",
-      "rulebook-great_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-zeal": "Zeal (Melee)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2098,12 +2096,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Seekers",
@@ -2113,9 +2111,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Seeker",
@@ -2127,14 +2125,14 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "rulebook-zeal",
-          "rulebook-devastating_charge",
-          "rulebook-great_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-zeal": "Zeal (Melee)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2150,24 +2148,24 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da05e",
+    "Id": "6810a3ae583a6c61de56bfc7",
     "Name": "Seekers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "rulebook-zeal",
-      "rulebook-devastating_charge",
-      "rulebook-great_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-zeal": "Zeal (Melee)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2179,13 +2177,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Seekers Musician",
@@ -2195,9 +2193,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Seeker",
@@ -2209,14 +2207,14 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "rulebook-zeal",
-          "rulebook-devastating_charge",
-          "rulebook-great_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-zeal": "Zeal (Melee)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2232,24 +2230,24 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da067",
+    "Id": "6810a3ae583a6c61de56bfd0",
     "Name": "Seekers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "rulebook-zeal",
-      "rulebook-devastating_charge",
-      "rulebook-great_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-zeal": "Zeal (Melee)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2261,13 +2259,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Seekers Standard Bearer",
@@ -2277,9 +2275,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Seeker",
@@ -2291,14 +2289,14 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "rulebook-zeal",
-          "rulebook-devastating_charge",
-          "rulebook-great_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-zeal": "Zeal (Melee)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2314,23 +2312,23 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da04f",
+    "Id": "6810a3ae583a6c61de56bfb8",
     "Name": "Seekers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "rulebook-zeal",
-      "rulebook-devastating_charge",
-      "rulebook-great_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-zeal": "Zeal (Melee)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2342,12 +2340,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Seekers",
@@ -2357,9 +2355,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)"
+        }
       },
       {
         "Name": "Seeker",
@@ -2371,14 +2369,14 @@
           "Ag": "2",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "rulebook-zeal",
-          "rulebook-devastating_charge",
-          "rulebook-great_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-zeal": "Zeal (Melee)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2394,25 +2392,25 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da06b",
+    "Id": "6810a3af583a6c61de56bfd4",
     "Name": "Vengeance Seeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-fearless",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-resistance",
-      "rulebook-hand_weapon",
-      "rulebook-zeal",
-      "dh-whirling_chains_of_doom",
-      "rulebook-aegis",
-      "rulebook-distracting",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-resistance": "Resistance (Melee)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-zeal": "Zeal (Melee)",
+      "dh-whirling_chains_of_doom": "Whirling Chains of Doom",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2424,15 +2422,15 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-fearless",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-resistance": "Resistance (Melee)"
+        }
       },
       {
         "Name": "Vengeance Seeker",
@@ -2442,11 +2440,11 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-aegis",
-          "rulebook-distracting",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Vengeance Seeker",
@@ -2457,11 +2455,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-zeal",
-          "dh-whirling_chains_of_doom"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-zeal": "Zeal (Melee)",
+          "dh-whirling_chains_of_doom": "Whirling Chains of Doom"
+        }
       }
     ],
     "Amount": {
@@ -2477,17 +2475,17 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da09b",
+    "Id": "6810a3af583a6c61de56c004",
     "Name": "Hold Guardians Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "dh-runic_engravings",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "dh-runic_engravings": "Runic Engravings",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2499,11 +2497,11 @@
           "Di": "10",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "dh-runic_engravings",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "dh-runic_engravings": "Runic Engravings",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Hold Guardians Musician",
@@ -2513,7 +2511,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hold Guardian",
@@ -2524,10 +2522,10 @@
           "AP": "2",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2543,17 +2541,17 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da0a2",
+    "Id": "6810a3af583a6c61de56c00b",
     "Name": "Hold Guardians Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "dh-runic_engravings",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "dh-runic_engravings": "Runic Engravings",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2565,11 +2563,11 @@
           "Di": "10",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "dh-runic_engravings",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "dh-runic_engravings": "Runic Engravings",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Hold Guardians Standard Bearer",
@@ -2579,7 +2577,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hold Guardian",
@@ -2590,10 +2588,10 @@
           "AP": "2",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2609,16 +2607,16 @@
     }
   },
   {
-    "Id": "6810946f229aecc8c39da06e",
+    "Id": "6810a3af583a6c61de56bfd7",
     "Name": "Hold Guardians",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "dh-runic_engravings",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "dh-runic_engravings": "Runic Engravings",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2630,10 +2628,10 @@
           "Di": "10",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "dh-runic_engravings"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "dh-runic_engravings": "Runic Engravings"
+        }
       },
       {
         "Name": "Hold Guardians",
@@ -2643,7 +2641,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hold Guardian",
@@ -2654,10 +2652,10 @@
           "AP": "2",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2673,21 +2671,21 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da0b7",
+    "Id": "6810a3af583a6c61de56c020",
     "Name": "Grudge Buster",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-grind_attack",
-      "rulebook-devastating_charge",
-      "dh-forge_repeater"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-grind_attack": "Grind Attack (3D3)",
+      "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
+      "dh-forge_repeater": "Forge Repeater (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2699,12 +2697,12 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Grudge Buster",
@@ -2714,7 +2712,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew (2)",
@@ -2725,10 +2723,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       },
       {
         "Name": "Chassis",
@@ -2739,11 +2737,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-grind_attack",
-          "rulebook-devastating_charge",
-          "dh-forge_repeater"
-        ]
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (3D3)",
+          "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
+          "dh-forge_repeater": "Forge Repeater (4+)"
+        }
       }
     ],
     "Amount": {
@@ -2759,16 +2757,16 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da0b8",
+    "Id": "6810a3af583a6c61de56c021",
     "Name": "Field Artillery",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-emplacement",
-      "rulebook-stubborn",
-      "rulebook-solitary",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2780,11 +2778,11 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-emplacement",
-          "rulebook-stubborn",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Field Artillery",
@@ -2794,7 +2792,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew",
@@ -2805,9 +2803,9 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2823,21 +2821,21 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da162",
+    "Id": "6810a3b0583a6c61de56c0cb",
     "Name": "Rangers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-scout",
-      "rulebook-vanguard",
-      "rulebook-disciplined",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-quick_to_fire",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-scout": "Scout",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-quick_to_fire": "Quick to Fire",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2849,13 +2847,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-scout",
-          "rulebook-vanguard",
-          "rulebook-disciplined",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-scout": "Scout",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Rangers Musician",
@@ -2865,9 +2863,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Ranger",
@@ -2878,11 +2876,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-quick_to_fire"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-quick_to_fire": "Quick to Fire"
+        }
       }
     ],
     "Amount": {
@@ -2898,21 +2896,21 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da172",
+    "Id": "6810a3b0583a6c61de56c0db",
     "Name": "Rangers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-scout",
-      "rulebook-vanguard",
-      "rulebook-disciplined",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-quick_to_fire",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-scout": "Scout",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-quick_to_fire": "Quick to Fire",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2924,13 +2922,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-scout",
-          "rulebook-vanguard",
-          "rulebook-disciplined",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-scout": "Scout",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Rangers Standard Bearer",
@@ -2940,9 +2938,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Ranger",
@@ -2953,11 +2951,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-quick_to_fire"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-quick_to_fire": "Quick to Fire"
+        }
       }
     ],
     "Amount": {
@@ -2973,20 +2971,20 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da145",
+    "Id": "6810a3b0583a6c61de56c0ae",
     "Name": "Rangers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-scout",
-      "rulebook-vanguard",
-      "rulebook-disciplined",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-quick_to_fire",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-scout": "Scout",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-quick_to_fire": "Quick to Fire",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2998,12 +2996,12 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-scout",
-          "rulebook-vanguard",
-          "rulebook-disciplined",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "rulebook-scout": "Scout",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Forest)"
+        }
       },
       {
         "Name": "Rangers",
@@ -3013,9 +3011,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Ranger",
@@ -3026,11 +3024,11 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-quick_to_fire"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-quick_to_fire": "Quick to Fire"
+        }
       }
     ],
     "Amount": {
@@ -3046,18 +3044,18 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da1a5",
+    "Id": "6810a3b0583a6c61de56c10e",
     "Name": "Forge Wardens Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "dh-forge_gun",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "dh-forge_gun": "\n\t\tForge Gun (3+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3069,10 +3067,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Forge Wardens Musician",
@@ -3082,9 +3080,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Forge Warden",
@@ -3095,11 +3093,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "dh-forge_gun"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "dh-forge_gun": "\n\t\tForge Gun (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3115,18 +3113,18 @@
     }
   },
   {
-    "Id": "68109471229aecc8c39da1ac",
+    "Id": "6810a3b0583a6c61de56c115",
     "Name": "Forge Wardens Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "dh-forge_gun",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "dh-forge_gun": "\n\t\tForge Gun (3+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3138,10 +3136,10 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Forge Wardens Standard Bearer",
@@ -3151,9 +3149,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Forge Warden",
@@ -3164,11 +3162,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "dh-forge_gun"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "dh-forge_gun": "\n\t\tForge Gun (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3184,17 +3182,17 @@
     }
   },
   {
-    "Id": "68109470229aecc8c39da178",
+    "Id": "6810a3b0583a6c61de56c0e1",
     "Name": "Forge Wardens",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-disciplined",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "dh-forge_gun",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "dh-forge_gun": "\n\t\tForge Gun (3+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3206,9 +3204,9 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-disciplined"
-        ]
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined"
+        }
       },
       {
         "Name": "Forge Wardens",
@@ -3218,9 +3216,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Forge Warden",
@@ -3231,11 +3229,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "dh-forge_gun"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "dh-forge_gun": "\n\t\tForge Gun (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3251,20 +3249,20 @@
     }
   },
   {
-    "Id": "68109471229aecc8c39da1c3",
+    "Id": "6810a3b1583a6c61de56c12c",
     "Name": "Steam Copters",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "dh-shrapnel_grenades",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "dh-forge_repeater"
-    ],
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "dh-shrapnel_grenades": "Shrapnel Grenades",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "dh-forge_repeater": "Forge Repeater (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3276,13 +3274,13 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "dh-shrapnel_grenades"
-        ]
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "dh-shrapnel_grenades": "Shrapnel Grenades"
+        }
       },
       {
         "Name": "Steam Copters",
@@ -3292,7 +3290,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew",
@@ -3303,11 +3301,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons",
-          "dh-forge_repeater"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "dh-forge_repeater": "Forge Repeater (4+)"
+        }
       }
     ],
     "Amount": {

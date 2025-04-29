@@ -1,6 +1,6 @@
 [
   {
-    "Id": "63f4064b-5702-4fca-86de-16a1ea4f1b93",
+    "Id": "6f64ac29-db77-4c0a-b8ae-14a37bd3c644",
     "Name": "Colossal Camel",
     "Attributes": {
       "type": "",
@@ -8,10 +8,10 @@
       "totalcost": "155"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -22,9 +22,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -34,7 +34,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Colossal Camel",
@@ -45,9 +45,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -63,7 +63,7 @@
     }
   },
   {
-    "Id": "94db2ad6-cbef-4e4c-9a30-77cd9903453e",
+    "Id": "87ceaadd-bb89-42bd-955d-c0d4dd85121c",
     "Name": "Mountain Wolf",
     "Attributes": {
       "type": "",
@@ -71,13 +71,13 @@
       "totalcost": "155"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -88,12 +88,12 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -103,7 +103,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Mountain Wolf",
@@ -114,9 +114,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -132,7 +132,7 @@
     }
   },
   {
-    "Id": "09fea80a-f612-444e-b2fc-3c9907fc15c4",
+    "Id": "bdc82e40-45ba-4ff7-99af-8ba44180db6e",
     "Name": "Plains Tusker",
     "Attributes": {
       "type": "",
@@ -140,11 +140,11 @@
       "totalcost": "225"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -155,9 +155,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -167,7 +167,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plains Tusker",
@@ -178,10 +178,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -197,14 +197,14 @@
     }
   },
   {
-    "Id": "6810947f229aecc8c39db76d",
+    "Id": "6810a3c4583a6c61de56d6d6",
     "Name": "Hobgoblin Conjurer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -215,9 +215,9 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Hobgoblin Conjurer",
@@ -227,7 +227,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hobgoblin Conjurer",
@@ -238,9 +238,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -256,7 +256,7 @@
     }
   },
   {
-    "Id": "d667875c-5741-447b-9b06-51468b687bd3",
+    "Id": "425b1b68-258f-4df5-8f2b-1f7a92d8798c",
     "Name": "Colossal Camel",
     "Attributes": {
       "type": "",
@@ -264,12 +264,12 @@
       "totalcost": "165"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "hg-hob_cohesion",
-      "hg-cavalry_commander",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "hg-hob_cohesion": "Hob Cohesion",
+      "hg-cavalry_commander": "Cavalry Commander",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -280,10 +280,10 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "hg-hob_cohesion",
-          "hg-cavalry_commander"
-        ]
+        "RuleIds": {
+          "hg-hob_cohesion": "Hob Cohesion",
+          "hg-cavalry_commander": "Cavalry Commander"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -293,9 +293,9 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -306,9 +306,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -324,7 +324,7 @@
     }
   },
   {
-    "Id": "e361a248-f159-4af0-8656-dae350d3fbbb",
+    "Id": "02a26d51-7fcf-464f-b903-8cb84a250cc0",
     "Name": "Mountain Wolf",
     "Attributes": {
       "type": "",
@@ -332,15 +332,15 @@
       "totalcost": "175"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "hg-hob_cohesion",
-      "rulebook-light_troops",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "hg-cavalry_commander",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "hg-hob_cohesion": "Hob Cohesion",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "hg-cavalry_commander": "Cavalry Commander",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -351,13 +351,13 @@
           "Ma": "16",
           "Di": "8"
         },
-        "RuleIds": [
-          "hg-hob_cohesion",
-          "rulebook-light_troops",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "hg-cavalry_commander"
-        ]
+        "RuleIds": {
+          "hg-hob_cohesion": "Hob Cohesion",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "hg-cavalry_commander": "Cavalry Commander"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -367,9 +367,9 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -380,9 +380,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -398,7 +398,7 @@
     }
   },
   {
-    "Id": "0c3febbb-5290-4a9b-809e-d9d8ced0693d",
+    "Id": "0c4160c6-3464-49ce-8518-d8fd680a62f5",
     "Name": "Bear--Dog",
     "Attributes": {
       "type": "",
@@ -406,13 +406,13 @@
       "totalcost": "195"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "hg-hob_cohesion",
-      "hg-cavalry_commander",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "hg-hob_cohesion": "Hob Cohesion",
+      "hg-cavalry_commander": "Cavalry Commander",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -423,10 +423,10 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "hg-hob_cohesion",
-          "hg-cavalry_commander"
-        ]
+        "RuleIds": {
+          "hg-hob_cohesion": "Hob Cohesion",
+          "hg-cavalry_commander": "Cavalry Commander"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -436,9 +436,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -449,10 +449,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -468,7 +468,7 @@
     }
   },
   {
-    "Id": "f3fa5f69-d8a4-479e-9b17-c5c4be5e79da",
+    "Id": "7fd050e5-2353-4284-bb4a-31e30a567ff1",
     "Name": "Drummer (4)",
     "Attributes": {
       "type": "",
@@ -476,20 +476,19 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "hg-hob_cohesion",
-      "rulebook-warplatform",
-      "rulebook-attached",
-      "rulebook-exclusive",
-      "hg-cavalry_commander",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-bow",
-      "hg-iron_rain",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour",
-      "hg-royal_gogyag_barding"
-    ],
+    "RuleIds": {
+      "hg-hob_cohesion": "Hob Cohesion",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (Hob Levies)",
+      "hg-cavalry_commander": "Cavalry Commander",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-bow": "Bow (4+)",
+      "hg-iron_rain": "Iron Rain",
+      "hg-infernal_armour": "Infernal Armour",
+      "hg-royal_gogyag_barding": "Royal Gogyag Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -500,13 +499,13 @@
           "Ma": "10",
           "Di": "8"
         },
-        "RuleIds": [
-          "hg-hob_cohesion",
-          "rulebook-warplatform",
-          "rulebook-attached",
-          "rulebook-exclusive",
-          "hg-cavalry_commander"
-        ]
+        "RuleIds": {
+          "hg-hob_cohesion": "Hob Cohesion",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (Hob Levies)",
+          "hg-cavalry_commander": "Cavalry Commander"
+        }
       },
       {
         "Name": "Drummer (4)",
@@ -516,10 +515,10 @@
           "Re": "6",
           "Arm": "3"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "hg-royal_gogyag_barding"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "hg-royal_gogyag_barding": "Royal Gogyag Barding"
+        }
       },
       {
         "Name": "Drummer (4)",
@@ -530,12 +529,12 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd",
-          "rulebook-bow",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd",
+          "rulebook-bow": "Bow (4+)",
+          "hg-iron_rain": "Iron Rain"
+        }
       },
       {
         "Name": "Gogyag",
@@ -546,9 +545,9 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -564,7 +563,7 @@
     }
   },
   {
-    "Id": "78d76b3c-44d9-415a-9c88-610cf1d002b1",
+    "Id": "cb4ecf85-d2f4-4f35-838a-9f6d30246137",
     "Name": "Plains Tusker",
     "Attributes": {
       "type": "",
@@ -572,13 +571,13 @@
       "totalcost": "305"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "hg-hob_cohesion",
-      "hg-cavalry_commander",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "hg-hob_cohesion": "Hob Cohesion",
+      "hg-cavalry_commander": "Cavalry Commander",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -589,10 +588,10 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "hg-hob_cohesion",
-          "hg-cavalry_commander"
-        ]
+        "RuleIds": {
+          "hg-hob_cohesion": "Hob Cohesion",
+          "hg-cavalry_commander": "Cavalry Commander"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -602,9 +601,9 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -615,10 +614,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -634,18 +633,18 @@
     }
   },
   {
-    "Id": "6810947f229aecc8c39db816",
+    "Id": "6810a3c4583a6c61de56d77f",
     "Name": "Satrap",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "hg-hob_cohesion",
-      "hg-cavalry_commander",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-weapon_master",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "hg-hob_cohesion": "Hob Cohesion",
+      "hg-cavalry_commander": "Cavalry Commander",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-weapon_master": "Weapon Master",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -656,10 +655,10 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "hg-hob_cohesion",
-          "hg-cavalry_commander"
-        ]
+        "RuleIds": {
+          "hg-hob_cohesion": "Hob Cohesion",
+          "hg-cavalry_commander": "Cavalry Commander"
+        }
       },
       {
         "Name": "Satrap",
@@ -669,9 +668,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Satrap",
@@ -682,11 +681,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-weapon_master"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-weapon_master": "Weapon Master"
+        }
       }
     ],
     "Amount": {
@@ -702,7 +701,7 @@
     }
   },
   {
-    "Id": "188675ba-f23a-4c60-800f-e4135c3f1cca",
+    "Id": "00519035-1488-4a53-816a-f82db2039ef5",
     "Name": "Mountain Wolf",
     "Attributes": {
       "type": "",
@@ -710,17 +709,17 @@
       "totalcost": "50"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-attached",
-      "hg-loyal_lieutenant",
-      "hg-hob_cohesion",
-      "rulebook-light_troops",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "hg-loyal_lieutenant": "Loyal Lieutenant",
+      "hg-hob_cohesion": "Hob Cohesion",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -731,14 +730,14 @@
           "Ma": "16",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-attached",
-          "hg-loyal_lieutenant",
-          "hg-hob_cohesion",
-          "rulebook-light_troops",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "hg-loyal_lieutenant": "Loyal Lieutenant",
+          "hg-hob_cohesion": "Hob Cohesion",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -748,10 +747,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -762,9 +761,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -780,7 +779,7 @@
     }
   },
   {
-    "Id": "5ee2a40c-182f-429e-ae83-611c390d745e",
+    "Id": "b87e39c1-6556-47a7-bde8-6ed50a90a7a1",
     "Name": "Colossal Camel",
     "Attributes": {
       "type": "",
@@ -788,14 +787,14 @@
       "totalcost": "60"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-attached",
-      "hg-loyal_lieutenant",
-      "hg-hob_cohesion",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "hg-loyal_lieutenant": "Loyal Lieutenant",
+      "hg-hob_cohesion": "Hob Cohesion",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -806,11 +805,11 @@
           "Ma": "14",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-attached",
-          "hg-loyal_lieutenant",
-          "hg-hob_cohesion"
-        ]
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "hg-loyal_lieutenant": "Loyal Lieutenant",
+          "hg-hob_cohesion": "Hob Cohesion"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -820,10 +819,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -834,9 +833,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -852,7 +851,7 @@
     }
   },
   {
-    "Id": "08741953-03bd-47a4-bb71-ca7b399e775c",
+    "Id": "2a1bfff5-83a6-43a9-bcc6-a9b0ae746007",
     "Name": "Bear--Dog",
     "Attributes": {
       "type": "",
@@ -860,15 +859,15 @@
       "totalcost": "65"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-attached",
-      "hg-loyal_lieutenant",
-      "hg-hob_cohesion",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "hg-loyal_lieutenant": "Loyal Lieutenant",
+      "hg-hob_cohesion": "Hob Cohesion",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -879,11 +878,11 @@
           "Ma": "14",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-attached",
-          "hg-loyal_lieutenant",
-          "hg-hob_cohesion"
-        ]
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "hg-loyal_lieutenant": "Loyal Lieutenant",
+          "hg-hob_cohesion": "Hob Cohesion"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -893,10 +892,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -907,10 +906,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -926,7 +925,7 @@
     }
   },
   {
-    "Id": "918e3f5b-ac17-4461-91f2-5935399c8e41",
+    "Id": "5b27158e-8435-43d0-9618-d06e5dd90ae2",
     "Name": "Plains Tusker",
     "Attributes": {
       "type": "",
@@ -934,15 +933,15 @@
       "totalcost": "145"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-attached",
-      "hg-loyal_lieutenant",
-      "hg-hob_cohesion",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "hg-loyal_lieutenant": "Loyal Lieutenant",
+      "hg-hob_cohesion": "Hob Cohesion",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -953,11 +952,11 @@
           "Ma": "14",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-attached",
-          "hg-loyal_lieutenant",
-          "hg-hob_cohesion"
-        ]
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "hg-loyal_lieutenant": "Loyal Lieutenant",
+          "hg-hob_cohesion": "Hob Cohesion"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -967,10 +966,10 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -981,10 +980,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -1000,21 +999,21 @@
     }
   },
   {
-    "Id": "68109480229aecc8c39db9e7",
+    "Id": "6810a3c5583a6c61de56d950",
     "Name": "Hob Savaran",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-attached",
-      "hg-loyal_lieutenant",
-      "hg-hob_cohesion",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-weapon_master",
-      "rulebook-bow",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "hg-loyal_lieutenant": "Loyal Lieutenant",
+      "hg-hob_cohesion": "Hob Cohesion",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-bow": "Bow (4+)",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1025,11 +1024,11 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-attached",
-          "hg-loyal_lieutenant",
-          "hg-hob_cohesion"
-        ]
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "hg-loyal_lieutenant": "Loyal Lieutenant",
+          "hg-hob_cohesion": "Hob Cohesion"
+        }
       },
       {
         "Name": "Hob Savaran",
@@ -1039,10 +1038,10 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Hob Savaran",
@@ -1053,12 +1052,12 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-weapon_master",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-bow": "Bow (4+)"
+        }
       }
     ],
     "Amount": {
@@ -1074,14 +1073,14 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dba91",
+    "Id": "6810a3c6583a6c61de56d9fa",
     "Name": "Hob Levies Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1092,7 +1091,7 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Levies Champion",
@@ -1102,7 +1101,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Levy",
@@ -1113,10 +1112,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain"
+        }
       }
     ],
     "Amount": {
@@ -1132,15 +1131,15 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbaa8",
+    "Id": "6810a3c6583a6c61de56da11",
     "Name": "Hob Levies Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "hg-iron_rain"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1151,9 +1150,9 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Hob Levies Musician",
@@ -1163,7 +1162,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Levy",
@@ -1174,10 +1173,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain"
+        }
       }
     ],
     "Amount": {
@@ -1193,15 +1192,15 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbabf",
+    "Id": "6810a3c6583a6c61de56da28",
     "Name": "Hob Levies Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "hg-iron_rain"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1212,9 +1211,9 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Hob Levies Standard Bearer",
@@ -1224,7 +1223,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Levy",
@@ -1235,10 +1234,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain"
+        }
       }
     ],
     "Amount": {
@@ -1254,15 +1253,15 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dba72",
+    "Id": "6810a3c6583a6c61de56d9db",
     "Name": "Hob Levies",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1273,7 +1272,7 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Levies",
@@ -1283,7 +1282,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Levy",
@@ -1294,11 +1293,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1314,17 +1313,17 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbad8",
+    "Id": "6810a3c6583a6c61de56da41",
     "Name": "Hob Auxiliaries Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1335,10 +1334,10 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard (6\"\")"
+        }
       },
       {
         "Name": "Hob Auxiliaries Champion",
@@ -1348,7 +1347,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Auxiliary",
@@ -1359,11 +1358,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1379,18 +1378,18 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbae3",
+    "Id": "6810a3c6583a6c61de56da4c",
     "Name": "Hob Auxiliaries Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1401,11 +1400,11 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Hob Auxiliaries Musician",
@@ -1415,7 +1414,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Auxiliary",
@@ -1426,11 +1425,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1446,18 +1445,18 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbaca",
+    "Id": "6810a3c6583a6c61de56da33",
     "Name": "Hob Auxiliaries",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "hg-disciples",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "hg-disciples": "Disciples",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1468,11 +1467,11 @@
           "Ma": "8",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "hg-disciples"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "hg-disciples": "Disciples"
+        }
       },
       {
         "Name": "Hob Auxiliaries",
@@ -1482,7 +1481,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Auxiliary",
@@ -1493,11 +1492,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1513,22 +1512,21 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbae6",
+    "Id": "6810a3c6583a6c61de56da4f",
     "Name": "Regimental Gogyag",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-warplatform",
-      "rulebook-musician",
-      "rulebook-attached",
-      "rulebook-deafening_clamour",
-      "rulebook-exclusive",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-bow",
-      "hg-iron_rain",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-musician": "Musician",
+      "rulebook-attached": "Attached",
+      "rulebook-deafening_clamour": "Deafening Clamour",
+      "rulebook-exclusive": "Exclusive (Hob Levies)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-bow": "Bow (4+)",
+      "hg-iron_rain": "Iron Rain"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1539,13 +1537,13 @@
           "Ma": "10",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-warplatform",
-          "rulebook-musician",
-          "rulebook-attached",
-          "rulebook-deafening_clamour",
-          "rulebook-exclusive"
-        ]
+        "RuleIds": {
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-musician": "Musician",
+          "rulebook-attached": "Attached",
+          "rulebook-deafening_clamour": "Deafening Clamour",
+          "rulebook-exclusive": "Exclusive (Hob Levies)"
+        }
       },
       {
         "Name": "Regimental Gogyag",
@@ -1555,7 +1553,7 @@
           "Re": "6",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Drummer (4)",
@@ -1566,12 +1564,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd",
-          "rulebook-bow",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd",
+          "rulebook-bow": "Bow (4+)",
+          "hg-iron_rain": "Iron Rain"
+        }
       },
       {
         "Name": "Gogyag",
@@ -1582,9 +1580,9 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1600,21 +1598,20 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbafa",
+    "Id": "6810a3c7583a6c61de56da63",
     "Name": "Hob Cataphracts Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-weapon_master",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1625,7 +1622,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Cataphracts Champion",
@@ -1635,9 +1632,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Veteran",
@@ -1648,14 +1645,14 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-paired_weapons",
-          "rulebook-weapon_master",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -1666,10 +1663,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1685,22 +1682,21 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbb0a",
+    "Id": "6810a3c7583a6c61de56da73",
     "Name": "Hob Cataphracts Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-weapon_master",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1711,9 +1707,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Hob Cataphracts Musician",
@@ -1723,9 +1719,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Veteran",
@@ -1736,14 +1732,14 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-paired_weapons",
-          "rulebook-weapon_master",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -1754,10 +1750,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1773,22 +1769,21 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbb1a",
+    "Id": "6810a3c7583a6c61de56da83",
     "Name": "Hob Cataphracts Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-weapon_master",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1799,9 +1794,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Hob Cataphracts Standard Bearer",
@@ -1811,9 +1806,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Veteran",
@@ -1824,14 +1819,14 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-paired_weapons",
-          "rulebook-weapon_master",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -1842,10 +1837,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1861,21 +1856,20 @@
     }
   },
   {
-    "Id": "68109481229aecc8c39dbae9",
+    "Id": "6810a3c7583a6c61de56da52",
     "Name": "Hob Cataphracts",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-weapon_master",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1886,7 +1880,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Cataphracts",
@@ -1896,9 +1890,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Veteran",
@@ -1909,14 +1903,14 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-paired_weapons",
-          "rulebook-weapon_master",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -1927,10 +1921,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1946,19 +1940,18 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb36",
+    "Id": "6810a3c7583a6c61de56da9f",
     "Name": "Eternals Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-hatred",
-      "rulebook-great_weapon",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-bow": "Bow (4+)",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1969,7 +1962,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Eternals Champion",
@@ -1979,9 +1972,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Eternal",
@@ -1993,13 +1986,13 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-hatred",
-          "rulebook-great_weapon",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -2010,9 +2003,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2028,20 +2021,19 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb46",
+    "Id": "6810a3c7583a6c61de56daaf",
     "Name": "Eternals Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-hatred",
-      "rulebook-great_weapon",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-bow": "Bow (4+)",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2052,9 +2044,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Eternals Musician",
@@ -2064,9 +2056,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Eternal",
@@ -2078,13 +2070,13 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-hatred",
-          "rulebook-great_weapon",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -2095,9 +2087,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2113,20 +2105,19 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb56",
+    "Id": "6810a3c7583a6c61de56dabf",
     "Name": "Eternals Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-hatred",
-      "rulebook-great_weapon",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-bow": "Bow (4+)",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2137,9 +2128,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Eternals Standard Bearer",
@@ -2149,9 +2140,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Eternal",
@@ -2163,13 +2154,13 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-hatred",
-          "rulebook-great_weapon",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -2180,9 +2171,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2198,19 +2189,18 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb25",
+    "Id": "6810a3c7583a6c61de56da8e",
     "Name": "Eternals",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-hatred",
-      "rulebook-great_weapon",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-bow": "Bow (4+)",
+      "hg-infernal_armour": "Infernal Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2221,7 +2211,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Eternals",
@@ -2231,9 +2221,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "hg-infernal_armour"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour"
+        }
       },
       {
         "Name": "Eternal",
@@ -2245,13 +2235,13 @@
           "Ag": "3",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-hatred",
-          "rulebook-great_weapon",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-hatred": "Hatred ( against Beast,  against Cavalry)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Bear--Dog",
@@ -2262,9 +2252,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2280,21 +2270,20 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb72",
+    "Id": "6810a3c8583a6c61de56dadb",
     "Name": "Mountain Wolf Cavalry Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2305,11 +2294,11 @@
           "Ma": "16",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")"
+        }
       },
       {
         "Name": "Mountain Wolf Cavalry Champion",
@@ -2319,9 +2308,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Hobgoblin Rider",
@@ -2332,12 +2321,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -2348,9 +2337,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2366,22 +2355,21 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb82",
+    "Id": "6810a3c8583a6c61de56daeb",
     "Name": "Mountain Wolf Cavalry Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2392,12 +2380,12 @@
           "Ma": "16",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Mountain Wolf Cavalry Musician",
@@ -2407,9 +2395,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Hobgoblin Rider",
@@ -2420,12 +2408,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -2436,9 +2424,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2454,22 +2442,21 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb92",
+    "Id": "6810a3c8583a6c61de56dafb",
     "Name": "Mountain Wolf Cavalry Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2480,12 +2467,12 @@
           "Ma": "16",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Mountain Wolf Cavalry Standard Bearer",
@@ -2495,9 +2482,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Hobgoblin Rider",
@@ -2508,12 +2495,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -2524,9 +2511,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2542,21 +2529,20 @@
     }
   },
   {
-    "Id": "68109482229aecc8c39dbb61",
+    "Id": "6810a3c8583a6c61de56daca",
     "Name": "Mountain Wolf Cavalry",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (6\"\")",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2567,11 +2553,11 @@
           "Ma": "16",
           "Di": "7"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (6\"\")"
+        }
       },
       {
         "Name": "Mountain Wolf Cavalry",
@@ -2581,9 +2567,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Hobgoblin Rider",
@@ -2594,12 +2580,12 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Mountain Wolf",
@@ -2610,9 +2596,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2628,16 +2614,15 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbbae",
+    "Id": "6810a3c8583a6c61de56db17",
     "Name": "Tusker Mahouts Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2648,7 +2633,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tusker Mahouts Champion",
@@ -2658,7 +2643,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hobgoblin Mahout (3)",
@@ -2669,10 +2654,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -2683,10 +2668,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -2702,17 +2687,16 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbbbe",
+    "Id": "6810a3c8583a6c61de56db27",
     "Name": "Tusker Mahouts Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2723,9 +2707,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Tusker Mahouts Musician",
@@ -2735,7 +2719,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hobgoblin Mahout (3)",
@@ -2746,10 +2730,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -2760,10 +2744,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -2779,17 +2763,16 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbbce",
+    "Id": "6810a3c9583a6c61de56db37",
     "Name": "Tusker Mahouts Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2800,9 +2783,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Tusker Mahouts Standard Bearer",
@@ -2812,7 +2795,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hobgoblin Mahout (3)",
@@ -2823,10 +2806,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -2837,10 +2820,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -2856,16 +2839,15 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbb9d",
+    "Id": "6810a3c8583a6c61de56db06",
     "Name": "Tusker Mahouts",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2876,7 +2858,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tusker Mahouts",
@@ -2886,7 +2868,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hobgoblin Mahout (3)",
@@ -2897,10 +2879,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Plains Tusker",
@@ -2911,10 +2893,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
       }
     ],
     "Amount": {
@@ -2930,17 +2912,17 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbbea",
+    "Id": "6810a3c9583a6c61de56db53",
     "Name": "Blasted Plains Emissaries Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-bow",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-bow": "Bow (3+)",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2951,7 +2933,7 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Blasted Plains Emissaries Champion",
@@ -2961,10 +2943,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -2975,11 +2957,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-bow": "Bow (3+)"
+        }
       }
     ],
     "Amount": {
@@ -2995,18 +2977,18 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbbf7",
+    "Id": "6810a3c9583a6c61de56db60",
     "Name": "Blasted Plains Emissaries Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-bow",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-bow": "Bow (3+)",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3017,9 +2999,9 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Blasted Plains Emissaries Musician",
@@ -3029,10 +3011,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -3043,11 +3025,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-bow": "Bow (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3063,18 +3045,18 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbc04",
+    "Id": "6810a3c9583a6c61de56db6d",
     "Name": "Blasted Plains Emissaries Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-bow",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-bow": "Bow (3+)",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3085,9 +3067,9 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Blasted Plains Emissaries Standard Bearer",
@@ -3097,10 +3079,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -3111,11 +3093,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-bow": "Bow (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3131,17 +3113,17 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbbd9",
+    "Id": "6810a3c9583a6c61de56db42",
     "Name": "Blasted Plains Emissaries",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "rulebook-bow",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "rulebook-bow": "Bow (3+)",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3152,7 +3134,7 @@
           "Ma": "8",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Blasted Plains Emissaries",
@@ -3162,10 +3144,10 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -3176,11 +3158,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "rulebook-bow": "Bow (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3196,15 +3178,15 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbc07",
+    "Id": "6810a3c9583a6c61de56db70",
     "Name": "Hob Ballista",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-iron_rain",
-      "hg-ballista"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-iron_rain": "Iron Rain",
+      "hg-ballista": "Ballista (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3215,7 +3197,7 @@
           "Ma": "4",
           "Di": "7"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Hob Ballista",
@@ -3225,7 +3207,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew",
@@ -3236,11 +3218,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-iron_rain",
-          "hg-ballista"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-iron_rain": "Iron Rain",
+          "hg-ballista": "Ballista (4+)"
+        }
       }
     ],
     "Amount": {
@@ -3256,18 +3238,17 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbc15",
+    "Id": "6810a3c9583a6c61de56db7e",
     "Name": "Sky Mountain Emissaries Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-saddle_cannon",
-      "hg-iron_rain",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-saddle_cannon": "Saddle Cannon (4+)",
+      "hg-iron_rain": "Iron Rain",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3278,7 +3259,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Sky Mountain Emissaries Champion",
@@ -3288,10 +3269,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -3302,11 +3283,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-saddle_cannon",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-saddle_cannon": "Saddle Cannon (4+)",
+          "hg-iron_rain": "Iron Rain"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -3317,9 +3298,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3335,19 +3316,18 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbc1f",
+    "Id": "6810a3c9583a6c61de56db88",
     "Name": "Sky Mountain Emissaries Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "hg-saddle_cannon",
-      "hg-iron_rain",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-saddle_cannon": "Saddle Cannon (4+)",
+      "hg-iron_rain": "Iron Rain",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3358,9 +3338,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Sky Mountain Emissaries Musician",
@@ -3370,10 +3350,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -3384,11 +3364,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-saddle_cannon",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-saddle_cannon": "Saddle Cannon (4+)",
+          "hg-iron_rain": "Iron Rain"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -3399,9 +3379,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3417,19 +3397,18 @@
     }
   },
   {
-    "Id": "68109484229aecc8c39dbc29",
+    "Id": "6810a3ca583a6c61de56db92",
     "Name": "Sky Mountain Emissaries Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "hg-saddle_cannon",
-      "hg-iron_rain",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-saddle_cannon": "Saddle Cannon (4+)",
+      "hg-iron_rain": "Iron Rain",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3440,9 +3419,9 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Sky Mountain Emissaries Standard Bearer",
@@ -3452,10 +3431,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -3466,11 +3445,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-saddle_cannon",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-saddle_cannon": "Saddle Cannon (4+)",
+          "hg-iron_rain": "Iron Rain"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -3481,9 +3460,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3499,18 +3478,17 @@
     }
   },
   {
-    "Id": "68109483229aecc8c39dbc0a",
+    "Id": "6810a3c9583a6c61de56db73",
     "Name": "Sky Mountain Emissaries",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "hg-saddle_cannon",
-      "hg-iron_rain",
-      "rulebook-hand_weapon",
-      "hg-infernal_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "hg-saddle_cannon": "Saddle Cannon (4+)",
+      "hg-iron_rain": "Iron Rain",
+      "hg-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3521,7 +3499,7 @@
           "Ma": "14",
           "Di": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Sky Mountain Emissaries",
@@ -3531,10 +3509,10 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": [
-          "hg-infernal_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "hg-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Emissary",
@@ -3545,11 +3523,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "hg-saddle_cannon",
-          "hg-iron_rain"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "hg-saddle_cannon": "Saddle Cannon (4+)",
+          "hg-iron_rain": "Iron Rain"
+        }
       },
       {
         "Name": "Colossal Camel",
@@ -3560,9 +3538,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {

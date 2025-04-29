@@ -1,6 +1,6 @@
 [
   {
-    "Id": "cdfa1537-72e1-4677-8085-5269dfa81d16",
+    "Id": "8bb4f772-ac7e-46ad-9c33-ab0450d8f63b",
     "Name": "Beastie",
     "Attributes": {
       "type": "",
@@ -8,18 +8,17 @@
       "totalcost": "80"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-feigned_flight",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -31,17 +30,16 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-feigned_flight",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
       },
       {
         "Name": "Beastie",
@@ -51,7 +49,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Beastie",
@@ -62,9 +60,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -80,7 +78,7 @@
     }
   },
   {
-    "Id": "7a596720-7452-4e61-8e65-5f125a3416b3",
+    "Id": "12547524-9386-48ce-889b-6c44d66ee71f",
     "Name": "Beastie (2)",
     "Attributes": {
       "type": "",
@@ -88,20 +86,18 @@
       "totalcost": "130"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-feigned_flight",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -113,18 +109,16 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-feigned_flight",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
       },
       {
         "Name": "Beastie (2)",
@@ -134,7 +128,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Beastie (2)",
@@ -145,9 +139,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -158,9 +152,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -176,7 +170,7 @@
     }
   },
   {
-    "Id": "58f015f1-cb98-41de-96d0-49d4b4def671",
+    "Id": "5aca6a93-41dd-419f-8fb3-657ec4562cea",
     "Name": "Pet Monster",
     "Attributes": {
       "type": "",
@@ -184,17 +178,17 @@
       "totalcost": "135"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-feigned_flight",
-      "rulebook-swiftstride",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -206,16 +200,16 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-feigned_flight",
-          "rulebook-swiftstride",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Pet Monster",
@@ -225,7 +219,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Pet Monster",
@@ -236,9 +230,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -254,7 +248,7 @@
     }
   },
   {
-    "Id": "73e81f84-3fbb-4877-8556-8ac113aa2a44",
+    "Id": "52cbc73e-3e83-412d-ac04-f7268aaa0b46",
     "Name": "Rider (8)",
     "Attributes": {
       "type": "",
@@ -262,25 +256,24 @@
       "totalcost": "410"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-feigned_flight",
-      "rulebook-fearless",
-      "ong-creepycrawlies",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-fearless": "Fearless",
+      "ong-creepycrawlies": "Creepy-Crawlies",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -292,20 +285,20 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-feigned_flight",
-          "rulebook-fearless",
-          "ong-creepycrawlies",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-fearless": "Fearless",
+          "ong-creepycrawlies": "Creepy-Crawlies",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Rider (8)",
@@ -315,7 +308,7 @@
           "Re": "6",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Rider (8)",
@@ -326,11 +319,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Gargantula",
@@ -341,10 +334,10 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -360,20 +353,20 @@
     }
   },
   {
-    "Id": "681094a0229aecc8c39de1a4",
+    "Id": "6810a3f3583a6c61de57010d",
     "Name": "Goblin Demagogue",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-feigned_flight",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -385,15 +378,15 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-feigned_flight",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Goblin Demagogue",
@@ -403,7 +396,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin Demagogue",
@@ -414,9 +407,9 @@
           "AP": "2",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -432,7 +425,7 @@
     }
   },
   {
-    "Id": "4a02fcf3-9f13-4d56-84bf-f6785c44eaf7",
+    "Id": "41f4a4f8-8cbe-4831-9a80-b7ff5725a1b0",
     "Name": "Beastie",
     "Attributes": {
       "type": "",
@@ -440,16 +433,15 @@
       "totalcost": "295"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-feigned_flight",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -461,15 +453,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-feigned_flight",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Beastie",
@@ -479,7 +470,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Beastie",
@@ -490,9 +481,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -508,7 +499,7 @@
     }
   },
   {
-    "Id": "742230b7-199a-4285-81ac-343c96c7b752",
+    "Id": "464bba21-20ba-4147-a929-63eac22cce25",
     "Name": "Beastie (2)",
     "Attributes": {
       "type": "",
@@ -516,18 +507,16 @@
       "totalcost": "310"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-feigned_flight",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -539,16 +528,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-feigned_flight",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Beastie (2)",
@@ -558,7 +545,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Beastie (2)",
@@ -569,9 +556,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -582,9 +569,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -600,7 +587,7 @@
     }
   },
   {
-    "Id": "afb19be2-0213-4b94-8fee-40352b33f2a9",
+    "Id": "56c8d49b-6cdf-4484-9459-296d3a7c386b",
     "Name": "Pet Monster",
     "Attributes": {
       "type": "",
@@ -608,15 +595,15 @@
       "totalcost": "310"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-feigned_flight",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -628,14 +615,14 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-feigned_flight",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Pet Monster",
@@ -645,7 +632,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Pet Monster",
@@ -656,9 +643,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -674,7 +661,7 @@
     }
   },
   {
-    "Id": "4a2a7e2c-895b-4091-98ce-f1a8718c8b50",
+    "Id": "288d18ea-7b3b-4665-b067-c5de912ae967",
     "Name": "Rider (8)",
     "Attributes": {
       "type": "",
@@ -682,23 +669,22 @@
       "totalcost": "560"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-feigned_flight",
-      "rulebook-fearless",
-      "ong-creepycrawlies",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-fearless": "Fearless",
+      "ong-creepycrawlies": "Creepy-Crawlies",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -710,18 +696,18 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-feigned_flight",
-          "rulebook-fearless",
-          "ong-creepycrawlies",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-fearless": "Fearless",
+          "ong-creepycrawlies": "Creepy-Crawlies",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Rider (8)",
@@ -731,7 +717,7 @@
           "Re": "6",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Rider (8)",
@@ -742,11 +728,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Gargantula",
@@ -757,10 +743,10 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -776,18 +762,18 @@
     }
   },
   {
-    "Id": "681094a1229aecc8c39de3dd",
+    "Id": "6810a3f4583a6c61de570346",
     "Name": "Goblin Witch",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-feigned_flight",
-      "rulebook-light_troops",
-      "rulebook-wizard_apprentice",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -799,13 +785,13 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-feigned_flight",
-          "rulebook-light_troops",
-          "rulebook-wizard_apprentice"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
       },
       {
         "Name": "Goblin Witch",
@@ -815,7 +801,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin Witch",
@@ -826,9 +812,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -844,7 +830,7 @@
     }
   },
   {
-    "Id": "124b7d44-37bb-4992-96ec-f313ff6cda97",
+    "Id": "92961f52-7135-419a-9116-25a7b58a79c0",
     "Name": "Beastie",
     "Attributes": {
       "type": "",
@@ -852,20 +838,20 @@
       "totalcost": "45"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-attached",
-      "ong-goblin_cunning",
-      "ong-beastie_whisperer",
-      "rulebook-feigned_flight",
-      "rulebook-hidden",
-      "rulebook-exclusive",
-      "ong-unprofessional_courtesy",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "ong-netter",
-      "rulebook-hand_weapon",
-      "rulebook-distracting"
-    ],
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "ong-beastie_whisperer": "Beastie Whisperer",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hidden": "Hidden",
+      "rulebook-exclusive": "Exclusive (Goblin)",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "ong-netter": "Netter",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-distracting": "Distracting (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -877,18 +863,18 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-attached",
-          "ong-goblin_cunning",
-          "ong-beastie_whisperer",
-          "rulebook-feigned_flight",
-          "rulebook-hidden",
-          "rulebook-exclusive",
-          "ong-unprofessional_courtesy",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "ong-netter"
-        ]
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "ong-beastie_whisperer": "Beastie Whisperer",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hidden": "Hidden",
+          "rulebook-exclusive": "Exclusive (Goblin)",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "ong-netter": "Netter"
+        }
       },
       {
         "Name": "Beastie",
@@ -898,9 +884,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-distracting"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
       },
       {
         "Name": "Beastie",
@@ -911,9 +897,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -929,23 +915,23 @@
     }
   },
   {
-    "Id": "681094a1229aecc8c39de549",
+    "Id": "6810a3f4583a6c61de5704b2",
     "Name": "Gogtuk Initiate",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-attached",
-      "ong-goblin_cunning",
-      "ong-beastie_whisperer",
-      "rulebook-feigned_flight",
-      "rulebook-hidden",
-      "rulebook-exclusive",
-      "ong-unprofessional_courtesy",
-      "ong-netter",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-distracting"
-    ],
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "ong-beastie_whisperer": "Beastie Whisperer",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hidden": "Hidden",
+      "rulebook-exclusive": "Exclusive (Goblin)",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "ong-netter": "Netter",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-distracting": "Distracting (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -957,16 +943,16 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-attached",
-          "ong-goblin_cunning",
-          "ong-beastie_whisperer",
-          "rulebook-feigned_flight",
-          "rulebook-hidden",
-          "rulebook-exclusive",
-          "ong-unprofessional_courtesy",
-          "ong-netter"
-        ]
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "ong-beastie_whisperer": "Beastie Whisperer",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hidden": "Hidden",
+          "rulebook-exclusive": "Exclusive (Goblin)",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "ong-netter": "Netter"
+        }
       },
       {
         "Name": "Gogtuk Initiate",
@@ -976,9 +962,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-distracting"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
       },
       {
         "Name": "Gogtuk Initiate",
@@ -989,10 +975,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -1008,22 +994,22 @@
     }
   },
   {
-    "Id": "681094a2229aecc8c39de5ac",
+    "Id": "6810a3f5583a6c61de570515",
     "Name": "Mad Git",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "ong-surprise",
-      "ong-goblin_cunning",
-      "rulebook-insignificant",
-      "rulebook-random_movement",
-      "ong-unprofessional_courtesy",
-      "rulebook-solitary",
-      "rulebook-feigned_flight",
-      "rulebook-hand_weapon",
-      "ong-force_of_destruction"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "ong-surprise": "Surprise",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-random_movement": "Random Movement (2D6\")",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "rulebook-solitary": "Solitary",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-force_of_destruction": "Force of Destruction (2D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1035,16 +1021,16 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "ong-surprise",
-          "ong-goblin_cunning",
-          "rulebook-insignificant",
-          "rulebook-random_movement",
-          "ong-unprofessional_courtesy",
-          "rulebook-solitary",
-          "rulebook-feigned_flight"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "ong-surprise": "Surprise",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-random_movement": "Random Movement (2D6\")",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "rulebook-solitary": "Solitary",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
       },
       {
         "Name": "Mad Git",
@@ -1054,7 +1040,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": null,
@@ -1065,10 +1051,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-force_of_destruction"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-force_of_destruction": "Force of Destruction (2D6)"
+        }
       }
     ],
     "Amount": {
@@ -1084,7 +1070,7 @@
     }
   },
   {
-    "Id": "c50e2c22-6f7a-4fc8-bf53-bd73d3f9e54c",
+    "Id": "4c49ef83-6ca9-43b8-9120-c7f6ad063b35",
     "Name": "Grunter",
     "Attributes": {
       "type": "",
@@ -1092,15 +1078,15 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1112,13 +1098,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Grunter",
@@ -1128,7 +1114,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter",
@@ -1139,10 +1125,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1158,7 +1144,7 @@
     }
   },
   {
-    "Id": "18c0e2c3-4f25-4931-abcc-12bf85258a3d",
+    "Id": "ef64db98-9d4f-4a5d-be68-fdb0112d32a5",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -1166,18 +1152,16 @@
       "totalcost": "320"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1189,15 +1173,13 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -1207,7 +1189,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter (2)",
@@ -1218,10 +1200,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -1232,9 +1214,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -1250,7 +1232,7 @@
     }
   },
   {
-    "Id": "7abdd425-1e04-4ecc-83e1-cb1358c3dc84",
+    "Id": "0ccd7e03-e712-49b7-b6ca-067e783496d1",
     "Name": "Wyvern",
     "Attributes": {
       "type": "",
@@ -1258,19 +1240,18 @@
       "totalcost": "420"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1282,16 +1263,15 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Wyvern",
@@ -1301,7 +1281,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wyvern",
@@ -1312,11 +1292,11 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1332,18 +1312,18 @@
     }
   },
   {
-    "Id": "681094a2229aecc8c39de5b5",
+    "Id": "6810a3f5583a6c61de57051e",
     "Name": "Orc Shaman",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1355,12 +1335,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Orc Shaman",
@@ -1370,7 +1350,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Orc Shaman",
@@ -1381,10 +1361,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry"
+        }
       }
     ],
     "Amount": {
@@ -1400,7 +1380,7 @@
     }
   },
   {
-    "Id": "e959464a-278d-49f6-8dfa-6f647f142d53",
+    "Id": "280bf68a-e01a-4f7e-bf2c-7aea46d5b977",
     "Name": "Grunter",
     "Attributes": {
       "type": "",
@@ -1408,16 +1388,16 @@
       "totalcost": "275"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-general",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1429,14 +1409,14 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "rulebook-general",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Grunter",
@@ -1446,7 +1426,7 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter",
@@ -1457,10 +1437,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1476,7 +1456,7 @@
     }
   },
   {
-    "Id": "18a7cff5-5bb1-440b-b408-f3eca59db97a",
+    "Id": "fc65259f-7a44-4e00-8e56-12dbff3a3c83",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -1484,19 +1464,17 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-general",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-general": "General",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1508,16 +1486,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-general",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-general": "General"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -1527,7 +1503,7 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter (2)",
@@ -1538,10 +1514,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -1552,9 +1528,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -1570,7 +1546,7 @@
     }
   },
   {
-    "Id": "c4fb0cee-2de8-43a2-8ffd-ba9fa8cf43a3",
+    "Id": "030aa011-e54b-498c-8e55-1d7feacd153c",
     "Name": "Wyvern",
     "Attributes": {
       "type": "",
@@ -1578,20 +1554,19 @@
       "totalcost": "360"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-general",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-general": "General",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1603,17 +1578,16 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-general",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-general": "General"
+        }
       },
       {
         "Name": "Wyvern",
@@ -1623,7 +1597,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wyvern",
@@ -1634,11 +1608,11 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1654,20 +1628,20 @@
     }
   },
   {
-    "Id": "681094a2229aecc8c39de6e1",
+    "Id": "6810a3f6583a6c61de57064a",
     "Name": "Orc Warlord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-disciplined",
-      "rulebook-general",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "cl-fury"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "cl-fury": "Fury"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1679,13 +1653,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-disciplined",
-          "rulebook-general",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Orc Warlord",
@@ -1695,7 +1669,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Orc Warlord",
@@ -1706,11 +1680,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "cl-fury"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "cl-fury": "Fury"
+        }
       }
     ],
     "Amount": {
@@ -1726,7 +1700,7 @@
     }
   },
   {
-    "Id": "255fab99-107e-444d-b28a-f99d30031218",
+    "Id": "384037e2-1a9a-4318-9c9f-18f9279d3dfd",
     "Name": "Grunter",
     "Attributes": {
       "type": "",
@@ -1734,18 +1708,18 @@
       "totalcost": "340"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-stubborn",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-handandahalf",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1757,15 +1731,15 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-stubborn",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       },
       {
         "Name": "Grunter",
@@ -1775,9 +1749,9 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Grunter",
@@ -1788,10 +1762,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -1807,7 +1781,7 @@
     }
   },
   {
-    "Id": "6bbcbec4-6db3-483d-9fdb-0304fb6382f6",
+    "Id": "186e662d-fa95-455b-af01-4a96bb2aca32",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -1815,21 +1789,20 @@
       "totalcost": "370"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-stubborn",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-handandahalf",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1841,17 +1814,16 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-stubborn",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-light_troops",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -1861,9 +1833,9 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -1874,10 +1846,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -1888,9 +1860,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -1906,7 +1878,7 @@
     }
   },
   {
-    "Id": "cc248dba-d27c-4498-852d-3d8050a10726",
+    "Id": "ec792ef3-d645-4ca2-8d7f-91dda5da74af",
     "Name": "Wyvern",
     "Attributes": {
       "type": "",
@@ -1914,22 +1886,20 @@
       "totalcost": "410"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-stubborn",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-handandahalf",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1941,18 +1911,16 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-stubborn",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       },
       {
         "Name": "Wyvern",
@@ -1962,9 +1930,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Wyvern",
@@ -1975,11 +1943,11 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -1995,24 +1963,24 @@
     }
   },
   {
-    "Id": "681094a3229aecc8c39de839",
+    "Id": "6810a3f7583a6c61de5707a2",
     "Name": "Iron Orc Loner",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-stubborn",
-      "rulebook-light_troops",
-      "rulebook-handandahalf",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "rulebook-great_weapon",
-      "rulebook-lance",
-      "rulebook-paired_weapons",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2024,14 +1992,14 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-stubborn",
-          "rulebook-light_troops",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       },
       {
         "Name": "Iron Orc Loner",
@@ -2041,9 +2009,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": null,
@@ -2055,13 +2023,13 @@
           "Ag": "4",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "rulebook-great_weapon",
-          "rulebook-lance",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2077,7 +2045,7 @@
     }
   },
   {
-    "Id": "dab24f7a-d52c-4c48-b1f6-2941361e4ae6",
+    "Id": "d4d8503e-8a9c-496b-b3cd-58e1d5fe7ff3",
     "Name": "Grunter",
     "Attributes": {
       "type": "",
@@ -2085,16 +2053,16 @@
       "totalcost": "75"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2106,14 +2074,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Grunter",
@@ -2123,7 +2091,7 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter",
@@ -2134,10 +2102,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -2153,7 +2121,7 @@
     }
   },
   {
-    "Id": "48bd7daa-fe9d-4af8-a035-9ad55d73f4eb",
+    "Id": "dd402aff-5f19-4871-88d8-4fd17a5688f0",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -2161,19 +2129,17 @@
       "totalcost": "140"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2185,16 +2151,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -2204,7 +2168,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grunter (2)",
@@ -2215,10 +2179,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -2229,9 +2193,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -2247,20 +2211,20 @@
     }
   },
   {
-    "Id": "681094a3229aecc8c39de97d",
+    "Id": "6810a3f7583a6c61de5708e6",
     "Name": "Brood Alpha",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "cl-fury"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "cl-fury": "Fury"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2272,13 +2236,13 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Brood Alpha",
@@ -2288,7 +2252,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": null,
@@ -2299,11 +2263,11 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "cl-fury"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "cl-fury": "Fury"
+        }
       }
     ],
     "Amount": {
@@ -2319,22 +2283,22 @@
     }
   },
   {
-    "Id": "681094a4229aecc8c39deaa7",
+    "Id": "6810a3f8583a6c61de570a10",
     "Name": "Feral Orcs Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-frenzy",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "ong-crude_weapons",
-      "cl-fury",
-      "ong-brood_rivalry",
-      "rulebook-paired_weapons",
-      "rulebook-spear",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-spear": "Spear",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2346,11 +2310,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-frenzy",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Feral Orcs Musician",
@@ -2360,9 +2324,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Feral Orc",
@@ -2373,14 +2337,14 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-crude_weapons",
-          "cl-fury",
-          "ong-brood_rivalry",
-          "rulebook-paired_weapons",
-          "rulebook-spear"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-spear": "Spear"
+        }
       }
     ],
     "Amount": {
@@ -2396,22 +2360,22 @@
     }
   },
   {
-    "Id": "681094a4229aecc8c39deabc",
+    "Id": "6810a3f8583a6c61de570a25",
     "Name": "Feral Orcs Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-frenzy",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "ong-crude_weapons",
-      "cl-fury",
-      "ong-brood_rivalry",
-      "rulebook-paired_weapons",
-      "rulebook-spear",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-spear": "Spear",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2423,11 +2387,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-frenzy",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Feral Orcs Standard Bearer",
@@ -2437,9 +2401,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Feral Orc",
@@ -2450,14 +2414,14 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-crude_weapons",
-          "cl-fury",
-          "ong-brood_rivalry",
-          "rulebook-paired_weapons",
-          "rulebook-spear"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-spear": "Spear"
+        }
       }
     ],
     "Amount": {
@@ -2473,21 +2437,21 @@
     }
   },
   {
-    "Id": "681094a4229aecc8c39dea8d",
+    "Id": "6810a3f8583a6c61de5709f6",
     "Name": "Feral Orcs",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-frenzy",
-      "rulebook-hand_weapon",
-      "ong-crude_weapons",
-      "cl-fury",
-      "ong-brood_rivalry",
-      "rulebook-paired_weapons",
-      "rulebook-spear",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-spear": "Spear",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2499,10 +2463,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-frenzy"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy"
+        }
       },
       {
         "Name": "Feral Orcs",
@@ -2512,9 +2476,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Feral Orc",
@@ -2525,14 +2489,14 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-crude_weapons",
-          "cl-fury",
-          "ong-brood_rivalry",
-          "rulebook-paired_weapons",
-          "rulebook-spear"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-spear": "Spear"
+        }
       }
     ],
     "Amount": {
@@ -2548,25 +2512,24 @@
     }
   },
   {
-    "Id": "681094a4229aecc8c39deadf",
+    "Id": "6810a3f8583a6c61de570a48",
     "Name": "Feral Orc Marauders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-frenzy",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "ong-crude_weapons",
-      "cl-fury",
-      "rulebook-light_lance",
-      "rulebook-paired_weapons",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2578,12 +2541,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-frenzy",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Feral Orc Marauders Musician",
@@ -2593,9 +2556,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Feral Orc",
@@ -2606,14 +2569,14 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "ong-crude_weapons",
-          "cl-fury",
-          "rulebook-light_lance",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       },
       {
         "Name": "Grunter",
@@ -2624,10 +2587,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -2643,25 +2606,24 @@
     }
   },
   {
-    "Id": "681094a4229aecc8c39deaf2",
+    "Id": "6810a3f9583a6c61de570a5b",
     "Name": "Feral Orc Marauders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-frenzy",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "ong-crude_weapons",
-      "cl-fury",
-      "rulebook-light_lance",
-      "rulebook-paired_weapons",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2673,12 +2635,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-frenzy",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Feral Orc Marauders Standard Bearer",
@@ -2688,9 +2650,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Feral Orc",
@@ -2701,14 +2663,14 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "ong-crude_weapons",
-          "cl-fury",
-          "rulebook-light_lance",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       },
       {
         "Name": "Grunter",
@@ -2719,10 +2681,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -2738,24 +2700,23 @@
     }
   },
   {
-    "Id": "681094a4229aecc8c39deac9",
+    "Id": "6810a3f8583a6c61de570a32",
     "Name": "Feral Orc Marauders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-frenzy",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "ong-crude_weapons",
-      "cl-fury",
-      "rulebook-light_lance",
-      "rulebook-paired_weapons",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2767,11 +2728,11 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-frenzy",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Feral Orc Marauders",
@@ -2781,9 +2742,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Feral Orc",
@@ -2794,14 +2755,14 @@
           "AP": "0",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "ong-crude_weapons",
-          "cl-fury",
-          "rulebook-light_lance",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       },
       {
         "Name": "Grunter",
@@ -2812,10 +2773,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -2831,16 +2792,16 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deb1d",
+    "Id": "6810a3f9583a6c61de570a86",
     "Name": "Goblin Rabble Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-feigned_flight",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2852,11 +2813,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-feigned_flight",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Goblin Rabble Musician",
@@ -2866,7 +2827,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin",
@@ -2877,9 +2838,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2895,16 +2856,16 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deb34",
+    "Id": "6810a3f9583a6c61de570a9d",
     "Name": "Goblin Rabble Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-feigned_flight",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2916,11 +2877,11 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-feigned_flight",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Goblin Rabble Standard Bearer",
@@ -2930,7 +2891,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin",
@@ -2941,9 +2902,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2959,15 +2920,15 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deaff",
+    "Id": "6810a3f9583a6c61de570a68",
     "Name": "Goblin Rabble",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-feigned_flight",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2979,10 +2940,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-feigned_flight"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
       },
       {
         "Name": "Goblin Rabble",
@@ -2992,7 +2953,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin",
@@ -3003,9 +2964,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3021,18 +2982,17 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deb5d",
+    "Id": "6810a3f9583a6c61de570ac6",
     "Name": "Goblin Reavers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-swiftstride",
-      "rulebook-feigned_flight",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3044,12 +3004,12 @@
           "Di": "6",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-swiftstride",
-          "rulebook-feigned_flight",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Goblin Reavers Musician",
@@ -3059,7 +3019,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin",
@@ -3070,9 +3030,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Beastie",
@@ -3083,9 +3043,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3101,18 +3061,17 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deb73",
+    "Id": "6810a3f9583a6c61de570adc",
     "Name": "Goblin Reavers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-swiftstride",
-      "rulebook-feigned_flight",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3124,12 +3083,12 @@
           "Di": "6",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-swiftstride",
-          "rulebook-feigned_flight",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Goblin Reavers Standard Bearer",
@@ -3139,7 +3098,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin",
@@ -3150,9 +3109,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Beastie",
@@ -3163,9 +3122,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3181,17 +3140,16 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deb41",
+    "Id": "6810a3f9583a6c61de570aaa",
     "Name": "Goblin Reavers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-goblin_cunning",
-      "rulebook-swiftstride",
-      "rulebook-feigned_flight",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3203,11 +3161,11 @@
           "Di": "6",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "ong-goblin_cunning",
-          "rulebook-swiftstride",
-          "rulebook-feigned_flight"
-        ]
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
       },
       {
         "Name": "Goblin Reavers",
@@ -3217,7 +3175,7 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin",
@@ -3228,9 +3186,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Beastie",
@@ -3241,9 +3199,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3259,16 +3217,16 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deba2",
+    "Id": "6810a3fa583a6c61de570b0b",
     "Name": "Veteran Orcs Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3280,10 +3238,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Veteran Orcs Musician",
@@ -3293,7 +3251,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Veteran Orc",
@@ -3304,10 +3262,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry"
+        }
       }
     ],
     "Amount": {
@@ -3323,16 +3281,16 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39debbb",
+    "Id": "6810a3fa583a6c61de570b24",
     "Name": "Veteran Orcs Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3344,10 +3302,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Veteran Orcs Standard Bearer",
@@ -3357,7 +3315,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Veteran Orc",
@@ -3368,10 +3326,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry"
+        }
       }
     ],
     "Amount": {
@@ -3387,15 +3345,15 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39deb80",
+    "Id": "6810a3fa583a6c61de570ae9",
     "Name": "Veteran Orcs",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3407,9 +3365,9 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Veteran Orcs",
@@ -3419,7 +3377,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Veteran Orc",
@@ -3430,10 +3388,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry"
+        }
       }
     ],
     "Amount": {
@@ -3449,21 +3407,20 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39debde",
+    "Id": "6810a3fa583a6c61de570b47",
     "Name": "Veteran Orc Marauders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-lance": "Lance",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3475,11 +3432,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Veteran Orc Marauders Musician",
@@ -3489,9 +3446,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Veteran Orc",
@@ -3502,11 +3459,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Grunter",
@@ -3517,10 +3474,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -3536,21 +3493,20 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39debf1",
+    "Id": "6810a3fa583a6c61de570b5a",
     "Name": "Veteran Orc Marauders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-lance": "Lance",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3562,11 +3518,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Veteran Orc Marauders Standard Bearer",
@@ -3576,9 +3532,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Veteran Orc",
@@ -3589,11 +3545,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Grunter",
@@ -3604,10 +3560,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -3623,20 +3579,19 @@
     }
   },
   {
-    "Id": "681094a5229aecc8c39debc8",
+    "Id": "6810a3fa583a6c61de570b31",
     "Name": "Veteran Orc Marauders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-lance",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-lance": "Lance",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3648,10 +3603,10 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-unruly",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Veteran Orc Marauders",
@@ -3661,9 +3616,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Veteran Orc",
@@ -3674,11 +3629,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-lance": "Lance"
+        }
       },
       {
         "Name": "Grunter",
@@ -3689,10 +3644,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       }
     ],
     "Amount": {
@@ -3708,19 +3663,19 @@
     }
   },
   {
-    "Id": "681094a6229aecc8c39debfc",
+    "Id": "6810a3fa583a6c61de570b65",
     "Name": "Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ong-giant_see_giant_do",
-      "rulebook-light_troops",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-rage",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "ong-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3732,12 +3687,12 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "ong-giant_see_giant_do",
-          "rulebook-light_troops",
-          "rulebook-terror",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "ong-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Giant",
@@ -3747,7 +3702,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Giant",
@@ -3758,11 +3713,11 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-rage",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -3778,18 +3733,18 @@
     }
   },
   {
-    "Id": "681094a6229aecc8c39dec05",
+    "Id": "6810a3fb583a6c61de570b6e",
     "Name": "Gnashers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-insignificant",
-      "rulebook-unruly",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3801,13 +3756,13 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-insignificant",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Gnashers",
@@ -3817,7 +3772,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gnasher",
@@ -3828,9 +3783,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3846,18 +3801,18 @@
     }
   },
   {
-    "Id": "681094a6229aecc8c39dec0a",
+    "Id": "6810a3fb583a6c61de570b73",
     "Name": "Gnashers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-insignificant",
-      "rulebook-unruly",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3869,13 +3824,13 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-insignificant",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Gnashers",
@@ -3885,7 +3840,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gnasher",
@@ -3896,9 +3851,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3914,16 +3869,16 @@
     }
   },
   {
-    "Id": "681094a6229aecc8c39dec0d",
+    "Id": "6810a3fb583a6c61de570b76",
     "Name": "Goblin Artillery",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-emplacement",
-      "rulebook-solitary",
-      "ong-skewerer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "ong-skewerer": "Skewerer (4+)",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3935,11 +3890,11 @@
           "Di": "6",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-emplacement",
-          "rulebook-solitary",
-          "ong-skewerer"
-        ]
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary",
+          "ong-skewerer": "Skewerer (4+)"
+        }
       },
       {
         "Name": "Goblin Artillery",
@@ -3949,7 +3904,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin Crew",
@@ -3960,9 +3915,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3978,22 +3933,21 @@
     }
   },
   {
-    "Id": "681094a6229aecc8c39dec23",
+    "Id": "6810a3fb583a6c61de570b8c",
     "Name": "Goblin Chariots",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "ong-goblin_cunning",
-      "rulebook-exclusive",
-      "rulebook-feigned_flight",
-      "rulebook-hand_weapon",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Beastie Chariot)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4005,13 +3959,13 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "ong-goblin_cunning",
-          "rulebook-exclusive",
-          "rulebook-feigned_flight"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Beastie Chariot)",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
       },
       {
         "Name": "Goblin Chariots",
@@ -4021,7 +3975,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Goblin (3)",
@@ -4032,11 +3986,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Beastie (2)",
@@ -4047,9 +4001,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -4060,9 +4014,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -4078,19 +4032,19 @@
     }
   },
   {
-    "Id": "681094a6229aecc8c39dec36",
+    "Id": "6810a3fb583a6c61de570b9f",
     "Name": "Gogtuk Neophytes Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ambush",
-      "ong-goblin_cunning",
-      "rulebook-feigned_flight",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "ong-poisoned_spear",
-      "rulebook-throwing_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-poisoned_spear": "Poisoned Spear",
+      "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4102,12 +4056,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-ambush",
-          "ong-goblin_cunning",
-          "rulebook-feigned_flight",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Gogtuk Neophytes Musician",
@@ -4117,7 +4071,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gogtuk Neophyte",
@@ -4128,11 +4082,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-poisoned_spear",
-          "rulebook-throwing_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-poisoned_spear": "Poisoned Spear",
+          "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+        }
       }
     ],
     "Amount": {
@@ -4148,19 +4102,19 @@
     }
   },
   {
-    "Id": "681094a7229aecc8c39dec41",
+    "Id": "6810a3fc583a6c61de570baa",
     "Name": "Gogtuk Neophytes Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ambush",
-      "ong-goblin_cunning",
-      "rulebook-feigned_flight",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "ong-poisoned_spear",
-      "rulebook-throwing_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-poisoned_spear": "Poisoned Spear",
+      "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4172,12 +4126,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-ambush",
-          "ong-goblin_cunning",
-          "rulebook-feigned_flight",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Gogtuk Neophytes Standard Bearer",
@@ -4187,7 +4141,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gogtuk Neophyte",
@@ -4198,11 +4152,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-poisoned_spear",
-          "rulebook-throwing_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-poisoned_spear": "Poisoned Spear",
+          "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+        }
       }
     ],
     "Amount": {
@@ -4218,18 +4172,18 @@
     }
   },
   {
-    "Id": "681094a6229aecc8c39dec28",
+    "Id": "6810a3fb583a6c61de570b91",
     "Name": "Gogtuk Neophytes",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-ambush",
-      "ong-goblin_cunning",
-      "rulebook-feigned_flight",
-      "rulebook-hand_weapon",
-      "ong-poisoned_spear",
-      "rulebook-throwing_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-poisoned_spear": "Poisoned Spear",
+      "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4241,11 +4195,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-ambush",
-          "ong-goblin_cunning",
-          "rulebook-feigned_flight"
-        ]
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
       },
       {
         "Name": "Gogtuk Neophytes",
@@ -4255,7 +4209,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gogtuk Neophyte",
@@ -4266,11 +4220,11 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-poisoned_spear",
-          "rulebook-throwing_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-poisoned_spear": "Poisoned Spear",
+          "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+        }
       }
     ],
     "Amount": {
@@ -4286,24 +4240,24 @@
     }
   },
   {
-    "Id": "681094a7229aecc8c39dec44",
+    "Id": "6810a3fc583a6c61de570bad",
     "Name": "Great Green Idol",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-unstable",
-      "rulebook-stubborn",
-      "rulebook-terror",
-      "rulebook-mindless",
-      "ong-green_tide",
-      "ong-symbol_of_the_warborn_alliance",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-crush_attack",
-      "rulebook-stomp_attack",
-      "rulebook-grind_attack"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-terror": "Terror",
+      "rulebook-mindless": "Mindless",
+      "ong-green_tide": "Green Tide",
+      "ong-symbol_of_the_warborn_alliance": "Symbol of the Warborn Alliance",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-crush_attack": "Crush Attack",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-grind_attack": "Grind Attack (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4315,16 +4269,16 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-unstable",
-          "rulebook-stubborn",
-          "rulebook-terror",
-          "rulebook-mindless",
-          "ong-green_tide",
-          "ong-symbol_of_the_warborn_alliance",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-terror": "Terror",
+          "rulebook-mindless": "Mindless",
+          "ong-green_tide": "Green Tide",
+          "ong-symbol_of_the_warborn_alliance": "Symbol of the Warborn Alliance",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Great Green Idol",
@@ -4334,7 +4288,7 @@
           "Re": "8",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Great Green Idol",
@@ -4345,12 +4299,12 @@
           "AP": "3",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-crush_attack",
-          "rulebook-stomp_attack",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-crush_attack": "Crush Attack",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-grind_attack": "Grind Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -4366,23 +4320,23 @@
     }
   },
   {
-    "Id": "681094a7229aecc8c39dec47",
+    "Id": "6810a3fc583a6c61de570bb0",
     "Name": "Grotlings",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-scout",
-      "rulebook-skirmisher",
-      "rulebook-light_troops",
-      "rulebook-unstable",
-      "rulebook-fearless",
-      "rulebook-afflict",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target",
-      "rulebook-distracting"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-scout": "Scout",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unstable": "Unstable",
+      "rulebook-fearless": "Fearless",
+      "rulebook-afflict": "Afflict (-2 Def)",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-distracting": "Distracting (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4394,16 +4348,16 @@
           "Di": "4",
           "Hgt": "0"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-scout",
-          "rulebook-skirmisher",
-          "rulebook-light_troops",
-          "rulebook-unstable",
-          "rulebook-fearless",
-          "rulebook-afflict",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-scout": "Scout",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unstable": "Unstable",
+          "rulebook-fearless": "Fearless",
+          "rulebook-afflict": "Afflict (-2 Def)",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Grotlings",
@@ -4413,10 +4367,10 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-distracting"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-distracting": "Distracting (1)"
+        }
       },
       {
         "Name": "Grotlings",
@@ -4427,9 +4381,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4445,22 +4399,21 @@
     }
   },
   {
-    "Id": "681094a7229aecc8c39dec4a",
+    "Id": "6810a3fc583a6c61de570bb3",
     "Name": "Grotling Scrap Wagon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-random_movement",
-      "rulebook-insignificant",
-      "rulebook-unstable",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-afflict",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-grind_attack"
-    ],
+    "RuleIds": {
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unstable": "Unstable",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-afflict": "Afflict (-2 Def)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
+      "rulebook-grind_attack": "Grind Attack (2D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4472,14 +4425,14 @@
           "Di": "4",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-random_movement",
-          "rulebook-insignificant",
-          "rulebook-unstable",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-afflict"
-        ]
+        "RuleIds": {
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unstable": "Unstable",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-afflict": "Afflict (-2 Def)"
+        }
       },
       {
         "Name": "Grotling Scrap Wagon",
@@ -4489,7 +4442,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Grotlings",
@@ -4500,9 +4453,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -4513,11 +4466,11 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
+          "rulebook-grind_attack": "Grind Attack (2D6)"
+        }
       }
     ],
     "Amount": {
@@ -4533,23 +4486,22 @@
     }
   },
   {
-    "Id": "681094a7229aecc8c39dec4b",
+    "Id": "6810a3fd583a6c61de570bb4",
     "Name": "Guardian Behemoth",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "ong-goblin_cunning",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-feigned_flight",
-      "rulebook-hand_weapon",
-      "rulebook-lance",
-      "rulebook-bow",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4561,14 +4513,14 @@
           "Di": "6",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "ong-goblin_cunning",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-feigned_flight"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
       },
       {
         "Name": "Guardian Behemoth",
@@ -4578,7 +4530,7 @@
           "Re": "6",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Rider (4)",
@@ -4589,11 +4541,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lance",
-          "rulebook-bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
       },
       {
         "Name": "Gogyag Behemoth",
@@ -4604,10 +4556,10 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -4623,26 +4575,25 @@
     }
   },
   {
-    "Id": "681094a7229aecc8c39dec6a",
+    "Id": "6810a3fd583a6c61de570bd3",
     "Name": "Iron Orc Chariots Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "rulebook-unruly",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-great_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4654,14 +4605,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "rulebook-unruly",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Iron Orc Chariots Musician",
@@ -4671,7 +4622,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Iron Orc (2)",
@@ -4682,13 +4633,13 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -4699,10 +4650,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -4713,9 +4664,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -4731,26 +4682,25 @@
     }
   },
   {
-    "Id": "681094a8229aecc8c39dec7d",
+    "Id": "6810a3fd583a6c61de570be6",
     "Name": "Iron Orc Chariots Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "rulebook-unruly",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-great_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4762,14 +4712,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "rulebook-unruly",
-          "rulebook-light_troops",
-          "rulebook-exclusive",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Iron Orc Chariots Standard Bearer",
@@ -4779,7 +4729,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Iron Orc (2)",
@@ -4790,13 +4740,13 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -4807,10 +4757,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -4821,9 +4771,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -4839,25 +4789,24 @@
     }
   },
   {
-    "Id": "681094a7229aecc8c39dec54",
+    "Id": "6810a3fd583a6c61de570bbd",
     "Name": "Iron Orc Chariots",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "rulebook-unruly",
-      "rulebook-light_troops",
-      "rulebook-exclusive",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-great_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4869,13 +4818,13 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "rulebook-unruly",
-          "rulebook-light_troops",
-          "rulebook-exclusive"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot)"
+        }
       },
       {
         "Name": "Iron Orc Chariots",
@@ -4885,7 +4834,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Iron Orc (2)",
@@ -4896,13 +4845,13 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       },
       {
         "Name": "Grunter (2)",
@@ -4913,10 +4862,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
       },
       {
         "Name": "Chassis",
@@ -4927,9 +4876,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -4945,22 +4894,22 @@
     }
   },
   {
-    "Id": "681094a8229aecc8c39deca4",
+    "Id": "6810a3fe583a6c61de570c0d",
     "Name": "Iron Orcs Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-unruly",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-great_weapon",
-      "rulebook-handandahalf",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4972,11 +4921,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-unruly",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Iron Orcs Musician",
@@ -4986,9 +4935,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Iron Orc",
@@ -4999,14 +4948,14 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-great_weapon",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       }
     ],
     "Amount": {
@@ -5022,22 +4971,22 @@
     }
   },
   {
-    "Id": "681094a8229aecc8c39decb9",
+    "Id": "6810a3fe583a6c61de570c22",
     "Name": "Iron Orcs Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-unruly",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-great_weapon",
-      "rulebook-handandahalf",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5049,11 +4998,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-unruly",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Iron Orcs Standard Bearer",
@@ -5063,9 +5012,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Iron Orc",
@@ -5076,14 +5025,14 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-great_weapon",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       }
     ],
     "Amount": {
@@ -5099,21 +5048,21 @@
     }
   },
   {
-    "Id": "681094a8229aecc8c39dec8a",
+    "Id": "6810a3fe583a6c61de570bf3",
     "Name": "Iron Orcs",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "ong-brood_rivalry",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-great_weapon",
-      "rulebook-handandahalf",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5125,10 +5074,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Iron Orcs",
@@ -5138,9 +5087,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Iron Orc",
@@ -5151,14 +5100,14 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-brood_rivalry",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-great_weapon",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       }
     ],
     "Amount": {
@@ -5174,16 +5123,16 @@
     }
   },
   {
-    "Id": "681094a8229aecc8c39decc6",
+    "Id": "6810a3fe583a6c61de570c2f",
     "Name": "Trolls",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-hand_weapon",
-      "ong-troll_toll",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-troll_toll": "Troll Toll",
+      "rulebook-regeneration": "Regeneration (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5195,9 +5144,9 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless"
+        }
       },
       {
         "Name": "Trolls",
@@ -5207,9 +5156,9 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (4+)"
+        }
       },
       {
         "Name": "Troll",
@@ -5220,10 +5169,10 @@
           "AP": "2",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-troll_toll"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-troll_toll": "Troll Toll"
+        }
       }
     ],
     "Amount": {
@@ -5239,19 +5188,19 @@
     }
   },
   {
-    "Id": "681094a8229aecc8c39deccd",
+    "Id": "6810a3fe583a6c61de570c36",
     "Name": "Wrecking Team",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-random_movement",
-      "rulebook-fearless",
-      "rulebook-solitary",
-      "rulebook-insignificant",
-      "rulebook-hand_weapon",
-      "ong-force_of_destruction",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-force_of_destruction": "Force of Destruction (2D6)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5263,12 +5212,12 @@
           "Di": "5",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-random_movement",
-          "rulebook-fearless",
-          "rulebook-solitary",
-          "rulebook-insignificant"
-        ]
+        "RuleIds": {
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-insignificant": "Insignificant"
+        }
       },
       {
         "Name": "Wrecking Team",
@@ -5278,9 +5227,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Wrecking Team",
@@ -5291,10 +5240,10 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "ong-force_of_destruction"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-force_of_destruction": "Force of Destruction (2D6)"
+        }
       }
     ],
     "Amount": {

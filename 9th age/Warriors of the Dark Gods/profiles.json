@@ -1,21 +1,21 @@
 [
   {
-    "Id": "681094d0229aecc8c39e1212",
+    "Id": "6810a43d583a6c61de573152",
     "Name": "Exalted Herald",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-supernal",
-      "rulebook-wizard_adept",
-      "wdg-manifestation",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "wdg-manifestation": "Manifestation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -27,14 +27,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-supernal",
-          "rulebook-wizard_adept",
-          "wdg-manifestation",
-          "rulebook-light_troops",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-wizard_adept": "Wizard Adept",
+          "wdg-manifestation": "Manifestation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Exalted Herald",
@@ -44,9 +44,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
       },
       {
         "Name": "Exalted Herald",
@@ -57,11 +57,11 @@
           "AP": "2",
           "Ag": "8"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -77,23 +77,23 @@
     }
   },
   {
-    "Id": "681094d0229aecc8c39e121d",
+    "Id": "6810a43d583a6c61de57315d",
     "Name": "Feldrak Ancestor",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-primal_legend",
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-hatred",
-      "rulebook-breath_attack",
-      "wdg-dying_embers",
-      "rulebook-stomp_attack",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "wdg-primal_legend": "Primal Legend",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "wdg-dying_embers": "Dying Embers",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -105,13 +105,13 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "wdg-primal_legend",
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "wdg-primal_legend": "Primal Legend",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Feldrak Ancestor",
@@ -121,9 +121,9 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Feldrak Ancestor",
@@ -134,13 +134,13 @@
           "AP": "4",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-hatred",
-          "rulebook-breath_attack",
-          "wdg-dying_embers",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+          "wdg-dying_embers": "Dying Embers",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -156,7 +156,7 @@
     }
   },
   {
-    "Id": "f80e5ce7-3c40-42eb-881d-85e8c7d3cac1",
+    "Id": "37f7dbc9-23bf-4ad2-ae25-140c38898ab5",
     "Name": "Scythed Skywheel",
     "Attributes": {
       "type": "",
@@ -164,23 +164,22 @@
       "totalcost": "330"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-grind_attack",
-      "rulebook-sweeping_attack",
-      "wdg-hellforged_armour",
-      "rulebook-shield",
-      "rulebook-hard_target",
-      "rulebook-magic_resistance"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-grind_attack": "Grind Attack (2D3+1)",
+      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -192,17 +191,16 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "Scythed Skywheel",
@@ -212,12 +210,12 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield",
-          "rulebook-hard_target",
-          "rulebook-magic_resistance"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
       },
       {
         "Name": "Scythed Skywheel",
@@ -228,10 +226,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-grind_attack",
-          "rulebook-sweeping_attack"
-        ]
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (2D3+1)",
+          "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"
+        }
       }
     ],
     "Amount": {
@@ -247,7 +245,7 @@
     }
   },
   {
-    "Id": "e628fa41-d782-4829-aa9b-ae1a1435e252",
+    "Id": "0c70ab71-24f0-40be-a84e-29576d93ccda",
     "Name": "Karkadan",
     "Attributes": {
       "type": "",
@@ -255,19 +253,19 @@
       "totalcost": "370"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-stomp_attack",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -279,14 +277,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "Karkadan",
@@ -296,10 +294,10 @@
           "Re": "5",
           "Arm": "6"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Karkadan",
@@ -310,11 +308,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -330,7 +328,7 @@
     }
   },
   {
-    "Id": "58437092-eef6-410a-978e-05f340f9a927",
+    "Id": "f55eef5b-d17e-4512-b543-a14afa302881",
     "Name": "War Dais",
     "Attributes": {
       "type": "",
@@ -338,16 +336,16 @@
       "totalcost": "380"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -359,13 +357,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "War Dais",
@@ -375,10 +373,10 @@
           "Re": "5",
           "Arm": "6"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "War Dais",
@@ -389,9 +387,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -407,7 +405,7 @@
     }
   },
   {
-    "Id": "9ebe0cf0-ea68-4b2d-aded-10062bc93c94",
+    "Id": "4a557142-85c2-40df-b6bb-58aacaf49848",
     "Name": "Black Steed",
     "Attributes": {
       "type": "",
@@ -415,17 +413,17 @@
       "totalcost": "410"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -437,14 +435,14 @@
           "Di": "9",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "Black Steed",
@@ -454,10 +452,10 @@
           "Re": "5",
           "Arm": "6"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Black Steed",
@@ -468,9 +466,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -486,7 +484,7 @@
     }
   },
   {
-    "Id": "cc9e3f88-6f57-4753-a71a-d2d46dc6995a",
+    "Id": "e8969efc-a256-46d2-b53a-44db2089f35f",
     "Name": "Black Steed (2)",
     "Attributes": {
       "type": "",
@@ -494,20 +492,19 @@
       "totalcost": "410"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -519,16 +516,15 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -538,10 +534,10 @@
           "Re": "5",
           "Arm": "6"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -552,9 +548,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -565,9 +561,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -583,7 +579,7 @@
     }
   },
   {
-    "Id": "cd21b1e8-8237-42cf-9891-3ff037bd7b46",
+    "Id": "226805cf-a9a0-4e89-8ee0-77a66f4e71b9",
     "Name": "Chimera",
     "Attributes": {
       "type": "",
@@ -591,20 +587,19 @@
       "totalcost": "440"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -616,16 +611,15 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "Chimera",
@@ -635,10 +629,10 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Chimera",
@@ -649,10 +643,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -668,7 +662,7 @@
     }
   },
   {
-    "Id": "6478a651-e140-4640-b568-60cf4c4f8c73",
+    "Id": "559c7e29-10dc-4524-bf0d-6962be108edb",
     "Name": "Wasteland Dragon",
     "Attributes": {
       "type": "",
@@ -676,23 +670,23 @@
       "totalcost": "640"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "wdg-meeting_of_minds",
-      "rulebook-terror",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-breath_attack",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "wdg-meeting_of_minds": "Meeting of Minds",
+      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -704,18 +698,18 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "wdg-meeting_of_minds",
-          "rulebook-terror",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "wdg-meeting_of_minds": "Meeting of Minds",
+          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "Wasteland Dragon",
@@ -725,10 +719,10 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Wasteland Dragon",
@@ -739,11 +733,11 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-breath_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+        }
       }
     ],
     "Amount": {
@@ -759,20 +753,20 @@
     }
   },
   {
-    "Id": "681094d0229aecc8c39e124a",
+    "Id": "6810a43d583a6c61de57318a",
     "Name": "Chosen Lord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "wdg-gluttony",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -784,13 +778,13 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-exclusive",
-          "rulebook-light_troops",
-          "wdg-gluttony"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
       },
       {
         "Name": "Chosen Lord",
@@ -800,10 +794,10 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Chosen Lord",
@@ -814,9 +808,9 @@
           "AP": "2",
           "Ag": "7"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -832,7 +826,7 @@
     }
   },
   {
-    "Id": "c05c81f2-085e-4c6e-961c-c42f324d4b4e",
+    "Id": "c3ccac50-c212-4ba4-aa37-e0a41c02e2df",
     "Name": "Wasteland Behemoth",
     "Attributes": {
       "type": "",
@@ -840,20 +834,20 @@
       "totalcost": "520"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-dying_blow",
-      "rulebook-exclusive",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -865,16 +859,16 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-dying_blow",
-          "rulebook-exclusive",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Wasteland Behemoth",
@@ -884,10 +878,10 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Wasteland Behemoth",
@@ -898,10 +892,10 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -917,21 +911,21 @@
     }
   },
   {
-    "Id": "681094d1229aecc8c39e160a",
+    "Id": "6810a43f583a6c61de57354a",
     "Name": "Doomlord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-dying_blow",
-      "rulebook-exclusive",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-handandahalf",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -943,13 +937,13 @@
           "Di": "9",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-dying_blow",
-          "rulebook-exclusive",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Doomlord",
@@ -959,10 +953,10 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Doomlord",
@@ -973,10 +967,10 @@
           "AP": "2",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       }
     ],
     "Amount": {
@@ -992,7 +986,7 @@
     }
   },
   {
-    "Id": "cd07e212-f9fc-4ffe-a146-edd947ce75da",
+    "Id": "b33ffdf1-9ec2-4faa-9e41-f28405b089e8",
     "Name": "War Dais",
     "Attributes": {
       "type": "",
@@ -1000,13 +994,13 @@
       "totalcost": "335"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1018,12 +1012,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "War Dais",
@@ -1033,7 +1027,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "War Dais",
@@ -1044,9 +1038,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1062,7 +1056,7 @@
     }
   },
   {
-    "Id": "baeb4ed8-a762-44ef-aa01-8cce2c4f37e3",
+    "Id": "4ca9ae19-a7fc-4f85-aaf9-29ef784c344b",
     "Name": "Black Steed",
     "Attributes": {
       "type": "",
@@ -1070,14 +1064,14 @@
       "totalcost": "340"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1089,13 +1083,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1105,7 +1099,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed",
@@ -1116,9 +1110,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1134,7 +1128,7 @@
     }
   },
   {
-    "Id": "63d3af98-c3e0-4566-bba4-cee2830a8eea",
+    "Id": "5e839bf7-5d47-40c8-9b0c-80cd3242c066",
     "Name": "Scythed Skywheel",
     "Attributes": {
       "type": "",
@@ -1142,20 +1136,19 @@
       "totalcost": "340"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-grind_attack",
-      "rulebook-sweeping_attack",
-      "rulebook-hard_target",
-      "rulebook-magic_resistance"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-grind_attack": "Grind Attack (2D3+1)",
+      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1167,16 +1160,15 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Scythed Skywheel",
@@ -1186,10 +1178,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-magic_resistance"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
       },
       {
         "Name": "Scythed Skywheel",
@@ -1200,10 +1192,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-grind_attack",
-          "rulebook-sweeping_attack"
-        ]
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (2D3+1)",
+          "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"
+        }
       }
     ],
     "Amount": {
@@ -1219,7 +1211,7 @@
     }
   },
   {
-    "Id": "9194439b-e701-491c-8103-8291e59e1e0f",
+    "Id": "8d6486de-d18a-4a3c-a236-280b1929db9d",
     "Name": "Black Steed (2)",
     "Attributes": {
       "type": "",
@@ -1227,17 +1219,16 @@
       "totalcost": "360"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1249,15 +1240,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -1267,7 +1257,7 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed (2)",
@@ -1278,9 +1268,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -1291,9 +1281,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -1309,7 +1299,7 @@
     }
   },
   {
-    "Id": "2b66efb0-4f26-4a22-89f7-d92340d0a2a4",
+    "Id": "dc85d669-a0c7-42e2-a4ef-0ed447f2267d",
     "Name": "Wretched One (2)",
     "Attributes": {
       "type": "",
@@ -1317,18 +1307,17 @@
       "totalcost": "480"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-solitary",
-      "wdg-beacon_of_the_dark_gods",
-      "rulebook-light_troops",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-solitary": "Solitary",
+      "wdg-beacon_of_the_dark_gods": "Beacon of the Dark Gods",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1340,15 +1329,14 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-solitary",
-          "wdg-beacon_of_the_dark_gods",
-          "rulebook-light_troops",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-solitary": "Solitary",
+          "wdg-beacon_of_the_dark_gods": "Beacon of the Dark Gods",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Wretched One (2)",
@@ -1358,9 +1346,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Wretched One (2)",
@@ -1371,10 +1359,10 @@
           "AP": "0",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -1390,7 +1378,7 @@
     }
   },
   {
-    "Id": "ff56365a-cfe8-43b9-ac09-61c5bb773f6e",
+    "Id": "8ad12b93-afa9-41ff-815e-b54a0632c78c",
     "Name": "Wasteland Behemoth",
     "Attributes": {
       "type": "",
@@ -1398,17 +1386,17 @@
       "totalcost": "590"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1420,15 +1408,15 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Wasteland Behemoth",
@@ -1438,7 +1426,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wasteland Behemoth",
@@ -1449,10 +1437,10 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -1468,7 +1456,7 @@
     }
   },
   {
-    "Id": "2c55ab2f-7bc0-48a5-990f-0cd25349ed88",
+    "Id": "ddf31e0f-bd51-4fc2-a48c-e5cb67453dea",
     "Name": "Wasteland Dragon",
     "Attributes": {
       "type": "",
@@ -1476,20 +1464,20 @@
       "totalcost": "610"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-fly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "wdg-meeting_of_minds",
-      "rulebook-terror",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-breath_attack"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "wdg-meeting_of_minds": "Meeting of Minds",
+      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1501,17 +1489,17 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-fly",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "wdg-meeting_of_minds",
-          "rulebook-terror",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "wdg-meeting_of_minds": "Meeting of Minds",
+          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Wasteland Dragon",
@@ -1521,7 +1509,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wasteland Dragon",
@@ -1532,11 +1520,11 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-breath_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+        }
       }
     ],
     "Amount": {
@@ -1552,17 +1540,17 @@
     }
   },
   {
-    "Id": "681094d1229aecc8c39e16c6",
+    "Id": "6810a440583a6c61de573606",
     "Name": "Sorcerer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "wdg-veil_walker",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1574,12 +1562,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "wdg-veil_walker",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Sorcerer",
@@ -1589,7 +1577,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Sorcerer",
@@ -1600,9 +1588,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1618,7 +1606,7 @@
     }
   },
   {
-    "Id": "5e3018dd-5b95-4f73-a79d-b4a6f9121d0c",
+    "Id": "3b6e3187-f056-438b-8648-4a4b005ae5d5",
     "Name": "War Dais",
     "Attributes": {
       "type": "",
@@ -1626,11 +1614,11 @@
       "totalcost": "110"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1642,10 +1630,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "War Dais",
@@ -1655,7 +1643,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "War Dais",
@@ -1666,9 +1654,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1684,7 +1672,7 @@
     }
   },
   {
-    "Id": "d4f05fee-1584-4db1-bc80-ce3c56e5fbb8",
+    "Id": "ac2baae6-49d0-4bc8-af21-2af8914d7e87",
     "Name": "Black Steed",
     "Attributes": {
       "type": "",
@@ -1692,12 +1680,12 @@
       "totalcost": "120"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1709,11 +1697,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Black Steed",
@@ -1723,7 +1711,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed",
@@ -1734,9 +1722,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1752,7 +1740,7 @@
     }
   },
   {
-    "Id": "b27bdd66-bd47-4abb-8f55-96a405165396",
+    "Id": "5a761fd2-4782-4b8f-806b-6529fe8f44e0",
     "Name": "Shadow Chaser",
     "Attributes": {
       "type": "",
@@ -1760,15 +1748,14 @@
       "totalcost": "130"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "rulebook-vanguard": "Vanguard (3\")",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1780,14 +1767,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-vanguard": "Vanguard (3\")",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -1797,7 +1783,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Shadow Chaser",
@@ -1808,9 +1794,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1826,7 +1812,7 @@
     }
   },
   {
-    "Id": "e800e849-f528-438d-8ba4-ab4361b86173",
+    "Id": "5f743d3b-0b38-4e82-a5c4-2a203bcda338",
     "Name": "Black Steed (2)",
     "Attributes": {
       "type": "",
@@ -1834,15 +1820,14 @@
       "totalcost": "160"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1854,13 +1839,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -1870,7 +1854,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Black Steed (2)",
@@ -1881,9 +1865,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -1894,9 +1878,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -1912,7 +1896,7 @@
     }
   },
   {
-    "Id": "8bab5300-dca2-4e39-b18e-36dac3974097",
+    "Id": "756ef537-c0da-4551-b941-37701b14fa2d",
     "Name": "Chimera",
     "Attributes": {
       "type": "",
@@ -1920,15 +1904,14 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1940,13 +1923,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Chimera",
@@ -1956,7 +1938,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Chimera",
@@ -1967,10 +1949,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -1986,7 +1968,7 @@
     }
   },
   {
-    "Id": "3d7f5b83-4366-4089-945a-1f37088e2781",
+    "Id": "1c287caa-8420-4769-be56-60b001eb2b98",
     "Name": "Wasteland Behemoth",
     "Attributes": {
       "type": "",
@@ -1994,15 +1976,15 @@
       "totalcost": "360"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2014,13 +1996,13 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Wasteland Behemoth",
@@ -2030,7 +2012,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Wasteland Behemoth",
@@ -2041,10 +2023,10 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -2060,16 +2042,16 @@
     }
   },
   {
-    "Id": "681094d2229aecc8c39e19de",
+    "Id": "6810a441583a6c61de57391e",
     "Name": "Barbarian Chief",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "wdg-deeds_not_words"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-deeds_not_words": "Deeds not Words"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2081,10 +2063,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Barbarian Chief",
@@ -2094,7 +2076,7 @@
           "Re": "4",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Barbarian Chief",
@@ -2105,10 +2087,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "wdg-deeds_not_words"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "wdg-deeds_not_words": "Deeds not Words"
+        }
       }
     ],
     "Amount": {
@@ -2124,18 +2106,18 @@
     }
   },
   {
-    "Id": "681094d3229aecc8c39e1d1a",
+    "Id": "6810a442583a6c61de573c5a",
     "Name": "Warriors Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2147,11 +2129,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Warriors Musician",
@@ -2161,10 +2143,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior",
@@ -2175,9 +2157,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2193,18 +2175,18 @@
     }
   },
   {
-    "Id": "681094d3229aecc8c39e1d2e",
+    "Id": "6810a442583a6c61de573c6e",
     "Name": "Warriors Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2216,11 +2198,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Warriors Standard Bearer",
@@ -2230,10 +2212,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior",
@@ -2244,9 +2226,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2262,17 +2244,17 @@
     }
   },
   {
-    "Id": "681094d3229aecc8c39e1ce5",
+    "Id": "6810a442583a6c61de573c25",
     "Name": "Warriors",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2284,10 +2266,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever"
+        }
       },
       {
         "Name": "Warriors",
@@ -2297,10 +2279,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior",
@@ -2311,9 +2293,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2329,19 +2311,19 @@
     }
   },
   {
-    "Id": "681094d3229aecc8c39e1d3c",
+    "Id": "6810a443583a6c61de573c7c",
     "Name": "Fallen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-dying_blow",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "wdg-hellforged_armour"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2353,12 +2335,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-dying_blow"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-dying_blow": "Dying Blow"
+        }
       },
       {
         "Name": "Fallen",
@@ -2368,9 +2350,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
       },
       {
         "Name": "Fallen",
@@ -2381,10 +2363,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2400,15 +2382,15 @@
     }
   },
   {
-    "Id": "681094d3229aecc8c39e1d6a",
+    "Id": "6810a443583a6c61de573caa",
     "Name": "Barbarians Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2420,10 +2402,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Barbarians Musician",
@@ -2433,7 +2415,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Barbarian",
@@ -2444,9 +2426,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2462,15 +2444,15 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1d78",
+    "Id": "6810a443583a6c61de573cb8",
     "Name": "Barbarians Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2482,10 +2464,10 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Barbarians Standard Bearer",
@@ -2495,7 +2477,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Barbarian",
@@ -2506,9 +2488,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2524,14 +2506,14 @@
     }
   },
   {
-    "Id": "681094d3229aecc8c39e1d41",
+    "Id": "6810a443583a6c61de573c81",
     "Name": "Barbarians",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2543,9 +2525,9 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "wdg-battle_fever"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever"
+        }
       },
       {
         "Name": "Barbarians",
@@ -2555,7 +2537,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Barbarian",
@@ -2566,9 +2548,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2584,18 +2566,17 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1da9",
+    "Id": "6810a443583a6c61de573ce9",
     "Name": "Barbarian Horsemen Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "wdg-battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2607,11 +2588,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "wdg-battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Barbarian Horsemen Musician",
@@ -2621,9 +2602,9 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Barbarian Horseman",
@@ -2634,9 +2615,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2647,9 +2628,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2665,18 +2646,17 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1db4",
+    "Id": "6810a443583a6c61de573cf4",
     "Name": "Barbarian Horsemen Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "wdg-battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2688,11 +2668,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "wdg-battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Barbarian Horsemen Standard Bearer",
@@ -2702,9 +2682,9 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Barbarian Horseman",
@@ -2715,9 +2695,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2728,9 +2708,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2746,17 +2726,16 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1d86",
+    "Id": "6810a443583a6c61de573cc6",
     "Name": "Barbarian Horsemen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "wdg-battle_fever",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2768,10 +2747,10 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "wdg-battle_fever"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-battle_fever": "Battle Fever"
+        }
       },
       {
         "Name": "Barbarian Horsemen",
@@ -2781,9 +2760,9 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Barbarian Horseman",
@@ -2794,9 +2773,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2807,9 +2786,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2825,20 +2804,19 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1df5",
+    "Id": "6810a443583a6c61de573d35",
     "Name": "Warrior Knights Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2850,12 +2828,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Warrior Knights Musician",
@@ -2865,10 +2843,10 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior Rider",
@@ -2879,9 +2857,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2892,9 +2870,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2910,20 +2888,19 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1e08",
+    "Id": "6810a444583a6c61de573d48",
     "Name": "Warrior Knights Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2935,12 +2912,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Warrior Knights Standard Bearer",
@@ -2950,10 +2927,10 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior Rider",
@@ -2964,9 +2941,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -2977,9 +2954,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2995,19 +2972,18 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1dc2",
+    "Id": "6810a443583a6c61de573d02",
     "Name": "Warrior Knights",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3019,11 +2995,11 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "wdg-battle_fever"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever"
+        }
       },
       {
         "Name": "Warrior Knights",
@@ -3033,10 +3009,10 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warrior Rider",
@@ -3047,9 +3023,9 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Steed",
@@ -3060,9 +3036,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3078,21 +3054,20 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1e14",
+    "Id": "6810a444583a6c61de573d54",
     "Name": "Warrior Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "wdg-hellforged_armour"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3104,12 +3079,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Warrior Chariot",
@@ -3119,9 +3094,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
       },
       {
         "Name": "Warrior Crew (2)",
@@ -3132,10 +3107,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Black Steed (2)",
@@ -3146,9 +3121,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -3159,9 +3134,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -3177,19 +3152,19 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1e54",
+    "Id": "6810a444583a6c61de573d94",
     "Name": "Chosen Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-extra_support",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-extra_support": "Extra Support (3)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3201,11 +3176,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Chosen Musician",
@@ -3215,10 +3190,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Chosen",
@@ -3229,10 +3204,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-extra_support"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-extra_support": "Extra Support (3)"
+        }
       }
     ],
     "Amount": {
@@ -3248,19 +3223,19 @@
     }
   },
   {
-    "Id": "681094d5229aecc8c39e1e68",
+    "Id": "6810a444583a6c61de573da8",
     "Name": "Chosen Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-extra_support",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-extra_support": "Extra Support (3)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3272,11 +3247,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Chosen Standard Bearer",
@@ -3286,10 +3261,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Chosen",
@@ -3300,10 +3275,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-extra_support"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-extra_support": "Extra Support (3)"
+        }
       }
     ],
     "Amount": {
@@ -3319,19 +3294,19 @@
     }
   },
   {
-    "Id": "681094d4229aecc8c39e1e1f",
+    "Id": "6810a444583a6c61de573d5f",
     "Name": "Chosen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "wdg-envy",
-      "rulebook-hand_weapon",
-      "rulebook-extra_support",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-envy": "Envy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-extra_support": "Extra Support (3)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3343,11 +3318,11 @@
           "Di": "9",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "wdg-envy"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-envy": "Envy"
+        }
       },
       {
         "Name": "Chosen",
@@ -3357,10 +3332,10 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Chosen",
@@ -3371,10 +3346,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-extra_support"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-extra_support": "Extra Support (3)"
+        }
       }
     ],
     "Amount": {
@@ -3390,22 +3365,21 @@
     }
   },
   {
-    "Id": "681094d5229aecc8c39e1ea1",
+    "Id": "6810a445583a6c61de573de1",
     "Name": "Chosen Knights Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-stomp_attack",
-      "wdg-hellforged_armour"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3417,12 +3391,12 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Chosen Knights Musician",
@@ -3432,9 +3406,9 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
       },
       {
         "Name": "Chosen Rider",
@@ -3445,10 +3419,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Karkadan",
@@ -3459,11 +3433,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -3479,22 +3453,21 @@
     }
   },
   {
-    "Id": "681094d5229aecc8c39e1eb0",
+    "Id": "6810a445583a6c61de573df0",
     "Name": "Chosen Knights Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-stomp_attack",
-      "wdg-hellforged_armour"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3506,12 +3479,12 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Chosen Knights Standard Bearer",
@@ -3521,9 +3494,9 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
       },
       {
         "Name": "Chosen Rider",
@@ -3534,10 +3507,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Karkadan",
@@ -3548,11 +3521,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -3568,22 +3541,21 @@
     }
   },
   {
-    "Id": "681094d5229aecc8c39e1e76",
+    "Id": "6810a445583a6c61de573db6",
     "Name": "Chosen Knights",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "wdg-envy",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-stomp_attack",
-      "wdg-hellforged_armour"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "wdg-envy": "Envy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3595,12 +3567,12 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "wdg-envy"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-envy": "Envy"
+        }
       },
       {
         "Name": "Chosen Knights",
@@ -3610,9 +3582,9 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
       },
       {
         "Name": "Chosen Rider",
@@ -3623,10 +3595,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Karkadan",
@@ -3637,11 +3609,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -3657,23 +3629,22 @@
     }
   },
   {
-    "Id": "681094d5229aecc8c39e1ebc",
+    "Id": "6810a445583a6c61de573dfc",
     "Name": "Chosen Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-fearless",
-      "wdg-battle_fever",
-      "rulebook-light_troops",
-      "rulebook-solitary",
-      "wdg-envy",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "wdg-hellforged_armour"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "wdg-envy": "Envy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3685,14 +3656,14 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-fearless",
-          "wdg-battle_fever",
-          "rulebook-light_troops",
-          "rulebook-solitary",
-          "wdg-envy"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "wdg-envy": "Envy"
+        }
       },
       {
         "Name": "Chosen Chariot",
@@ -3702,9 +3673,9 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
       },
       {
         "Name": "Chosen Crew (2)",
@@ -3715,10 +3686,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Karkadan",
@@ -3729,9 +3700,9 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -3742,9 +3713,9 @@
           "AP": "2",
           "Ag": null
         },
-        "RuleIds": [
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -3760,21 +3731,21 @@
     }
   },
   {
-    "Id": "681094d5229aecc8c39e1ef0",
+    "Id": "6810a446583a6c61de573e30",
     "Name": "Forsworn Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-fearless",
-      "rulebook-dying_blow",
-      "wdg-battle_fever",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-handandahalf",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Doomlord)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-dying_blow": "Dying Blow",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3786,13 +3757,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-fearless",
-          "rulebook-dying_blow",
-          "wdg-battle_fever",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Doomlord)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-dying_blow": "Dying Blow",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Forsworn Musician",
@@ -3802,10 +3773,10 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Forsworn",
@@ -3816,10 +3787,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       }
     ],
     "Amount": {
@@ -3835,21 +3806,21 @@
     }
   },
   {
-    "Id": "681094d6229aecc8c39e1efe",
+    "Id": "6810a446583a6c61de573e3e",
     "Name": "Forsworn Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-fearless",
-      "rulebook-dying_blow",
-      "wdg-battle_fever",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-handandahalf",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Doomlord)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-dying_blow": "Dying Blow",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3861,13 +3832,13 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-fearless",
-          "rulebook-dying_blow",
-          "wdg-battle_fever",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Doomlord)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-dying_blow": "Dying Blow",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Forsworn Standard Bearer",
@@ -3877,10 +3848,10 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Forsworn",
@@ -3891,10 +3862,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       }
     ],
     "Amount": {
@@ -3910,20 +3881,20 @@
     }
   },
   {
-    "Id": "681094d5229aecc8c39e1ec7",
+    "Id": "6810a446583a6c61de573e07",
     "Name": "Forsworn",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-bodyguard",
-      "rulebook-fearless",
-      "rulebook-dying_blow",
-      "wdg-battle_fever",
-      "rulebook-hand_weapon",
-      "rulebook-handandahalf",
-      "wdg-hellforged_armour",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Doomlord)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-dying_blow": "Dying Blow",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3935,12 +3906,12 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-bodyguard",
-          "rulebook-fearless",
-          "rulebook-dying_blow",
-          "wdg-battle_fever"
-        ]
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Doomlord)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-dying_blow": "Dying Blow",
+          "wdg-battle_fever": "Battle Fever"
+        }
       },
       {
         "Name": "Forsworn",
@@ -3950,10 +3921,10 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "wdg-hellforged_armour",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Forsworn",
@@ -3964,10 +3935,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-handandahalf"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
       }
     ],
     "Amount": {
@@ -3983,23 +3954,23 @@
     }
   },
   {
-    "Id": "681094d6229aecc8c39e1f0c",
+    "Id": "6810a446583a6c61de573e4c",
     "Name": "Wretched Ones",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-random_movement",
-      "rulebook-dying_blow",
-      "rulebook-solitary",
-      "rulebook-mindless",
-      "rulebook-stubborn",
-      "rulebook-unstable",
-      "wdg-writhing_mass",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-solitary": "Solitary",
+      "rulebook-mindless": "Mindless",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "wdg-writhing_mass": "Writhing Mass",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+1)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4011,16 +3982,16 @@
           "Di": "5",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-random_movement",
-          "rulebook-dying_blow",
-          "rulebook-solitary",
-          "rulebook-mindless",
-          "rulebook-stubborn",
-          "rulebook-unstable",
-          "wdg-writhing_mass"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-solitary": "Solitary",
+          "rulebook-mindless": "Mindless",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "wdg-writhing_mass": "Writhing Mass"
+        }
       },
       {
         "Name": "Wretched Ones",
@@ -4030,9 +4001,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Wretched One",
@@ -4043,10 +4014,10 @@
           "AP": "0",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -4062,21 +4033,20 @@
     }
   },
   {
-    "Id": "681094d6229aecc8c39e1f0f",
+    "Id": "6810a446583a6c61de573e4f",
     "Name": "Battleshrine",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-solitary",
-      "wdg-veil_walker",
-      "rulebook-wizard_conclave",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-solitary": "Solitary",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-wizard_conclave": "Wizard Conclave (2)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4088,13 +4058,13 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-solitary",
-          "wdg-veil_walker",
-          "rulebook-wizard_conclave",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-solitary": "Solitary",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-wizard_conclave": "Wizard Conclave (2)",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Battleshrine",
@@ -4104,9 +4074,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Shrine Priest",
@@ -4117,9 +4087,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Wretched One (2)",
@@ -4130,10 +4100,10 @@
           "AP": "0",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -4149,22 +4119,21 @@
     }
   },
   {
-    "Id": "681094d6229aecc8c39e1f2a",
+    "Id": "6810a447583a6c61de573e6a",
     "Name": "Flayers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "wdg-battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (3\")",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4176,15 +4145,15 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "wdg-battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (3\")",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Flayers Musician",
@@ -4194,9 +4163,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Flayer",
@@ -4207,9 +4176,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -4220,9 +4189,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4238,21 +4207,20 @@
     }
   },
   {
-    "Id": "681094d6229aecc8c39e1f15",
+    "Id": "6810a447583a6c61de573e55",
     "Name": "Flayers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "wdg-battle_fever",
-      "rulebook-feigned_flight",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (3\")",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4264,14 +4232,14 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "wdg-battle_fever",
-          "rulebook-feigned_flight",
-          "rulebook-vanguard",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (3\")",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Flayers",
@@ -4281,9 +4249,9 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Flayer",
@@ -4294,9 +4262,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Shadow Chaser",
@@ -4307,9 +4275,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4325,18 +4293,18 @@
     }
   },
   {
-    "Id": "681094d6229aecc8c39e1f2f",
+    "Id": "6810a447583a6c61de573e6f",
     "Name": "Warhounds",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-unruly",
-      "wdg-release_the_hounds",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-unruly": "Unruly",
+      "wdg-release_the_hounds": "Release the Hounds",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4348,13 +4316,13 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-unruly",
-          "wdg-release_the_hounds"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-unruly": "Unruly",
+          "wdg-release_the_hounds": "Release the Hounds"
+        }
       },
       {
         "Name": "Warhounds",
@@ -4364,7 +4332,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Warhound",
@@ -4375,9 +4343,9 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4393,18 +4361,18 @@
     }
   },
   {
-    "Id": "681094d7229aecc8c39e1f32",
+    "Id": "6810a447583a6c61de573e72",
     "Name": "Chimera",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-unruly",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4416,12 +4384,12 @@
           "Di": "8",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-unruly",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Chimera",
@@ -4431,7 +4399,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Chimera",
@@ -4442,10 +4410,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
       }
     ],
     "Amount": {
@@ -4461,20 +4429,20 @@
     }
   },
   {
-    "Id": "681094d7229aecc8c39e1f59",
+    "Id": "6810a447583a6c61de573e99",
     "Name": "Feldraks Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-hatred",
-      "rulebook-stomp_attack",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4486,12 +4454,12 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Feldraks Musician",
@@ -4501,9 +4469,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Feldrak",
@@ -4514,11 +4482,11 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-hatred",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -4534,20 +4502,20 @@
     }
   },
   {
-    "Id": "681094d7229aecc8c39e1f64",
+    "Id": "6810a448583a6c61de573ea4",
     "Name": "Feldraks Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-hatred",
-      "rulebook-stomp_attack",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4559,12 +4527,12 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Feldraks Standard Bearer",
@@ -4574,9 +4542,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Feldrak",
@@ -4587,11 +4555,11 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-hatred",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -4607,20 +4575,20 @@
     }
   },
   {
-    "Id": "681094d7229aecc8c39e1f36",
+    "Id": "6810a447583a6c61de573e76",
     "Name": "Feldraks",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-hatred",
-      "rulebook-stomp_attack",
-      "rulebook-halberd",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-halberd": "Halberd",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4632,11 +4600,11 @@
           "Di": "9",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Feldraks",
@@ -4646,9 +4614,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Feldrak",
@@ -4659,12 +4627,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-hatred",
-          "rulebook-stomp_attack",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-halberd": "Halberd"
+        }
       }
     ],
     "Amount": {
@@ -4680,20 +4648,20 @@
     }
   },
   {
-    "Id": "681094d7229aecc8c39e1f70",
+    "Id": "6810a448583a6c61de573eb0",
     "Name": "Feldrak Elder",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-battle_fever",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-hatred",
-      "rulebook-stomp_attack",
-      "rulebook-resistance"
-    ],
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4705,12 +4673,12 @@
           "Di": "9",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "wdg-battle_fever",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Feldrak Elder",
@@ -4720,9 +4688,9 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-resistance"
-        ]
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
       },
       {
         "Name": "Feldrak Elder",
@@ -4733,11 +4701,11 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-hatred",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -4753,20 +4721,20 @@
     }
   },
   {
-    "Id": "681094d7229aecc8c39e1f75",
+    "Id": "6810a448583a6c61de573eb5",
     "Name": "Marauding Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "wdg-giant_see_giant_do",
-      "rulebook-light_troops",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-rage",
-      "rulebook-stomp_attack",
-      "wdg-giant_club"
-    ],
+    "RuleIds": {
+      "wdg-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "wdg-giant_club": "Giant Club"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4778,12 +4746,12 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "wdg-giant_see_giant_do",
-          "rulebook-light_troops",
-          "rulebook-terror",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "wdg-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Marauding Giant",
@@ -4793,7 +4761,7 @@
           "Re": "5",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Marauding Giant",
@@ -4804,12 +4772,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-rage",
-          "rulebook-stomp_attack",
-          "wdg-giant_club"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "wdg-giant_club": "Giant Club"
+        }
       }
     ],
     "Amount": {
@@ -4825,22 +4793,22 @@
     }
   },
   {
-    "Id": "681094d7229aecc8c39e1f84",
+    "Id": "6810a448583a6c61de573ec4",
     "Name": "Forsaken One",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-random_movement",
-      "rulebook-mindless",
-      "rulebook-solitary",
-      "rulebook-stubborn",
-      "rulebook-unstable",
-      "rulebook-dying_blow",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-mindless": "Mindless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+3)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4852,15 +4820,15 @@
           "Di": "5",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-random_movement",
-          "rulebook-mindless",
-          "rulebook-solitary",
-          "rulebook-stubborn",
-          "rulebook-unstable",
-          "rulebook-dying_blow"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-mindless": "Mindless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "rulebook-dying_blow": "Dying Blow"
+        }
       },
       {
         "Name": "Forsaken One",
@@ -4870,9 +4838,9 @@
           "Re": "6",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Forsaken One",
@@ -4883,10 +4851,10 @@
           "AP": "2",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+3)"
+        }
       }
     ],
     "Amount": {
@@ -4902,20 +4870,20 @@
     }
   },
   {
-    "Id": "681094d8229aecc8c39e1f85",
+    "Id": "6810a449583a6c61de573ec5",
     "Name": "Hellmaw",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-supernal",
-      "wdg-gateway",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "wdg-gateway": "Gateway",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4927,13 +4895,13 @@
           "Di": "7",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-supernal",
-          "wdg-gateway",
-          "rulebook-terror",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "wdg-gateway": "Gateway",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Hellmaw",
@@ -4943,9 +4911,9 @@
           "Re": "6",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Hellmaw",
@@ -4956,10 +4924,10 @@
           "AP": "2",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {

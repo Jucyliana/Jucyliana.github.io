@@ -1,6 +1,6 @@
 [
   {
-    "Id": "4ed1d444-4be3-49e9-b9e0-52bc19e3828c",
+    "Id": "e8b2eac0-d214-44fe-978f-a876e2d46493",
     "Name": "Warden (2)",
     "Attributes": {
       "type": "",
@@ -8,17 +8,17 @@
       "totalcost": "500"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-wizard_master",
-      "rulebook-light_troops",
-      "sa-closely_guarded",
-      "rulebook-hand_weapon",
-      "sa-guardian_patu",
-      "rulebook-regeneration",
-      "rulebook-aegis",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-wizard_master": "Wizard Master",
+      "rulebook-light_troops": "Light Troops",
+      "sa-closely_guarded": "Closely Guarded",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-guardian_patu": "Guardian Patu*",
+      "rulebook-regeneration": "Regeneration (5+)",
+      "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -30,12 +30,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-wizard_master",
-          "rulebook-light_troops",
-          "sa-closely_guarded"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-wizard_master": "Wizard Master",
+          "rulebook-light_troops": "Light Troops",
+          "sa-closely_guarded": "Closely Guarded"
+        }
       },
       {
         "Name": "Warden (2)",
@@ -45,11 +45,11 @@
           "Re": "4",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-regeneration",
-          "rulebook-aegis",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)",
+          "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Warden (2)",
@@ -60,10 +60,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-guardian_patu"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-guardian_patu": "Guardian Patu*"
+        }
       }
     ],
     "Amount": {
@@ -79,18 +79,18 @@
     }
   },
   {
-    "Id": "681094a9229aecc8c39decf3",
+    "Id": "6810a400583a6c61de570c5c",
     "Name": "Anurarch Archmage",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-wizard_master",
-      "rulebook-light_troops",
-      "sa-closely_guarded",
-      "rulebook-hand_weapon",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-wizard_master": "Wizard Master",
+      "rulebook-light_troops": "Light Troops",
+      "sa-closely_guarded": "Closely Guarded",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -102,12 +102,12 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-wizard_master",
-          "rulebook-light_troops",
-          "sa-closely_guarded"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-wizard_master": "Wizard Master",
+          "rulebook-light_troops": "Light Troops",
+          "sa-closely_guarded": "Closely Guarded"
+        }
       },
       {
         "Name": "Anurarch Archmage",
@@ -117,9 +117,9 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Anurarch",
@@ -130,9 +130,9 @@
           "AP": "0",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -148,21 +148,21 @@
     }
   },
   {
-    "Id": "681094aa229aecc8c39ded7c",
+    "Id": "6810a401583a6c61de570ce5",
     "Name": "Caiman Mentor",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-disciplined",
-      "rulebook-light_troops",
-      "sa-mentor",
-      "rulebook-stand_behind",
-      "rulebook-strider",
-      "sa-combat_artist",
-      "rulebook-hand_weapon",
-      "rulebook-fight_in_extra_rank"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "sa-mentor": "Mentor",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "sa-combat_artist": "Combat Artist",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-fight_in_extra_rank": "Fight in Extra Rank"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -174,15 +174,15 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-disciplined",
-          "rulebook-light_troops",
-          "sa-mentor",
-          "rulebook-stand_behind",
-          "rulebook-strider",
-          "sa-combat_artist"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops",
+          "sa-mentor": "Mentor",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "sa-combat_artist": "Combat Artist"
+        }
       },
       {
         "Name": "Caiman Mentor",
@@ -192,7 +192,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Caiman Mentor",
@@ -203,10 +203,10 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-fight_in_extra_rank"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-fight_in_extra_rank": "Fight in Extra Rank"
+        }
       }
     ],
     "Amount": {
@@ -222,7 +222,7 @@
     }
   },
   {
-    "Id": "438c13ab-fc47-451d-b740-03b60c1ce2a3",
+    "Id": "0b7ffb60-a5c5-463a-b935-b82715d1c82b",
     "Name": "Mountain Pteradon",
     "Attributes": {
       "type": "",
@@ -230,21 +230,20 @@
       "totalcost": "140"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-attached",
-      "rulebook-fly",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-swiftstride",
-      "rulebook-feigned_flight",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-sweeping_attack",
-      "rulebook-regeneration",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-attached": "Attached",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-sweeping_attack": "Sweeping Attack (2)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -256,17 +255,16 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-attached",
-          "rulebook-fly",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-swiftstride",
-          "rulebook-feigned_flight",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-attached": "Attached",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Mountain Pteradon",
@@ -276,10 +274,10 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-regeneration",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Mountain Pteradon",
@@ -290,10 +288,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-sweeping_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-sweeping_attack": "Sweeping Attack (2)"
+        }
       }
     ],
     "Amount": {
@@ -309,7 +307,7 @@
     }
   },
   {
-    "Id": "1059be53-da03-4812-9e71-246f44be2275",
+    "Id": "70a86f85-6b6c-464d-97c8-0ed16eae446c",
     "Name": "Pouakai Sky Tyrant",
     "Attributes": {
       "type": "",
@@ -317,23 +315,22 @@
       "totalcost": "250"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-attached",
-      "rulebook-fearless",
-      "rulebook-vanguard",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-fly",
-      "rulebook-ambush",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-first_strike",
-      "rulebook-stomp_attack",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-attached": "Attached",
+      "rulebook-fearless": "Fearless",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-fly": "Fly",
+      "rulebook-ambush": "Ambush (Open Terrain)",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -345,19 +342,18 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-attached",
-          "rulebook-fearless",
-          "rulebook-vanguard",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-fly",
-          "rulebook-ambush",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-attached": "Attached",
+          "rulebook-fearless": "Fearless",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-fly": "Fly",
+          "rulebook-ambush": "Ambush (Open Terrain)",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Pouakai Sky Tyrant",
@@ -367,9 +363,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Pouakai Sky Tyrant",
@@ -380,11 +376,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-first_strike",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -400,7 +396,7 @@
     }
   },
   {
-    "Id": "5772a556-c917-433d-b448-fec503d3f9ef",
+    "Id": "6598e64f-b7b4-4385-bc16-73c3575dba1c",
     "Name": "Skink Rider (4)",
     "Attributes": {
       "type": "",
@@ -408,21 +404,20 @@
       "totalcost": "440"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-attached",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "sa-poisoned_javelin",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-stomp_attack",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-attached": "Attached",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-poisoned_javelin": "Poisoned Javelin (4+)",
+      "rulebook-impact_hits": "Impact Hits (3D3)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -434,15 +429,15 @@
           "Di": "7",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-attached",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-attached": "Attached",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Skink Rider (4)",
@@ -452,9 +447,9 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Skink Rider (4)",
@@ -465,10 +460,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-poisoned_javelin"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-poisoned_javelin": "Poisoned Javelin (4+)"
+        }
       },
       {
         "Name": "Taurosaur",
@@ -479,11 +474,11 @@
           "AP": "3",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (3D3)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -499,19 +494,19 @@
     }
   },
   {
-    "Id": "681094aa229aecc8c39dedb6",
+    "Id": "6810a401583a6c61de570d1f",
     "Name": "Skink Veteran",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "sa-poisoned_javelin",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-poisoned_javelin": "Poisoned Javelin (2+)",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -523,12 +518,12 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-attached",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Skink Veteran",
@@ -538,9 +533,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Skink Veteran",
@@ -551,10 +546,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-poisoned_javelin"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-poisoned_javelin": "Poisoned Javelin (2+)"
+        }
       }
     ],
     "Amount": {
@@ -570,7 +565,7 @@
     }
   },
   {
-    "Id": "111a6045-0b27-418d-8628-814b866368f6",
+    "Id": "a19b6d55-f917-4e5a-bf5e-0ea414142df9",
     "Name": "Saurian Raptor",
     "Attributes": {
       "type": "",
@@ -578,15 +573,14 @@
       "totalcost": "245"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "sa-pack_hunter",
-      "rulebook-swiftstride",
-      "rulebook-strider",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -598,14 +592,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "sa-pack_hunter",
-          "rulebook-swiftstride",
-          "rulebook-strider",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Saurian Raptor",
@@ -615,7 +608,7 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Saurian Raptor",
@@ -626,9 +619,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -644,7 +637,7 @@
     }
   },
   {
-    "Id": "5cf2a64b-8574-438c-b17b-73e8cef6c352",
+    "Id": "1bc2a47b-9f5c-49ba-9447-686a227791c8",
     "Name": "Alpha Carnosaur",
     "Attributes": {
       "type": "",
@@ -652,22 +645,22 @@
       "totalcost": "640"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-frenzy",
-      "rulebook-fearless",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-solitary",
-      "rulebook-unruly",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-multiple_wounds",
-      "cl-fury",
-      "rulebook-first_strike",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-unruly": "Unruly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-multiple_wounds": "Multiple Wounds (2)",
+      "cl-fury": "Fury",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -679,17 +672,17 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-frenzy",
-          "rulebook-fearless",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-solitary",
-          "rulebook-unruly",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-unruly": "Unruly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Alpha Carnosaur",
@@ -699,7 +692,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Alpha Carnosaur",
@@ -710,13 +703,13 @@
           "AP": "4",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-multiple_wounds",
-          "cl-fury",
-          "rulebook-first_strike",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-multiple_wounds": "Multiple Wounds (2)",
+          "cl-fury": "Fury",
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -732,16 +725,16 @@
     }
   },
   {
-    "Id": "681094aa229aecc8c39defb9",
+    "Id": "6810a402583a6c61de570f22",
     "Name": "Tegu Veteran",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -753,11 +746,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Tegu Veteran",
@@ -767,7 +760,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tegu Veteran",
@@ -778,9 +771,9 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -796,16 +789,16 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df111",
+    "Id": "6810a402583a6c61de57107a",
     "Name": "Caiman Warriors Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -817,11 +810,11 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Caiman Warriors Musician",
@@ -831,7 +824,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Caiman Warrior",
@@ -842,9 +835,9 @@
           "AP": "1",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -860,16 +853,16 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df126",
+    "Id": "6810a402583a6c61de57108f",
     "Name": "Caiman Warriors Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -881,11 +874,11 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Caiman Warriors Standard Bearer",
@@ -895,7 +888,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Caiman Warrior",
@@ -906,9 +899,9 @@
           "AP": "1",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -924,16 +917,16 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df0f6",
+    "Id": "6810a402583a6c61de57105f",
     "Name": "Caiman Warriors",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "sa-tooth_and_claw"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-tooth_and_claw": "Tooth and Claw"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -945,10 +938,10 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Caiman Warriors",
@@ -958,7 +951,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Caiman Warrior",
@@ -969,10 +962,10 @@
           "AP": "1",
           "Ag": "1"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-tooth_and_claw"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
       }
     ],
     "Amount": {
@@ -988,18 +981,18 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df143",
+    "Id": "6810a403583a6c61de5710ac",
     "Name": "Skink Hunters Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1011,12 +1004,12 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Skink Hunters Musician",
@@ -1026,9 +1019,9 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Skink Hunter",
@@ -1039,9 +1032,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1057,18 +1050,18 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df132",
+    "Id": "6810a402583a6c61de57109b",
     "Name": "Skink Hunters",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "sa-poisoned_javelin",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-poisoned_javelin": "Poisoned Javelin (4+)",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1080,11 +1073,11 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Skink Hunters",
@@ -1094,9 +1087,9 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Skink Hunter",
@@ -1107,10 +1100,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-poisoned_javelin"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-poisoned_javelin": "Poisoned Javelin (4+)"
+        }
       }
     ],
     "Amount": {
@@ -1126,17 +1119,17 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df165",
+    "Id": "6810a403583a6c61de5710ce",
     "Name": "Skink Warriors Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1148,11 +1141,11 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Skink Warriors Musician",
@@ -1162,9 +1155,9 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Skink Warrior",
@@ -1175,9 +1168,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1193,17 +1186,17 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df17b",
+    "Id": "6810a403583a6c61de5710e4",
     "Name": "Skink Warriors Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1215,11 +1208,11 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Skink Warriors Standard Bearer",
@@ -1229,9 +1222,9 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Skink Warrior",
@@ -1242,9 +1235,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1260,16 +1253,16 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df148",
+    "Id": "6810a403583a6c61de5710b1",
     "Name": "Skink Warriors",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1281,10 +1274,10 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Skink Warriors",
@@ -1294,9 +1287,9 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
         "Name": "Skink Warrior",
@@ -1307,9 +1300,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1325,17 +1318,17 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df1a0",
+    "Id": "6810a403583a6c61de571109",
     "Name": "Tegu Warriors Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1347,11 +1340,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Tegu Warriors Musician",
@@ -1361,9 +1354,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Tegu Warrior",
@@ -1374,9 +1367,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1392,17 +1385,17 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df1b4",
+    "Id": "6810a403583a6c61de57111d",
     "Name": "Tegu Warriors Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1414,11 +1407,11 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Tegu Warriors Standard Bearer",
@@ -1428,9 +1421,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Tegu Warrior",
@@ -1441,9 +1434,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1459,16 +1452,16 @@
     }
   },
   {
-    "Id": "681094ab229aecc8c39df187",
+    "Id": "6810a403583a6c61de5710f0",
     "Name": "Tegu Warriors",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1480,10 +1473,10 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Tegu Warriors",
@@ -1493,9 +1486,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Tegu Warrior",
@@ -1506,9 +1499,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1524,20 +1517,20 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df1dc",
+    "Id": "6810a403583a6c61de571145",
     "Name": "Caiman Elders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-disciplined",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "sa-tooth_and_claw",
-      "rulebook-great_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-great_weapon": "Great Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1549,12 +1542,12 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-disciplined",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Caiman Elders Musician",
@@ -1564,7 +1557,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Caiman Elder",
@@ -1576,12 +1569,12 @@
           "Ag": "1",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "sa-tooth_and_claw",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "sa-tooth_and_claw": "Tooth and Claw",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1597,20 +1590,20 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df1ee",
+    "Id": "6810a404583a6c61de571157",
     "Name": "Caiman Elders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-disciplined",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "sa-tooth_and_claw",
-      "rulebook-great_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-great_weapon": "Great Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1622,12 +1615,12 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-disciplined",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Caiman Elders Standard Bearer",
@@ -1637,7 +1630,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Caiman Elder",
@@ -1649,12 +1642,12 @@
           "Ag": "1",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "sa-tooth_and_claw",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "sa-tooth_and_claw": "Tooth and Claw",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1670,19 +1663,19 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df1c7",
+    "Id": "6810a403583a6c61de571130",
     "Name": "Caiman Elders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-disciplined",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-weapon_master",
-      "sa-tooth_and_claw",
-      "rulebook-great_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-great_weapon": "Great Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1694,11 +1687,11 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-disciplined",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Caiman Elders",
@@ -1708,7 +1701,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Caiman Elder",
@@ -1720,12 +1713,12 @@
           "Ag": "1",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-weapon_master",
-          "sa-tooth_and_claw",
-          "rulebook-great_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "sa-tooth_and_claw": "Tooth and Claw",
+          "rulebook-great_weapon": "Great Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1741,18 +1734,18 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df1fa",
+    "Id": "6810a404583a6c61de571163",
     "Name": "Raptor Pack",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "sa-pack_hunter",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Forest)",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1764,13 +1757,13 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "sa-pack_hunter",
-          "rulebook-unruly",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Forest)",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Raptor Pack",
@@ -1780,7 +1773,7 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Raptor",
@@ -1791,9 +1784,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1809,20 +1802,19 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df213",
+    "Id": "6810a404583a6c61de57117c",
     "Name": "Raptor Riders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "sa-pack_hunter",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1834,13 +1826,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "sa-pack_hunter",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Raptor Riders Musician",
@@ -1850,7 +1842,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tegu Rider",
@@ -1861,10 +1853,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Raptor",
@@ -1875,9 +1867,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1893,20 +1885,19 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df223",
+    "Id": "6810a404583a6c61de57118c",
     "Name": "Raptor Riders Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "sa-pack_hunter",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1918,13 +1909,13 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "sa-pack_hunter",
-          "rulebook-strider",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Raptor Riders Standard Bearer",
@@ -1934,7 +1925,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tegu Rider",
@@ -1945,10 +1936,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Raptor",
@@ -1959,9 +1950,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1977,19 +1968,18 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df202",
+    "Id": "6810a404583a6c61de57116b",
     "Name": "Raptor Riders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "sa-pack_hunter",
-      "rulebook-strider",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2001,12 +1991,12 @@
           "Di": "8",
           "Hgt": "2"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "sa-pack_hunter",
-          "rulebook-strider",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Raptor Riders",
@@ -2016,7 +2006,7 @@
           "Re": "4",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tegu Rider",
@@ -2027,10 +2017,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       },
       {
         "Name": "Raptor",
@@ -2041,9 +2031,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2059,29 +2049,28 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df238",
+    "Id": "6810a404583a6c61de5711a1",
     "Name": "Rhamphodon Riders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-frenzy",
-      "rulebook-fearless",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-fly",
-      "rulebook-unruly",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-lethal_strike",
-      "rulebook-hatred",
-      "cl-fury",
-      "rulebook-hard_target",
-      "rulebook-regeneration",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fly": "Fly",
+      "rulebook-unruly": "Unruly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-hatred": "Hatred",
+      "cl-fury": "Fury",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2093,16 +2082,16 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-frenzy",
-          "rulebook-fearless",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-fly",
-          "rulebook-unruly",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fly": "Fly",
+          "rulebook-unruly": "Unruly",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Rhamphodon Riders Musician",
@@ -2112,11 +2101,11 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-regeneration",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Skink Rider",
@@ -2127,10 +2116,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Rhamphodon",
@@ -2141,12 +2130,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lethal_strike",
-          "rulebook-hatred",
-          "cl-fury"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-hatred": "Hatred",
+          "cl-fury": "Fury"
+        }
       }
     ],
     "Amount": {
@@ -2162,28 +2151,27 @@
     }
   },
   {
-    "Id": "681094ac229aecc8c39df22f",
+    "Id": "6810a404583a6c61de571198",
     "Name": "Rhamphodon Riders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-frenzy",
-      "rulebook-fearless",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-fly",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-lethal_strike",
-      "rulebook-hatred",
-      "cl-fury",
-      "rulebook-hard_target",
-      "rulebook-regeneration",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fly": "Fly",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-hatred": "Hatred",
+      "cl-fury": "Fury",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2195,15 +2183,15 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-frenzy",
-          "rulebook-fearless",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-fly",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fly": "Fly",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Rhamphodon Riders",
@@ -2213,11 +2201,11 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-regeneration",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Skink Rider",
@@ -2228,10 +2216,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Rhamphodon",
@@ -2242,12 +2230,12 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-lethal_strike",
-          "rulebook-hatred",
-          "cl-fury"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-hatred": "Hatred",
+          "cl-fury": "Fury"
+        }
       }
     ],
     "Amount": {
@@ -2263,26 +2251,26 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df23d",
+    "Id": "6810a405583a6c61de5711a6",
     "Name": "Saurian Swarms",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-swiftstride",
-      "rulebook-unruly",
-      "rulebook-strider",
-      "rulebook-fearless",
-      "rulebook-unstable",
-      "rulebook-afflict",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-regeneration",
-      "rulebook-hard_target",
-      "rulebook-distracting"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-unstable": "Unstable",
+      "rulebook-afflict": "Afflict (-2 Off)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-distracting": "Distracting (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2294,17 +2282,17 @@
           "Di": "4",
           "Hgt": "0"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-swiftstride",
-          "rulebook-unruly",
-          "rulebook-strider",
-          "rulebook-fearless",
-          "rulebook-unstable",
-          "rulebook-afflict"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-unstable": "Unstable",
+          "rulebook-afflict": "Afflict (-2 Off)"
+        }
       },
       {
         "Name": "Saurian Swarms",
@@ -2314,11 +2302,11 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration",
-          "rulebook-hard_target",
-          "rulebook-distracting"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-distracting": "Distracting (1)"
+        }
       },
       {
         "Name": "Saurian Swarm",
@@ -2329,10 +2317,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
       }
     ],
     "Amount": {
@@ -2348,21 +2336,21 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df253",
+    "Id": "6810a405583a6c61de5711bc",
     "Name": "Tegu Guards Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-fearless",
-      "rulebook-bodyguard",
-      "rulebook-magic_resistance",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "sa-guardian_patu",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-fearless": "Fearless",
+      "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-guardian_patu": "Guardian Patu*",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2374,14 +2362,14 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-fearless",
-          "rulebook-bodyguard",
-          "rulebook-magic_resistance",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-fearless": "Fearless",
+          "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Tegu Guards Musician",
@@ -2391,9 +2379,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Tegu Guard",
@@ -2404,10 +2392,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-guardian_patu"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-guardian_patu": "Guardian Patu*"
+        }
       }
     ],
     "Amount": {
@@ -2423,21 +2411,21 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df263",
+    "Id": "6810a405583a6c61de5711cc",
     "Name": "Tegu Guards Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-fearless",
-      "rulebook-bodyguard",
-      "rulebook-magic_resistance",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "sa-guardian_patu",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-fearless": "Fearless",
+      "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-guardian_patu": "Guardian Patu*",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2449,14 +2437,14 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-fearless",
-          "rulebook-bodyguard",
-          "rulebook-magic_resistance",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-fearless": "Fearless",
+          "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Tegu Guards Standard Bearer",
@@ -2466,9 +2454,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Tegu Guard",
@@ -2479,10 +2467,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-guardian_patu"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-guardian_patu": "Guardian Patu*"
+        }
       }
     ],
     "Amount": {
@@ -2498,20 +2486,20 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df242",
+    "Id": "6810a405583a6c61de5711ab",
     "Name": "Tegu Guards",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-fearless",
-      "rulebook-bodyguard",
-      "rulebook-magic_resistance",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "sa-guardian_patu",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-fearless": "Fearless",
+      "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-guardian_patu": "Guardian Patu*",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2523,13 +2511,13 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-fearless",
-          "rulebook-bodyguard",
-          "rulebook-magic_resistance",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-fearless": "Fearless",
+          "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Tegu Guards",
@@ -2539,9 +2527,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Tegu Guard",
@@ -2552,10 +2540,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-guardian_patu"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-guardian_patu": "Guardian Patu*"
+        }
       }
     ],
     "Amount": {
@@ -2571,21 +2559,21 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df28c",
+    "Id": "6810a406583a6c61de5711f5",
     "Name": "Tegu Mystics Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "sa-tooth_and_claw",
-      "rulebook-distracting",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2597,12 +2585,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Tegu Mystics Musician",
@@ -2612,10 +2600,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Tegu Mystic",
@@ -2626,11 +2614,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "sa-tooth_and_claw"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
       }
     ],
     "Amount": {
@@ -2646,21 +2634,21 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df295",
+    "Id": "6810a406583a6c61de5711fe",
     "Name": "Tegu Mystics Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "sa-tooth_and_claw",
-      "rulebook-distracting",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2672,12 +2660,12 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-strider",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Tegu Mystics Standard Bearer",
@@ -2687,10 +2675,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Tegu Mystic",
@@ -2701,11 +2689,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "sa-tooth_and_claw"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
       }
     ],
     "Amount": {
@@ -2721,20 +2709,20 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df26f",
+    "Id": "6810a406583a6c61de5711d8",
     "Name": "Tegu Mystics",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-strider",
-      "rulebook-hand_weapon",
-      "rulebook-magical_attacks",
-      "sa-tooth_and_claw",
-      "rulebook-distracting",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2746,11 +2734,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-strider"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
       },
       {
         "Name": "Tegu Mystics",
@@ -2760,10 +2748,10 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-distracting",
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Tegu Mystic",
@@ -2774,11 +2762,11 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-magical_attacks",
-          "sa-tooth_and_claw"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
       }
     ],
     "Amount": {
@@ -2794,21 +2782,20 @@
     }
   },
   {
-    "Id": "681094ad229aecc8c39df2a2",
+    "Id": "6810a406583a6c61de57120b",
     "Name": "Thyroscutus Herd",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "sa-communal_bond",
-      "rulebook-stubborn",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "sa-poisoned_javelin",
-      "rulebook-hand_weapon",
-      "rulebook-crush_attack",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-poisoned_javelin": "Poisoned Javelin (4+)",
+      "rulebook-crush_attack": "Crush Attack",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2820,12 +2807,12 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "sa-communal_bond",
-          "rulebook-stubborn",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Thyroscutus Herd",
@@ -2835,7 +2822,7 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Skink Rider (4)",
@@ -2846,10 +2833,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-poisoned_javelin"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-poisoned_javelin": "Poisoned Javelin (4+)"
+        }
       },
       {
         "Name": "Thyroscutus",
@@ -2860,11 +2847,11 @@
           "AP": "1",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-crush_attack",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-crush_attack": "Crush Attack",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
       }
     ],
     "Amount": {
@@ -2880,27 +2867,26 @@
     }
   },
   {
-    "Id": "681094ae229aecc8c39df2d3",
+    "Id": "6810a406583a6c61de57123c",
     "Name": "Pteradon Riders Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-feigned_flight",
-      "rulebook-skirmisher",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-fly",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-sweeping_attack",
-      "rulebook-hard_target",
-      "rulebook-regeneration",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-fly": "Fly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-sweeping_attack": "Sweeping Attack (2)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2912,16 +2898,16 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-feigned_flight",
-          "rulebook-skirmisher",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-fly",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-fly": "Fly",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Pteradon Riders Musician",
@@ -2931,11 +2917,11 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-regeneration",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Skink Rider",
@@ -2946,10 +2932,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Pteradon",
@@ -2960,10 +2946,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-sweeping_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-sweeping_attack": "Sweeping Attack (2)"
+        }
       }
     ],
     "Amount": {
@@ -2979,27 +2965,26 @@
     }
   },
   {
-    "Id": "681094ae229aecc8c39df2bc",
+    "Id": "6810a406583a6c61de571225",
     "Name": "Pteradon Riders",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-feigned_flight",
-      "rulebook-skirmisher",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "rulebook-vanguard",
-      "rulebook-fly",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "sa-poisoned_javelin",
-      "rulebook-hand_weapon",
-      "rulebook-sweeping_attack",
-      "rulebook-hard_target",
-      "rulebook-regeneration",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-fly": "Fly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "sa-poisoned_javelin": "Poisoned Javelin (4+)",
+      "rulebook-sweeping_attack": "Sweeping Attack (2)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3011,15 +2996,15 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-feigned_flight",
-          "rulebook-skirmisher",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "rulebook-vanguard",
-          "rulebook-fly"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-fly": "Fly"
+        }
       },
       {
         "Name": "Pteradon Riders",
@@ -3029,11 +3014,11 @@
           "Re": "3",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-regeneration",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Skink Rider",
@@ -3044,11 +3029,11 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance",
-          "sa-poisoned_javelin"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance",
+          "sa-poisoned_javelin": "Poisoned Javelin (4+)"
+        }
       },
       {
         "Name": "Pteradon",
@@ -3059,10 +3044,10 @@
           "AP": "1",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-sweeping_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-sweeping_attack": "Sweeping Attack (2)"
+        }
       }
     ],
     "Amount": {
@@ -3078,20 +3063,20 @@
     }
   },
   {
-    "Id": "681094ae229aecc8c39df2ed",
+    "Id": "6810a407583a6c61de571256",
     "Name": "Skink Guerrillas Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-strider",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-regeneration",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3103,13 +3088,13 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-strider",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Skink Guerrillas Musician",
@@ -3119,10 +3104,10 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Skink Guerrilla",
@@ -3133,9 +3118,9 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3151,21 +3136,21 @@
     }
   },
   {
-    "Id": "681094ae229aecc8c39df2d8",
+    "Id": "6810a407583a6c61de571241",
     "Name": "Skink Guerrillas",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-strider",
-      "rulebook-vanguard",
-      "rulebook-hand_weapon",
-      "sa-magnetic_short_bow",
-      "rulebook-regeneration",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-magnetic_short_bow": "Magnetic Short Bow (3+)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3177,13 +3162,13 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-strider",
-          "rulebook-vanguard"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-vanguard": "Vanguard"
+        }
       },
       {
         "Name": "Skink Guerrillas",
@@ -3193,10 +3178,10 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-regeneration",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Skink Guerrilla",
@@ -3207,10 +3192,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-magnetic_short_bow"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-magnetic_short_bow": "Magnetic Short Bow (3+)"
+        }
       }
     ],
     "Amount": {
@@ -3226,18 +3211,18 @@
     }
   },
   {
-    "Id": "681094ae229aecc8c39df2f2",
+    "Id": "6810a407583a6c61de57125b",
     "Name": "Weapon Beasts",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "sa-salamander"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-salamander": "Salamander"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3249,12 +3234,12 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Weapon Beasts",
@@ -3264,7 +3249,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Weapon Beast",
@@ -3275,10 +3260,10 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-salamander"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-salamander": "Salamander"
+        }
       }
     ],
     "Amount": {
@@ -3294,27 +3279,26 @@
     }
   },
   {
-    "Id": "681094ae229aecc8c39df2f8",
+    "Id": "6810a407583a6c61de571261",
     "Name": "Carnosaur",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-frenzy",
-      "rulebook-fearless",
-      "sa-communal_bond",
-      "rulebook-solitary",
-      "rulebook-light_troops",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "cl-fury",
-      "rulebook-multiple_wounds",
-      "rulebook-first_strike",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "cl-fury": "Fury",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 0--4)",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3326,16 +3310,16 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-frenzy",
-          "rulebook-fearless",
-          "sa-communal_bond",
-          "rulebook-solitary",
-          "rulebook-light_troops",
-          "rulebook-swiftstride",
-          "rulebook-terror",
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Carnosaur",
@@ -3345,7 +3329,7 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Tegu Rider",
@@ -3356,10 +3340,10 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Carnosaur",
@@ -3370,13 +3354,13 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "cl-fury",
-          "rulebook-multiple_wounds",
-          "rulebook-first_strike",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "cl-fury": "Fury",
+          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 0--4)",
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -3392,23 +3376,22 @@
     }
   },
   {
-    "Id": "681094af229aecc8c39df315",
+    "Id": "6810a408583a6c61de57127e",
     "Name": "Stygiosaur Pack Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "sa-pack_hunter",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-first_strike",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3420,12 +3403,12 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "sa-pack_hunter",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Stygiosaur Pack Musician",
@@ -3435,9 +3418,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Skink Rider",
@@ -3448,10 +3431,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Stygiosaur",
@@ -3462,12 +3445,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack",
-          "rulebook-first_strike"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3)",
+          "rulebook-first_strike": "First Strike (Hatred)"
+        }
       }
     ],
     "Amount": {
@@ -3483,23 +3466,22 @@
     }
   },
   {
-    "Id": "681094af229aecc8c39df327",
+    "Id": "6810a408583a6c61de571290",
     "Name": "Stygiosaur Pack Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "sa-pack_hunter",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-first_strike",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3511,12 +3493,12 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "sa-pack_hunter",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Stygiosaur Pack Standard Bearer",
@@ -3526,9 +3508,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Skink Rider",
@@ -3539,10 +3521,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Stygiosaur",
@@ -3553,12 +3535,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack",
-          "rulebook-first_strike"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3)",
+          "rulebook-first_strike": "First Strike (Hatred)"
+        }
       }
     ],
     "Amount": {
@@ -3574,22 +3556,21 @@
     }
   },
   {
-    "Id": "681094ae229aecc8c39df300",
+    "Id": "6810a408583a6c61de571269",
     "Name": "Stygiosaur Pack",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "sa-pack_hunter",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-light_lance",
-      "rulebook-hand_weapon",
-      "rulebook-poison_attacks",
-      "rulebook-stomp_attack",
-      "rulebook-first_strike",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3601,11 +3582,11 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "sa-pack_hunter",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Stygiosaur Pack",
@@ -3615,9 +3596,9 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Skink Rider",
@@ -3628,10 +3609,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-light_lance"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
       },
       {
         "Name": "Stygiosaur",
@@ -3642,12 +3623,12 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-poison_attacks",
-          "rulebook-stomp_attack",
-          "rulebook-first_strike"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3)",
+          "rulebook-first_strike": "First Strike (Hatred)"
+        }
       }
     ],
     "Amount": {
@@ -3663,21 +3644,20 @@
     }
   },
   {
-    "Id": "681094af229aecc8c39df331",
+    "Id": "6810a408583a6c61de57129a",
     "Name": "Taurosaur",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-solitary",
-      "rulebook-swiftstride",
-      "rulebook-terror",
-      "rulebook-hand_weapon",
-      "sa-poisoned_javelin",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-poisoned_javelin": "Poisoned Javelin (4+)",
+      "rulebook-impact_hits": "Impact Hits (3D3)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3689,12 +3669,12 @@
           "Di": "6",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-solitary",
-          "rulebook-swiftstride",
-          "rulebook-terror"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"
+        }
       },
       {
         "Name": "Taurosaur",
@@ -3704,7 +3684,7 @@
           "Re": "6",
           "Arm": "4"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Skink Rider (5)",
@@ -3715,10 +3695,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-poisoned_javelin"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-poisoned_javelin": "Poisoned Javelin (4+)"
+        }
       },
       {
         "Name": "Taurosaur",
@@ -3729,11 +3709,11 @@
           "AP": "3",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (3D3)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       }
     ],
     "Amount": {
@@ -3749,23 +3729,22 @@
     }
   },
   {
-    "Id": "681094af229aecc8c39df344",
+    "Id": "6810a408583a6c61de5712ad",
     "Name": "Titanopod",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "sa-communal_bond",
-      "rulebook-strider",
-      "sa-walking_mountain",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-terror",
-      "rulebook-hand_weapon",
-      "sa-poisoned_javelin",
-      "rulebook-hand_weapon",
-      "sa-path_of_destruction",
-      "rulebook-stomp_attack"
-    ],
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider",
+      "sa-walking_mountain": "Walking Mountain",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-poisoned_javelin": "Poisoned Javelin (4+)",
+      "sa-path_of_destruction": "Path of Destruction",
+      "rulebook-stomp_attack": "Stomp Attack (5D3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3777,14 +3756,14 @@
           "Di": "6",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "sa-communal_bond",
-          "rulebook-strider",
-          "sa-walking_mountain",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-terror"
-        ]
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider",
+          "sa-walking_mountain": "Walking Mountain",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror"
+        }
       },
       {
         "Name": "Titanopod",
@@ -3794,7 +3773,7 @@
           "Re": "6",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Rock Releaser (6)",
@@ -3805,10 +3784,10 @@
           "AP": "0",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-poisoned_javelin"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-poisoned_javelin": "Poisoned Javelin (4+)"
+        }
       },
       {
         "Name": "Titanopod",
@@ -3819,11 +3798,11 @@
           "AP": "3",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "sa-path_of_destruction",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-path_of_destruction": "Path of Destruction",
+          "rulebook-stomp_attack": "Stomp Attack (5D3)"
+        }
       }
     ],
     "Amount": {

@@ -1,27 +1,26 @@
 [
   {
-    "Id": "681094c8229aecc8c39e0cd7",
+    "Id": "6810a432583a6c61de572c40",
     "Name": "Ruinous Dictator",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "rulebook-fearless",
-      "rulebook-disciplined",
-      "rulebook-supernal",
-      "vs-callous",
-      "rulebook-solitary",
-      "vs-imperator",
-      "rulebook-terror",
-      "rulebook-supernal",
-      "rulebook-wizard_apprentice",
-      "vs-pontifex_maximus",
-      "vs-girded_by_acratos",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-magical_attacks",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-fearless": "Fearless",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-supernal": "Supernal",
+      "vs-callous": "Callous",
+      "rulebook-solitary": "Solitary",
+      "vs-imperator": "Imperator",
+      "rulebook-terror": "Terror",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "vs-pontifex_maximus": "Pontifex Maximus",
+      "vs-girded_by_acratos": "Girded by Acratos",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -33,20 +32,19 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "rulebook-fearless",
-          "rulebook-disciplined",
-          "rulebook-supernal",
-          "vs-callous",
-          "rulebook-solitary",
-          "vs-imperator",
-          "rulebook-terror",
-          "rulebook-supernal",
-          "rulebook-wizard_apprentice",
-          "vs-pontifex_maximus",
-          "vs-girded_by_acratos"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-fearless": "Fearless",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-supernal": "Supernal",
+          "vs-callous": "Callous",
+          "rulebook-solitary": "Solitary",
+          "vs-imperator": "Imperator",
+          "rulebook-terror": "Terror",
+          "rulebook-wizard_apprentice": "Wizard Apprentice",
+          "vs-pontifex_maximus": "Pontifex Maximus",
+          "vs-girded_by_acratos": "Girded by Acratos"
+        }
       },
       {
         "Name": "Ruinous Dictator",
@@ -56,9 +54,9 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Ruinous Dictator",
@@ -69,11 +67,11 @@
           "AP": "3",
           "Ag": "8"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack",
-          "rulebook-magical_attacks"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
       }
     ],
     "Amount": {
@@ -89,7 +87,7 @@
     }
   },
   {
-    "Id": "48504e80-7dc5-4433-9976-6076194ab48f",
+    "Id": "a9615707-b641-4006-89ab-566d435e65d2",
     "Name": "Blackfur Veteran (4)",
     "Attributes": {
       "type": "",
@@ -97,15 +95,15 @@
       "totalcost": "120"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-stand_behind",
-      "rulebook-commanding_presence",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-commanding_presence": "Commanding Presence (6\")",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -117,14 +115,14 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-stand_behind",
-          "rulebook-commanding_presence",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-commanding_presence": "Commanding Presence (6\")",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Blackfur Veteran (4)",
@@ -134,7 +132,7 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Blackfur Veteran (4)",
@@ -145,9 +143,9 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -163,20 +161,20 @@
     }
   },
   {
-    "Id": "681094c9229aecc8c39e0d0c",
+    "Id": "6810a432583a6c61de572c75",
     "Name": "Vermin Senator",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-stand_behind",
-      "rulebook-commanding_presence",
-      "rulebook-captain",
-      "rulebook-attached",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-pistol"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-commanding_presence": "Commanding Presence (6\")",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-pistol": "Pistol (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -188,14 +186,14 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-stand_behind",
-          "rulebook-commanding_presence",
-          "rulebook-captain",
-          "rulebook-attached",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-commanding_presence": "Commanding Presence (6\")",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Vermin Senator",
@@ -205,7 +203,7 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Vermin Senator",
@@ -216,10 +214,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-pistol"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-pistol": "Pistol (4+)"
+        }
       }
     ],
     "Amount": {
@@ -235,7 +233,7 @@
     }
   },
   {
-    "Id": "42573f1c-b288-46ab-a319-813edc3b2a38",
+    "Id": "96c867a8-d79b-40fe-87fd-da3c2a160ee5",
     "Name": "Praetorian Brute",
     "Attributes": {
       "type": "",
@@ -243,13 +241,13 @@
       "totalcost": "205"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-disciplined",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -261,11 +259,11 @@
           "Di": "8",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-disciplined",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Praetorian Brute",
@@ -275,9 +273,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Praetorian Brute",
@@ -288,9 +286,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -306,7 +304,7 @@
     }
   },
   {
-    "Id": "42baf115-0666-4c5f-bf65-ef6ae94bd064",
+    "Id": "73570115-3830-4abe-bc9c-d782499a6c88",
     "Name": "Praetorian Brute (3)",
     "Attributes": {
       "type": "",
@@ -314,19 +312,18 @@
       "totalcost": "410"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-disciplined",
-      "rulebook-warplatform",
-      "rulebook-exclusive",
-      "rulebook-attached",
-      "rulebook-terror",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-exclusive": "Exclusive (Blackfur Veterans, Bloodfur Praetorians, Vermin Brutes, Vermin Legionaries)",
+      "rulebook-attached": "Attached",
+      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -338,15 +335,15 @@
           "Di": "8",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-disciplined",
-          "rulebook-warplatform",
-          "rulebook-exclusive",
-          "rulebook-attached",
-          "rulebook-terror",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-exclusive": "Exclusive (Blackfur Veterans, Bloodfur Praetorians, Vermin Brutes, Vermin Legionaries)",
+          "rulebook-attached": "Attached",
+          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Praetorian Brute (3)",
@@ -356,9 +353,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Praetorian Brute (3)",
@@ -369,9 +366,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -382,10 +379,10 @@
           "AP": "2",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
       }
     ],
     "Amount": {
@@ -401,17 +398,17 @@
     }
   },
   {
-    "Id": "681094c9229aecc8c39e0d7f",
+    "Id": "6810a432583a6c61de572ce8",
     "Name": "Bloodfur Legate",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-disciplined",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -423,11 +420,11 @@
           "Di": "8",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-disciplined",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Bloodfur Legate",
@@ -437,9 +434,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Bloodfur Legate",
@@ -450,9 +447,9 @@
           "AP": "1",
           "Ag": "6"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -468,7 +465,7 @@
     }
   },
   {
-    "Id": "3de638d2-0055-44a3-80ed-b6db45bf06bf",
+    "Id": "d17495aa-5821-482c-a28e-5489d5dcd2d3",
     "Name": "Praetorian Brute",
     "Attributes": {
       "type": "",
@@ -476,15 +473,15 @@
       "totalcost": "115"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-light_troops",
-      "rulebook-captain",
-      "rulebook-attached",
-      "vs-fetthis_fleshmaster",
-      "rulebook-hand_weapon",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "vs-fetthis_fleshmaster": "Fetthis Fleshmaster",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -496,13 +493,13 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-light_troops",
-          "rulebook-captain",
-          "rulebook-attached",
-          "vs-fetthis_fleshmaster"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "vs-fetthis_fleshmaster": "Fetthis Fleshmaster"
+        }
       },
       {
         "Name": "Praetorian Brute",
@@ -512,9 +509,9 @@
           "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Praetorian Brute",
@@ -525,9 +522,9 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -543,20 +540,20 @@
     }
   },
   {
-    "Id": "681094c9229aecc8c39e0e9f",
+    "Id": "6810a433583a6c61de572e08",
     "Name": "House Prefect",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-light_troops",
-      "rulebook-captain",
-      "rulebook-attached",
-      "vs-fetthis_fleshmaster",
-      "rulebook-hand_weapon",
-      "rulebook-pistol",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "vs-fetthis_fleshmaster": "Fetthis Fleshmaster",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-pistol": "Pistol (3+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -568,13 +565,13 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-light_troops",
-          "rulebook-captain",
-          "rulebook-attached",
-          "vs-fetthis_fleshmaster"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "vs-fetthis_fleshmaster": "Fetthis Fleshmaster"
+        }
       },
       {
         "Name": "House Prefect",
@@ -584,9 +581,9 @@
           "Re": "4",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "House Prefect",
@@ -597,10 +594,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-pistol"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-pistol": "Pistol (3+)"
+        }
       }
     ],
     "Amount": {
@@ -616,7 +613,7 @@
     }
   },
   {
-    "Id": "3c9ff30e-e93b-4f13-9e0d-2ea62d8c9d46",
+    "Id": "b1a4a001-2c27-4e59-81c7-fefa33565433",
     "Name": "Acolyte (8)",
     "Attributes": {
       "type": "",
@@ -624,22 +621,21 @@
       "totalcost": "440"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "vs-cutting_corners",
-      "rulebook-warplatform",
-      "rulebook-channel",
-      "rulebook-attached",
-      "rulebook-fearless",
-      "rulebook-terror",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon",
-      "rulebook-great_weapon",
-      "vs-whispering_bell",
-      "rulebook-hand_weapon",
-      "rulebook-aegis"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "vs-cutting_corners": "Cutting Corners",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-attached": "Attached",
+      "rulebook-fearless": "Fearless",
+      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-great_weapon": "Great Weapon",
+      "vs-whispering_bell": "Whispering Bell",
+      "rulebook-aegis": "Aegis (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -651,17 +647,17 @@
           "Di": "5",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "vs-callous",
-          "vs-cutting_corners",
-          "rulebook-warplatform",
-          "rulebook-channel",
-          "rulebook-attached",
-          "rulebook-fearless",
-          "rulebook-terror",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "vs-cutting_corners": "Cutting Corners",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-attached": "Attached",
+          "rulebook-fearless": "Fearless",
+          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Acolyte (8)",
@@ -671,9 +667,9 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-aegis"
-        ]
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
       },
       {
         "Name": "Acolyte (8)",
@@ -685,11 +681,11 @@
           "Ag": "4",
           "Agi": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-great_weapon",
-          "vs-whispering_bell"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-great_weapon": "Great Weapon",
+          "vs-whispering_bell": "Whispering Bell"
+        }
       },
       {
         "Name": "Chassis",
@@ -700,9 +696,9 @@
           "AP": "2",
           "Ag": "0"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -718,17 +714,17 @@
     }
   },
   {
-    "Id": "681094c9229aecc8c39e0f28",
+    "Id": "6810a433583a6c61de572e91",
     "Name": "Swarm Priest",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "vs-cutting_corners",
-      "rulebook-light_troops",
-      "rulebook-wizard_adept",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "vs-cutting_corners": "Cutting Corners",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -740,12 +736,12 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "vs-cutting_corners",
-          "rulebook-light_troops",
-          "rulebook-wizard_adept"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "vs-cutting_corners": "Cutting Corners",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
       },
       {
         "Name": "Swarm Priest",
@@ -755,7 +751,7 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Swarm Priest",
@@ -766,9 +762,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -784,23 +780,23 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e0fc6",
+    "Id": "6810a433583a6c61de572f2f",
     "Name": "Duskblade Assassin",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-attached",
-      "rulebook-hidden",
-      "rulebook-light_troops",
-      "rulebook-hand_weapon",
-      "rulebook-divine_attacks",
-      "rulebook-multiple_wounds",
-      "rulebook-hatred",
-      "rulebook-paired_weapons",
-      "rulebook-throwing_weapons",
-      "rulebook-distracting"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-attached": "Attached",
+      "rulebook-hidden": "Hidden",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-multiple_wounds": "Multiple Wounds (2 against Character)",
+      "rulebook-hatred": "Hatred ( against Character)",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-throwing_weapons": "Throwing Weapons (2+)",
+      "rulebook-distracting": "Distracting (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -812,12 +808,12 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-attached",
-          "rulebook-hidden",
-          "rulebook-light_troops"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-attached": "Attached",
+          "rulebook-hidden": "Hidden",
+          "rulebook-light_troops": "Light Troops"
+        }
       },
       {
         "Name": "Duskblade Assassin",
@@ -827,9 +823,9 @@
           "Re": "3",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-distracting"
-        ]
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
       },
       {
         "Name": "Duskblade Assassin",
@@ -840,14 +836,14 @@
           "AP": "3",
           "Ag": "8"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-divine_attacks",
-          "rulebook-multiple_wounds",
-          "rulebook-hatred",
-          "rulebook-paired_weapons",
-          "rulebook-throwing_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-multiple_wounds": "Multiple Wounds (2 against Character)",
+          "rulebook-hatred": "Hatred ( against Character)",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-throwing_weapons": "Throwing Weapons (2+)"
+        }
       }
     ],
     "Amount": {
@@ -863,20 +859,20 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e0fe4",
+    "Id": "6810a434583a6c61de572f4d",
     "Name": "Blackfur Veterans Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "vs-gladius",
-      "rulebook-halberd",
-      "rulebook-weapon_master",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "vs-gladius": "Gladius",
+      "rulebook-halberd": "Halberd",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -888,10 +884,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Blackfur Veterans Musician",
@@ -901,9 +897,9 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Blackfur Veteran",
@@ -914,13 +910,13 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "vs-gladius",
-          "rulebook-halberd",
-          "rulebook-weapon_master"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "vs-gladius": "Gladius",
+          "rulebook-halberd": "Halberd",
+          "rulebook-weapon_master": "Weapon Master"
+        }
       }
     ],
     "Amount": {
@@ -936,20 +932,20 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e0ff6",
+    "Id": "6810a434583a6c61de572f5f",
     "Name": "Blackfur Veterans Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "vs-gladius",
-      "rulebook-halberd",
-      "rulebook-weapon_master",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "vs-gladius": "Gladius",
+      "rulebook-halberd": "Halberd",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -961,10 +957,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Blackfur Veterans Standard Bearer",
@@ -974,9 +970,9 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Blackfur Veteran",
@@ -987,13 +983,13 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "vs-gladius",
-          "rulebook-halberd",
-          "rulebook-weapon_master"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "vs-gladius": "Gladius",
+          "rulebook-halberd": "Halberd",
+          "rulebook-weapon_master": "Weapon Master"
+        }
       }
     ],
     "Amount": {
@@ -1009,19 +1005,19 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e0fd1",
+    "Id": "6810a434583a6c61de572f3a",
     "Name": "Blackfur Veterans",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "vs-gladius",
-      "rulebook-halberd",
-      "rulebook-weapon_master",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "vs-gladius": "Gladius",
+      "rulebook-halberd": "Halberd",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1033,9 +1029,9 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Blackfur Veterans",
@@ -1045,9 +1041,9 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Blackfur Veteran",
@@ -1058,13 +1054,13 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "vs-gladius",
-          "rulebook-halberd",
-          "rulebook-weapon_master"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "vs-gladius": "Gladius",
+          "rulebook-halberd": "Halberd",
+          "rulebook-weapon_master": "Weapon Master"
+        }
       }
     ],
     "Amount": {
@@ -1080,21 +1076,21 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e1017",
+    "Id": "6810a434583a6c61de572f80",
     "Name": "Plague Cultists Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "vs-life_is_cheap",
-      "rulebook-zeal",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-diseased",
-      "vs-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-zeal": "Zeal",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-diseased": "Diseased",
+      "vs-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1106,14 +1102,14 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "vs-life_is_cheap",
-          "rulebook-zeal",
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-zeal": "Zeal",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Plague Cultists Musician",
@@ -1123,7 +1119,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Cultist",
@@ -1134,11 +1130,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-diseased",
-          "vs-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-diseased": "Diseased",
+          "vs-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -1154,21 +1150,21 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e1029",
+    "Id": "6810a434583a6c61de572f92",
     "Name": "Plague Cultists Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "vs-life_is_cheap",
-      "rulebook-zeal",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-diseased",
-      "vs-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-zeal": "Zeal",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-diseased": "Diseased",
+      "vs-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1180,14 +1176,14 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "vs-life_is_cheap",
-          "rulebook-zeal",
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-zeal": "Zeal",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Plague Cultists Standard Bearer",
@@ -1197,7 +1193,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Cultist",
@@ -1208,11 +1204,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-diseased",
-          "vs-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-diseased": "Diseased",
+          "vs-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -1228,20 +1224,20 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e1004",
+    "Id": "6810a434583a6c61de572f6d",
     "Name": "Plague Cultists",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "vs-life_is_cheap",
-      "rulebook-zeal",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "vs-diseased",
-      "vs-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-zeal": "Zeal",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-diseased": "Diseased",
+      "vs-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1253,13 +1249,13 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "vs-life_is_cheap",
-          "rulebook-zeal",
-          "rulebook-unruly",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-zeal": "Zeal",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Plague Cultists",
@@ -1269,7 +1265,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Cultist",
@@ -1280,11 +1276,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-diseased",
-          "vs-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-diseased": "Diseased",
+          "vs-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -1300,17 +1296,17 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e104e",
+    "Id": "6810a435583a6c61de572fb7",
     "Name": "Vermin Legionaries Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1322,10 +1318,10 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Vermin Legionaries Musician",
@@ -1335,9 +1331,9 @@
           "Re": "2",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Vermin Legionary",
@@ -1348,10 +1344,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination"
+        }
       }
     ],
     "Amount": {
@@ -1367,17 +1363,17 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e1062",
+    "Id": "6810a435583a6c61de572fcb",
     "Name": "Vermin Legionaries Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1389,10 +1385,10 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Vermin Legionaries Standard Bearer",
@@ -1402,9 +1398,9 @@
           "Re": "2",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Vermin Legionary",
@@ -1415,10 +1411,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination"
+        }
       }
     ],
     "Amount": {
@@ -1434,16 +1430,16 @@
     }
   },
   {
-    "Id": "681094ca229aecc8c39e1037",
+    "Id": "6810a435583a6c61de572fa0",
     "Name": "Vermin Legionaries",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1455,9 +1451,9 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Vermin Legionaries",
@@ -1467,9 +1463,9 @@
           "Re": "2",
           "Arm": "1"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Vermin Legionary",
@@ -1480,10 +1476,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination"
+        }
       }
     ],
     "Amount": {
@@ -1499,19 +1495,19 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e107d",
+    "Id": "6810a435583a6c61de572fe6",
     "Name": "Vermin Slaves Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "vs-life_is_cheap",
-      "vs-cannon_fodder",
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-musician",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "vs-life_is_cheap": "Life is Cheap",
+      "vs-cannon_fodder": "Cannon Fodder",
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Cult of Errahman)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1523,14 +1519,14 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "vs-life_is_cheap",
-          "vs-cannon_fodder",
-          "rulebook-unruly",
-          "rulebook-exclusive",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "vs-life_is_cheap": "Life is Cheap",
+          "vs-cannon_fodder": "Cannon Fodder",
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Cult of Errahman)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Vermin Slaves Musician",
@@ -1540,7 +1536,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Vermin Slave",
@@ -1551,9 +1547,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1569,18 +1565,18 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e1070",
+    "Id": "6810a435583a6c61de572fd9",
     "Name": "Vermin Slaves",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "vs-life_is_cheap",
-      "vs-cannon_fodder",
-      "rulebook-unruly",
-      "rulebook-exclusive",
-      "rulebook-hand_weapon"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "vs-life_is_cheap": "Life is Cheap",
+      "vs-cannon_fodder": "Cannon Fodder",
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Cult of Errahman)",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1592,13 +1588,13 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "vs-life_is_cheap",
-          "vs-cannon_fodder",
-          "rulebook-unruly",
-          "rulebook-exclusive"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "vs-life_is_cheap": "Life is Cheap",
+          "vs-cannon_fodder": "Cannon Fodder",
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Cult of Errahman)"
+        }
       },
       {
         "Name": "Vermin Slaves",
@@ -1608,7 +1604,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Vermin Slave",
@@ -1619,9 +1615,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1637,19 +1633,19 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e108c",
+    "Id": "6810a435583a6c61de572ff5",
     "Name": "Vermin Slingers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "vs-callous",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-paired_weapons",
-      "vs-sling"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "vs-callous": "Callous",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "vs-sling": "Sling (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1661,11 +1657,11 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "vs-callous",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "vs-callous": "Callous",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Vermin Slingers Musician",
@@ -1675,7 +1671,7 @@
           "Re": "2",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Vermin Slinger",
@@ -1686,12 +1682,12 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "rulebook-paired_weapons",
-          "vs-sling"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "vs-sling": "Sling (4+)"
+        }
       }
     ],
     "Amount": {
@@ -1707,19 +1703,19 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e1095",
+    "Id": "6810a436583a6c61de572ffe",
     "Name": "Vermin Slingers Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "vs-callous",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-paired_weapons",
-      "vs-sling"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "vs-callous": "Callous",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "vs-sling": "Sling (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1731,11 +1727,11 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "vs-callous",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "vs-callous": "Callous",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Vermin Slingers Standard Bearer",
@@ -1745,7 +1741,7 @@
           "Re": "2",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Vermin Slinger",
@@ -1756,12 +1752,12 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "rulebook-paired_weapons",
-          "vs-sling"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "vs-sling": "Sling (4+)"
+        }
       }
     ],
     "Amount": {
@@ -1777,18 +1773,18 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e1082",
+    "Id": "6810a435583a6c61de572feb",
     "Name": "Vermin Slingers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "vs-callous",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-paired_weapons",
-      "vs-sling"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "vs-callous": "Callous",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "vs-sling": "Sling (4+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1800,10 +1796,10 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "vs-callous"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "vs-callous": "Callous"
+        }
       },
       {
         "Name": "Vermin Slingers",
@@ -1813,7 +1809,7 @@
           "Re": "2",
           "Arm": "1"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Vermin Slinger",
@@ -1824,12 +1820,12 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "rulebook-paired_weapons",
-          "vs-sling"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "vs-sling": "Sling (4+)"
+        }
       }
     ],
     "Amount": {
@@ -1845,20 +1841,20 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e10ad",
+    "Id": "6810a436583a6c61de573016",
     "Name": "Blackfur Veterans Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "vs-gladius",
-      "rulebook-halberd",
-      "rulebook-weapon_master",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "vs-gladius": "Gladius",
+      "rulebook-halberd": "Halberd",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1870,10 +1866,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Blackfur Veterans Musician",
@@ -1883,9 +1879,9 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Blackfur Veteran",
@@ -1896,13 +1892,13 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "vs-gladius",
-          "rulebook-halberd",
-          "rulebook-weapon_master"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "vs-gladius": "Gladius",
+          "rulebook-halberd": "Halberd",
+          "rulebook-weapon_master": "Weapon Master"
+        }
       }
     ],
     "Amount": {
@@ -1918,20 +1914,20 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e10bf",
+    "Id": "6810a436583a6c61de573028",
     "Name": "Blackfur Veterans Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "vs-gladius",
-      "rulebook-halberd",
-      "rulebook-weapon_master",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "vs-gladius": "Gladius",
+      "rulebook-halberd": "Halberd",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1943,10 +1939,10 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Blackfur Veterans Standard Bearer",
@@ -1956,9 +1952,9 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Blackfur Veteran",
@@ -1969,13 +1965,13 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "vs-gladius",
-          "rulebook-halberd",
-          "rulebook-weapon_master"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "vs-gladius": "Gladius",
+          "rulebook-halberd": "Halberd",
+          "rulebook-weapon_master": "Weapon Master"
+        }
       }
     ],
     "Amount": {
@@ -1991,19 +1987,19 @@
     }
   },
   {
-    "Id": "681094cb229aecc8c39e109a",
+    "Id": "6810a436583a6c61de573003",
     "Name": "Blackfur Veterans",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "vs-gladius",
-      "rulebook-halberd",
-      "rulebook-weapon_master",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "vs-gladius": "Gladius",
+      "rulebook-halberd": "Halberd",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2015,9 +2011,9 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-life_is_cheap"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Blackfur Veterans",
@@ -2027,9 +2023,9 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Blackfur Veteran",
@@ -2040,13 +2036,13 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "vs-gladius",
-          "rulebook-halberd",
-          "rulebook-weapon_master"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "vs-gladius": "Gladius",
+          "rulebook-halberd": "Halberd",
+          "rulebook-weapon_master": "Weapon Master"
+        }
       }
     ],
     "Amount": {
@@ -2062,16 +2058,16 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e10cd",
+    "Id": "6810a436583a6c61de573036",
     "Name": "Vermin Brutes",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-unruly",
-      "rulebook-hand_weapon",
-      "rulebook-fight_in_extra_rank",
-      "rulebook-paired_weapons"
-    ],
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2083,9 +2079,9 @@
           "Di": "5",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-unruly"
-        ]
+        "RuleIds": {
+          "rulebook-unruly": "Unruly"
+        }
       },
       {
         "Name": "Vermin Brutes",
@@ -2095,7 +2091,7 @@
           "Re": "5",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Vermin Brute",
@@ -2106,11 +2102,11 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-fight_in_extra_rank",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -2126,19 +2122,19 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e10d2",
+    "Id": "6810a436583a6c61de57303b",
     "Name": "Giant Rats",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-unstable",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unstable": "Unstable",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2150,13 +2146,13 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-unstable",
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unstable": "Unstable",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Giant Rats",
@@ -2166,7 +2162,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Giant Rat",
@@ -2177,10 +2173,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+        }
       }
     ],
     "Amount": {
@@ -2196,19 +2192,19 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e10d7",
+    "Id": "6810a437583a6c61de573040",
     "Name": "Giant Rats",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-insignificant",
-      "rulebook-unstable",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unstable": "Unstable",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2220,13 +2216,13 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-insignificant",
-          "rulebook-unstable",
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unstable": "Unstable",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Giant Rats",
@@ -2236,7 +2232,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Giant Rat",
@@ -2247,10 +2243,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
+        }
       }
     ],
     "Amount": {
@@ -2266,24 +2262,24 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e10dc",
+    "Id": "6810a437583a6c61de573045",
     "Name": "Rat Swarm",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-fearless",
-      "rulebook-unstable",
-      "rulebook-insignificant",
-      "rulebook-light_troops",
-      "rulebook-skirmisher",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-afflict",
-      "rulebook-hand_weapon",
-      "rulebook-hard_target",
-      "rulebook-distracting"
-    ],
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-unstable": "Unstable",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-afflict": "Afflict (-1 Def, -1 Off)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-distracting": "Distracting (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2295,17 +2291,17 @@
           "Di": "4",
           "Hgt": "0"
         },
-        "RuleIds": [
-          "rulebook-fearless",
-          "rulebook-unstable",
-          "rulebook-insignificant",
-          "rulebook-light_troops",
-          "rulebook-skirmisher",
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-solitary",
-          "rulebook-afflict"
-        ]
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-unstable": "Unstable",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-afflict": "Afflict (-1 Def, -1 Off)"
+        }
       },
       {
         "Name": "Rat Swarm",
@@ -2315,10 +2311,10 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target",
-          "rulebook-distracting"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-distracting": "Distracting (1)"
+        }
       },
       {
         "Name": "Rat Swarm",
@@ -2329,9 +2325,9 @@
           "AP": "1",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2347,19 +2343,19 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e10df",
+    "Id": "6810a437583a6c61de573048",
     "Name": "Legionary Drill Team",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-life_is_cheap",
-      "rulebook-warplatform",
-      "rulebook-attached",
-      "vs-drill_down",
-      "rulebook-exclusive",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack"
-    ],
+    "RuleIds": {
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-attached": "Attached",
+      "vs-drill_down": "Drill Down!",
+      "rulebook-exclusive": "Exclusive (Legionary)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (3)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2371,13 +2367,13 @@
           "Di": "5",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "vs-life_is_cheap",
-          "rulebook-warplatform",
-          "rulebook-attached",
-          "vs-drill_down",
-          "rulebook-exclusive"
-        ]
+        "RuleIds": {
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-attached": "Attached",
+          "vs-drill_down": "Drill Down!",
+          "rulebook-exclusive": "Exclusive (Legionary)"
+        }
       },
       {
         "Name": "Legionary Drill Team",
@@ -2387,7 +2383,7 @@
           "Re": "3",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Legionary Drill Team",
@@ -2398,10 +2394,10 @@
           "AP": "3",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (3)"
+        }
       }
     ],
     "Amount": {
@@ -2417,19 +2413,19 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e10f5",
+    "Id": "6810a437583a6c61de57305e",
     "Name": "Gladiator Brutes Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-halberd",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-halberd": "Halberd",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2441,9 +2437,9 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Gladiator Brutes Musician",
@@ -2453,7 +2449,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gladiator Brute",
@@ -2464,14 +2460,14 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-halberd",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-halberd": "Halberd",
+          "rulebook-shield": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2487,19 +2483,19 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e1107",
+    "Id": "6810a437583a6c61de573070",
     "Name": "Gladiator Brutes Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-halberd",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-halberd": "Halberd",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2511,9 +2507,9 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Gladiator Brutes Standard Bearer",
@@ -2523,7 +2519,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gladiator Brute",
@@ -2534,14 +2530,14 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-halberd",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-halberd": "Halberd",
+          "rulebook-shield": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2557,18 +2553,18 @@
     }
   },
   {
-    "Id": "681094cc229aecc8c39e10e2",
+    "Id": "6810a437583a6c61de57304b",
     "Name": "Gladiator Brutes",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-weapon_master",
-      "rulebook-paired_weapons",
-      "rulebook-halberd",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-halberd": "Halberd",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2580,7 +2576,7 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gladiator Brutes",
@@ -2590,7 +2586,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Gladiator Brute",
@@ -2601,14 +2597,14 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination",
-          "rulebook-weapon_master",
-          "rulebook-paired_weapons",
-          "rulebook-halberd",
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-halberd": "Halberd",
+          "rulebook-shield": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2624,21 +2620,21 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e1128",
+    "Id": "6810a438583a6c61de573091",
     "Name": "Plague Cultists Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "vs-life_is_cheap",
-      "rulebook-zeal",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-diseased",
-      "vs-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-zeal": "Zeal",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-diseased": "Diseased",
+      "vs-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2650,14 +2646,14 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "vs-life_is_cheap",
-          "rulebook-zeal",
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-zeal": "Zeal",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Plague Cultists Musician",
@@ -2667,7 +2663,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Cultist",
@@ -2678,11 +2674,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-diseased",
-          "vs-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-diseased": "Diseased",
+          "vs-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -2698,21 +2694,21 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e113a",
+    "Id": "6810a438583a6c61de5730a3",
     "Name": "Plague Cultists Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "vs-life_is_cheap",
-      "rulebook-zeal",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-diseased",
-      "vs-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-zeal": "Zeal",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-diseased": "Diseased",
+      "vs-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2724,14 +2720,14 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "vs-life_is_cheap",
-          "rulebook-zeal",
-          "rulebook-unruly",
-          "rulebook-swiftstride",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-zeal": "Zeal",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Plague Cultists Standard Bearer",
@@ -2741,7 +2737,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Cultist",
@@ -2752,11 +2748,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-diseased",
-          "vs-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-diseased": "Diseased",
+          "vs-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -2772,20 +2768,20 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e1115",
+    "Id": "6810a438583a6c61de57307e",
     "Name": "Plague Cultists",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-dying_blow",
-      "vs-life_is_cheap",
-      "rulebook-zeal",
-      "rulebook-unruly",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "vs-diseased",
-      "vs-bloodpox_blades"
-    ],
+    "RuleIds": {
+      "rulebook-dying_blow": "Dying Blow",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-zeal": "Zeal",
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-diseased": "Diseased",
+      "vs-bloodpox_blades": "Bloodpox Blades"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2797,13 +2793,13 @@
           "Di": "4",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "rulebook-dying_blow",
-          "vs-life_is_cheap",
-          "rulebook-zeal",
-          "rulebook-unruly",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-zeal": "Zeal",
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Plague Cultists",
@@ -2813,7 +2809,7 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Plague Cultist",
@@ -2824,11 +2820,11 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-diseased",
-          "vs-bloodpox_blades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-diseased": "Diseased",
+          "vs-bloodpox_blades": "Bloodpox Blades"
+        }
       }
     ],
     "Amount": {
@@ -2844,19 +2840,18 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e1146",
+    "Id": "6810a438583a6c61de5730af",
     "Name": "Doomspark Device",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-light_troops",
-      "vs-callous",
-      "rulebook-swiftstride",
-      "rulebook-hand_weapon",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "vs-darkstone_generator"
-    ],
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "vs-callous": "Callous",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+1, Str D6+1, AP 3, Lightning Attacks, Unmodifiable)",
+      "vs-darkstone_generator": "Darkstone Generator"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2868,11 +2863,11 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-light_troops",
-          "vs-callous",
-          "rulebook-swiftstride"
-        ]
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "vs-callous": "Callous",
+          "rulebook-swiftstride": "Swiftstride"
+        }
       },
       {
         "Name": "Doomspark Device",
@@ -2882,7 +2877,7 @@
           "Re": "5",
           "Arm": "3"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Rakachit Engineer (3)",
@@ -2893,9 +2888,9 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
       },
       {
         "Name": "Chassis",
@@ -2906,11 +2901,11 @@
           "AP": "2",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack",
-          "vs-darkstone_generator"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+1, Str D6+1, AP 3, Lightning Attacks, Unmodifiable)",
+          "vs-darkstone_generator": "Darkstone Generator"
+        }
       }
     ],
     "Amount": {
@@ -2926,22 +2921,22 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e1158",
+    "Id": "6810a438583a6c61de5730c1",
     "Name": "Shadowfur Stalkers Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-light_troops",
-      "vs-life_is_cheap",
-      "rulebook-skirmisher",
-      "rulebook-scout",
-      "rulebook-ambush",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-light_troops": "Light Troops",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-scout": "Scout",
+      "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2953,15 +2948,15 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-light_troops",
-          "vs-life_is_cheap",
-          "rulebook-skirmisher",
-          "rulebook-scout",
-          "rulebook-ambush",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-light_troops": "Light Troops",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-scout": "Scout",
+          "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Shadowfur Stalkers Musician",
@@ -2971,9 +2966,9 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Shadowfur Stalker",
@@ -2984,10 +2979,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
       }
     ],
     "Amount": {
@@ -3003,22 +2998,22 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e1149",
+    "Id": "6810a438583a6c61de5730b2",
     "Name": "Shadowfur Stalkers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-light_troops",
-      "vs-life_is_cheap",
-      "rulebook-skirmisher",
-      "rulebook-scout",
-      "rulebook-ambush",
-      "rulebook-hand_weapon",
-      "rulebook-paired_weapons",
-      "rulebook-throwing_weapons",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-light_troops": "Light Troops",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-scout": "Scout",
+      "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-throwing_weapons": "Throwing Weapons (4+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3030,14 +3025,14 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-light_troops",
-          "vs-life_is_cheap",
-          "rulebook-skirmisher",
-          "rulebook-scout",
-          "rulebook-ambush"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-light_troops": "Light Troops",
+          "vs-life_is_cheap": "Life is Cheap",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-scout": "Scout",
+          "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)"
+        }
       },
       {
         "Name": "Shadowfur Stalkers",
@@ -3047,9 +3042,9 @@
           "Re": "2",
           "Arm": "0"
         },
-        "RuleIds": [
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Shadowfur Stalker",
@@ -3060,11 +3055,11 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-paired_weapons",
-          "rulebook-throwing_weapons"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-throwing_weapons": "Throwing Weapons (4+)"
+        }
       }
     ],
     "Amount": {
@@ -3080,16 +3075,16 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e117a",
+    "Id": "6810a439583a6c61de5730e3",
     "Name": "Thunder Brutes Musician",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-musician",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3101,10 +3096,10 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-musician"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-musician": "Musician"
+        }
       },
       {
         "Name": "Thunder Brutes Musician",
@@ -3114,7 +3109,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Thunder Brute",
@@ -3125,10 +3120,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination"
+        }
       }
     ],
     "Amount": {
@@ -3144,16 +3139,16 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e1191",
+    "Id": "6810a439583a6c61de5730fa",
     "Name": "Thunder Brutes Standard Bearer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-standard_bearer",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3165,10 +3160,10 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-standard_bearer"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
       },
       {
         "Name": "Thunder Brutes Standard Bearer",
@@ -3178,7 +3173,7 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Thunder Brute",
@@ -3189,10 +3184,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination"
+        }
       }
     ],
     "Amount": {
@@ -3208,17 +3203,17 @@
     }
   },
   {
-    "Id": "681094cd229aecc8c39e115d",
+    "Id": "6810a439583a6c61de5730c6",
     "Name": "Thunder Brutes",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "vs-jezail",
-      "rulebook-hand_weapon",
-      "vs-cohort_coordination",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "vs-jezail": "Jezail (4+)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-cohort_coordination": "Cohort Coordination",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3230,10 +3225,10 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "vs-callous",
-          "vs-jezail"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "vs-jezail": "Jezail (4+)"
+        }
       },
       {
         "Name": "Thunder Brutes",
@@ -3243,9 +3238,9 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Thunder Brute",
@@ -3256,10 +3251,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-cohort_coordination"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-cohort_coordination": "Cohort Coordination"
+        }
       }
     ],
     "Amount": {
@@ -3275,18 +3270,18 @@
     }
   },
   {
-    "Id": "681094ce229aecc8c39e119f",
+    "Id": "6810a439583a6c61de573108",
     "Name": "Experimental Weapon Teams",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-light_troops",
-      "vs-unit_of_artillery",
-      "rulebook-hand_weapon",
-      "vs-jezail",
-      "rulebook-shield"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-light_troops": "Light Troops",
+      "vs-unit_of_artillery": "Unit of Artillery",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-jezail": "Jezail (4+)",
+      "rulebook-shield": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3298,11 +3293,11 @@
           "Di": "5",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-light_troops",
-          "vs-unit_of_artillery"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-light_troops": "Light Troops",
+          "vs-unit_of_artillery": "Unit of Artillery"
+        }
       },
       {
         "Name": "Experimental Weapon Teams",
@@ -3312,9 +3307,9 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-shield"
-        ]
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
       },
       {
         "Name": "Exp. Weapon Team",
@@ -3325,10 +3320,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-jezail"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-jezail": "Jezail (4+)"
+        }
       }
     ],
     "Amount": {
@@ -3344,20 +3339,20 @@
     }
   },
   {
-    "Id": "681094ce229aecc8c39e11a9",
+    "Id": "6810a439583a6c61de573112",
     "Name": "Ignifier Grenadiers",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-skirmisher",
-      "rulebook-light_troops",
-      "vs-life_is_cheap",
-      "rulebook-hand_weapon",
-      "vs-deepfire_grenades",
-      "rulebook-weakness",
-      "rulebook-hard_target"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-light_troops": "Light Troops",
+      "vs-life_is_cheap": "Life is Cheap",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-deepfire_grenades": "Deepfire Grenades (5+)",
+      "rulebook-weakness": "Weakness (Flaming Attacks)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3369,12 +3364,12 @@
           "Di": "6",
           "Hgt": "1"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-skirmisher",
-          "rulebook-light_troops",
-          "vs-life_is_cheap"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-light_troops": "Light Troops",
+          "vs-life_is_cheap": "Life is Cheap"
+        }
       },
       {
         "Name": "Ignifier Grenadiers",
@@ -3384,10 +3379,10 @@
           "Re": "2",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-weakness",
-          "rulebook-hard_target"
-        ]
+        "RuleIds": {
+          "rulebook-weakness": "Weakness (Flaming Attacks)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
       },
       {
         "Name": "Ignifier Grenadier",
@@ -3398,10 +3393,10 @@
           "AP": "0",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-deepfire_grenades"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-deepfire_grenades": "Deepfire Grenades (5+)"
+        }
       }
     ],
     "Amount": {
@@ -3417,19 +3412,19 @@
     }
   },
   {
-    "Id": "681094ce229aecc8c39e11ac",
+    "Id": "6810a439583a6c61de573115",
     "Name": "Vermin Artillery",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-emplacement",
-      "rulebook-solitary",
-      "vs-tracking_telescope",
-      "vs-skorchit_ordnance",
-      "rulebook-hand_weapon",
-      "vs-maniacal_enthusiasm"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "vs-tracking_telescope": "Tracking Telescope",
+      "vs-skorchit_ordnance": "\n\t\tSkorchit Ordnance (4+)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-hit roll)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3441,13 +3436,13 @@
           "Di": "6",
           "Hgt": "3"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-emplacement",
-          "rulebook-solitary",
-          "vs-tracking_telescope",
-          "vs-skorchit_ordnance"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary",
+          "vs-tracking_telescope": "Tracking Telescope",
+          "vs-skorchit_ordnance": "\n\t\tSkorchit Ordnance (4+)"
+        }
       },
       {
         "Name": "Vermin Artillery",
@@ -3457,7 +3452,7 @@
           "Re": "4",
           "Arm": "0"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Crew",
@@ -3468,10 +3463,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "vs-maniacal_enthusiasm"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-hit roll)"
+        }
       }
     ],
     "Amount": {
@@ -3487,22 +3482,21 @@
     }
   },
   {
-    "Id": "681094ce229aecc8c39e11b0",
+    "Id": "6810a43a583a6c61de573119",
     "Name": "Arena Beast",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-fearless",
-      "rulebook-terror",
-      "rulebook-swiftstride",
-      "rulebook-solitary",
-      "rulebook-hand_weapon",
-      "rulebook-stomp_attack",
-      "rulebook-hand_weapon",
-      "rulebook-halberd",
-      "rulebook-regeneration"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-fearless": "Fearless",
+      "rulebook-terror": "Terror",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-halberd": "Halberd",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3514,13 +3508,13 @@
           "Di": "6",
           "Hgt": "5"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-fearless",
-          "rulebook-terror",
-          "rulebook-swiftstride",
-          "rulebook-solitary"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-fearless": "Fearless",
+          "rulebook-terror": "Terror",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary"
+        }
       },
       {
         "Name": "Arena Beast",
@@ -3530,9 +3524,9 @@
           "Re": "5",
           "Arm": "2"
         },
-        "RuleIds": [
-          "rulebook-regeneration"
-        ]
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
       },
       {
         "Name": "Arena Beast",
@@ -3543,10 +3537,10 @@
           "AP": "3",
           "Ag": "3"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-stomp_attack"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
       },
       {
         "Name": "Pitmaster",
@@ -3557,10 +3551,10 @@
           "AP": "1",
           "Ag": "5"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-halberd"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
       }
     ],
     "Amount": {
@@ -3576,23 +3570,22 @@
     }
   },
   {
-    "Id": "681094ce229aecc8c39e11b5",
+    "Id": "6810a43a583a6c61de57311e",
     "Name": "Dreadmill Chariots",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "vs-callous",
-      "rulebook-swiftstride",
-      "rulebook-light_troops",
-      "vs-unstable_engines",
-      "rulebook-fearless",
-      "rulebook-insignificant",
-      "rulebook-hand_weapon",
-      "rulebook-pistol",
-      "rulebook-hand_weapon",
-      "rulebook-impact_hits",
-      "rulebook-weakness"
-    ],
+    "RuleIds": {
+      "vs-callous": "Callous",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "vs-unstable_engines": "Unstable Engines",
+      "rulebook-fearless": "Fearless",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-pistol": "Pistol (4+)",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-weakness": "Weakness (Flaming Attacks)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3604,14 +3597,14 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "vs-callous",
-          "rulebook-swiftstride",
-          "rulebook-light_troops",
-          "vs-unstable_engines",
-          "rulebook-fearless",
-          "rulebook-insignificant"
-        ]
+        "RuleIds": {
+          "vs-callous": "Callous",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "vs-unstable_engines": "Unstable Engines",
+          "rulebook-fearless": "Fearless",
+          "rulebook-insignificant": "Insignificant"
+        }
       },
       {
         "Name": "Dreadmill Chariots",
@@ -3621,9 +3614,9 @@
           "Re": "4",
           "Arm": "3"
         },
-        "RuleIds": [
-          "rulebook-weakness"
-        ]
+        "RuleIds": {
+          "rulebook-weakness": "Weakness (Flaming Attacks)"
+        }
       },
       {
         "Name": "Dreadmill Driver",
@@ -3634,10 +3627,10 @@
           "AP": "0",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-pistol"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-pistol": "Pistol (4+)"
+        }
       },
       {
         "Name": "Chassis",
@@ -3648,10 +3641,10 @@
           "AP": "2",
           "Ag": "4"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-impact_hits"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
       }
     ],
     "Amount": {
@@ -3667,20 +3660,20 @@
     }
   },
   {
-    "Id": "681094ce229aecc8c39e11b8",
+    "Id": "6810a43a583a6c61de573121",
     "Name": "Stygian Earthbreaker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "rulebook-strider",
-      "rulebook-stubborn",
-      "vs-drill_down",
-      "rulebook-terror",
-      "rulebook-ambush",
-      "rulebook-hand_weapon",
-      "rulebook-grind_attack",
-      "rulebook-devastating_charge"
-    ],
+    "RuleIds": {
+      "rulebook-strider": "Strider",
+      "rulebook-stubborn": "Stubborn",
+      "vs-drill_down": "Drill Down!",
+      "rulebook-terror": "Terror",
+      "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (3D3)",
+      "rulebook-devastating_charge": "Devastating Charge (+10 Agi)"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3692,13 +3685,13 @@
           "Di": "6",
           "Hgt": "4"
         },
-        "RuleIds": [
-          "rulebook-strider",
-          "rulebook-stubborn",
-          "vs-drill_down",
-          "rulebook-terror",
-          "rulebook-ambush"
-        ]
+        "RuleIds": {
+          "rulebook-strider": "Strider",
+          "rulebook-stubborn": "Stubborn",
+          "vs-drill_down": "Drill Down!",
+          "rulebook-terror": "Terror",
+          "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)"
+        }
       },
       {
         "Name": "Stygian Earthbreaker",
@@ -3708,7 +3701,7 @@
           "Re": "5",
           "Arm": "5"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Stygian Earthbreaker",
@@ -3719,11 +3712,11 @@
           "AP": "4",
           "Ag": "2"
         },
-        "RuleIds": [
-          "rulebook-hand_weapon",
-          "rulebook-grind_attack",
-          "rulebook-devastating_charge"
-        ]
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (3D3)",
+          "rulebook-devastating_charge": "Devastating Charge (+10 Agi)"
+        }
       }
     ],
     "Amount": {
