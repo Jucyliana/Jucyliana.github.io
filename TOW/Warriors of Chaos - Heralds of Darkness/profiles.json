@@ -1,28 +1,28 @@
 [
   {
-    "Id": "681090cc229aecc8c3969686",
+    "Id": "6810a1926a222a2f464162c8",
     "Name": "Galrauch, the Great Drake",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "66f1-d8b4-c779-4682",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "16f2-5d1d-4ae7-c289",
-      "2eb0-1ec8-8e04-72d4",
-      "735c-def7-9ac4-0fa2",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c566-ac23-2081-b57f",
-      "bd92-12b9-5474-74a2",
-      "f21c-26a3-f179-be43",
-      "9a1d-38b0-7d7-7552",
-      "10f7-4d28-2bb3-c13b",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "66f1-d8b4-c779-4682": "Breath of Change",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "16f2-5d1d-4ae7-c289": "Mark of Tzeentch",
+      "2eb0-1ec8-8e04-72d4": "Regeneration (5+)",
+      "735c-def7-9ac4-0fa2": "Spirit of Galrauch",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c566-ac23-2081-b57f": "Two-headed Dragon",
+      "bd92-12b9-5474-74a2": "Dark Fire of Chaos",
+      "f21c-26a3-f179-be43": "Dark Magic",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "10f7-4d28-2bb3-c13b": "Fumes of Contagion",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -39,13 +39,13 @@
           "A": "6",
           "Ld": "9"
         },
-        "RuleIds": [
-          "bd92-12b9-5474-74a2",
-          "f21c-26a3-f179-be43",
-          "9a1d-38b0-7d7-7552",
-          "10f7-4d28-2bb3-c13b",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "bd92-12b9-5474-74a2": "Dark Fire of Chaos",
+          "f21c-26a3-f179-be43": "Dark Magic",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "10f7-4d28-2bb3-c13b": "Fumes of Contagion",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -61,7 +61,7 @@
     }
   },
   {
-    "Id": "4701a6f8-c872-4de0-b54d-010a6c5fbceb",
+    "Id": "72c21c63-f042-4161-a03c-7ef3adc60db0",
     "Name": "Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -69,19 +69,18 @@
       "totalcost": "180"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -98,9 +97,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -115,9 +114,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -132,10 +131,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -151,7 +150,7 @@
     }
   },
   {
-    "Id": "56b83eb2-405a-4b44-9078-edc20309e681",
+    "Id": "ac20ae7a-03c5-4a56-b5f0-992e14beb13a",
     "Name": "Chaos Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -159,17 +158,17 @@
       "totalcost": "86"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -186,10 +185,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -205,7 +204,7 @@
     }
   },
   {
-    "Id": "ceb78dd0-5c92-49a5-ab5c-d7e4ceb66a33",
+    "Id": "b6863694-c4de-458c-86f9-457f55647f90",
     "Name": "Gorebeast Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -213,23 +212,20 @@
       "totalcost": "205"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "860b-e13a-4710-9bf0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Gorebeast only)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+2)",
+      "860b-e13a-4710-9bf0": "Killing Blow (Gorebeast only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -246,10 +242,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Gorebeast",
@@ -264,10 +260,10 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -282,10 +278,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -301,7 +297,7 @@
     }
   },
   {
-    "Id": "c8b3ea61-cdc0-4c4c-83f9-bb6232b524b1",
+    "Id": "37614a7f-77ef-4318-b1f2-9f9c93c5e505",
     "Name": "Chosen Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -309,20 +305,19 @@
       "totalcost": "210"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1, Chariot only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -339,9 +334,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -356,9 +351,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chosen Charioteer",
@@ -373,10 +368,10 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -392,25 +387,23 @@
     }
   },
   {
-    "Id": "681090cd229aecc8c3969987",
+    "Id": "6810a1926a222a2f464165c9",
     "Name": "Aspiring Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -427,10 +420,10 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Chaos Chariot",
@@ -445,9 +438,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -462,9 +455,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -479,10 +472,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -498,7 +491,7 @@
     }
   },
   {
-    "Id": "d3ff0b77-aa3c-4597-a35a-c7247b62d0f2",
+    "Id": "f3468e2a-846e-4372-9127-d2a91836dc3c",
     "Name": "Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -506,19 +499,18 @@
       "totalcost": "305"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -535,9 +527,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -552,9 +544,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -569,10 +561,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -588,7 +580,7 @@
     }
   },
   {
-    "Id": "3e208d96-33bf-4cb8-839e-dc311c987533",
+    "Id": "bb8230ac-9d56-49ed-9989-c7baca14dfc9",
     "Name": "Chaos Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -596,17 +588,17 @@
       "totalcost": "211"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -623,10 +615,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -642,7 +634,7 @@
     }
   },
   {
-    "Id": "53fc4475-0022-4fbf-837b-66521e57909e",
+    "Id": "392e951d-b92a-4631-a287-c47d522fbe7d",
     "Name": "Manticore",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -650,21 +642,21 @@
       "totalcost": "315"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "c557-6102-9a35-bbcd",
-      "1650-86f-8212-566d",
-      "c822-7ad0-f24a-e4af",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "1c17-a2e1-fd0a-3714",
-      "c56e-8d1b-bb4-de99",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "1c17-a2e1-fd0a-3714": "Wilful Beast",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -681,10 +673,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -700,7 +692,7 @@
     }
   },
   {
-    "Id": "c702ea0c-5b6d-43dc-8791-d67747e21b76",
+    "Id": "82e3e742-7547-47b5-9c53-ff2cde79e6e6",
     "Name": "Daemonic Mount",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -708,18 +700,18 @@
       "totalcost": "230"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "68ed-9275-f95a-a3f5",
-      "5ec9-a98-d8c5-e18b",
-      "1650-86f-8212-566d",
-      "2125-6aa2-f782-42bf",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Daemonic Mount Only)",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -736,9 +728,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -754,7 +746,7 @@
     }
   },
   {
-    "Id": "d10a6e8f-5d59-444c-8bc5-98630d481b4d",
+    "Id": "4a836250-772e-4252-8ec7-188fbafba081",
     "Name": "Gorebeast Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -762,23 +754,20 @@
       "totalcost": "330"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "860b-e13a-4710-9bf0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Gorebeast only)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+2)",
+      "860b-e13a-4710-9bf0": "Killing Blow (Gorebeast only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -795,10 +784,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Gorebeast",
@@ -813,10 +802,10 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -831,10 +820,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -850,7 +839,7 @@
     }
   },
   {
-    "Id": "174ae455-ecce-4aaa-b7e0-fa56fe80d91d",
+    "Id": "edeed20a-1826-4b77-ae4a-04fe6a680025",
     "Name": "Chaos Dragon",
     "Attributes": {
       "type": "",
@@ -858,23 +847,23 @@
       "totalcost": "480"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "c557-6102-9a35-bbcd",
-      "1650-86f-8212-566d",
-      "c822-7ad0-f24a-e4af",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "8105-d278-5b89-396e",
-      "bd92-12b9-5474-74a2",
-      "9a1d-38b0-7d7-7552",
-      "10f7-4d28-2bb3-c13b",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "8105-d278-5b89-396e": "Two-Headed Dragon",
+      "bd92-12b9-5474-74a2": "Dark Fire of Chaos",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "10f7-4d28-2bb3-c13b": "Fumes of Contagion",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -891,12 +880,12 @@
           "A": "6",
           "Ld": "-"
         },
-        "RuleIds": [
-          "bd92-12b9-5474-74a2",
-          "9a1d-38b0-7d7-7552",
-          "10f7-4d28-2bb3-c13b",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "bd92-12b9-5474-74a2": "Dark Fire of Chaos",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "10f7-4d28-2bb3-c13b": "Fumes of Contagion",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -912,7 +901,7 @@
     }
   },
   {
-    "Id": "1bd6bf8a-1fb5-4f4a-8f2a-b0b0553ad565",
+    "Id": "4b967807-676c-4a11-9833-4f7e1c048ffd",
     "Name": "Chosen Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -920,20 +909,19 @@
       "totalcost": "335"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1, Chariot only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -950,9 +938,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -967,9 +955,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chosen Charioteer",
@@ -984,10 +972,10 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1003,25 +991,23 @@
     }
   },
   {
-    "Id": "681090ce229aecc8c396d2fb",
+    "Id": "6810a1946a222a2f46419f3d",
     "Name": "Chaos Lord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1038,10 +1024,10 @@
           "A": "5",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chaos Chariot",
@@ -1056,9 +1042,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -1073,9 +1059,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -1090,10 +1076,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1109,25 +1095,25 @@
     }
   },
   {
-    "Id": "681090d0229aecc8c3972352",
+    "Id": "6810a1976a222a2f4641ef94",
     "Name": "Daemon Prince",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "68ed-9275-f95a-a3f5",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "1650-86f-8212-566d",
-      "93d9-c75b-f655-30ac",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "2eb0-1ec8-8e04-72d4",
-      "d3eb-1fa0-bb19-f390",
-      "a10e-13b7-e959-ab5",
-      "c24d-4386-c1ef-f195",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "2eb0-1ec8-8e04-72d4": "Regeneration (5+)",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "a10e-13b7-e959-ab5": "Unstable",
+      "c24d-4386-c1ef-f195": "Warp-Spawned",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1144,10 +1130,10 @@
           "A": "5",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -1163,7 +1149,7 @@
     }
   },
   {
-    "Id": "e15dcd1d-8813-4fc1-900c-2119ab609114",
+    "Id": "5e976e08-705d-4d91-90b9-fd114782cbac",
     "Name": "Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1171,19 +1157,18 @@
       "totalcost": "235"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1200,9 +1185,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -1217,9 +1202,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -1234,10 +1219,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1253,7 +1238,7 @@
     }
   },
   {
-    "Id": "73482781-ce2b-4d74-8fc8-3a86044df49a",
+    "Id": "ebbaf5d3-ddc9-485b-b774-6d14eebbdfcf",
     "Name": "Chaos Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -1261,17 +1246,17 @@
       "totalcost": "141"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1288,10 +1273,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1307,7 +1292,7 @@
     }
   },
   {
-    "Id": "21246a47-d821-440f-a8d4-28ec8318dbc6",
+    "Id": "942ba801-735d-440b-b385-03e24b657f94",
     "Name": "Daemonic Mount",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1315,18 +1300,18 @@
       "totalcost": "160"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "68ed-9275-f95a-a3f5",
-      "5ec9-a98-d8c5-e18b",
-      "1650-86f-8212-566d",
-      "2125-6aa2-f782-42bf",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Daemonic Mount Only)",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1343,9 +1328,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1361,7 +1346,7 @@
     }
   },
   {
-    "Id": "b84247d3-e4e1-4bb9-929f-cda24c90a1d5",
+    "Id": "fff503a5-cb5d-43db-87dd-9d3b96f39597",
     "Name": "Gorebeast Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1369,23 +1354,20 @@
       "totalcost": "260"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "860b-e13a-4710-9bf0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Gorebeast only)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+2)",
+      "860b-e13a-4710-9bf0": "Killing Blow (Gorebeast only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1402,10 +1384,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Gorebeast",
@@ -1420,10 +1402,10 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -1438,10 +1420,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1457,7 +1439,7 @@
     }
   },
   {
-    "Id": "18deca5f-2bdc-4a4e-8b5c-33ac5ea7fcb9",
+    "Id": "c6935379-8584-48cc-bb19-9e6ce0ad13de",
     "Name": "Chosen Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1465,20 +1447,19 @@
       "totalcost": "265"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1, Chariot only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1495,9 +1476,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -1512,9 +1493,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chosen Charioteer",
@@ -1529,10 +1510,10 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1548,25 +1529,23 @@
     }
   },
   {
-    "Id": "681090d0229aecc8c3972c97",
+    "Id": "6810a1986a222a2f4641f8d9",
     "Name": "Exalted Champion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "23c4-bd19-2422-ad08",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1583,10 +1562,10 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Chaos Chariot",
@@ -1601,9 +1580,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -1618,9 +1597,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -1635,10 +1614,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1654,7 +1633,7 @@
     }
   },
   {
-    "Id": "e898b4b9-b6ab-4afa-a0d9-3f3edd67175f",
+    "Id": "154c30d4-59f6-411d-81ba-9ca29649cb22",
     "Name": "Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1662,19 +1641,18 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1691,9 +1669,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -1708,9 +1686,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -1725,10 +1703,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1744,7 +1722,7 @@
     }
   },
   {
-    "Id": "d575e8cc-b055-41a9-8b2e-2e7ba4c17c0e",
+    "Id": "67209b27-4172-44cc-a524-2f9e36c67d51",
     "Name": "Chaos Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -1752,17 +1730,17 @@
       "totalcost": "106"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1779,10 +1757,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1798,7 +1776,7 @@
     }
   },
   {
-    "Id": "644ce126-a958-472e-985c-e35320e2bb0f",
+    "Id": "ac1038fd-dc11-4013-8dd6-151f75f92a4c",
     "Name": "Daemonic Mount",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1806,18 +1784,18 @@
       "totalcost": "125"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "68ed-9275-f95a-a3f5",
-      "5ec9-a98-d8c5-e18b",
-      "1650-86f-8212-566d",
-      "97b3-1cdd-d81b-331a",
-      "2125-6aa2-f782-42bf",
-      "fcf3-41f3-60c8-7deb",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Daemonic Mount Only)",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1834,9 +1812,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1852,26 +1830,24 @@
     }
   },
   {
-    "Id": "681090d2229aecc8c3977174",
+    "Id": "6810a19a6a222a2f46423db6",
     "Name": "Exalted Sorcerer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "256b-6a1-239c-178e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "256b-6a1-239c-178e": "Daemonology",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1888,11 +1864,11 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "256b-6a1-239c-178e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "256b-6a1-239c-178e": "Daemonology",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "Chaos Chariot",
@@ -1907,9 +1883,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -1924,9 +1900,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -1941,10 +1917,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1960,7 +1936,7 @@
     }
   },
   {
-    "Id": "9309450e-87dd-431c-8692-1a1d5003e054",
+    "Id": "73d2214e-f405-47e7-af5d-5585ecf04d72",
     "Name": "Chaos Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1968,19 +1944,18 @@
       "totalcost": "305"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1997,9 +1972,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -2014,9 +1989,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -2031,10 +2006,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2050,7 +2025,7 @@
     }
   },
   {
-    "Id": "42893a87-1612-44ab-872a-4f050671f33e",
+    "Id": "33bce9c7-5999-45db-97d0-0868c8389d9f",
     "Name": "Chaos Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2058,17 +2033,17 @@
       "totalcost": "211"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2085,10 +2060,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2104,7 +2079,7 @@
     }
   },
   {
-    "Id": "73781492-de2b-4e9a-8e76-ca82cfb8f129",
+    "Id": "075f8d11-51ed-4b32-a103-96152fa3244a",
     "Name": "Manticore",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -2112,21 +2087,21 @@
       "totalcost": "315"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "c557-6102-9a35-bbcd",
-      "1650-86f-8212-566d",
-      "c822-7ad0-f24a-e4af",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "1c17-a2e1-fd0a-3714",
-      "c56e-8d1b-bb4-de99",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "1c17-a2e1-fd0a-3714": "Wilful Beast",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2143,10 +2118,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2162,7 +2137,7 @@
     }
   },
   {
-    "Id": "5d364f8a-aba3-41b2-8a90-75b7fa84f2f1",
+    "Id": "1ec5a068-bdd6-4c18-a4f3-f3a428128e70",
     "Name": "Daemonic Mount",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -2170,18 +2145,18 @@
       "totalcost": "230"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "68ed-9275-f95a-a3f5",
-      "5ec9-a98-d8c5-e18b",
-      "1650-86f-8212-566d",
-      "97b3-1cdd-d81b-331a",
-      "2125-6aa2-f782-42bf",
-      "fcf3-41f3-60c8-7deb",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Daemonic Mount Only)",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2198,9 +2173,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2216,7 +2191,7 @@
     }
   },
   {
-    "Id": "ceedc806-e018-49b4-aac2-cc32c8e8b57b",
+    "Id": "aff62911-1359-4add-a490-a68a9a00eb53",
     "Name": "Chaos Dragon",
     "Attributes": {
       "type": "",
@@ -2224,23 +2199,23 @@
       "totalcost": "480"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "c557-6102-9a35-bbcd",
-      "1650-86f-8212-566d",
-      "c822-7ad0-f24a-e4af",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "8105-d278-5b89-396e",
-      "bd92-12b9-5474-74a2",
-      "9a1d-38b0-7d7-7552",
-      "10f7-4d28-2bb3-c13b",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "8105-d278-5b89-396e": "Two-Headed Dragon",
+      "bd92-12b9-5474-74a2": "Dark Fire of Chaos",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "10f7-4d28-2bb3-c13b": "Fumes of Contagion",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2257,12 +2232,12 @@
           "A": "6",
           "Ld": "-"
         },
-        "RuleIds": [
-          "bd92-12b9-5474-74a2",
-          "9a1d-38b0-7d7-7552",
-          "10f7-4d28-2bb3-c13b",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "bd92-12b9-5474-74a2": "Dark Fire of Chaos",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "10f7-4d28-2bb3-c13b": "Fumes of Contagion",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2278,26 +2253,24 @@
     }
   },
   {
-    "Id": "681090d3229aecc8c3979c12",
+    "Id": "6810a19c6a222a2f46426854",
     "Name": "Sorcerer Lord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "1650-86f-8212-566d",
-      "5c2-e9dd-2715-a0c0",
-      "97b3-1cdd-d81b-331a",
-      "fcf3-41f3-60c8-7deb",
-      "256b-6a1-239c-178e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "1650-86f-8212-566d": "Gaze of the Gods",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "256b-6a1-239c-178e": "Daemonology",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2314,11 +2287,11 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "256b-6a1-239c-178e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "256b-6a1-239c-178e": "Daemonology",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Chaos Chariot",
@@ -2333,9 +2306,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -2350,9 +2323,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -2367,10 +2340,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2386,21 +2359,20 @@
     }
   },
   {
-    "Id": "681090d5229aecc8c397dcd6",
+    "Id": "6810a19e6a222a2f4642a918",
     "Name": "Chaos Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2417,9 +2389,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -2434,9 +2406,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -2451,10 +2423,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2470,23 +2442,22 @@
     }
   },
   {
-    "Id": "681090d5229aecc8c397ea95",
+    "Id": "6810a19e6a222a2f4642b6d7",
     "Name": "Champion (Chaos Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "dc91-48b3-3696-217",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2503,12 +2474,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -2523,10 +2494,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2542,23 +2513,22 @@
     }
   },
   {
-    "Id": "681090d5229aecc8c397f535",
+    "Id": "6810a19f6a222a2f4642c177",
     "Name": "Musician (Chaos Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2575,12 +2545,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -2595,10 +2565,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2614,23 +2584,22 @@
     }
   },
   {
-    "Id": "681090d6229aecc8c397ffde",
+    "Id": "6810a19f6a222a2f4642cc20",
     "Name": "Standard Bearer (Chaos Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2647,12 +2616,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -2667,10 +2636,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2686,22 +2655,21 @@
     }
   },
   {
-    "Id": "681090d5229aecc8c397dfde",
+    "Id": "6810a19e6a222a2f4642ac20",
     "Name": "Chaos Knight",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2718,11 +2686,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -2737,10 +2705,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2756,17 +2724,17 @@
     }
   },
   {
-    "Id": "681090d6229aecc8c3980a71",
+    "Id": "6810a19f6a222a2f4642d6b3",
     "Name": "Chaos Warhound",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2ecd-c6b3-bd8b-864b",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2783,9 +2751,9 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2801,23 +2769,22 @@
     }
   },
   {
-    "Id": "681090d6229aecc8c39810b1",
+    "Id": "6810a1a06a222a2f4642dcf3",
     "Name": "Marauder Horsemaster (Marauder Horsemen)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "fcf3-41f3-60c8-7deb",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2834,11 +2801,11 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "Warhorse",
@@ -2853,9 +2820,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2871,23 +2838,22 @@
     }
   },
   {
-    "Id": "681090d6229aecc8c39813dd",
+    "Id": "6810a1a06a222a2f4642e01f",
     "Name": "Musician (Marauder Horsemen)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "fcf3-41f3-60c8-7deb",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2904,11 +2870,11 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       },
       {
         "Name": "Warhorse",
@@ -2923,9 +2889,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2941,23 +2907,22 @@
     }
   },
   {
-    "Id": "681090d6229aecc8c3981712",
+    "Id": "6810a1a06a222a2f4642e354",
     "Name": "Standard Bearer (Marauder Horsemen)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "fcf3-41f3-60c8-7deb",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2974,11 +2939,11 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Warhorse",
@@ -2993,9 +2958,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3011,22 +2976,21 @@
     }
   },
   {
-    "Id": "681090d6229aecc8c3980d6f",
+    "Id": "6810a1a06a222a2f4642d9b1",
     "Name": "Marauder Horsemen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "fcf3-41f3-60c8-7deb",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3043,10 +3007,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "Warhorse",
@@ -3061,9 +3025,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3079,21 +3043,20 @@
     }
   },
   {
-    "Id": "681090d7229aecc8c3981a37",
+    "Id": "6810a1a06a222a2f4642e679",
     "Name": "Chaos Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3110,9 +3073,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -3127,9 +3090,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -3144,10 +3107,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3163,22 +3126,22 @@
     }
   },
   {
-    "Id": "681090d7229aecc8c3981d3a",
+    "Id": "6810a1a16a222a2f4642e97c",
     "Name": "Chaos Spawn",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5ec9-a98-d8c5-e18b",
-      "93d9-c75b-f655-30ac",
-      "5b67-8535-146c-7cea",
-      "1b08-4621-6379-ff1f",
-      "4924-fc1f-bcd-746a",
-      "72db-24bb-7493-d753",
-      "d3eb-1fa0-bb19-f390",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (2)",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5b67-8535-146c-7cea": "Open Order",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "4924-fc1f-bcd-746a": "Random Movement",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3195,10 +3158,10 @@
           "A": "D6",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3214,21 +3177,21 @@
     }
   },
   {
-    "Id": "681090d7229aecc8c3982023",
+    "Id": "6810a1a16a222a2f4642ec65",
     "Name": "Chimera",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (2, claws and fangs only)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3245,10 +3208,10 @@
           "A": "6",
           "Ld": "5"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3264,22 +3227,21 @@
     }
   },
   {
-    "Id": "681090d7229aecc8c3982314",
+    "Id": "6810a1a16a222a2f4642ef56",
     "Name": "Chosen Chaos Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "fcf3-41f3-60c8-7deb",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1, Chariot only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3296,9 +3258,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -3313,9 +3275,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chosen Charioteer",
@@ -3330,10 +3292,10 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3349,25 +3311,24 @@
     }
   },
   {
-    "Id": "681090d7229aecc8c39830d9",
+    "Id": "6810a1a16a222a2f4642fd1b",
     "Name": "Champion (Chosen Chaos Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3384,12 +3345,12 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -3404,10 +3365,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3423,25 +3384,24 @@
     }
   },
   {
-    "Id": "681090d8229aecc8c3983b81",
+    "Id": "6810a1a26a222a2f464307c3",
     "Name": "Musician (Chosen Chaos Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3458,12 +3418,12 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -3478,10 +3438,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3497,25 +3457,24 @@
     }
   },
   {
-    "Id": "681090d8229aecc8c3984632",
+    "Id": "6810a1a26a222a2f46431274",
     "Name": "Standard Bearer (Chosen Chaos Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3532,12 +3491,12 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -3552,10 +3511,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3571,24 +3530,23 @@
     }
   },
   {
-    "Id": "681090d7229aecc8c398261b",
+    "Id": "6810a1a16a222a2f4642f25d",
     "Name": "Chosen Chaos Knight",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "fcf3-41f3-60c8-7deb",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3605,11 +3563,11 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Chaos Steed",
@@ -3624,10 +3582,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3643,23 +3601,23 @@
     }
   },
   {
-    "Id": "681090d8229aecc8c39859ea",
+    "Id": "6810a1a36a222a2f4643262c",
     "Name": "Shartak (Dragon Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "883e-e1b1-4fe9-5912",
-      "fe92-e9d9-91b4-e794",
-      "5ec9-a98-d8c5-e18b",
-      "93d9-c75b-f655-30ac",
-      "72db-24bb-7493-d753",
-      "74d8-efb5-1253-cb99",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (2)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "fe92-e9d9-91b4-e794": "Ensorcelled Weapons",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "74d8-efb5-1253-cb99": "The Quickening Storm",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3676,11 +3634,11 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3696,22 +3654,22 @@
     }
   },
   {
-    "Id": "681090d8229aecc8c39850ce",
+    "Id": "6810a1a36a222a2f46431d10",
     "Name": "Dragon Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "883e-e1b1-4fe9-5912",
-      "fe92-e9d9-91b4-e794",
-      "5ec9-a98-d8c5-e18b",
-      "93d9-c75b-f655-30ac",
-      "72db-24bb-7493-d753",
-      "74d8-efb5-1253-cb99",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (2)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "fe92-e9d9-91b4-e794": "Ensorcelled Weapons",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "74d8-efb5-1253-cb99": "The Quickening Storm",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3728,10 +3686,10 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3747,23 +3705,23 @@
     }
   },
   {
-    "Id": "681090d9229aecc8c39862fd",
+    "Id": "6810a1a36a222a2f46432f3f",
     "Name": "Chaos Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "e433-20e5-52c4-8f15",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "5ef1-6977-b2a8-bb53",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "742-e3dd-26f9-778f",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "e433-20e5-52c4-8f15": "Giant Attacks",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "5ef1-6977-b2a8-bb53": "Pick Up And...",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "742-e3dd-26f9-778f": "Giant's Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3780,10 +3738,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "742-e3dd-26f9-778f",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "742-e3dd-26f9-778f": "Giant's Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3799,24 +3757,24 @@
     }
   },
   {
-    "Id": "681090d9229aecc8c39865e3",
+    "Id": "6810a1a36a222a2f46433225",
     "Name": "Dragon Ogre Shaggoth",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "883e-e1b1-4fe9-5912",
-      "fe92-e9d9-91b4-e794",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "b8f1-3ef8-d7a2-509c",
-      "c7a2-35bf-4313-f4f0",
-      "74d8-efb5-1253-cb99",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (2)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (2)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "fe92-e9d9-91b4-e794": "Ensorcelled Weapons",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+1)",
+      "b8f1-3ef8-d7a2-509c": "Storm Call",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "74d8-efb5-1253-cb99": "The Quickening Storm",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3833,10 +3791,10 @@
           "A": "5",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3852,26 +3810,26 @@
     }
   },
   {
-    "Id": "681090d9229aecc8c3986ef5",
+    "Id": "6810a1a46a222a2f46433b37",
     "Name": "Gigantic Spawn",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "1b08-4621-6379-ff1f",
-      "4924-fc1f-bcd-746a",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "99ab-9d14-ac70-af11",
-      "c56e-8d1b-bb4-de99",
-      "7f20-fd7f-4556-c756"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (2)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "4924-fc1f-bcd-746a": "Random Movement",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "99ab-9d14-ac70-af11": "Gnashing maws",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "7f20-fd7f-4556-c756": "Slashing talons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3888,11 +3846,11 @@
           "A": "D6+1",
           "Ld": "10"
         },
-        "RuleIds": [
-          "99ab-9d14-ac70-af11",
-          "c56e-8d1b-bb4-de99",
-          "7f20-fd7f-4556-c756"
-        ]
+        "RuleIds": {
+          "99ab-9d14-ac70-af11": "Gnashing maws",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "7f20-fd7f-4556-c756": "Slashing talons"
+        }
       }
     ],
     "Amount": {
@@ -3908,25 +3866,22 @@
     }
   },
   {
-    "Id": "681090d9229aecc8c39871e7",
+    "Id": "6810a1a46a222a2f46433e29",
     "Name": "Gorebeast Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "68ed-9275-f95a-a3f5",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "860b-e13a-4710-9bf0",
-      "fcf3-41f3-60c8-7deb",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Gorebeast only)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "68ed-9275-f95a-a3f5": "Ensorcelled Weapons",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+2)",
+      "860b-e13a-4710-9bf0": "Killing Blow (Gorebeast only)",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "98f8-9d8-94cd-3379": "Halberd"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3943,10 +3898,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Gorebeast",
@@ -3961,10 +3916,10 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chariot Charioteer",
@@ -3979,10 +3934,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3998,29 +3953,29 @@
     }
   },
   {
-    "Id": "681090d9229aecc8c39874ea",
+    "Id": "6810a1a46a222a2f4643412c",
     "Name": "Warpfire Dragon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "4769-be05-035a-7e91",
-      "8dcd-1035-2a18-ba2f",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "97b3-1cdd-d81b-331a",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "fcf3-41f3-60c8-7deb",
-      "2eb0-1ec8-8e04-72d4",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "ccb7-517d-8228-355e",
-      "9a1d-38b0-7d7-7552",
-      "f189-6235-d0ec-ec20",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "4769-be05-035a-7e91": "Explosive Demise",
+      "8dcd-1035-2a18-ba2f": "Fire & Chaos",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "97b3-1cdd-d81b-331a": "Lore of Chaos",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "fcf3-41f3-60c8-7deb": "Mark of Chaos Undivided",
+      "2eb0-1ec8-8e04-72d4": "Regeneration (5+)",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "ccb7-517d-8228-355e": "Warpfire Aura",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "f189-6235-d0ec-ec20": "Warpfire Blast",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4037,11 +3992,11 @@
           "A": "5",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "f189-6235-d0ec-ec20",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "f189-6235-d0ec-ec20": "Warpfire Blast",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -4057,22 +4012,22 @@
     }
   },
   {
-    "Id": "681090da229aecc8c3987e43",
+    "Id": "6810a1a56a222a2f46434a85",
     "Name": "Champion (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4089,11 +4044,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4109,22 +4064,22 @@
     }
   },
   {
-    "Id": "681090da229aecc8c3988308",
+    "Id": "6810a1a56a222a2f46434f4a",
     "Name": "Musician (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4141,11 +4096,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -4161,22 +4116,22 @@
     }
   },
   {
-    "Id": "681090da229aecc8c39887cd",
+    "Id": "6810a1a56a222a2f4643540f",
     "Name": "Standard Bearer (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4193,11 +4148,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4213,21 +4168,21 @@
     }
   },
   {
-    "Id": "681090d9229aecc8c39877f5",
+    "Id": "6810a1a46a222a2f46434437",
     "Name": "Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4244,10 +4199,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4263,23 +4218,23 @@
     }
   },
   {
-    "Id": "681090da229aecc8c3988c5c",
+    "Id": "6810a1a56a222a2f4643589e",
     "Name": "Bonegrinder Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c08-9451-ab5c-b5eb",
-      "883e-e1b1-4fe9-5912",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "4d1b-2617-ebdc-4f4d",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "d3a2-c528-1da0-e731",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "7c08-9451-ab5c-b5eb": "Bonegrinder Giant Attacks",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4296,10 +4251,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "d3a2-c528-1da0-e731",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4315,22 +4270,22 @@
     }
   },
   {
-    "Id": "681090da229aecc8c3988f3b",
+    "Id": "6810a1a66a222a2f46435b7d",
     "Name": "Warhoof",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c-7525-760e-17ad",
-      "df-a39-e62-1c57",
-      "e85-bc3d-e4db-88b",
-      "595-bbd0-34c7-e601",
-      "e83e-f127-1904-3858",
-      "24a7-8ec2-fca1-21e2",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "7c-7525-760e-17ad": "Drunken",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "e85-bc3d-e4db-88b": "Gaze of the Gods",
+      "595-bbd0-34c7-e601": "Mark of Chaos Undivided",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "24a7-8ec2-fca1-21e2": "Primal Fury",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4347,9 +4302,9 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4365,26 +4320,26 @@
     }
   },
   {
-    "Id": "681090db229aecc8c398a187",
+    "Id": "6810a1a66a222a2f46436dc9",
     "Name": "Gorehoof (Centigor)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c-7525-760e-17ad",
-      "df-a39-e62-1c57",
-      "9cba-89a5-1796-5fe4",
-      "595-bbd0-34c7-e601",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "24a7-8ec2-fca1-21e2",
-      "59a5-7eca-ee35-96ac",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "7c-7525-760e-17ad": "Drunken",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "9cba-89a5-1796-5fe4": "Horde",
+      "595-bbd0-34c7-e601": "Mark of Chaos Undivided",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "24a7-8ec2-fca1-21e2": "Primal Fury",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4401,11 +4356,11 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4421,26 +4376,26 @@
     }
   },
   {
-    "Id": "681090db229aecc8c398aaa2",
+    "Id": "6810a1a76a222a2f464376e4",
     "Name": "Musician (Centigor)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c-7525-760e-17ad",
-      "df-a39-e62-1c57",
-      "9cba-89a5-1796-5fe4",
-      "595-bbd0-34c7-e601",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "24a7-8ec2-fca1-21e2",
-      "59a5-7eca-ee35-96ac",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "7c-7525-760e-17ad": "Drunken",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "9cba-89a5-1796-5fe4": "Horde",
+      "595-bbd0-34c7-e601": "Mark of Chaos Undivided",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "24a7-8ec2-fca1-21e2": "Primal Fury",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4457,11 +4412,11 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4477,26 +4432,26 @@
     }
   },
   {
-    "Id": "681090db229aecc8c398b3b4",
+    "Id": "6810a1a76a222a2f46437ff6",
     "Name": "Standard Bearer (Centigor)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c-7525-760e-17ad",
-      "df-a39-e62-1c57",
-      "9cba-89a5-1796-5fe4",
-      "595-bbd0-34c7-e601",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "24a7-8ec2-fca1-21e2",
-      "59a5-7eca-ee35-96ac",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "7c-7525-760e-17ad": "Drunken",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "9cba-89a5-1796-5fe4": "Horde",
+      "595-bbd0-34c7-e601": "Mark of Chaos Undivided",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "24a7-8ec2-fca1-21e2": "Primal Fury",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4513,11 +4468,11 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4533,25 +4488,25 @@
     }
   },
   {
-    "Id": "681090da229aecc8c3989868",
+    "Id": "6810a1a66a222a2f464364aa",
     "Name": "Centigor",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c-7525-760e-17ad",
-      "df-a39-e62-1c57",
-      "9cba-89a5-1796-5fe4",
-      "595-bbd0-34c7-e601",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "24a7-8ec2-fca1-21e2",
-      "59a5-7eca-ee35-96ac",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "7c-7525-760e-17ad": "Drunken",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "9cba-89a5-1796-5fe4": "Horde",
+      "595-bbd0-34c7-e601": "Mark of Chaos Undivided",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "24a7-8ec2-fca1-21e2": "Primal Fury",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4568,10 +4523,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4587,28 +4542,28 @@
     }
   },
   {
-    "Id": "681090db229aecc8c398bcbf",
+    "Id": "6810a1a76a222a2f46438901",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4625,9 +4580,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4643,20 +4598,20 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398bff3",
+    "Id": "6810a1a86a222a2f46438c35",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "32f7-8e30-3fe8-b11e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4673,10 +4628,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4692,22 +4647,22 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398d086",
+    "Id": "6810a1a86a222a2f46439cc8",
     "Name": "Champion (Imperial Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4724,11 +4679,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4744,21 +4699,21 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398cd65",
+    "Id": "6810a1a86a222a2f464399a7",
     "Name": "Imperial Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4775,10 +4730,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4794,25 +4749,25 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398d6ec",
+    "Id": "6810a1a96a222a2f4643a32e",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4829,13 +4784,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4851,25 +4806,25 @@
     }
   },
   {
-    "Id": "681090dd229aecc8c398da66",
+    "Id": "6810a1a96a222a2f4643a6a8",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4886,13 +4841,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4908,25 +4863,25 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398d387",
+    "Id": "6810a1a96a222a2f46439fc9",
     "Name": "Standard Bearer (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4943,13 +4898,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4965,25 +4920,25 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398d390",
+    "Id": "6810a1a96a222a2f46439fd2",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5000,13 +4955,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -5022,27 +4977,27 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398d399",
+    "Id": "6810a1a96a222a2f46439fdb",
     "Name": "Prince Ulther Stonehammer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "f170-4b76-b645-29c4",
-      "34c9-6f88-dcfd-d3fa",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "ea58-1a09-e839-cced",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "f170-4b76-b645-29c4": "Dragonblade",
+      "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "ea58-1a09-e839-cced": "Rune of Fury",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5059,15 +5014,15 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "f170-4b76-b645-29c4",
-          "34c9-6f88-dcfd-d3fa",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "ea58-1a09-e839-cced",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "f170-4b76-b645-29c4": "Dragonblade",
+          "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "ea58-1a09-e839-cced": "Rune of Fury",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -5083,25 +5038,25 @@
     }
   },
   {
-    "Id": "681090dc229aecc8c398d3a2",
+    "Id": "6810a1a96a222a2f46439fe4",
     "Name": "Musician (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5118,13 +5073,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {

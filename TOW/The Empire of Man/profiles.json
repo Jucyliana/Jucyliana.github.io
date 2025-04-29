@@ -1,20 +1,20 @@
 [
   {
-    "Id": "68109015229aecc8c36c380e",
+    "Id": "6810a06a6a222a2f46170450",
     "Name": "General Hans Von Löwenhacke",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "6162-d784-bf5c-b04e",
-      "23c4-bd19-2422-ad08",
-      "85a2-b37c-5220-ecd4",
-      "e351-bbd6-f470-b604",
-      "8219-52e4-6191-ba2b",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "6cb9-0a90-86a9-6bf2"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "6162-d784-bf5c-b04e": "Mercenary Commander",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "85a2-b37c-5220-ecd4": "Strategic Mastery",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "8219-52e4-6191-ba2b": "The Griffon Helm",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "6cb9-0a90-86a9-6bf2": "Judgement"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -31,11 +31,11 @@
           "A": "4",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "6cb9-0a90-86a9-6bf2"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "6cb9-0a90-86a9-6bf2": "Judgement"
+        }
       }
     ],
     "Amount": {
@@ -51,29 +51,28 @@
     }
   },
   {
-    "Id": "68109015229aecc8c36c3b1a",
+    "Id": "6810a06a6a222a2f4617075c",
     "Name": "Harald Gemunsen",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "0497-13f3-c8bc-e79c",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "90ed-c9be-a611-79cc",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "b124-1012-3f99-5a3d",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "721c-e17e-347e-7301",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "0497-13f3-c8bc-e79c": "Grand Master of the Knights Panther",
+      "f4b3-18af-16bf-78dd": "Hatred (Warriors of Chaos, Beastmen Breyherds & Daemonic models)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "b124-1012-3f99-5a3d": "Skilled Duellist",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "721c-e17e-347e-7301": "Beast Reaver",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -90,11 +89,11 @@
           "A": "4",
           "Ld": "9"
         },
-        "RuleIds": [
-          "721c-e17e-347e-7301",
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "721c-e17e-347e-7301": "Beast Reaver",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -109,10 +108,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -128,7 +127,7 @@
     }
   },
   {
-    "Id": "0d11a0e3-baac-42d1-85b3-1932204cf8a5",
+    "Id": "d9604b3c-2dc6-4929-ac42-6c39643a7da2",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -136,13 +135,13 @@
       "totalcost": "57"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "df-a39-e62-1c57",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -159,9 +158,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -177,7 +176,7 @@
     }
   },
   {
-    "Id": "32b27a36-27e6-4f75-9910-f33e17c74a3e",
+    "Id": "ab7cfd10-c0dc-4f35-903c-d3206027b722",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -185,15 +184,15 @@
       "totalcost": "61"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -210,10 +209,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -229,7 +228,7 @@
     }
   },
   {
-    "Id": "86a67072-f21c-4d42-ad64-afbe666d08f2",
+    "Id": "65744c1c-d3e4-4b80-8a62-74d9e63b9360",
     "Name": "Pegasus",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -237,15 +236,15 @@
       "totalcost": "75"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "c557-6102-9a35-bbcd",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -262,9 +261,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -280,7 +279,7 @@
     }
   },
   {
-    "Id": "31c7a240-fcbe-4d6d-8e31-3ae987931687",
+    "Id": "d7f33a2c-9a2d-4cfe-a3f3-71e2f14decd0",
     "Name": "Demigryph",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -288,17 +287,17 @@
       "totalcost": "95"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -315,11 +314,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -335,7 +334,7 @@
     }
   },
   {
-    "Id": "f6804820-c86a-4069-9a4e-44e0f7f3e7de",
+    "Id": "143f7ead-c070-4542-96b2-e86ddf03729e",
     "Name": "Griffon",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -343,18 +342,18 @@
       "totalcost": "175"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -371,10 +370,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -390,16 +389,16 @@
     }
   },
   {
-    "Id": "68109015229aecc8c36c3e30",
+    "Id": "6810a06a6a222a2f46170a72",
     "Name": "Captain of the Empire",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "23c4-bd19-2422-ad08",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -416,10 +415,10 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -435,7 +434,7 @@
     }
   },
   {
-    "Id": "64c2cd83-ae45-48d3-bbe1-8d33b3d58306",
+    "Id": "3745f508-618c-4a20-9a6d-c604184df725",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -443,18 +442,18 @@
       "totalcost": "91"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -471,10 +470,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -490,7 +489,7 @@
     }
   },
   {
-    "Id": "d64d2408-5865-4f43-be71-b7e1468606d3",
+    "Id": "1b7bd8dd-7f22-4dc5-9410-67de11c4ceaa",
     "Name": "Pegasus",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -498,18 +497,18 @@
       "totalcost": "105"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "c557-6102-9a35-bbcd",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -526,9 +525,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -544,7 +543,7 @@
     }
   },
   {
-    "Id": "820bd2b0-8e2d-418d-914b-66626fd078d3",
+    "Id": "36e2d20a-14f7-4f90-8fa6-ed64b8288292",
     "Name": "Demigryph",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -552,20 +551,20 @@
       "totalcost": "125"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -582,11 +581,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -602,24 +601,23 @@
     }
   },
   {
-    "Id": "68109017229aecc8c36c801c",
+    "Id": "6810a06d6a222a2f46174c5e",
     "Name": "Chapter Master",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -636,10 +634,10 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -654,10 +652,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -673,7 +671,7 @@
     }
   },
   {
-    "Id": "f74adb42-8216-4923-b09d-f0ef251787dd",
+    "Id": "c03efaaa-8e58-41c5-8253-a3dc775b23d4",
     "Name": "War Wagon",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -681,33 +679,24 @@
       "totalcost": "185"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d1c3-dfd6-3c94-3084",
-      "883e-e1b1-4fe9-5912",
-      "1327-a23a-6082-a5d5",
-      "fe13-1e5a-cdba-36c9",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "6fe8-b5a4-2a44-af31",
-      "72db-24bb-7493-d753",
-      "e099-1ebb-9e85-34c8",
-      "a666-9d03-0560-404d",
-      "6a58-c350-5546-c86b",
-      "6d4a-7733-d725-a267",
-      "95bd-0a99-0892-bce0",
-      "4fc6-b772-8224-6f96",
-      "6aed-0e26-e8df-13a4",
-      "2160-7185-6246-c91a",
-      "e099-1ebb-9e85-34c8",
-      "a666-9d03-0560-404d",
-      "6a58-c350-5546-c86b",
-      "6d4a-7733-d725-a267",
-      "95bd-0a99-0892-bce0",
-      "4fc6-b772-8224-6f96",
-      "6aed-0e26-e8df-13a4",
-      "2160-7185-6246-c91a",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d1c3-dfd6-3c94-3084": "Assorted Weapons",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1327-a23a-6082-a5d5": "Clouds of Shoot & Smoke",
+      "fe13-1e5a-cdba-36c9": "Crushing Weight",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1, War Wagon only)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "6fe8-b5a4-2a44-af31": "Master of Ballistics",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+1)",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "a666-9d03-0560-404d": "Ball & chain",
+      "6a58-c350-5546-c86b": "Blunderbuss",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "95bd-0a99-0892-bce0": "Hooked Halberd",
+      "4fc6-b772-8224-6f96": "Long rifle",
+      "6aed-0e26-e8df-13a4": "Man-catcher",
+      "2160-7185-6246-c91a": "Repeating rifle"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -724,16 +713,16 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "a666-9d03-0560-404d",
-          "6a58-c350-5546-c86b",
-          "6d4a-7733-d725-a267",
-          "95bd-0a99-0892-bce0",
-          "4fc6-b772-8224-6f96",
-          "6aed-0e26-e8df-13a4",
-          "2160-7185-6246-c91a"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "a666-9d03-0560-404d": "Ball & chain",
+          "6a58-c350-5546-c86b": "Blunderbuss",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "95bd-0a99-0892-bce0": "Hooked Halberd",
+          "4fc6-b772-8224-6f96": "Long rifle",
+          "6aed-0e26-e8df-13a4": "Man-catcher",
+          "2160-7185-6246-c91a": "Repeating rifle"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -748,16 +737,16 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "a666-9d03-0560-404d",
-          "6a58-c350-5546-c86b",
-          "6d4a-7733-d725-a267",
-          "95bd-0a99-0892-bce0",
-          "4fc6-b772-8224-6f96",
-          "6aed-0e26-e8df-13a4",
-          "2160-7185-6246-c91a"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "a666-9d03-0560-404d": "Ball & chain",
+          "6a58-c350-5546-c86b": "Blunderbuss",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "95bd-0a99-0892-bce0": "Hooked Halberd",
+          "4fc6-b772-8224-6f96": "Long rifle",
+          "6aed-0e26-e8df-13a4": "Man-catcher",
+          "2160-7185-6246-c91a": "Repeating rifle"
+        }
       },
       {
         "Name": "War Wagon Crew",
@@ -772,9 +761,9 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -790,15 +779,15 @@
     }
   },
   {
-    "Id": "68109018229aecc8c36cac4a",
+    "Id": "6810a06e6a222a2f4617788c",
     "Name": "Empire Engineer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1327-a23a-6082-a5d5",
-      "6fe8-b5a4-2a44-af31",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "1327-a23a-6082-a5d5": "Clouds of Shoot & Smoke",
+      "6fe8-b5a4-2a44-af31": "Master of Ballistics",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -815,9 +804,9 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -833,7 +822,7 @@
     }
   },
   {
-    "Id": "050cf4ae-74e7-4356-8893-39c5364a3596",
+    "Id": "336cfb93-70d8-41f1-8ec7-b039076babdd",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -841,13 +830,13 @@
       "totalcost": "102"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "df-a39-e62-1c57",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -864,9 +853,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -882,7 +871,7 @@
     }
   },
   {
-    "Id": "452a3e71-8a45-42a0-9925-526ded811186",
+    "Id": "51efcef8-3212-41e9-93bc-94b010cda28e",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -890,15 +879,15 @@
       "totalcost": "106"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -915,10 +904,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -934,7 +923,7 @@
     }
   },
   {
-    "Id": "cf07f5a4-3e48-43c4-a79e-5cfb8cec25b2",
+    "Id": "bd22db29-b69f-4ab1-b22a-7905bdb9d64b",
     "Name": "Pegasus",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -942,15 +931,15 @@
       "totalcost": "120"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "c557-6102-9a35-bbcd",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -967,9 +956,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -985,7 +974,7 @@
     }
   },
   {
-    "Id": "377e0804-bf79-4cb9-8c63-f1575adabac2",
+    "Id": "8dd257e8-0c03-4f62-8f12-09fe4b8284a2",
     "Name": "Demigryph",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -993,17 +982,17 @@
       "totalcost": "140"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1020,11 +1009,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1040,7 +1029,7 @@
     }
   },
   {
-    "Id": "7e2cc095-f484-4b77-bdce-c0ea6821259d",
+    "Id": "6da47e44-0a64-4811-af9e-d99c83282bbe",
     "Name": "Griffon",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -1048,18 +1037,18 @@
       "totalcost": "220"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1076,10 +1065,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1095,7 +1084,7 @@
     }
   },
   {
-    "Id": "4d9fd0e6-7f82-4171-8bb1-081a081b3699",
+    "Id": "d36fbba1-dac2-4a66-bc40-eadadd19cda4",
     "Name": "Imperial Griffon",
     "Attributes": {
       "type": "",
@@ -1103,19 +1092,19 @@
       "totalcost": "250"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c56e-8d1b-bb4-de99",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1132,11 +1121,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1152,16 +1141,16 @@
     }
   },
   {
-    "Id": "68109018229aecc8c36cc1f5",
+    "Id": "6810a06f6a222a2f46178e37",
     "Name": "General of the Empire",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "d4cc-fe08-c70d-b8a8",
-      "23c4-bd19-2422-ad08",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "d4cc-fe08-c70d-b8a8": "\"Hold The Line!\"",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1178,10 +1167,10 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -1197,7 +1186,7 @@
     }
   },
   {
-    "Id": "d0eb541a-ae36-457c-af5b-4dcaccdf49f8",
+    "Id": "40eab24a-fa68-4eb0-870a-905f1490d777",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -1205,18 +1194,18 @@
       "totalcost": "161"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1233,10 +1222,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1252,7 +1241,7 @@
     }
   },
   {
-    "Id": "67e567e2-e3de-4e7b-89f8-ab5a21ef7bd9",
+    "Id": "606357e9-23e5-4adb-be1c-eed7c15485df",
     "Name": "Pegasus",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1260,18 +1249,18 @@
       "totalcost": "175"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "c557-6102-9a35-bbcd",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1288,9 +1277,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1306,7 +1295,7 @@
     }
   },
   {
-    "Id": "0b529aec-b058-439b-b591-1019c093c47f",
+    "Id": "9e95b6f1-ab2c-4bf0-b4d9-c61a169633a4",
     "Name": "Demigryph",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1314,20 +1303,20 @@
       "totalcost": "195"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1344,11 +1333,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1364,24 +1353,23 @@
     }
   },
   {
-    "Id": "6810901a229aecc8c36d04aa",
+    "Id": "6810a0726a222a2f4617d0ec",
     "Name": "Grand Master",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "93d9-c75b-f655-30ac",
-      "622-d13-42bf-2d30",
-      "23c4-bd19-2422-ad08",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "622-d13-42bf-2d30": "Master of Battle",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1398,10 +1386,10 @@
           "A": "4",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -1416,10 +1404,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1435,21 +1423,21 @@
     }
   },
   {
-    "Id": "6810901a229aecc8c36d2a9c",
+    "Id": "6810a0736a222a2f4617f6de",
     "Name": "Harbinger of Doom",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "854c-232c-4091-ac1d",
-      "eaca-69a2-8b6a-81c6",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "b664-8530-a988-7ba9",
-      "3221-b254-b05c-8ca1",
-      "d3eb-1fa0-bb19-f390",
-      "c193-5e33-bac9-4f05",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "854c-232c-4091-ac1d": "Feel No Pain",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f4b3-18af-16bf-78dd": "Hatred (all enemies)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "3221-b254-b05c-8ca1": "Prayer of the Damned",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "c193-5e33-bac9-4f05": "Zealot",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1466,9 +1454,9 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1484,7 +1472,7 @@
     }
   },
   {
-    "Id": "ce14b62f-e48d-45f6-b457-9c14ac825811",
+    "Id": "fca10eab-9ead-4a9a-b390-4f03333d2c55",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -1492,16 +1480,16 @@
       "totalcost": "129"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "d1f4-5e82-b7ed-3ad0",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "d1f4-5e82-b7ed-3ad0": "Prayers of Ulric",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1518,10 +1506,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1537,7 +1525,7 @@
     }
   },
   {
-    "Id": "03e9c071-bade-4b29-bc4c-7f9b51040fa9",
+    "Id": "ba89fd1b-5532-4f2e-a48a-6c98ff7f0748",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1545,14 +1533,14 @@
       "totalcost": "125"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "d1f4-5e82-b7ed-3ad0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "d1f4-5e82-b7ed-3ad0": "Prayers of Ulric",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1569,9 +1557,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1587,18 +1575,18 @@
     }
   },
   {
-    "Id": "6810901b229aecc8c36d339c",
+    "Id": "6810a0736a222a2f4617ffde",
     "Name": "High Priest of Ulric",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "d1f4-5e82-b7ed-3ad0",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "1d21-4a6c-ab02-6c57"
-    ],
+    "RuleIds": {
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "d1f4-5e82-b7ed-3ad0": "Prayers of Ulric",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "1d21-4a6c-ab02-6c57": "Prayers of Ulric"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1615,11 +1603,11 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "1d21-4a6c-ab02-6c57"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "1d21-4a6c-ab02-6c57": "Prayers of Ulric"
+        }
       }
     ],
     "Amount": {
@@ -1635,7 +1623,7 @@
     }
   },
   {
-    "Id": "90f174ec-8df7-4d4a-bff4-7d6683478384",
+    "Id": "456e9d3c-92ab-4bf0-8d10-e1a6455cf2ff",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -1643,16 +1631,16 @@
       "totalcost": "126"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "6f59-f4af-ca65-cab9",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "6f59-f4af-ca65-cab9": "Prayers of Sigmar",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1669,10 +1657,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1688,7 +1676,7 @@
     }
   },
   {
-    "Id": "c6bcecf8-dc0f-4978-8555-2b314fda99ee",
+    "Id": "04a01e08-1504-49e4-bf11-73fc4577b67a",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1696,14 +1684,14 @@
       "totalcost": "122"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "6f59-f4af-ca65-cab9",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "6f59-f4af-ca65-cab9": "Prayers of Sigmar",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1720,9 +1708,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1738,7 +1726,7 @@
     }
   },
   {
-    "Id": "2a83536c-ce6a-4d55-a2af-ac1311101ee7",
+    "Id": "1e85da8f-3153-4f7a-b80f-6649e0712a20",
     "Name": "War Altar",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1746,24 +1734,22 @@
       "totalcost": "245"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "b1af-d24d-3cdc-e7d0",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "6f59-f4af-ca65-cab9",
-      "e351-bbd6-f470-b604",
-      "5b74-eb4c-8bb7-3e7d",
-      "c7a2-35bf-4313-f4f0",
-      "2285-171-265b-d62a",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "b1af-d24d-3cdc-e7d0": "Holy Fervour",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "6f59-f4af-ca65-cab9": "Prayers of Sigmar",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "5b74-eb4c-8bb7-3e7d": "Symbol of Might",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "2285-171-265b-d62a": "Witch Bane",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1780,10 +1766,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -1798,10 +1784,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1817,18 +1803,18 @@
     }
   },
   {
-    "Id": "6810901b229aecc8c36d4f11",
+    "Id": "6810a0746a222a2f46181b53",
     "Name": "Lector of Sigmar",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "6f59-f4af-ca65-cab9",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "4e02-aa38-227c-b1e8"
-    ],
+    "RuleIds": {
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "6f59-f4af-ca65-cab9": "Prayers of Sigmar",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "4e02-aa38-227c-b1e8": "Prayers of Sigmar"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1845,11 +1831,11 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "4e02-aa38-227c-b1e8"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "4e02-aa38-227c-b1e8": "Prayers of Sigmar"
+        }
       }
     ],
     "Amount": {
@@ -1865,7 +1851,7 @@
     }
   },
   {
-    "Id": "c622e7e6-85cd-45f3-9a7d-05950af7690b",
+    "Id": "5e9b056a-c1b9-412a-8748-ed379977f123",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1873,13 +1859,13 @@
       "totalcost": "72"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1896,9 +1882,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1914,7 +1900,7 @@
     }
   },
   {
-    "Id": "093e92c1-0c99-409f-8009-70ddc46ef6a7",
+    "Id": "e5a5704e-1bac-4b66-9a81-1c6c91e65a8f",
     "Name": "Pegasus",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1922,15 +1908,15 @@
       "totalcost": "90"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "c557-6102-9a35-bbcd",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1947,9 +1933,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1965,16 +1951,16 @@
     }
   },
   {
-    "Id": "6810901c229aecc8c36d73ee",
+    "Id": "6810a0766a222a2f46184030",
     "Name": "Master Mage",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "3c27-d55d-e778-cb89",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "3c27-d55d-e778-cb89": "Battle Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1991,10 +1977,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "3c27-d55d-e778-cb89",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "3c27-d55d-e778-cb89": "Battle Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2010,7 +1996,7 @@
     }
   },
   {
-    "Id": "6e558aa3-be27-459c-81c6-95d02df9c63c",
+    "Id": "a720a7b7-b53d-427c-806b-6fe9faac0d72",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2018,16 +2004,16 @@
       "totalcost": "76"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "6f59-f4af-ca65-cab9",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "6f59-f4af-ca65-cab9": "Prayers of Sigmar",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2044,10 +2030,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2063,7 +2049,7 @@
     }
   },
   {
-    "Id": "3b184069-c325-44dc-8ab8-50f6b4f5e3a5",
+    "Id": "292bde4e-635a-470e-8588-edb55089b163",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -2071,14 +2057,14 @@
       "totalcost": "72"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "6f59-f4af-ca65-cab9",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "6f59-f4af-ca65-cab9": "Prayers of Sigmar",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2095,9 +2081,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2113,18 +2099,18 @@
     }
   },
   {
-    "Id": "6810901d229aecc8c36d92f3",
+    "Id": "6810a0776a222a2f46185f35",
     "Name": "Priest of Sigmar",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "6f59-f4af-ca65-cab9",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "4e02-aa38-227c-b1e8"
-    ],
+    "RuleIds": {
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "6f59-f4af-ca65-cab9": "Prayers of Sigmar",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "4e02-aa38-227c-b1e8": "Prayers of Sigmar"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2141,11 +2127,11 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "4e02-aa38-227c-b1e8"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "4e02-aa38-227c-b1e8": "Prayers of Sigmar"
+        }
       }
     ],
     "Amount": {
@@ -2161,7 +2147,7 @@
     }
   },
   {
-    "Id": "4216282b-659a-4587-bbea-ae8cf5eb4f59",
+    "Id": "62b36e39-ac70-48a5-bdec-8a3f7bf735e9",
     "Name": "Barded Warhorse",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2169,16 +2155,16 @@
       "totalcost": "79"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "d1f4-5e82-b7ed-3ad0",
-      "dc91-48b3-3696-217",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "d1f4-5e82-b7ed-3ad0": "Prayers of Ulric",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2195,10 +2181,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2214,7 +2200,7 @@
     }
   },
   {
-    "Id": "30071ecc-dbe5-4c75-86df-07330d1a4d2a",
+    "Id": "b002c2cb-4f26-48e8-bcdb-29ea580f4341",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -2222,14 +2208,14 @@
       "totalcost": "75"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "d1f4-5e82-b7ed-3ad0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "d1f4-5e82-b7ed-3ad0": "Prayers of Ulric",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2246,9 +2232,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2264,18 +2250,18 @@
     }
   },
   {
-    "Id": "6810901d229aecc8c36dae62",
+    "Id": "6810a0786a222a2f46187aa4",
     "Name": "Priest of Ulric",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "d1f4-5e82-b7ed-3ad0",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "1d21-4a6c-ab02-6c57"
-    ],
+    "RuleIds": {
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "d1f4-5e82-b7ed-3ad0": "Prayers of Ulric",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "1d21-4a6c-ab02-6c57": "Prayers of Ulric"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2292,11 +2278,11 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "1d21-4a6c-ab02-6c57"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "1d21-4a6c-ab02-6c57": "Prayers of Ulric"
+        }
       }
     ],
     "Amount": {
@@ -2312,7 +2298,7 @@
     }
   },
   {
-    "Id": "5607925c-0b78-472c-b8c5-5d9ec2b69f64",
+    "Id": "d439a433-9071-4e68-a537-a548eaf66099",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -2320,14 +2306,14 @@
       "totalcost": "67"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "93d9-c75b-f655-30ac",
-      "860b-e13a-4710-9bf0",
-      "d93f-cac1-d68f-5119",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "860b-e13a-4710-9bf0": "Killing Blow",
+      "d93f-cac1-d68f-5119": "Suffer Not...",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2344,9 +2330,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2362,7 +2348,7 @@
     }
   },
   {
-    "Id": "17eee7cc-bf41-452b-909e-74ab03143ba1",
+    "Id": "77525d25-8ccb-4f61-84a1-eee483faf34d",
     "Name": "Pegasus",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -2370,16 +2356,16 @@
       "totalcost": "85"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "c557-6102-9a35-bbcd",
-      "93d9-c75b-f655-30ac",
-      "860b-e13a-4710-9bf0",
-      "d93f-cac1-d68f-5119",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "860b-e13a-4710-9bf0": "Killing Blow",
+      "d93f-cac1-d68f-5119": "Suffer Not...",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2396,9 +2382,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2414,17 +2400,17 @@
     }
   },
   {
-    "Id": "6810901e229aecc8c36dc9d1",
+    "Id": "6810a0796a222a2f46189613",
     "Name": "Witch Hunter",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "93d9-c75b-f655-30ac",
-      "860b-e13a-4710-9bf0",
-      "d93f-cac1-d68f-5119",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "860b-e13a-4710-9bf0": "Killing Blow",
+      "d93f-cac1-d68f-5119": "Suffer Not...",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2441,10 +2427,10 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2460,7 +2446,7 @@
     }
   },
   {
-    "Id": "926d94f0-0fbc-469c-9a0d-76ca48c48337",
+    "Id": "74e78402-acd2-4814-95fe-db53a7b55d1a",
     "Name": "Empire Warhorse",
     "Attributes": {
       "type": "Light Cavalry",
@@ -2468,13 +2454,13 @@
       "totalcost": "142"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2491,9 +2477,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2509,7 +2495,7 @@
     }
   },
   {
-    "Id": "17dc8712-4ca8-4e3c-b532-1e7a9faa03bb",
+    "Id": "4cff4000-3921-43fd-a48b-62c6cc529bb9",
     "Name": "Pegasus",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -2517,15 +2503,15 @@
       "totalcost": "160"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "c557-6102-9a35-bbcd",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2542,9 +2528,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2560,7 +2546,7 @@
     }
   },
   {
-    "Id": "17744479-eb70-4ae5-8b80-5824a3fdb4cd",
+    "Id": "f31048d1-6c91-451e-9a49-496b3a156c7a",
     "Name": "Imperial Griffon",
     "Attributes": {
       "type": "",
@@ -2568,19 +2554,19 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c56e-8d1b-bb4-de99",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2597,11 +2583,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2617,16 +2603,16 @@
     }
   },
   {
-    "Id": "6810901f229aecc8c36de570",
+    "Id": "6810a07a6a222a2f4618b1b2",
     "Name": "Wizard Lord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "90ed-c9be-a611-79cc",
-      "2125-6aa2-f782-42bf",
-      "3c27-d55d-e778-cb89",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "3c27-d55d-e778-cb89": "Battle Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2643,10 +2629,10 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "3c27-d55d-e778-cb89",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "3c27-d55d-e778-cb89": "Battle Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2662,20 +2648,20 @@
     }
   },
   {
-    "Id": "68109020229aecc8c36e1246",
+    "Id": "6810a07c6a222a2f4618de88",
     "Name": "Marksman (Archer)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "559-d4c6-b2e8-500f",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "691e-10ec-4f7c-a2c4",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "d6b8-1ad9-d024-1d72"
-    ],
+    "RuleIds": {
+      "559-d4c6-b2e8-500f": "Detachment",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "d6b8-1ad9-d024-1d72": "Warbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2692,11 +2678,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "d6b8-1ad9-d024-1d72"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "d6b8-1ad9-d024-1d72": "Warbow"
+        }
       }
     ],
     "Amount": {
@@ -2712,19 +2698,19 @@
     }
   },
   {
-    "Id": "6810901f229aecc8c36e0f34",
+    "Id": "6810a07c6a222a2f4618db76",
     "Name": "Archer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "559-d4c6-b2e8-500f",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "691e-10ec-4f7c-a2c4",
-      "6d4a-7733-d725-a267",
-      "d6b8-1ad9-d024-1d72"
-    ],
+    "RuleIds": {
+      "559-d4c6-b2e8-500f": "Detachment",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "d6b8-1ad9-d024-1d72": "Warbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2741,10 +2727,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "d6b8-1ad9-d024-1d72"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "d6b8-1ad9-d024-1d72": "Warbow"
+        }
       }
     ],
     "Amount": {
@@ -2760,22 +2746,21 @@
     }
   },
   {
-    "Id": "68109020229aecc8c36e2063",
+    "Id": "6810a07c6a222a2f4618eca5",
     "Name": "Preceptor (Empire Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "5f1c-fd04-b0d5-d5e",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2792,12 +2777,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -2812,10 +2797,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2831,22 +2816,21 @@
     }
   },
   {
-    "Id": "68109020229aecc8c36e2b6f",
+    "Id": "6810a07d6a222a2f4618f7b1",
     "Name": "Musician (Empire Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2863,12 +2847,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -2883,10 +2867,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2902,22 +2886,21 @@
     }
   },
   {
-    "Id": "68109020229aecc8c36e367b",
+    "Id": "6810a07d6a222a2f461902bd",
     "Name": "Standard Bearer (Empire Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2934,12 +2917,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -2954,10 +2937,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2973,21 +2956,20 @@
     }
   },
   {
-    "Id": "68109020229aecc8c36e1548",
+    "Id": "6810a07c6a222a2f4618e18a",
     "Name": "Empire Knight",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3004,11 +2986,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -3023,10 +3005,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3042,21 +3024,21 @@
     }
   },
   {
-    "Id": "68109020229aecc8c36e447a",
+    "Id": "6810a07e6a222a2f461910bc",
     "Name": "Militia Leader (Militia Fighter)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "559-d4c6-b2e8-500f",
-      "9cba-89a5-1796-5fe4",
-      "b664-8530-a988-7ba9",
-      "8cc3-d6f5-da17-6600",
-      "5b67-8535-146c-7cea",
-      "505f-e12d-2e36-31d0",
-      "5f1c-fd04-b0d5-d5e",
-      "eee5-db12-1271-f2c5",
-      "9bc5-ae1d-c50c-3442"
-    ],
+    "RuleIds": {
+      "559-d4c6-b2e8-500f": "Detachment",
+      "9cba-89a5-1796-5fe4": "Horde",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "8cc3-d6f5-da17-6600": "Levies",
+      "5b67-8535-146c-7cea": "Open Order",
+      "505f-e12d-2e36-31d0": "Warband",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "eee5-db12-1271-f2c5": "Throwing Weapon",
+      "9bc5-ae1d-c50c-3442": "Two Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3073,11 +3055,11 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "eee5-db12-1271-f2c5",
-          "9bc5-ae1d-c50c-3442"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "eee5-db12-1271-f2c5": "Throwing Weapon",
+          "9bc5-ae1d-c50c-3442": "Two Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3093,20 +3075,20 @@
     }
   },
   {
-    "Id": "68109020229aecc8c36e416d",
+    "Id": "6810a07d6a222a2f46190daf",
     "Name": "Militia Fighter",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "559-d4c6-b2e8-500f",
-      "9cba-89a5-1796-5fe4",
-      "b664-8530-a988-7ba9",
-      "8cc3-d6f5-da17-6600",
-      "5b67-8535-146c-7cea",
-      "505f-e12d-2e36-31d0",
-      "eee5-db12-1271-f2c5",
-      "9bc5-ae1d-c50c-3442"
-    ],
+    "RuleIds": {
+      "559-d4c6-b2e8-500f": "Detachment",
+      "9cba-89a5-1796-5fe4": "Horde",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "8cc3-d6f5-da17-6600": "Levies",
+      "5b67-8535-146c-7cea": "Open Order",
+      "505f-e12d-2e36-31d0": "Warband",
+      "eee5-db12-1271-f2c5": "Throwing Weapon",
+      "9bc5-ae1d-c50c-3442": "Two Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3123,10 +3105,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "eee5-db12-1271-f2c5",
-          "9bc5-ae1d-c50c-3442"
-        ]
+        "RuleIds": {
+          "eee5-db12-1271-f2c5": "Throwing Weapon",
+          "9bc5-ae1d-c50c-3442": "Two Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3142,18 +3124,18 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e4ac9",
+    "Id": "6810a07e6a222a2f4619170b",
     "Name": "Sergeant (State Missile Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "5f1c-fd04-b0d5-d5e",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3170,11 +3152,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3190,18 +3172,18 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e4e12",
+    "Id": "6810a07e6a222a2f46191a54",
     "Name": "Musician (State Missile Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3218,11 +3200,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -3238,18 +3220,18 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e5152",
+    "Id": "6810a07f6a222a2f46191d94",
     "Name": "Standard Bearer (State Missile Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3266,11 +3248,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -3286,17 +3268,17 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e4776",
+    "Id": "6810a07e6a222a2f461913b8",
     "Name": "State Missile Trooper",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3313,10 +3295,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3332,19 +3314,19 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e57a0",
+    "Id": "6810a07f6a222a2f461923e2",
     "Name": "Sergeant (State Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3361,12 +3343,12 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3382,19 +3364,19 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e5abc",
+    "Id": "6810a07f6a222a2f461926fe",
     "Name": "Musician (State Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3411,12 +3393,12 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3432,19 +3414,19 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e5dcf",
+    "Id": "6810a07f6a222a2f46192a11",
     "Name": "Standard Bearer (State Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3461,12 +3443,12 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3482,18 +3464,18 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e5482",
+    "Id": "6810a07f6a222a2f461920c4",
     "Name": "State Trooper",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3510,11 +3492,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3530,19 +3512,19 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e6b88",
+    "Id": "6810a0806a222a2f461937ca",
     "Name": "Sergeant (Veteran State Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "4022-c403-b083-ba83",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "4022-c403-b083-ba83": "Veteran",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3559,11 +3541,11 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3579,19 +3561,19 @@
     }
   },
   {
-    "Id": "68109022229aecc8c36e7631",
+    "Id": "6810a0806a222a2f46194273",
     "Name": "Musician (Veteran State Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3608,11 +3590,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -3628,19 +3610,19 @@
     }
   },
   {
-    "Id": "68109022229aecc8c36e80d1",
+    "Id": "6810a0806a222a2f46194d13",
     "Name": "Standard Bearer (Veteran State Trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3657,11 +3639,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -3677,18 +3659,18 @@
     }
   },
   {
-    "Id": "68109021229aecc8c36e60dc",
+    "Id": "6810a07f6a222a2f46192d1e",
     "Name": "Veteran State Trooper",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "7424-ec43-7581-965a",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3705,10 +3687,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3724,25 +3706,24 @@
     }
   },
   {
-    "Id": "68109022229aecc8c36e9667",
+    "Id": "6810a0816a222a2f461962a9",
     "Name": "Demigryph Preceptor (Demigryph Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "3520-64c9-a855-ce9e",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "3520-64c9-a855-ce9e": "Lance",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3759,13 +3740,13 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "3520-64c9-a855-ce9e",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "3520-64c9-a855-ce9e": "Lance",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Demigryph",
@@ -3780,11 +3761,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -3800,25 +3781,24 @@
     }
   },
   {
-    "Id": "68109022229aecc8c36ea162",
+    "Id": "6810a0816a222a2f46196da4",
     "Name": "Musician (Demigryph Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "3520-64c9-a855-ce9e",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "3520-64c9-a855-ce9e": "Lance",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3835,13 +3815,13 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "3520-64c9-a855-ce9e",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "3520-64c9-a855-ce9e": "Lance",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Demigryph",
@@ -3856,11 +3836,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -3876,25 +3856,24 @@
     }
   },
   {
-    "Id": "68109023229aecc8c36eac5d",
+    "Id": "6810a0816a222a2f4619789f",
     "Name": "Standard Bearer (Demigryph Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "3520-64c9-a855-ce9e",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "3520-64c9-a855-ce9e": "Lance",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3911,13 +3890,13 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "3520-64c9-a855-ce9e",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "3520-64c9-a855-ce9e": "Lance",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Demigryph",
@@ -3932,11 +3911,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -3952,24 +3931,23 @@
     }
   },
   {
-    "Id": "68109022229aecc8c36e8b64",
+    "Id": "6810a0816a222a2f461957a6",
     "Name": "Demigryph Knight",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "3520-64c9-a855-ce9e",
-      "8997-c74d-3a8d-ecf9",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "3520-64c9-a855-ce9e": "Lance",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3986,12 +3964,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "3520-64c9-a855-ce9e",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "3520-64c9-a855-ce9e": "Lance",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Demigryph",
@@ -4006,11 +3984,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -4026,19 +4004,19 @@
     }
   },
   {
-    "Id": "68109023229aecc8c36ec06f",
+    "Id": "6810a0826a222a2f46198cb1",
     "Name": "Count's Champion (Greatsword)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "7424-ec43-7581-965a",
-      "e351-bbd6-f470-b604",
-      "5f1c-fd04-b0d5-d5e",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4055,12 +4033,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4076,19 +4054,19 @@
     }
   },
   {
-    "Id": "68109023229aecc8c36ec98f",
+    "Id": "6810a0826a222a2f461995d1",
     "Name": "Musician (Greatsword)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "7424-ec43-7581-965a",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4105,12 +4083,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -4126,19 +4104,19 @@
     }
   },
   {
-    "Id": "68109023229aecc8c36ed2a6",
+    "Id": "6810a0836a222a2f46199ee8",
     "Name": "Standard Bearer (Greatsword)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "7424-ec43-7581-965a",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4155,12 +4133,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4176,18 +4154,18 @@
     }
   },
   {
-    "Id": "68109023229aecc8c36eb745",
+    "Id": "6810a0826a222a2f46198387",
     "Name": "Greatsword",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "7424-ec43-7581-965a",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4204,11 +4182,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4224,22 +4202,21 @@
     }
   },
   {
-    "Id": "68109023229aecc8c36edbb1",
+    "Id": "6810a0836a222a2f4619a7f3",
     "Name": "Road Warden",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "691e-10ec-4f7c-a2c4",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4256,11 +4233,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Empire Warhorse",
@@ -4275,9 +4252,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4293,15 +4270,15 @@
     }
   },
   {
-    "Id": "68109024229aecc8c36ee56b",
+    "Id": "6810a0836a222a2f4619b1ad",
     "Name": "Great Cannon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "59a5-7eca-ee35-96ac",
-      "ae36-d4c3-eaf5-198b",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "ae36-d4c3-eaf5-198b": "Great Cannon",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4318,9 +4295,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "ae36-d4c3-eaf5-198b"
-        ]
+        "RuleIds": {
+          "ae36-d4c3-eaf5-198b": "Great Cannon"
+        }
       },
       {
         "Name": "Gun Crew",
@@ -4335,9 +4312,9 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4353,25 +4330,24 @@
     }
   },
   {
-    "Id": "68109024229aecc8c36ef383",
+    "Id": "6810a0846a222a2f4619bfc5",
     "Name": "Inner Circle Preceptor (Inner Circle Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "1f64-3ddc-db58-12fb",
-      "785a-2886-af42-dce9",
-      "99b-d788-7989-4048",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "5f1c-fd04-b0d5-d5e",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "785a-2886-af42-dce9": "First Charge",
+      "99b-d788-7989-4048": "Inner Circle",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4388,12 +4364,12 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -4408,10 +4384,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4427,25 +4403,24 @@
     }
   },
   {
-    "Id": "68109024229aecc8c36efe86",
+    "Id": "6810a0846a222a2f4619cac8",
     "Name": "Musician (Inner Circle Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "1f64-3ddc-db58-12fb",
-      "785a-2886-af42-dce9",
-      "99b-d788-7989-4048",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "40f2-dd77-f0ca-3663",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "785a-2886-af42-dce9": "First Charge",
+      "99b-d788-7989-4048": "Inner Circle",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4462,12 +4437,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -4482,10 +4457,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4501,25 +4476,24 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f0989",
+    "Id": "6810a0846a222a2f4619d5cb",
     "Name": "Standard Bearer (Inner Circle Knight)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "1f64-3ddc-db58-12fb",
-      "785a-2886-af42-dce9",
-      "99b-d788-7989-4048",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "785a-2886-af42-dce9": "First Charge",
+      "99b-d788-7989-4048": "Inner Circle",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4536,12 +4510,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -4556,10 +4530,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4575,24 +4549,23 @@
     }
   },
   {
-    "Id": "68109024229aecc8c36ee879",
+    "Id": "6810a0846a222a2f4619b4bb",
     "Name": "Inner Circle Knight",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "1f64-3ddc-db58-12fb",
-      "785a-2886-af42-dce9",
-      "99b-d788-7989-4048",
-      "dc91-48b3-3696-217",
-      "4022-c403-b083-ba83",
-      "9a1d-38b0-7d7-7552",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "785a-2886-af42-dce9": "First Charge",
+      "99b-d788-7989-4048": "Inner Circle",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "4022-c403-b083-ba83": "Veteran",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "eb5d-bd8a-c75c-66d7": "Barding"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4609,11 +4582,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -4628,10 +4601,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4647,15 +4620,15 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f1479",
+    "Id": "6810a0856a222a2f4619e0bb",
     "Name": "Mortar",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "59a5-7eca-ee35-96ac",
-      "2115-8098-83e9-ead7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "2115-8098-83e9-ead7": "Mortar",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4672,9 +4645,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "2115-8098-83e9-ead7"
-        ]
+        "RuleIds": {
+          "2115-8098-83e9-ead7": "Mortar"
+        }
       },
       {
         "Name": "Gun Crew",
@@ -4689,9 +4662,9 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4707,25 +4680,24 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f1ab4",
+    "Id": "6810a0856a222a2f4619e6f6",
     "Name": "Sharpshooter (Outrider)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "691e-10ec-4f7c-a2c4",
-      "3f0e-1dc6-b425-bf59",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "4c62-cdd4-4e0c-4265",
-      "7f58-91d4-ee6c-3cb7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "4c62-cdd4-4e0c-4265": "Pistol",
+      "7f58-91d4-ee6c-3cb7": "Repeater handgun"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4742,14 +4714,14 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "4c62-cdd4-4e0c-4265",
-          "7f58-91d4-ee6c-3cb7"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "4c62-cdd4-4e0c-4265": "Pistol",
+          "7f58-91d4-ee6c-3cb7": "Repeater handgun"
+        }
       },
       {
         "Name": "Empire Warhorse",
@@ -4764,9 +4736,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4782,24 +4754,23 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f1ddf",
+    "Id": "6810a0856a222a2f4619ea21",
     "Name": "Musician (Outrider)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "691e-10ec-4f7c-a2c4",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "4c62-cdd4-4e0c-4265",
-      "7f58-91d4-ee6c-3cb7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "4c62-cdd4-4e0c-4265": "Pistol",
+      "7f58-91d4-ee6c-3cb7": "Repeater handgun"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4816,13 +4787,13 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663",
-          "4c62-cdd4-4e0c-4265",
-          "7f58-91d4-ee6c-3cb7"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "4c62-cdd4-4e0c-4265": "Pistol",
+          "7f58-91d4-ee6c-3cb7": "Repeater handgun"
+        }
       },
       {
         "Name": "Empire Warhorse",
@@ -4837,9 +4808,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4855,23 +4826,22 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f1782",
+    "Id": "6810a0856a222a2f4619e3c4",
     "Name": "Outrider",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "691e-10ec-4f7c-a2c4",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "4c62-cdd4-4e0c-4265",
-      "7f58-91d4-ee6c-3cb7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "4c62-cdd4-4e0c-4265": "Pistol",
+      "7f58-91d4-ee6c-3cb7": "Repeater handgun"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4888,12 +4858,12 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "4c62-cdd4-4e0c-4265",
-          "7f58-91d4-ee6c-3cb7"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "4c62-cdd4-4e0c-4265": "Pistol",
+          "7f58-91d4-ee6c-3cb7": "Repeater handgun"
+        }
       },
       {
         "Name": "Empire Warhorse",
@@ -4908,9 +4878,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4926,25 +4896,24 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f242f",
+    "Id": "6810a0866a222a2f4619f071",
     "Name": "Veteran (Pistolier)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "3f0e-1dc6-b425-bf59",
-      "5f1c-fd04-b0d5-d5e",
-      "b8f7-c4e5-2793-bc18",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "b8f7-c4e5-2793-bc18": "Grenade launching blunderbuss",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4961,13 +4930,13 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "5f1c-fd04-b0d5-d5e",
-          "b8f7-c4e5-2793-bc18",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "b8f7-c4e5-2793-bc18": "Grenade launching blunderbuss",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Empire Warhorse",
@@ -4982,9 +4951,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5000,24 +4969,23 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f2760",
+    "Id": "6810a0866a222a2f4619f3a2",
     "Name": "Musician (Pistolier)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5034,12 +5002,12 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       },
       {
         "Name": "Empire Warhorse",
@@ -5054,9 +5022,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5072,23 +5040,22 @@
     }
   },
   {
-    "Id": "68109025229aecc8c36f20fa",
+    "Id": "6810a0866a222a2f4619ed3c",
     "Name": "Pistolier",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "df-a39-e62-1c57",
-      "1a06-31aa-cbfe-1a5",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5105,11 +5072,11 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       },
       {
         "Name": "Empire Warhorse",
@@ -5124,9 +5091,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5142,21 +5109,21 @@
     }
   },
   {
-    "Id": "68109026229aecc8c36f2f2b",
+    "Id": "6810a0876a222a2f4619fb6d",
     "Name": "First Knight (Teutogen Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "898f-25e8-16c1-3ac6",
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "5f1c-fd04-b0d5-d5e",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "64fd-1757-a27b-7819"
-    ],
+    "RuleIds": {
+      "898f-25e8-16c1-3ac6": "Blessings of Ulric",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "64fd-1757-a27b-7819": "Wolf hammer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5173,12 +5140,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "64fd-1757-a27b-7819"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "64fd-1757-a27b-7819": "Wolf hammer"
+        }
       }
     ],
     "Amount": {
@@ -5194,21 +5161,21 @@
     }
   },
   {
-    "Id": "68109026229aecc8c36f33c2",
+    "Id": "6810a0876a222a2f461a0004",
     "Name": "Musician (Teutogen Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "898f-25e8-16c1-3ac6",
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "40f2-dd77-f0ca-3663",
-      "64fd-1757-a27b-7819"
-    ],
+    "RuleIds": {
+      "898f-25e8-16c1-3ac6": "Blessings of Ulric",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "64fd-1757-a27b-7819": "Wolf hammer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5225,12 +5192,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "40f2-dd77-f0ca-3663",
-          "64fd-1757-a27b-7819"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "64fd-1757-a27b-7819": "Wolf hammer"
+        }
       }
     ],
     "Amount": {
@@ -5246,21 +5213,21 @@
     }
   },
   {
-    "Id": "68109026229aecc8c36f3859",
+    "Id": "6810a0876a222a2f461a049b",
     "Name": "Standard Bearer (Teutogen Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "898f-25e8-16c1-3ac6",
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155",
-      "64fd-1757-a27b-7819"
-    ],
+    "RuleIds": {
+      "898f-25e8-16c1-3ac6": "Blessings of Ulric",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "64fd-1757-a27b-7819": "Wolf hammer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5277,12 +5244,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155",
-          "64fd-1757-a27b-7819"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer",
+          "64fd-1757-a27b-7819": "Wolf hammer"
+        }
       }
     ],
     "Amount": {
@@ -5298,20 +5265,20 @@
     }
   },
   {
-    "Id": "68109026229aecc8c36f2a83",
+    "Id": "6810a0876a222a2f4619f6c5",
     "Name": "Teutogen Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "898f-25e8-16c1-3ac6",
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "64fd-1757-a27b-7819"
-    ],
+    "RuleIds": {
+      "898f-25e8-16c1-3ac6": "Blessings of Ulric",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "64fd-1757-a27b-7819": "Wolf hammer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5328,11 +5295,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "64fd-1757-a27b-7819"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "64fd-1757-a27b-7819": "Wolf hammer"
+        }
       }
     ],
     "Amount": {
@@ -5348,25 +5315,25 @@
     }
   },
   {
-    "Id": "68109026229aecc8c36f3cea",
+    "Id": "6810a0886a222a2f461a092c",
     "Name": "Steam Tank",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "77c2-c713-163c-883b",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "1a22-9799-5f09-36ac",
-      "72db-24bb-7493-d753",
-      "1cb7-aebd-815f-6439",
-      "c7a2-35bf-4313-f4f0",
-      "d3eb-1fa0-bb19-f390",
-      "e099-1ebb-9e85-34c8",
-      "8235-c44a-66ae-60c6",
-      "b3c6-a5b6-2c6d-73a7"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "77c2-c713-163c-883b": "Grinding Wheels",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "1a22-9799-5f09-36ac": "Steam Power",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+1)",
+      "1cb7-aebd-815f-6439": "Temperamental",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "8235-c44a-66ae-60c6": "Steam Gun",
+      "b3c6-a5b6-2c6d-73a7": "Steam cannon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5383,11 +5350,11 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "8235-c44a-66ae-60c6",
-          "b3c6-a5b6-2c6d-73a7"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "8235-c44a-66ae-60c6": "Steam Gun",
+          "b3c6-a5b6-2c6d-73a7": "Steam cannon"
+        }
       },
       {
         "Name": "Engineer Commander",
@@ -5402,7 +5369,7 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       }
     ],
     "Amount": {
@@ -5418,35 +5385,26 @@
     }
   },
   {
-    "Id": "68109026229aecc8c36f3ff0",
+    "Id": "6810a0886a222a2f461a0c32",
     "Name": "War Wagon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "d1c3-dfd6-3c94-3084",
-      "883e-e1b1-4fe9-5912",
-      "fe13-1e5a-cdba-36c9",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "e099-1ebb-9e85-34c8",
-      "a666-9d03-0560-404d",
-      "6a58-c350-5546-c86b",
-      "6d4a-7733-d725-a267",
-      "95bd-0a99-0892-bce0",
-      "4fc6-b772-8224-6f96",
-      "6aed-0e26-e8df-13a4",
-      "2160-7185-6246-c91a",
-      "e099-1ebb-9e85-34c8",
-      "a666-9d03-0560-404d",
-      "6a58-c350-5546-c86b",
-      "6d4a-7733-d725-a267",
-      "95bd-0a99-0892-bce0",
-      "4fc6-b772-8224-6f96",
-      "6aed-0e26-e8df-13a4",
-      "2160-7185-6246-c91a",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d1c3-dfd6-3c94-3084": "Assorted Weapons",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "fe13-1e5a-cdba-36c9": "Crushing Weight",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1, War Wagon only)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+1)",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "a666-9d03-0560-404d": "Ball & chain",
+      "6a58-c350-5546-c86b": "Blunderbuss",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "95bd-0a99-0892-bce0": "Hooked Halberd",
+      "4fc6-b772-8224-6f96": "Long rifle",
+      "6aed-0e26-e8df-13a4": "Man-catcher",
+      "2160-7185-6246-c91a": "Repeating rifle"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5463,16 +5421,16 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "a666-9d03-0560-404d",
-          "6a58-c350-5546-c86b",
-          "6d4a-7733-d725-a267",
-          "95bd-0a99-0892-bce0",
-          "4fc6-b772-8224-6f96",
-          "6aed-0e26-e8df-13a4",
-          "2160-7185-6246-c91a"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "a666-9d03-0560-404d": "Ball & chain",
+          "6a58-c350-5546-c86b": "Blunderbuss",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "95bd-0a99-0892-bce0": "Hooked Halberd",
+          "4fc6-b772-8224-6f96": "Long rifle",
+          "6aed-0e26-e8df-13a4": "Man-catcher",
+          "2160-7185-6246-c91a": "Repeating rifle"
+        }
       },
       {
         "Name": "Barded Warhorse",
@@ -5487,16 +5445,16 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "a666-9d03-0560-404d",
-          "6a58-c350-5546-c86b",
-          "6d4a-7733-d725-a267",
-          "95bd-0a99-0892-bce0",
-          "4fc6-b772-8224-6f96",
-          "6aed-0e26-e8df-13a4",
-          "2160-7185-6246-c91a"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "a666-9d03-0560-404d": "Ball & chain",
+          "6a58-c350-5546-c86b": "Blunderbuss",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "95bd-0a99-0892-bce0": "Hooked Halberd",
+          "4fc6-b772-8224-6f96": "Long rifle",
+          "6aed-0e26-e8df-13a4": "Man-catcher",
+          "2160-7185-6246-c91a": "Repeating rifle"
+        }
       },
       {
         "Name": "War Wagon Crew",
@@ -5511,9 +5469,9 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5529,23 +5487,23 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f4616",
+    "Id": "6810a0896a222a2f461a1258",
     "Name": "Prophet of Doom (Flagellant)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "a6cf-dfbe-4dcb-153a",
-      "854c-232c-4091-ac1d",
-      "eaca-69a2-8b6a-81c6",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "b664-8530-a988-7ba9",
-      "d3eb-1fa0-bb19-f390",
-      "5f1c-fd04-b0d5-d5e",
-      "b326-5bf3-9b4e-f8ad",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "a6cf-dfbe-4dcb-153a": "Fanatical Zeal",
+      "854c-232c-4091-ac1d": "Feel No Pain",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f4b3-18af-16bf-78dd": "Hatred (All Enemies)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "b326-5bf3-9b4e-f8ad": "Flail",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5562,11 +5520,11 @@
           "A": "2",
           "Ld": "5"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "b326-5bf3-9b4e-f8ad",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "b326-5bf3-9b4e-f8ad": "Flail",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5582,23 +5540,23 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f4918",
+    "Id": "6810a0896a222a2f461a155a",
     "Name": "Standard Bearer (Flagellant)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "a6cf-dfbe-4dcb-153a",
-      "854c-232c-4091-ac1d",
-      "eaca-69a2-8b6a-81c6",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "b664-8530-a988-7ba9",
-      "d3eb-1fa0-bb19-f390",
-      "b326-5bf3-9b4e-f8ad",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "a6cf-dfbe-4dcb-153a": "Fanatical Zeal",
+      "854c-232c-4091-ac1d": "Feel No Pain",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f4b3-18af-16bf-78dd": "Hatred (All Enemies)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "b326-5bf3-9b4e-f8ad": "Flail",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5615,11 +5573,11 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "b326-5bf3-9b4e-f8ad",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "b326-5bf3-9b4e-f8ad": "Flail",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -5635,22 +5593,22 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f4310",
+    "Id": "6810a0896a222a2f461a0f52",
     "Name": "Flagellant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "a6cf-dfbe-4dcb-153a",
-      "854c-232c-4091-ac1d",
-      "eaca-69a2-8b6a-81c6",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "b664-8530-a988-7ba9",
-      "d3eb-1fa0-bb19-f390",
-      "b326-5bf3-9b4e-f8ad",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "a6cf-dfbe-4dcb-153a": "Fanatical Zeal",
+      "854c-232c-4091-ac1d": "Feel No Pain",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f4b3-18af-16bf-78dd": "Hatred (All Enemies)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "b326-5bf3-9b4e-f8ad": "Flail",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5667,10 +5625,10 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "b326-5bf3-9b4e-f8ad",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "b326-5bf3-9b4e-f8ad": "Flail",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5686,15 +5644,15 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f4c12",
+    "Id": "6810a08a6a222a2f461a1854",
     "Name": "Helblaster Volley Gun (Hellblaster Volley Gun)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "59a5-7eca-ee35-96ac",
-      "e8cc-62ef-8348-4584",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "e8cc-62ef-8348-4584": "Helblaster Volley Gun",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5711,9 +5669,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e8cc-62ef-8348-4584"
-        ]
+        "RuleIds": {
+          "e8cc-62ef-8348-4584": "Helblaster Volley Gun"
+        }
       },
       {
         "Name": "Gun Crew",
@@ -5728,9 +5686,9 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5746,15 +5704,15 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f4f1d",
+    "Id": "6810a08a6a222a2f461a1b5f",
     "Name": "Helstorm Rocket Battery (Helstorm Rocket Batteries)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "59a5-7eca-ee35-96ac",
-      "4f4b-796c-5654-e56d",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "4f4b-796c-5654-e56d": "Helstorm Rocket Battery",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5771,9 +5729,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "4f4b-796c-5654-e56d"
-        ]
+        "RuleIds": {
+          "4f4b-796c-5654-e56d": "Helstorm Rocket Battery"
+        }
       },
       {
         "Name": "Gun Crew",
@@ -5788,9 +5746,9 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -5806,22 +5764,22 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f58a4",
+    "Id": "6810a08a6a222a2f461a24e6",
     "Name": "Champion (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5838,11 +5796,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -5858,22 +5816,22 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f5d83",
+    "Id": "6810a08b6a222a2f461a29c5",
     "Name": "Musician (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5890,11 +5848,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -5910,22 +5868,22 @@
     }
   },
   {
-    "Id": "68109028229aecc8c36f6262",
+    "Id": "6810a08b6a222a2f461a2ea4",
     "Name": "Standard Bearer (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5942,11 +5900,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -5962,21 +5920,21 @@
     }
   },
   {
-    "Id": "68109027229aecc8c36f523c",
+    "Id": "6810a08a6a222a2f461a1e7e",
     "Name": "Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5993,10 +5951,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -6012,23 +5970,23 @@
     }
   },
   {
-    "Id": "68109028229aecc8c36f670b",
+    "Id": "6810a08b6a222a2f461a334d",
     "Name": "Bonegrinder Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c08-9451-ab5c-b5eb",
-      "883e-e1b1-4fe9-5912",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "4d1b-2617-ebdc-4f4d",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "d3a2-c528-1da0-e731",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "7c08-9451-ab5c-b5eb": "Bonegrinder Giant Attacks",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6045,10 +6003,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "d3a2-c528-1da0-e731",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -6064,28 +6022,28 @@
     }
   },
   {
-    "Id": "68109028229aecc8c36f6a06",
+    "Id": "6810a08b6a222a2f461a3648",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6102,9 +6060,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -6120,20 +6078,20 @@
     }
   },
   {
-    "Id": "68109028229aecc8c36f6d54",
+    "Id": "6810a08c6a222a2f461a3996",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "32f7-8e30-3fe8-b11e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6150,10 +6108,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -6169,22 +6127,22 @@
     }
   },
   {
-    "Id": "68109028229aecc8c36f7e6a",
+    "Id": "6810a08d6a222a2f461a4aac",
     "Name": "Champion (Imperial Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6201,11 +6159,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -6221,21 +6179,21 @@
     }
   },
   {
-    "Id": "68109028229aecc8c36f7b2f",
+    "Id": "6810a08d6a222a2f461a4771",
     "Name": "Imperial Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6252,10 +6210,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -6271,25 +6229,25 @@
     }
   },
   {
-    "Id": "68109029229aecc8c36f8500",
+    "Id": "6810a08d6a222a2f461a5142",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6306,13 +6264,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -6328,25 +6286,25 @@
     }
   },
   {
-    "Id": "68109029229aecc8c36f8894",
+    "Id": "6810a08d6a222a2f461a54d6",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6363,13 +6321,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -6385,25 +6343,25 @@
     }
   },
   {
-    "Id": "68109029229aecc8c36f8181",
+    "Id": "6810a08d6a222a2f461a4dc3",
     "Name": "Standard Bearer (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6420,13 +6378,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -6442,25 +6400,25 @@
     }
   },
   {
-    "Id": "68109029229aecc8c36f818a",
+    "Id": "6810a08d6a222a2f461a4dcc",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6477,13 +6435,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -6499,27 +6457,27 @@
     }
   },
   {
-    "Id": "68109029229aecc8c36f8193",
+    "Id": "6810a08d6a222a2f461a4dd5",
     "Name": "Prince Ulther Stonehammer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "f170-4b76-b645-29c4",
-      "34c9-6f88-dcfd-d3fa",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "ea58-1a09-e839-cced",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "f170-4b76-b645-29c4": "Dragonblade",
+      "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "ea58-1a09-e839-cced": "Rune of Fury",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6536,15 +6494,15 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "f170-4b76-b645-29c4",
-          "34c9-6f88-dcfd-d3fa",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "ea58-1a09-e839-cced",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "f170-4b76-b645-29c4": "Dragonblade",
+          "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "ea58-1a09-e839-cced": "Rune of Fury",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -6560,25 +6518,25 @@
     }
   },
   {
-    "Id": "68109029229aecc8c36f819c",
+    "Id": "6810a08d6a222a2f461a4dde",
     "Name": "Musician (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -6595,13 +6553,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
