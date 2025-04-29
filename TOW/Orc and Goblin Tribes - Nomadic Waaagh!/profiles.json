@@ -1,30 +1,30 @@
 [
   {
-    "Id": "68108ff4229aecc8c366f33b",
+    "Id": "6810a02e6a222a2f4611bf7d",
     "Name": "Kiknik Toofsnatcha",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "9c83-738c-c8bc-7ca4",
-      "8c0b-6fe6-dc06-512",
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "afa3-a46a-2608-f62c",
-      "8b84-abc0-9eff-bf28",
-      "df-a39-e62-1c57",
-      "6cb0-9d5a-f165-e272",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "71d4-7ac2-bcf6-a9b9",
-      "ee75-c1a8-2f0c-c264",
-      "bdfa-7454-de80-7d73",
-      "c478-cb33-aa71-5e7a",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "9c83-738c-c8bc-7ca4": "All Sneaky Like",
+      "8c0b-6fe6-dc06-512": "Ambushers",
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Chompa only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "afa3-a46a-2608-f62c": "Chariot Runners",
+      "8b84-abc0-9eff-bf28": "Da Boss’ Trophy Rack",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "71d4-7ac2-bcf6-a9b9": "’It & Run",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "bdfa-7454-de80-7d73": "Da Skull Smasha (Hammer)",
+      "c478-cb33-aa71-5e7a": "Da Skull Smasha (Pick)",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -41,13 +41,13 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "bdfa-7454-de80-7d73",
-          "c478-cb33-aa71-5e7a",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "bdfa-7454-de80-7d73": "Da Skull Smasha (Hammer)",
+          "c478-cb33-aa71-5e7a": "Da Skull Smasha (Pick)",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Chompa",
@@ -62,9 +62,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -80,22 +80,22 @@
     }
   },
   {
-    "Id": "68108ff5229aecc8c366f51f",
+    "Id": "6810a02f6a222a2f4611c161",
     "Name": "Ogdruz Swampdigga",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "296f-b05b-2e45-909d",
-      "78e4-fffe-6662-41fe",
-      "ce1-45e2-ec44-a54d",
-      "e7-89e4-3ae2-65db",
-      "505f-e12d-2e36-31d0",
-      "33f2-c333-97a-c1a7",
-      "b990-5f17-350f-c244",
-      "af85-e641-1bb1-2314",
-      "4ee3-2ad1-7dee-f23"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "296f-b05b-2e45-909d": "Da Troll Calla",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "ce1-45e2-ec44-a54d": "Protect Da Boss",
+      "e7-89e4-3ae2-65db": "Syphoned Strength",
+      "505f-e12d-2e36-31d0": "Warband",
+      "33f2-c333-97a-c1a7": "Bog-wood Staff",
+      "b990-5f17-350f-c244": "Elementalism",
+      "af85-e641-1bb1-2314": "Lore Familiar",
+      "4ee3-2ad1-7dee-f23": "Trollhide Shawl"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -112,12 +112,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "33f2-c333-97a-c1a7",
-          "b990-5f17-350f-c244",
-          "af85-e641-1bb1-2314",
-          "4ee3-2ad1-7dee-f23"
-        ]
+        "RuleIds": {
+          "33f2-c333-97a-c1a7": "Bog-wood Staff",
+          "b990-5f17-350f-c244": "Elementalism",
+          "af85-e641-1bb1-2314": "Lore Familiar",
+          "4ee3-2ad1-7dee-f23": "Trollhide Shawl"
+        }
       }
     ],
     "Amount": {
@@ -133,7 +133,7 @@
     }
   },
   {
-    "Id": "68344e08-03b6-4e1b-9ddd-8bb5d603590a",
+    "Id": "1dd5496d-abf2-436b-982f-d3375424eec2",
     "Name": "War Boar",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -141,19 +141,19 @@
       "totalcost": "91"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -170,9 +170,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -188,7 +188,7 @@
     }
   },
   {
-    "Id": "322b24e1-83e2-40b7-a5b7-0c277201e895",
+    "Id": "10314359-7838-4ff5-a847-cfe98331f985",
     "Name": "Orc Boar Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -196,26 +196,23 @@
       "totalcost": "165"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -232,10 +229,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -250,10 +247,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Orc Crew",
@@ -268,10 +265,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -287,7 +284,7 @@
     }
   },
   {
-    "Id": "24343a80-c185-4ecc-b705-5acecd17b619",
+    "Id": "d075771e-2831-42b5-a7f5-ebefc2a9afb5",
     "Name": "Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -295,23 +292,20 @@
       "totalcost": "207"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "23c4-bd19-2422-ad08",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "44c2-f355-d5ed-24d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "44c2-f355-d5ed-24d7": "Additional Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -328,10 +322,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -346,10 +340,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Orc Crew",
@@ -364,10 +358,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "44c2-f355-d5ed-24d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "44c2-f355-d5ed-24d7": "Additional Hand Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -383,25 +377,24 @@
     }
   },
   {
-    "Id": "68108ff5229aecc8c366f6f0",
+    "Id": "6810a02f6a222a2f4611c332",
     "Name": "Black Orc Bigboss",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -418,10 +411,10 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -436,9 +429,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -454,7 +447,7 @@
     }
   },
   {
-    "Id": "34022c6e-6350-4779-b742-c66cded9e802",
+    "Id": "0bb9bf86-768a-4508-9c27-098c998e8e86",
     "Name": "War Boar",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -462,19 +455,19 @@
       "totalcost": "151"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -491,9 +484,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -509,7 +502,7 @@
     }
   },
   {
-    "Id": "de551870-e0c8-4e26-b8a0-91069b6a4e22",
+    "Id": "49073975-a97d-437d-a438-8a1502cc5761",
     "Name": "Orc Boar Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -517,26 +510,23 @@
       "totalcost": "225"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -553,10 +543,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -571,10 +561,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Orc Crew",
@@ -589,10 +579,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -608,7 +598,7 @@
     }
   },
   {
-    "Id": "a9cf7605-a262-4969-952a-889174dfaf50",
+    "Id": "84ae85b4-cd4e-447e-bf23-20cd0b955b76",
     "Name": "Wyvern",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -616,22 +606,22 @@
       "totalcost": "265"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "c822-7ad0-f24a-e4af",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "7711-627f-5ae5-cc7c",
-      "c56e-8d1b-bb4-de99",
-      "c761-4dde-b2c8-b6fe",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "c761-4dde-b2c8-b6fe": "Venomous Tail",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -648,11 +638,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "c761-4dde-b2c8-b6fe",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "c761-4dde-b2c8-b6fe": "Venomous Tail",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -668,7 +658,7 @@
     }
   },
   {
-    "Id": "7c7d2168-a09c-407f-a39d-ccfdbc4a0d06",
+    "Id": "fa388181-22a1-43d4-b014-60f7ccbbdf6d",
     "Name": "Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -676,23 +666,20 @@
       "totalcost": "267"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "23c4-bd19-2422-ad08",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "44c2-f355-d5ed-24d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "44c2-f355-d5ed-24d7": "Additional Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -709,10 +696,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -727,10 +714,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 3+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Orc Crew",
@@ -745,10 +732,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "44c2-f355-d5ed-24d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "44c2-f355-d5ed-24d7": "Additional Hand Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -764,25 +751,24 @@
     }
   },
   {
-    "Id": "68108ff6229aecc8c3672fe7",
+    "Id": "6810a0316a222a2f4611fc29",
     "Name": "Black Orc Warboss",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -799,10 +785,10 @@
           "A": "4",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -817,9 +803,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -835,7 +821,7 @@
     }
   },
   {
-    "Id": "0f56a4cf-9996-4ba3-aa26-55988d6e19a9",
+    "Id": "dff0ee3f-006e-46fb-8a5a-233985d07886",
     "Name": "Goblin Wolf Chariot",
     "Attributes": {
       "type": "Light Chariot",
@@ -843,22 +829,19 @@
       "totalcost": "88"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -875,10 +858,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -893,10 +876,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -911,11 +894,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -931,7 +914,7 @@
     }
   },
   {
-    "Id": "bc304778-15e2-4015-9502-b9b31799fcd9",
+    "Id": "fcecc102-f580-45f7-9a19-2f4e66deadd1",
     "Name": "Gigantic Spider",
     "Attributes": {
       "type": "Light Cavalry",
@@ -939,18 +922,18 @@
       "totalcost": "70"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "df-a39-e62-1c57",
-      "6cb0-9d5a-f165-e272",
-      "b664-8530-a988-7ba9",
-      "e83e-f127-1904-3858",
-      "81f5-4895-4abc-fc39",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -967,9 +950,9 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -985,7 +968,7 @@
     }
   },
   {
-    "Id": "b985e63e-e3d7-4a65-90a8-c0c09f4741e2",
+    "Id": "55de6dc6-3920-417f-9852-bc1d53eca508",
     "Name": "Giant Wolf",
     "Attributes": {
       "type": "Light Cavalry",
@@ -993,13 +976,13 @@
       "totalcost": "45"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1016,9 +999,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1034,27 +1017,23 @@
     }
   },
   {
-    "Id": "68108ff7229aecc8c367680d",
+    "Id": "6810a0336a222a2f4612344f",
     "Name": "Goblin Bigboss",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1071,9 +1050,9 @@
           "A": "3",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Wolf Chariot",
@@ -1088,10 +1067,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -1106,10 +1085,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -1124,11 +1103,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -1144,7 +1123,7 @@
     }
   },
   {
-    "Id": "3cdd62e9-9494-4e15-ab39-8cdc481a1b62",
+    "Id": "258fa375-6f73-4baa-8331-2003ea87bd51",
     "Name": "Goblin Wolf Chariot",
     "Attributes": {
       "type": "Light Chariot",
@@ -1152,22 +1131,19 @@
       "totalcost": "113"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "1c45-4b57-e14e-478d",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "1c45-4b57-e14e-478d": "Lore of Mork",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1184,10 +1160,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -1202,10 +1178,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -1220,11 +1196,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -1240,7 +1216,7 @@
     }
   },
   {
-    "Id": "ed40204e-bb2d-42d9-9769-853107e39ae3",
+    "Id": "d7ad8474-b65f-4c6a-8968-27836feede3a",
     "Name": "Giant Wolf",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1248,12 +1224,12 @@
       "totalcost": "70"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "1c45-4b57-e14e-478d",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "1c45-4b57-e14e-478d": "Lore of Mork",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1270,9 +1246,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1288,29 +1264,25 @@
     }
   },
   {
-    "Id": "68108ff8229aecc8c3679eec",
+    "Id": "6810a0356a222a2f46126b2e",
     "Name": "Goblin Oddgit",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "1c45-4b57-e14e-478d",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "8be9-f485-dfe4-7f8a",
-      "afed-c0ac-a708-3351",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "1c45-4b57-e14e-478d": "Lore of Mork",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8be9-f485-dfe4-7f8a": "Lore of Mork",
+      "afed-c0ac-a708-3351": "Waaagh! Magic",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1327,11 +1299,11 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "8be9-f485-dfe4-7f8a",
-          "afed-c0ac-a708-3351"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8be9-f485-dfe4-7f8a": "Lore of Mork",
+          "afed-c0ac-a708-3351": "Waaagh! Magic"
+        }
       },
       {
         "Name": "Goblin Wolf Chariot",
@@ -1346,10 +1318,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -1364,10 +1336,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -1382,11 +1354,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -1402,7 +1374,7 @@
     }
   },
   {
-    "Id": "89b55496-1fa1-40c1-a549-421c58b330d9",
+    "Id": "10ae7a47-567e-44ad-979b-06099b9f2048",
     "Name": "Goblin Wolf Chariot",
     "Attributes": {
       "type": "Light Chariot",
@@ -1410,22 +1382,19 @@
       "totalcost": "188"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "1c45-4b57-e14e-478d",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "1c45-4b57-e14e-478d": "Lore of Mork",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1442,10 +1411,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -1460,10 +1429,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -1478,11 +1447,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -1498,7 +1467,7 @@
     }
   },
   {
-    "Id": "da290875-064d-40bb-8245-96664558cb7a",
+    "Id": "abcbddc3-7e7c-4188-94fd-7796e361c3a6",
     "Name": "Arachnorok Spider",
     "Attributes": {
       "type": "",
@@ -1506,27 +1475,26 @@
       "totalcost": "445"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "6cb0-9d5a-f165-e272",
-      "b8f6-1cbc-b19-c7b7",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "1c45-4b57-e14e-478d",
-      "e83e-f127-1904-3858",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "d4a3-bdc8-bdad-bb9",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "b8f6-1cbc-b19-c7b7": "Howdah",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "1c45-4b57-e14e-478d": "Lore of Mork",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "d4a3-bdc8-bdad-bb9": "Venom surge",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1543,11 +1511,11 @@
           "A": "6",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267",
-          "d4a3-bdc8-bdad-bb9"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "d4a3-bdc8-bdad-bb9": "Venom surge"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -1562,11 +1530,11 @@
           "A": "1",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -1582,7 +1550,7 @@
     }
   },
   {
-    "Id": "8eda046d-86d0-4a88-ac8d-430f843c224a",
+    "Id": "c3541375-0f5d-419b-a260-a2e3f41fec04",
     "Name": "Giant Wolf",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1590,12 +1558,12 @@
       "totalcost": "145"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "1c45-4b57-e14e-478d",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "1c45-4b57-e14e-478d": "Lore of Mork",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1612,9 +1580,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1630,29 +1598,25 @@
     }
   },
   {
-    "Id": "68108ff9229aecc8c367cb81",
+    "Id": "6810a0376a222a2f461297c3",
     "Name": "Goblin Oddnob",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "1c45-4b57-e14e-478d",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "8be9-f485-dfe4-7f8a",
-      "afed-c0ac-a708-3351",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "1c45-4b57-e14e-478d": "Lore of Mork",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8be9-f485-dfe4-7f8a": "Lore of Mork",
+      "afed-c0ac-a708-3351": "Waaagh! Magic",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1669,11 +1633,11 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "8be9-f485-dfe4-7f8a",
-          "afed-c0ac-a708-3351"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8be9-f485-dfe4-7f8a": "Lore of Mork",
+          "afed-c0ac-a708-3351": "Waaagh! Magic"
+        }
       },
       {
         "Name": "Goblin Wolf Chariot",
@@ -1688,10 +1652,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -1706,10 +1670,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -1724,11 +1688,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -1744,7 +1708,7 @@
     }
   },
   {
-    "Id": "9a8c0922-c393-4775-8bd3-94ffb6d3d848",
+    "Id": "745e66c5-13e5-4693-8a88-0c579e84bb74",
     "Name": "Goblin Wolf Chariot",
     "Attributes": {
       "type": "Light Chariot",
@@ -1752,22 +1716,19 @@
       "totalcost": "113"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1784,10 +1745,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -1802,10 +1763,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -1820,11 +1781,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -1840,7 +1801,7 @@
     }
   },
   {
-    "Id": "338c593a-eea1-46eb-9de9-0668dc9e7a3e",
+    "Id": "3844bc16-84c5-4974-b21c-a4b541118e97",
     "Name": "Gigantic Spider",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1848,18 +1809,18 @@
       "totalcost": "95"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "df-a39-e62-1c57",
-      "6cb0-9d5a-f165-e272",
-      "b664-8530-a988-7ba9",
-      "e83e-f127-1904-3858",
-      "81f5-4895-4abc-fc39",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1876,9 +1837,9 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1894,7 +1855,7 @@
     }
   },
   {
-    "Id": "ae17ee97-a938-43b9-8778-b8600f6e59cb",
+    "Id": "26c3008d-29c6-48c7-a3f2-4f41a71c4a9a",
     "Name": "Giant Wolf",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1902,13 +1863,13 @@
       "totalcost": "70"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1925,9 +1886,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1943,27 +1904,23 @@
     }
   },
   {
-    "Id": "68108ffa229aecc8c368025a",
+    "Id": "6810a0396a222a2f4612ce9c",
     "Name": "Goblin Warboss",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1980,9 +1937,9 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Wolf Chariot",
@@ -1997,10 +1954,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -2015,10 +1972,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -2033,11 +1990,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -2053,7 +2010,7 @@
     }
   },
   {
-    "Id": "42747ca2-fdfe-443f-a635-693479fbc738",
+    "Id": "54e3c282-4dfd-49f1-86ae-57f44ee17b08",
     "Name": "War Boar",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2061,21 +2018,21 @@
       "totalcost": "71"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2092,9 +2049,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2110,7 +2067,7 @@
     }
   },
   {
-    "Id": "28c2a1ce-9977-45f8-a1c0-68175d86fd37",
+    "Id": "4c49cfa2-272f-4f63-9b5c-c57938fabc07",
     "Name": "Orc Boar Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -2118,25 +2075,22 @@
       "totalcost": "145"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2153,10 +2107,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -2171,10 +2125,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Orc Crew",
@@ -2189,10 +2143,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2208,27 +2162,26 @@
     }
   },
   {
-    "Id": "68108ffb229aecc8c3683159",
+    "Id": "6810a03a6a222a2f4612fd9b",
     "Name": "Orc Bigboss",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2245,10 +2198,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "War Boar",
@@ -2263,9 +2216,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2281,7 +2234,7 @@
     }
   },
   {
-    "Id": "99acbf7a-7c13-485f-a729-376114b4dff9",
+    "Id": "e7b79078-dc34-409f-9904-69d0e1d6af49",
     "Name": "War Boar",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2289,21 +2242,21 @@
       "totalcost": "126"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2320,9 +2273,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2338,7 +2291,7 @@
     }
   },
   {
-    "Id": "3f0d0008-9829-4a3d-8fdb-1b73e96472d9",
+    "Id": "f3fa0d98-38a5-49b4-9392-1d885c4b9f32",
     "Name": "Wyvern",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -2346,24 +2299,24 @@
       "totalcost": "240"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "b664-8530-a988-7ba9",
-      "c822-7ad0-f24a-e4af",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "c56e-8d1b-bb4-de99",
-      "c761-4dde-b2c8-b6fe",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "c761-4dde-b2c8-b6fe": "Venomous Tail",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2380,11 +2333,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "c761-4dde-b2c8-b6fe",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "c761-4dde-b2c8-b6fe": "Venomous Tail",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2400,7 +2353,7 @@
     }
   },
   {
-    "Id": "93b57cf7-36de-484e-809f-12a6ddc298d0",
+    "Id": "4f8ed018-8766-411d-9bff-d2ae53905825",
     "Name": "Orc Boar Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -2408,25 +2361,22 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2443,10 +2393,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -2461,10 +2411,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Orc Crew",
@@ -2479,10 +2429,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2498,27 +2448,26 @@
     }
   },
   {
-    "Id": "68108ffc229aecc8c3684e9e",
+    "Id": "6810a03c6a222a2f46131ae0",
     "Name": "Orc Warboss",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "7711-627f-5ae5-cc7c",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "7711-627f-5ae5-cc7c": "Waaagh!",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2535,10 +2484,10 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "War Boar",
@@ -2553,9 +2502,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2571,7 +2520,7 @@
     }
   },
   {
-    "Id": "3b97cf81-7326-4848-823d-0e9c47bd0567",
+    "Id": "96a7aedc-5669-40b2-902e-7ac2d458ddeb",
     "Name": "War Boar",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2579,19 +2528,19 @@
       "totalcost": "81"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "48b1-c979-edba-2158",
-      "dbf3-b0e3-2fa7-b173",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "48b1-c979-edba-2158": "Lore of Gork",
+      "dbf3-b0e3-2fa7-b173": "Mob Rule",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2608,9 +2557,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2626,26 +2575,25 @@
     }
   },
   {
-    "Id": "68108ffd229aecc8c3686fa0",
+    "Id": "6810a03d6a222a2f46133be2",
     "Name": "Orc Weirdboy",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "48b1-c979-edba-2158",
-      "dbf3-b0e3-2fa7-b173",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "505f-e12d-2e36-31d0",
-      "3c27-d55d-e778-cb89",
-      "6d4a-7733-d725-a267",
-      "1602-1620-2e33-4c18",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "48b1-c979-edba-2158": "Lore of Gork",
+      "dbf3-b0e3-2fa7-b173": "Mob Rule",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "505f-e12d-2e36-31d0": "Warband",
+      "3c27-d55d-e778-cb89": "Battle Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "1602-1620-2e33-4c18": "Lore of Gork"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2662,11 +2610,11 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "3c27-d55d-e778-cb89",
-          "6d4a-7733-d725-a267",
-          "1602-1620-2e33-4c18"
-        ]
+        "RuleIds": {
+          "3c27-d55d-e778-cb89": "Battle Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1602-1620-2e33-4c18": "Lore of Gork"
+        }
       },
       {
         "Name": "War Boar",
@@ -2681,9 +2629,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2699,7 +2647,7 @@
     }
   },
   {
-    "Id": "589860d8-4938-4f3d-ae2d-7548ecc394c4",
+    "Id": "e2d18163-887e-48be-a0f9-ee40f3095e60",
     "Name": "War Boar",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2707,19 +2655,19 @@
       "totalcost": "156"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "48b1-c979-edba-2158",
-      "dbf3-b0e3-2fa7-b173",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "48b1-c979-edba-2158": "Lore of Gork",
+      "dbf3-b0e3-2fa7-b173": "Mob Rule",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2736,9 +2684,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2754,7 +2702,7 @@
     }
   },
   {
-    "Id": "a0170c6b-c4e9-44d6-8b46-be8056fd5153",
+    "Id": "01d5ce5b-9651-447d-9317-19199fa69952",
     "Name": "Wyvern",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -2762,22 +2710,22 @@
       "totalcost": "270"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "78e4-fffe-6662-41fe",
-      "c822-7ad0-f24a-e4af",
-      "48b1-c979-edba-2158",
-      "dbf3-b0e3-2fa7-b173",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "505f-e12d-2e36-31d0",
-      "c56e-8d1b-bb4-de99",
-      "c761-4dde-b2c8-b6fe",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "48b1-c979-edba-2158": "Lore of Gork",
+      "dbf3-b0e3-2fa7-b173": "Mob Rule",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "505f-e12d-2e36-31d0": "Warband",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "c761-4dde-b2c8-b6fe": "Venomous Tail",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2794,11 +2742,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "c761-4dde-b2c8-b6fe",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "c761-4dde-b2c8-b6fe": "Venomous Tail",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2814,26 +2762,25 @@
     }
   },
   {
-    "Id": "68108ffd229aecc8c36881e1",
+    "Id": "6810a03e6a222a2f46134e23",
     "Name": "Orc Weirdnob",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "5186-798d-69d-6545",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "48b1-c979-edba-2158",
-      "dbf3-b0e3-2fa7-b173",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "505f-e12d-2e36-31d0",
-      "3c27-d55d-e778-cb89",
-      "6d4a-7733-d725-a267",
-      "1602-1620-2e33-4c18",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide",
+      "b592-330-5a29-162f": "Choppas",
+      "5186-798d-69d-6545": "Counter Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "48b1-c979-edba-2158": "Lore of Gork",
+      "dbf3-b0e3-2fa7-b173": "Mob Rule",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "505f-e12d-2e36-31d0": "Warband",
+      "3c27-d55d-e778-cb89": "Battle Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "1602-1620-2e33-4c18": "Lore of Gork"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2850,11 +2797,11 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "3c27-d55d-e778-cb89",
-          "6d4a-7733-d725-a267",
-          "1602-1620-2e33-4c18"
-        ]
+        "RuleIds": {
+          "3c27-d55d-e778-cb89": "Battle Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1602-1620-2e33-4c18": "Lore of Gork"
+        }
       },
       {
         "Name": "War Boar",
@@ -2869,9 +2816,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2887,23 +2834,21 @@
     }
   },
   {
-    "Id": "68108ffe229aecc8c3689d6e",
+    "Id": "6810a03f6a222a2f461369b0",
     "Name": "Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "c392-507a-daf5-126",
-      "6d4a-7733-d725-a267",
-      "6d4a-7733-d725-a267",
-      "44c2-f355-d5ed-24d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge (Black Orc Crew only)",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "44c2-f355-d5ed-24d7": "Additional Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2920,9 +2865,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -2937,9 +2882,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Orc Crew",
@@ -2954,10 +2899,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "44c2-f355-d5ed-24d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "44c2-f355-d5ed-24d7": "Additional Hand Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2973,27 +2918,23 @@
     }
   },
   {
-    "Id": "68108ffe229aecc8c368a350",
+    "Id": "6810a03f6a222a2f46136f92",
     "Name": "Standard Bearer (Goblin Wolf Chariot)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3010,11 +2951,11 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -3029,11 +2970,11 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -3048,11 +2989,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -3068,25 +3009,22 @@
     }
   },
   {
-    "Id": "68108ffe229aecc8c368a132",
+    "Id": "6810a03f6a222a2f46136d74",
     "Name": "Goblin Wolf Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "6cb0-9d5a-f165-e272",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0"
-    ],
+    "RuleIds": {
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "1b65-71ef-52a3-93d0": "Shortbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3103,10 +3041,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -3121,10 +3059,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Goblin Crew",
@@ -3139,11 +3077,11 @@
           "A": "3",
           "Ld": "4"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow"
+        }
       }
     ],
     "Amount": {
@@ -3159,24 +3097,23 @@
     }
   },
   {
-    "Id": "68108ffe229aecc8c368a530",
+    "Id": "6810a0406a222a2f46137172",
     "Name": "Wolf Rider",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "afa3-a46a-2608-f62c",
-      "df-a39-e62-1c57",
-      "6cb0-9d5a-f165-e272",
-      "1a06-31aa-cbfe-1a5",
-      "b664-8530-a988-7ba9",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "8997-c74d-3a8d-ecf9",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "afa3-a46a-2608-f62c": "Chariot Runners",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "6cb0-9d5a-f165-e272": "Fear of Elves",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3193,10 +3130,10 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Giant Wolf",
@@ -3211,9 +3148,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3229,26 +3166,25 @@
     }
   },
   {
-    "Id": "68108ffe229aecc8c368ad4d",
+    "Id": "6810a0406a222a2f4613798f",
     "Name": "Boar Boy",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3265,10 +3201,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "War Boar",
@@ -3283,9 +3219,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3301,26 +3237,25 @@
     }
   },
   {
-    "Id": "68108fff229aecc8c368cd58",
+    "Id": "6810a0426a222a2f4613999a",
     "Name": "Boar Boy",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "5186-798d-69d-6545",
-      "eaca-69a2-8b6a-81c6",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "dc91-48b3-3696-217",
-      "c392-507a-daf5-126",
-      "505f-e12d-2e36-31d0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5186-798d-69d-6545": "Counter Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "505f-e12d-2e36-31d0": "Warband",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3337,10 +3272,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "War Boar",
@@ -3355,9 +3290,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3373,26 +3308,23 @@
     }
   },
   {
-    "Id": "68108fff229aecc8c368ed54",
+    "Id": "6810a0436a222a2f4613b996",
     "Name": "Orc Boar Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "78e4-fffe-6662-41fe",
-      "5c2-e9dd-2715-a0c0",
-      "b664-8530-a988-7ba9",
-      "c392-507a-daf5-126",
-      "505f-e12d-2e36-31d0",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "78e4-fffe-6662-41fe": "Ignore Goblin Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "505f-e12d-2e36-31d0": "Warband",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3409,10 +3341,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -3427,10 +3359,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Orc Crew",
@@ -3445,10 +3377,10 @@
           "A": "1",
           "Ld": "7"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3464,20 +3396,20 @@
     }
   },
   {
-    "Id": "68109000229aecc8c368ef41",
+    "Id": "6810a0436a222a2f4613bb83",
     "Name": "Snotling Pump Wagon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "5b67-8535-146c-7cea",
-      "4924-fc1f-bcd-746a",
-      "6d4a-7733-d725-a267",
-      "eee5-db12-1271-f2c5"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (3, Pump Wagon Impact Hits only)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "5b67-8535-146c-7cea": "Open Order",
+      "4924-fc1f-bcd-746a": "Random Movement",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "eee5-db12-1271-f2c5": "Throwing Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3494,7 +3426,7 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Snotling Crew",
@@ -3509,10 +3441,10 @@
           "A": "1",
           "Ld": "4"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "eee5-db12-1271-f2c5"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "eee5-db12-1271-f2c5": "Throwing Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3528,23 +3460,21 @@
     }
   },
   {
-    "Id": "68109000229aecc8c368f0f8",
+    "Id": "6810a0436a222a2f4613bd3a",
     "Name": "Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "b592-330-5a29-162f",
-      "883e-e1b1-4fe9-5912",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "a097-2e5c-8366-efc1",
-      "5c2-e9dd-2715-a0c0",
-      "c392-507a-daf5-126",
-      "6d4a-7733-d725-a267",
-      "6d4a-7733-d725-a267",
-      "44c2-f355-d5ed-24d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "b592-330-5a29-162f": "Choppas",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge (Black Orc Crew only)",
+      "a097-2e5c-8366-efc1": "Ignore Panic",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6+1)",
+      "c392-507a-daf5-126": "Tusker Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "44c2-f355-d5ed-24d7": "Additional Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3561,9 +3491,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Boar",
@@ -3578,9 +3508,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Black Orc Crew",
@@ -3595,10 +3525,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "44c2-f355-d5ed-24d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "44c2-f355-d5ed-24d7": "Additional Hand Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3614,23 +3544,23 @@
     }
   },
   {
-    "Id": "68109000229aecc8c368f4b1",
+    "Id": "6810a0436a222a2f4613c0f3",
     "Name": "Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "e433-20e5-52c4-8f15",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "fe58-2a95-7d15-4c0",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "742-e3dd-26f9-778f",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "e433-20e5-52c4-8f15": "Giant Attacks",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "fe58-2a95-7d15-4c0": "Pick Up And...",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "742-e3dd-26f9-778f": "Giant's Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3647,10 +3577,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "742-e3dd-26f9-778f",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "742-e3dd-26f9-778f": "Giant's Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3666,22 +3596,22 @@
     }
   },
   {
-    "Id": "68109000229aecc8c368fb9e",
+    "Id": "6810a0436a222a2f4613c7e0",
     "Name": "Champion (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3698,11 +3628,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3718,22 +3648,22 @@
     }
   },
   {
-    "Id": "68109000229aecc8c368ff37",
+    "Id": "6810a0446a222a2f4613cb79",
     "Name": "Musician (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3750,11 +3680,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -3770,22 +3700,22 @@
     }
   },
   {
-    "Id": "68109000229aecc8c36902d0",
+    "Id": "6810a0446a222a2f4613cf12",
     "Name": "Standard Bearer (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3802,11 +3732,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -3822,21 +3752,21 @@
     }
   },
   {
-    "Id": "68109000229aecc8c368f67c",
+    "Id": "6810a0436a222a2f4613c2be",
     "Name": "Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3853,10 +3783,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3872,23 +3802,23 @@
     }
   },
   {
-    "Id": "68109000229aecc8c3690632",
+    "Id": "6810a0446a222a2f4613d274",
     "Name": "Bonegrinder Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c08-9451-ab5c-b5eb",
-      "883e-e1b1-4fe9-5912",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "4d1b-2617-ebdc-4f4d",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "d3a2-c528-1da0-e731",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "7c08-9451-ab5c-b5eb": "Bonegrinder Giant Attacks",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3905,10 +3835,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "d3a2-c528-1da0-e731",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3924,28 +3854,28 @@
     }
   },
   {
-    "Id": "68109000229aecc8c36907e9",
+    "Id": "6810a0446a222a2f4613d42b",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3962,9 +3892,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3980,20 +3910,20 @@
     }
   },
   {
-    "Id": "68109001229aecc8c36909f1",
+    "Id": "6810a0456a222a2f4613d633",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "32f7-8e30-3fe8-b11e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4010,10 +3940,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4029,22 +3959,22 @@
     }
   },
   {
-    "Id": "68109001229aecc8c36914a8",
+    "Id": "6810a0456a222a2f4613e0ea",
     "Name": "Champion (Imperial Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4061,11 +3991,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4081,21 +4011,21 @@
     }
   },
   {
-    "Id": "68109001229aecc8c36912b3",
+    "Id": "6810a0456a222a2f4613def5",
     "Name": "Imperial Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4112,10 +4042,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4131,25 +4061,25 @@
     }
   },
   {
-    "Id": "68109001229aecc8c36918b6",
+    "Id": "6810a0466a222a2f4613e4f8",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4166,13 +4096,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4188,25 +4118,25 @@
     }
   },
   {
-    "Id": "68109001229aecc8c3691b04",
+    "Id": "6810a0466a222a2f4613e746",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4223,13 +4153,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4245,25 +4175,25 @@
     }
   },
   {
-    "Id": "68109001229aecc8c369167d",
+    "Id": "6810a0466a222a2f4613e2bf",
     "Name": "Standard Bearer (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4280,13 +4210,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4302,25 +4232,25 @@
     }
   },
   {
-    "Id": "68109001229aecc8c3691686",
+    "Id": "6810a0466a222a2f4613e2c8",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4337,13 +4267,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4359,27 +4289,27 @@
     }
   },
   {
-    "Id": "68109001229aecc8c369168f",
+    "Id": "6810a0466a222a2f4613e2d1",
     "Name": "Prince Ulther Stonehammer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "f170-4b76-b645-29c4",
-      "34c9-6f88-dcfd-d3fa",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "ea58-1a09-e839-cced",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "f170-4b76-b645-29c4": "Dragonblade",
+      "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "ea58-1a09-e839-cced": "Rune of Fury",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4396,15 +4326,15 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "f170-4b76-b645-29c4",
-          "34c9-6f88-dcfd-d3fa",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "ea58-1a09-e839-cced",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "f170-4b76-b645-29c4": "Dragonblade",
+          "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "ea58-1a09-e839-cced": "Rune of Fury",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4420,25 +4350,25 @@
     }
   },
   {
-    "Id": "68109001229aecc8c3691698",
+    "Id": "6810a0466a222a2f4613e2da",
     "Name": "Musician (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4455,13 +4385,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {

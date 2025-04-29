@@ -1,6 +1,6 @@
 [
   {
-    "Id": "e4fd23d1-5627-4f6d-b48b-bc02c9b52ea9",
+    "Id": "7c8434e7-5cff-4e77-936d-14645c5fc5bb",
     "Name": "Chieftain's Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -8,24 +8,22 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "5c2-e9dd-2715-a0c0",
-      "5165-a2ab-10c6-fc68",
-      "e83e-f127-1904-3858",
-      "e351-bbd6-f470-b604",
-      "ad15-64c2-7926-1214",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "6d4a-7733-d725-a267",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Chracian Lions only)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6, Chieftain's Chariot only)",
+      "5165-a2ab-10c6-fc68": "Mighty Constitution",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "ad15-64c2-7926-1214": "The Pelt of Charandis",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -42,9 +40,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chracian Lion",
@@ -59,9 +57,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Charioteer",
@@ -76,10 +74,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -95,22 +93,22 @@
     }
   },
   {
-    "Id": "68108f84229aecc8c3507daf",
+    "Id": "68109f446a222a2f46fb49f0",
     "Name": "Korhil Lionmane, Captain of the White Lions",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "eaca-69a2-8b6a-81c6",
-      "5165-a2ab-10c6-fc68",
-      "e83e-f127-1904-3858",
-      "e351-bbd6-f470-b604",
-      "ad15-64c2-7926-1214",
-      "6731-240-f75b-dcac",
-      "6f3b-b620-8fa0-dd64",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "5165-a2ab-10c6-fc68": "Mighty Constitution",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "ad15-64c2-7926-1214": "The Pelt of Charandis",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6f3b-b620-8fa0-dd64": "Chayal",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -127,11 +125,11 @@
           "A": "4",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6f3b-b620-8fa0-dd64",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6f3b-b620-8fa0-dd64": "Chayal",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -147,7 +145,7 @@
     }
   },
   {
-    "Id": "1c0bba7b-7bd9-4642-ac09-e3baffd98283",
+    "Id": "002ed30e-341c-4d9f-a4b4-2f03e6e791b4",
     "Name": "Great Eagle",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -155,20 +153,20 @@
       "totalcost": "215"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -185,10 +183,10 @@
           "A": "3",
           "Ld": "6"
         },
-        "RuleIds": [
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -204,7 +202,7 @@
     }
   },
   {
-    "Id": "d0a4a15e-6117-4531-a2ca-58eab35c2a6f",
+    "Id": "6a428558-04e3-4d6b-b474-e788ed141c05",
     "Name": "Skycutter",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -212,28 +210,23 @@
       "totalcost": "245"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0",
-      "8382-4e23-e72c-d90",
-      "e099-1ebb-9e85-34c8",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "1b65-71ef-52a3-93d0": "Shortbow",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -250,13 +243,13 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       },
       {
         "Name": "Swiftfeather Roc",
@@ -271,13 +264,13 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       },
       {
         "Name": "Sea Guard Crew",
@@ -292,7 +285,7 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       }
     ],
     "Amount": {
@@ -308,7 +301,7 @@
     }
   },
   {
-    "Id": "dfa1f508-f2cf-4e5a-8312-de9db35be4a0",
+    "Id": "8454639b-1537-4295-8a38-32196e7ca881",
     "Name": "Lion Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -316,25 +309,22 @@
       "totalcost": "280"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "a7af-d5ea-928a-6134",
-      "4123-3227-347e-3b39",
-      "ab46-ca53-931e-a0e1",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -351,10 +341,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Lion",
@@ -369,10 +359,10 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Lion Charioteer",
@@ -387,10 +377,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -406,7 +396,7 @@
     }
   },
   {
-    "Id": "623744c5-2aef-4ce8-b389-5b05278451ac",
+    "Id": "d8f8dcd6-4b1e-4322-943b-2d4126103389",
     "Name": "Flamespyre Phoenix",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -414,25 +404,25 @@
       "totalcost": "325"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "64df-8822-caec-91e8",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "e45d-952-f679-ae2c",
-      "c557-6102-9a35-bbcd",
-      "751f-b2e3-fa87-334e",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "3cc3-f9c9-4679-c08e",
-      "c56e-8d1b-bb4-de99",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "64df-8822-caec-91e8": "Blessings of Asuryan",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "e45d-952-f679-ae2c": "Flaming Attacks",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "751f-b2e3-fa87-334e": "From the Ashes",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "3cc3-f9c9-4679-c08e": "Wake of Fire",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -449,10 +439,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -468,7 +458,7 @@
     }
   },
   {
-    "Id": "76b21634-7855-45b6-b834-5e8a14f7af08",
+    "Id": "8a862540-2335-4e2d-964f-f6ff0e7b22eb",
     "Name": "Frostheart Phoenix",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -476,22 +466,22 @@
       "totalcost": "360"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d32a-1537-c2c9-1b1d",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d32a-1537-c2c9-1b1d": "Blizzard Aura",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -508,10 +498,10 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -527,7 +517,7 @@
     }
   },
   {
-    "Id": "1c43d870-7e20-4798-b09e-cc0b85a829fe",
+    "Id": "7fd9d1b9-f4d9-43c6-9fb2-58e82fdbdce9",
     "Name": "Elven Steed",
     "Attributes": {
       "type": "Light Cavalry",
@@ -535,16 +525,16 @@
       "totalcost": "169"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "df-a39-e62-1c57",
-      "ff10-6f2b-b0a4-9a1a",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -561,9 +551,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -579,7 +569,7 @@
     }
   },
   {
-    "Id": "d14d7aa0-42fa-4a81-829a-1181d3ba041e",
+    "Id": "0dfeb469-6334-478e-8cf8-763e5f375898",
     "Name": "Barded Elven Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -587,19 +577,19 @@
       "totalcost": "173"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "f18f-50f-3108-1486",
-      "785a-2886-af42-dce9",
-      "d359-a3e5-142e-db2f",
-      "ff10-6f2b-b0a4-9a1a",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "785a-2886-af42-dce9": "First Charge",
+      "d359-a3e5-142e-db2f": "Ithilmar Barding",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -616,10 +606,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -635,7 +625,7 @@
     }
   },
   {
-    "Id": "12ef74c0-71ec-4b25-bedc-4e78c1120d79",
+    "Id": "3712554f-9d70-4ca3-9bc8-04774dea5c5a",
     "Name": "Sun Dragon",
     "Attributes": {
       "type": "",
@@ -643,22 +633,22 @@
       "totalcost": "335"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "f34b-f68e-23c7-145f",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f34b-f68e-23c7-145f": "Dragon fire",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -675,11 +665,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "f34b-f68e-23c7-145f",
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "f34b-f68e-23c7-145f": "Dragon fire",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -695,7 +685,7 @@
     }
   },
   {
-    "Id": "5f8bddbe-7329-4e87-9be9-b5fc1e4f455a",
+    "Id": "5a8345dc-2ad5-48b8-ac99-1a021d878a2c",
     "Name": "Moon Dragon",
     "Attributes": {
       "type": "",
@@ -703,22 +693,22 @@
       "totalcost": "390"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "f34b-f68e-23c7-145f",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f34b-f68e-23c7-145f": "Dragon fire",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -735,11 +725,11 @@
           "A": "5",
           "Ld": "-"
         },
-        "RuleIds": [
-          "f34b-f68e-23c7-145f",
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "f34b-f68e-23c7-145f": "Dragon fire",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -755,7 +745,7 @@
     }
   },
   {
-    "Id": "e8a44c92-99f1-48e9-94fc-a770a6e285a7",
+    "Id": "742046a5-8089-414b-9348-e65617eae8d0",
     "Name": "Star Dragon",
     "Attributes": {
       "type": "",
@@ -763,22 +753,22 @@
       "totalcost": "445"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "f34b-f68e-23c7-145f",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f34b-f68e-23c7-145f": "Dragon fire",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -795,11 +785,11 @@
           "A": "6",
           "Ld": "-"
         },
-        "RuleIds": [
-          "f34b-f68e-23c7-145f",
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "f34b-f68e-23c7-145f": "Dragon fire",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -815,19 +805,19 @@
     }
   },
   {
-    "Id": "68108f84229aecc8c3508191",
+    "Id": "68109f446a222a2f46fb4dd2",
     "Name": "Archmage",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "ff10-6f2b-b0a4-9a1a",
-      "a7af-d5ea-928a-6134",
-      "ab46-ca53-931e-a0e1",
-      "6731-240-f75b-dcac",
-      "3c27-d55d-e778-cb89",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "a7af-d5ea-928a-6134": "Lileath's Blessing",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "3c27-d55d-e778-cb89": "Battle Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -844,10 +834,10 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "3c27-d55d-e778-cb89",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "3c27-d55d-e778-cb89": "Battle Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -863,7 +853,7 @@
     }
   },
   {
-    "Id": "ca8f6eac-154b-4352-b618-08892099db62",
+    "Id": "fa036a43-0aaf-4e56-ad34-48b07ac3b3aa",
     "Name": "Chieftain's Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -871,25 +861,23 @@
       "totalcost": "210"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "eaca-69a2-8b6a-81c6",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "48fd-23c1-c0d5-ae1d",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "6d4a-7733-d725-a267",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Chracian Lions only)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6, Chieftain's Chariot only)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -906,9 +894,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Chracian Lion",
@@ -923,9 +911,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Charioteer",
@@ -940,10 +928,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -959,21 +947,21 @@
     }
   },
   {
-    "Id": "68108f86229aecc8c350f253",
+    "Id": "68109f486a222a2f46fbbe94",
     "Name": "Chracian Chieftain",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "eaca-69a2-8b6a-81c6",
-      "ff10-6f2b-b0a4-9a1a",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "48fd-23c1-c0d5-ae1d",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -990,10 +978,10 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -1009,7 +997,7 @@
     }
   },
   {
-    "Id": "43351953-1889-49c6-b62b-f428250465e2",
+    "Id": "15cc896a-b508-4941-a44b-305d64ce5cc1",
     "Name": "Great Eagle",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -1017,18 +1005,18 @@
       "totalcost": "133"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1045,10 +1033,10 @@
           "A": "3",
           "Ld": "6"
         },
-        "RuleIds": [
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1064,7 +1052,7 @@
     }
   },
   {
-    "Id": "aaeecadc-f0fd-4760-847c-8d0aa7c78a4f",
+    "Id": "12831408-1901-4b28-aed4-8f8d2faa0be2",
     "Name": "Tiranoc Chariot",
     "Attributes": {
       "type": "Light Chariot",
@@ -1072,23 +1060,20 @@
       "totalcost": "148"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "5b67-8535-146c-7cea",
-      "f733-b74b-6cb1-c69",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "16e8-23be-ce45-768d"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "5b67-8535-146c-7cea": "Open Order",
+      "f733-b74b-6cb1-c69": "Quick Shot",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "16e8-23be-ce45-768d": "Longbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1105,10 +1090,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Elven Steed",
@@ -1123,10 +1108,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Tiranoc Charioteer",
@@ -1141,11 +1126,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "16e8-23be-ce45-768d"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "16e8-23be-ce45-768d": "Longbow"
+        }
       }
     ],
     "Amount": {
@@ -1161,7 +1146,7 @@
     }
   },
   {
-    "Id": "0b488b5f-741a-47ed-ba6d-ad0e4c894a96",
+    "Id": "610d8582-4c06-4a79-9e4a-246726b92e0e",
     "Name": "Lion Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1169,24 +1154,21 @@
       "totalcost": "198"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "4123-3227-347e-3b39",
-      "48fd-23c1-c0d5-ae1d",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1203,10 +1185,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Lion",
@@ -1221,10 +1203,10 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Lion Charioteer",
@@ -1239,10 +1221,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1258,7 +1240,7 @@
     }
   },
   {
-    "Id": "8d0330f5-eec1-4889-b0af-2e75cf80e101",
+    "Id": "a0eaf4f0-1517-4b2c-bf68-c0a8330491a4",
     "Name": "Skycutter",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1266,27 +1248,22 @@
       "totalcost": "163"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0",
-      "8382-4e23-e72c-d90",
-      "e099-1ebb-9e85-34c8",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "1b65-71ef-52a3-93d0": "Shortbow",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1303,13 +1280,13 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       },
       {
         "Name": "Swiftfeather Roc",
@@ -1324,13 +1301,13 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       },
       {
         "Name": "Sea Guard Crew",
@@ -1345,7 +1322,7 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       }
     ],
     "Amount": {
@@ -1361,7 +1338,7 @@
     }
   },
   {
-    "Id": "78561c00-c041-48f8-baba-69726a387880",
+    "Id": "69ac13ed-6a4e-41de-880e-b2f163dcfaff",
     "Name": "Flamespyre Phoenix",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -1369,23 +1346,23 @@
       "totalcost": "243"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "64df-8822-caec-91e8",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "e45d-952-f679-ae2c",
-      "c557-6102-9a35-bbcd",
-      "751f-b2e3-fa87-334e",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "3cc3-f9c9-4679-c08e",
-      "c56e-8d1b-bb4-de99",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "64df-8822-caec-91e8": "Blessings of Asuryan",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "e45d-952-f679-ae2c": "Flaming Attacks",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "751f-b2e3-fa87-334e": "From the Ashes",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "3cc3-f9c9-4679-c08e": "Wake of Fire",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1402,10 +1379,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1421,7 +1398,7 @@
     }
   },
   {
-    "Id": "48598606-9fa8-464e-b531-d107fff09af7",
+    "Id": "fdc9439e-0cc6-4476-834b-66729a614010",
     "Name": "Frostheart Phoenix",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -1429,20 +1406,20 @@
       "totalcost": "278"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d32a-1537-c2c9-1b1d",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d32a-1537-c2c9-1b1d": "Blizzard Aura",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1459,10 +1436,10 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1478,7 +1455,7 @@
     }
   },
   {
-    "Id": "fd9ab944-7f64-447e-a537-9dc00f5d8cde",
+    "Id": "746b0a80-69ca-471d-8fdb-894d6d515a75",
     "Name": "Elven Steed",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1486,14 +1463,14 @@
       "totalcost": "87"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1510,9 +1487,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1528,7 +1505,7 @@
     }
   },
   {
-    "Id": "546db17f-8ba1-43bf-8d56-5836d3fbaa80",
+    "Id": "8cd1ef47-7316-49ca-8a41-e600a2bbd6d7",
     "Name": "Barded Elven Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -1536,17 +1513,17 @@
       "totalcost": "91"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "d359-a3e5-142e-db2f",
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "d359-a3e5-142e-db2f": "Ithilmar Barding",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1563,10 +1540,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1582,7 +1559,7 @@
     }
   },
   {
-    "Id": "e1853af4-1879-433b-9058-35dcb4779c22",
+    "Id": "f2b06845-c33a-4f5a-8511-f63044613404",
     "Name": "Griffon",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -1590,20 +1567,20 @@
       "totalcost": "203"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "c56e-8d1b-bb4-de99",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1620,11 +1597,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1640,7 +1617,7 @@
     }
   },
   {
-    "Id": "c72b3b64-bbb6-49c1-89a1-bfd117b41e53",
+    "Id": "345fda35-2b13-46d9-bf05-1eba79f93f3b",
     "Name": "Sun Dragon",
     "Attributes": {
       "type": "",
@@ -1648,20 +1625,20 @@
       "totalcost": "253"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "f34b-f68e-23c7-145f",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f34b-f68e-23c7-145f": "Dragon fire",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1678,11 +1655,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "f34b-f68e-23c7-145f",
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "f34b-f68e-23c7-145f": "Dragon fire",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1698,17 +1675,17 @@
     }
   },
   {
-    "Id": "68108f87229aecc8c351054b",
+    "Id": "68109f496a222a2f46fbd18c",
     "Name": "Noble",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1725,10 +1702,10 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -1744,7 +1721,7 @@
     }
   },
   {
-    "Id": "f8e8bf60-6814-4019-bfc7-a0d1b18e5b60",
+    "Id": "e3837420-b692-4138-9dee-10c939b9fc39",
     "Name": "Griffon",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -1752,20 +1729,20 @@
       "totalcost": "260"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "c56e-8d1b-bb4-de99",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1782,11 +1759,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1802,7 +1779,7 @@
     }
   },
   {
-    "Id": "fb155c20-718a-4931-ad20-9a2b01909406",
+    "Id": "5e0186b8-7513-4327-993a-9a4a1566da45",
     "Name": "Elven Steed",
     "Attributes": {
       "type": "Light Cavalry",
@@ -1810,14 +1787,14 @@
       "totalcost": "144"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "df-a39-e62-1c57",
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "df-a39-e62-1c57": "Fast Cavalry",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1834,9 +1811,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1852,7 +1829,7 @@
     }
   },
   {
-    "Id": "29c6aabb-e35b-4925-bee5-6acc8242b08b",
+    "Id": "64bced92-3b55-4eff-9d9c-6cd3604c4067",
     "Name": "Moon Dragon",
     "Attributes": {
       "type": "",
@@ -1860,20 +1837,20 @@
       "totalcost": "365"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "f34b-f68e-23c7-145f",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f34b-f68e-23c7-145f": "Dragon fire",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1890,11 +1867,11 @@
           "A": "5",
           "Ld": "-"
         },
-        "RuleIds": [
-          "f34b-f68e-23c7-145f",
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "f34b-f68e-23c7-145f": "Dragon fire",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1910,7 +1887,7 @@
     }
   },
   {
-    "Id": "f32b74bb-c6b1-4c76-b015-2facd2d1421b",
+    "Id": "a33c9394-eeaa-4bee-bb22-2d9a1cd90e21",
     "Name": "Star Dragon",
     "Attributes": {
       "type": "",
@@ -1918,20 +1895,20 @@
       "totalcost": "420"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "f34b-f68e-23c7-145f",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f34b-f68e-23c7-145f": "Dragon fire",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1948,11 +1925,11 @@
           "A": "6",
           "Ld": "-"
         },
-        "RuleIds": [
-          "f34b-f68e-23c7-145f",
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "f34b-f68e-23c7-145f": "Dragon fire",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -1968,7 +1945,7 @@
     }
   },
   {
-    "Id": "2ac753d0-4a52-438e-9c75-7b15486280dd",
+    "Id": "90f95297-2ad3-41ac-89e8-4dbd4827fd30",
     "Name": "Lion Chariot",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -1976,24 +1953,21 @@
       "totalcost": "255"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "4123-3227-347e-3b39",
-      "48fd-23c1-c0d5-ae1d",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2010,10 +1984,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Lion",
@@ -2028,10 +2002,10 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Lion Charioteer",
@@ -2046,10 +2020,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2065,7 +2039,7 @@
     }
   },
   {
-    "Id": "0ff7e851-556a-418e-b641-c164ec4aacc0",
+    "Id": "7ec35861-3877-474b-891c-e277a7e09055",
     "Name": "Tiranoc Chariot",
     "Attributes": {
       "type": "Light Chariot",
@@ -2073,23 +2047,20 @@
       "totalcost": "205"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "5b67-8535-146c-7cea",
-      "f733-b74b-6cb1-c69",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "16e8-23be-ce45-768d"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "5b67-8535-146c-7cea": "Open Order",
+      "f733-b74b-6cb1-c69": "Quick Shot",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "16e8-23be-ce45-768d": "Longbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2106,10 +2077,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Elven Steed",
@@ -2124,10 +2095,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 5+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Tiranoc Charioteer",
@@ -2142,11 +2113,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "16e8-23be-ce45-768d"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "16e8-23be-ce45-768d": "Longbow"
+        }
       }
     ],
     "Amount": {
@@ -2162,7 +2133,7 @@
     }
   },
   {
-    "Id": "798518ac-bc26-40e7-b206-fa8aec80b86e",
+    "Id": "dbdb54e7-6d28-4e04-93eb-ce458e62e706",
     "Name": "Great Eagle",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -2170,18 +2141,18 @@
       "totalcost": "190"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2198,10 +2169,10 @@
           "A": "3",
           "Ld": "6"
         },
-        "RuleIds": [
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2217,7 +2188,7 @@
     }
   },
   {
-    "Id": "d9ca25cc-a4c7-4e2c-9ef2-f75cd9b860fe",
+    "Id": "d3a5b70f-4b4a-44d0-a09c-6bcedd72b374",
     "Name": "Barded Elven Steed",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -2225,17 +2196,17 @@
       "totalcost": "148"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5186-798d-69d-6545",
-      "785a-2886-af42-dce9",
-      "d359-a3e5-142e-db2f",
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "eb5d-bd8a-c75c-66d7",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5186-798d-69d-6545": "Counter Charge",
+      "785a-2886-af42-dce9": "First Charge",
+      "d359-a3e5-142e-db2f": "Ithilmar Barding",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "eb5d-bd8a-c75c-66d7": "Barding",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2252,10 +2223,10 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "eb5d-bd8a-c75c-66d7",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "eb5d-bd8a-c75c-66d7": "Barding",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2271,7 +2242,7 @@
     }
   },
   {
-    "Id": "d96987ed-a462-4749-b969-76107e70b236",
+    "Id": "3f8e17c8-841a-48f2-b31f-ec4e45a072b9",
     "Name": "Flamespyre Phoenix",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -2279,23 +2250,23 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "64df-8822-caec-91e8",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "e45d-952-f679-ae2c",
-      "c557-6102-9a35-bbcd",
-      "751f-b2e3-fa87-334e",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "3cc3-f9c9-4679-c08e",
-      "c56e-8d1b-bb4-de99",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "64df-8822-caec-91e8": "Blessings of Asuryan",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "e45d-952-f679-ae2c": "Flaming Attacks",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "751f-b2e3-fa87-334e": "From the Ashes",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "3cc3-f9c9-4679-c08e": "Wake of Fire",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2312,10 +2283,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2331,7 +2302,7 @@
     }
   },
   {
-    "Id": "b9584082-d908-4927-b62b-45d87a6a3475",
+    "Id": "cefa1075-e8e9-4584-b48c-8e63c367253f",
     "Name": "Frostheart Phoenix",
     "Attributes": {
       "type": "Monstrous Creature",
@@ -2339,20 +2310,20 @@
       "totalcost": "335"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "d32a-1537-c2c9-1b1d",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "d32a-1537-c2c9-1b1d": "Blizzard Aura",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2369,10 +2340,10 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2388,7 +2359,7 @@
     }
   },
   {
-    "Id": "71fecd73-a898-46b0-ae37-c66706ad9002",
+    "Id": "c3ca3ade-57e9-4bde-aa51-65991b6348e4",
     "Name": "Skycutter",
     "Attributes": {
       "type": "Heavy Chariot",
@@ -2396,27 +2367,22 @@
       "totalcost": "220"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "5c2-e9dd-2715-a0c0",
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0",
-      "8382-4e23-e72c-d90",
-      "e099-1ebb-9e85-34c8",
-      "ee75-c1a8-2f0c-c264",
-      "6d4a-7733-d725-a267",
-      "1b65-71ef-52a3-93d0",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "1b65-71ef-52a3-93d0": "Shortbow",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2433,13 +2399,13 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       },
       {
         "Name": "Swiftfeather Roc",
@@ -2454,13 +2420,13 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "ee75-c1a8-2f0c-c264",
-          "6d4a-7733-d725-a267",
-          "1b65-71ef-52a3-93d0",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "1b65-71ef-52a3-93d0": "Shortbow",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       },
       {
         "Name": "Sea Guard Crew",
@@ -2475,7 +2441,7 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       }
     ],
     "Amount": {
@@ -2491,7 +2457,7 @@
     }
   },
   {
-    "Id": "524b23c5-58a1-4716-a1cc-149a18c07ba4",
+    "Id": "9504314b-af83-41e7-8440-0b820cebce88",
     "Name": "Sun Dragon",
     "Attributes": {
       "type": "",
@@ -2499,20 +2465,20 @@
       "totalcost": "310"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "c557-6102-9a35-bbcd",
-      "ff10-6f2b-b0a4-9a1a",
-      "c822-7ad0-f24a-e4af",
-      "72db-24bb-7493-d753",
-      "48fd-23c1-c0d5-ae1d",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "6731-240-f75b-dcac",
-      "f34b-f68e-23c7-145f",
-      "9a1d-38b0-7d7-7552",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6)",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f34b-f68e-23c7-145f": "Dragon fire",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2529,11 +2495,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "f34b-f68e-23c7-145f",
-          "9a1d-38b0-7d7-7552",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "f34b-f68e-23c7-145f": "Dragon fire",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -2549,17 +2515,17 @@
     }
   },
   {
-    "Id": "68108f89229aecc8c3517df3",
+    "Id": "68109f4d6a222a2f46fc4a34",
     "Name": "Prince",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "ff10-6f2b-b0a4-9a1a",
-      "48fd-23c1-c0d5-ae1d",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2576,10 +2542,10 @@
           "A": "4",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2595,7 +2561,7 @@
     }
   },
   {
-    "Id": "65b52914-952b-4c73-9da9-5f10fc222fb0",
+    "Id": "80cc852c-2c0c-49f7-9dc9-655caaf75783",
     "Name": "Unicorn",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -2603,20 +2569,20 @@
       "totalcost": "120"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "9d72-02ef-9ee7-9d91",
-      "5186-798d-69d-6545",
-      "f18f-50f-3108-1486",
-      "ff10-6f2b-b0a4-9a1a",
-      "ab46-ca53-931e-a0e1",
-      "2125-6aa2-f782-42bf",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (2, Unicorn Only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "9d72-02ef-9ee7-9d91": "Beguiling Aura",
+      "5186-798d-69d-6545": "Counter Charge",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "2125-6aa2-f782-42bf": "Magical Attacks",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2633,9 +2599,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2651,18 +2617,18 @@
     }
   },
   {
-    "Id": "68108f8b229aecc8c351faaf",
+    "Id": "68109f526a222a2f46fcc6f0",
     "Name": "Storm Weaver",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "ff10-6f2b-b0a4-9a1a",
-      "ab46-ca53-931e-a0e1",
-      "6731-240-f75b-dcac",
-      "f21c-26a3-f179-be43",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "ab46-ca53-931e-a0e1": "Lore of Saphery",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "f21c-26a3-f179-be43": "Dark Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2679,10 +2645,10 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "f21c-26a3-f179-be43",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "f21c-26a3-f179-be43": "Dark Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2698,21 +2664,21 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c3520eb9",
+    "Id": "68109f536a222a2f46fcdafa",
     "Name": "Chracian Captain (Chracian Woodsman)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "e83e-f127-1904-3858",
-      "59a5-7eca-ee35-96ac",
-      "6731-240-f75b-dcac",
-      "691e-10ec-4f7c-a2c4",
-      "5f1c-fd04-b0d5-d5e",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2729,12 +2695,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2750,21 +2716,21 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c352109a",
+    "Id": "68109f536a222a2f46fcdcdb",
     "Name": "Musician (Chracian Woodsman)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "e83e-f127-1904-3858",
-      "59a5-7eca-ee35-96ac",
-      "6731-240-f75b-dcac",
-      "691e-10ec-4f7c-a2c4",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2781,12 +2747,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -2802,21 +2768,21 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c352127b",
+    "Id": "68109f546a222a2f46fcdebc",
     "Name": "Standard Bearer (Chracian Woodsman)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "e83e-f127-1904-3858",
-      "59a5-7eca-ee35-96ac",
-      "6731-240-f75b-dcac",
-      "691e-10ec-4f7c-a2c4",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2833,12 +2799,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -2854,20 +2820,20 @@
     }
   },
   {
-    "Id": "68108f8b229aecc8c3520cc8",
+    "Id": "68109f536a222a2f46fcd909",
     "Name": "Chracian Woodsman",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "e83e-f127-1904-3858",
-      "59a5-7eca-ee35-96ac",
-      "6731-240-f75b-dcac",
-      "691e-10ec-4f7c-a2c4",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2884,11 +2850,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2904,19 +2870,19 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c352165d",
+    "Id": "68109f546a222a2f46fce29e",
     "Name": "Sentinel (Elven Archer)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "f18f-50f-3108-1486",
-      "6731-240-f75b-dcac",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "16e8-23be-ce45-768d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "16e8-23be-ce45-768d": "Longbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2933,11 +2899,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "16e8-23be-ce45-768d"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "16e8-23be-ce45-768d": "Longbow"
+        }
       }
     ],
     "Amount": {
@@ -2953,19 +2919,19 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c352185c",
+    "Id": "68109f546a222a2f46fce49d",
     "Name": "Musician (Elven Archer)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "f18f-50f-3108-1486",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "16e8-23be-ce45-768d",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "16e8-23be-ce45-768d": "Longbow",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2982,11 +2948,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "16e8-23be-ce45-768d",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "16e8-23be-ce45-768d": "Longbow",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -3002,19 +2968,19 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c3521a52",
+    "Id": "68109f546a222a2f46fce693",
     "Name": "Standard Bearer (Elven Archer)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "f18f-50f-3108-1486",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "16e8-23be-ce45-768d",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "16e8-23be-ce45-768d": "Longbow",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3031,11 +2997,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "16e8-23be-ce45-768d",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "16e8-23be-ce45-768d": "Longbow",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -3051,18 +3017,18 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c3521458",
+    "Id": "68109f546a222a2f46fce099",
     "Name": "Elven Archer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "f18f-50f-3108-1486",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "16e8-23be-ce45-768d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "16e8-23be-ce45-768d": "Longbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3079,10 +3045,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "16e8-23be-ce45-768d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "16e8-23be-ce45-768d": "Longbow"
+        }
       }
     ],
     "Amount": {
@@ -3098,22 +3064,22 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c3521e47",
+    "Id": "68109f556a222a2f46fcea88",
     "Name": "Sentinel (Elven Spearman)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "306e-1857-ff89-754e",
-      "7424-ec43-7581-965a",
-      "6731-240-f75b-dcac",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "306e-1857-ff89-754e": "Martial Prowess",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3130,13 +3096,13 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3152,22 +3118,22 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c3522048",
+    "Id": "68109f556a222a2f46fcec89",
     "Name": "Musician (Elven Spearman)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "306e-1857-ff89-754e",
-      "7424-ec43-7581-965a",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "306e-1857-ff89-754e": "Martial Prowess",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3184,13 +3150,13 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3206,22 +3172,22 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c3522240",
+    "Id": "68109f556a222a2f46fcee81",
     "Name": "Standard Bearer (Elven Spearman)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "306e-1857-ff89-754e",
-      "7424-ec43-7581-965a",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "306e-1857-ff89-754e": "Martial Prowess",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3238,13 +3204,13 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3260,21 +3226,21 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c3521c3c",
+    "Id": "68109f556a222a2f46fce87d",
     "Name": "Elven Spearman",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "306e-1857-ff89-754e",
-      "7424-ec43-7581-965a",
-      "6731-240-f75b-dcac",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "85-9154-7dc1-ddc6"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "306e-1857-ff89-754e": "Martial Prowess",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "85-9154-7dc1-ddc6": "Thrusting Spear"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3291,12 +3257,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "85-9154-7dc1-ddc6"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "85-9154-7dc1-ddc6": "Thrusting Spear"
+        }
       }
     ],
     "Amount": {
@@ -3312,24 +3278,24 @@
     }
   },
   {
-    "Id": "68108f8d229aecc8c3522d98",
+    "Id": "68109f566a222a2f46fcf9d9",
     "Name": "Guardian (White Lion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "5f1c-fd04-b0d5-d5e",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3346,12 +3312,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3367,24 +3333,24 @@
     }
   },
   {
-    "Id": "68108f8d229aecc8c3523701",
+    "Id": "68109f566a222a2f46fd0342",
     "Name": "Musician (White Lion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3401,12 +3367,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -3422,24 +3388,24 @@
     }
   },
   {
-    "Id": "68108f8d229aecc8c3524061",
+    "Id": "68109f576a222a2f46fd0ca2",
     "Name": "Standard Bearer (White Lion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3456,12 +3422,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -3477,23 +3443,23 @@
     }
   },
   {
-    "Id": "68108f8c229aecc8c352242d",
+    "Id": "68109f566a222a2f46fcf06e",
     "Name": "White Lion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3510,11 +3476,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3530,26 +3496,23 @@
     }
   },
   {
-    "Id": "68108f8d229aecc8c35249b4",
+    "Id": "68109f576a222a2f46fd15f5",
     "Name": "Lion Chariot",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "5ec9-a98-d8c5-e18b",
-      "785a-2886-af42-dce9",
-      "5c2-e9dd-2715-a0c0",
-      "4123-3227-347e-3b39",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "e099-1ebb-9e85-34c8",
-      "6d4a-7733-d725-a267",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "785a-2886-af42-dce9": "First Charge",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D6)",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3566,10 +3529,10 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "War Lion",
@@ -3584,10 +3547,10 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value : 4+",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Lion Charioteer",
@@ -3602,10 +3565,10 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3621,19 +3584,19 @@
     }
   },
   {
-    "Id": "68108f8d229aecc8c3524b87",
+    "Id": "68109f576a222a2f46fd17c8",
     "Name": "War Lion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "d077-d714-bfa4-22ae",
-      "5ec9-a98-d8c5-e18b",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "dc91-48b3-3696-217",
-      "691e-10ec-4f7c-a2c4",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "d077-d714-bfa4-22ae": "Cleaving Blow",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3650,9 +3613,9 @@
           "A": "2",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3668,24 +3631,24 @@
     }
   },
   {
-    "Id": "68108f8d229aecc8c35256a6",
+    "Id": "68109f586a222a2f46fd22e7",
     "Name": "Guardian (White Lion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "5f1c-fd04-b0d5-d5e",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3702,12 +3665,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3723,24 +3686,24 @@
     }
   },
   {
-    "Id": "68108f8e229aecc8c352600a",
+    "Id": "68109f586a222a2f46fd2c4b",
     "Name": "Musician (White Lion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3757,12 +3720,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -3778,24 +3741,24 @@
     }
   },
   {
-    "Id": "68108f8e229aecc8c3526965",
+    "Id": "68109f586a222a2f46fd35a6",
     "Name": "Standard Bearer (White Lion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3812,12 +3775,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -3833,23 +3796,23 @@
     }
   },
   {
-    "Id": "68108f8d229aecc8c3524d40",
+    "Id": "68109f586a222a2f46fd1981",
     "Name": "White Lion",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2b64-4e75-6d83-19df",
-      "f18f-50f-3108-1486",
-      "6c87-1ec1-954d-919b",
-      "4123-3227-347e-3b39",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "e351-bbd6-f470-b604",
-      "6731-240-f75b-dcac",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "2b64-4e75-6d83-19df": "Chracian Warriors",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "6c87-1ec1-954d-919b": "King's Guard",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3866,11 +3829,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3886,18 +3849,18 @@
     }
   },
   {
-    "Id": "68108f8e229aecc8c35272bd",
+    "Id": "68109f596a222a2f46fd3efe",
     "Name": "Eagle-Claw Bolt Thrower",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "59a5-7eca-ee35-96ac",
-      "6731-240-f75b-dcac",
-      "36e4-28b4-31ff-39dc",
-      "3646-bdc6-7ed0-5119",
-      "3f5c-8185-3494-86c1"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6731-240-f75b-dcac": "Valour of Ages",
+      "36e4-28b4-31ff-39dc": "Bolt Thrower",
+      "3646-bdc6-7ed0-5119": "Rapid Fire",
+      "3f5c-8185-3494-86c1": "Repeater Bolt Thrower"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3914,11 +3877,11 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "36e4-28b4-31ff-39dc",
-          "3646-bdc6-7ed0-5119",
-          "3f5c-8185-3494-86c1"
-        ]
+        "RuleIds": {
+          "36e4-28b4-31ff-39dc": "Bolt Thrower",
+          "3646-bdc6-7ed0-5119": "Rapid Fire",
+          "3f5c-8185-3494-86c1": "Repeater Bolt Thrower"
+        }
       },
       {
         "Name": "Sea Guard Crew",
@@ -3933,7 +3896,7 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": []
+        "RuleIds": {}
       }
     ],
     "Amount": {
@@ -3949,19 +3912,19 @@
     }
   },
   {
-    "Id": "68108f8e229aecc8c3527485",
+    "Id": "68109f596a222a2f46fd40c6",
     "Name": "Great Eagle",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c521-1d17-cb12-239e",
-      "8382-4e23-e72c-d90"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "72db-24bb-7493-d753": "Stomp Attacks (1)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c521-1d17-cb12-239e": "Serrated Maw",
+      "8382-4e23-e72c-d90": "Wicked Claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3978,10 +3941,10 @@
           "A": "3",
           "Ld": "6"
         },
-        "RuleIds": [
-          "c521-1d17-cb12-239e",
-          "8382-4e23-e72c-d90"
-        ]
+        "RuleIds": {
+          "c521-1d17-cb12-239e": "Serrated Maw",
+          "8382-4e23-e72c-d90": "Wicked Claws"
+        }
       }
     ],
     "Amount": {
@@ -3997,23 +3960,23 @@
     }
   },
   {
-    "Id": "68108f8e229aecc8c3527fa8",
+    "Id": "68109f596a222a2f46fd4be9",
     "Name": "Lion Guard Captain (Lion Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "9b0d-892c-08e1-c4bd",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "eaca-69a2-8b6a-81c6",
-      "4123-3227-347e-3b39",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "5f1c-fd04-b0d5-d5e",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "9b0d-892c-08e1-c4bd": "Champions of Chrace",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4030,12 +3993,12 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -4051,23 +4014,23 @@
     }
   },
   {
-    "Id": "68108f8e229aecc8c35288fa",
+    "Id": "68109f5a6a222a2f46fd553b",
     "Name": "Musician (Lion Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "9b0d-892c-08e1-c4bd",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "eaca-69a2-8b6a-81c6",
-      "4123-3227-347e-3b39",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "9b0d-892c-08e1-c4bd": "Champions of Chrace",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4084,12 +4047,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -4105,23 +4068,23 @@
     }
   },
   {
-    "Id": "68108f8f229aecc8c352924c",
+    "Id": "68109f5a6a222a2f46fd5e8d",
     "Name": "Standard Bearer (Lion Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "9b0d-892c-08e1-c4bd",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "eaca-69a2-8b6a-81c6",
-      "4123-3227-347e-3b39",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "9b0d-892c-08e1-c4bd": "Champions of Chrace",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4138,12 +4101,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4159,22 +4122,22 @@
     }
   },
   {
-    "Id": "68108f8e229aecc8c3527645",
+    "Id": "68109f596a222a2f46fd4286",
     "Name": "Lion Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "9b0d-892c-08e1-c4bd",
-      "883e-e1b1-4fe9-5912",
-      "f18f-50f-3108-1486",
-      "eaca-69a2-8b6a-81c6",
-      "4123-3227-347e-3b39",
-      "e351-bbd6-f470-b604",
-      "4022-c403-b083-ba83",
-      "66ca-f1a3-7cc3-723d",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "9b0d-892c-08e1-c4bd": "Champions of Chrace",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "4123-3227-347e-3b39": "Lion Cloak",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "4022-c403-b083-ba83": "Veteran",
+      "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4191,11 +4154,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "66ca-f1a3-7cc3-723d",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "66ca-f1a3-7cc3-723d": "Chracian Great Blade",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -4211,25 +4174,25 @@
     }
   },
   {
-    "Id": "68108f8f229aecc8c352a382",
+    "Id": "68109f5b6a222a2f46fd6fc3",
     "Name": "Shadow Walker (Shadow Warrior)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "9fff-999f-6e96-e149",
-      "1a06-31aa-cbfe-1a5",
-      "ff10-6f2b-b0a4-9a1a",
-      "e83e-f127-1904-3858",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "4022-c403-b083-ba83",
-      "93a1-6428-8825-b7e7",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "16e8-23be-ce45-768d"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "9fff-999f-6e96-e149": "Evasive",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "4022-c403-b083-ba83": "Veteran",
+      "93a1-6428-8825-b7e7": "Warriors of Nagarythe",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "16e8-23be-ce45-768d": "Longbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4246,12 +4209,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "16e8-23be-ce45-768d"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "16e8-23be-ce45-768d": "Longbow"
+        }
       }
     ],
     "Amount": {
@@ -4267,24 +4230,24 @@
     }
   },
   {
-    "Id": "68108f8f229aecc8c3529b9d",
+    "Id": "68109f5b6a222a2f46fd67de",
     "Name": "Shadow Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f18f-50f-3108-1486",
-      "9fff-999f-6e96-e149",
-      "1a06-31aa-cbfe-1a5",
-      "ff10-6f2b-b0a4-9a1a",
-      "e83e-f127-1904-3858",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "4022-c403-b083-ba83",
-      "93a1-6428-8825-b7e7",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "16e8-23be-ce45-768d"
-    ],
+    "RuleIds": {
+      "f18f-50f-3108-1486": "Elven Reflexes",
+      "9fff-999f-6e96-e149": "Evasive",
+      "1a06-31aa-cbfe-1a5": "Fire & Flee",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "4022-c403-b083-ba83": "Veteran",
+      "93a1-6428-8825-b7e7": "Warriors of Nagarythe",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "16e8-23be-ce45-768d": "Longbow"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4301,11 +4264,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "16e8-23be-ce45-768d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "16e8-23be-ce45-768d": "Longbow"
+        }
       }
     ],
     "Amount": {
@@ -4321,25 +4284,25 @@
     }
   },
   {
-    "Id": "68108f8f229aecc8c352b330",
+    "Id": "68109f5b6a222a2f46fd7f71",
     "Name": "High Sister (Sister of Avelorn)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "d326-aa58-9de8-39d4",
-      "9fff-999f-6e96-e149",
-      "a401-372d-446e-d27c",
-      "93d9-c75b-f655-30ac",
-      "aaf8-414a-5ee-daea",
-      "ff10-6f2b-b0a4-9a1a",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "48fd-23c1-c0d5-ae1d",
-      "e42c-4a2f-b084-91c0",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "d326-aa58-9de8-39d4": "Arrows of Isha",
+      "9fff-999f-6e96-e149": "Evasive",
+      "a401-372d-446e-d27c": "Ignores Cover",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "aaf8-414a-5ee-daea": "Ithilmar Armour",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "e42c-4a2f-b084-91c0": "Bow of Avelorn",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4356,12 +4319,12 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "e42c-4a2f-b084-91c0",
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "e42c-4a2f-b084-91c0": "Bow of Avelorn",
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4377,24 +4340,24 @@
     }
   },
   {
-    "Id": "68108f8f229aecc8c352ab57",
+    "Id": "68109f5b6a222a2f46fd7798",
     "Name": "Sister of Avelorn",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "d326-aa58-9de8-39d4",
-      "9fff-999f-6e96-e149",
-      "a401-372d-446e-d27c",
-      "93d9-c75b-f655-30ac",
-      "aaf8-414a-5ee-daea",
-      "ff10-6f2b-b0a4-9a1a",
-      "5b67-8535-146c-7cea",
-      "59a5-7eca-ee35-96ac",
-      "48fd-23c1-c0d5-ae1d",
-      "e42c-4a2f-b084-91c0",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "d326-aa58-9de8-39d4": "Arrows of Isha",
+      "9fff-999f-6e96-e149": "Evasive",
+      "a401-372d-446e-d27c": "Ignores Cover",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "aaf8-414a-5ee-daea": "Ithilmar Armour",
+      "ff10-6f2b-b0a4-9a1a": "Ithilmar Weapons",
+      "5b67-8535-146c-7cea": "Open Order",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "48fd-23c1-c0d5-ae1d": "Strike First",
+      "e42c-4a2f-b084-91c0": "Bow of Avelorn",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4411,11 +4374,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "e42c-4a2f-b084-91c0",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "e42c-4a2f-b084-91c0": "Bow of Avelorn",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4431,22 +4394,22 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352c03b",
+    "Id": "68109f5c6a222a2f46fd8c7c",
     "Name": "Champion (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4463,11 +4426,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4483,22 +4446,22 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352c3e0",
+    "Id": "68109f5c6a222a2f46fd9021",
     "Name": "Musician (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4515,11 +4478,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -4535,22 +4498,22 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352c785",
+    "Id": "68109f5d6a222a2f46fd93c6",
     "Name": "Standard Bearer (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4567,11 +4530,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4587,21 +4550,21 @@
     }
   },
   {
-    "Id": "68108f8f229aecc8c352bb0d",
+    "Id": "68109f5c6a222a2f46fd874e",
     "Name": "Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4618,10 +4581,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4637,23 +4600,23 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352caf4",
+    "Id": "68109f5d6a222a2f46fd9735",
     "Name": "Bonegrinder Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c08-9451-ab5c-b5eb",
-      "883e-e1b1-4fe9-5912",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "4d1b-2617-ebdc-4f4d",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "d3a2-c528-1da0-e731",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "7c08-9451-ab5c-b5eb": "Bonegrinder Giant Attacks",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4670,10 +4633,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "d3a2-c528-1da0-e731",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4689,28 +4652,28 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352ccb6",
+    "Id": "68109f5d6a222a2f46fd98f7",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4727,9 +4690,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4745,20 +4708,20 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352ceca",
+    "Id": "68109f5e6a222a2f46fd9b0b",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "32f7-8e30-3fe8-b11e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4775,10 +4738,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4794,22 +4757,22 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352d9bd",
+    "Id": "68109f5e6a222a2f46fda5fe",
     "Name": "Champion (Imperial Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4826,11 +4789,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4846,21 +4809,21 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352d7bc",
+    "Id": "68109f5e6a222a2f46fda3fd",
     "Name": "Imperial Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4877,10 +4840,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4896,25 +4859,25 @@
     }
   },
   {
-    "Id": "68108f91229aecc8c352dde3",
+    "Id": "68109f5f6a222a2f46fdaa24",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4931,13 +4894,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4953,25 +4916,25 @@
     }
   },
   {
-    "Id": "68108f91229aecc8c352e03d",
+    "Id": "68109f5f6a222a2f46fdac7e",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4988,13 +4951,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -5010,25 +4973,25 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352db9e",
+    "Id": "68109f5f6a222a2f46fda7df",
     "Name": "Standard Bearer (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5045,13 +5008,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -5067,25 +5030,25 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352dba7",
+    "Id": "68109f5f6a222a2f46fda7e8",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5102,13 +5065,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -5124,27 +5087,27 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352dbb0",
+    "Id": "68109f5f6a222a2f46fda7f1",
     "Name": "Prince Ulther Stonehammer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "f170-4b76-b645-29c4",
-      "34c9-6f88-dcfd-d3fa",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "ea58-1a09-e839-cced",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "f170-4b76-b645-29c4": "Dragonblade",
+      "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "ea58-1a09-e839-cced": "Rune of Fury",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5161,15 +5124,15 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "f170-4b76-b645-29c4",
-          "34c9-6f88-dcfd-d3fa",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "ea58-1a09-e839-cced",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "f170-4b76-b645-29c4": "Dragonblade",
+          "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "ea58-1a09-e839-cced": "Rune of Fury",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -5185,25 +5148,25 @@
     }
   },
   {
-    "Id": "68108f90229aecc8c352dbb9",
+    "Id": "68109f5f6a222a2f46fda7fa",
     "Name": "Musician (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -5220,13 +5183,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {

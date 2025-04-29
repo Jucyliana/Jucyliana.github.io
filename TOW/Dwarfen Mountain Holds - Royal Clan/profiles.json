@@ -1,26 +1,26 @@
 [
   {
-    "Id": "68108f67229aecc8c34bc4b4",
+    "Id": "68109f136a222a2f46f690f5",
     "Name": "Thorgrim Ulleksson",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "1a10-9069-8ff3-84ef",
-      "854c-e63a-a9df-fa82",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "23c4-bd19-2422-ad08",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "11be-213c-2821-bcd2",
-      "5632-89ff-eff2-3ed9",
-      "6d4a-7733-d725-a267",
-      "599-5e44-7276-ba0e",
-      "427d-d38f-e232-fb0e",
-      "8997-c74d-3a8d-ecf9",
-      "11d9-1f0c-fae6-678b"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "854c-e63a-a9df-fa82": "Grudgelore",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "11be-213c-2821-bcd2": "The Grudgestone",
+      "5632-89ff-eff2-3ed9": "Grudge-Settler",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "599-5e44-7276-ba0e": "Master Rune of Smiting",
+      "427d-d38f-e232-fb0e": "Rune of Parrying",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "11d9-1f0c-fae6-678b": "The Armour of Skaldour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -37,14 +37,14 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "5632-89ff-eff2-3ed9",
-          "6d4a-7733-d725-a267",
-          "599-5e44-7276-ba0e",
-          "427d-d38f-e232-fb0e",
-          "8997-c74d-3a8d-ecf9",
-          "11d9-1f0c-fae6-678b"
-        ]
+        "RuleIds": {
+          "5632-89ff-eff2-3ed9": "Grudge-Settler",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "599-5e44-7276-ba0e": "Master Rune of Smiting",
+          "427d-d38f-e232-fb0e": "Rune of Parrying",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "11d9-1f0c-fae6-678b": "The Armour of Skaldour"
+        }
       }
     ],
     "Amount": {
@@ -60,27 +60,27 @@
     }
   },
   {
-    "Id": "68108f67229aecc8c34bc887",
+    "Id": "68109f146a222a2f46f694c8",
     "Name": "Ungrim Ironfist",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "233a-1715-82be-1410",
-      "1a10-9069-8ff3-84ef",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "73d0-308c-917f-84c0",
-      "90ed-c9be-a611-79cc",
-      "23c4-bd19-2422-ad08",
-      "a230-c540-6a65-4974",
-      "ea84-d53c-ef3b-57e8",
-      "d3eb-1fa0-bb19-f390",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "1c85-693f-e00f-9a3d",
-      "1dff-4744-d20c-13be"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "233a-1715-82be-1410": "Deathblow",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "73d0-308c-917f-84c0": "King of the Slayer Hold",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "a230-c540-6a65-4974": "Resolute",
+      "ea84-d53c-ef3b-57e8": "Slayer",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "1c85-693f-e00f-9a3d": "The Axe of Dargo",
+      "1dff-4744-d20c-13be": "The Slayer Crown"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -97,12 +97,12 @@
           "A": "4",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "1c85-693f-e00f-9a3d",
-          "1dff-4744-d20c-13be"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "1c85-693f-e00f-9a3d": "The Axe of Dargo",
+          "1dff-4744-d20c-13be": "The Slayer Crown"
+        }
       }
     ],
     "Amount": {
@@ -118,30 +118,30 @@
     }
   },
   {
-    "Id": "68108f67229aecc8c34bcc50",
+    "Id": "68109f146a222a2f46f69891",
     "Name": "Forgefather & Anvil Guard (Anvil of Doom)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "fd89-f754-8e40-4a9f",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "3206-e578-a350-89cb",
-      "93d9-c75b-f655-30ac",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "7bfd-8005-56c0-6e77",
-      "59a5-7eca-ee35-96ac",
-      "25f3-44ad-a37b-a5c",
-      "86ed-3561-ab24-dda9",
-      "d3eb-1fa0-bb19-f390",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "fd89-f754-8e40-4a9f": "Ancestral Shield",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "3206-e578-a350-89cb": "Immovale Object",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-3)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "7bfd-8005-56c0-6e77": "Rune Lore",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "25f3-44ad-a37b-a5c": "Strike the Runes",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -158,11 +158,11 @@
           "A": "5",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Anvil of Doom",
@@ -177,7 +177,7 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": []
+        "RuleIds": {}
       }
     ],
     "Amount": {
@@ -193,24 +193,24 @@
     }
   },
   {
-    "Id": "68108f67229aecc8c34bd085",
+    "Id": "68109f146a222a2f46f69cc6",
     "Name": "Daemon Slayer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "860b-e13a-4710-9bf0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "2750-3d7-feff-371b",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "860b-e13a-4710-9bf0": "Killing Blow",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "a230-c540-6a65-4974": "Resolute",
+      "2750-3d7-feff-371b": "Slayer of Deamons",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -227,9 +227,9 @@
           "A": "4",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -245,24 +245,24 @@
     }
   },
   {
-    "Id": "68108f68229aecc8c34bd4bc",
+    "Id": "68109f146a222a2f46f6a0fd",
     "Name": "Dragon Slayer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "860b-e13a-4710-9bf0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "4351-9800-6134-8cc4",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "860b-e13a-4710-9bf0": "Killing Blow",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "a230-c540-6a65-4974": "Resolute",
+      "4351-9800-6134-8cc4": "Slayer of Dragons",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -279,9 +279,9 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -297,7 +297,7 @@
     }
   },
   {
-    "Id": "8f81379a-cd9f-430f-95ef-a2dd3959b8b6",
+    "Id": "9d4e3e78-f074-483c-b1b5-78fa159ef8d0",
     "Name": "Shieldbearers",
     "Attributes": {
       "type": "Heavy Infantry",
@@ -305,22 +305,22 @@
       "totalcost": "185"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "c1e6-4b13-26b1-6f6",
-      "93e6-c161-1b92-c8af",
-      "b8b7-17f2-c5f-353d",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "23c4-bd19-2422-ad08",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "c1e6-4b13-26b1-6f6": "Ancestral Grudge",
+      "93e6-c161-1b92-c8af": "Borne Aloft",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -337,9 +337,9 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -355,26 +355,26 @@
     }
   },
   {
-    "Id": "68108f68229aecc8c34bd8ca",
+    "Id": "68109f146a222a2f46f6a50b",
     "Name": "King",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "c1e6-4b13-26b1-6f6",
-      "b8b7-17f2-c5f-353d",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "23c4-bd19-2422-ad08",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "c1e6-4b13-26b1-6f6": "Ancestral Grudge",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -391,10 +391,10 @@
           "A": "4",
           "Ld": "10"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -410,26 +410,26 @@
     }
   },
   {
-    "Id": "68108f68229aecc8c34be176",
+    "Id": "68109f156a222a2f46f6adb7",
     "Name": "Runelord",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "2af0-975f-bb14-8b8f",
-      "8acf-1a19-b087-ef76",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "7bfd-8005-56c0-6e77",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "8acf-1a19-b087-ef76": "Forgefire",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "7bfd-8005-56c0-6e77": "Rune Lore",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -446,10 +446,10 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -465,24 +465,24 @@
     }
   },
   {
-    "Id": "68108f68229aecc8c34be5ae",
+    "Id": "68109f156a222a2f46f6b1ef",
     "Name": "Runesmith",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "2af0-975f-bb14-8b8f",
-      "8acf-1a19-b087-ef76",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "7bfd-8005-56c0-6e77",
-      "e351-bbd6-f470-b604",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "8acf-1a19-b087-ef76": "Forgefire",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "a230-c540-6a65-4974": "Resolute",
+      "7bfd-8005-56c0-6e77": "Rune Lore",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -499,10 +499,10 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -518,7 +518,7 @@
     }
   },
   {
-    "Id": "99431b18-c45c-418a-9a1d-0d3558970d1d",
+    "Id": "73212c30-7c0d-4c1e-bedf-0dc3138320ce",
     "Name": "Shieldbearers",
     "Attributes": {
       "type": "Heavy Infantry",
@@ -526,22 +526,22 @@
       "totalcost": "120"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "c1e6-4b13-26b1-6f6",
-      "93e6-c161-1b92-c8af",
-      "b8b7-17f2-c5f-353d",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "23c4-bd19-2422-ad08",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "c1e6-4b13-26b1-6f6": "Ancestral Grudge",
+      "93e6-c161-1b92-c8af": "Borne Aloft",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -558,9 +558,9 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -576,26 +576,26 @@
     }
   },
   {
-    "Id": "68108f68229aecc8c34bea0f",
+    "Id": "68109f156a222a2f46f6b650",
     "Name": "Thane",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "c1e6-4b13-26b1-6f6",
-      "b8b7-17f2-c5f-353d",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "23c4-bd19-2422-ad08",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "c1e6-4b13-26b1-6f6": "Ancestral Grudge",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -612,10 +612,10 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -631,26 +631,26 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34bf757",
+    "Id": "68109f156a222a2f46f6c398",
     "Name": "Elder (Longbeard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e78f-d6ed-5364-a697",
-      "4022-c403-b083-ba83",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e78f-d6ed-5364-a697": "Venerable",
+      "4022-c403-b083-ba83": "Veteran",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -667,11 +667,11 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -687,26 +687,26 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34bfba3",
+    "Id": "68109f166a222a2f46f6c7e4",
     "Name": "Musician (Longbeard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e78f-d6ed-5364-a697",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e78f-d6ed-5364-a697": "Venerable",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -723,11 +723,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -743,26 +743,26 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34bffef",
+    "Id": "68109f166a222a2f46f6cc30",
     "Name": "Standard Bearer (Longbeard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e78f-d6ed-5364-a697",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e78f-d6ed-5364-a697": "Venerable",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -779,11 +779,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -799,25 +799,25 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34bf2ff",
+    "Id": "68109f156a222a2f46f6bf40",
     "Name": "Longbeard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e78f-d6ed-5364-a697",
-      "4022-c403-b083-ba83",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e78f-d6ed-5364-a697": "Venerable",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -834,10 +834,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -853,23 +853,23 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34c0806",
+    "Id": "68109f166a222a2f46f6d447",
     "Name": "Veteran (Quarreller)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "86ed-3561-ab24-dda9",
-      "5f1c-fd04-b0d5-d5e",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -886,12 +886,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -907,23 +907,23 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34c0bd5",
+    "Id": "68109f166a222a2f46f6d816",
     "Name": "Musician (Quarreller)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "86ed-3561-ab24-dda9",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -940,12 +940,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -961,23 +961,23 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34c0fad",
+    "Id": "68109f166a222a2f46f6dbee",
     "Name": "Standard Bearer (Quarreller)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "86ed-3561-ab24-dda9",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -994,12 +994,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -1015,22 +1015,22 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34c0423",
+    "Id": "68109f166a222a2f46f6d064",
     "Name": "Quarreller",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "86ed-3561-ab24-dda9",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1047,11 +1047,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -1067,25 +1067,25 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c17d8",
+    "Id": "68109f176a222a2f46f6e419",
     "Name": "Veteran (Royal Clan Warrior)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1102,11 +1102,11 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -1122,25 +1122,25 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c1c30",
+    "Id": "68109f176a222a2f46f6e871",
     "Name": "Musician (Royal Clan Warrior)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1157,11 +1157,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -1177,25 +1177,25 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c207f",
+    "Id": "68109f176a222a2f46f6ecc0",
     "Name": "Standard Bearer (Royal Clan Warrior)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1212,11 +1212,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -1232,24 +1232,24 @@
     }
   },
   {
-    "Id": "68108f69229aecc8c34c1377",
+    "Id": "68109f166a222a2f46f6dfb8",
     "Name": "Royal Clan Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1266,10 +1266,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -1285,23 +1285,23 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c24cc",
+    "Id": "68109f176a222a2f46f6f10d",
     "Name": "Troll Slayer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "6359-4018-5cd4-3720",
-      "5b67-8535-146c-7cea",
-      "a230-c540-6a65-4974",
-      "ea84-d53c-ef3b-57e8",
-      "d3eb-1fa0-bb19-f390",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "ea84-d53c-ef3b-57e8": "Slayer",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1318,9 +1318,9 @@
           "A": "1",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1336,24 +1336,21 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c28b2",
+    "Id": "68109f176a222a2f46f6f4f3",
     "Name": "Bolt Thrower",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "59a5-7eca-ee35-96ac",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "36e4-28b4-31ff-39dc",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "36e4-28b4-31ff-39dc",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "36e4-28b4-31ff-39dc": "Bolt Thrower",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1370,11 +1367,11 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "36e4-28b4-31ff-39dc",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "36e4-28b4-31ff-39dc": "Bolt Thrower",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "Dwarf Crew",
@@ -1389,11 +1386,11 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "36e4-28b4-31ff-39dc",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "36e4-28b4-31ff-39dc": "Bolt Thrower",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -1409,28 +1406,28 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c2c93",
+    "Id": "68109f176a222a2f46f6f8d4",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1447,9 +1444,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1465,22 +1462,21 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c3096",
+    "Id": "68109f186a222a2f46f6fcd7",
     "Name": "Dwarf Cart",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "5977-6036-f107-2c9d",
-      "f4b3-18af-16bf-78dd",
-      "5c2-e9dd-2715-a0c0",
-      "90ed-c9be-a611-79cc",
-      "5b67-8535-146c-7cea",
-      "a230-c540-6a65-4974",
-      "86ed-3561-ab24-dda9",
-      "6d4a-7733-d725-a267",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "5977-6036-f107-2c9d": "Bugman's Cart",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1497,7 +1493,7 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": []
+        "RuleIds": {}
       },
       {
         "Name": "Dwarf Crew",
@@ -1512,9 +1508,9 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       },
       {
         "Name": "Draft Pony",
@@ -1529,9 +1525,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1547,24 +1543,21 @@
     }
   },
   {
-    "Id": "68108f6a229aecc8c34c3463",
+    "Id": "68109f186a222a2f46f700a4",
     "Name": "Grudge Thrower",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "59a5-7eca-ee35-96ac",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bfbc-c435-2046-4691",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bfbc-c435-2046-4691"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bfbc-c435-2046-4691": "Stone Thrower"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1581,11 +1574,11 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bfbc-c435-2046-4691"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bfbc-c435-2046-4691": "Stone Thrower"
+        }
       },
       {
         "Name": "Dwarf Crew",
@@ -1600,11 +1593,11 @@
           "A": "3",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bfbc-c435-2046-4691"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bfbc-c435-2046-4691": "Stone Thrower"
+        }
       }
     ],
     "Amount": {
@@ -1620,28 +1613,28 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c3c94",
+    "Id": "68109f186a222a2f46f708d5",
     "Name": "Royal Champion (Hammerer)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "51a7-1a2-bff3-1d7a",
-      "32f7-8e30-3fe8-b11e",
-      "b2ce-d68c-502b-d777",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "5f1c-fd04-b0d5-d5e",
-      "cdc6-1b83-7af0-2ab",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "51a7-1a2-bff3-1d7a": "Royal Guard",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "b2ce-d68c-502b-d777": "Stoic Defenders",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "cdc6-1b83-7af0-2ab": "Great Hammer",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1658,12 +1651,12 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "cdc6-1b83-7af0-2ab",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "cdc6-1b83-7af0-2ab": "Great Hammer",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -1679,28 +1672,28 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c40dd",
+    "Id": "68109f186a222a2f46f70d1e",
     "Name": "Musician (Hammerer)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "51a7-1a2-bff3-1d7a",
-      "32f7-8e30-3fe8-b11e",
-      "b2ce-d68c-502b-d777",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "cdc6-1b83-7af0-2ab",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "51a7-1a2-bff3-1d7a": "Royal Guard",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "b2ce-d68c-502b-d777": "Stoic Defenders",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "cdc6-1b83-7af0-2ab": "Great Hammer",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1717,12 +1710,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "cdc6-1b83-7af0-2ab",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "cdc6-1b83-7af0-2ab": "Great Hammer",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -1738,28 +1731,28 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c4526",
+    "Id": "68109f186a222a2f46f71167",
     "Name": "Standard Bearer (Hammerer)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "51a7-1a2-bff3-1d7a",
-      "32f7-8e30-3fe8-b11e",
-      "b2ce-d68c-502b-d777",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "cdc6-1b83-7af0-2ab",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "51a7-1a2-bff3-1d7a": "Royal Guard",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "b2ce-d68c-502b-d777": "Stoic Defenders",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "cdc6-1b83-7af0-2ab": "Great Hammer",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1776,12 +1769,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "cdc6-1b83-7af0-2ab",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "cdc6-1b83-7af0-2ab": "Great Hammer",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -1797,27 +1790,27 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c383e",
+    "Id": "68109f186a222a2f46f7047f",
     "Name": "Hammerer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "c4c7-d2ea-309b-011e",
-      "51a7-1a2-bff3-1d7a",
-      "32f7-8e30-3fe8-b11e",
-      "b2ce-d68c-502b-d777",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "cdc6-1b83-7af0-2ab",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "51a7-1a2-bff3-1d7a": "Royal Guard",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "b2ce-d68c-502b-d777": "Stoic Defenders",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "cdc6-1b83-7af0-2ab": "Great Hammer",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1834,11 +1827,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "cdc6-1b83-7af0-2ab",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "cdc6-1b83-7af0-2ab": "Great Hammer",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -1854,28 +1847,28 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c4d7b",
+    "Id": "68109f196a222a2f46f719bc",
     "Name": "Ironbeard (Ironbreaker)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "7424-ec43-7581-965a",
-      "a230-c540-6a65-4974",
-      "d1f1-520-9b27-c144",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "5f1c-fd04-b0d5-d5e",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "a230-c540-6a65-4974": "Resolute",
+      "d1f1-520-9b27-c144": "Runes of Protection",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1892,12 +1885,12 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -1913,28 +1906,28 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c5196",
+    "Id": "68109f196a222a2f46f71dd7",
     "Name": "Musician (Ironbreaker)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "7424-ec43-7581-965a",
-      "a230-c540-6a65-4974",
-      "d1f1-520-9b27-c144",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "a230-c540-6a65-4974": "Resolute",
+      "d1f1-520-9b27-c144": "Runes of Protection",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1951,12 +1944,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -1972,28 +1965,28 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c55a8",
+    "Id": "68109f196a222a2f46f721e9",
     "Name": "Standard Bearer (Ironbreaker)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "7424-ec43-7581-965a",
-      "a230-c540-6a65-4974",
-      "d1f1-520-9b27-c144",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "a230-c540-6a65-4974": "Resolute",
+      "d1f1-520-9b27-c144": "Runes of Protection",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2010,12 +2003,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -2031,27 +2024,27 @@
     }
   },
   {
-    "Id": "68108f6b229aecc8c34c4956",
+    "Id": "68109f196a222a2f46f71597",
     "Name": "Ironbreaker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "1a10-9069-8ff3-84ef",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "7424-ec43-7581-965a",
-      "a230-c540-6a65-4974",
-      "d1f1-520-9b27-c144",
-      "32f7-8e30-3fe8-b11e",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "a230-c540-6a65-4974": "Resolute",
+      "d1f1-520-9b27-c144": "Runes of Protection",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2068,11 +2061,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2088,26 +2081,26 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c5da7",
+    "Id": "68109f196a222a2f46f729e8",
     "Name": "Ironwarden (Irondrake)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "1a10-9069-8ff3-84ef",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "10d8-4849-8c3a-f636",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "5f1c-fd04-b0d5-d5e",
-      "b22b-104e-4b47-bcba",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "10d8-4849-8c3a-f636": "Runes of Warding",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "b22b-104e-4b47-bcba": "Drakegun",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2124,12 +2117,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "b22b-104e-4b47-bcba",
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "b22b-104e-4b47-bcba": "Drakegun",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2145,26 +2138,26 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c6199",
+    "Id": "68109f196a222a2f46f72dda",
     "Name": "Musician (Irondrake)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "1a10-9069-8ff3-84ef",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "10d8-4849-8c3a-f636",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "b22b-104e-4b47-bcba",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "10d8-4849-8c3a-f636": "Runes of Warding",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "b22b-104e-4b47-bcba": "Drakegun",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2181,12 +2174,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "b22b-104e-4b47-bcba",
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "b22b-104e-4b47-bcba": "Drakegun",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -2202,26 +2195,26 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c6582",
+    "Id": "68109f1a6a222a2f46f731c3",
     "Name": "Standard Bearer (Irondrake)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "1a10-9069-8ff3-84ef",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "10d8-4849-8c3a-f636",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "b22b-104e-4b47-bcba",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "10d8-4849-8c3a-f636": "Runes of Warding",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "b22b-104e-4b47-bcba": "Drakegun",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2238,12 +2231,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "b22b-104e-4b47-bcba",
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "b22b-104e-4b47-bcba": "Drakegun",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -2259,25 +2252,25 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c59aa",
+    "Id": "68109f196a222a2f46f725eb",
     "Name": "Irondrake",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "883e-e1b1-4fe9-5912",
-      "559-d4c6-b2e8-500f",
-      "1a10-9069-8ff3-84ef",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "a230-c540-6a65-4974",
-      "10d8-4849-8c3a-f636",
-      "86ed-3561-ab24-dda9",
-      "e351-bbd6-f470-b604",
-      "b22b-104e-4b47-bcba",
-      "9a1d-38b0-7d7-7552",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "10d8-4849-8c3a-f636": "Runes of Warding",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "b22b-104e-4b47-bcba": "Drakegun",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2294,11 +2287,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "b22b-104e-4b47-bcba",
-          "9a1d-38b0-7d7-7552",
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "b22b-104e-4b47-bcba": "Drakegun",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2314,26 +2307,26 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c6d66",
+    "Id": "68109f1a6a222a2f46f739a7",
     "Name": "Ol Deadeye (Ranger)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "a230-c540-6a65-4974",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "86ed-3561-ab24-dda9",
-      "5f1c-fd04-b0d5-d5e",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2350,12 +2343,12 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -2371,26 +2364,26 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c715f",
+    "Id": "68109f1a6a222a2f46f73da0",
     "Name": "Musician (Ranger)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "a230-c540-6a65-4974",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "86ed-3561-ab24-dda9",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2407,12 +2400,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -2428,26 +2421,26 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c7561",
+    "Id": "68109f1a6a222a2f46f741a2",
     "Name": "Standard Bearer (Ranger)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "a230-c540-6a65-4974",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "86ed-3561-ab24-dda9",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2464,12 +2457,12 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -2485,25 +2478,25 @@
     }
   },
   {
-    "Id": "68108f6c229aecc8c34c695a",
+    "Id": "68109f1a6a222a2f46f7359b",
     "Name": "Ranger",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5a7c-a7a1-92b4-7c69",
-      "b8b7-17f2-c5f-353d",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "e83e-f127-1904-3858",
-      "5b67-8535-146c-7cea",
-      "a230-c540-6a65-4974",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "86ed-3561-ab24-dda9",
-      "1ef1-8579-c310-4fb5",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2520,11 +2513,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "1ef1-8579-c310-4fb5",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -2540,22 +2533,22 @@
     }
   },
   {
-    "Id": "68108f6d229aecc8c34c808f",
+    "Id": "68109f1b6a222a2f46f74cd0",
     "Name": "Champion (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2572,11 +2565,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2592,22 +2585,22 @@
     }
   },
   {
-    "Id": "68108f6d229aecc8c34c8626",
+    "Id": "68109f1b6a222a2f46f75267",
     "Name": "Musician (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2624,11 +2617,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -2644,22 +2637,22 @@
     }
   },
   {
-    "Id": "68108f6d229aecc8c34c8bbd",
+    "Id": "68109f1b6a222a2f46f757fe",
     "Name": "Standard Bearer (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2676,11 +2669,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -2696,21 +2689,21 @@
     }
   },
   {
-    "Id": "68108f6d229aecc8c34c796f",
+    "Id": "68109f1a6a222a2f46f745b0",
     "Name": "Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2727,10 +2720,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2746,23 +2739,23 @@
     }
   },
   {
-    "Id": "68108f6d229aecc8c34c911e",
+    "Id": "68109f1b6a222a2f46f75d5f",
     "Name": "Bonegrinder Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c08-9451-ab5c-b5eb",
-      "883e-e1b1-4fe9-5912",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "4d1b-2617-ebdc-4f4d",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "d3a2-c528-1da0-e731",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "7c08-9451-ab5c-b5eb": "Bonegrinder Giant Attacks",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2779,10 +2772,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "d3a2-c528-1da0-e731",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2798,28 +2791,28 @@
     }
   },
   {
-    "Id": "68108f6d229aecc8c34c94d2",
+    "Id": "68109f1b6a222a2f46f76113",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2836,9 +2829,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2854,28 +2847,28 @@
     }
   },
   {
-    "Id": "68108f6d229aecc8c34c98d8",
+    "Id": "68109f1b6a222a2f46f76519",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2892,9 +2885,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2910,20 +2903,20 @@
     }
   },
   {
-    "Id": "68108f6e229aecc8c34c9ce0",
+    "Id": "68109f1c6a222a2f46f76921",
     "Name": "Goblin-Hewer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "90ed-c9be-a611-79cc",
-      "59a5-7eca-ee35-96ac",
-      "d3eb-1fa0-bb19-f390",
-      "57cc-870a-8ff4-b492",
-      "1263-dddc-ef66-5efc",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "57cc-870a-8ff4-b492": "Whirling Doom",
+      "1263-dddc-ef66-5efc": "Goblin-Hewer",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2940,9 +2933,9 @@
           "A": "-",
           "Ld": "-"
         },
-        "RuleIds": [
-          "1263-dddc-ef66-5efc"
-        ]
+        "RuleIds": {
+          "1263-dddc-ef66-5efc": "Goblin-Hewer"
+        }
       },
       {
         "Name": "Slayer Crew",
@@ -2957,9 +2950,9 @@
           "A": "2",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2975,19 +2968,19 @@
     }
   },
   {
-    "Id": "68108f6e229aecc8c34c9d05",
+    "Id": "68109f1c6a222a2f46f76946",
     "Name": "Slayer Crew",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "90ed-c9be-a611-79cc",
-      "59a5-7eca-ee35-96ac",
-      "d3eb-1fa0-bb19-f390",
-      "57cc-870a-8ff4-b492",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "57cc-870a-8ff4-b492": "Whirling Doom",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3004,9 +2997,9 @@
           "A": "2",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3022,20 +3015,20 @@
     }
   },
   {
-    "Id": "68108f6e229aecc8c34ca0b7",
+    "Id": "68109f1c6a222a2f46f76cf8",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "32f7-8e30-3fe8-b11e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3052,10 +3045,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3071,20 +3064,20 @@
     }
   },
   {
-    "Id": "68108f6e229aecc8c34cb163",
+    "Id": "68109f1c6a222a2f46f77da4",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "32f7-8e30-3fe8-b11e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3101,10 +3094,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3120,22 +3113,22 @@
     }
   },
   {
-    "Id": "68108f6f229aecc8c34cc610",
+    "Id": "68109f1d6a222a2f46f79251",
     "Name": "Champion (Imperial Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3152,11 +3145,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3172,21 +3165,21 @@
     }
   },
   {
-    "Id": "68108f6e229aecc8c34cc21d",
+    "Id": "68109f1d6a222a2f46f78e5e",
     "Name": "Imperial Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3203,10 +3196,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3222,25 +3215,25 @@
     }
   },
   {
-    "Id": "68108f6f229aecc8c34cce16",
+    "Id": "68109f1d6a222a2f46f79a57",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3257,13 +3250,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -3279,25 +3272,25 @@
     }
   },
   {
-    "Id": "68108f6f229aecc8c34cd262",
+    "Id": "68109f1d6a222a2f46f79ea3",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3314,13 +3307,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -3336,25 +3329,25 @@
     }
   },
   {
-    "Id": "68108f6f229aecc8c34cc9df",
+    "Id": "68109f1d6a222a2f46f79620",
     "Name": "Standard Bearer (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3371,13 +3364,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -3393,25 +3386,25 @@
     }
   },
   {
-    "Id": "68108f6f229aecc8c34cc9e8",
+    "Id": "68109f1d6a222a2f46f79629",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3428,13 +3421,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -3450,27 +3443,27 @@
     }
   },
   {
-    "Id": "68108f6f229aecc8c34cc9f1",
+    "Id": "68109f1d6a222a2f46f79632",
     "Name": "Prince Ulther Stonehammer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "f170-4b76-b645-29c4",
-      "34c9-6f88-dcfd-d3fa",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "ea58-1a09-e839-cced",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "f170-4b76-b645-29c4": "Dragonblade",
+      "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "ea58-1a09-e839-cced": "Rune of Fury",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3487,15 +3480,15 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "f170-4b76-b645-29c4",
-          "34c9-6f88-dcfd-d3fa",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "ea58-1a09-e839-cced",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "f170-4b76-b645-29c4": "Dragonblade",
+          "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "ea58-1a09-e839-cced": "Rune of Fury",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -3511,25 +3504,25 @@
     }
   },
   {
-    "Id": "68108f6f229aecc8c34cc9fa",
+    "Id": "68109f1d6a222a2f46f7963b",
     "Name": "Musician (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3546,13 +3539,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {

@@ -1,6 +1,6 @@
 [
   {
-    "Id": "0fb2825b-0ac5-4ee1-972b-91770136696c",
+    "Id": "a1e5f15b-5468-4834-bc49-e85afba86d89",
     "Name": "Cold One",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -8,18 +8,18 @@
       "totalcost": "158"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "eaca-69a2-8b6a-81c6",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -36,9 +36,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -54,7 +54,7 @@
     }
   },
   {
-    "Id": "54fe713a-a2ed-47e8-9a43-d9d477708501",
+    "Id": "08f43826-3e39-4af6-ae92-fb9ae31c302b",
     "Name": "Carnosaur",
     "Attributes": {
       "type": "",
@@ -62,20 +62,20 @@
       "totalcost": "310"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5627-f840-3260-8196",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "c822-7ad0-f24a-e4af",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c56e-8d1b-bb4-de99",
-      "ffb6-bce1-e7c8-90e8"
-    ],
+    "RuleIds": {
+      "5627-f840-3260-8196": "Blood Frenzy",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "ffb6-bce1-e7c8-90e8": "Slashing talons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -92,10 +92,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "ffb6-bce1-e7c8-90e8"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "ffb6-bce1-e7c8-90e8": "Slashing talons"
+        }
       }
     ],
     "Amount": {
@@ -111,7 +111,7 @@
     }
   },
   {
-    "Id": "94de6b6e-c391-4155-99c8-b7b816626baa",
+    "Id": "08ed14f2-7b6c-4a08-a557-700d5a1bc44c",
     "Name": "Terradon",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -119,18 +119,18 @@
       "totalcost": "170"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "2396-465a-571c-8e02",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "2396-465a-571c-8e02": "Drop Rocks",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -147,9 +147,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -165,7 +165,7 @@
     }
   },
   {
-    "Id": "fa9cfec7-ffb3-4c83-b4bb-07ff5514bfec",
+    "Id": "307c2c71-e67f-4e26-a010-f23cf4238631",
     "Name": "Ripperdactyl",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -173,20 +173,20 @@
       "totalcost": "175"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "f28b-ec19-c8aa-61a8",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "b664-8530-a988-7ba9",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "401b-4fd5-8315-114",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "f28b-ec19-c8aa-61a8": "Cleaving Blow (Ripperdactyl only)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "401b-4fd5-8315-114": "Toad Rage",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -203,9 +203,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -221,7 +221,7 @@
     }
   },
   {
-    "Id": "04da1183-b032-4f97-955a-8f24eedbbf91",
+    "Id": "88d7a4d7-f88d-4494-a011-3d4201bb6d8b",
     "Name": "Stegadon",
     "Attributes": {
       "type": "",
@@ -229,26 +229,26 @@
       "totalcost": "355"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "f40b-cb96-3405-2e11",
-      "81f5-4895-4abc-fc39",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -265,11 +265,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -284,10 +284,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -303,7 +303,7 @@
     }
   },
   {
-    "Id": "4a2d3930-93a1-418a-a22a-31436be5c553",
+    "Id": "d3547eb0-ae3f-4c43-80e5-30357b7bf121",
     "Name": "Ancient Stegadon",
     "Attributes": {
       "type": "",
@@ -311,26 +311,26 @@
       "totalcost": "370"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "f40b-cb96-3405-2e11",
-      "81f5-4895-4abc-fc39",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -347,11 +347,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -366,10 +366,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -385,18 +385,18 @@
     }
   },
   {
-    "Id": "68108fcd229aecc8c360173a",
+    "Id": "68109fd86a222a2f460ae37c",
     "Name": "Saurus Oldblood",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -413,10 +413,10 @@
           "A": "5",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -432,7 +432,7 @@
     }
   },
   {
-    "Id": "99f82385-979a-44c0-872a-3f894b110c0f",
+    "Id": "17e47699-f1e5-4b37-8b6b-139dc63adbbf",
     "Name": "Cold One",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -440,18 +440,18 @@
       "totalcost": "108"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "eaca-69a2-8b6a-81c6",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -468,9 +468,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -486,7 +486,7 @@
     }
   },
   {
-    "Id": "22d9f761-4a58-4280-b3e5-6887e5ede3f0",
+    "Id": "8db0a3b3-c5de-4706-825d-5dd1cf84a281",
     "Name": "Carnosaur",
     "Attributes": {
       "type": "",
@@ -494,20 +494,20 @@
       "totalcost": "260"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5627-f840-3260-8196",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "c822-7ad0-f24a-e4af",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c56e-8d1b-bb4-de99",
-      "ffb6-bce1-e7c8-90e8"
-    ],
+    "RuleIds": {
+      "5627-f840-3260-8196": "Blood Frenzy",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "ffb6-bce1-e7c8-90e8": "Slashing talons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -524,10 +524,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "ffb6-bce1-e7c8-90e8"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "ffb6-bce1-e7c8-90e8": "Slashing talons"
+        }
       }
     ],
     "Amount": {
@@ -543,7 +543,7 @@
     }
   },
   {
-    "Id": "c8c9f04f-73e4-420c-8f8d-0cf6ecf8df44",
+    "Id": "643fa62f-38a0-47f1-b09f-65f60bd8cc62",
     "Name": "Terradon",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -551,18 +551,18 @@
       "totalcost": "120"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "2396-465a-571c-8e02",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "2396-465a-571c-8e02": "Drop Rocks",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -579,9 +579,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -597,7 +597,7 @@
     }
   },
   {
-    "Id": "6537a479-3df5-4b0d-80a3-f843dafdccbe",
+    "Id": "dadd6b69-7afa-44c3-9ce7-6b844cf50a8f",
     "Name": "Ripperdactyl",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -605,20 +605,20 @@
       "totalcost": "125"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "f28b-ec19-c8aa-61a8",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "b664-8530-a988-7ba9",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "dc91-48b3-3696-217",
-      "401b-4fd5-8315-114",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "f28b-ec19-c8aa-61a8": "Cleaving Blow (Ripperdactyl only)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "401b-4fd5-8315-114": "Toad Rage",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -635,9 +635,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -653,7 +653,7 @@
     }
   },
   {
-    "Id": "0b00a1b7-6e27-4ebb-a356-7f6a0262ec9f",
+    "Id": "4afaac6d-adee-4b61-8e7d-521b35400d56",
     "Name": "Stegadon",
     "Attributes": {
       "type": "",
@@ -661,26 +661,26 @@
       "totalcost": "305"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "f40b-cb96-3405-2e11",
-      "81f5-4895-4abc-fc39",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -697,11 +697,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -716,10 +716,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -735,7 +735,7 @@
     }
   },
   {
-    "Id": "dbac64b3-551a-4e4c-81bf-73daaffa4d3f",
+    "Id": "5c68b353-2126-426b-ac39-67e29ba2a2bb",
     "Name": "Ancient Stegadon",
     "Attributes": {
       "type": "",
@@ -743,26 +743,26 @@
       "totalcost": "320"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "f40b-cb96-3405-2e11",
-      "81f5-4895-4abc-fc39",
-      "23c4-bd19-2422-ad08",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -779,11 +779,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -798,10 +798,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -817,18 +817,18 @@
     }
   },
   {
-    "Id": "68108fcf229aecc8c36058e6",
+    "Id": "68109fdb6a222a2f460b2528",
     "Name": "Saurus Scar-Veteran",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "36e4-6605-cfed-f985",
-      "eaca-69a2-8b6a-81c6",
-      "f40b-cb96-3405-2e11",
-      "23c4-bd19-2422-ad08",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "eaca-69a2-8b6a-81c6": "Furious Charge",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "23c4-bd19-2422-ad08": "Rallying Cry",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -845,10 +845,10 @@
           "A": "4",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -864,7 +864,7 @@
     }
   },
   {
-    "Id": "4bf8f2fd-57b1-40e6-a365-d9fe3dfc000e",
+    "Id": "a260708c-9993-4e90-a365-fadd54db760a",
     "Name": "Cold One",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -872,17 +872,17 @@
       "totalcost": "63"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "81f5-4895-4abc-fc39",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -899,9 +899,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -917,7 +917,7 @@
     }
   },
   {
-    "Id": "0567e14e-cf55-4297-9b7f-df17ad6995d1",
+    "Id": "33aa9fed-1eb4-40f6-9d37-7a805f4efd0e",
     "Name": "Carnosaur",
     "Attributes": {
       "type": "",
@@ -925,19 +925,19 @@
       "totalcost": "215"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "5627-f840-3260-8196",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "c822-7ad0-f24a-e4af",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c56e-8d1b-bb4-de99",
-      "ffb6-bce1-e7c8-90e8"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "5627-f840-3260-8196": "Blood Frenzy",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "ffb6-bce1-e7c8-90e8": "Slashing talons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -954,10 +954,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "ffb6-bce1-e7c8-90e8"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "ffb6-bce1-e7c8-90e8": "Slashing talons"
+        }
       }
     ],
     "Amount": {
@@ -973,7 +973,7 @@
     }
   },
   {
-    "Id": "b4d03c98-7739-4b25-9cc2-1ed9bbf7739c",
+    "Id": "b8ae2858-2ef6-4527-a73b-2cdbd7017401",
     "Name": "Terradon",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -981,17 +981,17 @@
       "totalcost": "75"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "2396-465a-571c-8e02",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "81f5-4895-4abc-fc39",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "2396-465a-571c-8e02": "Drop Rocks",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1008,9 +1008,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1026,7 +1026,7 @@
     }
   },
   {
-    "Id": "3df0513a-8ff9-4bc2-a2fc-2fd2692b2674",
+    "Id": "60a39b80-5d90-440e-89dd-14539fb03bc7",
     "Name": "Ripperdactyl",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1034,20 +1034,20 @@
       "totalcost": "80"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "5450-cbf1-3e74-254a",
-      "f28b-ec19-c8aa-61a8",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "b664-8530-a988-7ba9",
-      "81f5-4895-4abc-fc39",
-      "dc91-48b3-3696-217",
-      "401b-4fd5-8315-114",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "f28b-ec19-c8aa-61a8": "Cleaving Blow (Ripperdactyl only)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge (Ripperdactyl only)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "401b-4fd5-8315-114": "Toad Rage",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1064,9 +1064,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1082,7 +1082,7 @@
     }
   },
   {
-    "Id": "dfd83b31-7e68-4ea2-a5bc-ec509a7ca6bf",
+    "Id": "5cf0728e-d8f5-4fa8-86a0-e9982527c98a",
     "Name": "Stegadon",
     "Attributes": {
       "type": "",
@@ -1090,24 +1090,24 @@
       "totalcost": "260"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1124,11 +1124,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -1143,10 +1143,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -1162,7 +1162,7 @@
     }
   },
   {
-    "Id": "16576e46-1973-4e7d-86b6-81984cca007c",
+    "Id": "7ad2dee0-466d-44bf-a7f5-41b885127f8e",
     "Name": "Ancient Stegadon",
     "Attributes": {
       "type": "",
@@ -1170,24 +1170,24 @@
       "totalcost": "275"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1204,11 +1204,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -1223,10 +1223,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -1242,17 +1242,17 @@
     }
   },
   {
-    "Id": "68108fd0229aecc8c360a57a",
+    "Id": "68109fdd6a222a2f460b71bc",
     "Name": "Skink Chief",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "36e4-6605-cfed-f985",
-      "81f5-4895-4abc-fc39",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1269,10 +1269,10 @@
           "A": "3",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -1288,7 +1288,7 @@
     }
   },
   {
-    "Id": "b6dd709d-39b3-48b0-b9ee-3f8e3f706c3e",
+    "Id": "8e0357bb-c7c4-4417-b129-c3b4be6f80c9",
     "Name": "Cold One",
     "Attributes": {
       "type": "Heavy Cavalry",
@@ -1296,18 +1296,18 @@
       "totalcost": "78"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "7310-fc0b-4011-6eaa",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1324,9 +1324,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1342,7 +1342,7 @@
     }
   },
   {
-    "Id": "e3899622-b48e-444c-84c0-5e1674d30d84",
+    "Id": "fbb1d17d-89c7-47e7-890c-3a45747a360d",
     "Name": "Carnosaur",
     "Attributes": {
       "type": "",
@@ -1350,20 +1350,20 @@
       "totalcost": "230"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "5627-f840-3260-8196",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "c822-7ad0-f24a-e4af",
-      "7310-fc0b-4011-6eaa",
-      "72db-24bb-7493-d753",
-      "dc91-48b3-3696-217",
-      "c7a2-35bf-4313-f4f0",
-      "c56e-8d1b-bb4-de99",
-      "ffb6-bce1-e7c8-90e8"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "5627-f840-3260-8196": "Blood Frenzy",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "ffb6-bce1-e7c8-90e8": "Slashing talons"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1380,10 +1380,10 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "ffb6-bce1-e7c8-90e8"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "ffb6-bce1-e7c8-90e8": "Slashing talons"
+        }
       }
     ],
     "Amount": {
@@ -1399,7 +1399,7 @@
     }
   },
   {
-    "Id": "683f457d-f814-4393-9d52-e091d7620409",
+    "Id": "7f7575f6-b866-45d2-97aa-aeb084d84d5a",
     "Name": "Terradon",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1407,18 +1407,18 @@
       "totalcost": "90"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "2396-465a-571c-8e02",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "7310-fc0b-4011-6eaa",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "2396-465a-571c-8e02": "Drop Rocks",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1435,9 +1435,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1453,7 +1453,7 @@
     }
   },
   {
-    "Id": "71c394d7-a7be-45a1-87fd-73d57f8ac81f",
+    "Id": "bd3478bf-24c1-49a9-953b-fdb271b0115e",
     "Name": "Ripperdactyl",
     "Attributes": {
       "type": "Monstrous Cavalry",
@@ -1461,21 +1461,21 @@
       "totalcost": "95"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "5450-cbf1-3e74-254a",
-      "f28b-ec19-c8aa-61a8",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "b664-8530-a988-7ba9",
-      "7310-fc0b-4011-6eaa",
-      "dc91-48b3-3696-217",
-      "401b-4fd5-8315-114",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "f28b-ec19-c8aa-61a8": "Cleaving Blow (Ripperdactyl only)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge (Ripperdactyl only)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "401b-4fd5-8315-114": "Toad Rage",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1492,9 +1492,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1510,7 +1510,7 @@
     }
   },
   {
-    "Id": "86e8bfe3-e310-40a4-8681-a2957f991cc3",
+    "Id": "7f6d6635-f404-4749-ac3e-0244bcae4cb3",
     "Name": "Stegadon",
     "Attributes": {
       "type": "",
@@ -1518,26 +1518,26 @@
       "totalcost": "275"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "7310-fc0b-4011-6eaa",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1554,11 +1554,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -1573,10 +1573,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -1592,7 +1592,7 @@
     }
   },
   {
-    "Id": "2962596a-0cfb-4a8a-b3f1-59e2fe2becfc",
+    "Id": "cdab8bf4-c93a-4a05-b5ac-5d792952407b",
     "Name": "Ancient Stegadon",
     "Attributes": {
       "type": "",
@@ -1600,26 +1600,26 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "7310-fc0b-4011-6eaa",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1636,11 +1636,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -1655,10 +1655,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -1674,20 +1674,20 @@
     }
   },
   {
-    "Id": "68108fd1229aecc8c360f206",
+    "Id": "68109fe06a222a2f460bbe48",
     "Name": "Skink Priest",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "36e4-6605-cfed-f985",
-      "7310-fc0b-4011-6eaa",
-      "3c27-d55d-e778-cb89",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "9872-a62f-93ff-4e9e"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "3c27-d55d-e778-cb89": "Battle Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "9872-a62f-93ff-4e9e": "Lore of Lustria"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1704,12 +1704,12 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "3c27-d55d-e778-cb89",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "9872-a62f-93ff-4e9e"
-        ]
+        "RuleIds": {
+          "3c27-d55d-e778-cb89": "Battle Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "9872-a62f-93ff-4e9e": "Lore of Lustria"
+        }
       }
     ],
     "Amount": {
@@ -1725,21 +1725,21 @@
     }
   },
   {
-    "Id": "68108fd3229aecc8c3613be1",
+    "Id": "68109fe36a222a2f460c0823",
     "Name": "Slann Mage-Priest",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2923-5a00-ad64-43a2",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "c557-6102-9a35-bbcd",
-      "c822-7ad0-f24a-e4af",
-      "7310-fc0b-4011-6eaa",
-      "3c27-d55d-e778-cb89",
-      "6d4a-7733-d725-a267",
-      "9872-a62f-93ff-4e9e"
-    ],
+    "RuleIds": {
+      "2923-5a00-ad64-43a2": "Arcane Shield",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "c557-6102-9a35-bbcd": "Fly (8)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "3c27-d55d-e778-cb89": "Battle Magic",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "9872-a62f-93ff-4e9e": "Lore of Lustria"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1756,11 +1756,11 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3c27-d55d-e778-cb89",
-          "6d4a-7733-d725-a267",
-          "9872-a62f-93ff-4e9e"
-        ]
+        "RuleIds": {
+          "3c27-d55d-e778-cb89": "Battle Magic",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "9872-a62f-93ff-4e9e": "Lore of Lustria"
+        }
       }
     ],
     "Amount": {
@@ -1776,21 +1776,21 @@
     }
   },
   {
-    "Id": "68108fd3229aecc8c361479f",
+    "Id": "68109fe36a222a2f460c13e1",
     "Name": "Jungle Swarms",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "36e4-6605-cfed-f985",
-      "93d9-c75b-f655-30ac",
-      "2ecd-c6b3-bd8b-864b",
-      "e83e-f127-1904-3858",
-      "81f5-4895-4abc-fc39",
-      "59a5-7eca-ee35-96ac",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1807,9 +1807,9 @@
           "A": "5",
           "Ld": "5"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -1825,19 +1825,19 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c361534c",
+    "Id": "68109fe36a222a2f460c1f8e",
     "Name": "Spawn Leader (Saurus Warrior)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "f40b-cb96-3405-2e11",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1854,12 +1854,12 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -1875,19 +1875,19 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c3615c30",
+    "Id": "68109fe46a222a2f460c2872",
     "Name": "Musician (Saurus Warrior)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "f40b-cb96-3405-2e11",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1904,12 +1904,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -1925,19 +1925,19 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c361650b",
+    "Id": "68109fe46a222a2f460c314d",
     "Name": "Standard Bearer (Saurus Warrior)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "f40b-cb96-3405-2e11",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1954,12 +1954,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -1975,18 +1975,18 @@
     }
   },
   {
-    "Id": "68108fd3229aecc8c3614a66",
+    "Id": "68109fe36a222a2f460c16a8",
     "Name": "Saurus Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "f40b-cb96-3405-2e11",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2003,11 +2003,11 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2023,21 +2023,21 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c36170c9",
+    "Id": "68109fe46a222a2f460c3d0b",
     "Name": "Patrol Leader (Skink)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "36e4-6605-cfed-f985",
-      "e83e-f127-1904-3858",
-      "81f5-4895-4abc-fc39",
-      "59a5-7eca-ee35-96ac",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2054,13 +2054,13 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2076,20 +2076,20 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c3616ddc",
+    "Id": "68109fe46a222a2f460c3a1e",
     "Name": "Skink",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "36e4-6605-cfed-f985",
-      "e83e-f127-1904-3858",
-      "81f5-4895-4abc-fc39",
-      "59a5-7eca-ee35-96ac",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2106,12 +2106,12 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2127,23 +2127,23 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c3617e1d",
+    "Id": "68109fe56a222a2f460c4a5f",
     "Name": "Revered Guardian (Temple Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "5f1c-fd04-b0d5-d5e",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2160,13 +2160,13 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2182,23 +2182,23 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c361888e",
+    "Id": "68109fe56a222a2f460c54d0",
     "Name": "Musician (Temple Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2215,13 +2215,13 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2237,23 +2237,23 @@
     }
   },
   {
-    "Id": "68108fd5229aecc8c36192f5",
+    "Id": "68109fe56a222a2f460c5f37",
     "Name": "Standard Bearer (Temple Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2270,13 +2270,13 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -2292,22 +2292,22 @@
     }
   },
   {
-    "Id": "68108fd4229aecc8c36173aa",
+    "Id": "68109fe46a222a2f460c3fec",
     "Name": "Temple Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2324,12 +2324,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2345,23 +2345,23 @@
     }
   },
   {
-    "Id": "68108fd5229aecc8c361a7c6",
+    "Id": "68109fe66a222a2f460c7408",
     "Name": "Revered Guardian (Temple Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "5f1c-fd04-b0d5-d5e",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2378,13 +2378,13 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2400,23 +2400,23 @@
     }
   },
   {
-    "Id": "68108fd5229aecc8c361b237",
+    "Id": "68109fe66a222a2f460c7e79",
     "Name": "Musician (Temple Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2433,13 +2433,13 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2455,23 +2455,23 @@
     }
   },
   {
-    "Id": "68108fd5229aecc8c361bc9e",
+    "Id": "68109fe66a222a2f460c88e0",
     "Name": "Standard Bearer (Temple Guard)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2488,13 +2488,13 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -2510,22 +2510,22 @@
     }
   },
   {
-    "Id": "68108fd5229aecc8c3619d53",
+    "Id": "68109fe66a222a2f460c6995",
     "Name": "Temple Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "9bcd-b4dd-74d0-59ab",
-      "f40b-cb96-3405-2e11",
-      "32f7-8e30-3fe8-b11e",
-      "e351-bbd6-f470-b604",
-      "98f8-9d8-94cd-3379",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9bcd-b4dd-74d0-59ab": "Guardians",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "98f8-9d8-94cd-3379": "Halberd",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2542,12 +2542,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "98f8-9d8-94cd-3379",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "98f8-9d8-94cd-3379": "Halberd",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -2563,28 +2563,28 @@
     }
   },
   {
-    "Id": "68108fd5229aecc8c361c700",
+    "Id": "68109fe76a222a2f460c9342",
     "Name": "Bastiladon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c59f-ddf3-63b7-eaf",
-      "c822-7ad0-f24a-e4af",
-      "81f5-4895-4abc-fc39",
-      "dcef-d996-383e-c1ea",
-      "f0bc-d38f-d9ae-105d",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "6ed4-8a23-db9e-139a",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3)",
+      "c59f-ddf3-63b7-eaf": "Impervious Defence",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "dcef-d996-383e-c1ea": "Slithering Serpents",
+      "f0bc-d38f-d9ae-105d": "Spawn of Sotek",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+1)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  3+",
+      "6ed4-8a23-db9e-139a": "Thunderous bludgeon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2601,10 +2601,10 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "6ed4-8a23-db9e-139a"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  3+",
+          "6ed4-8a23-db9e-139a": "Thunderous bludgeon"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -2619,10 +2619,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -2638,21 +2638,21 @@
     }
   },
   {
-    "Id": "68108fd6229aecc8c361ccbb",
+    "Id": "68109fe76a222a2f460c98fd",
     "Name": "Patrol Leader (Chameleon Skink)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "36e4-6605-cfed-f985",
-      "9fff-999f-6e96-e149",
-      "e83e-f127-1904-3858",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "d03f-1fcf-1246-19ef",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9fff-999f-6e96-e149": "Evasive",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "d03f-1fcf-1246-19ef": "Blowpipe",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2669,12 +2669,12 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "d03f-1fcf-1246-19ef",
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d03f-1fcf-1246-19ef": "Blowpipe",
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2690,20 +2690,20 @@
     }
   },
   {
-    "Id": "68108fd6229aecc8c361c9df",
+    "Id": "68109fe76a222a2f460c9621",
     "Name": "Chameleon Skink",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "36e4-6605-cfed-f985",
-      "9fff-999f-6e96-e149",
-      "e83e-f127-1904-3858",
-      "fe5e-8838-7fbd-a7ec",
-      "59a5-7eca-ee35-96ac",
-      "d03f-1fcf-1246-19ef",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "9fff-999f-6e96-e149": "Evasive",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "d03f-1fcf-1246-19ef": "Blowpipe",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2720,11 +2720,11 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "d03f-1fcf-1246-19ef",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d03f-1fcf-1246-19ef": "Blowpipe",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -2740,25 +2740,24 @@
     }
   },
   {
-    "Id": "68108fd6229aecc8c361da09",
+    "Id": "68109fe76a222a2f460ca64b",
     "Name": "Pack Leader (Cold One Rider)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "f40b-cb96-3405-2e11",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2775,12 +2774,12 @@
           "A": "3",
           "Ld": "8"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Cold One",
@@ -2795,9 +2794,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2813,25 +2812,24 @@
     }
   },
   {
-    "Id": "68108fd6229aecc8c361e488",
+    "Id": "68109fe86a222a2f460cb0ca",
     "Name": "Musician (Cold One Rider)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "f40b-cb96-3405-2e11",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2848,12 +2846,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Cold One",
@@ -2868,9 +2866,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2886,25 +2884,24 @@
     }
   },
   {
-    "Id": "68108fd6229aecc8c361eefe",
+    "Id": "68109fe86a222a2f460cbb40",
     "Name": "Standard Bearer (Cold One Rider)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "f40b-cb96-3405-2e11",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2921,12 +2918,12 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       },
       {
         "Name": "Cold One",
@@ -2941,9 +2938,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -2959,24 +2956,23 @@
     }
   },
   {
-    "Id": "68108fd6229aecc8c361cf87",
+    "Id": "68109fe76a222a2f460c9bc9",
     "Name": "Cold One Rider",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "5450-cbf1-3e74-254a",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "f40b-cb96-3405-2e11",
-      "f7af-e016-1f9c-54c0",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "c56e-8d1b-bb4-de99",
-      "8997-c74d-3a8d-ecf9",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1, Cold One only)",
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "f40b-cb96-3405-2e11": "Obsidian Blades",
+      "f7af-e016-1f9c-54c0": "Stupidity",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -2993,11 +2989,11 @@
           "A": "2",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "c56e-8d1b-bb4-de99",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Cold One",
@@ -3012,9 +3008,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3030,20 +3026,20 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c361fc41",
+    "Id": "68109fe96a222a2f460cc883",
     "Name": "Ancient (Kroxigor)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "aa7-f3d2-b4b9-a2e3",
-      "5f1c-fd04-b0d5-d5e",
-      "77ca-5e-3d5e-ead5",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "aa7-f3d2-b4b9-a2e3": "Skirmish Screen",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3060,11 +3056,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "77ca-5e-3d5e-ead5",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3080,19 +3076,19 @@
     }
   },
   {
-    "Id": "68108fd6229aecc8c361f96b",
+    "Id": "68109fe86a222a2f460cc5ad",
     "Name": "Kroxigor",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "aa7-f3d2-b4b9-a2e3",
-      "77ca-5e-3d5e-ead5",
-      "c56e-8d1b-bb4-de99"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "aa7-f3d2-b4b9-a2e3": "Skirmish Screen",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3109,10 +3105,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "77ca-5e-3d5e-ead5",
-          "c56e-8d1b-bb4-de99"
-        ]
+        "RuleIds": {
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour"
+        }
       }
     ],
     "Amount": {
@@ -3128,27 +3124,27 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c362020e",
+    "Id": "68109fe96a222a2f460cce50",
     "Name": "Ripperdactyl Champion (Ripperdactyl Rider)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "f28b-ec19-c8aa-61a8",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "b664-8530-a988-7ba9",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "401b-4fd5-8315-114",
-      "ee75-c1a8-2f0c-c264",
-      "5f1c-fd04-b0d5-d5e",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "f28b-ec19-c8aa-61a8": "Cleaving Blow (Ripperdactyl only)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge (Ripperdactyl only)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "401b-4fd5-8315-114": "Toad Rage",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3165,12 +3161,12 @@
           "A": "2",
           "Ld": "5"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "5f1c-fd04-b0d5-d5e",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Ripperdactyl",
@@ -3185,9 +3181,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3203,26 +3199,26 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c361ff0c",
+    "Id": "68109fe96a222a2f460ccb4e",
     "Name": "Ripperdactyl Rider",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "f28b-ec19-c8aa-61a8",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "eaca-69a2-8b6a-81c6",
-      "b664-8530-a988-7ba9",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "401b-4fd5-8315-114",
-      "ee75-c1a8-2f0c-c264",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "f28b-ec19-c8aa-61a8": "Cleaving Blow (Ripperdactyl only)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (9)",
+      "eaca-69a2-8b6a-81c6": "Furious Charge (Ripperdactyl only)",
+      "b664-8530-a988-7ba9": "Impetuous",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "401b-4fd5-8315-114": "Toad Rage",
+      "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3239,11 +3235,11 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "ee75-c1a8-2f0c-c264",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "ee75-c1a8-2f0c-c264": "Cavalry Spear",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       },
       {
         "Name": "Ripperdactyl",
@@ -3258,9 +3254,9 @@
           "A": "2",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3276,27 +3272,27 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c36204ec",
+    "Id": "68109fe96a222a2f460cd12e",
     "Name": "Stegadon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3313,11 +3309,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -3332,10 +3328,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -3351,25 +3347,24 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c3620ac0",
+    "Id": "68109fe96a222a2f460cd702",
     "Name": "Sky Leader (Terradon Rider)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "2396-465a-571c-8e02",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "81f5-4895-4abc-fc39",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "2396-465a-571c-8e02": "Drop Rocks",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3386,12 +3381,12 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "Terradon",
@@ -3406,9 +3401,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3424,24 +3419,23 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c36207d0",
+    "Id": "68109fe96a222a2f460cd412",
     "Name": "Terradon Rider",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "5450-cbf1-3e74-254a",
-      "36e4-6605-cfed-f985",
-      "2396-465a-571c-8e02",
-      "5ec9-a98-d8c5-e18b",
-      "c557-6102-9a35-bbcd",
-      "81f5-4895-4abc-fc39",
-      "59a5-7eca-ee35-96ac",
-      "dc91-48b3-3696-217",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d",
-      "dbb2-4d85-84c2-528c",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "5450-cbf1-3e74-254a": "Armoured Hide (1)",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "2396-465a-571c-8e02": "Drop Rocks",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "c557-6102-9a35-bbcd": "Fly (10)",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "dc91-48b3-3696-217": "Swiftstride",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3458,11 +3452,11 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       },
       {
         "Name": "Terradon",
@@ -3477,9 +3471,9 @@
           "A": "1",
           "Ld": "-"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -3495,27 +3489,27 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c3620da3",
+    "Id": "68109fea6a222a2f460cd9e5",
     "Name": "Ancient Stegadon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3532,11 +3526,11 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -3551,10 +3545,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -3570,20 +3564,20 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c3621093",
+    "Id": "68109fea6a222a2f460cdcd5",
     "Name": "Razordon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "2d23-e868-8f64-7196",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "59a5-7eca-ee35-96ac",
-      "c56e-8d1b-bb4-de99",
-      "2637-b726-c17-321",
-      "d487-e11-1cc5-1560"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "2d23-e868-8f64-7196": "Beast Handlers",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "2637-b726-c17-321": "Razor barbs",
+      "d487-e11-1cc5-1560": "Wicked claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3600,11 +3594,11 @@
           "A": "2",
           "Ld": "4"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "2637-b726-c17-321",
-          "d487-e11-1cc5-1560"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "2637-b726-c17-321": "Razor barbs",
+          "d487-e11-1cc5-1560": "Wicked claws"
+        }
       }
     ],
     "Amount": {
@@ -3620,19 +3614,19 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c362108e",
+    "Id": "68109fea6a222a2f460cdcd0",
     "Name": "Skink Handler",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "2d23-e868-8f64-7196",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "59a5-7eca-ee35-96ac",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "2d23-e868-8f64-7196": "Beast Handlers",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3649,10 +3643,10 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3668,20 +3662,20 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c3621379",
+    "Id": "68109fea6a222a2f460cdfbb",
     "Name": "Salamander",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "2d23-e868-8f64-7196",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "59a5-7eca-ee35-96ac",
-      "62a4-535f-c619-df64",
-      "c56e-8d1b-bb4-de99",
-      "d487-e11-1cc5-1560"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "2d23-e868-8f64-7196": "Beast Handlers",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "62a4-535f-c619-df64": "Fiery breath",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "d487-e11-1cc5-1560": "Wicked claws"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3698,11 +3692,11 @@
           "A": "2",
           "Ld": "4"
         },
-        "RuleIds": [
-          "62a4-535f-c619-df64",
-          "c56e-8d1b-bb4-de99",
-          "d487-e11-1cc5-1560"
-        ]
+        "RuleIds": {
+          "62a4-535f-c619-df64": "Fiery breath",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "d487-e11-1cc5-1560": "Wicked claws"
+        }
       }
     ],
     "Amount": {
@@ -3718,19 +3712,19 @@
     }
   },
   {
-    "Id": "68108fd7229aecc8c3621374",
+    "Id": "68109fea6a222a2f460cdfb6",
     "Name": "Skink Handler",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "2d23-e868-8f64-7196",
-      "36e4-6605-cfed-f985",
-      "5ec9-a98-d8c5-e18b",
-      "59a5-7eca-ee35-96ac",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "2d23-e868-8f64-7196": "Beast Handlers",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3747,10 +3741,10 @@
           "A": "1",
           "Ld": "5"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3766,27 +3760,27 @@
     }
   },
   {
-    "Id": "68108fd8229aecc8c362165b",
+    "Id": "68109feb6a222a2f460ce29d",
     "Name": "Stegadon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "7513-3d8a-0665-3fda",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "c822-7ad0-f24a-e4af",
-      "81f5-4895-4abc-fc39",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "e099-1ebb-9e85-34c8",
-      "c2ef-844b-196f-89ed",
-      "8715-7ee1-b1e8-730",
-      "6d4a-7733-d725-a267",
-      "f3f8-7476-d165-1a5d"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "7513-3d8a-0665-3fda": "Howdah (Lizardmen)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "81f5-4895-4abc-fc39": "Poisoned Attacks (javelins only)",
+      "72db-24bb-7493-d753": "Stomp Attacks (D3+2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+      "c2ef-844b-196f-89ed": "Giant bow",
+      "8715-7ee1-b1e8-730": "Great horns",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "f3f8-7476-d165-1a5d": "Javelin"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3803,11 +3797,11 @@
           "A": "4",
           "Ld": "-"
         },
-        "RuleIds": [
-          "e099-1ebb-9e85-34c8",
-          "c2ef-844b-196f-89ed",
-          "8715-7ee1-b1e8-730"
-        ]
+        "RuleIds": {
+          "e099-1ebb-9e85-34c8": "Armour Value :  4+",
+          "c2ef-844b-196f-89ed": "Giant bow",
+          "8715-7ee1-b1e8-730": "Great horns"
+        }
       },
       {
         "Name": "Skink Crew",
@@ -3822,10 +3816,10 @@
           "A": "1",
           "Ld": "6"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "f3f8-7476-d165-1a5d"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "f3f8-7476-d165-1a5d": "Javelin"
+        }
       }
     ],
     "Amount": {
@@ -3841,31 +3835,29 @@
     }
   },
   {
-    "Id": "68108fd8229aecc8c3621942",
+    "Id": "68109feb6a222a2f460ce584",
     "Name": "Troglodon",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "1f39-2789-f136-7645",
-      "931c-9a14-c64-334d",
-      "883e-e1b1-4fe9-5912",
-      "36e4-6605-cfed-f985",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "7310-fc0b-4011-6eaa",
-      "8425-fbf8-1c5e-4439",
-      "72db-24bb-7493-d753",
-      "e351-bbd6-f470-b604",
-      "c7a2-35bf-4313-f4f0",
-      "c56e-8d1b-bb4-de99",
-      "ae10-c5ba-fbb6-3377",
-      "9872-a62f-93ff-4e9e",
-      "f2ca-e290-2a24-28e",
-      "12f3-1f28-7a10-775c",
-      "6d4a-7733-d725-a267",
-      "ae10-c5ba-fbb6-3377",
-      "9872-a62f-93ff-4e9e"
-    ],
+    "RuleIds": {
+      "1f39-2789-f136-7645": "Aquatic",
+      "931c-9a14-c64-334d": "Arcane Vassal",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "36e4-6605-cfed-f985": "Cold Blooded",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "7310-fc0b-4011-6eaa": "Lore Of Lustria",
+      "8425-fbf8-1c5e-4439": "Primeval Roar",
+      "72db-24bb-7493-d753": "Stomp Attacks (2)",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "ae10-c5ba-fbb6-3377": "Illusion",
+      "9872-a62f-93ff-4e9e": "Lore of Lustria",
+      "f2ca-e290-2a24-28e": "Venom spray",
+      "12f3-1f28-7a10-775c": "Venomous talons",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3882,13 +3874,13 @@
           "A": "3",
           "Ld": "-"
         },
-        "RuleIds": [
-          "c56e-8d1b-bb4-de99",
-          "ae10-c5ba-fbb6-3377",
-          "9872-a62f-93ff-4e9e",
-          "f2ca-e290-2a24-28e",
-          "12f3-1f28-7a10-775c"
-        ]
+        "RuleIds": {
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "ae10-c5ba-fbb6-3377": "Illusion",
+          "9872-a62f-93ff-4e9e": "Lore of Lustria",
+          "f2ca-e290-2a24-28e": "Venom spray",
+          "12f3-1f28-7a10-775c": "Venomous talons"
+        }
       },
       {
         "Name": "Skink Oracle",
@@ -3903,11 +3895,11 @@
           "A": "1",
           "Ld": "8"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "ae10-c5ba-fbb6-3377",
-          "9872-a62f-93ff-4e9e"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "ae10-c5ba-fbb6-3377": "Illusion",
+          "9872-a62f-93ff-4e9e": "Lore of Lustria"
+        }
       }
     ],
     "Amount": {
@@ -3923,22 +3915,22 @@
     }
   },
   {
-    "Id": "68108fd8229aecc8c3622281",
+    "Id": "68109fec6a222a2f460ceec3",
     "Name": "Champion (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -3955,11 +3947,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -3975,22 +3967,22 @@
     }
   },
   {
-    "Id": "68108fd8229aecc8c3622732",
+    "Id": "68109fec6a222a2f460cf374",
     "Name": "Musician (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4007,11 +3999,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
       }
     ],
     "Amount": {
@@ -4027,22 +4019,22 @@
     }
   },
   {
-    "Id": "68108fd8229aecc8c3622be3",
+    "Id": "68109fec6a222a2f460cf825",
     "Name": "Standard Bearer (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4059,11 +4051,11 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4079,21 +4071,21 @@
     }
   },
   {
-    "Id": "68108fd8229aecc8c3621c47",
+    "Id": "68109fec6a222a2f460ce889",
     "Name": "Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4110,10 +4102,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4129,23 +4121,23 @@
     }
   },
   {
-    "Id": "68108fd8229aecc8c362305e",
+    "Id": "68109fed6a222a2f460cfca0",
     "Name": "Bonegrinder Giant",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "7c08-9451-ab5c-b5eb",
-      "883e-e1b1-4fe9-5912",
-      "93d9-c75b-f655-30ac",
-      "c822-7ad0-f24a-e4af",
-      "4d1b-2617-ebdc-4f4d",
-      "72db-24bb-7493-d753",
-      "c7a2-35bf-4313-f4f0",
-      "4f28-3f86-cf88-6b3a",
-      "d3eb-1fa0-bb19-f390",
-      "d3a2-c528-1da0-e731",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "7c08-9451-ab5c-b5eb": "Bonegrinder Giant Attacks",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "c822-7ad0-f24a-e4af": "Large Target",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "72db-24bb-7493-d753": "Stomp Attacks (D6+1)",
+      "c7a2-35bf-4313-f4f0": "Terror",
+      "4f28-3f86-cf88-6b3a": "Timmm-Berrr!",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4162,10 +4154,10 @@
           "A": "*",
           "Ld": "10"
         },
-        "RuleIds": [
-          "d3a2-c528-1da0-e731",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "d3a2-c528-1da0-e731": "Bonegrinder Giant’s Club",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4181,28 +4173,28 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c362332c",
+    "Id": "68109fed6a222a2f460cff6e",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "233a-1715-82be-1410",
-      "74e5-b4c9-5ca9-6ca2",
-      "8961-ff44-72ad-9de1",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "93d9-c75b-f655-30ac",
-      "5c2-e9dd-2715-a0c0",
-      "2ecd-c6b3-bd8b-864b",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "1b08-4621-6379-ff1f",
-      "a230-c540-6a65-4974",
-      "d3eb-1fa0-bb19-f390",
-      "691e-10ec-4f7c-a2c4",
-      "133a-a421-c52f-e33f",
-      "6d4a-7733-d725-a267"
-    ],
+    "RuleIds": {
+      "233a-1715-82be-1410": "Deathblow",
+      "74e5-b4c9-5ca9-6ca2": "Doomseeker",
+      "8961-ff44-72ad-9de1": "First to the Fray",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "93d9-c75b-f655-30ac": "Immune To Psychology",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (D3+1)",
+      "2ecd-c6b3-bd8b-864b": "Loner",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-2)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "1b08-4621-6379-ff1f": "Random Attacks",
+      "a230-c540-6a65-4974": "Resolute",
+      "d3eb-1fa0-bb19-f390": "Unbreakable",
+      "691e-10ec-4f7c-a2c4": "Vanguard",
+      "133a-a421-c52f-e33f": "Whirlwind of Death",
+      "6d4a-7733-d725-a267": "Hand Weapon"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4219,9 +4211,9 @@
           "A": "2D3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon"
+        }
       }
     ],
     "Amount": {
@@ -4237,20 +4229,20 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c362364c",
+    "Id": "68109fed6a222a2f460d028e",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "32f7-8e30-3fe8-b11e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4267,10 +4259,10 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4286,22 +4278,22 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c362467b",
+    "Id": "68109fee6a222a2f460d12bd",
     "Name": "Champion (Imperial Ogre)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "5f1c-fd04-b0d5-d5e",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4318,11 +4310,11 @@
           "A": "4",
           "Ld": "7"
         },
-        "RuleIds": [
-          "5f1c-fd04-b0d5-d5e",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4338,21 +4330,21 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c362436e",
+    "Id": "68109fee6a222a2f460d0fb0",
     "Name": "Imperial Ogre",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "2af0-975f-bb14-8b8f",
-      "883e-e1b1-4fe9-5912",
-      "5ec9-a98-d8c5-e18b",
-      "5c2-e9dd-2715-a0c0",
-      "4d1b-2617-ebdc-4f4d",
-      "6359-4018-5cd4-3720",
-      "9e92-303-8d40-895c",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c"
-    ],
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4369,10 +4361,10 @@
           "A": "3",
           "Ld": "7"
         },
-        "RuleIds": [
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c"
-        ]
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour"
+        }
       }
     ],
     "Amount": {
@@ -4388,25 +4380,25 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c3624cb9",
+    "Id": "68109fef6a222a2f460d18fb",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4423,13 +4415,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4445,25 +4437,25 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c362501f",
+    "Id": "68109fef6a222a2f460d1c61",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4480,13 +4472,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4502,25 +4494,25 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c3624968",
+    "Id": "68109fef6a222a2f460d15aa",
     "Name": "Standard Bearer (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9",
-      "bcf8-d942-102e-b155"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4537,13 +4529,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9",
-          "bcf8-d942-102e-b155"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
       }
     ],
     "Amount": {
@@ -4559,25 +4551,25 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c3624971",
+    "Id": "68109fef6a222a2f460d15b3",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "77ca-5e-3d5e-ead5",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4594,13 +4586,13 @@
           "A": "2",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "77ca-5e-3d5e-ead5",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4616,27 +4608,27 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c362497a",
+    "Id": "68109fef6a222a2f460d15bc",
     "Name": "Prince Ulther Stonehammer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "f170-4b76-b645-29c4",
-      "34c9-6f88-dcfd-d3fa",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "ea58-1a09-e839-cced",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "f170-4b76-b645-29c4": "Dragonblade",
+      "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "ea58-1a09-e839-cced": "Rune of Fury",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4653,15 +4645,15 @@
           "A": "3",
           "Ld": "10"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "f170-4b76-b645-29c4",
-          "34c9-6f88-dcfd-d3fa",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "ea58-1a09-e839-cced",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "f170-4b76-b645-29c4": "Dragonblade",
+          "34c9-6f88-dcfd-d3fa": "Grudge Rune",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "ea58-1a09-e839-cced": "Rune of Fury",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
@@ -4677,25 +4669,25 @@
     }
   },
   {
-    "Id": "68108fd9229aecc8c3624983",
+    "Id": "68109fef6a222a2f460d15c5",
     "Name": "Musician (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": [
-      "883e-e1b1-4fe9-5912",
-      "1f64-3ddc-db58-12fb",
-      "2e16-e293-353e-6881",
-      "f4b3-18af-16bf-78dd",
-      "90ed-c9be-a611-79cc",
-      "4d1b-2617-ebdc-4f4d",
-      "a230-c540-6a65-4974",
-      "e351-bbd6-f470-b604",
-      "3f0e-1dc6-b425-bf59",
-      "6d4a-7733-d725-a267",
-      "dbb2-4d85-84c2-528c",
-      "40f2-dd77-f0ca-3663",
-      "8997-c74d-3a8d-ecf9"
-    ],
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -4712,13 +4704,13 @@
           "A": "1",
           "Ld": "9"
         },
-        "RuleIds": [
-          "3f0e-1dc6-b425-bf59",
-          "6d4a-7733-d725-a267",
-          "dbb2-4d85-84c2-528c",
-          "40f2-dd77-f0ca-3663",
-          "8997-c74d-3a8d-ecf9"
-        ]
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
       }
     ],
     "Amount": {
