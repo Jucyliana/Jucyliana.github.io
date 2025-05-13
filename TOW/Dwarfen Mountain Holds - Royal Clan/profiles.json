@@ -1,6 +1,6 @@
 [
   {
-    "Id": "6822bce28304465f8aff1da4",
+    "Id": "68109f136a222a2f46f690f5",
     "Name": "Thorgrim Ulleksson",
     "Attributes": {},
     "AttributeLists": {},
@@ -60,7 +60,7 @@
     }
   },
   {
-    "Id": "6822bce28304465f8aff2177",
+    "Id": "68109f146a222a2f46f694c8",
     "Name": "Ungrim Ironfist",
     "Attributes": {},
     "AttributeLists": {},
@@ -118,7 +118,7 @@
     }
   },
   {
-    "Id": "6822bce38304465f8aff2540",
+    "Id": "68109f146a222a2f46f69891",
     "Name": "Forgefather & Anvil Guard (Anvil of Doom)",
     "Attributes": {},
     "AttributeLists": {},
@@ -193,7 +193,7 @@
     }
   },
   {
-    "Id": "6822bce38304465f8aff2975",
+    "Id": "68109f146a222a2f46f69cc6",
     "Name": "Daemon Slayer",
     "Attributes": {},
     "AttributeLists": {},
@@ -245,7 +245,7 @@
     }
   },
   {
-    "Id": "6822bce38304465f8aff2dac",
+    "Id": "68109f146a222a2f46f6a0fd",
     "Name": "Dragon Slayer",
     "Attributes": {},
     "AttributeLists": {},
@@ -297,7 +297,7 @@
     }
   },
   {
-    "Id": "3397336e-cec5-457a-8b79-f7b774ed76b0",
+    "Id": "9d4e3e78-f074-483c-b1b5-78fa159ef8d0",
     "Name": "Shieldbearers",
     "Attributes": {
       "type": "Heavy Infantry",
@@ -355,7 +355,7 @@
     }
   },
   {
-    "Id": "6822bce38304465f8aff31ba",
+    "Id": "68109f146a222a2f46f6a50b",
     "Name": "King",
     "Attributes": {},
     "AttributeLists": {},
@@ -410,7 +410,7 @@
     }
   },
   {
-    "Id": "6822bce48304465f8aff3a66",
+    "Id": "68109f156a222a2f46f6adb7",
     "Name": "Runelord",
     "Attributes": {},
     "AttributeLists": {},
@@ -465,7 +465,7 @@
     }
   },
   {
-    "Id": "6822bce48304465f8aff3e9e",
+    "Id": "68109f156a222a2f46f6b1ef",
     "Name": "Runesmith",
     "Attributes": {},
     "AttributeLists": {},
@@ -518,7 +518,7 @@
     }
   },
   {
-    "Id": "a03f46da-71e2-42ba-af3b-3a4a4b4b5ccc",
+    "Id": "73212c30-7c0d-4c1e-bedf-0dc3138320ce",
     "Name": "Shieldbearers",
     "Attributes": {
       "type": "Heavy Infantry",
@@ -576,7 +576,7 @@
     }
   },
   {
-    "Id": "6822bce48304465f8aff42ff",
+    "Id": "68109f156a222a2f46f6b650",
     "Name": "Thane",
     "Attributes": {},
     "AttributeLists": {},
@@ -631,7 +631,7 @@
     }
   },
   {
-    "Id": "6822bce58304465f8aff5047",
+    "Id": "68109f156a222a2f46f6c398",
     "Name": "Elder (Longbeard)",
     "Attributes": {},
     "AttributeLists": {},
@@ -687,7 +687,119 @@
     }
   },
   {
-    "Id": "6822bce48304465f8aff4bef",
+    "Id": "68109f166a222a2f46f6c7e4",
+    "Name": "Musician (Longbeard)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e78f-d6ed-5364-a697": "Venerable",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Longbeard",
+        "Values": {
+          "M": "3",
+          "WS": "5",
+          "BS": "3",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f166a222a2f46f6cc30",
+    "Name": "Standard Bearer (Longbeard)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e78f-d6ed-5364-a697": "Venerable",
+      "4022-c403-b083-ba83": "Veteran",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Longbeard",
+        "Values": {
+          "M": "3",
+          "WS": "5",
+          "BS": "3",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f156a222a2f46f6bf40",
     "Name": "Longbeard",
     "Attributes": {},
     "AttributeLists": {},
@@ -741,7 +853,7 @@
     }
   },
   {
-    "Id": "6822bce58304465f8aff60f6",
+    "Id": "68109f166a222a2f46f6d447",
     "Name": "Veteran (Quarreller)",
     "Attributes": {},
     "AttributeLists": {},
@@ -795,7 +907,115 @@
     }
   },
   {
-    "Id": "6822bce58304465f8aff5d13",
+    "Id": "68109f166a222a2f46f6d816",
+    "Name": "Musician (Quarreller)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Quarreller",
+        "Values": {
+          "M": "3",
+          "WS": "3",
+          "BS": "3",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f166a222a2f46f6dbee",
+    "Name": "Standard Bearer (Quarreller)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Quarreller",
+        "Values": {
+          "M": "3",
+          "WS": "3",
+          "BS": "3",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f166a222a2f46f6d064",
     "Name": "Quarreller",
     "Attributes": {},
     "AttributeLists": {},
@@ -847,7 +1067,7 @@
     }
   },
   {
-    "Id": "6822bce58304465f8aff70c8",
+    "Id": "68109f176a222a2f46f6e419",
     "Name": "Veteran (Royal Clan Warrior)",
     "Attributes": {},
     "AttributeLists": {},
@@ -902,7 +1122,117 @@
     }
   },
   {
-    "Id": "6822bce58304465f8aff6c67",
+    "Id": "68109f176a222a2f46f6e871",
+    "Name": "Musician (Royal Clan Warrior)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Royal Clan Warrior",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "3",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f176a222a2f46f6ecc0",
+    "Name": "Standard Bearer (Royal Clan Warrior)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Royal Clan Warrior",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "3",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f166a222a2f46f6dfb8",
     "Name": "Royal Clan Warrior",
     "Attributes": {},
     "AttributeLists": {},
@@ -955,7 +1285,7 @@
     }
   },
   {
-    "Id": "6822bce68304465f8aff7dbc",
+    "Id": "68109f176a222a2f46f6f10d",
     "Name": "Troll Slayer",
     "Attributes": {},
     "AttributeLists": {},
@@ -1006,7 +1336,7 @@
     }
   },
   {
-    "Id": "6822bce68304465f8aff81a2",
+    "Id": "68109f176a222a2f46f6f4f3",
     "Name": "Bolt Thrower",
     "Attributes": {},
     "AttributeLists": {},
@@ -1076,7 +1406,7 @@
     }
   },
   {
-    "Id": "6822bce68304465f8aff8583",
+    "Id": "68109f176a222a2f46f6f8d4",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
@@ -1132,7 +1462,7 @@
     }
   },
   {
-    "Id": "6822bce68304465f8aff8986",
+    "Id": "68109f186a222a2f46f6fcd7",
     "Name": "Dwarf Cart",
     "Attributes": {},
     "AttributeLists": {},
@@ -1213,7 +1543,7 @@
     }
   },
   {
-    "Id": "6822bce78304465f8aff8d53",
+    "Id": "68109f186a222a2f46f700a4",
     "Name": "Grudge Thrower",
     "Attributes": {},
     "AttributeLists": {},
@@ -1283,7 +1613,7 @@
     }
   },
   {
-    "Id": "6822bce78304465f8aff9584",
+    "Id": "68109f186a222a2f46f708d5",
     "Name": "Royal Champion (Hammerer)",
     "Attributes": {},
     "AttributeLists": {},
@@ -1342,7 +1672,125 @@
     }
   },
   {
-    "Id": "6822bce78304465f8aff912e",
+    "Id": "68109f186a222a2f46f70d1e",
+    "Name": "Musician (Hammerer)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "51a7-1a2-bff3-1d7a": "Royal Guard",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "b2ce-d68c-502b-d777": "Stoic Defenders",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "cdc6-1b83-7af0-2ab": "Great Hammer",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Hammerer",
+        "Values": {
+          "M": "3",
+          "WS": "5",
+          "BS": "3",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "3",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "cdc6-1b83-7af0-2ab": "Great Hammer",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f186a222a2f46f71167",
+    "Name": "Standard Bearer (Hammerer)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "c4c7-d2ea-309b-011e": "Riches & Heirlooms",
+      "51a7-1a2-bff3-1d7a": "Royal Guard",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "b2ce-d68c-502b-d777": "Stoic Defenders",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "cdc6-1b83-7af0-2ab": "Great Hammer",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Hammerer",
+        "Values": {
+          "M": "3",
+          "WS": "5",
+          "BS": "3",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "3",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "cdc6-1b83-7af0-2ab": "Great Hammer",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f186a222a2f46f7047f",
     "Name": "Hammerer",
     "Attributes": {},
     "AttributeLists": {},
@@ -1399,7 +1847,7 @@
     }
   },
   {
-    "Id": "6822bce78304465f8affa66b",
+    "Id": "68109f196a222a2f46f719bc",
     "Name": "Ironbeard (Ironbreaker)",
     "Attributes": {},
     "AttributeLists": {},
@@ -1458,7 +1906,125 @@
     }
   },
   {
-    "Id": "6822bce78304465f8affa246",
+    "Id": "68109f196a222a2f46f71dd7",
+    "Name": "Musician (Ironbreaker)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "a230-c540-6a65-4974": "Resolute",
+      "d1f1-520-9b27-c144": "Runes of Protection",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ironbreaker",
+        "Values": {
+          "M": "3",
+          "WS": "5",
+          "BS": "3",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f196a222a2f46f721e9",
+    "Name": "Standard Bearer (Ironbreaker)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "7424-ec43-7581-965a": "Regimental Unit",
+      "a230-c540-6a65-4974": "Resolute",
+      "d1f1-520-9b27-c144": "Runes of Protection",
+      "32f7-8e30-3fe8-b11e": "Shieldwall",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ironbreaker",
+        "Values": {
+          "M": "3",
+          "WS": "5",
+          "BS": "3",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f196a222a2f46f71597",
     "Name": "Ironbreaker",
     "Attributes": {},
     "AttributeLists": {},
@@ -1515,7 +2081,7 @@
     }
   },
   {
-    "Id": "6822bce88304465f8affb697",
+    "Id": "68109f196a222a2f46f729e8",
     "Name": "Ironwarden (Irondrake)",
     "Attributes": {},
     "AttributeLists": {},
@@ -1572,7 +2138,121 @@
     }
   },
   {
-    "Id": "6822bce88304465f8affb29a",
+    "Id": "68109f196a222a2f46f72dda",
+    "Name": "Musician (Irondrake)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "10d8-4849-8c3a-f636": "Runes of Warding",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "b22b-104e-4b47-bcba": "Drakegun",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Irondrake",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "4",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "b22b-104e-4b47-bcba": "Drakegun",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f1a6a222a2f46f731c3",
+    "Name": "Standard Bearer (Irondrake)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "559-d4c6-b2e8-500f": "Detachment",
+      "1a10-9069-8ff3-84ef": "Gromril Armour",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "a230-c540-6a65-4974": "Resolute",
+      "10d8-4849-8c3a-f636": "Runes of Warding",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "b22b-104e-4b47-bcba": "Drakegun",
+      "9a1d-38b0-7d7-7552": "Full Plate Armour",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Irondrake",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "4",
+          "S": "4",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "b22b-104e-4b47-bcba": "Drakegun",
+          "9a1d-38b0-7d7-7552": "Full Plate Armour",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f196a222a2f46f725eb",
     "Name": "Irondrake",
     "Attributes": {},
     "AttributeLists": {},
@@ -1627,7 +2307,7 @@
     }
   },
   {
-    "Id": "6822bce98304465f8affc656",
+    "Id": "68109f1a6a222a2f46f739a7",
     "Name": "Ol Deadeye (Ranger)",
     "Attributes": {},
     "AttributeLists": {},
@@ -1684,7 +2364,121 @@
     }
   },
   {
-    "Id": "6822bce88304465f8affc24a",
+    "Id": "68109f1a6a222a2f46f73da0",
+    "Name": "Musician (Ranger)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ranger",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "4",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f1a6a222a2f46f741a2",
+    "Name": "Standard Bearer (Ranger)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "5a7c-a7a1-92b4-7c69": "Ancestral Fury",
+      "b8b7-17f2-c5f-353d": "Dwarf Crafted",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "5b67-8535-146c-7cea": "Open Order",
+      "a230-c540-6a65-4974": "Resolute",
+      "fe5e-8838-7fbd-a7ec": "Scouts",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "86ed-3561-ab24-dda9": "Striking a Grudge",
+      "1ef1-8579-c310-4fb5": "Crossbow",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "c56e-8d1b-bb4-de99": "Heavy Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ranger",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "4",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "1ef1-8579-c310-4fb5": "Crossbow",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "c56e-8d1b-bb4-de99": "Heavy Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f1a6a222a2f46f7359b",
     "Name": "Ranger",
     "Attributes": {},
     "AttributeLists": {},
@@ -1739,7 +2533,7 @@
     }
   },
   {
-    "Id": "6822bce98304465f8affd97f",
+    "Id": "68109f1b6a222a2f46f74cd0",
     "Name": "Champion (Ogre)",
     "Attributes": {},
     "AttributeLists": {},
@@ -1791,7 +2585,111 @@
     }
   },
   {
-    "Id": "6822bce98304465f8affd25f",
+    "Id": "68109f1b6a222a2f46f75267",
+    "Name": "Musician (Ogre)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "40f2-dd77-f0ca-3663": "Musician"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ogre",
+        "Values": {
+          "M": "6",
+          "WS": "3",
+          "BS": "2",
+          "S": "4",
+          "T": "4",
+          "W": "3",
+          "I": "2",
+          "A": "3",
+          "Ld": "7"
+        },
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "40f2-dd77-f0ca-3663": "Musician"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68109f1b6a222a2f46f757fe",
+    "Name": "Standard Bearer (Ogre)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "2af0-975f-bb14-8b8f": "Armour Bane (1)",
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "5ec9-a98-d8c5-e18b": "Fear",
+      "5c2-e9dd-2715-a0c0": "Impact Hits (1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "6359-4018-5cd4-3720": "Motley Crew",
+      "9e92-303-8d40-895c": "Ogre Charge",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ogre",
+        "Values": {
+          "M": "6",
+          "WS": "3",
+          "BS": "2",
+          "S": "4",
+          "T": "4",
+          "W": "3",
+          "I": "2",
+          "A": "3",
+          "Ld": "7"
+        },
+        "RuleIds": {
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68109f1a6a222a2f46f745b0",
     "Name": "Ogre",
     "Attributes": {},
     "AttributeLists": {},
@@ -1841,7 +2739,7 @@
     }
   },
   {
-    "Id": "6822bcea8304465f8affea0e",
+    "Id": "68109f1b6a222a2f46f75d5f",
     "Name": "Bonegrinder Giant",
     "Attributes": {},
     "AttributeLists": {},
@@ -1893,7 +2791,7 @@
     }
   },
   {
-    "Id": "6822bcea8304465f8affedc2",
+    "Id": "68109f1b6a222a2f46f76113",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
@@ -1949,7 +2847,7 @@
     }
   },
   {
-    "Id": "6822bcea8304465f8afff1c8",
+    "Id": "68109f1b6a222a2f46f76519",
     "Name": "Doomseeker",
     "Attributes": {},
     "AttributeLists": {},
@@ -2005,7 +2903,7 @@
     }
   },
   {
-    "Id": "6822bcea8304465f8afff5d0",
+    "Id": "68109f1c6a222a2f46f76921",
     "Name": "Goblin-Hewer",
     "Attributes": {},
     "AttributeLists": {},
@@ -2070,7 +2968,7 @@
     }
   },
   {
-    "Id": "6822bcea8304465f8afff5f5",
+    "Id": "68109f1c6a222a2f46f76946",
     "Name": "Slayer Crew",
     "Attributes": {},
     "AttributeLists": {},
@@ -2117,7 +3015,7 @@
     }
   },
   {
-    "Id": "6822bceb8304465f8afff9a7",
+    "Id": "68109f1c6a222a2f46f76cf8",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
@@ -2166,7 +3064,7 @@
     }
   },
   {
-    "Id": "6822bceb8304465f8a000a54",
+    "Id": "68109f1c6a222a2f46f77da4",
     "Name": "Imperial Dwarf Warrior",
     "Attributes": {},
     "AttributeLists": {},
@@ -2215,7 +3113,7 @@
     }
   },
   {
-    "Id": "6822bcec8304465f8a001f01",
+    "Id": "68109f1d6a222a2f46f79251",
     "Name": "Champion (Imperial Ogre)",
     "Attributes": {},
     "AttributeLists": {},
@@ -2267,7 +3165,7 @@
     }
   },
   {
-    "Id": "6822bceb8304465f8a001b0e",
+    "Id": "68109f1d6a222a2f46f78e5e",
     "Name": "Imperial Ogre",
     "Attributes": {},
     "AttributeLists": {},
@@ -2317,64 +3215,7 @@
     }
   },
   {
-    "Id": "6822bcec8304465f8a0022d0",
-    "Name": "Standard Bearer (Dragon Company trooper)",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "883e-e1b1-4fe9-5912": "Close Order",
-      "1f64-3ddc-db58-12fb": "Drilled",
-      "2e16-e293-353e-6881": "Gromril Weapons",
-      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
-      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
-      "4d1b-2617-ebdc-4f4d": "Mercenaries",
-      "a230-c540-6a65-4974": "Resolute",
-      "e351-bbd6-f470-b604": "Stubborn",
-      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
-      "6d4a-7733-d725-a267": "Hand Weapon",
-      "dbb2-4d85-84c2-528c": "Light Armour",
-      "8997-c74d-3a8d-ecf9": "Shield",
-      "bcf8-d942-102e-b155": "Standard Bearer"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Dragon Company trooper",
-        "Values": {
-          "M": "3",
-          "WS": "4",
-          "BS": "3",
-          "S": "3",
-          "T": "4",
-          "W": "1",
-          "I": "2",
-          "A": "1",
-          "Ld": "9"
-        },
-        "RuleIds": {
-          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
-          "6d4a-7733-d725-a267": "Hand Weapon",
-          "dbb2-4d85-84c2-528c": "Light Armour",
-          "8997-c74d-3a8d-ecf9": "Shield",
-          "bcf8-d942-102e-b155": "Standard Bearer"
-        }
-      }
-    ],
-    "Amount": {
-      "Max": "1",
-      "Min": "1"
-    },
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
-  },
-  {
-    "Id": "6822bcec8304465f8a0022d9",
+    "Id": "68109f1d6a222a2f46f79a57",
     "Name": "Borri Forkbeard (champion)",
     "Attributes": {},
     "AttributeLists": {},
@@ -2431,7 +3272,178 @@
     }
   },
   {
-    "Id": "6822bcec8304465f8a0022e2",
+    "Id": "68109f1d6a222a2f46f79ea3",
+    "Name": "Borri Forkbeard (champion)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Borri Forkbeard",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "5",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "2",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f1d6a222a2f46f79620",
+    "Name": "Standard Bearer (Dragon Company trooper)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield",
+      "bcf8-d942-102e-b155": "Standard Bearer"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Dragon Company trooper",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "3",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "1",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield",
+          "bcf8-d942-102e-b155": "Standard Bearer"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f1d6a222a2f46f79629",
+    "Name": "Borri Forkbeard (champion)",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "883e-e1b1-4fe9-5912": "Close Order",
+      "1f64-3ddc-db58-12fb": "Drilled",
+      "2e16-e293-353e-6881": "Gromril Weapons",
+      "f4b3-18af-16bf-78dd": "Hatred (Orcs & Goblins)",
+      "90ed-c9be-a611-79cc": "Magic Resistance (-1)",
+      "4d1b-2617-ebdc-4f4d": "Mercenaries",
+      "a230-c540-6a65-4974": "Resolute",
+      "e351-bbd6-f470-b604": "Stubborn",
+      "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+      "77ca-5e-3d5e-ead5": "Great Weapon",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "dbb2-4d85-84c2-528c": "Light Armour",
+      "8997-c74d-3a8d-ecf9": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Borri Forkbeard",
+        "Values": {
+          "M": "3",
+          "WS": "4",
+          "BS": "5",
+          "S": "3",
+          "T": "4",
+          "W": "1",
+          "I": "2",
+          "A": "2",
+          "Ld": "9"
+        },
+        "RuleIds": {
+          "3f0e-1dc6-b425-bf59": "Brace of Pistols",
+          "77ca-5e-3d5e-ead5": "Great Weapon",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "dbb2-4d85-84c2-528c": "Light Armour",
+          "8997-c74d-3a8d-ecf9": "Shield"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68109f1d6a222a2f46f79632",
     "Name": "Prince Ulther Stonehammer",
     "Attributes": {},
     "AttributeLists": {},
@@ -2492,7 +3504,7 @@
     }
   },
   {
-    "Id": "6822bcec8304465f8a0022eb",
+    "Id": "68109f1d6a222a2f46f7963b",
     "Name": "Musician (Dragon Company trooper)",
     "Attributes": {},
     "AttributeLists": {},
