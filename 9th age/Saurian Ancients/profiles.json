@@ -1,6 +1,6 @@
 [
   {
-    "Id": "aba2b8d0-3206-4025-93a2-8624faaa5544",
+    "Id": "e8b2eac0-d214-44fe-978f-a876e2d46493",
     "Name": "Warden (2)",
     "Attributes": {
       "type": "",
@@ -79,7 +79,7 @@
     }
   },
   {
-    "Id": "6822bbb84a48b90396e4118d",
+    "Id": "6810a400583a6c61de570c5c",
     "Name": "Anurarch Archmage",
     "Attributes": {},
     "AttributeLists": {},
@@ -148,7 +148,7 @@
     }
   },
   {
-    "Id": "6822bbb84a48b90396e41216",
+    "Id": "6810a401583a6c61de570ce5",
     "Name": "Caiman Mentor",
     "Attributes": {},
     "AttributeLists": {},
@@ -222,7 +222,7 @@
     }
   },
   {
-    "Id": "9919d03e-65aa-45dd-b24c-3d6359aeb4cd",
+    "Id": "0b7ffb60-a5c5-463a-b935-b82715d1c82b",
     "Name": "Mountain Pteradon",
     "Attributes": {
       "type": "",
@@ -307,7 +307,7 @@
     }
   },
   {
-    "Id": "1aa3f6cb-55f2-49db-9b78-bc788612aef0",
+    "Id": "70a86f85-6b6c-464d-97c8-0ed16eae446c",
     "Name": "Pouakai Sky Tyrant",
     "Attributes": {
       "type": "",
@@ -396,7 +396,7 @@
     }
   },
   {
-    "Id": "ce0be165-f416-4ad9-b002-565722c596b1",
+    "Id": "6598e64f-b7b4-4385-bc16-73c3575dba1c",
     "Name": "Skink Rider (4)",
     "Attributes": {
       "type": "",
@@ -494,7 +494,7 @@
     }
   },
   {
-    "Id": "6822bbb94a48b90396e41250",
+    "Id": "6810a401583a6c61de570d1f",
     "Name": "Skink Veteran",
     "Attributes": {},
     "AttributeLists": {},
@@ -565,7 +565,7 @@
     }
   },
   {
-    "Id": "36e64276-ff85-44c2-b55f-5aa2b2e3afab",
+    "Id": "a19b6d55-f917-4e5a-bf5e-0ea414142df9",
     "Name": "Saurian Raptor",
     "Attributes": {
       "type": "",
@@ -637,7 +637,7 @@
     }
   },
   {
-    "Id": "c1ed7536-10d7-429f-8b64-aa5fe1c2fdfd",
+    "Id": "1bc2a47b-9f5c-49ba-9447-686a227791c8",
     "Name": "Alpha Carnosaur",
     "Attributes": {
       "type": "",
@@ -725,7 +725,7 @@
     }
   },
   {
-    "Id": "6822bbba4a48b90396e41453",
+    "Id": "6810a402583a6c61de570f22",
     "Name": "Tegu Veteran",
     "Attributes": {},
     "AttributeLists": {},
@@ -789,7 +789,135 @@
     }
   },
   {
-    "Id": "6822bbba4a48b90396e41590",
+    "Id": "6810a402583a6c61de57107a",
+    "Name": "Caiman Warriors Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Caiman Warriors Musician",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "7",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Caiman Warriors Musician",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Caiman Warrior",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "6810a402583a6c61de57108f",
+    "Name": "Caiman Warriors Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Caiman Warriors Standard Bearer",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "7",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Caiman Warriors Standard Bearer",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Caiman Warrior",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "6810a402583a6c61de57105f",
     "Name": "Caiman Warriors",
     "Attributes": {},
     "AttributeLists": {},
@@ -853,7 +981,76 @@
     }
   },
   {
-    "Id": "6822bbba4a48b90396e415cc",
+    "Id": "6810a403583a6c61de5710ac",
+    "Name": "Skink Hunters Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Skink Hunters Musician",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "5",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Skink Hunters Musician",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "2",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
+      },
+      {
+        "Name": "Skink Hunter",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "6810a402583a6c61de57109b",
     "Name": "Skink Hunters",
     "Attributes": {},
     "AttributeLists": {},
@@ -922,7 +1119,141 @@
     }
   },
   {
-    "Id": "6822bbba4a48b90396e415e2",
+    "Id": "6810a403583a6c61de5710ce",
+    "Name": "Skink Warriors Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Skink Warriors Musician",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "5",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Skink Warriors Musician",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "2",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
+      },
+      {
+        "Name": "Skink Warrior",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "6810a403583a6c61de5710e4",
+    "Name": "Skink Warriors Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Skink Warriors Standard Bearer",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "5",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Skink Warriors Standard Bearer",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "2",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
+      },
+      {
+        "Name": "Skink Warrior",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "6810a403583a6c61de5710b1",
     "Name": "Skink Warriors",
     "Attributes": {},
     "AttributeLists": {},
@@ -987,7 +1318,141 @@
     }
   },
   {
-    "Id": "6822bbbb4a48b90396e41621",
+    "Id": "6810a403583a6c61de571109",
+    "Name": "Tegu Warriors Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tegu Warriors Musician",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Tegu Warriors Musician",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Tegu Warrior",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "6810a403583a6c61de57111d",
+    "Name": "Tegu Warriors Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tegu Warriors Standard Bearer",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Tegu Warriors Standard Bearer",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Tegu Warrior",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "6810a403583a6c61de5710f0",
     "Name": "Tegu Warriors",
     "Attributes": {},
     "AttributeLists": {},
@@ -1052,7 +1517,153 @@
     }
   },
   {
-    "Id": "6822bbbb4a48b90396e41661",
+    "Id": "6810a403583a6c61de571145",
+    "Name": "Caiman Elders Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-great_weapon": "Great Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Caiman Elders Musician",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Caiman Elders Musician",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Caiman Elder",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "1",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "sa-tooth_and_claw": "Tooth and Claw",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "6810a404583a6c61de571157",
+    "Name": "Caiman Elders Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-great_weapon": "Great Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Caiman Elders Standard Bearer",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Caiman Elders Standard Bearer",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Caiman Elder",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "1",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "sa-tooth_and_claw": "Tooth and Claw",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "6810a403583a6c61de571130",
     "Name": "Caiman Elders",
     "Attributes": {},
     "AttributeLists": {},
@@ -1123,7 +1734,7 @@
     }
   },
   {
-    "Id": "6822bbbb4a48b90396e41694",
+    "Id": "6810a404583a6c61de571163",
     "Name": "Raptor Pack",
     "Attributes": {},
     "AttributeLists": {},
@@ -1191,7 +1802,173 @@
     }
   },
   {
-    "Id": "6822bbbb4a48b90396e4169c",
+    "Id": "6810a404583a6c61de57117c",
+    "Name": "Raptor Riders Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Raptor Riders Musician",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Raptor Riders Musician",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Tegu Rider",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
+      },
+      {
+        "Name": "Raptor",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "6810a404583a6c61de57118c",
+    "Name": "Raptor Riders Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Raptor Riders Standard Bearer",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Raptor Riders Standard Bearer",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Tegu Rider",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
+      },
+      {
+        "Name": "Raptor",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "6810a404583a6c61de57116b",
     "Name": "Raptor Riders",
     "Attributes": {},
     "AttributeLists": {},
@@ -1272,7 +2049,109 @@
     }
   },
   {
-    "Id": "6822bbbb4a48b90396e416c9",
+    "Id": "6810a404583a6c61de5711a1",
+    "Name": "Rhamphodon Riders Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fly": "Fly",
+      "rulebook-unruly": "Unruly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-hatred": "Hatred",
+      "cl-fury": "Fury",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Rhamphodon Riders Musician",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "6",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fly": "Fly",
+          "rulebook-unruly": "Unruly",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Rhamphodon Riders Musician",
+        "Values": {
+          "HP": "2",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Skink Rider",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
+      },
+      {
+        "Name": "Rhamphodon",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-hatred": "Hatred",
+          "cl-fury": "Fury"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "6810a404583a6c61de571198",
     "Name": "Rhamphodon Riders",
     "Attributes": {},
     "AttributeLists": {},
@@ -1372,7 +2251,7 @@
     }
   },
   {
-    "Id": "6822bbbc4a48b90396e416d7",
+    "Id": "6810a405583a6c61de5711a6",
     "Name": "Saurian Swarms",
     "Attributes": {},
     "AttributeLists": {},
@@ -1457,7 +2336,157 @@
     }
   },
   {
-    "Id": "6822bbbc4a48b90396e416dc",
+    "Id": "6810a405583a6c61de5711bc",
+    "Name": "Tegu Guards Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-fearless": "Fearless",
+      "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-guardian_patu": "Guardian Patu*",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tegu Guards Musician",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-fearless": "Fearless",
+          "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Tegu Guards Musician",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Tegu Guard",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-guardian_patu": "Guardian Patu*"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "6810a405583a6c61de5711cc",
+    "Name": "Tegu Guards Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-fearless": "Fearless",
+      "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "sa-guardian_patu": "Guardian Patu*",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tegu Guards Standard Bearer",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-fearless": "Fearless",
+          "rulebook-bodyguard": "Bodyguard (Anurarch Archmage)",
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Tegu Guards Standard Bearer",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Tegu Guard",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "sa-guardian_patu": "Guardian Patu*"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "6810a405583a6c61de5711ab",
     "Name": "Tegu Guards",
     "Attributes": {},
     "AttributeLists": {},
@@ -1530,7 +2559,157 @@
     }
   },
   {
-    "Id": "6822bbbc4a48b90396e41709",
+    "Id": "6810a406583a6c61de5711f5",
+    "Name": "Tegu Mystics Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tegu Mystics Musician",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Tegu Mystics Musician",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Tegu Mystic",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "6810a406583a6c61de5711fe",
+    "Name": "Tegu Mystics Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "sa-tooth_and_claw": "Tooth and Claw",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tegu Mystics Standard Bearer",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Tegu Mystics Standard Bearer",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Tegu Mystic",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "6810a406583a6c61de5711d8",
     "Name": "Tegu Mystics",
     "Attributes": {},
     "AttributeLists": {},
@@ -1603,7 +2782,7 @@
     }
   },
   {
-    "Id": "6822bbbc4a48b90396e4173c",
+    "Id": "6810a406583a6c61de57120b",
     "Name": "Thyroscutus Herd",
     "Attributes": {},
     "AttributeLists": {},
@@ -1688,7 +2867,105 @@
     }
   },
   {
-    "Id": "6822bbbc4a48b90396e41756",
+    "Id": "6810a406583a6c61de57123c",
+    "Name": "Pteradon Riders Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-fly": "Fly",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-sweeping_attack": "Sweeping Attack (2)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Pteradon Riders Musician",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "6",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-fly": "Fly",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Pteradon Riders Musician",
+        "Values": {
+          "HP": "2",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Skink Rider",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
+      },
+      {
+        "Name": "Pteradon",
+        "Values": {
+          "At": "2",
+          "Of": "2",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-sweeping_attack": "Sweeping Attack (2)"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "6810a406583a6c61de571225",
     "Name": "Pteradon Riders",
     "Attributes": {},
     "AttributeLists": {},
@@ -1786,7 +3063,80 @@
     }
   },
   {
-    "Id": "6822bbbd4a48b90396e41772",
+    "Id": "6810a407583a6c61de571256",
+    "Name": "Skink Guerrillas Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Skink Guerrillas Musician",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Skink Guerrillas Musician",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "2",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Skink Guerrilla",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "6810a407583a6c61de571241",
     "Name": "Skink Guerrillas",
     "Attributes": {},
     "AttributeLists": {},
@@ -1861,7 +3211,7 @@
     }
   },
   {
-    "Id": "6822bbbd4a48b90396e4178c",
+    "Id": "6810a407583a6c61de57125b",
     "Name": "Weapon Beasts",
     "Attributes": {},
     "AttributeLists": {},
@@ -1929,7 +3279,7 @@
     }
   },
   {
-    "Id": "6822bbbd4a48b90396e41792",
+    "Id": "6810a407583a6c61de571261",
     "Name": "Carnosaur",
     "Attributes": {},
     "AttributeLists": {},
@@ -2026,7 +3376,187 @@
     }
   },
   {
-    "Id": "6822bbbd4a48b90396e4179a",
+    "Id": "6810a408583a6c61de57127e",
+    "Name": "Stygiosaur Pack Musician",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-musician": "Musician",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Stygiosaur Pack Musician",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "6",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-musician": "Musician"
+        }
+      },
+      {
+        "Name": "Stygiosaur Pack Musician",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Skink Rider",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
+      },
+      {
+        "Name": "Stygiosaur",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3)",
+          "rulebook-first_strike": "First Strike (Hatred)"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "6810a408583a6c61de571290",
+    "Name": "Stygiosaur Pack Standard Bearer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-pack_hunter": "Pack Hunter",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-standard_bearer": "Standard Bearer",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Stygiosaur Pack Standard Bearer",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "6",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "sa-communal_bond": "Communal Bond",
+          "sa-pack_hunter": "Pack Hunter",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-standard_bearer": "Standard Bearer"
+        }
+      },
+      {
+        "Name": "Stygiosaur Pack Standard Bearer",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Skink Rider",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-light_lance": "Light Lance"
+        }
+      },
+      {
+        "Name": "Stygiosaur",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3)",
+          "rulebook-first_strike": "First Strike (Hatred)"
+        }
+      }
+    ],
+    "Amount": {
+      "Max": "1",
+      "Min": "1"
+    },
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "6810a408583a6c61de571269",
     "Name": "Stygiosaur Pack",
     "Attributes": {},
     "AttributeLists": {},
@@ -2114,7 +3644,7 @@
     }
   },
   {
-    "Id": "6822bbbe4a48b90396e417cb",
+    "Id": "6810a408583a6c61de57129a",
     "Name": "Taurosaur",
     "Attributes": {},
     "AttributeLists": {},
@@ -2199,7 +3729,7 @@
     }
   },
   {
-    "Id": "6822bbbe4a48b90396e417de",
+    "Id": "6810a408583a6c61de5712ad",
     "Name": "Titanopod",
     "Attributes": {},
     "AttributeLists": {},

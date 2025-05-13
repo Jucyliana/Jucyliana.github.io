@@ -132,6 +132,18 @@
     "Description": "The unit may gain one of two different sets of effects depending on whether it shows up <u><link=\"sober\">Sober</link></u> or <u><link=\"drunk\">Drunk</link></u> on the Battlefield. During Pre-game Selections, the player must choose whether a <u><link=\"drunkard\">Drunkard</link></u> unit is <u><link=\"sober\">Sober</link></u> or <u><link=\"drunk\">Drunk</link></u>. <u><link=\"drunk\">Drunk</link></u> Characters cannot join units containing any <u><link=\"sober\">Sober</link></u> models and vice versa (models without <u><link=\"drunkard\">Drunkard</link></u> are considered neither <u><link=\"drunk\">Drunk</link></u> nor <u><link=\"sober\">Sober</link></u>)."
   },
   {
+    "Id": "rulebook-musician",
+    "Name": "Musician",
+    "Type": "Global",
+    "Description": "<u><link=\"musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
+  },
+  {
+    "Id": "rulebook-standard_bearer",
+    "Name": "Standard Bearer",
+    "Type": "Global",
+    "Description": "<u><link=\"standard_bearer\">Standard Bearer</link></u> is a unit-wide upgrade, normally represented by the presence of a <u><link=\"model\">model</link></u> carrying the unit standard, icon, military insignia, totem, or other similar symbol. A unit containing a <u><link=\"standard_bearer\">Standard Bearer</link></u> adds +1 to the Combat Score of its side."
+  },
+  {
     "Id": "rulebook-shield",
     "Name": "Shield",
     "Type": "Defense",
@@ -1198,12 +1210,6 @@
     "Name": "Resistance",
     "Type": "Defense",
     "Description": "<u><link=\"attacks\">Attacks</link></u> allocated against the <u><link=\"model\">model’s</link></u> Health Pool must reroll successful <u><link=\"towound_rolls\">to-wound rolls</link></u>."
-  },
-  {
-    "Id": "rulebook-musician",
-    "Name": "Musician",
-    "Type": "Global",
-    "Description": "<u><link=\"musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
   },
   {
     "Id": "dl-razor_tentacles",
@@ -9844,12 +9850,6 @@
     "Name": "model",
     "Type": "General",
     "Description": "Model Rule"
-  },
-  {
-    "Id": "rulebook-standard_bearer",
-    "Name": "Standard Bearer",
-    "Type": "General",
-    "Description": "Standard Bearer is a unit-wide upgrade, normally represented by the presence of a model carrying the unit standard, icon, military insignia, totem, or other similar symbol. A unit containing a Standard Bearer adds +1 to the Combat Score of its side."
   },
   {
     "Id": "rulebook-duplicate_model_rules",
