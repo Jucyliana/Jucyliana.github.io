@@ -1877,7 +1877,7 @@
   },
   {
     "Id": "68357b1c6d966c2c14618ff4",
-    "Name": "Bloodreaper (Bloodletter)",
+    "Name": "Bloodreaper (Bloodcrushers)",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -2369,7 +2369,7 @@
   },
   {
     "Id": "68357b1e6d966c2c1461c4e2",
-    "Name": "Pyroclaster (Flamer)",
+    "Name": "Pyroclaster",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -2397,6 +2397,55 @@
           "S": "4",
           "T": "4",
           "W": "2",
+          "I": "4",
+          "A": "2",
+          "Ld": "7"
+        },
+        "RuleIds": {
+          "5f1c-fd04-b0d5-d5e": "Champion",
+          "6d4a-7733-d725-a267": "Hand Weapon",
+          "57c6-6df1-cb73-c9fb": "Warpflame"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "30",
+        "length": "30"
+      }
+    }
+  },
+  {
+    "Id": "68357b1e6d966c2c1461c4e2e",
+    "Name": "Exalted Flamer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e96e-7433-355b-34bc": "Daemon of Tzeentch",
+      "755a-790d-9ba0-fdd5": "Daemonic",
+      "e45d-952-f679-ae2c": "Flaming Attacks",
+      "f4b3-18af-16bf-78dd": "Hatred (Daemons of Nurgle)",
+      "e054-df59-ce35-eff8": "Infernal Favour (1, Exalted Flamer only)",
+      "f761-a20c-f2ba-8fc9": "Lore Of Daemons (Exalted Flamer only)",
+      "e83e-f127-1904-3858": "Move Through Cover",
+      "59a5-7eca-ee35-96ac": "Skirmishers",
+      "5f1c-fd04-b0d5-d5e": "Champion",
+      "6d4a-7733-d725-a267": "Hand Weapon",
+      "57c6-6df1-cb73-c9fb": "Warpflame"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Exalted Flamer",
+        "Values": {
+          "M": "6",
+          "WS": "2",
+          "BS": "5",
+          "S": "4",
+          "T": "4",
+          "W": "3",
           "I": "4",
           "A": "2",
           "Ld": "7"
@@ -2747,7 +2796,7 @@
   },
   {
     "Id": "68357b1f6d966c2c1461e29d",
-    "Name": "Plagueridden (Plaguebearer)",
+    "Name": "Plagueridden (Plague Drones)",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -2815,7 +2864,7 @@
   },
   {
     "Id": "68357b1f6d966c2c1461df2a",
-    "Name": "Plaguebearer",
+    "Name": "Plague Drone",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -3279,7 +3328,7 @@
   },
   {
     "Id": "68357b206d966c2c14621473",
-    "Name": "Bloodreaper (Bloodletter)",
+    "Name": "Bloodreaper (Bloodcrushers)",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -3766,7 +3815,7 @@
   },
   {
     "Id": "68357b216d966c2c146232f3",
-    "Name": "Plagueridden (Plaguebearer)",
+    "Name": "Plagueridden (Plague Drones)",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -3834,7 +3883,7 @@
   },
   {
     "Id": "68357b216d966c2c14622f82",
-    "Name": "Plaguebearer",
+    "Name": "Plague Drone",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
