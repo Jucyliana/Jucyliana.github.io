@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "Id": "rule_1751893214605",
+    "Name": "Deep Strike",
+    "Type": "Global",
+    "Description": "During the Declare Battle Formations step, if every model in a unit has this ability, you can set it up in Reserves instead of setting it up on the battlefield. If you do, in the Reinforcements step of one of your Movement phases you can set up this unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If a unit with the Deep Strike ability arrives from Strategic Reserves, the controlling player can choose for that unit to be set up either using the rules for Strategic Reserves or using the Deep Strike ability."
+  },
+  {
+    "Id": "rule_1751893241498",
+    "Name": "Scouts 6\"",
+    "Type": "Global",
+    "Description": "Some units have ‘Scouts x\"’ listed in their abilities. If every model in a unit has this ability, then at the start of the first battle round, before the first turn begins, it can make a Normal move of up to x\", with the exception that, while making that move, the distance moved by each model in that unit can be greater than that model's Move characteristic, as long as it is not greater than x\".\n\nDEDICATED TRANSPORT models can make use of any Scouts x\" ability listed in their abilities, or a Scouts x\" ability that a unit that starts the battle embarked within that DEDICATED TRANSPORT model has (provided only models with this ability are embarked within that DEDICATED TRANSPORT model), regardless of how that embarked unit gained this ability (e.g. listed in their abilities, conferred by an Enhancement or by an attached CHARACTER, etc.).\n\nA unit that moves using this ability must end that move more than 9\" horizontally away from all enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first."
+  },
+  {
+    "Id": "rule_1751893251894",
+    "Name": "Teleport Assault",
+    "Type": "Global",
+    "Description": "If your Army Faction is GREY KNIGHTS, at the end of your opponent’s turn, you can select a number of GREY KNIGHTS units from your army with this ability (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\nCOMBAT PATROL\tUP TO 1 UNIT\nINCURSION\tUP TO 2 UNITS\nSTRIKE FORCE\tUP TO 3 UNITS\nONSLAUGHT\tUP TO 4 UNITS\n\nOnce you have made your selections, remove those units from the battlefield. In the Reinforcements step of your next Movement phase, set each of those units up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. Any units that are not on the battlefield at the end of the battle count as destroyed."
+  },
+  {
+    "Id": "rule_1751893305997",
+    "Name": "Teleport Shunt",
+    "Type": "Global",
+    "Description": "Each time a Grey Knights unit with the Deep Strike ability Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to that unit’s Move characteristic and that unit can Fly."
+  },
+  {
+    "Id": "rule_1751893407711",
+    "Name": "Sanctifying Ritual (Psychic)",
+    "Type": "Global",
+    "Description": "If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under you control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+  }
+]
