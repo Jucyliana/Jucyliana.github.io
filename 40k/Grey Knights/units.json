@@ -1,16 +1,39 @@
 [
   {
-    "Id": "unit_1751893731793",
-    "Name": "Strike Squad",
+    "Id": "unit_1751895191420",
+    "Name": "Paladin Squad",
     "Attributes": {
-      "category": "Infrantry",
+      "category": "Infantry",
       "army": "Grey Knights",
       "height": "",
       "type": "",
       "defaultFront": "5"
     },
     "AttributeLists": {
-      "FullOptions": []
+      "FullOptions": [],
+      "Keywords" : ["Infantry", "Psyker", "Terminator", "Grenades", "Imperium", "Paladin Squad"],      
+      "Faction Keywords" : ["Grey Knights"]
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_1751894999776"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_1751893731793",
+    "Name": "Strike Squad",
+    "Attributes": {
+      "category": "Infantry",
+      "army": "Grey Knights",
+      "height": "",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [],
+      "Keywords" : ["Infantry", "Battleline", "Psyker", "Grenades", "Imperium", "Strike Squad"],      
+      "Faction Keywords" : ["Grey Knights"]
     },
     "RuleIds": {},
     "ProfileIds": [

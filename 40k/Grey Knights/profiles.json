@@ -23,6 +23,11 @@
         "RuleIds": {}
       }
     ],
+    "EquipmentIds": [
+      "storm_bolter_1751903027715",
+      "psycannon_1751903027714",
+      "ccw_1751903027714"
+    ],
     "Base": {
       "Shape": "round",
       "Size": {
@@ -33,6 +38,40 @@
     "Attributes": {
       "type": "",
       "height": ""
+    }
+  },
+  {
+    "Id": "profile_1751894999776",
+    "Name": "Paladin Squad",
+    "RuleIds": {
+      "rule_1751893214605": "Deep Strike",
+      "rule_1751893251894": "Teleport Assault",
+      "rule_1751893305997": "Teleport Shunt"
+    },
+    "Statlines": [
+      {
+        "Name": "Paladin Squad",
+        "Values": {
+          "M": "5",
+          "T": "5",
+          "Sv": "2+",
+          "W": "3",
+          "Ld": "6+",
+          "OC": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "storm_bolter_1751903027714",
+      "nemesisforceweapon_1751903027714"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
     }
   }
 ]
