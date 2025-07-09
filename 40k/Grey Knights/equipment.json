@@ -49,7 +49,7 @@
   },
   {
     "Id": "psycannon_1751903027714",
-    "Name": "Psycannon",
+    "Name": "Psycannon 2+",
     "Type": "Ranged Weapons",
     "Attributes": {},
     "AttributeLists": {},
@@ -95,7 +95,7 @@
   },
   {
     "Id": "nemesisforceweapon_1751903027714",
-    "Name": "Nemesis force weapon",
+    "Name": "Nemesis force weapon 3",
     "Type": "Melee Weapons",
     "Attributes": {},
     "AttributeLists": {},
@@ -113,6 +113,112 @@
         },
         "RuleIds": {
           "rule_1751903438786": "Psychic"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1752051547988",
+    "Name": "Incinerator",
+    "Statlines": [
+      {
+        "Name": "Incinerator",
+        "Values": {
+          "Rng": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "rule_1752051568818": "Ingores Cover",
+          "rule_1752051576608": "Torrent"
+        }
+      }
+    ],
+    "Type": "Ranged Weapon"
+  },
+  {
+    "Id": "equipment_1752053702344",
+    "Name": "Psilencer 3+",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Psilencer",
+        "Values": {
+          "Rng": "24\"",
+          "A": "6",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "rule_1752051581566": "Sustained Hits 1",
+          "rule_1752053767112": "Psychic"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1752053903935",
+    "Name": "Nemesis force weapon 4",
+    "Statlines": [
+      {
+        "Name": "Nemesis force weapon",
+        "Values": {
+          "Rng": "-",
+          "A": "4",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "rule_1752053767112": "Psychic"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1752053991066",
+    "Name": "Psilencer 2+",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Psilencer",
+        "Values": {
+          "Rng": "24\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "rule_1752053767112": "Psychic",
+          "rule_1752051581566": "Sustained Hits 1"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1752054061854",
+    "Name": "Psycanon 3+",
+    "Statlines": [
+      {
+        "Name": "Psycannon",
+        "Values": {
+          "Rng": "24\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "rule_1752053767112": "Psychic"
         }
       }
     ]
