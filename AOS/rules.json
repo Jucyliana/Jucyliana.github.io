@@ -1,14 +1,1136 @@
 [
   {
-    "Id": "rule_1752070046855",
-    "Name": "Crit (Mortal)",
+    "Id": "rule_1cbc-55af-afbf-6165",
+    "Name": "Stalwart Defenders",
     "Type": "Global",
-    "Description": "If an attack made with this weapon scores a critical hit, that attack inflicts mortal damage on the target unit equal to the Damage characteristic of that weapon and the attack sequence ends."
+    "Description": "Effect: Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
   },
   {
-    "Id": "rule_1752070112424",
-    "Name": "Stalwart Defender",
-    "Type": "Passive",
-    "Description": "Effect: Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
+    "Id": "rule_3fea-1e8d-babf-3a6b",
+    "Name": "Marked for Destruction",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to hit rolls for shooting attacks made by friendly **^^Vanguard Chamber^^** units if the target is within 9\" of this unit."
+  },
+  {
+    "Id": "rule_1c0a-7d9f-1198-36a7",
+    "Name": "Lightning Strikes",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to the Damage characteristic of this unit’s **Celestial Greatswords** for attacks that target an enemy unit that has 5 or more models."
+  },
+  {
+    "Id": "rule_a0f-68cf-99b4-935b",
+    "Name": "Ride the Winds Aetheric",
+    "Type": "Global",
+    "Description": "Your Movement  Phase\n\nDeclare: If this unit is not in combat, you can pick up to 2 friendly **^^Vanguard-Palladors^^** units that are not in combat to be the targets.\n\nEffect: Remove this unit and the targets (if any) from the battlefield. Set this unit up again on the battlefield more than 9\" from all enemy units. Then, set up each target wholly within 12\" of this unit and more than 9\" from all enemy units."
+  },
+  {
+    "Id": "rule_bf98-38bc-cf1e-3d4e",
+    "Name": "Cometstrike Sceptre",
+    "Type": "Global",
+    "Description": "Effect: Each time this unit attacks with its Cometstrike Sceptre, if the attack scores a hit, inflict D3 mortal damage on the target."
+  },
+  {
+    "Id": "rule_e466-6790-1765-2046",
+    "Name": "Retribution From on High",
+    "Type": "Global",
+    "Description": "Once Per Battle, Your Movement Phase\n\nDeclare: Pick this unit if it is **in the Celestial Realm**.\n\nEffect: Subtract the current battle round number from 10 to determine this unit’s strike zone. Set up this unit on the battlefield more than a number of inches equal to its strike zone from all enemy units."
+  },
+  {
+    "Id": "rule_fa0c-71a0-223f-8c78",
+    "Name": "Voice of Thunder",
+    "Type": "Global",
+    "Description": "Effect: Each time a friendly **^^Stormcast Eternals^^** unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent."
+  },
+  {
+    "Id": "rule_d56d-e7db-5f81-1ef1",
+    "Name": "Castellan of Azyr",
+    "Type": "Global",
+    "Description": "Deployment Phase\n\nDeclare: Pick up to 3 friendly **^^Stormcast Eternals Infantry^^** units to be the targets.\n\nEffect: Each target can use the ‘Normal Move’ ability as if it were your movement phase."
+  },
+  {
+    "Id": "rule_6747-e575-96ff-9890",
+    "Name": "Mantle of the First Storm",
+    "Type": "Global",
+    "Description": "End of Any Turn\n\nEffect: If any enemy models were slain by this unit’s attacks this turn, **Heal (4)** this unit."
+  },
+  {
+    "Id": "rule_91c0-fe2a-3bcd-add4",
+    "Name": "Sense Unholy Sorcery",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Gryph-crow** is a token. Subtract 1 from casting rolls and chanting rolls for enemy units within 12\" of this unit while its **Gryph-crow** is on the battlefield.\nIf you make an unmodified save roll of 1 for this unit, remove its **Gryph-crow** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted)."
+  },
+  {
+    "Id": "rule_d815-7e47-75a6-f0bb",
+    "Name": "Staff of Abjuration",
+    "Type": "Global",
+    "Description": "Effect: This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+  },
+  {
+    "Id": "rule_44aa-568c-108d-8351",
+    "Name": "Arcane Heritage",
+    "Type": "Global",
+    "Description": "Reaction: Opponent declared a **^^Spell^^** ability\n\nEffect: If this unit or a friendly **Stormdrake Guard** unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per **Spell** ability"
+  },
+  {
+    "Id": "rule_119f-89fd-51c5-45d1",
+    "Name": "Wrath of the Draconith",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Combat Phase\n\nDeclare: Pick a friendly **Stormdrake Guard** unit within this unit’s combat range to be the target.\n\nEffect: Roll a dice. On a 2+, add 1 to the Attacks characteristic of both this unit’s and the target’s **Draconith’s Fangs and Talons** for the rest of the turn.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_6e2-6276-4aba-8104",
+    "Name": "Faithful Gryph-hounds",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Gryph-hounds** are tokens. After setting up this unit on the battlefield for the first time, place both **Gryph-hounds** next to it."
+  },
+  {
+    "Id": "rule_a221-b555-22f1-d82c",
+    "Name": "Hunting Hounds",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Your Movement Phase\n\nDeclare: If this unit was not set up this turn and any of this unit’s **Gryph-hounds** are on the battlefield, pick an enemy unit within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 1, remove 1 of this unit’s **Gryph-hounds** from the battlefield. On a 2+, pick 1 of this unit’s **Gryph-hounds** that is next to this unit or next to an enemy unit and place it next to the target instead.\nWhile any of this unit’s **Gryph-hounds** are next to an enemy unit, add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target that unit.\nIf an enemy unit is destroyed or removed from the battlefield while any of this unit’s **Gryph-hounds** are next to it, place those **Gryph-hounds** next to this unit."
+  },
+  {
+    "Id": "rule_4d0b-9694-af69-54ab",
+    "Name": "His Will Be Done",
+    "Type": "Global",
+    "Description": "Effect: While this unit is contesting a questmarked objective:\n• Add 3 to this unit’s control score.\n• This unit has **^^Ward (5+)^^**."
+  },
+  {
+    "Id": "rule_4cd1-c321-e143-3409",
+    "Name": "Heroic Retribution",
+    "Type": "Global",
+    "Description": "Reaction: You declared a **^^Fight^^** ability for this unit\n\nEffect: Pick a friendly **Questor Soulsworn** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved."
+  },
+  {
+    "Id": "rule_11bf-88ae-2935-9b43",
+    "Name": "Ordained Quest",
+    "Type": "Global",
+    "Description": "Once Per Battle (Army), Deployment Phase\n\nEffect: Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
+  },
+  {
+    "Id": "rule_d0c1-66-91a3-79d5",
+    "Name": "Relic Censer",
+    "Type": "Global",
+    "Description": "Your Shooting Phase\n\nDeclare: Pick an enemy unit within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 2+, subtract 1 from ward rolls made by the target for the rest of the turn."
+  },
+  {
+    "Id": "rule_640-73ca-e2bc-9faa",
+    "Name": "Righteous Avengers",
+    "Type": "Global",
+    "Description": "Reaction: You declared a **^^Fight^^** ability for this unit\n\nEffect: Pick a friendly non-**^^Hero Extremis Chamber Cavalry^^** unit that has not used a **^^Fight^^* ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+  },
+  {
+    "Id": "rule_b664-2942-5bb-3715",
+    "Name": "The Banner of the Reforged",
+    "Type": "Global",
+    "Description": "Any Hero Phase\n\nDeclare: Pick D3 friendly Stormcast Eternals^^** units wholly within 12\" of this unit to be the targets.\n\nEffect: Add 3 to each target’s control score for the rest of the turn. In addition, **Heal (D3)** each target."
+  },
+  {
+    "Id": "rule_a446-3803-7ba9-d70f",
+    "Name": "Furious Retribution",
+    "Type": "Global",
+    "Description": "Reaction: You declared a **^^Fight^^** ability for this unit\n\nEffect: Pick a friendly non-**^^Hero Warrior Chamber Infantry^^** unit that has not used a **^^Fight^^* ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
+  },
+  {
+    "Id": "rule_eb4c-66db-6e-acc6",
+    "Name": "Monstrous Challenge",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Your Combat Phase\n\nDeclare: Pick an enemy **^^Monster^^** in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 2+, for the rest of the turn:\n• Add 1 to the Damage characteristic of this unit’s **Stardrake’s Cavernous Jaws** for attacks that target that enemy **^^Monster^^**.\n• If that enemy **^^Monster^^** is also a **^^Hero^^**, add 1 to the Damage characteristic of this unit’s **Templar Weapons** for attacks that target that unit.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_c307-6182-8d41-1016",
+    "Name": "Battle Damaged",
+    "Type": "Global",
+    "Description": "Effect: While this unit has 10 or more damage points, the Attacks characteristic of its Stardrake’s Cavernous Jaws is 4."
+  },
+  {
+    "Id": "rule_1aa8-9222-74e7-3a87",
+    "Name": "Indomitable Loreseekers",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to casting rolls for this unit when it uses a **^^Summon^^** ability and add 1 to banishment rolls for this unit.\nEnemy **^^Manifestations^^** cannot pass through or end any move within this unit’s combat range unless they started that move within this unit’s combat range.\nThis unit has **^^Ward (4+)^^** against mortal damage inflicted by **^^Manifestations^^**."
+  },
+  {
+    "Id": "rule_900f-18a4-bbb1-b6f5",
+    "Name": "Guided by Lightning",
+    "Type": "Global",
+    "Description": "Once Per Battle(Army), Your Movement Phase\n\nDeclare: Pick up to 3 friendly **^^Stormcast Eternals^^** units wholly within 12\" of this unit that were set up this turn using the ‘Scions of the Storm’ ability to be the targets.\n\nEffect: Each target can immediately move D3\". The targets cannot move into combat during any part of that move."
+  },
+  {
+    "Id": "rule_106c-7371-67d2-e67a",
+    "Name": "Loyal Gryph-hound",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Gryph-hound** is a token. This unit has **^^Ward (5+)^^** while its **Gryph-hound** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its **Gryph-hound** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted)."
+  },
+  {
+    "Id": "rule_8f2b-98df-c465-4030",
+    "Name": "Shield of Azyr",
+    "Type": "Global",
+    "Description": "Effect: While any friendly **^^The Blacktalons Heroes^^** are wholly within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+  },
+  {
+    "Id": "rule_452f-979f-e319-5049",
+    "Name": "Aquatic Illusions",
+    "Type": "Global",
+    "Description": "Effect: Subtract 1 from hit rolls for attacks that target this unit."
+  },
+  {
+    "Id": "rule_f3a2-63ef-7b48-f508",
+    "Name": "Nebulous Sea-fog",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Make a casting roll of 2D6.\n\nEffect: Until the start of your next turn, while a friendly **^^The Blacktalons^^** unit is wholly within 6\" of this unit, if the unmodified hit roll for a shooting attack that targets that unit is 1-5, the attack fails and the attack sequence ends.\n\nCasting Value: 6\n\nKeywords: **^^Spell^^**"
+  },
+  {
+    "Id": "rule_21a-424a-fa6e-567e",
+    "Name": "Justice From Azyr",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to the Damage characteristic of this unit’s **Whirlwind Axes** for attacks that target a **^^Hero^^**."
+  },
+  {
+    "Id": "rule_a742-32ff-8ef-564e",
+    "Name": "Windrider",
+    "Type": "Global",
+    "Description": "Your Combat Phase\n\nDeclare: If this unit is in combat or charged this turn, this unit can make a pile-in move. Then, if this unit is in combat, you must pick 1 or more enemy units to be the target(s) of this unit’s attacks.\n\nEffect: Resolve combat attacks against the target unit(s). Then, roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units and wholly within the combat range of a friendly **^^The Blacktalons^^** unit that is not in combat.\n\nKeywords: **^^Core^^**, **^^Attack^^**, **^^Fight^^**"
+  },
+  {
+    "Id": "rule_1a29-b3d7-a5aa-f47d",
+    "Name": "Aura of Purity",
+    "Type": "Global",
+    "Description": "Effect: If this unit charged this turn, for the rest of the turn, friendly **^^Stormcast Eternals^^** units have **^^Ward (5+)^^** while they are wholly within 12\" of this unit."
+  },
+  {
+    "Id": "rule_4a21-909a-fd24-5ba",
+    "Name": "Saintly Assault",
+    "Type": "Global",
+    "Description": "Once Per Battle, Your Charge Phase\n\nDeclare: Pick up to 3 visible friendly **^^Stormcast Eternals Infantry^^** units wholly within 6\" of this unit to be the targets.\n\nEffect: For the rest of the turn:\n• Add 1 to charge rolls for the targets.\n• Add 1 to the Attacks characteristic of the targets’ melee weapons."
+  },
+  {
+    "Id": "rule_d04b-6b6c-1c28-67bd",
+    "Name": "Lord of the Hammerhands",
+    "Type": "Global",
+    "Description": "Effect: Add 3 to the control scores of friendly **^^Warrior Chamber^^** units while they are wholly within 12\" of this unit."
+  },
+  {
+    "Id": "rule_74b1-b703-b04a-c1c6",
+    "Name": "Vengeance Unleashed",
+    "Type": "Global",
+    "Description": "Reaction: You declared a **^^Fight^^** ability for this unit\n\nEffect: Pick a friendly non-**^^Hero Warrior Chamber^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+  },
+  {
+    "Id": "rule_4a57-66b1-2037-af0a",
+    "Name": "The Prime Huntress",
+    "Type": "Global",
+    "Description": "Effect: Double the Damage characteristic of this unit’s **Thengavar** for attacks that target **^^Monsters^^**."
+  },
+  {
+    "Id": "rule_ac2c-9627-29c6-904",
+    "Name": "Dazzling Radiance",
+    "Type": "Global",
+    "Description": "Effect: Ignore negative modifiers to the control scores of friendly **^^Stormcast Eternals^^** units while they are wholly within 12\" of this unit."
+  },
+  {
+    "Id": "rule_5563-41ac-504c-26e0",
+    "Name": "On Wings of Brilliance",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+  },
+  {
+    "Id": "rule_2e65-1364-5bc6-2699",
+    "Name": "Cavernous Jaws",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Combat Phase\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll 3 dice. For each roll that equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_4c93-14df-58ec-7df3",
+    "Name": "Battle Damaged",
+    "Type": "Global",
+    "Description": "Effect: While this unit has 10 or more damage points, the Attacks characteristic of its **Stardrake's Cavernous Jaws** is 4."
+  },
+  {
+    "Id": "rule_a5b3-6139-cfa7-3b39",
+    "Name": "Lord of the Host",
+    "Type": "Global",
+    "Description": "Once Per Battle, Any Combat Phase\n\nEffect: Add 1 to the Attacks characteristic of other friendly **^^Extremis Chamber^^** units wholly within 12\" of this unit for the rest of the turn."
+  },
+  {
+    "Id": "rule_daa9-5cff-dbe5-10e3",
+    "Name": "Calamitous Tail Sweep",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Combat Phase\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_e6b5-28bb-e280-b733",
+    "Name": "Fires of Retribution",
+    "Type": "Global",
+    "Description": "Effect: While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons.\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead."
+  },
+  {
+    "Id": "rule_22dc-f18f-2a6f-8024",
+    "Name": "Ancient Master of War",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nDeclare: Pick an enemy unit within this unit’s combat range to be the target.\n\nEffect: Subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn."
+  },
+  {
+    "Id": "rule_5316-76cf-66b9-efd8",
+    "Name": "Soul-shaking Roar",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Combat Phase\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_64f2-b70c-d4a1-d7f7",
+    "Name": "Battle Damaged",
+    "Type": "Global",
+    "Description": "Effect: While this unit has 10 or more damage points, the Attacks characteristic of its **Apex Maw** is 2."
+  },
+  {
+    "Id": "rule_fa77-1b36-26e9-5da4",
+    "Name": "Regalia Fulmentarus",
+    "Type": "Global",
+    "Description": "Effect: Add 2 to casting rolls for this unit."
+  },
+  {
+    "Id": "rule_97ea-b6ff-45d8-9ad3",
+    "Name": "Atavistic Tempest",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible enemy unit within 18\" of the caster to be the target, then make a casting roll of 2D6.\n\nEffect: Pick 1 of the following effects to apply to the target until the start of your next turn:\n***Blinding Gales:*** Subtract 1 from hit rolls for the target’s attacks.\n***Meteor-hail:*** Subtract 1 from the Rend characteristic of the target’s weapons.\n***Flash-freezing Blizzard:*** Subtract 1 from save rolls for the target.\n\nCasting Value: 8\n\nKeywords: **^^Spell^^**"
+  },
+  {
+    "Id": "rule_94b1-5c8a-b011-e25a",
+    "Name": "Hold the Shieldwall",
+    "Type": "Global",
+    "Description": "Effect: If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has **^^Strike-first^^** for the rest of the turn."
+  },
+  {
+    "Id": "rule_4a50-11ae-84f5-e665",
+    "Name": "Overwhelming Volleystorm",
+    "Type": "Global",
+    "Description": "Any Shooting Phase\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Volleystorm Crossbows** to be the target.\n\nEffect: Roll a dice. On a 2+, the target cannot use the ‘All-out Defence’ command in the following combat phase."
+  },
+  {
+    "Id": "rule_9951-396d-4470-e10d",
+    "Name": "Warning Cry",
+    "Type": "Global",
+    "Description": "Any Shooting Phase\n\nDeclare: Pick an enemy unit within 12\" of this unit that was set up this turn. Then, pick up to 3 friendly **^^Stormcast Eternals^^** units armed with ranged weapons that are within 12\" of that enemy unit to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
+  },
+  {
+    "Id": "rule_8628-1913-f270-67a0",
+    "Name": "Brace for Impact",
+    "Type": "Global",
+    "Description": "Any Charge Phase\n\nDeclare: Pick an enemy unit that charged this turn and is in combat with this unit to be the target.\n\nEffect: Roll a dice for each model in this unit. If any of the rolls are a 6, the target has **^^Strike-last^^** for the rest of the turn."
+  },
+  {
+    "Id": "rule_88f6-6194-52cb-e61",
+    "Name": "Blazing Impact",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nDeclare: If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_ba2-169e-1f59-efdf",
+    "Name": "Force of a Falling Star",
+    "Type": "Global",
+    "Description": "Any Charge Phase\n\nDeclare: If this unit charged this phase and the unmodified charge roll was 8+, pick an enemy unit within 1\" of it to be the target.\n\nEffect: The target has **^^Strike-last^^** for the rest of the turn."
+  },
+  {
+    "Id": "rule_9b03-746c-1572-5c19",
+    "Name": "Blazing Impact",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nDeclare: If this unit was set up this turn using the ‘Scions of the Storm’ ability, pick up to 3 enemy units within 10\" of it to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_7d13-3460-49ca-661a",
+    "Name": "Thunderstruck",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Combat Phase\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
+  },
+  {
+    "Id": "rule_b0c8-a25a-d0b3-db65",
+    "Name": "Cleaving Blow",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to the Damage characteristic of this unit’s **Thunderaxes** if the target unit has 10 or more models."
+  },
+  {
+    "Id": "rule_8355-327b-701-c847",
+    "Name": "Impaling Strikes",
+    "Type": "Global",
+    "Description": "Any Charge Phase\n\nDeclare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.\n\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_d502-6f85-6bb9-4f28",
+    "Name": "Celestial Blaze",
+    "Type": "Global",
+    "Description": "Effect: When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability"
+  },
+  {
+    "Id": "rule_2604-7e94-a052-b387",
+    "Name": "Azyr Unleashed",
+    "Type": "Global",
+    "Description": "Any Charge Phase\n\nDeclare: If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.\n\nEffect: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_9f24-a6ac-1925-6d82",
+    "Name": "Soul-bonded",
+    "Type": "Global",
+    "Description": "Deployment Phase\n\nEffect: Pick a friendly **^^Stormcast Eternals Hero^^** to be this unit’s soul-bonded charge for the rest of the battle. This unit can use this ability while it is in reserve."
+  },
+  {
+    "Id": "rule_605d-3101-ef64-6fc1",
+    "Name": "Soul-forged Guardians",
+    "Type": "Global",
+    "Description": "Effect: While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have **^^Ward (5+)^^**."
+  },
+  {
+    "Id": "rule_dd29-63fe-48f6-d4da",
+    "Name": "Dispersed Formation",
+    "Type": "Global",
+    "Description": "Effect: This unit has a coherency range of 2\"."
+  },
+  {
+    "Id": "rule_7c1f-9069-a60e-2e26",
+    "Name": "Heralds of Righteousness",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+  },
+  {
+    "Id": "rule_55f7-dbf2-245e-1fd",
+    "Name": "Dispersed Formation",
+    "Type": "Global",
+    "Description": "Effect: This unit has a coherency range of 2\"."
+  },
+  {
+    "Id": "rule_702-e708-125e-f3b5",
+    "Name": "Draconic Onslaught",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Combat Phase\n\nEffect: If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_469d-2a9a-339f-687a",
+    "Name": "Star-marked",
+    "Type": "Global",
+    "Description": "Effect: Add 2\" to this unit’s Move characteristic while a **^^Hunted^^** enemy unit is on the battlefield. In addition, add 1 to hit rolls for this unit’s attacks that target a **^^Hunted^^** enemy unit."
+  },
+  {
+    "Id": "rule_76d5-8249-ce46-e7c0",
+    "Name": "Astral Compass",
+    "Type": "Global",
+    "Description": "Once Per Battle (Army), Deployment Phase\n\nDeclare: Pick an enemy unit to be the target.\n\nEffect: The target has the **^^Hunted^^** keyword for the rest of the battle."
+  },
+  {
+    "Id": "rule_a72a-49b1-d76f-a69e",
+    "Name": "Shocking Strikes",
+    "Type": "Global",
+    "Description": "Effect: If any damage points are allocated to an enemy unit by attacks made with this unit’s **Shock Handaxes**, subtract 1 from wound rolls for that enemy unit’s combat attacks for the rest of the turn."
+  },
+  {
+    "Id": "rule_feb8-28f-9ac6-e974",
+    "Name": "Charging Volley",
+    "Type": "Global",
+    "Description": "Your Charge Phase\n\nDeclare: If this unit charged this phase, pick an enemy unit in combat with it to be the target.\n\nEffect: This unit can immediately use a **^^Shoot^^** ability as if it were your shooting phase, but all of its attacks must target that enemy unit. In addition, unit’s **Starstrike Javelins** have **Shoot in Combat** this phase."
+  },
+  {
+    "Id": "rule_9837-9606-97ce-973c",
+    "Name": "Headshot",
+    "Type": "Global",
+    "Description": "Your Shooting Phase\n\nEffect: If this unit has not used a Move ability this turn and was not set up this turn, for the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks."
+  },
+  {
+    "Id": "rule_c87e-e01a-ea6a-1cbe",
+    "Name": "Coordinated Strike",
+    "Type": "Global",
+    "Description": "Your Shooting Phase\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Hurricane Crossbows** to be the target.\n\nEffect: Add 1 to wound rolls for combat attacks made by friendly **^^Vanguard Chamber^^** units that target that enemy unit for the rest of the turn."
+  },
+  {
+    "Id": "rule_98b2-5213-c1d1-df60",
+    "Name": "Navigators of the Storm",
+    "Type": "Global",
+    "Description": "Effect: If an enemy unit had any damage points allocated to it this turn by this unit’s shooting attacks, add 1 to hit rolls for attacks made by friendly **^^Stormcast Eternals^^** units that target that unit for the rest of the turn."
+  },
+  {
+    "Id": "rule_9721-5fe-fd7b-986b",
+    "Name": "Ordained Quest",
+    "Type": "Global",
+    "Description": "Once Per Battle (Army), Deployment Phase\n\nEffect: Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked."
+  },
+  {
+    "Id": "rule_303f-596c-2fa8-18bc",
+    "Name": "His Will Be Done",
+    "Type": "Global",
+    "Description": "Effect: While this unit is contesting a questmarked objective:\n• Add 3 to this unit’s control score.\n• This unit has **^^Ward (5+)^^**."
+  },
+  {
+    "Id": "rule_8b6f-9ae-7de5-8cc4",
+    "Name": "Relictor Soulguide",
+    "Type": "Global",
+    "Description": "Once Per Battle, Your Movement Phase\n\nDeclare: You can pick a friendly **Knight-Questor** within this unit’s combat range to be the target.\n\nEffect: Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if you picked a target, remove it from the battlefield and set it up again within this unit’s combat range and more than 9\" from all enemy units.\n\nKeywords: **^^Core^^**"
+  },
+  {
+    "Id": "rule_b099-34ab-da12-83f5",
+    "Name": "Tornado of Magic",
+    "Type": "Global",
+    "Description": "Effect: Subtract 1 from hit rolls for shooting attacks made by enemy units while they are within 12\" of this **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_5e25-c213-2443-cbce",
+    "Name": "Arcane Enhancement",
+    "Type": "Global",
+    "Description": "Effect: While the unit that was picked to be the target of the ‘Summon Dais Arcanum’ ability is on the platform of this **^^Manifestation^^**:\n• That unit has **^^Ward (5+)^^** and **^^Fly^^**.\n• If that unit is a **^^Wizard^^**, add 1 to that unit’s power level.\n• That unit cannot use **^^Move^^** abilities and remains on this **^^Manifestation^^** each time it moves.\n• If that unit is picked to make a pile-in move, move this **^^Manifestation^^** instead.\n• Instead of measuring range or visibility to that unit, measure to this **^^Manifestation^^** instead.\n• This **^^Manifestation^^** cannot be picked to be the target of abilities other than **^^Banish^^** abilities. \nIf this **^^Manifestation^^** is banished, before removing it from the battlefield, set up the unit on its platform on the battlefield within 3\" of it. That unit can only be set up in combat with units it was already in combat with when this **^^Manifestation^^** was banished. If it is not possible to set up that unit, it is destroyed.\nIf the unit on the platform is removed from the battlefield, immediately remove this **^^Manifestation^^** from play."
+  },
+  {
+    "Id": "rule_ff57-5fdd-4e96-f070",
+    "Name": "Burning Vengeance",
+    "Type": "Global",
+    "Description": "Any Hero Phase\n\nDeclare: If this **^^Manifestation^^** was summoned this phase, pick any number of enemy units within 6\" of it to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_8b18-df-62e8-1f38",
+    "Name": "Arcane Disruption",
+    "Type": "Global",
+    "Description": "Effect: Subtract 1 from casting rolls for enemy **^^Wizards^^** while they are within 12\" of this **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_e698-691d-c15e-c92c",
+    "Name": "Deliver Judgement",
+    "Type": "Global",
+    "Description": "Once Per Battle (Army), Any Combat Phase\n\nDeclare: Pick a friendly non-**^^Hero Ruination Chamber^^** unit wholly within 12\" of this unit.\n\nEffect: That unit can use 2 **^^Fight^^** abilities this phase. After the first is used, however, that unit has **^^Strike-last^^** for the rest of the turn."
+  },
+  {
+    "Id": "rule_7262-1ae3-c75e-ec9b",
+    "Name": "Earn an Honourable Death",
+    "Type": "Global",
+    "Description": "Reaction: You declared a **^^Fight^^** ability for this unit\n\nEffect: Pick a friendly non-**^^Hero Ruination Chamber Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+  },
+  {
+    "Id": "rule_8102-5932-9171-68ab",
+    "Name": "Memorian",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Memorian** is a token. Add 3 to the control scores of friendly **^^Ruination Chamber^^** units wholly within 12\" of this unit while its **Memorian** is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its **Memorian** from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
+  },
+  {
+    "Id": "rule_6348-9d60-6a47-6720",
+    "Name": "Memorian Descendants",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Memorians** are tokens. There are 2 **Memorians** for every 3 models in this unit. While any of this unit’s **Memorians** are on the battlefield, add 1 to this unit’s resistance rolls when using the ‘Ruination Chamber’ ability. Each time you make an unmodified save roll of 1 for this unit, remove 1 of its **Memorians** from the battlefield after the **^^Attack^^** ability has been resolved (the damage point is still inflicted)."
+  },
+  {
+    "Id": "rule_5f6d-5cd3-53b3-6403",
+    "Name": "Battle Damaged",
+    "Type": "Global",
+    "Description": "Effect: While this unit has 10 or more damage points, the Attacks characteristic of **Cthorak’s Ancient Claws** is 4."
+  },
+  {
+    "Id": "rule_acff-1c96-2f87-4f33",
+    "Name": "Lightning Tempest",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be struck by lightning, then make a chanting roll of D6.\n\nEffect: Inflict D3 mortal damage on that unit, then roll a dice. On a 1-2, the sequence ends. On a 3+, pick another enemy unit within 3\" of that unit to be struck by lightning and inflict D3 mortal damage on it. If the chanting roll was 10+, you can pick another enemy unit within 6\" of that unit instead of 3\". Keep rolling dice in this way until the sequence ends or there are no other enemy units eligible to be struck by lightning. A unit cannot be struck by lightning more than once per turn.\n\nChanting Value: 5\n\nKeywords: **^^Prayer^^**"
+  },
+  {
+    "Id": "rule_68a0-ee02-dbfe-e61a",
+    "Name": "Spirit-scouring Flames",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Shooting Phase\n\nDeclare: Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s **Spirit-scouring Flames** to be the target.\n\nEffect: The target has the **^^Soulburned^^** keyword for the rest of the battle.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_fd91-58d2-dcd9-b775",
+    "Name": "Soulburned",
+    "Type": "Global",
+    "Description": "Any Shooting Phase\n\nDeclare: This unit can use this ability even if it has been destroyed. Pick any number of Soulburned enemy units to be the targets.\n\nEffect: Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_35e9-d14f-d30a-99db",
+    "Name": "Once More, For Sigmar, Charge!",
+    "Type": "Global",
+    "Description": "Your Charge Phase\n\nDeclare: Pick this unit and another visible friendly **^^Warrior Chamber^^** unit within 3\" of it to be the targets.\n\nEffect: For the rest of the phase, when making charge rolls for the targets, add 1 to the number of dice rolled, then remove 1 dice of your choice and use the remaining dice as the charge roll."
+  },
+  {
+    "Id": "rule_d0a4-6093-ebea-4e28",
+    "Name": "Call to Battle",
+    "Type": "Global",
+    "Description": "Effect: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+  },
+  {
+    "Id": "rule_de68-7e41-f7d0-e9fa",
+    "Name": "Trails of Astral Light",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to casting rolls for friendly **^^Stormcast Eternals Wizards^^** while they are wholly within 12\" of this unit."
+  },
+  {
+    "Id": "rule_b5ce-0ad7-c529-4f45",
+    "Name": "Starlight Mantle",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nDeclare: If this unit is in combat, pick each visible friendly **^^Stormcast Eternals^^** unit within its combat range to be the targets.\n\nEffect: For the rest of the turn, the targets have **^^Ward (5+)^^** and this unit has **^^Strike-last^^**.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_0677-5297-736a-aeb5",
+    "Name": "Aetheric Deflection",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible enemy **^^Wizard^^** that used a **^^Spell^^** ability this phase and is within 30\" of this unit to be the target.\n\nEffect: Roll **X**+1 dice, where **X** is an amount equal to the target’s power level. For each 2+, inflict 1 mortal damage on the target."
+  },
+  {
+    "Id": "rule_085f-0050-1941-96fd",
+    "Name": "Pyroelectric Blast",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible enemy unit within 12\" of this unit to be the target.\n\nEffect: Inflict 3 mortal damage on the target, then inflict 1 mortal damage on each other enemy unit within 3\" of the target.\n\nCasting Value: 6\n\nKeywords: **^^Spell^^**"
+  },
+  {
+    "Id": "rule_50d3-c35f-0aa1-e1cc",
+    "Name": "Comet Trail",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: For the rest of the phase, add 1 to hit rolls for combat attacks that target that enemy unit.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_52e4-2855-699f-1832",
+    "Name": "Thunderhead Crown",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nEffect: **Heal (3)** this unit."
+  },
+  {
+    "Id": "rule_16a3-3a8b-4ef4-33ca",
+    "Name": "Lightning Pulse",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick up to 3 enemy units in combat with this unit to be the targets, then make a casting roll of 2D6.\n\nEffect: If you picked 1 unit, inflict 3 mortal damage on the target. If you picked 2 units, inflict 2 mortal damage on each target. If you picked 3 units, inflict 1 mortal damage on each target.\n\nCasting Value: 6\n\nKeywords: **^^Spell^^**"
+  },
+  {
+    "Id": "rule_10f8-74a6-86b5-a7f4",
+    "Name": "Thunderous Pounce",
+    "Type": "Global",
+    "Description": "Your Charge Phase\n\nEffect: Add 2 to charge rolls for friendly **^^Sacrosanct Chamber^^** units while they are wholly within 12\" of this unit."
+  },
+  {
+    "Id": "rule_d238-9fa1-f23b-03dc",
+    "Name": "Soul Energy of the First Host",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nDeclare: Pick a visible friendly **^^Sacrosanct Chamber^^** unit wholly within 12\" of this unit to be the target.\n\nEffect: Add 1 to wound rolls for the target’s attacks for the rest of the turn."
+  },
+  {
+    "Id": "rule_9211-cdbc-682c-c43c",
+    "Name": "Storm Wave",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Charge Phase\n\nDeclare: Pick a visible friendly **^^Sacrosanct Cavalry^^** unit that charged this phase and is wholly within 12\" of this unit to be the target.\n\nEffect: Inflict D3 mortal damage on each enemy unit in combat with the target."
+  },
+  {
+    "Id": "rule_d8be-2aa6-1de6-ab18",
+    "Name": "Pack Alpha",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nDeclare: If this unit is in combat, pick this unit and up to 1 other visible friendly **^^Sacrosanct Cavalry^^** unit within its combat range to be the targets.\n\nEffect: Add 1 to the Attacks characteristic of the targets’ **Companion** melee weapons for the rest of the turn."
+  },
+  {
+    "Id": "rule_e4e2-2c5c-b777-64ea",
+    "Name": "Healing Light",
+    "Type": "Global",
+    "Description": "End of Any Turn\n\nDeclare: Pick a visible friendly **^^Sacrosanct Chamber^^** unit that is not in combat and is within 12\" of this unit to be the target.\n\nEffect: If the target is damaged, **Heal (D6)** the target. If the target is not damaged, return a slain model to it."
+  },
+  {
+    "Id": "rule_d82d-23d2-1866-9984",
+    "Name": "On the Winds Aetheric",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nEffect: If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+  },
+  {
+    "Id": "rule_831a-c0b3-d375-5327",
+    "Name": "Hail of Bolts",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Shooting Phase\n\nDeclare: Pick a visible enemy **^^Infantry^^** unit that had any models slain this phase by this unit’s shooting attacks to be the target.\n\nEffect: Roll a dice. On a 3+, for the rest of the turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
+  },
+  {
+    "Id": "rule_f80b-4f36-c66e-89df",
+    "Name": "Warrior Mages",
+    "Type": "Global",
+    "Description": "Effect: This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+  },
+  {
+    "Id": "rule_0e4f-28e5-5742-8583",
+    "Name": "Dracoline Fury",
+    "Type": "Global",
+    "Description": "Effect: While this unit is contesting an objective you do not control, it has **^^^Strike-first^^**."
+  },
+  {
+    "Id": "rule_2d4e-6be4-49e6-4e00",
+    "Name": "Loyal Companion",
+    "Type": "Global",
+    "Description": "End of Any Turn\n\nDeclare: Once Per Battle, Any Combat Phase\n\nEffect: For the rest of the turn, this unit has **^^Ward (5+)^^**. Remove this unit’s **Gryph-hound** from the battlefield at the end of the turn."
+  },
+  {
+    "Id": "rule_36fe-71d3-42a9-87ba",
+    "Name": "Dutiful Gryph-hound",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Gryph-hound** is a token. If this unit’s **Gryph-hound** has been removed, it can no longer attack with its **Gryph-hound’s Beak** and it cannot use the ‘Loyal Companion’ ability"
+  },
+  {
+    "Id": "rule_29ac-52dc-0864-96ca",
+    "Name": "Warding Lantern",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick an objective within 12” of this unit to be the target.\n\nEffect: For the rest of the turn:\n• Friendly **^^Stormcast Eternals^^** units have **^^Ward (6+)^^** while they are contesting the target.\n• Ward rolls cannot be made for enemy units while they are contesting the target."
+  },
+  {
+    "Id": "rule_cd28-40aa-d170-e9a8",
+    "Name": "Purifying Blast",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible enemy **^^Priest^^** within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 2+:\n• If the target has any ritual points, remove a number of ritual points from it equal to the roll.\n• If the target has no ritual points, inflict D3 mortal damage on it."
+  },
+  {
+    "Id": "rule_bbce-6948-1c5c-df71",
+    "Name": "Redemptor Casket",
+    "Type": "Global",
+    "Description": "Effect: Models cannot be returned to enemy units within 12\" of this unit."
+  },
+  {
+    "Id": "rule_aab2-c499-1d9d-38f6",
+    "Name": "Stormbolt Tempest",
+    "Type": "Global",
+    "Description": "Once Per Battle, Any Combat Phase\n\nDeclare: Pick an enemy unit in combat with this unit and that charged this turn to be the target.\n\nEffect: Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_f228-1869-a3ce-087f",
+    "Name": "Thunderblast",
+    "Type": "Global",
+    "Description": "Your Shooting Phase\n\nDeclare: Pick a visible faction terrain feature within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+  },
+  {
+    "Id": "rule_d4d4-e431-fa74-1ec5",
+    "Name": "Call to Battle",
+    "Type": "Global",
+    "Description": "Effect: If a friendly **^^Warrior Chamber^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+  },
+  {
+    "Id": "rule_1c75-7e9e-1111-34d6",
+    "Name": "Magical Mending",
+    "Type": "Global",
+    "Description": "End of Any Turn\n\nDeclare: Pick a visible friendly **^^Manifestation^^** wholly within 12\" of this unit to be the target.\n\nEffect: **Heal (D6)** the target."
+  },
+  {
+    "Id": "rule_2ea5-c5e0-acc9-22bb",
+    "Name": "Aetheric Manipulation",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to casting rolls for this unit when it uses a SUMMON ability."
+  },
+  {
+    "Id": "rule_2aad-1416-ea41-2b2f",
+    "Name": "Voidstorm Scroll",
+    "Type": "Global",
+    "Description": "Once Per Battle, Reaction: Opponent declared a **^^Spell^^** ability for a **^^Wizard^^** within 30\" of this unit\n\nEffect: The spell is unbound and its effect is not resolved\n\nKeywords: **^^Unbind^^**"
+  },
+  {
+    "Id": "rule_8b8b-c866-80c0-d954",
+    "Name": "Aetheric Destabilisation",
+    "Type": "Global",
+    "Description": "Effect: While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use **^^Summon^^** abilities."
+  },
+  {
+    "Id": "rule_4da6-1548-e1db-aff1",
+    "Name": "Star-fated Arrow",
+    "Type": "Global",
+    "Description": "Once Per Battle (Army), Your Shooting Phase\n\nDeclare: Pick a visible enemy unit within 24\" of this unit to be the target.\n\nEffect: If the target is a non-**^^Monster^^** unit, inflict D6 mortal damage on it. If the target is a **^^Monster^^**, inflict D6+3 mortal damage on it.\n\nKeywords: **^^Core^^**, **^^Attack^^**, **^^Shoot^^**"
+  },
+  {
+    "Id": "rule_c458-2291-830c-bc51",
+    "Name": "Tireless Hunter",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Your Movement Phase\n\nEffect: Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+  },
+  {
+    "Id": "rule_a861-9b2e-2e10-9fcd",
+    "Name": "Arcane Engineer",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Shooting Phase\n\nDeclare: Pick a visible friendly **^^Sacrosanct War Machine^^** wholly within 12\" of this unit to be the target.\n\nEffect: The target’s attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase."
+  },
+  {
+    "Id": "rule_463d-6d1a-d3ab-18d7",
+    "Name": "Warrior Mages",
+    "Type": "Global",
+    "Description": "Effect: This unit can use **^^Unbind^^** abilities as if it had **^^Wizard (1)^^**."
+  },
+  {
+    "Id": "rule_198f-f9a2-2d12-3926",
+    "Name": "Dracoline Fury",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nDeclare: If this unit is contesting an objective you control, pick a visible friendly non-**^^Hero Stormcast Eternals Infantry^^** unit within 12\" of this unit to be the target.\n\nEffect: Add 1 to wound rolls for the target’s combat attacks for the rest of the turn."
+  },
+  {
+    "Id": "rule_d667-6a27-6270-8871",
+    "Name": "Dependable Gryph-hound",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Gryph-hound** is a token. If this unit’s **Gryph-hound** has been removed, it cannot use the ‘Scouting Companion’ ability."
+  },
+  {
+    "Id": "rule_e485-d50e-5979-ca7c",
+    "Name": "Castigator Aetheric Channelling",
+    "Type": "Global",
+    "Description": "Any Shooting Phase\n\nEffect: If this unit has not used a **^^Move^^** ability this turn, this unit’s shooting attacks score critical hits on unmodi!ed hit rolls of 5+ for the rest of the turn."
+  },
+  {
+    "Id": "rule_7353-4811-8895-ab77",
+    "Name": "Scouting Companion",
+    "Type": "Global",
+    "Description": "Reaction: You declared a **^^Shoot^^** ability for this unit\n\nEffect: Until the **^^Shoot^^** ability is resolved, add 3\" to the Range characteristic of this unit’s **Thunderhead Greatbows** and add 1 to hit rolls for this unit’s shooting attacks. Remove this unit’s **Gryph-hound** from the battlefield after the **^^Shoot^^** ability has been resolved."
+  },
+  {
+    "Id": "rule_2dad-0531-262e-fa67",
+    "Name": "Decimating Blow",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to the Damage characteristic of this unit’s Decimator Thunderaxes if the target unit has 10 or more models."
+  },
+  {
+    "Id": "rule_7f9a-7da5-0a56-69e3",
+    "Name": "Subduing Shots",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Shooting Phase\n\nDeclare: Pick a visible enemy **^^Monster^^** that had any damage points allocated to it this phase by this unit’s shooting attacks to be the target.\n\nEffect: Roll a dice. On a 3+, the target cannot use **^^Rampage^^** abilities until the start of your next turn."
+  },
+  {
+    "Id": "rule_a75c-5bd5-b9ce-54ad",
+    "Name": "Sequitor Aetheric Channelling",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nEffect: If this unit is contesting an objective you control, pick 1 of the following effects to apply for the rest of the turn:\n• Other than the **Companion** weapon ability, weapon abilities for attacks that target this unit have no effect.\n• This unit’s combat attacks score critical hits on unmodified hit rolls of 5+."
+  },
+  {
+    "Id": "rule_760a-df29-b8d5-6b70",
+    "Name": "Crushing Counter-blow",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nEffect: If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit’s attacks for the rest of the turn."
+  },
+  {
+    "Id": "rule_3c28-6658-c176-6d4d",
+    "Name": "Shield of the Storm",
+    "Type": "Global",
+    "Description": "Effect: While any friendly **^^Stormcast Eternals Infantry Heroes^^** are within this unit’s combat range, both this unit and those friendly units have **^^Ward (5+)^^**."
+  },
+  {
+    "Id": "rule_b51e-9f3f-f46c-bf48",
+    "Name": "Mortis Priest",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to chanting rolls for this unit."
+  },
+  {
+    "Id": "rule_d20f-0aba-22e8-8a16",
+    "Name": "Gather the Aether",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to this unit’s power level while it is contesting an objective."
+  },
+  {
+    "Id": "rule_5a2c-8fec-6156-3fc9",
+    "Name": "Aethershock",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible unit within 12\" of the caster to be the target, then make a casting roll of 2D6.\n\nEffect: If the target is a friendly unit, it has **^^Strike-first^^** for the rest of the turn. If the target is an enemy unit, it has **^^Strike-last^^** for the rest of the turn.\n\nCasting Value: 7\n\nKeywords: **^^Spell^^**"
+  },
+  {
+    "Id": "rule_565d-4fc2-370c-7b34",
+    "Name": "Star Falcon",
+    "Type": "Global",
+    "Description": "Your Shooting Phase\n\nDeclare: If this unit’s **Sanson Farstrider** is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, inflict 1 mortal damage on the target."
+  },
+  {
+    "Id": "rule_41a6-e8e5-cc40-f88f",
+    "Name": "Taros",
+    "Type": "Global",
+    "Description": "Effect: This unit’s **Taros** is a token. After setting up this unit on the battlefield for the first time, place **Taros** next to it."
+  },
+  {
+    "Id": "rule_d99a-4999-1d07-80b0",
+    "Name": "Harrying Aetherwing",
+    "Type": "Global",
+    "Description": "Your Shooting Phase\n\nDeclare: If any attacks made with this unit’s **Stormcaller Bow** scored a critical hit this phase, pick an enemy unit targeted by those attacks to be the target.\n\nEffect: Until the start of your next turn, place **Taros** next to the target. While **Taros** is placed next to an enemy unit, that enemy unit cannot use commands."
+  },
+  {
+    "Id": "rule_a667-4eed-c38b-8815",
+    "Name": "Averon Stormsire",
+    "Type": "Global",
+    "Description": "Effect: While this unit’s **Averon Stormsire** is on the battlefield, it has **^^Wizard (1)^^**."
+  },
+  {
+    "Id": "rule_7fb2-1fbc-e179-673d",
+    "Name": "Overwhelming Storm",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nDeclare: If this unit is contesting an objective that you control, pick a friendly non-**^^Hero Stormcast Eternals Infantry^^** unit within 12\" of this unit to be the target.\n\nEffect: For the rest of the phase, add 1 to wound rolls for the target’s combat attacks."
+  },
+  {
+    "Id": "rule_e740-27c8-8fd7-73d9",
+    "Name": "Heroic Guard",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn."
+  },
+  {
+    "Id": "rule_b0e1-02c2-c475-5df5",
+    "Name": "Stalwart Defenders",
+    "Type": "Global",
+    "Description": "Effect: Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
+  },
+  {
+    "Id": "rule_53d9-f905-7822-b718",
+    "Name": "The Light of Sigmar",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nEffect: Roll a dice. On a 3+, pick 1 of the following effects:\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• Heal (D3) each friendly **^^Stormcast Eternals^^** unit within this unit’s combat range."
+  },
+  {
+    "Id": "rule_de60-9926-f819-c725",
+    "Name": "Herald of Redemption",
+    "Type": "Global",
+    "Description": "Effect: If a friendly **^^Ruination Chamber^^** unit wholly within 12\" of this unit uses the ‘Rally’ command, you receive 3 additional rally points."
+  },
+  {
+    "Id": "rule_a8de-0c1b-21b4-d066",
+    "Name": "Prayer of the Witness",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Make a chanting roll of D6.\n\nEffect: For the rest of the turn, each time a friendly **^^Ruination Chamber^^** unit uses a **^^Fight^^** ability while it is wholly within 18\" of this unit, after that ability has been resolved:\n• **Heal (D3)** that unit. If the chanting roll was 8+, **Heal (3)** that unit instead.\n• That unit has **^^Ward (6+)^^** for the rest of the turn.\n\nChanting Value: 4\n\nKeywords: **^^Prayer^^**"
+  },
+  {
+    "Id": "rule_a32d-9c0c-4123-5b58",
+    "Name": "Dark Flight",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), End of Any Turn\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a dice. If the roll exceeds the target’s Health characteristic:\n• 1 model in the target unit is slain.\n• This unit can immediately use the ‘Retreat’ ability without any mortal damage being inflicted upon it.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_2d7e-dba9-bd57-a7ee",
+    "Name": "Ride for Vengeance",
+    "Type": "Global",
+    "Description": "Effect: If any friendly **^^Warrior Chamber^^** units have been destroyed this battle:\n• You can re-roll charge rolls for this unit.\n• This unit has **^^Strike-first^^** if it charged in the same turn."
+  },
+  {
+    "Id": "rule_a462-0ba0-d681-2b48",
+    "Name": "Gather the Aether",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to this unit’s power level while it is contesting an objective."
+  },
+  {
+    "Id": "rule_cc89-8e2f-c2ec-1957",
+    "Name": "Aethershock",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible unit within 12\" of the caster to be the target, then make a casting roll of 2D6.\n\nEffect: If the target is a friendly unit, it has **^^Strike-first^^** for the rest of the turn. If the target is an enemy unit, it has **^^Strike-last^^** for the rest of the turn.\n\nCasting Value: 7\n\nKeywords: **^^Spell^^**"
+  },
+  {
+    "Id": "rule_4e5d-fe65-39fb-e068",
+    "Name": "Light in the Dark",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), End of Any Turn\n\nDeclare: Pick a friendly **Prosecutors** unit wholly within 12\" of this unit to be the target.\n\nEffect: Roll a dice. On a 3+, pick 1 of the following effects:\n• If the target is in combat, the target can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.\n• If the target is not in combat, the target can immediately use the ‘Normal Move’ ability as if it were your movement phase."
+  },
+  {
+    "Id": "rule_0ad6-49cd-60bf-0f64",
+    "Name": "The Light of Sigmar",
+    "Type": "Global",
+    "Description": "Any Combat Phase\n\nEffect: Roll a dice. On a 3+, pick 1 of the following effects:\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• Heal (D3) each friendly **^^Stormcast Eternals^^** unit within this unit’s combat range."
+  },
+  {
+    "Id": "rule_06c5-e6d1-9a21-e84d",
+    "Name": "Direct the Assault",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Your Hero Phase\n\nDeclare: Pick a friendly non-**^^Hero Ruination Chamber^^** unit wholly within 12\" of this unit to be the target.\n\nEffect: For the rest of the turn, while the target is wholly within 12\" of this unit, add 5 to the target’s control score."
+  },
+  {
+    "Id": "rule_3b66-a0ab-2685-4430",
+    "Name": "Vice-like Grip",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Charge Phase\n\nDeclare: Pick an enemy non-**^^Monster Hero^^** in combat with this unit to be the target.\n\nEffect: Roll 2D6. If the result exceeds the target’s Health characteristic, for the rest of the turn:\n• The target has **^^Strike-last^^**.\n• The target cannot use commands."
+  },
+  {
+    "Id": "rule_5c72-ec4d-49ff-6a76",
+    "Name": "Step Into the Storm",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nDeclare: Pick a friendly non-**^^Monster Stormcast Eternals^^** unit that is not in combat and is wholly within 6\" of this terrain feature to be the target.\n\nEffect: Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+  },
+  {
+    "Id": "rule_e8d6-d2b6-9ee2-2cab",
+    "Name": "Merciless Sentinels",
+    "Type": "Global",
+    "Description": "Effect: Add 1 to wound rolls for this unit’s attacks while it cons an objective that is wholly outside friendly territory."
+  },
+  {
+    "Id": "rule_9ec7-c460-fa05-307f",
+    "Name": "Demands of the Witness",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a visible friendly **^^Ruination Chamber^^** unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6.\n\nEffect: Until the start of your next turn, add 1 to the Rend characteristic of the target’s melee weapons. If the chanting roll was 7+, you can pick another eligible unit to be a second target.\n\nChanting Value: 3\n\nKeywords: **^^Prayer^^**"
+  },
+  {
+    "Id": "rule_06c8-84cc-0df1-eb6c",
+    "Name": "On Wings of Death",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Any Combat Phase\n\nDeclare: Pick an enemy unit in combat with this unit to be the target.\n\nEffect: Roll a dice. On a 3+:\n• You can remove this unit from the battlefield and set it up again on the battlefield within 1\" of the target.\n• If the target charged this turn, subtract 1 from hit rolls for the target’s attacks for the rest of the turn.\n\nKeywords: **^^Rampage^^**"
+  },
+  {
+    "Id": "rule_704e-719d-c89b-a21e",
+    "Name": "The Flames of Hope",
+    "Type": "Global",
+    "Description": "Effect: You can re-roll resistance rolls for friendly **^^Ruination Chamber^^** units while they are wholly within 12\" of this unit."
+  },
+  {
+    "Id": "rule_e08c-6346-adec-fa9c",
+    "Name": "Guardian of the Final Threshold",
+    "Type": "Global",
+    "Description": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-**^^Core^^** ability\n\nEffect: Make a resistance roll of D6. On a 3+, that ability has no effect on this unit."
+  },
+  {
+    "Id": "rule_61af-1ae8-5d5e-d349",
+    "Name": "Devourer of Magics",
+    "Type": "Global",
+    "Description": "End of Any Turn\n\nEffect: If this **^^Manifestation^^** destroyed any enemy **^^Manifestations^^** this turn, Heal (6) this **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_9456-22b9-7885-e464",
+    "Name": "Arcane Predator",
+    "Type": "Global",
+    "Description": "Effect: You can add 1 to the number of dice rolled when making charge rolls for this **^^Manifestation^^**, to a maximum of 3, while it is within 18\" of any enemy **^^Manifestations^^**, but if you do so, it must end the charge move within ½\" of an enemy **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_4f4-6041-9f7e-2585",
+    "Name": "Wild Form",
+    "Type": "Global",
+    "Description": "Effect: Each time this **^^Manifestation^^** is targeted by the ‘Banish Manifestation’ ability, if it would be banished, it is not banished. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."
+  },
+  {
+    "Id": "rule_42b5-c322-7e12-371c",
+    "Name": "End Given Form",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nEffect: This **^^Manifestation^^** can move a distance up to its Move characteristic. It can pass through models during that move but cannot end that move in combat. Then, pick up to 3 enemy units that this **^^Manifestation^^** passed across during that move to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nKeywords: **^^Core^^**, **^^Move^^**"
+  },
+  {
+    "Id": "rule_c99-9240-9da1-d029",
+    "Name": "Pull of the Nadir",
+    "Type": "Global",
+    "Description": "Effect: Subtract 1 from save rolls for friendly and enemy units while they are within 3\" of this **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_6817-e507-443e-1ff4",
+    "Name": "Bound for the Great Oubliette",
+    "Type": "Global",
+    "Description": "Any Hero Phase\n\nDeclare: For each part of this **^^Manifestation^^**, you can pick an enemy unit within 3\" of that part to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn.\n\nEffect: Roll a D3 for each target. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract a number of inches equal to the roll from the target’s Move characteristic for the rest of the turn."
+  },
+  {
+    "Id": "rule_9e13-160b-4a87-da4e",
+    "Name": "Multiple Parts",
+    "Type": "Global",
+    "Description": "Effect: When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and all its parts are removed from play."
+  },
+  {
+    "Id": "rule_f4c4-3de7-898a-b7d8",
+    "Name": "Deathly Passage",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nDeclare: Pick a friendly unit wholly within 6\" of one part of this **^^Manifestation^^** to be the target.\n\nEffect: Remove the target from the battlefield and set it up again on the battlefield wholly within 6\" of the other part of this **^^Manifestation^^** and more than 9\" from all enemy units."
+  },
+  {
+    "Id": "rule_676c-91fa-8432-ee8d",
+    "Name": "Multiple Parts",
+    "Type": "Global",
+    "Description": "Effect: When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play."
+  },
+  {
+    "Id": "rule_54d0-e6a1-c6e8-46a7",
+    "Name": "Scything Blade",
+    "Type": "Global",
+    "Description": "Any Movement Phase\n\nEffect: This **^^Manifestation^^** can move a distance up to its Move characteristic in one direction (see ‘The Pendulum Swings’). It can pass through models during that move and can end that move in combat. Then, pick up to 3 enemy units that this **^^Manifestation^^** passed across during that move or that are within ½\" of it to be the targets. Roll a D6 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nKeywords: **^^Core^^**, **^^Move^^**"
+  },
+  {
+    "Id": "rule_9ec5-1011-c05e-5045",
+    "Name": "The Pendulum Swings",
+    "Type": "Global",
+    "Description": "Effect: This **^^Manifestation^^** cannot use **^^Charge^^** or **^^Fight^^** abilities. In addition, when this **^^Manifestation^^** moves, it must move in a straight line either in the direction in which the tip of the pendulum blade is pointing or in the opposite direction to the direction in which the tip of the pendulum blade is pointing"
+  },
+  {
+    "Id": "rule_ad92-932-6f56-1d97",
+    "Name": "Mechanisms of Time",
+    "Type": "Global",
+    "Description": "Once Per Turn, Your Hero Phase\n\nEffect: If there are any friendly **^^Wizards^^** within 3\" of this **^^Manifestation^^**, pick 1 of the following effects:\n***Increase Time Flow***: Until the start of your next turn, you can re-roll charge rolls for friendly units while they are wholly within 12\" of this **^^Manifestation^^**.\n***Decrease Time Flow***: Until the start of your next turn, subtract 1 from hit rolls for attacks that target friendly **^^Wizards^^** while they are wholly within 12\" of this **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_c08-79dc-f4d5-dc9f",
+    "Name": "Burning Up",
+    "Type": "Global",
+    "Description": "Effect: Each time this **^^Manifestation^^**uses a **^^Shoot^^** ability, after that ability has been resolved, allocate 1 damage point to this **^^Manifestation^^** (ward rolls cannot be made for that damage point)."
+  },
+  {
+    "Id": "rule_a59-1e45-94a8-3c90",
+    "Name": "Harbinger of Horror",
+    "Type": "Global",
+    "Description": "Any Shooting Phase\n\nDeclare: Pick an enemy unit that was targeted by this **^^Manifestation^^**'s shooting attacks this phase to be the target.\n\nEffect: Roll a dice. If the roll is less than the number of models in the target unit that were slain this phase, the target cannot use commands for the rest of the turn."
+  },
+  {
+    "Id": "rule_b8a4-541-b62-cf62",
+    "Name": "Morbid Detonation",
+    "Type": "Global",
+    "Description": "End of Any Turn\n\nDeclare: You must, and can only, use this ability if this unit has 6 **maelstrom points**. Pick each unit (friendly and enemy) within 9\" of it to be the targets.\n\nEffect: Roll a dice for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this **^^Manifestation^^** is destroyed."
+  },
+  {
+    "Id": "rule_c711-ce6-1fb6-7abc",
+    "Name": "Necrotic Vortex",
+    "Type": "Global",
+    "Description": "Effect: Give this **^^Manifestation^^** 1 **maelstrom point** each time:\n• This **^^Manifestation^^** is set up.\n• A unit successfully casts a spell while it is within 12\" of this **^^Manifestation^^**.\n• A model is slain within 12\" of this **^^Manifestation^^**.\nThis **^^Manifestation^^** can have a maximum of 6 **maelstrom points** at once."
+  },
+  {
+    "Id": "rule_425b-721a-d7a1-26d4",
+    "Name": "Phantasmal Translocation",
+    "Type": "Global",
+    "Description": "Effect: Pick a part of this **Manifestation^^**, remove it from the battlefield and set it up again on the battlefield wholly within 9\" of the other part and not in combat."
+  },
+  {
+    "Id": "rule_86da-767f-a1d7-9b8a",
+    "Name": "Multiple Parts",
+    "Type": "Global",
+    "Description": "Effect: When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play."
+  },
+  {
+    "Id": "rule_9d0c-ae55-1df5-ec0e",
+    "Name": "Ensnaring Soul-drain",
+    "Type": "Global",
+    "Description": "Effect: Each time an enemy unit uses a **^^Move^^** ability while it is within 9\" of any parts of this Manifestation, the effects of the ‘Fly’ ability do not apply to that unit. Enemy units cannot be set up within 9\" of either part of this **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_2e3f-3b03-af72-7a50",
+    "Name": "Traverse the Tides of Death",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nDeclare: Pick a friendly **^^Infantry Wizard Hero^^** within 3\" of this **^^Manifestation^^** to be the target\n\nEffect: This **^^Manifestation^^** can move a distance up to its Move characteristic. It can pass through models during that move but cannot end that move in combat. Then, remove the target from the battlefield and set them up again on the battlefield within 3\" of this **^^Manifestation^^** and not in combat. Then, inflict 1 mortal damage on the target.\n\nKeywords: **^^Core^^**, **^^Move**^^"
+  },
+  {
+    "Id": "rule_7b11-c623-fc14-4639",
+    "Name": "Dancing Blades",
+    "Type": "Global",
+    "Description": "Effect: Ward rolls cannot be made for damage points inflicted by this **^^Manifestation^^**'s attacks."
+  },
+  {
+    "Id": "rule_2899-7afa-38bc-a40e",
+    "Name": "Restored Vigour",
+    "Type": "Global",
+    "Description": "End of Any Turn\n\nEffect: **Heal (3)** this **^^Manifestation^^**."
+  },
+  {
+    "Id": "rule_5d6d-9bfb-60e3-db42",
+    "Name": "Bounteous Healing",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nDeclare: Pick a friendly unit within 3\" of this **^^Manifestation^^** to be the target.\n\nEffect: **Heal (3)** the target."
+  },
+  {
+    "Id": "rule_9b8b-617a-3c69-2af9",
+    "Name": "Ravening Hunger",
+    "Type": "Global",
+    "Description": "Any Charge Phase\n\nDeclare: If this **^^Manifestation^^** charged this turn, pick an enemy unit within 1\" of it to be the target.\n\nEffect: Roll 10 dice. For each 5+, inflict 1 mortal damage on the target."
+  },
+  {
+    "Id": "rule_1fa3-5209-8869-8d58",
+    "Name": "Pulled to the Grave",
+    "Type": "Global",
+    "Description": "Your Movement Phase\n\nEffect: This **^^Manifestation^^** can move a distance up to its Move characteristic. It can pass through models during that move but cannot end that move in combat. Then, you can pick an enemy unit that this **^^Manifestation^^** passed across during that move to be the target. Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\n\nKeywords: **^^Core^^**, **^^Move^^**"
+  },
+  {
+    "Id": "rule_7752-7084-5da1-812b",
+    "Name": "Tendrils of Light and Shadow",
+    "Type": "Global",
+    "Description": "Effect: Enemy units cannot use commands while they are within 3\" of either part of this **^^Manifestation^^**'."
+  },
+  {
+    "Id": "rule_7f8e-f2c5-2638-f35d",
+    "Name": "Multiple Parts",
+    "Type": "Global",
+    "Description": "Effect: When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play.\nEach time this **^^Manifestation^^** moves, both its parts must end within 9\" of each other.\nEach part of this **^^Manifestation^^** is armed with **Tendrils of Light and Shadow**."
+  },
+  {
+    "Id": "rule_ba4a-41ff-85b6-17e7",
+    "Name": "Multiple Parts",
+    "Type": "Global",
+    "Description": "Effect: When a number of damage points equal to this **^^Manifestation^^**'s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play."
+  },
+  {
+    "Id": "rule_b327-e576-8829-814d",
+    "Name": "Arcane Passage",
+    "Type": "Global",
+    "Description": "Your Hero Phase\n\nDeclare: Pick a friendly **^^Wizard^^** within 3\" of this **^^Manifestation^^** to be the target.\n\nEffect: The next time the target uses a non-**^^Summon Spell^^** ability this phase, add 1 to the casting value of that spell. When picking targets for that spell, you can measure range and visibility from either part of this **^^Manifestation^^** instead of from the caster, and your opponent can measure range and visibility to either part of this **^^Manifestation^^** instead of to the caster for the purposes of the ‘Unbind’ ability."
+  },
+  {
+    "Id": "rule_fc0c-9252-758c-533c",
+    "Name": "Blinding Light",
+    "Type": "Global",
+    "Description": "Effect: This **^^Manifestation^^** cannot be targeted by shooting attacks. In addition, a unit cannot be targeted by shooting attacks if it is impossible to draw a straight line from a model in the attacking unit to a model in the target unit without that line passing across this **^^Manifestation^^**."
   }
 ]
