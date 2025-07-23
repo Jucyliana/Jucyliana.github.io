@@ -1,5 +1,25 @@
 [
   {
+    "Id": "unit_1753227327225",
+    "Name": "Celestar Ballista",
+    "Attributes": {
+      "category": "War Machine",
+      "army": "Stormcast Eternals",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": [],
+      "Keywords": [],
+      "Keywords2": []
+    },
+    "ProfileIds": [
+      "profile_8824-e8f0-d061-b64d"
+    ],
+    "OptionListIds": []
+  },
+  {
     "Id": "unit_e914-877f-21fe-8db9",
     "Name": "Liberators",
     "Attributes": {
@@ -23,17 +43,19 @@
     "ProfileIds": [
       "profile_e914-877f-21fe-8db9"
     ],
-    "OptionListIds": []
+    "OptionListIds": [
+      "option_1752821332684"
+    ]
   },
   {
     "Id": "unit_c6fc-b74d-ee51-d3d0",
     "Name": "Aetherwings",
     "Attributes": {
-      "category": "Infantry",
+      "category": "Beast",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -42,8 +64,7 @@
         "STORMCAST ETERNALS",
         "VANGUARD CHAMBER",
         "BEAST",
-        "FLY",
-        "Beast"
+        "FLY"
       ]
     },
     "RuleIds": {},
@@ -84,7 +105,7 @@
     "Id": "unit_feec-61cb-ca0-7d3c",
     "Name": "Lord-Aquilor",
     "Attributes": {
-      "category": "Hero",
+      "category": "Cavalry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -97,8 +118,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "CAVALRY",
-        "VANGUARD CHAMBER",
-        "Vanguard Chamber"
+        "VANGUARD CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -111,7 +131,7 @@
     "Id": "unit_ed87-8b4f-7c45-42a5",
     "Name": "Celestant Prime, Hammer of Sigmar",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -140,11 +160,11 @@
     "Id": "unit_27bd-f462-4fbb-5998",
     "Name": "Lord-Commander Bastian Carthalos",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -167,11 +187,11 @@
     "Id": "unit_1197-3ca0-f8b0-9c67",
     "Name": "Lord-Veritant",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -181,8 +201,7 @@
         "STORMCAST ETERNALS",
         "INFANTRY",
         "RUINATION CHAMBER",
-        "PRIEST (1)",
-        "Ruination Chamber"
+        "PRIEST (1)"
       ]
     },
     "RuleIds": {},
@@ -195,11 +214,11 @@
     "Id": "unit_1b67-5ed1-5c9d-388f",
     "Name": "Knight-Draconis",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -209,8 +228,7 @@
         "STORMCAST ETERNALS",
         "MONSTER",
         "FLY",
-        "EXTREMIS CHAMBER",
-        "Extremis Chamber"
+        "EXTREMIS CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -223,11 +241,11 @@
     "Id": "unit_8934-66a7-47ba-727d",
     "Name": "Knight-Judicator with Gryph-hounds",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -241,7 +259,8 @@
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_8934-66a7-47ba-727d"
+      "profile_8934-66a7-47ba-727d",
+      "profile_1e20-a039-6cc2-fc6c"
     ],
     "OptionListIds": []
   },
@@ -249,11 +268,11 @@
     "Id": "unit_9f39-a639-e695-6de3",
     "Name": "Knight-Questor",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -275,11 +294,11 @@
     "Id": "unit_f858-254e-aaeb-4d19",
     "Name": "Knight-Relictor",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -302,7 +321,7 @@
     "Id": "unit_8d96-c4c8-97a0-7201",
     "Name": "Lord-Celestant on Dracoth",
     "Attributes": {
-      "category": "Hero",
+      "category": "Cavalry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -315,8 +334,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "CAVALRY",
-        "EXTREMIS CHAMBER",
-        "Extremis Chamber"
+        "EXTREMIS CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -329,11 +347,11 @@
     "Id": "unit_276b-7c3d-995e-f24d",
     "Name": "Knight-Vexillor",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -355,11 +373,11 @@
     "Id": "unit_89a1-7e05-4334-25f5",
     "Name": "Lord-Celestant",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -381,7 +399,7 @@
     "Id": "unit_2def-8a05-fe6-e8ca",
     "Name": "Drakesworn Templar",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -395,8 +413,7 @@
         "STORMCAST ETERNALS",
         "MONSTER",
         "FLY",
-        "EXTREMIS CHAMBER",
-        "Extremis Chamber"
+        "EXTREMIS CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -409,11 +426,11 @@
     "Id": "unit_3335-9e70-ec3d-f966",
     "Name": "Knight-Arcanum",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -436,11 +453,11 @@
     "Id": "unit_c1b5-c776-1613-a463",
     "Name": "Lord-Imperatant",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -454,7 +471,8 @@
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_c1b5-c776-1613-a463"
+      "profile_c1b5-c776-1613-a463",
+      "profile_1e20-a039-6cc2-fc6c"
     ],
     "OptionListIds": []
   },
@@ -466,7 +484,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -488,11 +506,11 @@
     "Id": "unit_fc54-7cb5-cc46-7aeb",
     "Name": "Lorai, Child of the Abyss",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -517,11 +535,11 @@
     "Id": "unit_8931-32bb-58ba-820a",
     "Name": "Neave Blacktalon",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -532,8 +550,7 @@
         "STORMCAST ETERNALS",
         "INFANTRY",
         "VANGUARD CHAMBER",
-        "THE BLACKTALONS",
-        "Vanguard Chamber"
+        "THE BLACKTALONS"
       ]
     },
     "RuleIds": {},
@@ -546,7 +563,7 @@
     "Id": "unit_227e-824c-67f-e51f",
     "Name": "Gardus Steel Soul",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -574,7 +591,7 @@
     "Id": "unit_cd2e-e2d-7ad-f065",
     "Name": "Vandus Hammerhand",
     "Attributes": {
-      "category": "Hero",
+      "category": "Cavalry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -601,11 +618,11 @@
     "Id": "unit_b665-fc99-6937-e5e5",
     "Name": "Yndrasta, the Celestial Spear",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -630,7 +647,7 @@
     "Id": "unit_4543-eb5a-9476-4fdb",
     "Name": "Lord-Celestant on Stardrake",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -643,8 +660,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "MONSTER",
-        "FLY",
-        "Extremis Chamber"
+        "FLY"
       ]
     },
     "RuleIds": {},
@@ -657,7 +673,7 @@
     "Id": "unit_c6c-d912-2899-5073",
     "Name": "Karazai the Scarred",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -685,7 +701,7 @@
     "Id": "unit_9c0f-13c7-e2c1-55a",
     "Name": "Krondys, Son of Dracothion",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -745,7 +761,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "2"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -753,8 +769,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "EXTREMIS CHAMBER",
-        "CAVALRY",
-        "Extremis Chamber"
+        "CAVALRY"
       ]
     },
     "RuleIds": {},
@@ -767,11 +782,11 @@
     "Id": "unit_1e20-a039-6cc2-fc6c",
     "Name": "Gryph-hounds",
     "Attributes": {
-      "category": "Infantry",
+      "category": "Beast",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "6"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -779,8 +794,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "BEAST",
-        "CHAMPION",
-        "Beast"
+        "CHAMPION"
       ]
     },
     "RuleIds": {},
@@ -797,7 +811,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -823,7 +837,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -849,7 +863,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "2"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -857,8 +871,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "EXTREMIS CHAMBER",
-        "CAVALRY",
-        "Extremis Chamber"
+        "CAVALRY"
       ]
     },
     "RuleIds": {},
@@ -875,7 +888,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "2"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -883,8 +896,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "EXTREMIS CHAMBER",
-        "CAVALRY",
-        "Extremis Chamber"
+        "CAVALRY"
       ]
     },
     "RuleIds": {},
@@ -901,7 +913,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "2"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -909,8 +921,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "EXTREMIS CHAMBER",
-        "CAVALRY",
-        "Extremis Chamber"
+        "CAVALRY"
       ]
     },
     "RuleIds": {},
@@ -923,7 +934,7 @@
     "Id": "unit_1440-8ecb-6ecb-f4a2",
     "Name": "Stormstrike Chariot",
     "Attributes": {
-      "category": "Infantry",
+      "category": "War Machine",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -952,7 +963,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -978,7 +989,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -988,8 +999,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "FLY",
-        "RUINATION CHAMBER",
-        "Ruination Chamber"
+        "RUINATION CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1015,8 +1025,7 @@
         "STORMCAST ETERNALS",
         "FLY",
         "MONSTER",
-        "EXTREMIS CHAMBER",
-        "Extremis Chamber"
+        "EXTREMIS CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1033,7 +1042,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1043,8 +1052,7 @@
         "STANDARD BEARER (1/5)",
         "ORDER",
         "STORMCAST ETERNALS",
-        "VANGUARD CHAMBER",
-        "Vanguard Chamber"
+        "VANGUARD CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1061,7 +1069,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1071,8 +1079,7 @@
         "CAVALRY",
         "CHAMPION",
         "VANGUARD CHAMBER",
-        "VANGUARD-PALLADORS",
-        "Vanguard Chamber"
+        "VANGUARD-PALLADORS"
       ]
     },
     "RuleIds": {},
@@ -1089,7 +1096,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1099,8 +1106,7 @@
         "CAVALRY",
         "CHAMPION",
         "VANGUARD CHAMBER",
-        "VANGUARD-PALLADORS",
-        "Vanguard Chamber"
+        "VANGUARD-PALLADORS"
       ]
     },
     "RuleIds": {},
@@ -1117,7 +1123,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1126,8 +1132,7 @@
         "CHAMPION",
         "ORDER",
         "STORMCAST ETERNALS",
-        "VANGUARD CHAMBER",
-        "Vanguard Chamber"
+        "VANGUARD CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1144,7 +1149,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1153,8 +1158,7 @@
         "CHAMPION",
         "ORDER",
         "STORMCAST ETERNALS",
-        "VANGUARD CHAMBER",
-        "Vanguard Chamber"
+        "VANGUARD CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1171,7 +1175,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1197,7 +1201,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "6"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1219,7 +1223,7 @@
     "Id": "unit_ee09-decd-ff1a-ce30",
     "Name": "Celestian Vortex",
     "Attributes": {
-      "category": "Infantry",
+      "category": "Endless Spell",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1246,7 +1250,7 @@
     "Id": "unit_5e54-9fa4-cf4b-e1bb",
     "Name": "Dais Arcanum",
     "Attributes": {
-      "category": "Infantry",
+      "category": "Endless Spell",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1272,7 +1276,7 @@
     "Id": "unit_9b21-f285-2558-14ca",
     "Name": "Everblaze Comet",
     "Attributes": {
-      "category": "Infantry",
+      "category": "Endless Spell",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1299,7 +1303,7 @@
     "Id": "unit_57cb-3869-2834-3019",
     "Name": "Lord-Vigilant on Gryph-stalker",
     "Attributes": {
-      "category": "Hero",
+      "category": "Cavalry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1312,8 +1316,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "RUINATION CHAMBER",
-        "CAVALRY",
-        "Ruination Chamber"
+        "CAVALRY"
       ]
     },
     "RuleIds": {},
@@ -1326,11 +1329,11 @@
     "Id": "unit_678a-136a-c7ce-fe8c",
     "Name": "Lord-Terminos",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1339,8 +1342,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "INFANTRY",
-        "RUINATION CHAMBER",
-        "Ruination Chamber"
+        "RUINATION CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1357,7 +1359,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1366,8 +1368,7 @@
         "CHAMPION",
         "ORDER",
         "STORMCAST ETERNALS",
-        "RUINATION CHAMBER",
-        "Ruination Chamber"
+        "RUINATION CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1380,11 +1381,11 @@
     "Id": "unit_f96a-5448-b667-1ed5",
     "Name": "Ionus Cryptborn, Warden of Lost Souls",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1397,8 +1398,7 @@
         "STORMCAST ETERNALS",
         "MONSTER",
         "PRIEST (2)",
-        "RUINATION CHAMBER",
-        "Ruination Chamber"
+        "RUINATION CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1411,7 +1411,7 @@
     "Id": "unit_f701-73e7-fd98-6d54",
     "Name": "Gavriel Sureheart",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1438,7 +1438,7 @@
     "Id": "unit_249a-c939-3927-f0d2",
     "Name": "Lord-Arcanum on Tauralon",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1466,7 +1466,7 @@
     "Id": "unit_a169-16d2-44ab-4c13",
     "Name": "Aventis Firestrike, Magister of Hammerhal",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1495,7 +1495,7 @@
     "Id": "unit_9fa1-9540-6069-3c75",
     "Name": "Astreia Solbright",
     "Attributes": {
-      "category": "Hero",
+      "category": "Cavalry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1523,7 +1523,7 @@
     "Id": "unit_626a-2ffc-5960-b847",
     "Name": "Lord-Arcanum on Celestial Dracoline",
     "Attributes": {
-      "category": "Hero",
+      "category": "Cavalry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1550,7 +1550,7 @@
     "Id": "unit_2b9b-4a5f-d565-6afe",
     "Name": "Lord-Arcanum on Gryph-charger",
     "Attributes": {
-      "category": "Hero",
+      "category": "Cavalry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -1581,7 +1581,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1597,7 +1597,9 @@
     "ProfileIds": [
       "profile_87d2-4c1a-cbde-a9f9"
     ],
-    "OptionListIds": []
+    "OptionListIds": [
+      "option_1752820787006"
+    ]
   },
   {
     "Id": "unit_b47e-39f4-710b-042a",
@@ -1607,7 +1609,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1629,11 +1631,11 @@
     "Id": "unit_d062-d345-97db-e895",
     "Name": "Lord-Castellant",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1655,11 +1657,11 @@
     "Id": "unit_6f35-d6c8-c31b-0406",
     "Name": "Lord-Exorcist",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1679,39 +1681,14 @@
     "OptionListIds": []
   },
   {
-    "Id": "unit_8824-e8f0-d061-b64d",
-    "Name": "Celestar Ballista",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "ORDER",
-        "STORMCAST ETERNALS",
-        "SACROSANCT CHAMBER",
-        "WAR MACHINE"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_8824-e8f0-d061-b64d"
-    ],
-    "OptionListIds": []
-  },
-  {
     "Id": "unit_a36f-a410-048c-e018",
     "Name": "Knight-Heraldor",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1733,11 +1710,11 @@
     "Id": "unit_e9fb-8478-b0ff-8911",
     "Name": "Lord-Arcanum",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1760,11 +1737,11 @@
     "Id": "unit_c029-12b6-9c8d-d1ef",
     "Name": "Knight-Incantor",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1787,11 +1764,11 @@
     "Id": "unit_d5aa-f736-3c06-d6ad",
     "Name": "Knight-Venator",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1814,11 +1791,11 @@
     "Id": "unit_f0d9-5cb2-345b-565e",
     "Name": "Knight-Zephyros",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1827,8 +1804,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "INFANTRY",
-        "VANGUARD CHAMBER",
-        "Vanguard Chamber"
+        "VANGUARD CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -1841,11 +1817,11 @@
     "Id": "unit_3a7d-1a9b-8191-070a",
     "Name": "Lord-Ordinator",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1871,7 +1847,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1897,7 +1873,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1923,7 +1899,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1949,7 +1925,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1965,7 +1941,9 @@
     "ProfileIds": [
       "profile_57c8-4a7e-b7f6-cf5b"
     ],
-    "OptionListIds": []
+    "OptionListIds": [
+      "option_1752821064755"
+    ]
   },
   {
     "Id": "unit_de73-4b2d-e8b7-106f",
@@ -1975,7 +1953,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -1991,7 +1969,9 @@
     "ProfileIds": [
       "profile_de73-4b2d-e8b7-106f"
     ],
-    "OptionListIds": []
+    "OptionListIds": [
+      "option_1752822721200"
+    ]
   },
   {
     "Id": "unit_fac7-bade-414e-667f",
@@ -2001,7 +1981,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2017,7 +1997,9 @@
     "ProfileIds": [
       "profile_fac7-bade-414e-667f"
     ],
-    "OptionListIds": []
+    "OptionListIds": [
+      "option_1752822425537"
+    ]
   },
   {
     "Id": "unit_3b76-254c-2c33-327d",
@@ -2027,7 +2009,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2049,11 +2031,11 @@
     "Id": "unit_8ec0-257f-7432-f7b9",
     "Name": "Lord-Relictor",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2079,7 +2061,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2087,7 +2069,6 @@
         "ORDER",
         "INFANTRY",
         "UNIQUE",
-        "Legends",
         "STORMCAST ETERNALS",
         "WIZARD (1)",
         "WARRIOR CHAMBER"
@@ -2107,7 +2088,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2115,11 +2096,9 @@
         "ORDER",
         "INFANTRY",
         "UNIQUE",
-        "Legends",
         "STORMCAST ETERNALS",
         "CHAMPION",
-        "VANGUARD CHAMBER",
-        "Vanguard Chamber"
+        "VANGUARD CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -2136,7 +2115,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2144,7 +2123,6 @@
         "ORDER",
         "INFANTRY",
         "UNIQUE",
-        "Legends",
         "STORMCAST ETERNALS",
         "WARRIOR CHAMBER",
         "CHAMPION"
@@ -2164,7 +2142,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2172,7 +2150,6 @@
         "ORDER",
         "INFANTRY",
         "UNIQUE",
-        "Legends",
         "STORMCAST ETERNALS",
         "SACROSANCT CHAMBER",
         "CHAMPION"
@@ -2192,7 +2169,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2200,7 +2177,6 @@
         "ORDER",
         "INFANTRY",
         "UNIQUE",
-        "Legends",
         "STORMCAST ETERNALS",
         "WARRIOR CHAMBER",
         "CHAMPION"
@@ -2216,11 +2192,11 @@
     "Id": "unit_b1c3-3db3-fe6b-289b",
     "Name": "Tornus the Redeemed",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2231,8 +2207,7 @@
         "ORDER",
         "STORMCAST ETERNALS",
         "RUINATION CHAMBER",
-        "INFANTRY",
-        "Ruination Chamber"
+        "INFANTRY"
       ]
     },
     "RuleIds": {},
@@ -2245,7 +2220,7 @@
     "Id": "unit_278f-91b3-fedc-1b1a",
     "Name": "Iridan the Witness",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -2261,8 +2236,7 @@
         "STORMCAST ETERNALS",
         "MONSTER",
         "PRIEST (1)",
-        "RUINATION CHAMBER",
-        "Ruination Chamber"
+        "RUINATION CHAMBER"
       ]
     },
     "RuleIds": {},
@@ -2279,10 +2253,13 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
-      "FullOptions": [],
+      "FullOptions": [
+        "Musician",
+        "Standard Bearer"
+      ],
       "Keywords": [
         "ORDER",
         "STORMCAST ETERNALS",
@@ -2307,7 +2284,7 @@
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "3"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2329,11 +2306,11 @@
     "Id": "unit_7099-e138-068d-e37a",
     "Name": "Knight-Azyros",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
-      "defaultFront": ""
+      "defaultFront": "1"
     },
     "AttributeLists": {
       "FullOptions": [],
@@ -2343,8 +2320,7 @@
         "STORMCAST ETERNALS",
         "RUINATION CHAMBER",
         "FLY",
-        "INFANTRY",
-        "Ruination Chamber"
+        "INFANTRY"
       ]
     },
     "RuleIds": {},
@@ -2357,7 +2333,7 @@
     "Id": "unit_a86d-34b5-ebc7-76ed",
     "Name": "Lord-Vigilant on Morrgryph",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -2371,8 +2347,7 @@
         "STORMCAST ETERNALS",
         "RUINATION CHAMBER",
         "MONSTER",
-        "FLY",
-        "Ruination Chamber"
+        "FLY"
       ]
     },
     "RuleIds": {},
@@ -2385,7 +2360,7 @@
     "Id": "unit_8c5f-f4d2-f160-89ec",
     "Name": "Stormreach Portal",
     "Attributes": {
-      "category": "Infantry",
+      "category": "Faction Terrain",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -2438,7 +2413,7 @@
     "Id": "unit_64df-1a09-e8fb-10da",
     "Name": "Anvil of Apotheosis: Stormcast Eternals Hero",
     "Attributes": {
-      "category": "Hero",
+      "category": "Infantry Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -2463,7 +2438,7 @@
     "Id": "unit_f7f2-e419-ecf3-0610",
     "Name": "Iridan the Witness (Scourge of Ghyran)",
     "Attributes": {
-      "category": "Hero",
+      "category": "Monster Hero",
       "army": "Stormcast Eternals",
       "height": "",
       "type": "",
@@ -2485,449 +2460,6 @@
     "RuleIds": {},
     "ProfileIds": [
       "profile_f7f2-e419-ecf3-0610"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_4ba0-e87-36e0-db58",
-    "Name": "Krondspine Incarnate of Ghur",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "WARD (6+)",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_4ba0-e87-36e0-db58"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_e7a5-e611-4c13-22d0",
-    "Name": "Purple Sun of Shyish",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_e7a5-e611-4c13-22d0"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_dee3-92a0-27e7-252a",
-    "Name": "Soulsnare Shackles",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_dee3-92a0-27e7-252a"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_523f-bd78-e418-9922",
-    "Name": "Soulscream Bridge",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_523f-bd78-e418-9922"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_fcb6-ae80-2e58-aadb",
-    "Name": "Aethervoid Pendulum",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_fcb6-ae80-2e58-aadb"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_1aba-bc38-e988-d79f",
-    "Name": "Chronomantic Cogs",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_1aba-bc38-e988-d79f"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_e1cc-64dc-f765-b9cc",
-    "Name": "The Burning Head",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_e1cc-64dc-f765-b9cc"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_f935-2383-94ba-3be2",
-    "Name": "Horrorghast",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_f935-2383-94ba-3be2"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_e699-49b7-d2b8-d5fc",
-    "Name": "Malevolent Maelstrom",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_e699-49b7-d2b8-d5fc"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_94f6-4321-fd80-f20e",
-    "Name": "Shards of Valagharr",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_94f6-4321-fd80-f20e"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_a26b-cd08-8f9d-90b0",
-    "Name": "Lauchon the Soulseeker",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_a26b-cd08-8f9d-90b0"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_8cde-fafe-2b2a-ced5",
-    "Name": "Quicksilver Swords",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_8cde-fafe-2b2a-ced5"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_3071-fc11-4eb8-bbcc",
-    "Name": "Emerald Lifeswarm",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_3071-fc11-4eb8-bbcc"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_41c4-2f6a-0d3c-a23e",
-    "Name": "Ravenak's Gnashing Jaws",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_41c4-2f6a-0d3c-a23e"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_1885-a1aa-bf5d-6d0d",
-    "Name": "Suffocating Gravetide",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_1885-a1aa-bf5d-6d0d"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_d420-1699-5ad9-1956",
-    "Name": "Geminids of Uhl-Gysh",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL",
-        "FLY"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_d420-1699-5ad9-1956"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_0552-183c-1b2a-d117",
-    "Name": "Umbral Spellportal",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_0552-183c-1b2a-d117"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_015a-4e4f-322f-ccff",
-    "Name": "Prismatic Palisade",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Stormcast Eternals",
-      "height": "",
-      "type": "",
-      "defaultFront": ""
-    },
-    "AttributeLists": {
-      "FullOptions": [],
-      "Keywords": [
-        "WARD (6+)",
-        "MANIFESTATION",
-        "ENDLESS SPELL"
-      ]
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_015a-4e4f-322f-ccff"
     ],
     "OptionListIds": []
   }
