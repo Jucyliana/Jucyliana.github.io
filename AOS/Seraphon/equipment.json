@@ -1,0 +1,1559 @@
+[
+  {
+    "Id": "equipment_69b7-e4de-2583-54e2",
+    "Name": "Bludgeoning Tail",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Bludgeoning Tail",
+        "Values": {
+          "Atk": "3",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_a87c-10c-fccf-2ca4",
+    "Name": "Handlers’ Meteoric Javelins",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Handlers’ Meteoric Javelins",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cc13-e9f5-e55e-3d56",
+    "Name": "Solar Engine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Solar Engine",
+        "Values": {
+          "Rng": "18\"",
+          "Atk": "3",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_ccb6-2643-88c1-9357": "Crit (2 Hits)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6407-b4a4-d3de-f0e1",
+    "Name": "Azyrite Force Barrier",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Azyrite Force Barrier",
+        "Values": {
+          "Atk": "2",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_2749-95ea-fa3d-b4cd",
+    "Name": "Gaze of Kroak",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Gaze of Kroak",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "1",
+          "Hit": "2+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "D6"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5e49-46fa-4bf8-743a",
+    "Name": "Skyblade",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Skyblade",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_e745-73af-60c0-8139": "Crit (Auto-wound)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_58a3-f76d-624f-e8d4",
+    "Name": "Ripperdactyl’s Tearing Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ripperdactyl’s Tearing Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7f2a-caed-f93-e5d5",
+    "Name": "Troglodon’s Noxious Spittle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Troglodon’s Noxious Spittle",
+        "Values": {
+          "Rng": "15\"",
+          "Atk": "D6",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7d2f-597a-d2db-8d9a",
+    "Name": "Divining Rod",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Divining Rod",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_be1b-c860-9ec0-d32e",
+    "Name": "Troglodon’s Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Troglodon’s Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_crit": "Crit"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_923b-9633-7adf-c8b2",
+    "Name": "Troglodon’s Talons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Troglodon’s Talons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6895-a184-e3c6-2540",
+    "Name": "Stegadon’s Horns and Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stegadon’s Horns and Jaws",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_af5b-3f8c-3e7f-ce9d",
+    "Name": "Handlers’ Meteoric Javelins",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Handlers’ Meteoric Javelins",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5bb8-524e-2891-4d9e",
+    "Name": "Snapping Beaks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Snapping Beaks",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6cbe-19c-2f2d-9da",
+    "Name": "Aggradon’s Rending Bites and Striking Talons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Aggradon’s Rending Bites and Striking Talons",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_f63f-9b91-a69-5b2d",
+    "Name": "Celestite Spear and Club",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Spear and Club",
+        "Values": {
+          "Atk": "3",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1216-934d-5086-7a30",
+    "Name": "Javelins and Boltspitters",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Javelins and Boltspitters",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_57dd-9301-6f7c-528e",
+    "Name": "Celestite Daggers and Moonstone Clubs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Daggers and Moonstone Clubs",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9a70-1608-43dd-a0b9",
+    "Name": "Azure Lightning",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Azure Lightning",
+        "Values": {
+          "Atk": "6",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_a20b-847f-c212-d100": "Crit (Mortal)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5817-1691-8838-99fd",
+    "Name": "Celestite Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Weapon",
+        "Values": {
+          "Atk": "2",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_e49d-d435-4e0-7de6",
+    "Name": "Celestite Spear or Club",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Spear or Club",
+        "Values": {
+          "Atk": "4",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_96e7-69cd-e863-bc9e",
+    "Name": "Aggradon’s Rending Bites and Striking Talons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Aggradon’s Rending Bites and Striking Talons",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1bae-234e-b1ec-ba4f",
+    "Name": "Moonstone Warspear",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Moonstone Warspear",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-**^^cavalry^^**": "Anti-**^^Cavalry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_45aa-ca3e-d24f-42b5",
+    "Name": "Ripperdactyl’s Tearing Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ripperdactyl’s Tearing Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7982-5f66-b334-3ce",
+    "Name": "Starstone Atlatl",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Starstone Atlatl",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "2",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_e7c8-4502-c56c-e870",
+    "Name": "Raptadon’s Serrated Fangs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Raptadon’s Serrated Fangs",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_eb77-37f0-e78a-f5b6",
+    "Name": "Weighted Moonstone Club",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Weighted Moonstone Club",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7348-cd92-6737-cd4",
+    "Name": "Raptadon’s Serrated Fangs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Raptadon’s Serrated Fangs",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_216c-2a85-b8f3-6962",
+    "Name": "Tepok Lance",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Tepok Lance",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_2293-b46d-d906-b538",
+    "Name": "Hunter Javelin",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Hunter Javelin",
+        "Values": {
+          "Rng": "10\"",
+          "Atk": "1",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_a6b0-dbfa-86a5-60b",
+    "Name": "Starstone Bolas",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Starstone Bolas",
+        "Values": {
+          "Rng": "10\"",
+          "Atk": "1",
+          "Hit": "3+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9f97-2557-c0cf-d329",
+    "Name": "Moonstone Club",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Moonstone Club",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_f02c-1678-32c-6251",
+    "Name": "Feeble Claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Feeble Claws",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_b7cb-a2ce-306c-833f",
+    "Name": "Dartpipe",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Dartpipe",
+        "Values": {
+          "Rng": "10\"",
+          "Atk": "2",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_e745-73af-60c0-8139": "Crit (Auto-wound)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_dca-17b2-7924-cca0",
+    "Name": "Stream of Fire",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Stream of Fire",
+        "Values": {
+          "Rng": "10\"",
+          "Atk": "5",
+          "Hit": "2+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti‑**^^infantry^^**": "Anti‑**^^Infantry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1ad8-ae2-e1a1-7e99",
+    "Name": "Glob of Flame Acid",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Glob of Flame Acid",
+        "Values": {
+          "Rng": "16\"",
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "D3+3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6cd2-4121-b591-3d2c",
+    "Name": "Fiery Maw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Fiery Maw",
+        "Values": {
+          "Atk": "3",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_825e-3b15-2f88-205d",
+    "Name": "Bludgeoning Tail",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Bludgeoning Tail",
+        "Values": {
+          "Atk": "3",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_e13c-e5d9-2a87-92bc",
+    "Name": "Handlers’ Meteoric Javelins",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Handlers’ Meteoric Javelins",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cac1-a558-aa8a-1df7",
+    "Name": "Ark of Sotek",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ark of Sotek",
+        "Values": {
+          "Atk": "20",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_crit": "Crit"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9cb7-2347-e326-5383",
+    "Name": "Celestite Warclub",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Warclub",
+        "Values": {
+          "Atk": "4",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_f8c0-847-e7e6-551",
+    "Name": "Astromancer’s Staff",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Astromancer’s Staff",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_4aa9-d2f0-e4d8-1fa1",
+    "Name": "Skyblade",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Skyblade",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_e745-73af-60c0-8139": "Crit (Auto-wound)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_553c-e152-a85-8358",
+    "Name": "Terradon’s Razor-sharp Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Terradon’s Razor-sharp Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_e02d-770-217c-194c",
+    "Name": "Javelins and Bolas",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Javelins and Bolas",
+        "Values": {
+          "Rng": "10\"",
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_e745-73af-60c0-8139": "Crit (Auto-wound)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_250-6c31-ca88-ad12",
+    "Name": "Terradon’s Razor-sharp Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Terradon’s Razor-sharp Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_ea8f-35ff-1b4e-ec4b",
+    "Name": "Handlers’ Meteoric Javelins",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Handlers’ Meteoric Javelins",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_428f-be51-9756-36e4",
+    "Name": "Meteoric Warspear",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Meteoric Warspear",
+        "Values": {
+          "Atk": "3",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_ef58-5a87-c37a-91",
+    "Name": "Stegadon’s Horns and Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stegadon’s Horns and Jaws",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_a767-b0c0-1ff1-b1ce",
+    "Name": "Stegadon’s Horns and Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stegadon’s Horns and Jaws",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_29fe-fdff-41b8-aea7",
+    "Name": "Handlers’ Meteoric Javelins",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Handlers’ Meteoric Javelins",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7e19-336f-1c69-28db",
+    "Name": "Serpent Staff",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Serpent Staff",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6c40-d8eb-ec03-817f",
+    "Name": "Celestite Polearm",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Polearm",
+        "Values": {
+          "Atk": "3",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_2b24-78f2-45bf-b919",
+    "Name": "Moonstone Hammer",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Moonstone Hammer",
+        "Values": {
+          "Atk": "4",
+          "Hit": "3+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_anti‑**^^infantry^^**": "Anti‑**^^Infantry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_45dc-611a-80cd-cb11",
+    "Name": "Drakebite Maul",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Drakebite Maul",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti‑**^^infantry^^**": "Anti‑**^^Infantry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_ba12-f018-4d11-ed37",
+    "Name": "Starfang Warpick",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Starfang Warpick",
+        "Values": {
+          "Atk": "4",
+          "Hit": "3+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_anti‑**^^monster^^**": "Anti‑**^^Monster^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_a9f4-ae1f-987f-d516",
+    "Name": "Drakefang Warpick",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Drakefang Warpick",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti‑**^^monster^^**": "Anti‑**^^Monster^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_8ef5-5943-4363-fe89",
+    "Name": "Sunbolt Gauntlet",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Sunbolt Gauntlet",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "D6",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c2e4-5a20-7807-22cb",
+    "Name": "Sunstone Spear",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Sunstone Spear",
+        "Values": {
+          "Atk": "5",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_eb5b-6a78-6ae8-ae38",
+    "Name": "Carnosaur’s Massive Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Carnosaur’s Massive Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_adf-5540-2569-1a72",
+    "Name": "Carnosaur’s Clawed Forelimbs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Carnosaur’s Clawed Forelimbs",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_8474-7910-f765-c86f",
+    "Name": "Relic Celestite Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Relic Celestite Weapon",
+        "Values": {
+          "Atk": "5",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_8e27-4573-bf4c-67d2",
+    "Name": "Carnosaur’s Massive Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Carnosaur’s Massive Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_d51f-636f-c30a-786d",
+    "Name": "Carnosaur’s Clawed Forelimbs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Carnosaur’s Clawed Forelimbs",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_da38-db6e-ac6d-759a",
+    "Name": "Relic Celestite Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Relic Celestite Weapon",
+        "Values": {
+          "Atk": "5",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6f6a-722a-89c6-3379",
+    "Name": "Relic Celestite Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Relic Celestite Weapon",
+        "Values": {
+          "Atk": "5",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5662-1580-9f63-5641",
+    "Name": "Starblood Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Starblood Weapons",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_815f-27be-be4e-8d12",
+    "Name": "Starblood Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Starblood Weapons",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9cc3-c54e-d3e6-3bd5",
+    "Name": "Starblood Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Starblood Weapons",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1342-9b94-6514-10c8",
+    "Name": "Starblood Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Starblood Weapons",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_2e64-1ec2-5cdb-0654",
+    "Name": "Starblood Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Starblood Weapons",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_bf15-f7c7-3a84-b968",
+    "Name": "Celestite Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Weapon",
+        "Values": {
+          "Atk": "2",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6727-47f9-c8fe-8db8",
+    "Name": "Relic Celestite Warmace",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Relic Celestite Warmace",
+        "Values": {
+          "Atk": "4",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_23e3-ad0a-c13e-9970",
+    "Name": "Celestite Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Celestite Weapon",
+        "Values": {
+          "Atk": "2",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_dec9-d47a-b6d4-9e47",
+    "Name": "Sunstone Spear and Sunbolt Gauntlet",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Sunstone Spear and Sunbolt Gauntlet",
+        "Values": {
+          "Atk": "6",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5b1a-a2b0-e14f-25fe",
+    "Name": "Carnosaur’s Massive Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Carnosaur’s Massive Jaws",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "4"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_eb75-1f22-78c7-a8b4",
+    "Name": "Carnosaur’s Clawed Forelimbs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Carnosaur’s Clawed Forelimbs",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  }
+]
