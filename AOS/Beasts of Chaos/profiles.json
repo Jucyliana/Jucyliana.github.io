@@ -1,0 +1,768 @@
+[
+  {
+    "Id": "profile_58a2-3a6d-8f77-5f36",
+    "Name": "Beasts of Chaos Chaos Spawn",
+    "RuleIds": {},
+    "Statlines": [
+      {
+        "Name": "Beasts of Chaos Chaos Spawn",
+        "Values": {
+          "Move": "2D6\"",
+          "Health": "5",
+          "Save": "5+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_c424-8c57-8bf6-25bd"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "profile_dbb1-5ebf-28ce-eb6e",
+    "Name": "Great Bray-Shaman",
+    "RuleIds": {
+      "rule_de8f-9720-dfde-0719": "Infuse with Bestial Vigour"
+    },
+    "Statlines": [
+      {
+        "Name": "Great Bray-Shaman",
+        "Values": {
+          "Move": "6\"",
+          "Health": "5",
+          "Save": "5+",
+          "Control": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_111e-3606-af8e-75d0"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "32",
+        "length": "32"
+      }
+    }
+  },
+  {
+    "Id": "profile_49ea-b4e5-abbc-7c73",
+    "Name": "Centigors",
+    "RuleIds": {
+      "rule_b974-ee4a-7d2d-5815": "Drunken Revelry"
+    },
+    "Statlines": [
+      {
+        "Name": "Centigors",
+        "Values": {
+          "Move": "10\"",
+          "Health": "2",
+          "Save": "5+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_40fd-628c-2208-9e1c",
+      "equipment_395c-bd64-7e79-5281"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "35",
+        "length": "60"
+      }
+    }
+  },
+  {
+    "Id": "profile_d994-d366-3e28-c304",
+    "Name": "Bullgors",
+    "RuleIds": {
+      "rule_bdbe-c2d7-1406-2f90": "Warherd Charge"
+    },
+    "Statlines": [
+      {
+        "Name": "Bullgors",
+        "Values": {
+          "Move": "6\"",
+          "Health": "4",
+          "Save": "5+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_bfbe-cce2-3420-d78f",
+      "equipment_30c5-21fe-852a-0545"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "profile_2497-0d67-1bcc-e895",
+    "Name": "Gors",
+    "RuleIds": {
+      "rule_af26-c096-6679-573b": "Gor Stampede"
+    },
+    "Statlines": [
+      {
+        "Name": "Gors",
+        "Values": {
+          "Move": "6\"",
+          "Health": "1",
+          "Save": "5+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_0243-ed5f-9b48-8013"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "32",
+        "length": "32"
+      }
+    }
+  },
+  {
+    "Id": "profile_3771-efac-15d0-cc5b",
+    "Name": "Ungor Raiders",
+    "RuleIds": {
+      "rule_f118-4971-de07-3b57": "Hidden Volley"
+    },
+    "Statlines": [
+      {
+        "Name": "Ungor Raiders",
+        "Values": {
+          "Move": "6\"",
+          "Health": "1",
+          "Save": "6+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_dcb5-7b87-5320-5aa2",
+      "equipment_f0c6-4872-5186-de70"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "profile_920d-c7ac-1a68-8337",
+    "Name": "Ungors",
+    "RuleIds": {
+      "rule_fb4f-c207-7e93-1438": "Fleet of Hoof"
+    },
+    "Statlines": [
+      {
+        "Name": "Ungors",
+        "Values": {
+          "Move": "6\"",
+          "Health": "1",
+          "Save": "5+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_7981-c38d-7c48-1607"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "profile_f8d6-201f-bb35-942c",
+    "Name": "Doombull",
+    "RuleIds": {
+      "rule_cdd8-410c-83fb-65b5": "Slaughterer's Call",
+      "rule_4561-22c9-009f-336c": "Alpha Charge"
+    },
+    "Statlines": [
+      {
+        "Name": "Doombull",
+        "Values": {
+          "Move": "6\"",
+          "Health": "8",
+          "Save": "5+",
+          "Control": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_ad4a-016a-38c3-4b04",
+      "equipment_c4af-0397-cae4-2f49"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "profile_21de-ca00-a110-b175",
+    "Name": "Tuskgor Chariots",
+    "RuleIds": {
+      "rule_ebe0-c335-aeb1-361f": "Tuskgor Charge"
+    },
+    "Statlines": [
+      {
+        "Name": "Tuskgor Chariots",
+        "Values": {
+          "Move": "10\"",
+          "Health": "7",
+          "Save": "4+",
+          "Control": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_c14a-5a02-45b7-38c4",
+      "equipment_6de9-0b8e-6f07-3864"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "70",
+        "length": "105"
+      }
+    }
+  },
+  {
+    "Id": "profile_de53-89d8-87aa-d8d1",
+    "Name": "Ghorgon",
+    "RuleIds": {
+      "rule_2faf-7ab0-9b72-66d2": "Swallow Whole",
+      "rule_4840-519b-9a61-d9cb": "Battle Damaged"
+    },
+    "Statlines": [
+      {
+        "Name": "Ghorgon",
+        "Values": {
+          "Move": "8\"",
+          "Health": "15",
+          "Save": "5+",
+          "Control": "5"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_c13e-5ec2-3667-544a",
+      "equipment_9879-c318-5a07-690e"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "92",
+        "length": "120"
+      }
+    }
+  },
+  {
+    "Id": "profile_7c3c-ad38-60b3-7c30",
+    "Name": "Chaos Warhounds",
+    "RuleIds": {
+      "rule_d456-44ee-f91f-492f": "Outrunners of Chaos"
+    },
+    "Statlines": [
+      {
+        "Name": "Chaos Warhounds",
+        "Values": {
+          "Move": "6\"",
+          "Health": "2",
+          "Save": "4+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_004e-73ca-a140-ce75"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "52",
+        "length": "90"
+      }
+    }
+  },
+  {
+    "Id": "profile_9652-a6eb-7e57-9761",
+    "Name": "Beastlord",
+    "RuleIds": {
+      "rule_b628-c9cd-4fb8-bebb": "Hatred of Heroes",
+      "rule_8bfc-6807-c405-11a6": "Call of Battle"
+    },
+    "Statlines": [
+      {
+        "Name": "Beastlord",
+        "Values": {
+          "Move": "6\"",
+          "Health": "6",
+          "Save": "4+",
+          "Control": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_f63f-001c-9712-80cb"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "32",
+        "length": "32"
+      }
+    }
+  },
+  {
+    "Id": "profile_a95c-3447-894b-43a3",
+    "Name": "Chaos Gargant",
+    "RuleIds": {
+      "rule_e06e-c5e2-a869-93d0": "Whipped Into a Frenzy",
+      "rule_defa-b5e0-fc39-a0b5": "Timberrrrr!"
+    },
+    "Statlines": [
+      {
+        "Name": "Chaos Gargant",
+        "Values": {
+          "Move": "8\"",
+          "Health": "12",
+          "Save": "5+",
+          "Control": "5"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_e6b9-0234-c2a2-7c85",
+      "equipment_751d-8e19-dacc-c250",
+      "equipment_5558-ce77-21e1-3f3d",
+      "equipment_9b0b-1a41-6668-5c18"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "52",
+        "length": "90"
+      }
+    }
+  },
+  {
+    "Id": "profile_92c9-1353-bc81-7814",
+    "Name": "Chimera",
+    "RuleIds": {
+      "rule_7085-a5b9-0baa-7439": "Thricefold Savagery"
+    },
+    "Statlines": [
+      {
+        "Name": "Chimera",
+        "Values": {
+          "Move": "10\"",
+          "Health": "12",
+          "Save": "5+",
+          "Control": "5"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_6e13-dbff-6cb5-eff0",
+      "equipment_532b-1877-d5e5-f66d",
+      "equipment_83b2-e6e1-3bd0-97e8"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "92",
+        "length": "120"
+      }
+    }
+  },
+  {
+    "Id": "profile_9bbe-6fe3-2117-7dca",
+    "Name": "Dragon Ogors",
+    "RuleIds": {
+      "rule_48d5-24dd-d763-d593": "Speed of an Avalanche"
+    },
+    "Statlines": [
+      {
+        "Name": "Dragon Ogors",
+        "Values": {
+          "Move": "8\"",
+          "Health": "5",
+          "Save": "4+",
+          "Control": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_c494-6d86-c1ee-60d3",
+      "equipment_7a68-17ce-a0c0-d091"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "52",
+        "length": "90"
+      }
+    }
+  },
+  {
+    "Id": "profile_5f38-255a-16a0-e4dc",
+    "Name": "Dragon Ogor Shaggoth",
+    "RuleIds": {
+      "rule_ab7f-51e5-535a-5614": "Beneath the Tempest",
+      "rule_100e-0da0-ab50-5c76": "Scion of the Primordial Storm"
+    },
+    "Statlines": [
+      {
+        "Name": "Dragon Ogor Shaggoth",
+        "Values": {
+          "Move": "6\"",
+          "Health": "6",
+          "Save": "4+",
+          "Control": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_b60a-fc95-8dda-9ba4",
+      "equipment_1552-16f6-9e97-58de"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "52",
+        "length": "90"
+      }
+    }
+  },
+  {
+    "Id": "profile_5efa-c95d-80d7-bec9",
+    "Name": "Razorgor",
+    "RuleIds": {
+      "rule_0f43-80fb-998b-8ebb": "Feed on Mangled Remains"
+    },
+    "Statlines": [
+      {
+        "Name": "Razorgor",
+        "Values": {
+          "Move": "10\"",
+          "Health": "4",
+          "Save": "5+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_bb4c-5a6f-b320-a4d3"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "42",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "profile_e81b-8963-7fe4-f5ed",
+    "Name": "Bestigors",
+    "RuleIds": {
+      "rule_2642-913a-3686-8d8b": "Ferocious Advance",
+      "rule_4be3-5eb6-2bf7-27e0": "Despoilers"
+    },
+    "Statlines": [
+      {
+        "Name": "Bestigors",
+        "Values": {
+          "Move": "6\"",
+          "Health": "2",
+          "Save": "4+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_922a-ff97-09f0-1065"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "32",
+        "length": "32"
+      }
+    }
+  },
+  {
+    "Id": "profile_ce4c-4ffa-418c-adc6",
+    "Name": "Cygor",
+    "RuleIds": {
+      "rule_c3f2-38be-881f-a155": "Consume Endless Spell",
+      "rule_0b72-f204-ce6c-e4e2": "Battle Damaged",
+      "rule_7522-8d52-80c9-65cc": "Soul-eater"
+    },
+    "Statlines": [
+      {
+        "Name": "Cygor",
+        "Values": {
+          "Move": "8\"",
+          "Health": "15",
+          "Save": "5+",
+          "Control": "5"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_5d56-1ee7-3998-4f26",
+      "equipment_3c45-a88d-cc68-2e60"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "92",
+        "length": "120"
+      }
+    }
+  },
+  {
+    "Id": "profile_a80a-b7c0-c7d5-9b9f",
+    "Name": "Cockatrice",
+    "RuleIds": {
+      "rule_d04d-cfac-795c-cdc9": "Petrifying Gaze"
+    },
+    "Statlines": [
+      {
+        "Name": "Cockatrice",
+        "Values": {
+          "Move": "12\"",
+          "Health": "8",
+          "Save": "5+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_4fa0-2c4d-d4ed-0106"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "60",
+        "length": "60"
+      }
+    }
+  },
+  {
+    "Id": "profile_e692-609a-09fa-d49b",
+    "Name": "Jabberslythe",
+    "RuleIds": {
+      "rule_104b-51ec-2c38-96e7": "Aura of Madness"
+    },
+    "Statlines": [
+      {
+        "Name": "Jabberslythe",
+        "Values": {
+          "Move": "12\"",
+          "Health": "8",
+          "Save": "5+",
+          "Control": "5"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_460b-e444-6f3b-9663",
+      "equipment_4ea2-4427-21ff-acf6"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "92",
+        "length": "120"
+      }
+    }
+  },
+  {
+    "Id": "profile_bd21-c157-c813-8360",
+    "Name": "Doomblast Dirgehorn",
+    "RuleIds": {
+      "rule_86f3-61f3-1661-3191": "Booming Cacophony",
+      "rule_0292-5853-7c5f-4fed": "Louder and Louder"
+    },
+    "Statlines": [
+      {
+        "Name": "Doomblast Dirgehorn",
+        "Values": {},
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "profile_26b3-4020-3cb9-1970",
+    "Name": "Ravening Direflock",
+    "RuleIds": {
+      "rule_bfe0-d83f-f19d-0626": "Multiple Parts",
+      "rule_cf53-217e-2c3d-9612": "Harbingers of Dark Omens"
+    },
+    "Statlines": [
+      {
+        "Name": "Ravening Direflock",
+        "Values": {},
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_acee-7296-4c68-645c"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "profile_342e-5191-631c-915f",
+    "Name": "Wildfire Taurus",
+    "RuleIds": {
+      "rule_8d65-d9f2-99c0-fe77": "Trail of Destruction"
+    },
+    "Statlines": [
+      {
+        "Name": "Wildfire Taurus",
+        "Values": {},
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_2017-7397-d867-8831"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "70",
+        "length": "105"
+      }
+    }
+  },
+  {
+    "Id": "profile_dbf4-0d75-ee00-02a2",
+    "Name": "Herdstone",
+    "RuleIds": {
+      "rule_620d-c0ca-509c-b486": "Entropic Lodestone"
+    },
+    "Statlines": [
+      {
+        "Name": "Herdstone",
+        "Values": {
+          "Move": "-",
+          "Health": "14",
+          "Save": "4+",
+          "Control": "-"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "120",
+        "length": "120"
+      }
+    }
+  },
+  {
+    "Id": "profile_c675-1d79-171f-4047",
+    "Name": "Grashrak's Despoilers",
+    "RuleIds": {
+      "rule_5677-371a-bb0d-9baa": "Grashrak Fellhoof",
+      "rule_3e5d-7ae3-2b8e-098a": "Violent Despoilers"
+    },
+    "Statlines": [
+      {
+        "Name": "Grashrak's Despoilers",
+        "Values": {
+          "Move": "8\"",
+          "Health": "2",
+          "Save": "6+",
+          "Control": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "EquipmentIds": [
+      "equipment_d5aa-845f-afd9-f4be",
+      "equipment_324f-fb78-1ae3-9016",
+      "equipment_9935-60a9-9834-1cbd",
+      "equipment_3060-7573-9dcb-a3f0",
+      "equipment_0a47-0bab-8989-c95a",
+      "equipment_5afe-60d7-5259-bb7d",
+      "equipment_c2fc-100f-b328-c990",
+      "equipment_9baf-2645-8da5-45a0"
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  }
+]

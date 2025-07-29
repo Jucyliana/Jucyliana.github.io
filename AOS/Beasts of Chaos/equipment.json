@@ -1,0 +1,931 @@
+[
+  {
+    "Id": "equipment_c424-8c57-8bf6-25bd",
+    "Name": "Freakish Mutations",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Freakish Mutations",
+        "Values": {
+          "Atk": "2D6",
+          "Hit": "5+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_crit": "Crit"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_111e-3606-af8e-75d0",
+    "Name": "Fetish Staff",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Fetish Staff",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_40fd-628c-2208-9e1c",
+    "Name": "Gutpiercer Spear",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Gutpiercer Spear",
+        "Values": {
+          "Rng": "8\"",
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_395c-bd64-7e79-5281",
+    "Name": "Clawed Forelimbs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Clawed Forelimbs",
+        "Values": {
+          "Atk": "2",
+          "Hit": "5+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_bfbe-cce2-3420-d78f",
+    "Name": "Man-splitter Axes",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Man-splitter Axes",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_30c5-21fe-852a-0545",
+    "Name": "Iron-capped Horns",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Iron-capped Horns",
+        "Values": {
+          "Atk": "2",
+          "Hit": "5+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_0243-ed5f-9b48-8013",
+    "Name": "Hacking Blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Hacking Blades",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_ccb6-2643-88c1-9357": "Crit (2 Hits)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_dcb5-7b87-5320-5aa2",
+    "Name": "Raider Bow",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Raider Bow",
+        "Values": {
+          "Rng": "18\"",
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "6+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_f0c6-4872-5186-de70",
+    "Name": "Jagged Shank",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Jagged Shank",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_ccb6-2643-88c1-9357": "Crit (2 Hits)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7981-c38d-7c48-1607",
+    "Name": "Gnarled Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Gnarled Weapon",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_ccb6-2643-88c1-9357": "Crit (2 Hits)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_ad4a-016a-38c3-4b04",
+    "Name": "Slaughterer’s Axe",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Slaughterer’s Axe",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c4af-0397-cae4-2f49",
+    "Name": "Alphabeast Horns",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Alphabeast Horns",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "-",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c14a-5a02-45b7-38c4",
+    "Name": "Despoiler Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Weapons",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_ccb6-2643-88c1-9357": "Crit (2 Hits)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6de9-0b8e-6f07-3864",
+    "Name": "Tuskgors’ Iron-hard Tusks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Tuskgors’ Iron-hard Tusks",
+        "Values": {
+          "Atk": "4",
+          "Hit": "5+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c13e-5ec2-3667-544a",
+    "Name": "Butchering Blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Butchering Blades",
+        "Values": {
+          "Atk": "7",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_anti-**^^infantry^^**(+1": "Anti-**^^Infantry^^**(+1"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9879-c318-5a07-690e",
+    "Name": "Huge Slavering Maw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Huge Slavering Maw",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "D6"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_004e-73ca-a140-ce75",
+    "Name": "Canine Jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Canine Jaws",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_f63f-001c-9712-80cb",
+    "Name": "Paired Man-ripper Axes",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Paired Man-ripper Axes",
+        "Values": {
+          "Atk": "5",
+          "Hit": "3+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^hero^^**": "Anti-**^^Hero^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_e6b9-0234-c2a2-7c85",
+    "Name": "Throwin’ Rocks",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Throwin’ Rocks",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "1",
+          "Hit": "5+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_751d-8e19-dacc-c250",
+    "Name": "’Eadbutt",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "’Eadbutt",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "4"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5558-ce77-21e1-3f3d",
+    "Name": "Massive Club",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Massive Club",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9b0b-1a41-6668-5c18",
+    "Name": "Mighty Kick",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Mighty Kick",
+        "Values": {
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6e13-dbff-6cb5-eff0",
+    "Name": "Brimstone Breath",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Brimstone Breath",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "6",
+          "Hit": "2+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_532b-1877-d5e5-f66d",
+    "Name": "Mauling Claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Mauling Claws",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "-",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_83b2-e6e1-3bd0-97e8",
+    "Name": "Chimeric Heads",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Chimeric Heads",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c494-6d86-c1ee-60d3",
+    "Name": "Storm-forged Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Storm-forged Weapons",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_a20b-847f-c212-d100": "Crit (Mortal)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7a68-17ce-a0c0-d091",
+    "Name": "Raking Foreclaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Raking Foreclaws",
+        "Values": {
+          "Atk": "2",
+          "Hit": "5+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_b60a-fc95-8dda-9ba4",
+    "Name": "Storm-forged Axe",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Storm-forged Axe",
+        "Values": {
+          "Atk": "6",
+          "Hit": "3+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_a20b-847f-c212-d100": "Crit (Mortal)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1552-16f6-9e97-58de",
+    "Name": "Crackling Bolts",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Crackling Bolts",
+        "Values": {
+          "Rng": "12\"",
+          "Atk": "2D6",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_crit": "Crit"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_bb4c-5a6f-b320-a4d3",
+    "Name": "Large Tusks and Hooves",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Large Tusks and Hooves",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "-",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_922a-ff97-09f0-1065",
+    "Name": "Despoiler Axe",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Axe",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_ccb6-2643-88c1-9357": "Crit (2 Hits)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5d56-1ee7-3998-4f26",
+    "Name": "Desecrated Boulder",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Desecrated Boulder",
+        "Values": {
+          "Rng": "15\"",
+          "Atk": "1",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "D3+3"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_3c45-a88d-cc68-2e60",
+    "Name": "Massive Horns",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Massive Horns",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_4fa0-2c4d-d4ed-0106",
+    "Name": "Stabbing Beak and Talons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stabbing Beak and Talons",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_460b-e444-6f3b-9663",
+    "Name": "Slythey Tongue",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Slythey Tongue",
+        "Values": {
+          "Rng": "8\"",
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_4ea2-4427-21ff-acf6",
+    "Name": "Vorpal Claws and Tail",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Vorpal Claws and Tail",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_acee-7296-4c68-645c",
+    "Name": "Murderous Beaks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Murderous Beaks",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "5+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_2017-7397-d867-8831",
+    "Name": "Taurine Horns",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Taurine Horns",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_d5aa-845f-afd9-f4be",
+    "Name": "Despoiler Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_324f-fb78-1ae3-9016",
+    "Name": "Despoiler Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9935-60a9-9834-1cbd",
+    "Name": "Despoiler Shortbow",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Shortbow",
+        "Values": {
+          "Rng": "15\"",
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_3060-7573-9dcb-a3f0",
+    "Name": "Despoiler Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_0a47-0bab-8989-c95a",
+    "Name": "Despoiler Shortbow",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Shortbow",
+        "Values": {
+          "Rng": "15\"",
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5afe-60d7-5259-bb7d",
+    "Name": "Despoiler Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c2fc-100f-b328-c990",
+    "Name": "Despoiler Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9baf-2645-8da5-45a0",
+    "Name": "Despoiler Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Despoiler Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  }
+]

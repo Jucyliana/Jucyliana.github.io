@@ -1,0 +1,863 @@
+[
+  {
+    "Id": "equipment_4f3f-8f01-ac9c-d6a2",
+    "Name": "Green Puke",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Green Puke",
+        "Values": {
+          "Rng": "10\"",
+          "Atk": "4",
+          "Hit": "2+",
+          "Wnd": "4+",
+          "Rnd": "-",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_217-a68-7955-6a2",
+    "Name": "Waaagh! Staff",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Waaagh! Staff",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_4387-4f43-cb83-3dde",
+    "Name": "Choppas",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppas",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_3aa0-5407-111a-ca0c",
+    "Name": "Maw-grunta’s Tusks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-grunta’s Tusks",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_fb86-d67-a1b2-33c3",
+    "Name": "Maw-grunta’s Trotters",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-grunta’s Trotters",
+        "Values": {
+          "Atk": "4",
+          "Hit": "5+",
+          "Wnd": "2+",
+          "Rnd": "-",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_766d-84fa-2882-b32c",
+    "Name": "Boss-choppa or Boss-hacka",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Boss-choppa or Boss-hacka",
+        "Values": {
+          "Atk": "8",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^infantry^^**": "Anti-**^^Infantry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9116-3d-7cb3-afcf",
+    "Name": "Maw-krusha’s Fists and Tail",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-krusha’s Fists and Tail",
+        "Values": {
+          "Atk": "8",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_anti-**^^infantry^^**": "Anti-**^^Infantry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_9347-2ae3-5d6-22a7",
+    "Name": "Maw-krusha’s Roar",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-krusha’s Roar",
+        "Values": {
+          "Rng": "8\"",
+          "Atk": "6",
+          "Hit": "2+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_8200-bc1f-235c-d69e",
+    "Name": "Boss-choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Boss-choppa",
+        "Values": {
+          "Atk": "8",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_48b5-d012-bc1a-a5e9",
+    "Name": "Gorkstikk and Morkstikk",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Gorkstikk and Morkstikk",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_8299-a280-b849-39c6",
+    "Name": "Choppa or Hacka",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa or Hacka",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-**^^cavalry^^**(+1": "Anti-**^^Cavalry^^**(+1"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c402-9834-5a1d-25c3",
+    "Name": "Grunta’s Tusks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Grunta’s Tusks",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5553-a984-8f38-979f",
+    "Name": "Rager Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Rager Weapons",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^monster^^**": "Anti-**^^Monster^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_58ed-25ad-af05-8603",
+    "Name": "Choppa or Stikka",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa or Stikka",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-charge": "Anti-charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_77b9-1264-7344-c3",
+    "Name": "Boss-hacka and Choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Boss-hacka and Choppa",
+        "Values": {
+          "Atk": "7",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7a83-64e6-f12a-1fa5",
+    "Name": "Skull-crushing Basha",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Skull-crushing Basha",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_630f-c582-b845-f9",
+    "Name": "Brute Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Brute Weapons",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^infantry^^**": "Anti-**^^Infantry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5b38-2970-e289-5dfa",
+    "Name": "Gore-choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Gore-choppa",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "2",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_bfa3-8ef5-ac0b-d8f0",
+    "Name": "Smasha and Kunnin’",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Smasha and Kunnin’",
+        "Values": {
+          "Atk": "8",
+          "Hit": "3+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^hero^^**": "Anti-**^^Hero^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_c941-a2a7-3bfb-d37a",
+    "Name": "Bigteef’s Fists and Tail",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Bigteef’s Fists and Tail",
+        "Values": {
+          "Atk": "8",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_anti-**^^monster^^**": "Anti-**^^Monster^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_f72c-a9e6-28cc-6bd5",
+    "Name": "Bigteef’s Roar",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Bigteef’s Roar",
+        "Values": {
+          "Rng": "8\"",
+          "Atk": "6",
+          "Hit": "2+",
+          "Wnd": "3+",
+          "Rnd": "-",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_shoot": "Shoot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_fe33-e3c9-43c-8dac",
+    "Name": "Chain-smasha",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Chain-smasha",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-**^^infantry^^**": "Anti-**^^Infantry^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7f7b-ab3c-4653-a3cf",
+    "Name": "Pig-hacka",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Pig-hacka",
+        "Values": {
+          "Atk": "7",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_d9bd-6499-20c3-d732",
+    "Name": "Maw-grunta’s Tusks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-grunta’s Tusks",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7ee3-bbad-eba8-f196",
+    "Name": "Maw-grunta’s Trotters",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-grunta’s Trotters",
+        "Values": {
+          "Atk": "4",
+          "Hit": "5+",
+          "Wnd": "2+",
+          "Rnd": "-",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_5b32-e66a-2632-6934",
+    "Name": "Kill-choppas",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Kill-choppas",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_153a-ad7-cb81-5df6",
+    "Name": "Choppas",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppas",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_74f1-13ef-5c00-2c5b",
+    "Name": "Maw-grunta’s Tusks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-grunta’s Tusks",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_ccfe-d6e6-cf7d-62eb",
+    "Name": "Maw-grunta’s Trotters",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-grunta’s Trotters",
+        "Values": {
+          "Atk": "4",
+          "Hit": "5+",
+          "Wnd": "2+",
+          "Rnd": "-",
+          "Dmg": "D3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_a284-3702-20a3-cef2",
+    "Name": "Kill-choppas",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Kill-choppas",
+        "Values": {
+          "Atk": "4",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_-": "-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_b660-efc8-2b36-7adc",
+    "Name": "Krusha Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Krusha Weapons",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^monster^^**": "Anti-**^^Monster^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_d369-df90-71bb-fd76",
+    "Name": "Krusha Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Krusha Weapons",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^monster^^**": "Anti-**^^Monster^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_d721-26e0-1de7-5f07",
+    "Name": "Krusha Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Krusha Weapons",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_anti-**^^monster^^**": "Anti-**^^Monster^^**"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_6d91-f338-bdb2-7f94",
+    "Name": "Ardboy Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ardboy Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-charge": "Anti-charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_3d2f-1f8f-bd72-ce59",
+    "Name": "Ardboy Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ardboy Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-charge": "Anti-charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_2236-fc53-1fab-faec",
+    "Name": "Ardboy Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ardboy Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-charge": "Anti-charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_874b-f6d4-aa2b-49f5",
+    "Name": "Ardboy Weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ardboy Weapons",
+        "Values": {
+          "Atk": "2",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-charge": "Anti-charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7c96-d803-4113-7952",
+    "Name": "Choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa",
+        "Values": {
+          "Atk": "7",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_4505-70d0-2595-3b66",
+    "Name": "Maw-grunta’s Tusks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-grunta’s Tusks",
+        "Values": {
+          "Atk": "5",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "2",
+          "Dmg": "2"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_bbbd-5904-3c35-de98",
+    "Name": "Maw-krusha’s Fists and Tail",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Maw-krusha’s Fists and Tail",
+        "Values": {
+          "Atk": "8",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "3"
+        },
+        "RuleIds": {
+          "rule_6eda-6036-78c5-2076": "Companion"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_8fd9-77b3-77e0-6339",
+    "Name": "Choppa or Hacka",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa or Hacka",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_9ae2-afa0-f49-35dd": "Charge (+1 Damage)"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_b279-0b53-f58a-4587",
+    "Name": "Grunta’s Tusks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Grunta’s Tusks",
+        "Values": {
+          "Atk": "3",
+          "Hit": "4+",
+          "Wnd": "2+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_charge": "Charge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_7577-8e95-7e3e-b55c",
+    "Name": "Chain-smasha",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Chain-smasha",
+        "Values": {
+          "Atk": "6",
+          "Hit": "4+",
+          "Wnd": "3+",
+          "Rnd": "1",
+          "Dmg": "1"
+        },
+        "RuleIds": {
+          "rule_anti-**^^infantry^^**": "Anti-**^^Infantry^^**"
+        }
+      }
+    ]
+  }
+]
