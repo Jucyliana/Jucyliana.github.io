@@ -1,15 +1,22 @@
 [
   {
-    "Id": "0026-ed43-e091-4dd5",
+    "Id": "profile_0026-ed43-e091-4dd5",
     "Name": "Aleya",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
-      "9bf4-280f-bbe2-6fbb": "Feel No Pain",
-      "b4dd-3e1f-41cb-218f": "Leader",
+      "b95d-04e9-97fd-4125": "Daughter of the Abyss",
       "ada6-bac1-ffe0-d6f7": "Scouts",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "9bf4-280f-bbe2-6fbb": "Feel No Pain",
       "c081-8ea9-eb18-0bff": "Tactical Perception",
       "48d0-0d0f-c9b6-5b34": "Tenacious Spirit",
-      "b95d-04e9-97fd-4125": "Daughter of the Abyss"
+      "a7f1-e106-1e30-3452": "Leader"
     },
+    "EquipmentIds": [
+      "8420-f533-ec84-a3fd"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Aleya",
@@ -19,13 +26,11 @@
           "SV": "3+",
           "W": "4",
           "LD": "6+",
-          "OC": "1"
+          "OC": "1",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
-    ],
-    "EquipmentIds": [
-      "8420-f533-ec84-a3fd"
     ],
     "Base": {
       "Shape": "round",
@@ -33,61 +38,68 @@
         "width": "32",
         "length": "32"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "fe8b-58b8-b37c-39b6",
-    "Name": "Allarus Custodian",
+    "Id": "profile_fe8b-58b8-b37c-39b6",
+    "Name": "Allarus Custodians",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "7cb5-dd6b-dd87-ad3b": "Deep Strike",
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
       "d569-61db-406d-1d42": "Slayers of Tyrants",
-      "0a36-c494-baad-91db": "From Golden Light",
-      "fc8a-8c24-bae9-cc1c": "Assault"
+      "0a36-c494-baad-91db": "From Golden Light"
     },
+    "EquipmentIds": [
+      "37d5-f2f2-cfed-7ab1",
+      "ea05-b86a-223e-6ffe",
+      "1fde-760c-17e2-4fd1",
+      "76c0-ea97-5a33-2b52",
+      "6fed-22cf-99ad-96c2",
+      "4953-43a1-cef4-8673"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Allarus Custodian",
+        "Name": "Allarus Custodians",
         "Values": {
           "M": "5\"",
           "T": "7",
           "SV": "2+",
           "W": "4",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "37d5-f2f2-cfed-7ab1",
-      "ea05-b86a-223e-6ffe",
-      "1fde-760c-17e2-4fd1",
-      "76c0-ea97-5a33-2b52",
-      "ac43-e2b3-63cb-ecb2",
-      "6fed-22cf-99ad-96c2"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "ff64-897e-0812-ab0f",
+    "Id": "profile_ff64-897e-0812-ab0f",
     "Name": "Anathema Psykana Rhino",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "b95d-04e9-97fd-4125": "Daughter of the Abyss",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "13b2-6518-dab3-7ea1": "Firing Deck",
+      "0ad3-82b1-9962-2f29": "Self Repair"
+    },
+    "EquipmentIds": [
+      "c71b-867a-00bf-5f59",
+      "c12-5da-6abb-d681",
+      "f5c7-f1f5-d2e-b180"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Anathema Psykana Rhino",
@@ -102,23 +114,33 @@
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
-      "Shape": "round",
+      "Shape": "square",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "50",
+        "length": "100"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "11f7-2788-9bfd-177b",
+    "Id": "profile_11f7-2788-9bfd-177b",
     "Name": "Blade Champion",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "7cb5-dd6b-dd87-ad3b": "Deep Strike",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "1a70-8702-4179-b711": "Leader",
+      "be52-2414-896d-55fc": "Martial Inspiration",
+      "31ef-fcd4-c165-a95d": "Swift Onslaught"
+    },
+    "EquipmentIds": [
+      "7953-e1ea-8b27-b564",
+      "d09f-3496-dc55-e6b4",
+      "7ffc-b8d9-10a7-7e4e"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Blade Champion",
@@ -128,35 +150,39 @@
           "SV": "2+",
           "W": "6",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "ffb0-e197-3a20-7515",
+    "Id": "profile_ffb0-e197-3a20-7515",
     "Name": "Custodian Guard",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "7cb5-dd6b-dd87-ad3b": "Deep Strike",
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
       "07c7-730f-5219-ef8f": "Stand Vigil",
-      "9c46-e189-463c-266e": "Sentinel Storm",
-      "fc8a-8c24-bae9-cc1c": "Assault",
-      "8bf7-8812-923d-29e4": "Pistol"
+      "9c46-e189-463c-266e": "Sentinel Storm"
     },
+    "EquipmentIds": [
+      "3665-5bcf-a899-fad",
+      "99cf-4b14-147f-8229",
+      "52f5-f956-571d-51e2",
+      "888d-3f8f-2d0-297",
+      "f33d-a12e-44fc-42dc"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Custodian Guard",
@@ -166,131 +192,52 @@
           "SV": "2+",
           "W": "3",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "3665-5bcf-a899-fad",
-      "99cf-4b14-147f-8229",
-      "2184-10e8-fe1e-9731",
-      "52f5-f956-571d-51e2",
-      "888d-3f8f-2d0-297",
-      "ac43-e2b3-63cb-ecb2",
-      "f33d-a12e-44fc-42dc"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "f36e-c3a3-477c-21d4",
-    "Name": "Custodian Guard (Shield)",
-    "RuleIds": {},
-    "Statlines": [
-      {
-        "Name": "Custodian Guard (Shield)",
-        "Values": {
-          "M": "6\"",
-          "T": "6",
-          "SV": "2+",
-          "W": "3",
-          "LD": "6+",
-          "OC": "2"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "EquipmentIds": [],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
-    }
-  },
-  {
-    "Id": "25f8-74d6-cba6-9806",
-    "Name": "Custodian Guard (Vexilla)",
-    "RuleIds": {},
-    "Statlines": [
-      {
-        "Name": "Custodian Guard (Vexilla)",
-        "Values": {
-          "M": "6\"",
-          "T": "6",
-          "SV": "2+",
-          "W": "4",
-          "LD": "6+",
-          "OC": "3"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "EquipmentIds": [],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
-    }
-  },
-  {
-    "Id": "41a1-a4d8-a138-c3b7",
-    "Name": "Custodian Warden",
+    "Id": "profile_41a1-a4d8-a138-c3b7",
+    "Name": "Custodian Wardens",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "7cb5-dd6b-dd87-ad3b": "Deep Strike",
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
-      "9bf4-280f-bbe2-6fbb": "Feel No Pain",
       "8792-7fc7-692e-9a57": "Resolute Will",
-      "a696-cfc6-e27a-97ce": "Living Fortress",
-      "fc8a-8c24-bae9-cc1c": "Assault",
-      "957b-3814-759a-a6f9": "Vexilla"
+      "a696-cfc6-e27a-97ce": "Living Fortress"
     },
+    "EquipmentIds": [
+      "987-7629-8fda-88f8",
+      "277-79d8-5124-f932",
+      "644d-df58-5b9b-31c2",
+      "6f60-2244-c2fa-e57f"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Custodian Warden",
+        "Name": "Custodian Wardens",
         "Values": {
           "M": "6\"",
           "T": "6",
           "SV": "2+",
           "W": "3",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
-    ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "987-7629-8fda-88f8",
-      "277-79d8-5124-f932",
-      "644d-df58-5b9b-31c2",
-      "6f60-2244-c2fa-e57f",
-      "3850-bccf-c7b9-be2a",
-      "96c0-6c1d-79da-6fdc",
-      "aee0-7afd-b405-a8a3",
-      "f7e2-74e5-e3e0-1f7"
     ],
     "Base": {
       "Shape": "round",
@@ -298,16 +245,27 @@
         "width": "32",
         "length": "32"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "77f4-76e5-b2df-6483",
+    "Id": "profile_77f4-76e5-b2df-6483",
     "Name": "Knight-Centura",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "b95d-04e9-97fd-4125": "Daughter of the Abyss",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "ada6-bac1-ffe0-d6f7": "Scouts",
+      "dea5-7d20-9057-895b": "Seeker's Instincts",
+      "ffb8-5424-36a5-f9da": "Corner the Quarry"
+    },
+    "EquipmentIds": [
+      "6a76-ad7d-8c55-0d9e",
+      "8af8-0a21-893a-e1c0",
+      "23ec-462b-72e5-4993",
+      "d80a-a54d-1eaa-333d"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Knight-Centura",
@@ -317,65 +275,37 @@
           "SV": "3+",
           "W": "4",
           "LD": "6+",
-          "OC": "1"
+          "OC": "1",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
         "width": "32",
         "length": "32"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "5449-e7c1-406f-4898",
-    "Name": "Prosecutor Sister Superior",
-    "RuleIds": {},
-    "Statlines": [
-      {
-        "Name": "Prosecutor Sister Superior",
-        "Values": {
-          "M": "6\"",
-          "T": "3",
-          "SV": "3+",
-          "W": "1",
-          "LD": "6+",
-          "OC": "2"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "EquipmentIds": [],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
-    }
-  },
-  {
-    "Id": "74e7-c9ce-4f03-655e",
-    "Name": "Prosecutor",
+    "Id": "profile_74e7-c9ce-4f03-655e",
+    "Name": "Prosecutors",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
-      "34ce-359c-4fc1-da0b": "Purity of Execution",
-      "c5c8-8b58-b8b6-7786": "Rapid Fire"
+      "b95d-04e9-97fd-4125": "Daughter of the Abyss",
+      "34ce-359c-4fc1-da0b": "Purity of Execution"
     },
+    "EquipmentIds": [
+      "8e11-c8e0-8f2e-2fd6",
+      "e29-9c36-26ce-73a8"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Prosecutor",
+        "Name": "Prosecutors",
         "Values": {
           "M": "6\"",
           "T": "3",
@@ -387,29 +317,37 @@
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "b95d-04e9-97fd-4125",
-      "8e11-c8e0-8f2e-2fd6",
-      "e29-9c36-26ce-73a8",
-      "4bbd-8a2b-1ec0-2b8c",
-      "5cff-97db-f2a6-a5e8"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
         "width": "32",
         "length": "32"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "f8f3-0f06-13d0-6eaa",
+    "Id": "profile_f8f3-0f06-13d0-6eaa",
     "Name": "Shield-Captain",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "7cb5-dd6b-dd87-ad3b": "Deep Strike",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "5a38-d608-89c4-6377": "Strategic Mastery",
+      "e6a6-1d13-3027-3fce": "Master of the Stances"
+    },
+    "EquipmentIds": [
+      "1fde-760c-17e2-4fd1",
+      "76c0-ea97-5a33-2b52",
+      "37d5-f2f2-cfed-7ab1",
+      "ea05-b86a-223e-6ffe",
+      "490a-487d-7889-e4c9",
+      "adbb-f824-93e6-4c81",
+      "52f5-f956-571d-51e2",
+      "b59a-290f-02af-2e5a"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Shield-Captain",
@@ -419,28 +357,41 @@
           "SV": "2+",
           "W": "6",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "6024-501b-e93c-32a5",
+    "Id": "profile_6024-501b-e93c-32a5",
     "Name": "Shield-Captain in Allarus Terminator Armour",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "7cb5-dd6b-dd87-ad3b": "Deep Strike",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "5a38-d608-89c4-6377": "Strategic Mastery",
+      "4e62-8c6f-2631-373c": "Leader",
+      "ec4f-845a-63a9-62fb": "Auramite and Adamantite"
+    },
+    "EquipmentIds": [
+      "4953-43a1-cef4-8673",
+      "1fde-760c-17e2-4fd1",
+      "76c0-ea97-5a33-2b52",
+      "37d5-f2f2-cfed-7ab1",
+      "ea05-b86a-223e-6ffe"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Shield-Captain in Allarus Terminator Armour",
@@ -450,28 +401,37 @@
           "SV": "2+",
           "W": "7",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "3560-b824-f02e-1e3b",
+    "Id": "profile_3560-b824-f02e-1e3b",
     "Name": "Shield-Captain on Dawneagle Jetbike",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "5a38-d608-89c4-6377": "Strategic Mastery",
+      "df6a-c9a7-bfc1-5cf9": "Sweeping Advance"
+    },
+    "EquipmentIds": [
+      "7c7c-ee5d-5594-297a",
+      "aad1-aeb6-5e6a-e90f",
+      "b286-b80e-6daf-d1ae"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Shield-Captain on Dawneagle Jetbike",
@@ -481,28 +441,39 @@
           "SV": "2+",
           "W": "8",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "42",
+        "length": "75"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "d583-46c4-e043-e8e2",
+    "Id": "profile_d583-46c4-e043-e8e2",
     "Name": "Trajann Valoris",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "7cb5-dd6b-dd87-ad3b": "Deep Strike",
+      "8ba8-1664-4bc8-3a2d": "Feel No Pain",
+      "a26c-fa45-83a0-13b5": "Leader",
+      "7797-8174-31bb-6e9f": "Captain-General",
+      "0d01-a562-a398-9775": "Moment Shackle"
+    },
+    "EquipmentIds": [
+      "cbb7-e6-d938-22bc",
+      "f447-7ba3-899d-5f35"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Trajann Valoris",
@@ -512,28 +483,37 @@
           "SV": "2+",
           "W": "7",
           "LD": "5+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "797d-a069-0cee-05db",
+    "Id": "profile_797d-a069-0cee-05db",
     "Name": "Valerian",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "9bf4-280f-bbe2-6fbb": "Feel No Pain",
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "7591-8f8b-3b46-ede2": "Leader",
+      "2397-a41d-fe9e-ed6d": "Golden Laurels",
+      "f775-c5a7-e958-0496": "Hero of Lion's Gate"
+    },
+    "EquipmentIds": [
+      "db73-262f-db12-a93f",
+      "fc56-bc75-6406-6fd4"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Valerian",
@@ -543,28 +523,37 @@
           "SV": "2+",
           "W": "6",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "8d83-a6c4-a9ba-0582",
+    "Id": "profile_8d83-a6c4-a9ba-0582",
     "Name": "Venerable Contemptor Dreadnought",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "afc2-2959-a417-e071": "Unyielding Ancient"
+    },
+    "EquipmentIds": [
+      "e494-2f2b-84a5-87fb",
+      "d311-c2b6-b701-2ac7",
+      "8fb8-a45b-fd14-7331",
+      "d9d9-6020-eea6-e669"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Venerable Contemptor Dreadnought",
@@ -574,28 +563,39 @@
           "SV": "2+",
           "W": "10",
           "LD": "6+",
-          "OC": "3"
+          "OC": "3",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "60",
+        "length": "60"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "23e5-3935-505a-34b2",
+    "Id": "profile_23e5-3935-505a-34b2",
     "Name": "Venerable Land Raider",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "2157-a06e-818d-5b71": "Assault Ramp",
+      "7ab4-e69c-6d26-8827": "Damaged: 1-5 Wounds remaining"
+    },
+    "EquipmentIds": [
+      "c0a1-1afa-6cb1-bf9a",
+      "0d70-0d98-fcad-af87",
+      "3255-ebe7-2b06-4a6d",
+      "5509-fe51-3daf-599a",
+      "7671-dc88-3913-3884"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Venerable Land Raider",
@@ -610,30 +610,30 @@
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
-      "Shape": "round",
+      "Shape": "square",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "100",
+        "length": "150"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "12c0-1695-05c0-d219",
+    "Id": "profile_12c0-1695-05c0-d219",
     "Name": "Vertus Praetors",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
       "1203-8d21-0ebf-b3da": "Turbo Boost",
-      "9896-b356-2ad8-2fb9": "Quicksilver Execution",
-      "2ebc-abdf-8129-6c57": "Lance",
-      "cf93-ad4d-2f08-a79d": "Twin-linked",
-      "c5c8-8b58-b8b6-7786": "Rapid Fire"
+      "9896-b356-2ad8-2fb9": "Quicksilver Execution"
     },
+    "EquipmentIds": [
+      "eae3-f403-9981-75bb",
+      "6c0b-7636-6b86-c919",
+      "240c-c401-9cab-99eb"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Vertus Praetors",
@@ -643,107 +643,36 @@
           "SV": "2+",
           "W": "5",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "eae3-f403-9981-75bb",
-      "6c0b-7636-6b86-c919",
-      "e2f-fbab-14cc-dc6f",
-      "240c-c401-9cab-99eb"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "42",
+        "length": "75"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "dc96-ec46-8c2f-e124",
-    "Name": "Vigilator Sister Superior",
-    "RuleIds": {},
-    "Statlines": [
-      {
-        "Name": "Vigilator Sister Superior",
-        "Values": {
-          "M": "6\"",
-          "T": "3",
-          "SV": "3+",
-          "W": "1",
-          "LD": "6+",
-          "OC": "1"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "EquipmentIds": [],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
-    }
-  },
-  {
-    "Id": "3b43-d4f1-f7cd-5f90",
-    "Name": "Vigilator",
+    "Id": "profile_3b43-d4f1-f7cd-5f90",
+    "Name": "Vigilators",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
-      "ba73-e7d0-22ea-1c8f": "Deft Parry",
-      "be1e-ac8e-1e2c-3528": "Devastating Wounds",
-      "4111-82e3-9444-e942": "Anti-"
+      "b95d-04e9-97fd-4125": "Daughter of the Abyss",
+      "ba73-e7d0-22ea-1c8f": "Deft Parry"
     },
-    "Statlines": [
-      {
-        "Name": "Vigilator",
-        "Values": {
-          "M": "6\"",
-          "T": "3",
-          "SV": "3+",
-          "W": "1",
-          "LD": "6+",
-          "OC": "1"
-        },
-        "RuleIds": {}
-      }
-    ],
     "EquipmentIds": [
-      "b95d-04e9-97fd-4125",
-      "2a80-5200-1c10-fdc2",
-      "7699-106f-e6a0-c3d2"
+      "2a80-5200-1c10-fdc2"
     ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
-    }
-  },
-  {
-    "Id": "f997-71c0-570d-3a3e",
-    "Name": "Witchseeker Sister Superior",
-    "RuleIds": {},
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Witchseeker Sister Superior",
+        "Name": "Vigilators",
         "Values": {
           "M": "6\"",
           "T": "3",
@@ -755,31 +684,32 @@
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
         "width": "32",
         "length": "32"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "794c-b7c6-5668-fdc7",
-    "Name": "Witchseeker",
+    "Id": "profile_794c-b7c6-5668-fdc7",
+    "Name": "Witchseekers",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
+      "b95d-04e9-97fd-4125": "Daughter of the Abyss",
       "ada6-bac1-ffe0-d6f7": "Scouts",
-      "6449-d735-2ac6-02b1": "Sanctified Flames",
-      "4640-43e7-30b-215a": "Ignores Cover",
-      "5edf-d619-23e0-9b56": "Torrent"
+      "6449-d735-2ac6-02b1": "Sanctified Flames"
     },
+    "EquipmentIds": [
+      "7df7-bcff-b55-a989",
+      "9a82-220f-847b-5799"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Witchseeker",
+        "Name": "Witchseekers",
         "Values": {
           "M": "6\"",
           "T": "3",
@@ -791,209 +721,151 @@
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "b95d-04e9-97fd-4125",
-      "7df7-bcff-b55-a989",
-      "9a82-220f-847b-5799",
-      "704a-ab7f-5185-e15f",
-      "3efa-9b4b-74fe-8086"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
         "width": "32",
         "length": "32"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "c0f4-d186-8f49-37fc",
-    "Name": "Custodian Guard",
+    "Id": "profile_c0f4-d186-8f49-37fc",
+    "Name": "Custodian Guard with Adrasite and Pyrithite spears",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "7cb5-dd6b-dd87-ad3b": "Deep Strike",
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
-      "07c7-730f-5219-ef8f": "Stand Vigil",
-      "9c46-e189-463c-266e": "Sentinel Storm",
-      "fc8a-8c24-bae9-cc1c": "Assault",
-      "8bf7-8812-923d-29e4": "Pistol"
+      "9ab1-2eb7-a100-ab90": "Stand Vigil",
+      "8b43-d041-22ff-b0a5": "No Foe Shall Stand"
     },
+    "EquipmentIds": [
+      "31a-c1d6-c1b8-4a4f",
+      "61c-b0f6-3f1d-fa1"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Custodian Guard",
+        "Name": "Custodian Guard with Adrasite and Pyrithite spears",
         "Values": {
           "M": "6\"",
           "T": "6",
           "SV": "2+",
           "W": "3",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "3665-5bcf-a899-fad",
-      "99cf-4b14-147f-8229",
-      "2184-10e8-fe1e-9731",
-      "52f5-f956-571d-51e2",
-      "888d-3f8f-2d0-297",
-      "ac43-e2b3-63cb-ecb2",
-      "f33d-a12e-44fc-42dc"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "51d6-e37b-78da-a8bb",
-    "Name": "Custodian Guard",
-    "RuleIds": {
-      "7cb5-dd6b-dd87-ad3b": "Deep Strike",
-      "e348-7090-3aff-ee2c": "Martial Ka'tah",
-      "07c7-730f-5219-ef8f": "Stand Vigil",
-      "9c46-e189-463c-266e": "Sentinel Storm",
-      "fc8a-8c24-bae9-cc1c": "Assault",
-      "8bf7-8812-923d-29e4": "Pistol"
-    },
-    "Statlines": [
-      {
-        "Name": "Custodian Guard",
-        "Values": {
-          "M": "6\"",
-          "T": "6",
-          "SV": "2+",
-          "W": "3",
-          "LD": "6+",
-          "OC": "2"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "3665-5bcf-a899-fad",
-      "99cf-4b14-147f-8229",
-      "2184-10e8-fe1e-9731",
-      "52f5-f956-571d-51e2",
-      "888d-3f8f-2d0-297",
-      "ac43-e2b3-63cb-ecb2",
-      "f33d-a12e-44fc-42dc"
-    ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
-    }
-  },
-  {
-    "Id": "f049-e8bc-922e-d54a",
-    "Name": "Sagittarum Custodian",
+    "Id": "profile_f049-e8bc-922e-d54a",
+    "Name": "Sagittarum Custodians",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "7cb5-dd6b-dd87-ad3b": "Deep Strike",
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
       "85d7-f209-acae-3353": "Disintegration Beams",
-      "9ce3-c1f0-ec93-d409": "Saturation Volleys",
-      "1897-c22c-9597-12b1": "Sustained Hits"
+      "9ce3-c1f0-ec93-d409": "Saturation Volleys"
     },
+    "EquipmentIds": [
+      "22dd-9ce7-88bd-e4df",
+      "2fa4-46be-36e0-9ee"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Sagittarum Custodian",
+        "Name": "Sagittarum Custodians",
         "Values": {
           "M": "6\"",
           "T": "6",
           "SV": "2+",
           "W": "3",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "22dd-9ce7-88bd-e4df",
-      "2fa4-46be-36e0-9ee"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "300d-e6da-b073-49ce",
-    "Name": "Aquilon Custodian",
+    "Id": "profile_300d-e6da-b073-49ce",
+    "Name": "Aquilon Custodians",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "7cb5-dd6b-dd87-ad3b": "Deep Strike",
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
       "1d2c-eda9-a400-f075": "Heavy Assault Infantry",
       "cf57-6e91-6435-b3fd": "From Golden Light"
     },
+    "EquipmentIds": [
+      "7f4-742a-3d7-18b5",
+      "9cbb-2c6f-2ed8-b636",
+      "fe21-2a6c-6bfa-4c2d",
+      "3b8-714a-5645-c3ef",
+      "ed23-bf4a-d3d4-d9c5"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Aquilon Custodian",
+        "Name": "Aquilon Custodians",
         "Values": {
           "M": "5\"",
           "T": "7",
           "SV": "2+",
           "W": "4",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "50",
+        "length": "50"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "4709-be42-0b1d-0b33",
+    "Id": "profile_4709-be42-0b1d-0b33",
     "Name": "Agamatus Custodians",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
       "8733-1b5b-a5b8-deaf": "Implacable Vanguard",
-      "4d74-67a5-1b1f-16ce": "Turbo Boost",
-      "1897-c22c-9597-12b1": "Sustained Hits",
-      "2ebc-abdf-8129-6c57": "Lance",
-      "cf93-ad4d-2f08-a79d": "Twin-linked"
+      "4d74-67a5-1b1f-16ce": "Turbo Boost"
     },
+    "EquipmentIds": [
+      "4b26-1b15-1f29-f773",
+      "c6ae-e1e0-64ff-d3c6",
+      "e244-2bf2-74f7-9a95",
+      "f01a-6c57-26f5-5853"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Agamatus Custodians",
@@ -1003,19 +875,11 @@
           "SV": "2+",
           "W": "4",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
-    ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "4b26-1b15-1f29-f773",
-      "c6ae-e1e0-64ff-d3c6",
-      "e244-2bf2-74f7-9a95",
-      "62de-cbbb-d72b-8b47",
-      "f01a-6c57-26f5-5853",
-      "e347-49e7-ff25-a6c8"
     ],
     "Base": {
       "Shape": "round",
@@ -1023,94 +887,64 @@
         "width": "32",
         "length": "32"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "ee43-82be-4542-fcab",
-    "Name": "Venatari Custodian",
+    "Id": "profile_ee43-82be-4542-fcab",
+    "Name": "Venatari Custodians",
+    "Attributes": {},
+    "AttributeLists": {},
     "RuleIds": {
       "e348-7090-3aff-ee2c": "Martial Ka'tah",
       "7cb5-dd6b-dd87-ad3b": "Deep Strike",
       "fd11-6ea5-03cc-0fa7": "Strike from the Skies",
-      "95ed-fba0-2edf-540c": "Swooping Dive",
-      "fc8a-8c24-bae9-cc1c": "Assault",
-      "2ebc-abdf-8129-6c57": "Lance",
-      "8bf7-8812-923d-29e4": "Pistol",
-      "1897-c22c-9597-12b1": "Sustained Hits",
-      "cfa9-7475-9b27-f8f7": "Tarsis Buckler"
+      "95ed-fba0-2edf-540c": "Swooping Dive"
     },
+    "EquipmentIds": [
+      "d355-c766-b5ab-acbc",
+      "7a0d-fb2b-1f72-2e8c",
+      "8996-af7a-da88-622",
+      "6c54-f454-4353-4ac2"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Venatari Custodian",
+        "Name": "Venatari Custodians",
         "Values": {
           "M": "10\"",
           "T": "6",
           "SV": "2+",
           "W": "3",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [
-      "0300-84b9-69cf-b64f",
-      "d355-c766-b5ab-acbc",
-      "7a0d-fb2b-1f72-2e8c",
-      "8996-af7a-da88-622",
-      "6c54-f454-4353-4ac2"
-    ],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "40",
+        "length": "40"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "af53-0829-aa6c-cdbf",
-    "Name": "Venatari Custodian (Tarsis Buckler)",
-    "RuleIds": {},
-    "Statlines": [
-      {
-        "Name": "Venatari Custodian (Tarsis Buckler)",
-        "Values": {
-          "M": "10\"",
-          "T": "6",
-          "SV": "2+",
-          "W": "4",
-          "LD": "6+",
-          "OC": "2"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "EquipmentIds": [],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
-    }
-  },
-  {
-    "Id": "12f1-b6ca-867b-5c7c",
+    "Id": "profile_12f1-b6ca-867b-5c7c",
     "Name": "Contemptor-Galatus Dreadnought",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "50d4-136a-4e2a-d234": "Galatus Shield"
+    },
+    "EquipmentIds": [
+      "3e86-fd-1659-cef5",
+      "754b-9a4a-6b86-73f8"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Contemptor-Galatus Dreadnought",
@@ -1120,28 +954,38 @@
           "SV": "2+",
           "W": "10",
           "LD": "6+",
-          "OC": "3"
+          "OC": "3",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "60",
+        "length": "60"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "1e1f-9a94-957f-9165",
+    "Id": "profile_1e1f-9a94-957f-9165",
     "Name": "Contemptor-Achillus Dreadnought",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "b63c-74b0-7099-b509": "Dread Foe"
+    },
+    "EquipmentIds": [
+      "3fdd-84bf-e173-68a2",
+      "82f9-a397-1709-6800",
+      "c393-f1c0-a33b-5bc9",
+      "4b26-1b15-1f29-f773",
+      "fe21-2a6c-6bfa-4c2d"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Contemptor-Achillus Dreadnought",
@@ -1151,59 +995,75 @@
           "SV": "2+",
           "W": "10",
           "LD": "6+",
-          "OC": "3"
+          "OC": "3",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "60",
+        "length": "60"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "102e-5ed1-6d31-0d93",
-    "Name": "Palas Grav-attack",
-    "RuleIds": {},
+    "Id": "profile_102e-5ed1-6d31-0d93",
+    "Name": "Pallas Grav-attack",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "7636-6089-5b7c-d80a": "Merciless Hunter"
+    },
+    "EquipmentIds": [
+      "e73d-b1e-efb5-129e",
+      "18e4-2b3a-646e-9eb5"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Palas Grav-attack",
+        "Name": "Pallas Grav-attack",
         "Values": {
           "M": "12\"",
           "T": "8",
           "SV": "2+",
           "W": "9",
           "LD": "6+",
-          "OC": "2"
+          "OC": "2",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "70",
+        "length": "105"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "f676-72df-2ed7-8834",
+    "Id": "profile_f676-72df-2ed7-8834",
     "Name": "Caladius Grav-tank",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "60a4-507e-da36-683c": "Advanced Firepower",
+      "6070-91c7-6463-31cd": "Damaged: 1-5 wounds remaining"
+    },
+    "EquipmentIds": [
+      "9992-31de-4b34-25f9",
+      "14e3-fad3-7a64-7dc8",
+      "6b79-41bc-9ce3-ba57",
+      "203c-c496-58fc-29b8"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Caladius Grav-tank",
@@ -1213,28 +1073,41 @@
           "SV": "2+",
           "W": "14",
           "LD": "6+",
-          "OC": "4"
+          "OC": "4",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "109",
+        "length": "170"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "013b-ab38-f992-ff77",
+    "Id": "profile_013b-ab38-f992-ff77",
     "Name": "Telemon Heavy Dreadnought",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "47d3-771a-7668-fd15": "Guardian Eternal",
+      "c0e2-de2c-19fb-6a94": "Damaged: 1-4 wounds remaining",
+      "bad7-0704-956b-29e3": "Devoted to Destruction"
+    },
+    "EquipmentIds": [
+      "cac3-5b7e-537f-9f67",
+      "434b-e859-6049-eb07",
+      "0373-eed1-b39f-953a",
+      "bda2-9034-7807-d694",
+      "7489-b958-21a3-a105",
+      "eec2-26cf-677e-3596"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Telemon Heavy Dreadnought",
@@ -1244,28 +1117,37 @@
           "SV": "2+",
           "W": "12",
           "LD": "6+",
-          "OC": "4"
+          "OC": "4",
+          "IS": "4+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "100",
+        "length": "100"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "588c-2aa2-db7f-17be",
+    "Id": "profile_588c-2aa2-db7f-17be",
     "Name": "Coronus Grav-carrier",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "a331-3792-d689-fd1b": "Fire Support",
+      "d4ab-7165-234f-e7fc": "Damaged: 1-5 wounds remaining"
+    },
+    "EquipmentIds": [
+      "1918-d92f-b37e-777",
+      "6db3-73cb-3446-3d25",
+      "b0b7-3cde-8795-d8cd"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Coronus Grav-carrier",
@@ -1275,28 +1157,39 @@
           "SV": "2+",
           "W": "16",
           "LD": "6+",
-          "OC": "5"
+          "OC": "5",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
-      "Shape": "round",
+      "Shape": "square",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "100",
+        "length": "150"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "c753-bc07-06bb-6254",
+    "Id": "profile_c753-bc07-06bb-6254",
     "Name": "Orion Assault Dropship",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "eec5-5f54-9c03-c305": "Hover",
+      "95ab-e37b-58cb-a0a2": "Damaged: 1-7 wounds remaining",
+      "44e8-6759-a126-ec2a": "Assault Dropship"
+    },
+    "EquipmentIds": [
+      "4ddd-77d7-d216-7e90",
+      "8d2a-5580-c79-660c",
+      "b952-810d-d61d-70a4",
+      "7b42-5490-36cd-5e9"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Orion Assault Dropship",
@@ -1306,28 +1199,38 @@
           "SV": "2+",
           "W": "22",
           "LD": "6+",
-          "OC": "0"
+          "OC": "0",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "160",
+        "length": "160"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   },
   {
-    "Id": "e3eb-3331-b91f-eeb5",
+    "Id": "profile_e3eb-3331-b91f-eeb5",
     "Name": "Ares Gunship",
-    "RuleIds": {},
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "e348-7090-3aff-ee2c": "Martial Ka'tah",
+      "eec5-5f54-9c03-c305": "Hover",
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "24b5-43b5-1537-2bd2": "Infernus Firebomb",
+      "2eb0-f0e2-258d-8fbb": "Damaged: 1-7 wounds remaining"
+    },
+    "EquipmentIds": [
+      "6675-c6be-ccdb-d8dc",
+      "2293-3396-fb34-7699",
+      "a94e-7676-65b3-b21e"
+    ],
+    "OptionListIds": [],
     "Statlines": [
       {
         "Name": "Ares Gunship",
@@ -1337,22 +1240,18 @@
           "SV": "2+",
           "W": "22",
           "LD": "6",
-          "OC": "0"
+          "OC": "0",
+          "IS": "5+"
         },
         "RuleIds": {}
       }
     ],
-    "EquipmentIds": [],
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "32",
-        "length": "32"
+        "width": "160",
+        "length": "160"
       }
-    },
-    "Attributes": {
-      "type": "",
-      "height": ""
     }
   }
 ]
