@@ -1,0 +1,4227 @@
+[
+  {
+    "Id": "4991-c399-ec31-e536",
+    "Name": "Killkannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Killkannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6+1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c59c-65c9-8d4c-3a4a",
+    "Name": "Zzap gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Zzap gun",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "D6+6",
+          "AP": "-3",
+          "D": "5"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9ebd-2f86-3c4d-f07",
+    "Name": "➤ Kannon - shell",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Kannon - shell",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8d30-7148-666a-f1d0",
+    "Name": "➤ Kannon - frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Kannon - frag",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c730-a2cd-6bdf-4523",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a09d-69a6-675b-880d",
+    "Name": "Thump gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Thump gun",
+        "Values": {
+          "Range": "18\"",
+          "A": "D3",
+          "BS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "b85b-7e80-68f2-6c2d",
+    "Name": "Power snappa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power snappa",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8a84-7c52-bf36-8bf9",
+    "Name": "Slugga",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Slugga",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c085-b44d-3a56-e4cd",
+    "Name": "Beast Snagga klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Beast Snagga klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f54f-1af7-37f7-b06",
+    "Name": "Shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Shoota",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f5dc-e5f7-8f42-2b83",
+    "Name": "Squigosaur’s jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Squigosaur’s jaws",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fdd4-6e9f-2fb2-9e67",
+    "Name": "Beastchoppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Beastchoppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2031-57b9-ff7d-5ce2",
+    "Name": "Thump gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Thump gun",
+        "Values": {
+          "Range": "18\"",
+          "A": "D3",
+          "BS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4ae-ac01-6971-66cc",
+    "Name": "Tellyport blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Tellyport blasta",
+        "Values": {
+          "Range": "12\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-1",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1508-23e-fa3b-d006",
+    "Name": "Kustom mega-blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom mega-blasta",
+        "Values": {
+          "Range": "24\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a564-4e0-9914-a50f",
+    "Name": "Kustom shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom shoota",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8d9d-c892-a68-dc8a",
+    "Name": "➤ Gaze of Gork - glare",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Gaze of Gork - glare",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "25af-6fc0-b735-cf84",
+    "Name": "➤ Gaze of Gork - squint",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Gaze of Gork - squint",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-4",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7984-498c-477b-98ae",
+    "Name": "Big shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Big shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "169f-aa32-d982-1f5a",
+    "Name": "Twin supa-shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin supa-shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "cdb6-923b-c88f-838b",
+    "Name": "Mek speshul",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Mek speshul",
+        "Values": {
+          "Range": "24\"",
+          "A": "12",
+          "BS": "5+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c1fd-a27d-7de7-e6f1",
+    "Name": "Grot blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Grot blasta",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2f51-1f50-c3df-dff4",
+    "Name": "Mork’s Teeth",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Mork’s Teeth",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fc03-187d-5fa8-3e05",
+    "Name": "Slugga",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Slugga",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7bbf-f212-287a-18b",
+    "Name": "Da Vulcha’s Klaws and choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Da Vulcha’s Klaws and choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "cb08-174d-d24a-5c3f",
+    "Name": "Big choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Big choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2a0c-d470-c159-9b2b",
+    "Name": "Power klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "1451-6820-fd91-1dec",
+    "Name": "Kombi-weapon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kombi-weapon",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2adc-cde3-b9d4-3aaf",
+    "Name": "Rokkit launcha",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rokkit launcha",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1596-443a-d7a1-e7a9",
+    "Name": "Burna",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Burna",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6af3-2d3f-58d5-391e",
+    "Name": "Skorcha missile rack",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Skorcha missile rack",
+        "Values": {
+          "Range": "36\"",
+          "A": "2D6",
+          "BS": "5+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4640-43e7-30b-215a": "IGNORES COVER"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5019-da4d-308b-e3a3",
+    "Name": "Dread klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Dread klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2f80-93a6-3326-8742",
+    "Name": "Stompy feet",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stompy feet",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2836-aa14-8c6b-da7e",
+    "Name": "Skorcha",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Skorcha",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "498-2940-5968-7b17",
+    "Name": "Deffkilla boomstikks",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Deffkilla boomstikks",
+        "Values": {
+          "Range": "12\"",
+          "A": "6",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "60b4-7c9c-fa64-3cb8",
+    "Name": "➤ Killa jet - burna",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Killa jet - burna",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1329-fad-730e-fb84",
+    "Name": "➤ Killa jet - cutta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Killa jet - cutta",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8822-3924-be6e-4c13",
+    "Name": "Snagga klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Snagga klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2b34-6be2-6c96-75de",
+    "Name": "Mork’s Roar",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Mork’s Roar",
+        "Values": {
+          "Range": "36\"",
+          "A": "12",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e688-c82d-9852-48ab",
+    "Name": "➤ Gork’s Klaw - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Gork’s Klaw - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e5bd-a8f9-bca0-16e9",
+    "Name": "➤ Gork’s Klaw - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Gork’s Klaw - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "12",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7758-d06f-5fe6-54ff",
+    "Name": "Makari’s stabba",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Makari’s stabba",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "43b-f043-1bd0-ed6d",
+    "Name": "Deffstorm mega-shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Deffstorm mega-shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "20",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5778-c177-88f4-fd53",
+    "Name": "➤ Klaw of Gork - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Klaw of Gork - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "18",
+          "AP": "-3",
+          "D": "6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6638-3fb0-df2-e4fd",
+    "Name": "➤ Klaw of Gork - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Klaw of Gork - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "15",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fb2-4868-ef88-81d7",
+    "Name": "’Eavy lobba",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "’Eavy lobba",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7c2c-2559-a161-ca15",
+    "Name": "Stikka kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Stikka kannon",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9e74-5791-d5f0-3017",
+    "Name": "Butcha boyz",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Butcha boyz",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4d78-a592-931e-ed34",
+    "Name": "Savage horns and hooves",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Savage horns and hooves",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-1",
+          "D": "3"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS",
+          "2ebc-abdf-8129-6c57": "LANCE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c88e-6419-5a58-7fdd",
+    "Name": "Saw blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Saw blades",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fa89-f272-7d5a-955b",
+    "Name": "Choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e1c8-223b-816c-44a2",
+    "Name": "➤ Da Rippa - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Da Rippa - standard",
+        "Values": {
+          "Range": "24\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "53bb-bb4c-af27-9bff",
+    "Name": "➤ Da Rippa - supercharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Da Rippa - supercharge",
+        "Values": {
+          "Range": "24\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4f8c-aa5c-dc12-725d",
+    "Name": "Wurrtower",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Wurrtower",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "N/A",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fb65-5edf-1023-6c39",
+    "Name": "Kan shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kan shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "b5d1-4e50-edae-b2af",
+    "Name": "Kan klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Kan klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "50db-5f10-618-a7de",
+    "Name": "Breacha ram",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Breacha ram",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a73d-c96-6819-ac26",
+    "Name": "Burna exhausts",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Burna exhausts",
+        "Values": {
+          "Range": "6\"",
+          "A": "2D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "715-c271-34f1-9c36",
+    "Name": "Rivet kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rivet kannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "6",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "21ad-355c-4df-e251",
+    "Name": "Power klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8bcf-45e6-715a-e762",
+    "Name": "Twin killsaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin killsaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "79a1-8883-2650-9969",
+    "Name": "Killsaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Killsaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "730d-dd60-5873-c738",
+    "Name": "Nose drill",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Nose drill",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8387-22e-7ae-5b92",
+    "Name": "Rokkit cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rokkit cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6+1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "b156-2885-3ec-d645",
+    "Name": "Wing missiles",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Wing missiles",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9ffb-39f3-d46b-2f31",
+    "Name": "Wrench",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Wrench",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "152f-bcce-3-f8f7",
+    "Name": "Killsaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Killsaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "94ea-54ed-db05-e940",
+    "Name": "Smasha gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Smasha gun",
+        "Values": {
+          "Range": "48\"",
+          "A": "D3+1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "92c3-6f7a-8aba-d748",
+    "Name": "1-2 Bubblechukka - big bubble",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "1-2 Bubblechukka - big bubble",
+        "Values": {
+          "Range": "48\"",
+          "A": "2D6",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "94da-5d61-d679-eadb",
+    "Name": "3-4 Bubblechukka - wobbly bubble",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "3-4 Bubblechukka - wobbly bubble",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6ab4-8bed-a247-ac13",
+    "Name": "5-6 Bubblechukka - dense bubble",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "5-6 Bubblechukka - dense bubble",
+        "Values": {
+          "Range": "48\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2335-4f0d-c9d4-28bd",
+    "Name": "Kustom mega-kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom mega-kannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-1",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7ed2-a6f9-1b77-fb53",
+    "Name": "Traktor kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Traktor kannon",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a4a8-dc95-c6af-841c",
+    "Name": "Grot crew",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Grot crew",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2a8-5e21-cd76-3e00",
+    "Name": "➤ Klaw of Mork - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Klaw of Mork - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "18",
+          "AP": "-3",
+          "D": "6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b67e-7113-bc07-786e",
+    "Name": "➤ Klaw of Mork - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Klaw of Mork - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "12",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fb65-4600-380f-8800",
+    "Name": "Kustom mega-zappa",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom mega-zappa",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7b6b-3f19-3fb1-2bb",
+    "Name": "Big Chompa’s jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Big Chompa’s jaws",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "4"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3793-4b1d-ea52-bf53",
+    "Name": "Gutrippa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Gutrippa",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2636-4834-9bfc-6ca5",
+    "Name": "Waaagh! banner",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Waaagh! banner",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f02b-3f98-414c-38e5",
+    "Name": "Beast Snagga klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Beast Snagga klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4400-805c-8e50-1d8a",
+    "Name": "Sawn-off shotgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Sawn-off shotgun",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e54-f8c5-8a29-d8a6",
+    "Name": "Squig launchas",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Squig launchas",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+6",
+          "BS": "5+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4d22-4a54-7716-45cd",
+    "Name": "Saw blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Saw blades",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "aad-185b-a034-87b0",
+    "Name": "Kustom shokk rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom shokk rifle",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2cb2-c95e-8bc1-3190",
+    "Name": "Deffkannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Deffkannon",
+        "Values": {
+          "Range": "72\"",
+          "A": "3D6",
+          "BS": "5+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9367-42e8-99f0-7f9c",
+    "Name": "➤ Mega-choppa - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Mega-choppa - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "24",
+          "AP": "-5",
+          "D": "10"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "cd44-bcbf-2455-7bf",
+    "Name": "➤ Mega-choppa - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Mega-choppa - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "18",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "d2d3-94f8-f883-93e4",
+    "Name": "Supa-gatler",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Supa-gatler",
+        "Values": {
+          "Range": "24\"",
+          "A": "20",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "ea6a-8753-f411-f6db",
+    "Name": "Supa-rokkits",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Supa-rokkits",
+        "Values": {
+          "Range": "100\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2da7-5aec-a02c-1d29",
+    "Name": "Rokkit pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rokkit pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5bde-8a1f-83e6-6450",
+    "Name": "Twin slugga",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin slugga",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3094-cf7a-7a70-3807",
+    "Name": "Attack Squig",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Attack Squig",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "bbbf-8f37-b529-648b",
+    "Name": "’Uge choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "’Uge choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f828-d419-e65-9bcb",
+    "Name": "Big shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Big shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e0c3-c641-1834-7011",
+    "Name": "Smasha gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Smasha gun",
+        "Values": {
+          "Range": "48\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-3",
+          "D": "4"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "18ff-f18d-fdb4-99f",
+    "Name": "Twin wazbom mega-kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin wazbom mega-kannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "325c-f450-e74f-68c9",
+    "Name": "Twin tellyport mega-blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin tellyport mega-blasta",
+        "Values": {
+          "Range": "24\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-1",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e106-91cd-aee-8662",
+    "Name": "Twin supa-shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin supa-shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fe1c-1348-708f-3501",
+    "Name": "’Eadbanger",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "’Eadbanger",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-3",
+          "D": "1"
+        },
+        "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION",
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2fed-34ef-f6a9-91bf",
+    "Name": "Weirdboy staff",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Weirdboy staff",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "D3"
+        },
+        "RuleIds": {
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7bf0-b239-ae17-d62f",
+    "Name": "Eyez of Mork",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Eyez of Mork",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "154-52b5-4abb-7c48",
+    "Name": "Da Grabzappa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Da Grabzappa",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4861-d89d-74f0-29e7",
+    "Name": "Squigstoppa",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Squigstoppa",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9dcc-1e20-92e4-4d27",
+    "Name": "Ramshackle hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ramshackle hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "d420-7c93-9760-baf8",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "896-e64-1128-a32f",
+    "Name": "Mega-tank weapons",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Mega-tank weapons",
+        "Values": {
+          "Range": "18\"",
+          "A": "10",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c450-62ee-d859-1f9e",
+    "Name": "Twin big shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin big shoota",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a501-edfa-367b-3756",
+    "Name": "Twin grotzooka",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin grotzooka",
+        "Values": {
+          "Range": "18\"",
+          "A": "D3+3",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c8b2-4cf6-2d3a-7e9",
+    "Name": "Twin kustom mega-blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin kustom mega-blasta",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9736-e397-f565-86f2",
+    "Name": "Twin rokkit launcha",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin rokkit launcha",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "80d1-7d55-7939-f6e3",
+    "Name": "Twin skorcha",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin skorcha",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fc84-d51b-ce99-36dc",
+    "Name": "➤ Gorin’ horns - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Gorin’ horns - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "8",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a37e-4027-fead-66bc",
+    "Name": "➤ Gorin’ horns - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Gorin’ horns - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b99b-9792-55a5-cdc0",
+    "Name": "Supa-kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Supa-kannon",
+        "Values": {
+          "Range": "60\"",
+          "A": "2D6",
+          "BS": "5+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "22fa-5ab5-c07-2e6c",
+    "Name": "➤ Huge tusks - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Huge tusks - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-3",
+          "D": "12"
+        },
+        "RuleIds": {
+          "2ebc-abdf-8129-6c57": "LANCE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "260f-5f80-8aee-2b61",
+    "Name": "➤ Huge tusks - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Huge tusks - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "18",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "19b3-1b0c-2d8e-7180",
+    "Name": "Bursta kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Bursta kannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "3D6",
+          "BS": "5+",
+          "S": "14",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "cda0-d4a4-4ca6-ff68",
+    "Name": "Giga shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Giga shoota",
+        "Values": {
+          "Range": "48\"",
+          "A": "30",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "dac9-4f29-7424-e50",
+    "Name": "Reinforced ram",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Reinforced ram",
+        "Values": {
+          "Range": "Melee",
+          "A": "8",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "edd1-533-fb4c-7a5e",
+    "Name": "Boombits",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Boombits",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3900-ca6c-3b11-e10e",
+    "Name": "Killsaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Killsaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "cb51-33b0-8c1b-5a2b",
+    "Name": "Power stabba",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power stabba",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "2ebc-abdf-8129-6c57": "LANCE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1d05-c737-343b-09e9",
+    "Name": "Twin dakkagun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin dakkagun",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6c8-9749-9c83-5228",
+    "Name": "Spiked ram",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Spiked ram",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c0ea-401d-df62-6cd1",
+    "Name": "Kustom grot blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom grot blasta",
+        "Values": {
+          "Range": "12\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7246-12b7-f020-8424",
+    "Name": "Icon of da Revolushun",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Icon of da Revolushun",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6087-fccb-f0b5-d3e6",
+    "Name": "’Urty syringe",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "’Urty syringe",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS",
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "791d-6ad8-dc07-f99",
+    "Name": "➤ Kannon - frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Kannon - frag",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6",
+          "BS": "6+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d00a-dbd0-93ba-f6eb",
+    "Name": "➤ Kannon - shell",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Kannon - shell",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "6+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fe32-9795-75ba-1e8f",
+    "Name": "Lobba",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Lobba",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6",
+          "BS": "6+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "bdb3-7a52-dd62-3f72",
+    "Name": "Zzap gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Zzap gun",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "6+",
+          "S": "2D6",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a817-2d4b-5a1a-89b0",
+    "Name": "➤ Krusha kannon - tankhamma shell",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Krusha kannon - tankhamma shell",
+        "Values": {
+          "Range": "60\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "16",
+          "AP": "-3",
+          "D": "6"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "22f3-8ebb-50ee-6e42",
+    "Name": "➤ Krusha kannon - blast burna",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Krusha kannon - blast burna",
+        "Values": {
+          "Range": "48\"",
+          "A": "3D6",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "610b-ab7-8c94-b037",
+    "Name": "Tracks and wheels",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Tracks and wheels",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2990-d370-7498-3e58",
+    "Name": "Twin big shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin big shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5700-8d15-99d5-1ec1",
+    "Name": "Zzap gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Zzap gun",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "2D6",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "cc9f-3901-ef98-2b38",
+    "Name": "Deff rolla",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Deff rolla",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4bbe-d027-4cc3-45b",
+    "Name": "➤ Kannon - shell",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Kannon - shell",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "ad9-ed17-a724-9191",
+    "Name": "➤ Kannon - frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Kannon - frag",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ada2-d3dc-221b-d44e",
+    "Name": "Lobba",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Lobba",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7a69-ee8-36f1-41a0",
+    "Name": "Deffgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Deffgun",
+        "Values": {
+          "Range": "48\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e73b-b9da-ce92-6bd3",
+    "Name": "Rattler kannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rattler kannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "6",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5400-8efe-9c97-718a",
+    "Name": "Grot-guided bomm",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Grot-guided bomm",
+        "Values": {
+          "Range": "72\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "cd26-1611-860a-91e4": "ONE SHOT",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "486c-92de-6777-c96d",
+    "Name": "Wing missiles",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Wing missiles",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a908-7f9c-564d-770d",
+    "Name": "Lifta-droppa",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Lifta-droppa",
+        "Values": {
+          "Range": "36\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "762d-8cdc-960b-152e",
+    "Name": "Grabbin' klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Grabbin' klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7978-9eb5-37c7-45d8",
+    "Name": "Wreckin' ball",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Wreckin' ball",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "10",
+          "AP": "0",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ca67-313a-acd2-d67b",
+    "Name": "Grot-guided bomms",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Grot-guided bomms",
+        "Values": {
+          "Range": "72\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "cd26-1611-860a-91e4": "ONE SHOT",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ce63-1cbe-d476-f9f1",
+    "Name": "Slugga",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Slugga",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d51d-7f26-af01-89d8",
+    "Name": "Choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2a24-7d4d-f8d9-148",
+    "Name": "Twin dakkagun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin dakkagun",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "b0ec-44b2-b861-827c",
+    "Name": "Bludgeoning bag of gifts",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Bludgeoning bag of gifts",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fd60-6918-a2d1-6b24",
+    "Name": "Massive gift-filled gob",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Massive gift-filled gob",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "62ca-675d-247-4af4",
+    "Name": "Shokk rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Shokk rifle",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "cd76-83be-6cca-d434",
+    "Name": "Princess' jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Princess' jaws",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3085-6835-d714-1957",
+    "Name": "Snazzhammer",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Snazzhammer",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "f0e8-b9d1-d607-c621",
+    "Name": "Drilla",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Drilla",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "32d7-8b0-941-3db1",
+    "Name": "Traktor blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Traktor blasta",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c0b8-fc7a-3a1c-6bbd",
+    "Name": "Cuttin’ flames",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Cuttin’ flames",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8f5e-bdd6-fbb5-1851",
+    "Name": "Deffgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Deffgun",
+        "Values": {
+          "Range": "48\"",
+          "A": "2",
+          "BS": "6+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c145-d515-835b-a8b0",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "5+",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "680a-9e4f-1230-d9b0",
+    "Name": "Grot blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Grot blasta",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2063-555b-ab81-7195",
+    "Name": "Grot-smacka",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Grot-smacka",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "37cb-8dfb-65d7-b75a",
+    "Name": "Saddlegit weapons",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Saddlegit weapons",
+        "Values": {
+          "Range": "9\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c015-4047-ebad-da7b",
+    "Name": "Stikka (melee)",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stikka (melee)",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "2ebc-abdf-8129-6c57": "LANCE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7072-f8bf-0525-34e0",
+    "Name": "Stikka (ranged)",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Stikka (ranged)",
+        "Values": {
+          "Range": "9\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8cfb-2dce-ecc6-62fa",
+    "Name": "Squig jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Squig jaws",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "f0c3-a1b8-c117-e028",
+    "Name": "Squig jaws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Squig jaws",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ff8e-bf9c-a998-3610",
+    "Name": "Big choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Big choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5acc-33f5-c29f-c7ea",
+    "Name": "Tankhammer",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Tankhammer",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8e17-668d-26b1-501e",
+    "Name": "Knucklebustas",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Knucklebustas",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5a93-042d-e67c-3526",
+    "Name": "Rokkit pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rokkit pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "eb9e-51da-2dbb-a680",
+    "Name": "Smash hammer",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Smash hammer",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "ab03-2566-ebea-ae2d",
+    "Name": "Choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e80d-0c84-0d78-d635",
+    "Name": "Choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8c72-e163-8dfb-cb28",
+    "Name": "Big choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Big choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a43a-fbb3-2a23-b3c5",
+    "Name": "Big choppa",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Big choppa",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4948-c377-3e43-3d98",
+    "Name": "Power klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "37af-5bc8-9327-7d1e",
+    "Name": "Power klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2b2f-dd7c-cb35-1a32",
+    "Name": "Power klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "ef00-c81e-013c-7c65",
+    "Name": "Killsaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Killsaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b109-688a-9f1d-ea63",
+    "Name": "Dread killsaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Dread killsaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-3",
+          "D": "4"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "0e33-0061-c91c-1f22",
+    "Name": "Shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Shoota",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5b88-81ff-8637-cb8d",
+    "Name": "Grot tank shoota",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Grot tank shoota",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a3df-eb78-084d-f421",
+    "Name": "Kopta rokkits",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kopta rokkits",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e7c6-d3cb-2920-6f9e",
+    "Name": "Rokkit launcha",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rokkit launcha",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "cadf-79dc-9a0b-b226",
+    "Name": "Rack of rokkits",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rack of rokkits",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3+1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "f6dc-c7d9-4203-f5c0",
+    "Name": "➤ Supa-kannon - shell",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Supa-kannon - shell",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3+3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2596-f437-c78c-8b19",
+    "Name": "➤ Supa-kannon - frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Supa-kannon - frag",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ef40-bb1b-6f5b-998e",
+    "Name": "Killkannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Killkannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6+3",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5026-1c24-bdeb-68fa",
+    "Name": "Dread rippa klaw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Dread rippa klaw",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "57d4-85a7-87ad-b165",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c31a-1d87-e6bf-68cc",
+    "Name": "Tracks and wheels",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Tracks and wheels",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "1d15-ef94-1d45-0cb7",
+    "Name": "Close combat weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapons",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f8a4-5309-fb04-e2c4",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "304a-d503-a99c-748e",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "af4a-297f-199e-be46",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a9f7-c88b-4574-8379",
+    "Name": "Kustom mega-blasta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom mega-blasta",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e6dc-45f4-f247-45e1",
+    "Name": "Kustom mega-slugga",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kustom mega-slugga",
+        "Values": {
+          "Range": "12\"",
+          "A": "D3",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ef7e-2df3-e5ed-8eaf",
+    "Name": "Shokk attack gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Shokk attack gun",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "336d-a799-7cff-1fb3",
+    "Name": "Grotzooka",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Grotzooka",
+        "Values": {
+          "Range": "18\"",
+          "A": "D3+3",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4640-43e7-30b-215a": "IGNORES COVER"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "0f23-8fe8-fe2c-e34b",
+    "Name": "Stompy feet",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stompy feet",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "7",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "cdb2-bd61-e612-1699",
+    "Name": "Spinnin’ blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Spinnin’ blades",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "13a4-8058-58ff-706d",
+    "Name": "Snazzgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Snazzgun",
+        "Values": {
+          "Range": "24\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "636f-171d-acf3-9e62",
+    "Name": "Spiked wheels",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Spiked wheels",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b22d-d9a2-7a24-3a65",
+    "Name": "Spiked wheel",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Spiked wheel",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fa58-719d-ced7-8fc6",
+    "Name": "Spiked wheel",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Spiked wheel",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  }
+]
