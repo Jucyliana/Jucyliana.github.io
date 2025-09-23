@@ -1,5 +1,252 @@
 [
   {
+    "Id": "a tempting target/secondary missions",
+    "Name": "A Tempting Target",
+    "Description": "When Drawn: Your opponent must select one objective in No Man’s Land to be your Tempting Target objective marker.\n\nANY BATTLE ROUND\n\nWHEN: End of either player’s turn.\n5VP - You control your Tempting Target objective marker.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "area denial/secondary missions",
+    "Name": "Area Denial",
+    "Description": "ANY BATTLE ROUND\n\nWHEN: End of your turn.\n2VP - One or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 3\" of the centre of the battlefield.\n\nOR\n5VP - One or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 6\" of the centre of the battlefield.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "establish locus/secondary missions",
+    "Name": "Establish Locus",
+    "Description": "ESTABLISH LOCUS (ACTION)\nSTARTS: Your Shooting phase.\n\nUNITS: One unit from your army.\n\nCOMPLETES: End of your turn, if that unit is within your opponent’s deployment zone or within 6\" of the centre of the battlefield.\n\nIF COMPLETED: Your unit establishes a locus.\n\nANY BATTLE ROUND\n\nWHEN: End of your turn.\n2VP - Your unit established a locus this turn and is within 6\" of the centre of the battlefield.\n\nOR\n4VP - Your unit established a locus this turn and is within your opponent’s deployment zone.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "assassination/secondary missions",
+    "Name": "Assassination",
+    "Description": "ANY BATTLE ROUND\n\nWHEN: While this card is active (if you are using Fixed Missions).\n4VP (FIXED) - Each time an enemy CHARACTER model with a Wounds characteristic of 4 or higher is destroyed.\n3VP (FIXED) - Each time an enemy CHARACTER model with a Wounds characteristic of less than 4 is destroyed.\n\nANY BATTLE ROUND\n\nWHEN: End of either player’s turn (if you are using Tactical Missions).\n5VP (TACTICAL) - One or more enemy CHARACTER models were destroyed this turn.\n\nOR\n5VP (TACTICAL) - All enemy CHARACTER models have been destroyed during the battle.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "extended battle lines/secondary missions",
+    "Name": "Extended Battle Lines",
+    "Description": "ANY BATTLE ROUND\n\nWHEN: End of your turn.\n4VP - You control one or more objective markers within your deployment zone and one or more objective markers within No Man’s Land.\n\nOR\n2VP - You control one or more objective markers within No Man’s Land.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "marked for death/secondary missions",
+    "Name": "Marked for Death",
+    "Description": "When Drawn: Your opponent must select three units from their army on the battlefield. If there are only one or two units from their army on the battlefield, they must select those units. The selected units are your Alpha Target units. You can then select one unit from your opponent’s army on the battlefield to be your Gamma Target unit. If there are no units from their army on the battlefield, discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\n\nWHEN: End of either player’s turn.\n5VP - One or more of your Alpha Target units were destroyed (or removed from the battlefield for any other reason) this turn.\n\nOR\n2VP - None of your Alpha Target units were destroyed (or removed from the battlefield for any other reason) this turn, but your Gamma Target unit was destroyed (or removed from the battlefield for any other reason) this turn.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "behind enemy lines/secondary missions",
+    "Name": "Behind Enemy Lines",
+    "Description": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n\nANY BATTLE ROUND\n\nWHEN: End of your turn.\n3VP - One unit from your army (excluding AIRCRAFT and Battle-shocked units) is wholly within your opponent’s deployment zone.\n\nOR\n4VP - Two or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within your opponent’s deployment zone.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "no prisioners/secondary missions",
+    "Name": "No Prisioners",
+    "Description": "ANY BATTLE ROUND\n\nWHEN: While this card is active (if you are using Fixed Missions).\n2VP (FIXED) - Each time an enemy Bodyguard unit or enemy non-CHARACTER unit is destroyed. (UP TO 5VP)\n\nANY BATTLE ROUND\n\nWHEN: While this card is active (if you are using Tactical Missions).\n2VP (TACTICAL) - Each time an enemy unit is destroyed. (UP TO 5VP)",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "bring it down/secondary missions",
+    "Name": "Bring it Down",
+    "Description": "When Drawn: If there are no enemy MONSTER or VEHICLE units on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\n\nWHEN: While this card is active (if you are using Fixed Missions).\n2VP (FIXED) - Each time an enemy MONSTER or VEHICLE unit is destroyed.\n+2VP (FIXED, CUMULATIVE) - The total of the Wounds characteristics of the models in that destroyed unit was 15+ (at its Starting Strength).\n+2VP (FIXED, CUMULATIVE) - The total of the Wounds characteristics of the models in that destroyed unit was 20+ (at its Starting Strength).\n\nANY BATTLE ROUND\n\nWHEN: End of either player’s turn (if you are using Tactical Missions).\n4VP (TACTICAL) - One or more enemy MONSTER or VEHICLE units were destroyed this turn.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "overwhelming force/secondary missions",
+    "Name": "Overwhelming Force",
+    "Description": "ANY BATTLE ROUND\n\nWHEN: While this card is active.\n3VP - Each time an enemy unit that started the turn within range of an objective marker is destroyed. (UP TO 5VP)\n\nDesigner’s Note: Destroyed Leader and Bodyguard units count separately for the purposes of scoring this Secondary Mission, provided that Attached unit started the turn within range of an objective marker.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "recover assets/secondary missions",
+    "Name": "Recover Assets",
+    "Description": "When Drawn: If you are playing an Incursion mission, or if there are fewer than three units from your army on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nRECOVER ASSETS (ACTION)\nSTARTS: Your Shooting phase.\n\nUNITS: Two or more units from your army, if each of those units is wholly within a different one of the following areas: your deployment zone; No Man’s Land; your opponent’s deployment zone.\n\nCOMPLETES: End of your turn, if either two or three of those units are on the battlefield.\n\nIF COMPLETED: Those units recover assets.\n\nANY BATTLE ROUND\n\nWHEN: End of your turn or the end of the battle (whichever comes first).\n3VP - Two of your units recovered assets this turn.\n\nOR\n5VP - Three or more of your units recovered assets this turn.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "cleanse/secondary missions",
+    "Name": "Cleanse",
+    "Description": "CLEANSE (ACTION)\nSTARTS: Your Shooting phase.\n\nUNITS: One or more units from your army within range of an objective marker that is not within your deployment zone.\n\nCOMPLETES: End of your turn, if the unit performing this Action is still within range of the same objective marker and you control that objective marker.\n\nIF COMPLETED: That objective marker is cleansed by your army.\n\nANY BATTLE ROUND\n\nWHEN: End of your turn.\n2VP - One objective marker was cleansed by your army this turn.\n\nOR\n4VP (FIXED) - Two or more objective markers were cleansed by your army this turn.\n5VP (TACTICAL) - Two or more objective markers were cleansed by your army this turn.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "sabotage/secondary missions",
+    "Name": "Sabotage",
+    "Description": "SABOTAGE (ACTION)\nSTARTS: Your Shooting phase.\n\nUNITS: One unit from your army that is within a terrain feature and not within your deployment zone.\n\nCOMPLETES: End of your opponent’s next turn or the end of the battle (whichever comes first), if your unit is on the battlefield.\n\nIF COMPLETED: Your unit commits sabotage.\n\nANY BATTLE ROUND\n\nWHEN: End of your opponent’s turn or the end of the battle (whichever comes first).\n3VP - Your unit committed sabotage this turn and is not within your opponent’s deployment zone.\n\nOR\n6VP - Your unit committed sabotage this turn and is within your opponent’s deployment zone.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "cull the horde/secondary missions",
+    "Name": "Cull the Horde",
+    "Description": "When Drawn: If there are no enemy units on the battlefield that satisfy the condition below, you can discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\n\nWHEN: While this card is active (if you are using Fixed Missions).\n5VP (FIXED) - Each time an enemy INFANTRY unit with a Starting Strength of 13+ (including Attached units) is destroyed.\n\nANY BATTLE ROUND\n\nWHEN: End of either player’s turn (if you are using Tactical Missions).\n5VP (TACTICAL) - One or more enemy INFANTRY units with a Starting Strength of 13+ (including Attached units) were destroyed this turn.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "secure no man's land/secondary missions",
+    "Name": "Secure No Man's Land",
+    "Description": "ANY BATTLE ROUND\n\nWHEN: End of your turn.\n2VP - You control one objective marker in No Man’s Land.\n\nOR\n5VP - You control two or more objective markers in No Man’s Land.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "defend stronghold/secondary missions",
+    "Name": "Defend Stronghold",
+    "Description": "When Drawn: If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n\nSECOND BATTLE ROUND ONWARDS\n\nWHEN: End of your opponent’s turn or the end of the battle (whichever comes first).\n3VP - You control one or more objective markers in your deployment zone.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "storm hostile objective/secondary missions",
+    "Name": "Storm Hostile Objective",
+    "Description": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n\nANY BATTLE ROUND\n\nWHEN: End of your turn.\n4VP - You control one or more objective markers that were controlled by your opponent at the start of the turn.\n\nOR\nSECOND BATTLE ROUND ONWARDS\n\nWHEN: End of your turn.\n4VP - Your opponent did not control any objective markers at the start of the turn, and you control one or more objective markers that you did not control at the start of the turn.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "display of might/secondary missions",
+    "Name": "Display of Might",
+    "Description": "When Drawn: If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n\nANY BATTLE ROUND\n\nWHEN: End of your turn.\n4VP - There are more units from your army than from your opponent’s army wholly within No Man’s Land.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
+    "Id": "engage on all fronts/secondary missions",
+    "Name": "Engage on all Fronts",
+    "Description": "When Drawn: If one or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within a table quarter, and those units are more than 6\" away from the centre of the battlefield, you have a presence in that table quarter.\n\nANY BATTLE ROUND\n\nWHEN: End of your turn.\n1VP - You have a presence in two table quarters.\n\nOR\n2VP - You have a presence in three table quarters.\n\nOR\n4VP - You have a presence in four table quarters.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Secondary Missions",
+    "Attributes": {
+      "Color": "0.349, 0.027, 0.043, 1.0"
+    }
+  },
+  {
     "Id": "command re-roll/core",
     "Name": "Command re-roll",
     "Description": "WHEN: Any phase, just after you make an Advance roll, a Charge roll, a Desperate Escape test or a Hazardous test for a unit from your army, or a Hit roll, a Wound roll, a Damage roll or a saving throw for a model in that unit, or a roll to determine the number of attacks made with a weapon equipped by a model in that unit. If you are using fast dice rolling, this Stratagem can still be used after rolling multiple rolls or saving throws at once.\n\nTARGET: That unit or model from your army.\n\nEFFECT: You re-roll that roll, test or saving throw. If you are using fast dice rolling, select one of those rolls or saving throws to re-roll.",
@@ -760,7 +1007,7 @@
     }
   },
   {
-    "Id": "anathemma blademastery/adeptus custodes - null maiden vigil",
+    "Id": "anathema blademastery/adeptus custodes - null maiden vigil",
     "Name": "Anathema Blademastery",
     "Description": "WHEN: Fight phase.\n\nTARGET: One VIGILATORS unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the Hit roll. If the target of that attack is Battle-shocked or a PSYKER, you can re-roll the Wound roll as well.",
     "CastingValue": "1CP",
