@@ -296,7 +296,9 @@
           "AP": "-1",
           "D": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
+        }
       }
     ]
   },
@@ -1205,7 +1207,9 @@
           "AP": "-4",
           "D": "D6"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "7cdb-fb99-44a9-8849": "Melta"
+        }
       }
     ]
   },
@@ -2102,7 +2106,8 @@
           "D": "1"
         },
         "RuleIds": {
-          "d1d1-611e-5191-1095": "LETHAL HITS"
+          "d1d1-611e-5191-1095": "LETHAL HITS",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
         }
       }
     ]
@@ -2123,7 +2128,8 @@
           "D": "2"
         },
         "RuleIds": {
-          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED",
+          "1897-c22c-9597-12b1": "Sustained Hits"
         }
       }
     ]
@@ -2202,7 +2208,10 @@
           "AP": "0",
           "D": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-",
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -2240,7 +2249,9 @@
           "AP": "0",
           "D": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -2300,7 +2311,9 @@
           "AP": "-4",
           "D": "D6+1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -2320,7 +2333,8 @@
           "D": "1"
         },
         "RuleIds": {
-          "d1d1-611e-5191-1095": "LETHAL HITS"
+          "d1d1-611e-5191-1095": "LETHAL HITS",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
         }
       }
     ]
@@ -2902,6 +2916,76 @@
           "D": "1"
         },
         "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1760260564237",
+    "Name": "Antimatter Meteor",
+    "Type": "Ranged",
+    "Range": "24\"",
+    "Statlines": [
+      {
+        "Name": "Antimatter Meteor",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6+3",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "4ddd-4e29-acdd-5e6d": "Indirect Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1760260705592",
+    "Name": "Cosmic Fire",
+    "Type": "Ranged",
+    "Statlines": [
+      {
+        "Name": "Cosmic Fire",
+        "Values": {
+          "Range": "18\"",
+          "A": "3D6",
+          "WS": "N/A",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "Ignores Cover",
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "5edf-d619-23e0-9b56": "Torrent"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1760260773957",
+    "Name": "Time's Arrow",
+    "Type": "Ranged",
+    "Statlines": [
+      {
+        "Name": "Time's Arrow",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "6"
+        },
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-",
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "9143-31ae-e0a6-6007": "Precision"
+        }
       }
     ]
   }
