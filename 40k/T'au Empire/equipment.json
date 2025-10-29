@@ -1,0 +1,4006 @@
+[
+  {
+    "Id": "aa64-b7cb-2a9d-f097",
+    "Name": "Light missile pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Light missile pod",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "7",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2374-c078-8d4e-cbbd",
+    "Name": "High-energy fusion blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "High-energy fusion blaster",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "10",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f64b-5f3d-6cd7-89f5",
+    "Name": "Flechette launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Flechette launcher",
+        "Values": {
+          "Range": "18\"",
+          "A": "5",
+          "BS": "2+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "453-2e3-9561-628b",
+    "Name": "Battlesuit fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Battlesuit fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "89e3-e519-ede-f116",
+    "Name": "High-intensity plasma rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "High-intensity plasma rifle",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "977-cdd0-552f-d82f",
+    "Name": "➤ Dawn Blade - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Dawn Blade - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9673-edd-1e61-2a22",
+    "Name": "➤ Dawn Blade - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Dawn Blade - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "8",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4f5a-58b-5a49-1c96",
+    "Name": "T'au flamer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "T'au flamer",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "27cc-b6a6-632a-6fb5",
+    "Name": "High-output burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "High-output burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "230a-d8fa-420b-4258",
+    "Name": "Fireblade pulse rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fireblade pulse rifle",
+        "Values": {
+          "Range": "30\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4857-a947-2073-1773",
+    "Name": "Honour stave",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Honour stave",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7148-6400-23c9-425d",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "6+",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "bb8b-3514-2808-3f4a",
+    "Name": "Supreme honour blade",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Supreme honour blade",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8cc9-52b3-1928-d86d",
+    "Name": "Fidelity",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Fidelity",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a906-3221-818d-8ab0",
+    "Name": "Shade",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Shade",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9345-de29-1d44-d7f6",
+    "Name": "Railgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Railgun",
+        "Values": {
+          "Range": "72\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d99c-6d90-f5c3-eb3b",
+    "Name": "➤ Ion cannon - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - standard",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e752-c92e-b0db-bd07",
+    "Name": "➤ Ion cannon - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - overcharge",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3837-b5fb-54d1-adf8",
+    "Name": "Seeker missile",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Seeker missile",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "cd26-1611-860a-91e4": "ONE SHOT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d283-f3f3-499a-dcad",
+    "Name": "Pulse carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse carbine",
+        "Values": {
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "cbad-3604-3016-f719",
+    "Name": "Pulse pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1001-ca5e-5180-a961",
+    "Name": "Tanglebomb launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Tanglebomb launcher",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "30eb-86a2-34cb-4593",
+    "Name": "Kroot carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot carbine",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6ec3-91a0-02ff-f5e8",
+    "Name": "Kroot pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "f766-90a1-a689-ff9a",
+    "Name": "Krootox fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Krootox fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "72e5-3ac8-5675-30c8",
+    "Name": "Repeater cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Repeater cannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "af47-18ec-3893-4923",
+    "Name": "Krootox fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Krootox fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ef99-9d4-346b-f6fb",
+    "Name": "Tanglecannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Tanglecannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7626-73ed-7cf1-8d3b",
+    "Name": "Burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9167-b3e7-ff4a-dd38",
+    "Name": "Plasma rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Plasma rifle",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3c5c-b69d-6be7-cbca",
+    "Name": "Missile pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Missile pod",
+        "Values": {
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3bb9-f1fb-50ba-17b",
+    "Name": "Battlesuit fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Battlesuit fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3d93-d7b-3ae5-7524",
+    "Name": "Battlesuit fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Battlesuit fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4d67-3828-11d4-b8f1",
+    "Name": "Twin burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2700-47eb-f3be-eb6e",
+    "Name": "Fusion collider",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fusion collider",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8475-3bd-6677-efb9",
+    "Name": "➤ Cyclic ion raker - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclic ion raker - standard",
+        "Values": {
+          "Range": "36\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8d84-7f48-b1cc-ee98",
+    "Name": "➤ Cyclic ion raker - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclic ion raker - overcharge",
+        "Values": {
+          "Range": "36\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fece-1dd7-9f4e-38c1",
+    "Name": "Ghostkeel fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ghostkeel fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e988-8434-7e85-e216",
+    "Name": "Close combat weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapons",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "76cd-448e-bc68-69fa",
+    "Name": "Longshot pulse rifles",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Longshot pulse rifles",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a7f7-7c20-1c7f-8207",
+    "Name": "Pulse carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse carbine",
+        "Values": {
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8323-cecd-27fd-83b8",
+    "Name": "Pulse carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse carbine",
+        "Values": {
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a20f-90e8-acb9-acdd",
+    "Name": "➤ Ion rifle - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion rifle - standard",
+        "Values": {
+          "Range": "30\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2b06-5a01-9b6b-5a6a",
+    "Name": "➤ Ion rifle - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion rifle - overcharge",
+        "Values": {
+          "Range": "30\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d043-2eff-12e9-4339",
+    "Name": "Rail rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rail rifle",
+        "Values": {
+          "Range": "30\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-4",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a2c7-b3a1-dd13-916d",
+    "Name": "Drone burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Drone burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9d00-a7fb-afe6-98f9",
+    "Name": "Pulse carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse carbine",
+        "Values": {
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "31a1-c5dd-a259-1d89",
+    "Name": "➤ Semi-automatic grenade launcher - EMP",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Semi-automatic grenade launcher - EMP",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "81e6-dde4-c590-9945",
+    "Name": "➤ Semi-automatic grenade launcher - fusion",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Semi-automatic grenade launcher - fusion",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5907-8e6e-e23c-f975",
+    "Name": "Piranha burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Piranha burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "13bb-2136-6885-d9cf",
+    "Name": "Piranha fusion blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Piranha fusion blaster",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c979-ea6d-fb12-4188",
+    "Name": "Neutron grenade launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Neutron grenade launcher",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "03d7-2a0c-641c-13de",
+    "Name": "Neutron rail rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Neutron rail rifle",
+        "Values": {
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-4",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e04f-b720-3b47-bb25",
+    "Name": "Ripping fangs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ripping fangs",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "925f-89df-81b7-ad2",
+    "Name": "Riptide fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Riptide fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "143d-9a72-8e82-cc52",
+    "Name": "Heavy burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy burst cannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "12",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8eed-7cba-62e1-dc2e",
+    "Name": "➤ Ion accelerator - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion accelerator - standard",
+        "Values": {
+          "Range": "72\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "994d-2bc4-8b8b-37ba",
+    "Name": "➤ Ion accelerator - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion accelerator - overcharge",
+        "Values": {
+          "Range": "72\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "4"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3a1d-7714-bdab-43fd",
+    "Name": "Twin smart missile system",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin smart missile system",
+        "Values": {
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c7e5-e0ff-81a0-7df5",
+    "Name": "Railgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Railgun",
+        "Values": {
+          "Range": "72\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "180a-8fbc-32ed-d6be",
+    "Name": "➤ Ion cannon - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - standard",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ef85-73db-c8cc-9432",
+    "Name": "➤ Ion cannon - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - overcharge",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e8a5-c9de-b590-ee97",
+    "Name": "Twin pulse carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin pulse carbine",
+        "Values": {
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9475-a50e-aef8-42d9",
+    "Name": "Seeker missile rack",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Seeker missile rack",
+        "Values": {
+          "Range": "48\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5f4b-8252-2657-c7fa",
+    "Name": "➤ Quad ion turret - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Quad ion turret - standard",
+        "Values": {
+          "Range": "30\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a01e-4195-1c61-29ea",
+    "Name": "➤ Quad ion turret - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Quad ion turret - overcharge",
+        "Values": {
+          "Range": "30\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e44-8052-1aee-9c76",
+    "Name": "➤ Twin ion rifle - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Twin ion rifle - standard",
+        "Values": {
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a910-69c5-35f8-ba1f",
+    "Name": "➤ Twin ion rifle - overcharged",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Twin ion rifle - overcharged",
+        "Values": {
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "15f9-3719-8a1a-d3f0",
+    "Name": "Twin missile pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin missile pod",
+        "Values": {
+          "Range": "30\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "545c-9dc3-f9f6-e5a4",
+    "Name": "Drone defenders",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Drone defenders",
+        "Values": {
+          "Range": "20\"",
+          "A": "8",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8ebc-c5f1-9125-6295",
+    "Name": "Supremacy railgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Supremacy railgun",
+        "Values": {
+          "Range": "72\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "29a6-3f44-894e-e1ca",
+    "Name": "Cluster rocket system",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Cluster rocket system",
+        "Values": {
+          "Range": "48\"",
+          "A": "4D6",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fc4d-b5a0-5faa-fc50",
+    "Name": "Destroyer missiles",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Destroyer missiles",
+        "Values": {
+          "Range": "72\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+2"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2d47-e9ba-c294-81bb",
+    "Name": "Thunderous footfalls",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Thunderous footfalls",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5b17-951b-a7e3-e92e",
+    "Name": "Twin smart missile system",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin smart missile system",
+        "Values": {
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d5a3-7b4e-7307-154",
+    "Name": "Pulse Driver Cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse Driver Cannon",
+        "Values": {
+          "Range": "72\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5586-4bd7-df7c-24a9",
+    "Name": "➤ Pulse blast cannon - focused",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Pulse blast cannon - focused",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "24",
+          "AP": "-6",
+          "D": "12"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8d7a-98de-25be-7b80",
+    "Name": "➤ Pulse blast cannon - dispersed",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Pulse blast cannon - dispersed",
+        "Values": {
+          "Range": "48\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "4"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "aa8c-b84c-5626-631b",
+    "Name": "Twin airbursting fragmentation projector",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin airbursting fragmentation projector",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "112e-45c5-61fb-9cb0",
+    "Name": "Twin burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a948-b971-bea0-36c7",
+    "Name": "Ripping fangs",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ripping fangs",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a49e-69cc-7f9f-49cb",
+    "Name": "Dvorgite skinner",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Dvorgite skinner",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "da44-fef6-a176-793c",
+    "Name": "Londaxi tribalest",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Londaxi tribalest",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "67eb-a8ac-afd1-dfc",
+    "Name": "Ritual blade",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Ritual blade",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "d366-69d9-8b61-a133",
+    "Name": "Kroot pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3d83-77bd-3f68-949b",
+    "Name": "Farstalker firearm",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Farstalker firearm",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8a39-7e4b-457a-ca38",
+    "Name": "T'au tech rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "T'au tech rifle",
+        "Values": {
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "ae6e-a965-67d4-2f29",
+    "Name": "Kroot pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4bc9-74b7-1e9c-8619",
+    "Name": "Fusion blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fusion blaster",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8d9-16e9-c8a6-e4e3",
+    "Name": "Pulse submunitions cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse submunitions cannon",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+2",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d5ac-9918-4973-4e8d",
+    "Name": "Flechette pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Flechette pod",
+        "Values": {
+          "Range": "12\"",
+          "A": "5",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5fcc-2232-8654-9825",
+    "Name": "➤ Ionic discharge cannon - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ionic discharge cannon - standard",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9a3b-179f-c24f-d034",
+    "Name": "➤ Ionic discharge cannon - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ionic discharge cannon - overcharge",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7efb-ecb-ae7a-ef0f",
+    "Name": "Phased plasma-flamer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Phased plasma-flamer",
+        "Values": {
+          "Range": "12\"",
+          "A": "10",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3681-b5fb-e9de-d272",
+    "Name": "Close combat weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapons",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6729-1ece-52dc-acd2",
+    "Name": "Remora seeker missile",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Remora seeker missile",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "cd26-1611-860a-91e4": "ONE SHOT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "b631-f3dc-d877-fd99",
+    "Name": "Twin long-barrelled burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin long-barrelled burst cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e8b7-4c14-a518-ca71",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3ba9-dc18-61fa-2076",
+    "Name": "Crushing feet",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Crushing feet",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8a80-8223-739f-99b4",
+    "Name": "➤ Tri-axis ion cannon - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Tri-axis ion cannon - standard",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4821-1484-e5a0-1382",
+    "Name": "➤ Tri-axis ion cannon - supercharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Tri-axis ion cannon - supercharge",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "cead-eef7-db3a-4e49",
+    "Name": "Fusion eradicator",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fusion eradicator",
+        "Values": {
+          "Range": "24\"",
+          "A": "5",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e6c1-f457-45b0-363e",
+    "Name": "Pulse ordnance driver",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse ordnance driver",
+        "Values": {
+          "Range": "60\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "625b-fbf9-1ab7-7f56",
+    "Name": "Nexus missile launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Nexus missile launcher",
+        "Values": {
+          "Range": "36\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "db24-a303-7dab-2305",
+    "Name": "Heavy rail cannon array",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy rail cannon array",
+        "Values": {
+          "Range": "120\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "26",
+          "AP": "-5",
+          "D": "16"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4448-ace8-3e24-92f6",
+    "Name": "Fragmentation cluster shell launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fragmentation cluster shell launcher",
+        "Values": {
+          "Range": "24\"",
+          "A": "2D6+6",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "db32-d0ab-a5f-cbb3",
+    "Name": "Swiftstrike burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Swiftstrike burst cannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "16",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2783-2cca-4289-8866",
+    "Name": "➤ Ion cannon - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - standard",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e5ce-3bd5-4cf5-cb98",
+    "Name": "➤ Ion cannon - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - overcharge",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1d9a-7c4f-3f9d-45a8",
+    "Name": "Long-barrelled burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Long-barrelled burst cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "8",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7c3c-c95c-b1a0-6085",
+    "Name": "➤ Ion cannon - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - standard",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9da3-6a99-d1b2-5261",
+    "Name": "➤ Ion cannon - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - overcharge",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6ca2-685e-3c0-bb12",
+    "Name": "Swiftstrike burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Swiftstrike burst cannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "16",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2d02-e91-5f59-9ec3",
+    "Name": "Skyspear missile rack",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Skyspear missile rack",
+        "Values": {
+          "Range": "72\"",
+          "A": "D6+1",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "0cad-9d71-3245-1abc",
+    "Name": "Twin heavy rail cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin heavy rail cannon",
+        "Values": {
+          "Range": "120\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "26",
+          "AP": "-5",
+          "D": "12"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9e7d-1521-3dc8-bea5",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "8",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "203a-51e5-9fc9-8eb3",
+    "Name": "Heavy rail cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy rail cannon",
+        "Values": {
+          "Range": "120\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "26",
+          "AP": "-5",
+          "D": "12"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ef84-79d-e39-7047",
+    "Name": "Long-barrelled burst cannon array",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Long-barrelled burst cannon array",
+        "Values": {
+          "Range": "24\"",
+          "A": "32",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "054d-3a2c-3ea4-9519",
+    "Name": "➤ Ion cannon - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - standard",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "bb31-793d-0414-94bc",
+    "Name": "➤ Ion cannon - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Ion cannon - overcharge",
+        "Values": {
+          "Range": "60\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d68c-6743-415f-b4df",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6188-36d-b521-fd9a",
+    "Name": "Long-barrelled burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Long-barrelled burst cannon",
+        "Values": {
+          "Range": "36\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5d63-1f21-637b-56db",
+    "Name": "Great Knarloc beak and talons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Great Knarloc beak and talons",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "3"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "700f-556e-ba35-5424",
+    "Name": "Kroot bolt thrower",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot bolt thrower",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "1148-4286-305f-66f7",
+    "Name": "Kroot rifle (Ranged)",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot rifle (Ranged)",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6cd-51fc-5ee0-9346",
+    "Name": "Kroot rifle (Melee)",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot rifle (Melee)",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "97a5-d645-763d-f137",
+    "Name": "Twin Kroot gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin Kroot gun",
+        "Values": {
+          "Range": "36\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "7",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5ad6-ff13-67e9-4378",
+    "Name": "Rail rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Rail rifle",
+        "Values": {
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-4",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9eff-c2c3-1bbf-c888",
+    "Name": "Knarloc beak and talons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Knarloc beak and talons",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "22ca-06e0-6a94-b736",
+    "Name": "Kroot rifle (Ranged)",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot rifle (Ranged)",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "bb42-d6d0-f57d-dbc1",
+    "Name": "Kroot rifle (Melee)",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot rifle (Melee)",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3987-1e6e-9a1b-1a45",
+    "Name": "Battlesuit fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Battlesuit fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e884-6e4f-5a48-8d9b",
+    "Name": "➤ Experimental pulse submunitions rifle - EMP",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Experimental pulse submunitions rifle - EMP",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "0",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7014-abb-aa17-4e03",
+    "Name": "➤ Experimental pulse submunitions rifle - ionic cluster-beam shell",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Experimental pulse submunitions rifle - ionic cluster-beam shell",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3b67-c931-b4e6-225a",
+    "Name": "Fusion cascade",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fusion cascade",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f7c5-279a-69d7-d891",
+    "Name": "Phased ion gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Phased ion gun",
+        "Values": {
+          "Range": "30\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6fc2-972a-101c-4f71",
+    "Name": "Twin hazard burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin hazard burst cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "119d-1bb9-fd2b-fe76",
+    "Name": "Twin plasma rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin plasma rifle",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1bf-bc0b-bcd8-cb66",
+    "Name": "Twin fusion blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin fusion blaster",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9240-1cce-5be7-570a",
+    "Name": "Twin missile pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin missile pod",
+        "Values": {
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fe17-63c8-985-a0b2",
+    "Name": "Farstalker firearm",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Farstalker firearm",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2024-d0c7-ec66-9c5d",
+    "Name": "Shaper's blade",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Shaper's blade",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4167-7f7c-4716-ca8a",
+    "Name": "Dart-bow and tri-blade",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Dart-bow and tri-blade",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3+1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8f3e-fcef-9438-7e4e",
+    "Name": "Bladestave and prey-hook",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Bladestave and prey-hook",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "d1d1-611e-5191-1095": "LETHAL HITS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2a86-2018-5eed-62d7",
+    "Name": "Kroot pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7823-9cfc-0f6c-bce1",
+    "Name": "Shaper's blade",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Shaper's blade",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2dc9-2d09-171d-600d",
+    "Name": "Kroot scattergun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot scattergun",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7bff-bdc0-55bb-b704",
+    "Name": "Twin ritualistic blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin ritualistic blades",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "dbec-f0ae-85bd-6ba7",
+    "Name": "Kroot long gun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot long gun",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "24e6-221e-63ab-8bd9",
+    "Name": "Blast javelin",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Blast javelin",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d2f5-718a-809b-b2ff",
+    "Name": "Hunting javelin",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Hunting javelin",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "2ebc-abdf-8129-6c57": "LANCE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "38dd-91a0-394c-ca49",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "804-c754-e788-5598",
+    "Name": "Kalamandra's bite",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Kalamandra's bite",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "55a4-68a6-815f-4206",
+    "Name": "Kroot pistol and hunting javelins",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot pistol and hunting javelins",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "907c-91b1-24aa-6162",
+    "Name": "Hunting blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Hunting blades",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "2ebc-abdf-8129-6c57": "LANCE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "72b1-d707-eff9-527a",
+    "Name": "Rampager fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Rampager fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "31d5-d59a-2d18-2d58",
+    "Name": "Missile pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Missile pod",
+        "Values": {
+          "Range": "30\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "0f2c-e640-b41e-36a0",
+    "Name": "Missile pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Missile pod",
+        "Values": {
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4a62-f987-469f-e15a",
+    "Name": "Burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7252-9cbf-4736-285e",
+    "Name": "Airbursting fragmentation projector",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Airbursting fragmentation projector",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c993-5cf8-fd6a-bc2e",
+    "Name": "Airbursting fragmentation projector",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Airbursting fragmentation projector",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d55e-419e-e6a0-89a8",
+    "Name": "➤ Cyclic ion blaster - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclic ion blaster - standard",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3d00-e134-a1e7-c9bd",
+    "Name": "➤ Cyclic ion blaster - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclic ion blaster - overcharge",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ff94-d2c1-034d-e875",
+    "Name": "➤ Cyclic ion blaster - standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclic ion blaster - standard",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c30d-6274-c12d-6e16",
+    "Name": "➤ Cyclic ion blaster - overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclic ion blaster - overcharge",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e5cc-4d2d-324f-6da0",
+    "Name": "Twin T'au flamer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin T'au flamer",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d2d4-6c29-133d-548b",
+    "Name": "Accelerator burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Accelerator burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7fd9-c324-5a2a-d2e3",
+    "Name": "Twin burst cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin burst cannon",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fec0-d86e-fd85-42a1",
+    "Name": "Fusion blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fusion blaster",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "d33c-8505-a08f-6160",
+    "Name": "Twin fusion blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin fusion blaster",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ec22-219d-9edf-9005",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6623-339f-6773-dc3c",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "5+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f9f3-a15e-537e-8852",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "5+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "cdb3-583c-f777-493b",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b684-0b7e-0204-cacc",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "6+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fd20-1f79-27c3-aa2c",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "1d9d-8bec-3860-3c43",
+    "Name": "Pulse pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6b87-25ec-8946-7354",
+    "Name": "Pulse blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse blaster",
+        "Values": {
+          "Range": "10\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7b5d-b5b4-88de-9799",
+    "Name": "Pulse rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pulse rifle",
+        "Values": {
+          "Range": "30\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3519-759a-5a51-2de9",
+    "Name": "Battlesuit fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Battlesuit fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "cbe7-3041-cdb4-f7fd",
+    "Name": "Battlesuit fists",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Battlesuit fists",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e18f-f00f-7d58-1ddd",
+    "Name": "Twin plasma rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin plasma rifle",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "526e-7c08-b2d3-bc44",
+    "Name": "Plasma rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Plasma rifle",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9dee-43e2-22c6-68ee",
+    "Name": "Twin smart missile system",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin smart missile system",
+        "Values": {
+          "Range": "30\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1a19-7172-2f9b-3a8e",
+    "Name": "Smart missile system",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Smart missile system",
+        "Values": {
+          "Range": "30\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "86cd-e0c6-0001-bd7d",
+    "Name": "Heavy rail rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy rail rifle",
+        "Values": {
+          "Range": "60\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-4",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "af19-b1f2-44a5-80df",
+    "Name": "Swiftstrike railgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Swiftstrike railgun",
+        "Values": {
+          "Range": "72\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "20",
+          "AP": "-5",
+          "D": "D6+6"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8193-592f-d90d-9365",
+    "Name": "High-yield missile pods",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "High-yield missile pods",
+        "Values": {
+          "Range": "30\"",
+          "A": "6",
+          "BS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "b3d4-211a-48f8-266e",
+    "Name": "Support turret",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Support turret",
+        "Values": {
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7761-1b77-42a7-af36",
+    "Name": "Crushing bulk",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Crushing bulk",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "5+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "bca7-e744-1c90-b631",
+    "Name": "Twin pulse carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin pulse carbine",
+        "Values": {
+          "Range": "20\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "b890-cd3d-ca51-f655",
+    "Name": "Kroot rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Kroot rifle",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "925b-bdfa-4365-68d0",
+    "Name": "Missile pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Missile pod",
+        "Values": {
+          "Range": "30\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "dee4-e704-c9f4-af63",
+    "Name": "Stingwing claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Stingwing claws",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c113-44d9-5f2d-a25b",
+    "Name": "Neutron blaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Neutron blaster",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "47d1-604d-fa7f-0ec4",
+    "Name": "Twin pulse carbine",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin pulse carbine",
+        "Values": {
+          "Range": "20\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED",
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "56b5-060b-4813-5a22",
+    "Name": "Onager Gauntlet",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Onager Gauntlet",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "14",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  }
+]
