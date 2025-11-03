@@ -1,0 +1,1282 @@
+[
+  {
+    "Id": "b66e-6bd8-3b37-819e",
+    "Name": "Power sledgehammer",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power sledgehammer",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "445c-216b-baa5-214",
+    "Name": "Achilles missile launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Achilles missile launcher",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "ea6f-9f30-3a62-379",
+    "Name": "Heavy mortar",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy mortar",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6+3",
+          "BS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "de2a-3439-ed47-c77c",
+    "Name": "Twin heavy stubber",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin heavy stubber",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "178-e832-5837-5f5",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "8429-4679-97cf-4b05",
+    "Name": "Demolition charge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Demolition charge",
+        "Values": {
+          "Range": "8\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "cd26-1611-860a-91e4": "ONE SHOT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "dc5c-4c49-337b-4281",
+    "Name": "Leader's bio-weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Leader's bio-weapons",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "306c-7337-c97b-cd9c",
+    "Name": "Cult claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Cult claws",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "32fb-3f61-367c-fb71",
+    "Name": "Mining laser",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Mining laser",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "1aa5-8d88-59da-bac3",
+    "Name": "Atalan incinerator",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Atalan incinerator",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "edfe-2777-1f40-6577",
+    "Name": "Injector goad",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Injector goad",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "3+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fed6-9d76-7552-4547",
+    "Name": "Chemical vials",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Chemical vials",
+        "Values": {
+          "Range": "6\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "1",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "3fc6-e456-6b50-1698",
+    "Name": "Clearance incinerator",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Clearance incinerator",
+        "Values": {
+          "Range": "12\"",
+          "A": "2D6",
+          "BS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8149-e9f4-cf00-4f18",
+    "Name": "Heavy seismic cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy seismic cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "4",
+          "BS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7c06-64d8-4853-e9b4",
+    "Name": "Drilldozer blade",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Drilldozer blade",
+        "Values": {
+          "Range": "Melee",
+          "A": "8",
+          "WS": "3+",
+          "S": "10",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "2642-fac7-9b97-b7ea",
+    "Name": "Twin autocannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin autocannon",
+        "Values": {
+          "Range": "48\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-1",
+          "D": "3"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "401b-35f7-f024-6616",
+    "Name": "Goliath wheels",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Goliath wheels",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "fed4-54c0-b413-c29b",
+    "Name": "Leader's Bio-weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Leader's Bio-weapons",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7c50-83ef-33e4-d8d9",
+    "Name": "Cult sniper rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Cult sniper rifle",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "bac9-74d5-2c59-4718",
+    "Name": "Liberator autostubs",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Liberator autostubs",
+        "Values": {
+          "Range": "12\"",
+          "A": "6",
+          "BS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "944e-4471-ae45-cad4",
+    "Name": "Locus blades",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Locus blades",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "93e8-179c-3878-14d3",
+    "Name": "Magus stave",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Magus stave",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "D3"
+        },
+        "RuleIds": {
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5868-96cd-cdcc-2943",
+    "Name": "Mining Laser",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Mining Laser",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "5+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8e40-1ced-3c41-9851",
+    "Name": "Seismic Cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Seismic Cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "BS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "D3"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "de59-6c4-4556-6c0e",
+    "Name": "Flamer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Flamer",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9311-dec4-b9c3-a03",
+    "Name": "Webber",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Webber",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "2",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "535f-b966-6118-9040",
+    "Name": "Power weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a96c-7c07-976b-409a",
+    "Name": "Chainsword",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Chainsword",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c278-de9c-2e37-e207",
+    "Name": "Patriarch's claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Patriarch's claws",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "9227-ef76-b50c-9d5b",
+    "Name": "Toxin injector claw",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Toxin injector claw",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "2+",
+          "S": "2",
+          "AP": "0",
+          "D": "D3"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "ce5a-fb79-1f2c-2072",
+    "Name": "Scoped needle pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Scoped needle pistol",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "1",
+          "AP": "0",
+          "D": "D3"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3ec6-dbec-6225-1525",
+    "Name": "Cult bonesword",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Cult bonesword",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e003-7345-6bc7-d6eb",
+    "Name": "Cult claws and talons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Cult claws and talons",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "590e-793b-1fd6-1c03",
+    "Name": "Demolition charges",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Demolition charges",
+        "Values": {
+          "Range": "8\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "cd26-1611-860a-91e4": "ONE SHOT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3f43-593e-ccc3-659b",
+    "Name": "Remote explosives",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Remote explosives",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6+3",
+          "BS": "3+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "4ddd-4e29-acdd-5e6d": "INDIRECT FIRE"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "d31b-223f-3659-fdb8",
+    "Name": "Sanctus bio-dagger",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Sanctus bio-dagger",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "3",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "85d6-5734-14b3-2203",
+    "Name": "Cult sniper rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Cult sniper rifle",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4a9d-f7f6-4026-5273",
+    "Name": "➤ Grenade launcher - frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Grenade launcher - frag",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "f16-d4b5-befc-8fd7",
+    "Name": "➤ Grenade launcher - krak",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Grenade launcher - krak",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "39f8-76d8-7741-7856",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b6c3-808d-979e-f396",
+    "Name": "Heavy improvised weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy improvised weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "431-cdd3-d765-3c47",
+    "Name": "Autopistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Autopistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "2674-bc9a-7cbf-6c68",
+    "Name": "Hand flamer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Hand flamer",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "8bf7-8812-923d-29e4": "PISTOL",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8911-336d-cca6-af31",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5ab5-695a-fbe9-39e1",
+    "Name": "Atalan power weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Atalan power weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "d08f-8ebe-d4b9-38e",
+    "Name": "Atalan small arms",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Atalan small arms",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "dd61-527c-40a8-2d57",
+    "Name": "Demolition charge cache",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Demolition charge cache",
+        "Values": {
+          "Range": "8\"",
+          "A": "D6",
+          "BS": "5+",
+          "S": "9",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "8367-374c-f87-c627": "HAZARDOUS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c8a1-9a5-b48e-135f",
+    "Name": "Heavy stubber",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy stubber",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e210-15ab-5d0b-e7de",
+    "Name": "Heavy mining laser",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy mining laser",
+        "Values": {
+          "Range": "36\"",
+          "A": "D3",
+          "BS": "4+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "aa4f-ec7e-323c-8f3a",
+    "Name": "➤ Metamorph mutations - strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Metamorph mutations - strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "d3a4-5ed-1bc-ba9b",
+    "Name": "➤ Metamorph mutations - sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Metamorph mutations - sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "7726-15f2-e2e1-706f",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "5275-512-c8b-82a3",
+    "Name": "Autopistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Autopistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7106-25dc-1730-e554",
+    "Name": "Hybrid firearm",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Hybrid firearm",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9325-faf2-aba7-20a1",
+    "Name": "Close combat weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close combat weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b6cb-8dfa-d136-2ad4",
+    "Name": "Anointed pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Anointed pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "4+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "f0d6-aa12-25b-d7d8",
+    "Name": "Fragdrill",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Fragdrill",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "6+",
+          "S": "12",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "a38c-b699-dbc6-b9cf",
+    "Name": "Cult claws and knife",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Cult claws and knife",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "844c-5d6b-52cd-5ef2",
+    "Name": "➤ Psionic cascade - witchfire",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Psionic cascade - witchfire",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "dda5-a2f5-2921-b3cc",
+    "Name": "➤ Psionic cascade - focused witchfire",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Psionic cascade - focused witchfire",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "174b-b4c0-d61d-dfb9",
+    "Name": "Heavy Mining Tool",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy Mining Tool",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "84fd-e57c-b729-4c71",
+    "Name": "Leader's Bio-weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Leader's Bio-weapons",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4ef0-f84e-8161-3d4d",
+    "Name": "Aberrant weapons",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Aberrant weapons",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  }
+]
