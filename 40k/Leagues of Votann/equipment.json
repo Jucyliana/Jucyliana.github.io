@@ -631,7 +631,9 @@
           "AP": "-1",
           "D": "3"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
       }
     ]
   },
@@ -650,7 +652,9 @@
           "AP": "-1",
           "D": "3"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
       }
     ]
   },
@@ -999,7 +1003,7 @@
           "A": "4",
           "WS": "4+",
           "S": "9",
-          "AP": "-1",
+          "AP": "-2",
           "D": "2"
         },
         "RuleIds": {
@@ -1016,9 +1020,9 @@
       {
         "Name": "Mole grenade launcher",
         "Values": {
-          "Range": "24\"",
+          "Range": "18\"",
           "A": "D6",
-          "BS": "4+",
+          "BS": "5+",
           "S": "5",
           "AP": "-1",
           "D": "1"
@@ -1045,7 +1049,9 @@
           "AP": "-1",
           "D": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -1239,7 +1245,9 @@
           "AP": "-1",
           "D": "2"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -1251,15 +1259,15 @@
       {
         "Name": "Graviton blast cannon",
         "Values": {
-          "Range": "18\"",
-          "A": "D6",
+          "Range": "24\"",
+          "A": "3",
           "BS": "4+",
           "S": "5",
           "AP": "-2",
-          "D": "2"
+          "D": "3"
         },
         "RuleIds": {
-          "6c1f-1cf7-ff25-c99e": "BLAST"
+          "4111-82e3-9444-e942": "Anti-"
         }
       }
     ]
@@ -1273,14 +1281,15 @@
         "Name": "SP conversion beamer",
         "Values": {
           "Range": "24\"",
-          "A": "1",
+          "A": "2",
           "BS": "4+",
           "S": "7",
-          "AP": "-1",
+          "AP": "-2",
           "D": "3"
         },
         "RuleIds": {
-          "5cfb-f5b5-a838-4622": "CONVERSION"
+          "5cfb-f5b5-a838-4622": "CONVERSION",
+          "d1d1-611e-5191-1095": "Lethal Hits"
         }
       }
     ]
@@ -1428,7 +1437,8 @@
           "D": "2"
         },
         "RuleIds": {
-          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED",
+          "1897-c22c-9597-12b1": "Sustained Hits"
         }
       }
     ]
@@ -1448,7 +1458,10 @@
           "AP": "-1",
           "D": "2"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits",
+          "fc8a-8c24-bae9-cc1c": "Assault"
+        }
       }
     ]
   },
@@ -1607,7 +1620,9 @@
           "AP": "-2",
           "D": "D6"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
       }
     ]
   },
@@ -1660,11 +1675,13 @@
           "Range": "Melee",
           "A": "3",
           "WS": "4+",
-          "S": "9",
+          "S": "5",
           "AP": "-2",
           "D": "3"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
       }
     ]
   },
@@ -1705,6 +1722,337 @@
           "D": "D6"
         },
         "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762422030946",
+    "Name": "➤Transmatter inverter – half charge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤Transmatter inverter – half charge",
+        "Values": {
+          "Range": "12\"",
+          "A": "3",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762422077146",
+    "Name": "➤Transmatter inverter – full charge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤Transmatter inverter – full charge",
+        "Values": {
+          "Range": "18\"",
+          "A": "3",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "Hazardous",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762422131554",
+    "Name": "➤Transmatter inverter – overcharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤Transmatter inverter – overcharge",
+        "Values": {
+          "Range": "24\"",
+          "A": "3",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "Hazardous",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire",
+          "rule_1762422294252": "Overcharge"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762422690080",
+    "Name": "➤ Bane – strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Bane – strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "12",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "9143-31ae-e0a6-6007": "Precision"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762422770420",
+    "Name": "➤ Bane – sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Bane – sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762423548820",
+    "Name": "Theyn’s pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Theyn’s pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762424035096",
+    "Name": "Theyn’s melee weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Theyn’s melee weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "2",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762426597138",
+    "Name": "Twin magna-coil autocannon",
+    "Type": "Ranged Weapons",
+    "Statlines": [
+      {
+        "Name": "Twin magna-coil autocannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "3",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "Twin-linked"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762426733530",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapons",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762427871111",
+    "Name": "Heavy plasma axe",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy plasma axe",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "7",
+          "AP": "-2",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762427984406",
+    "Name": "Breacher ordnance",
+    "Statlines": [
+      {
+        "Name": "Breacher ordnance",
+        "Values": {
+          "Range": "24\"",
+          "A": "D6+1",
+          "WS": "5+",
+          "S": "10",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "1202-10a8-78e9-4c67": "Heavy",
+          "4ddd-4e29-acdd-5e6d": "Indirect Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762428039138",
+    "Name": "Tremor shells",
+    "Type": "Ranged Weapons",
+    "Statlines": [
+      {
+        "Name": "Tremor shells",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+4",
+          "WS": "5+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "1202-10a8-78e9-4c67": "Heavy",
+          "4ddd-4e29-acdd-5e6d": "Indirect Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762428179556",
+    "Name": "Plasma picks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Plasma picks",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762429621998",
+    "Name": "Heavy volkanite disintegrator",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy volkanite disintegrator",
+        "Values": {
+          "Range": "24\"",
+          "A": "6",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762429734990",
+    "Name": "Plasma sword",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Plasma sword",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1762430601372",
+    "Name": "Magna-rail cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Magna-rail cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "WS": "4+",
+          "S": "14",
+          "AP": "-4",
+          "D": "D3+3"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "1202-10a8-78e9-4c67": "Heavy"
+        }
       }
     ]
   }
