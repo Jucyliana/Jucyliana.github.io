@@ -84,44 +84,22 @@
   },
   {
     "Id": "3820-e568-e53-96f2",
-    "Name": "➤ Purge Soul - witchfire",
+    "Name": "Vortex of Doom",
     "Type": "Ranged Weapon",
     "Statlines": [
       {
-        "Name": "➤ Purge Soul - witchfire",
+        "Name": "Vortex of Doom",
         "Values": {
-          "Range": "24\"",
-          "A": "1",
+          "Range": "18\"",
+          "A": "D6+3",
           "BS": "3+",
-          "S": "6",
+          "S": "8",
           "AP": "-2",
-          "D": "3"
+          "D": "2"
         },
         "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST",
           "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
-        }
-      }
-    ]
-  },
-  {
-    "Id": "65d8-79ca-e784-b480",
-    "Name": "➤ Purge Soul - focused witchfire",
-    "Type": "Ranged Weapon",
-    "Statlines": [
-      {
-        "Name": "➤ Purge Soul - focused witchfire",
-        "Values": {
-          "Range": "24\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "6",
-          "AP": "-2",
-          "D": "3"
-        },
-        "RuleIds": {
-          "9143-31ae-e0a6-6007": "PRECISION",
-          "e9c4-2bb8-12ee-cd1b": "PSYCHIC",
-          "8367-374c-f87-c627": "HAZARDOUS"
         }
       }
     ]
@@ -148,28 +126,6 @@
     ]
   },
   {
-    "Id": "462e-af68-3725-10ef",
-    "Name": "Flamer",
-    "Type": "Ranged Weapon",
-    "Statlines": [
-      {
-        "Name": "Flamer",
-        "Values": {
-          "Range": "12\"",
-          "A": "D6",
-          "BS": "N/A",
-          "S": "4",
-          "AP": "0",
-          "D": "1"
-        },
-        "RuleIds": {
-          "4640-43e7-30b-215a": "IGNORES COVER",
-          "5edf-d619-23e0-9b56": "TORRENT"
-        }
-      }
-    ]
-  },
-  {
     "Id": "59d5-7666-1edf-125e",
     "Name": "Omnissian power axe",
     "Type": "Melee Weapon",
@@ -189,58 +145,15 @@
     ]
   },
   {
-    "Id": "cf76-7725-98e1-d456",
-    "Name": "➤ Plasma cutter - standard",
-    "Type": "Melee Weapon",
-    "Statlines": [
-      {
-        "Name": "➤ Plasma cutter - standard",
-        "Values": {
-          "Range": "Melee",
-          "A": "2",
-          "WS": "3+",
-          "S": "7",
-          "AP": "-2",
-          "D": "1"
-        },
-        "RuleIds": {
-          "115b-79dc-f723-d761": "EXTRA ATTACKS"
-        }
-      }
-    ]
-  },
-  {
-    "Id": "3bd0-22d0-6cad-cbbd",
-    "Name": "➤ Plasma cutter - supercharge",
-    "Type": "Melee Weapon",
-    "Statlines": [
-      {
-        "Name": "➤ Plasma cutter - supercharge",
-        "Values": {
-          "Range": "Melee",
-          "A": "2",
-          "WS": "3+",
-          "S": "8",
-          "AP": "-3",
-          "D": "2"
-        },
-        "RuleIds": {
-          "115b-79dc-f723-d761": "EXTRA ATTACKS",
-          "8367-374c-f87-c627": "HAZARDOUS"
-        }
-      }
-    ]
-  },
-  {
     "Id": "8f56-9025-c58b-b16",
-    "Name": "Servo-arms",
+    "Name": "Servo-arm",
     "Type": "Melee Weapon",
     "Statlines": [
       {
-        "Name": "Servo-arms",
+        "Name": "Servo-arm",
         "Values": {
           "Range": "Melee",
-          "A": "2",
+          "A": "1",
           "WS": "3+",
           "S": "8",
           "AP": "-2",
@@ -253,38 +166,38 @@
     ]
   },
   {
-    "Id": "f239-3ccc-a7ed-a37a",
-    "Name": "Boltgun",
+    "Id": "b291-390e-68a2-0af1",
+    "Name": "Forge bolter",
     "Type": "Ranged Weapon",
     "Statlines": [
       {
-        "Name": "Boltgun",
+        "Name": "Forge bolter",
         "Values": {
           "Range": "24\"",
-          "A": "2",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1"
+          "A": "3",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
         },
         "RuleIds": {}
       }
     ]
   },
   {
-    "Id": "3510-76fc-5d-2f5e",
-    "Name": "Bolt pistol",
+    "Id": "fd2f-c151-3fed-354e",
+    "Name": "Grav-pistol",
     "Type": "Ranged Weapon",
     "Statlines": [
       {
-        "Name": "Bolt pistol",
+        "Name": "Grav-pistol",
         "Values": {
           "Range": "12\"",
           "A": "1",
-          "BS": "3+",
+          "BS": "2+",
           "S": "4",
-          "AP": "0",
-          "D": "1"
+          "AP": "-1",
+          "D": "2"
         },
         "RuleIds": {
           "8bf7-8812-923d-29e4": "PISTOL"
@@ -304,7 +217,7 @@
           "A": "3",
           "BS": "2+",
           "S": "4",
-          "AP": "-1",
+          "AP": "-2",
           "D": "1"
         },
         "RuleIds": {
@@ -358,6 +271,92 @@
     ]
   },
   {
+    "Id": "6104-3c01-f94d-b60c",
+    "Name": "Nemesis flail",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Nemesis flail",
+        "Values": {
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "23f1-d294-a434-9658",
+    "Name": "Nemesis mace",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Nemesis mace",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION",
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "067c-1a73-e0b0-3b80",
+    "Name": "Sublimator",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Sublimator",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4db0-66d3-f31e-1b81",
+    "Name": "Fragstorm grenade launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fragstorm grenade launcher",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
     "Id": "9c20-33ed-5139-f2df",
     "Name": "Malleus Argyrum",
     "Type": "Melee Weapon",
@@ -373,6 +372,28 @@
           "D": "3"
         },
         "RuleIds": {
+          "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "0227-3d63-da92-f4c8",
+    "Name": "Searing Purity",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Searing Purity",
+        "Values": {
+          "Range": "12\"",
+          "A": "D3+1",
+          "BS": "2+",
+          "S": "12",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
           "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
         }
       }
@@ -427,7 +448,7 @@
       {
         "Name": "Las-talon",
         "Values": {
-          "Range": "24\"",
+          "Range": "36\"",
           "A": "2",
           "BS": "3+",
           "S": "10",
@@ -730,25 +751,6 @@
     ]
   },
   {
-    "Id": "e9be-6b58-f0bd-9a1f",
-    "Name": "Armored Hull",
-    "Type": "Melee Weapon",
-    "Statlines": [
-      {
-        "Name": "Armored Hull",
-        "Values": {
-          "Range": "Melee",
-          "A": "6",
-          "WS": "4+",
-          "S": "8",
-          "AP": "0",
-          "D": "1"
-        },
-        "RuleIds": {}
-      }
-    ]
-  },
-  {
     "Id": "fdc6-4762-3739-adb6",
     "Name": "Lascannon",
     "Type": "Ranged Weapon",
@@ -762,6 +764,25 @@
           "S": "12",
           "AP": "-3",
           "D": "D6+1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e9be-6b58-f0bd-9a1f",
+    "Name": "Armored Hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armored Hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
         },
         "RuleIds": {}
       }
@@ -829,25 +850,6 @@
     ]
   },
   {
-    "Id": "c8f9-e2c0-904b-d29c",
-    "Name": "Armored Tracks",
-    "Type": "Melee Weapon",
-    "Statlines": [
-      {
-        "Name": "Armored Tracks",
-        "Values": {
-          "Range": "Melee",
-          "A": "6",
-          "WS": "4+",
-          "S": "8",
-          "AP": "0",
-          "D": "1"
-        },
-        "RuleIds": {}
-      }
-    ]
-  },
-  {
     "Id": "bd0d-bf5-b1f7-108e",
     "Name": "Twin psycannon",
     "Type": "Ranged Weapon",
@@ -866,6 +868,46 @@
           "e9c4-2bb8-12ee-cd1b": "PSYCHIC",
           "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
         }
+      }
+    ]
+  },
+  {
+    "Id": "a316-09bf-ebea-db69",
+    "Name": "➤ Missile launcher - frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Missile launcher - frag",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "BLAST"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "0f21-9cd0-4216-32ac",
+    "Name": "➤ Missile launcher - krak",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Missile launcher - krak",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
       }
     ]
   },
@@ -945,6 +987,7 @@
           "D": "1"
         },
         "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION",
           "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
         }
       }
@@ -1046,7 +1089,7 @@
         "Values": {
           "Range": "Melee",
           "A": "6",
-          "WS": "3+",
+          "WS": "2+",
           "S": "6",
           "AP": "-1",
           "D": "1"
@@ -1566,6 +1609,7 @@
           "D": "1"
         },
         "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION",
           "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
         }
       }
@@ -1583,53 +1627,13 @@
           "A": "1",
           "BS": "3+",
           "S": "4",
-          "AP": "-1",
+          "AP": "-2",
           "D": "1"
         },
         "RuleIds": {
           "4640-43e7-30b-215a": "IGNORES COVER",
           "e9c4-2bb8-12ee-cd1b": "PSYCHIC"
         }
-      }
-    ]
-  },
-  {
-    "Id": "a316-09bf-ebea-db69",
-    "Name": "➤ Missile launcher - frag",
-    "Type": "Ranged Weapon",
-    "Statlines": [
-      {
-        "Name": "➤ Missile launcher - frag",
-        "Values": {
-          "Range": "48\"",
-          "A": "D6",
-          "BS": "3+",
-          "S": "4",
-          "AP": "0",
-          "D": "1"
-        },
-        "RuleIds": {
-          "6c1f-1cf7-ff25-c99e": "BLAST"
-        }
-      }
-    ]
-  },
-  {
-    "Id": "0f21-9cd0-4216-32ac",
-    "Name": "➤ Missile launcher - krak",
-    "Type": "Ranged Weapon",
-    "Statlines": [
-      {
-        "Name": "➤ Missile launcher - krak",
-        "Values": {
-          "Range": "48\"",
-          "A": "1",
-          "BS": "3+",
-          "S": "9",
-          "AP": "-2",
-          "D": "D6"
-        },
-        "RuleIds": {}
       }
     ]
   },
