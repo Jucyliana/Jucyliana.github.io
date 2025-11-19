@@ -84,48 +84,6 @@
     }
   },
   {
-    "Id": "profile_f7-85a3-9e39-51f8",
-    "Name": "Court of the Archon",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "5e02-2ddc-f55-e6dd": "Power from Pain",
-      "9415-e594-9a27-1f93": "Court of the Archon",
-      "127d-6f92-c7d7-3dcf": "Invulnerable Save"
-    },
-    "EquipmentIds": [
-      "e056-8c0e-9e31-3be3",
-      "ef4-5e3c-f4a-eff7",
-      "892d-38c9-d1ee-4b33",
-      "46da-1148-c51a-a0b0",
-      "1197-cd24-60b0-a6aa",
-      "8278-204c-37ca-2990",
-      "dc5c-bf0d-8547-43f6"
-    ],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Court of the Archon",
-        "Values": {
-          "M": "8\"",
-          "T": "3",
-          "SV": "5+",
-          "W": "2",
-          "LD": "6+",
-          "OC": "1"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    }
-  },
-  {
     "Id": "profile_da4f-a6d6-759-69ca",
     "Name": "Cronos",
     "Attributes": {},
@@ -1123,6 +1081,245 @@
     "Attributes": {
       "type": "",
       "height": ""
+    }
+  },
+  {
+    "Id": "profile_8c5f-427-b103-ee0c",
+    "Name": "Solitaire",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "24-c886-e8ba-5a89": "Fights First",
+      "a8a0-8fe7-898-e0f3": "Lone Operative",
+      "c324-e193-e23c-7d2e": "Battle Focus",
+      "b783-5813-dfe0-aca5": "Flip Belt",
+      "bec5-4288-34a6-ccfa": "Stealth",
+      "10d8-3547-47ae-baab": "Disparate Paths",
+      "431c-4567-65fe-f354": "Invulnerable Save",
+      "fa26-abd-b188-cbb2": "Blitz",
+      "98ed-81a6-809f-2cd9": "Blur of Movement"
+    },
+    "EquipmentIds": [
+      "3daf-5355-b7ea-b291"
+    ],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Solitaire",
+        "Values": {
+          "M": "12\"",
+          "T": "3",
+          "SV": "6+",
+          "W": "4",
+          "LD": "6+",
+          "OC": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "profile_33ad-85bd-3ae4-7f96",
+    "Name": "Shadowseer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "bec5-4288-34a6-ccfa": "Stealth",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "c324-e193-e23c-7d2e": "Battle Focus",
+      "dc70-ee78-7464-04e6": "Travelling Players",
+      "b783-5813-dfe0-aca5": "Flip Belt",
+      "10d8-3547-47ae-baab": "Disparate Paths",
+      "f44c-2c18-c772-4472": "Invulnerable Save",
+      "4865-43fe-839c-719b": "Fog of Dreams (Psychic)",
+      "9e3e-7c14-55e3-d4f5": "Treacherous Illusion (Psychic)"
+    },
+    "EquipmentIds": [
+      "aab5-8360-a50-d395",
+      "ebc7-b59c-5e9-3df5",
+      "e652-815c-4106-690d"
+    ],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Shadowseer",
+        "Values": {
+          "M": "8\"",
+          "T": "3",
+          "SV": "6+",
+          "W": "4",
+          "LD": "6+",
+          "OC": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "profile_59bd-21b9-e06f-7475",
+    "Name": "Troupe Master",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "c324-e193-e23c-7d2e": "Battle Focus",
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "10d8-3547-47ae-baab": "Disparate Paths",
+      "b783-5813-dfe0-aca5": "Flip Belt",
+      "dc70-ee78-7464-04e6": "Travelling Players",
+      "37f9-39ea-7481-49a6": "Invulnerable Save",
+      "f892-e9fd-e9cb-c309": "Choreographer of War",
+      "6a66-66c0-9d13-46c9": "Cegorach’s Favour:"
+    },
+    "EquipmentIds": [
+      "fd90-76d2-5529-5fd4",
+      "c28-58c8-c736-43fd",
+      "a03f-638a-8469-18fb",
+      "c905-e649-cf4a-149d",
+      "31fb-aecc-7a85-be67"
+    ],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Troupe Master",
+        "Values": {
+          "M": "8\"",
+          "T": "3",
+          "SV": "6+",
+          "W": "4",
+          "LD": "6+",
+          "OC": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "profile_1760703015344",
+    "Name": "Troupe",
+    "RuleIds": {},
+    "EquipmentIds": [
+      "3abf-3f3b-4094-b69b"
+    ],
+    "Statlines": [
+      {
+        "Name": "New Statline",
+        "Values": {
+          "M": "8\"",
+          "T": "3",
+          "SV": "6+",
+          "W": "1",
+          "LD": "6+",
+          "OC": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "profile_d25d-2a63-d6f2-b7",
+    "Name": "Skyweavers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "c324-e193-e23c-7d2e": "Battle Focus",
+      "10d8-3547-47ae-baab": "Disparate Paths"
+    },
+    "EquipmentIds": [
+      "4bd2-ee10-c292-3d3c",
+      "cdf6-7b38-a2ce-2ad8",
+      "f8f-d5dd-e0cf-5cec",
+      "c7ce-9672-521-696",
+      "5e54-8910-ae1-1a8f"
+    ],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Skyweavers",
+        "Values": {
+          "M": "14\"",
+          "T": "4",
+          "SV": "4+",
+          "W": "3",
+          "LD": "6+",
+          "OC": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "60",
+        "length": "60"
+      }
+    }
+  },
+  {
+    "Id": "profile_f7-500d-52ff-e195",
+    "Name": "Starweaver",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "b68a-5ded-65ac-98c": "Deadly Demise",
+      "13b2-6518-dab3-7ea1": "Firing Deck",
+      "c324-e193-e23c-7d2e": "Battle Focus",
+      "10d8-3547-47ae-baab": "Disparate Paths",
+      "4f79-7213-66da-1fe5": "Invulnerable Save",
+      "da0b-721f-bea-6a36": "Rapid Embarkation"
+    },
+    "EquipmentIds": [
+      "f79b-a7f3-a0af-4461",
+      "5e54-8910-ae1-1a8f"
+    ],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Starweaver",
+        "Values": {
+          "M": "14\"",
+          "T": "6",
+          "SV": "4+",
+          "W": "6",
+          "LD": "6+",
+          "OC": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "65",
+        "length": "65"
+      }
     }
   }
 ]
