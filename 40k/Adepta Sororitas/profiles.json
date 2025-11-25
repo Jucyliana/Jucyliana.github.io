@@ -946,8 +946,8 @@
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "120",
-        "length": "92"
+        "width": "92",
+        "length": "120"
       }
     }
   },
@@ -1023,47 +1023,6 @@
     }
   },
   {
-    "Id": "profile_5840-8104-6a94-cf44",
-    "Name": "Repressor [Legends]",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "7ef7-dca6-e2ea-ecc8": "Acts of Faith",
-      "13b2-6518-dab3-7ea1": "Firing Deck",
-      "b68a-5ded-65ac-98c": "Deadly Demise",
-      "9627-db7d-202c-4bfb": "Transport",
-      "69f8-eb07-92c6-ee7a": "Invulnerable Save",
-      "2ef3-61bf-fe5-434c": "Emergency Combat Embarkation"
-    },
-    "EquipmentIds": [
-      "214c-3b92-3367-a74e",
-      "5c8f-4727-31c9-c590",
-      "89b9-db4e-224f-961c"
-    ],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Repressor [Legends]",
-        "Values": {
-          "M": "12\"",
-          "T": "10",
-          "SV": "3+",
-          "W": "12",
-          "LD": "7+",
-          "OC": "2"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    }
-  },
-  {
     "Id": "profile_7653-2b47-a053-0e2f",
     "Name": "Canoness with Jump Pack",
     "Attributes": {},
@@ -1090,117 +1049,6 @@
           "T": "3",
           "SV": "3+",
           "W": "3",
-          "LD": "7+",
-          "OC": "1"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    }
-  },
-  {
-    "Id": "profile_e51b-eb44-c0c3-780",
-    "Name": "Crusaders [Legends]",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "7ef7-dca6-e2ea-ecc8": "Acts of Faith",
-      "3a47-84c9-767e-fe13": "Spiritual Fortitude",
-      "ed35-bc75-d910-59f1": "Attached Unit",
-      "3dc2-22d4-2748-a419": "Invulnerable Save"
-    },
-    "EquipmentIds": [
-      "ccee-7c1f-8c00-d9e9"
-    ],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Crusaders [Legends]",
-        "Values": {
-          "M": "6\"",
-          "T": "3",
-          "SV": "3+",
-          "W": "2",
-          "LD": "7+",
-          "OC": "1"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    }
-  },
-  {
-    "Id": "profile_a02f-dc40-2cbe-88a8",
-    "Name": "Battle Sanctum [Legends]",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "7ef7-dca6-e2ea-ecc8": "Acts of Faith",
-      "b68a-5ded-65ac-98c": "Deadly Demise",
-      "e082-93e0-86d5-1129": "Consecrated Ground",
-      "1e64-6be4-df39-120c": "Holy Cover"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Battle Sanctum [Legends]",
-        "Values": {
-          "M": "-",
-          "T": "11",
-          "SV": "3+",
-          "W": "20",
-          "LD": "7+",
-          "OC": "0"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "32",
-        "length": "32"
-      }
-    }
-  },
-  {
-    "Id": "profile_9e25-e3a6-da51-2d2e",
-    "Name": "Celestian Sacresant Aveline [Legends]",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "9bf4-280f-bbe2-6fbb": "Feel No Pain",
-      "a8a0-8fe7-898-e0f3": "Lone Operative",
-      "7ef7-dca6-e2ea-ecc8": "Acts of Faith",
-      "2735-639c-b63b-bb44": "Invulnerable Save",
-      "946d-6991-50ea-72c1": "Instrument of the Emperor's Wrath",
-      "758b-f18b-98a9-0fe4": "Daemonbreaker"
-    },
-    "EquipmentIds": [
-      "8749-8e4f-7ad6-3adb"
-    ],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Celestian Sacresant Aveline [Legends]",
-        "Values": {
-          "M": "6\"",
-          "T": "3",
-          "SV": "3+",
-          "W": "4",
           "LD": "7+",
           "OC": "1"
         },
@@ -1392,6 +1240,96 @@
           "W": "7+",
           "LD": "1",
           "OC": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "32",
+        "length": "32"
+      }
+    }
+  },
+  {
+    "Id": "profile_1764063371512",
+    "Name": "Celestian Sacresants",
+    "RuleIds": {
+      "7ef7-dca6-e2ea-ecc8": "Acts of Faith",
+      "932f-b171-4eea-76a1": "Sworn Protectors",
+      "a1d2-31fe-75da-858c": "Invulnerable save"
+    },
+    "EquipmentIds": [
+      "848f-9f22-fb2-ef07",
+      "2d0c-378a-b3d4-1cc9",
+      "1456-cb87-f320-1136",
+      "960b-e163-afa5-d38d",
+      "373e-f2c4-91b5-61e8",
+      "3f18-fd2f-af12-7f5f",
+      "d01-43c6-1de1-c3ec",
+      "c385-8236-9751-678d"
+    ],
+    "Statlines": [
+      {
+        "Name": "Celestian Sacresants",
+        "Values": {
+          "M": "6\"",
+          "T": "3",
+          "SV": "3+",
+          "W": "1",
+          "LD": "7+",
+          "OC": "1"
+        },
+        "RuleIds": {
+          "a1d2-31fe-75da-858c": "Invulnerable save"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "32",
+        "length": "32"
+      }
+    }
+  },
+  {
+    "Id": "profile_1764063526617",
+    "Name": "Dominion Squad",
+    "RuleIds": {
+      "ada6-bac1-ffe0-d6f7": "Scouts",
+      "7ef7-dca6-e2ea-ecc8": "Acts of Faith",
+      "297a-b626-a0c5-a84b": "Cherub",
+      "7a52-508a-d0da-2099": "Righteous Awareness",
+      "ee6b-50fc-3b24-6884": "Simulacrum Imperialis",
+      "a1d2-31fe-75da-858c": "Invulnerable save"
+    },
+    "EquipmentIds": [
+      "e0e5-7613-e0a6-b5c9",
+      "848f-9f22-fb2-ef07",
+      "f772-8828-ae5e-80ca",
+      "e460-24a9-8d8-37be",
+      "d78a-ed1b-6baf-b802",
+      "2d0c-378a-b3d4-1cc9",
+      "9101-f21a-dab0-d068",
+      "1456-cb87-f320-1136",
+      "c87a-f537-456c-ee5a",
+      "746a-c1ea-2929-a835",
+      "76cb-6a13-b9a7-912f",
+      "7500-9e8-86a1-75cc",
+      "118-481d-149d-78ab"
+    ],
+    "Statlines": [
+      {
+        "Name": "Dominion Squad",
+        "Values": {
+          "M": "6\"",
+          "T": "3",
+          "SV": "3+",
+          "W": "1",
+          "LD": "7+",
+          "OC": "1"
         },
         "RuleIds": {}
       }
