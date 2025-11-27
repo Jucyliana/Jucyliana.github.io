@@ -1,0 +1,856 @@
+[
+  {
+    "Id": "283e-2aaa-390b-d7a8",
+    "Name": "Artificer Crozius",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Artificer Crozius",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "84d8-bf12-1aa8-a21c",
+    "Name": "➤ Plasma Pistol - Supercharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Plasma Pistol - Supercharge",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "5a7f-a6fe-4efc-5a7d",
+    "Name": "➤ Plasma Pistol - Standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Plasma Pistol - Standard",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "1d38-e7de-aae0-1f0e",
+    "Name": "Close Combat Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Close Combat Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "1",
+          "WS": "4+",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "c3e-6082-7fab-f709",
+    "Name": "➤ Sword of the High Marshals - Sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Sword of the High Marshals - Sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "12",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-3",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f42f-4480-b003-9f57",
+    "Name": "➤ Sword of the High Marshals - Strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Sword of the High Marshals - Strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "679c-4453-866f-c5bd",
+    "Name": "Ferocity",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Ferocity",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "BS": "2+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "e22b-3d78-b0d2-f2b0",
+    "Name": "Master-crafted Power Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "d1d1-611e-5191-1095": "LETHAL HITS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6b66-6f8e-2809-dfea",
+    "Name": "Neophyte Firearm",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Neophyte Firearm",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "62bd-9f6-bc09-5fd",
+    "Name": "Pyre Pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pyre Pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "BS": "N/A",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "IGNORES COVER",
+          "8bf7-8812-923d-29e4": "PISTOL",
+          "5edf-d619-23e0-9b56": "TORRENT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4dbf-b3ea-afac-a26d",
+    "Name": "Thunder Hammer",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Thunder Hammer",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "bdbc-9616-ead8-e35a",
+    "Name": "Master-crafted Power Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "d1d1-611e-5191-1095": "LETHAL HITS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6f69-50a1-37ef-b309",
+    "Name": "Astartes Chainsword",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Astartes Chainsword",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9954-2c3a-9c2c-622b",
+    "Name": "Twin Lightning Claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin Lightning Claws",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "c473-2abf-cc0c-c6d3",
+    "Name": "➤ Black Sword - Strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Black Sword - Strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "7295-10de-849b-dfa",
+    "Name": "➤ Black Sword - Sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Black Sword - Sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "404-2bdc-5618-d439",
+    "Name": "Combat Knife",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Combat Knife",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "290e-7a78-ba7c-64ec",
+    "Name": "Astartes Shotgun",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Astartes Shotgun",
+        "Values": {
+          "Range": "18",
+          "A": "2",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4999-94ef-7244-094b",
+    "Name": "Twin Lightning Claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin Lightning Claws",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "fc93-530e-f627-6cdf",
+    "Name": "Lancer Laser Destroyer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Lancer Laser Destroyer",
+        "Values": {
+          "Range": "72\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "14",
+          "AP": "-4",
+          "D": "D6+3"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "4dd0-ab3d-784d-3be1",
+    "Name": "Tempest Bolter",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Tempest Bolter",
+        "Values": {
+          "Range": "24\"",
+          "A": "4",
+          "BS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "d43b-4208-d398-1437",
+    "Name": "Twin Heavy Onslaught Gatling Cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin Heavy Onslaught Gatling Cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "12",
+          "BS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "14c1-fd5b-29e4-133a",
+    "Name": "Twin Las-talon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin Las-talon",
+        "Values": {
+          "Range": "36\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3601-616b-f5af-7d29",
+    "Name": "Ironhail Skytalon Array",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Ironhail Skytalon Array",
+        "Values": {
+          "Range": "36\"",
+          "A": "8",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "6777-105d-ff39-6650",
+    "Name": "Las-talon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Las-talon",
+        "Values": {
+          "Range": "36\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "10",
+          "AP": "-3",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "9c9e-a2b8-bdbe-faf6",
+    "Name": "Repulsor Executioner Defensive Array",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Repulsor Executioner Defensive Array",
+        "Values": {
+          "Range": "24\"",
+          "A": "10",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "f97c-adf0-2a83-53d9",
+    "Name": "Heavy Laser Destroyer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy Laser Destroyer",
+        "Values": {
+          "Range": "72\"",
+          "A": "2",
+          "BS": "3+",
+          "S": "16",
+          "AP": "-4",
+          "D": "D6+4"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "HEAVY"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "894a-1434-3d9-9df6",
+    "Name": "Astartes Chainsword",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Astartes Chainsword",
+        "Values": {
+          "Range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "b727-450b-187e-878b",
+    "Name": "Master-crafted Power Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "d1d1-611e-5191-1095": "LETHAL HITS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "646c-a341-f427-32bf",
+    "Name": "Master-crafted Power Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "7",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "d1d1-611e-5191-1095": "LETHAL HITS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3844-3c6d-1d29-d804",
+    "Name": "➤ Plasma Pistol - Standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Plasma Pistol - Standard",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "78bf-495d-5438-d37e",
+    "Name": "➤ Plasma Pistol - Supercharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Plasma Pistol - Supercharge",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8367-374c-f87-c627": "HAZARDOUS",
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "a668-202f-eb7b-4a41",
+    "Name": "Combi-weapon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Combi-weapon",
+        "Values": {
+          "Range": "24\"",
+          "A": "1",
+          "BS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "3800-f335-e510-aaa6",
+    "Name": "Heavy Bolt Pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy Bolt Pistol",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "BS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "PISTOL"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "6915-9e8f-c92b-af24",
+    "Name": "Master-crafted Power Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "EXTRA ATTACKS",
+          "d1d1-611e-5191-1095": "LETHAL HITS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "59dd-b3ba-7aa8-24bb",
+    "Name": "Master-crafted Power Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Master-crafted Power Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "5",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "d1d1-611e-5191-1095": "LETHAL HITS"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "eef1-71cc-bb3b-3016",
+    "Name": "Astartes Chainsword",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Astartes Chainsword",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "e1ef-f585-86bf-e1b7",
+    "Name": "Power Weapon",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power Weapon",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "47a1-c6f6-1ab8-8846",
+    "Name": "Power Fist",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power Fist",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "4626-5942-4884-ce85",
+    "Name": "Power Fist",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Power Fist",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "95d0-6ad1-c741-429f",
+    "Name": "➤ Black Sword - Strike",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Black Sword - Strike",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "8",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {
+          "9143-31ae-e0a6-6007": "PRECISION"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "8757-614c-7dc1-f26a",
+    "Name": "➤ Black Sword - Sweep",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Black Sword - Sweep",
+        "Values": {
+          "Range": "Melee",
+          "A": "10",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  }
+]

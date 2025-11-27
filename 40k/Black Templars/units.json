@@ -1,44 +1,132 @@
 [
   {
-    "Id": "unit_81bd-ce4e-229f-a88",
-    "Name": "Azrael",
+    "Id": "unit_8165-e372-4fd6-3274",
+    "Name": "Chaplain Grimaldus",
     "Attributes": {
-      "category": "Epic Hero",
-      "army": "Dark Angels",
+      "category": "",
+      "army": "Black Templars",
       "height": "",
       "type": "",
       "defaultFront": "1"
     },
     "AttributeLists": {
       "Keywords": [
-        "CHARACTER",
+        "INFANTRY",
+        "IMPERIUM",
+        "TACTICUS"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_28af-dd23-5740-1cab"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_da8a-de9f-1fe7-2513",
+    "Name": "High Marshal Helbrecht",
+    "Attributes": {
+      "category": "Epic Hero",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
         "EPIC HERO",
+        "CHARACTER",
+        "GRENADES",
+        "IMPERIUM",
+        "TACTICUS",
+        "HIGH MARSHAL HELBRECHT",
+        "INFANTRY",
+        "CHAPTER MASTER"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_a76b-7037-be97-29d7"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_8bbe-e7fc-44b7-ed94",
+    "Name": "Crusader Squad",
+    "Attributes": {
+      "category": "Battleline",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "10"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "GRENADES",
+        "IMPERIUM",
+        "TACTICUS",
+        "CRUSADER SQUAD"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_61eb-c914-1768-1649"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_206c-6b4d-4aaa-7e79",
+    "Name": "Sword Brethren Squad",
+    "Attributes": {
+      "category": "Infantry",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "4"
+    },
+    "AttributeLists": {
+      "Keywords": [
         "INFANTRY",
         "GRENADES",
         "IMPERIUM",
         "TACTICUS",
-        "AZRAEL",
-        "CHAPTER MASTER",
-        "DEATHWING"
+        "PRIMARIS SWORD BRETHREN"
       ],
       "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
       ],
       "FullOptions": []
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_dd33-8a4-6ff0-9572"
+      "profile_75ff-c1eb-d48b-8e7d"
     ],
     "OptionListIds": []
   },
   {
-    "Id": "unit_bf62-244b-f9db-6cf",
-    "Name": "Belial",
+    "Id": "unit_ca2f-f408-c1bd-b87f",
+    "Name": "Emperor's Champion",
     "Attributes": {
-      "category": "Epic Hero",
-      "army": "Dark Angels",
+      "category": "Character",
+      "army": "Black Templars",
       "height": "",
       "type": "",
       "defaultFront": "1"
@@ -46,100 +134,237 @@
     "AttributeLists": {
       "Keywords": [
         "CHARACTER",
-        "EPIC HERO",
-        "INFANTRY",
-        "CAPTAIN",
-        "IMPERIUM",
-        "BELIAL",
-        "TERMINATOR",
-        "DEATHWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_7464-e8ef-58f4-8421"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_8f4b-c343-bef5-6779",
-    "Name": "Sammael",
-    "Attributes": {
-      "category": "Epic Hero",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "CHARACTER",
-        "EPIC HERO",
-        "MOUNTED",
-        "CAPTAIN",
-        "IMPERIUM",
-        "FLY",
-        "GRENADES",
-        "SAMMAEL",
-        "RAVENWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_267d-3d21-56c5-9738"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_38c9-66a1-fe60-46af",
-    "Name": "Ezekiel",
-    "Attributes": {
-      "category": "Epic Hero",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "CHARACTER",
-        "EPIC HERO",
         "INFANTRY",
         "GRENADES",
         "IMPERIUM",
-        "PSYKER",
-        "EZEKIEL",
-        "LIBRARIAN",
-        "DEATHWING"
+        "TACTICUS",
+        "EMPEROR'S CHAMPION"
       ],
       "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
       ],
       "FullOptions": []
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_fbc5-9529-2ab7-438c"
+      "profile_f08f-8751-4de9-c0e7"
     ],
     "OptionListIds": []
   },
   {
-    "Id": "unit_9bf9-1e30-e4b4-939c",
-    "Name": "Asmodai",
+    "Id": "unit_2da2-ad08-6057-5a1c",
+    "Name": "Crusader Squad [Legends]",
     "Attributes": {
-      "category": "Epic Hero",
-      "army": "Dark Angels",
+      "category": "Battleline",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "4"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "INFANTRY",
+        "BATTLELINE",
+        "GRENADES",
+        "IMPERIUM",
+        "CRUSADER SQUAD"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_bde4-9118-df58-1912"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_7dec-dc3d-c40a-8ce",
+    "Name": "Gladiator Lancer",
+    "Attributes": {
+      "category": "Vehicle",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "VEHICLE",
+        "IMPERIUM",
+        "SMOKE",
+        "GLADIATOR LANCER"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_526a-783d-a210-1dbf"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_bfb6-4320-74cf-bbda",
+    "Name": "Gladiator Reaper",
+    "Attributes": {
+      "category": "Vehicle",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "SMOKE",
+        "IMPERIUM",
+        "VEHICLE",
+        "GLADIATOR REAPER"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_b941-57ad-bcf2-37f5"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_5704-ffe4-4a53-8789",
+    "Name": "Gladiator Valiant",
+    "Attributes": {
+      "category": "Vehicle",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "VEHICLE",
+        "SMOKE",
+        "IMPERIUM",
+        "GLADIATOR VALIANT"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_f76e-9ea8-22bd-4a67"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_fa27-4bc1-72c9-894f",
+    "Name": "Impulsor",
+    "Attributes": {
+      "category": "Dedicated Transport",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "VEHICLE",
+        "TRANSPORT",
+        "DEDICATED TRANSPORT",
+        "IMPERIUM",
+        "IMPULSOR"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_14d9-b559-444b-245"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_c3e8-3cde-8b39-4b19",
+    "Name": "Repulsor",
+    "Attributes": {
+      "category": "Vehicle",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "VEHICLE",
+        "IMPERIUM",
+        "SMOKE",
+        "REPULSOR",
+        "TRANSPORT"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_b73-610c-92f1-1715"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_a344-192f-aae2-16e5",
+    "Name": "Repulsor Executioner",
+    "Attributes": {
+      "category": "Vehicle",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "VEHICLE",
+        "SMOKE",
+        "IMPERIUM",
+        "TRANSPORT",
+        "REPULSOR EXECUTIONER"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_3d12-9e55-7623-3bbb"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_f151-e676-d3b8-200c",
+    "Name": "Castellan",
+    "Attributes": {
+      "category": "Character",
+      "army": "Black Templars",
       "height": "",
       "type": "",
       "defaultFront": "1"
@@ -147,311 +372,188 @@
     "AttributeLists": {
       "Keywords": [
         "CHARACTER",
-        "EPIC HERO",
         "INFANTRY",
         "GRENADES",
         "IMPERIUM",
-        "ASMODAI",
+        "TACTICUS",
+        "LIEUTENANT",
+        "CASTELLAN"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_4bfd-cacf-68d3-41a3"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_68dd-5f49-4f17-cd84",
+    "Name": "Marshal",
+    "Attributes": {
+      "category": "Character",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "CHARACTER",
+        "INFANTRY",
+        "GRENADES",
+        "IMPERIUM",
+        "TACTICUS",
+        "MARSHAL",
+        "CAPTAIN"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_ac2d-3f07-3f38-5d51"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_ea3d-f2b8-cce7-0762",
+    "Name": "Execrator",
+    "Attributes": {
+      "category": "Character",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "INFANTRY",
+        "CHARACTER",
         "CHAPLAIN",
-        "TACTICUS",
-        "DEATHWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_9cc2-8f0-aec2-5f87"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_15d3-ebc7-d28b-daf4",
-    "Name": "Lion El'Jonson",
-    "Attributes": {
-      "category": "Epic Hero",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "CHARACTER",
-        "EPIC HERO",
-        "MONSTER",
-        "IMPERIUM",
-        "PRIMARCH",
-        "LION EL'JONSON"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_ecde-97eb-5e04-9b43"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_4b0d-45ff-fab3-7472",
-    "Name": "Lazarus",
-    "Attributes": {
-      "category": "Epic Hero",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "CHARACTER",
-        "EPIC HERO",
-        "INFANTRY",
-        "CAPTAIN",
         "GRENADES",
         "IMPERIUM",
-        "LAZARUS",
         "TACTICUS",
-        "DEATHWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_6cfd-4749-b770-d730"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_4f36-6609-efac-baa6",
-    "Name": "Nephilim Jetfighter",
-    "Attributes": {
-      "category": "Vehicle",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "VEHICLE",
-        "FLY",
-        "AIRCRAFT",
-        "IMPERIUM",
-        "NEPHILIM JETFIGHTER",
-        "RAVENWING"
+        "EXECRATOR"
       ],
       "Faction Keywords": [
         "ADEPTUS ASTARTES",
-        "DARK ANGELS"
+        "BLACK TEMPLARS"
       ],
       "FullOptions": []
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_523f-b6c1-31b1-2d68"
+      "profile_3b94-7626-8244-76a7"
     ],
     "OptionListIds": []
   },
   {
-    "Id": "unit_9b3d-e812-4248-522",
-    "Name": "Ravenwing Dark Talon",
-    "Attributes": {
-      "category": "Vehicle",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "IMPERIUM",
-        "FLY",
-        "VEHICLE",
-        "AIRCRAFT",
-        "DARK TALON",
-        "RAVENWING"
-      ],
-      "Faction Keywords": [
-        "ADEPTUS ASTARTES",
-        "DARK ANGELS"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_d259-e373-f7a2-3755"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_b4a0-d2fe-a988-f28b",
-    "Name": "Land Speeder Vengeance",
-    "Attributes": {
-      "category": "Vehicle",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "FLY",
-        "IMPERIUM",
-        "VEHICLE",
-        "LAND SPEEDER VENGEANCE",
-        "RAVENWING"
-      ],
-      "Faction Keywords": [
-        "ADEPTUS ASTARTES",
-        "DARK ANGELS"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_3d7a-dd85-b382-c4cb"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_152b-a271-df2b-21a9",
-    "Name": "Ravenwing Darkshroud",
-    "Attributes": {
-      "category": "Vehicle",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "DARKSHROUD",
-        "IMPERIUM",
-        "FLY",
-        "VEHICLE",
-        "RAVENWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_e2ad-7d12-d9ea-d35e"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_212d-f302-aaaf-5c12",
-    "Name": "Ravenwing Black Knights",
-    "Attributes": {
-      "category": "Mounted",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "MOUNTED",
-        "GRENADES",
-        "IMPERIUM",
-        "RAVENWING BLACK KNIGHTS",
-        "RAVENWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_3447-e35d-eb8-c856"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_e87d-f173-88b9-aa84",
-    "Name": "Ravenwing Command Squad",
+    "Id": "unit_dca2-b12f-d1a9-5822",
+    "Name": "Crusade Ancient",
     "Attributes": {
       "category": "Character",
-      "army": "Dark Angels",
+      "army": "Black Templars",
       "height": "",
       "type": "",
       "defaultFront": "1"
     },
     "AttributeLists": {
       "Keywords": [
-        "MOUNTED",
+        "CHARACTER",
+        "INFANTRY",
         "GRENADES",
+        "ANCIENT",
+        "TACTICUS",
         "IMPERIUM",
-        "RAVENWING COMMAND SQUAD",
-        "RAVENWING",
-        "CHARACTER"
+        "CRUSADE ANCIENT"
       ],
       "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
       ],
       "FullOptions": []
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_f80c-d861-9c-8899"
+      "profile_6bc5-3283-add8-837e"
     ],
     "OptionListIds": []
   },
   {
-    "Id": "unit_a6cc-9a65-dbf1-71b0",
-    "Name": "Deathwing Knights",
+    "Id": "unit_8525-2de1-14fd-c1f5",
+    "Name": "Land Raider Crusader",
     "Attributes": {
-      "category": "Infantry",
-      "army": "Dark Angels",
+      "category": "Vehicle",
+      "army": "Black Templars",
       "height": "",
       "type": "",
       "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "Keywords": [
+        "VEHICLE",
+        "LAND RAIDER CRUSADER",
+        "SMOKE",
+        "IMPERIUM",
+        "TRANSPORT",
+        "GRENADES",
+        "LAND RAIDER"
+      ],
+      "Faction Keywords": [
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
+      ],
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "ProfileIds": [
+      "profile_94e4-1047-6130-22f2"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_a499-86fa-4d0c-b06d",
+    "Name": "Sternguard Veteran Squad",
+    "Attributes": {
+      "category": "Infantry",
+      "army": "Black Templars",
+      "height": "",
+      "type": "",
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "Keywords": [
         "INFANTRY",
+        "GRENADES",
         "IMPERIUM",
-        "DEATHWING KNIGHTS",
-        "TERMINATOR",
-        "DEATHWING"
+        "TACTICUS",
+        "STERNGUARD VETERAN SQUAD"
       ],
       "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
+        "BLACK TEMPLARS"
       ],
       "FullOptions": []
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_5e70-a1d4-9f2f-2414"
+      "profile_a834-e48d-9398-844a"
     ],
     "OptionListIds": []
   },
   {
-    "Id": "unit_6135-d842-8e61-889d",
-    "Name": "Deathwing Terminator Squad",
+    "Id": "unit_80ad-6e62-65e3-e667",
+    "Name": "Terminator Squad",
     "Attributes": {
       "category": "Infantry",
-      "army": "Dark Angels",
+      "army": "Black Templars",
       "height": "",
       "type": "",
       "defaultFront": "5"
@@ -460,89 +562,27 @@
       "Keywords": [
         "INFANTRY",
         "IMPERIUM",
-        "DEATHWING TERMINATOR SQUAD",
         "TERMINATOR",
-        "DEATHWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_960d-3443-a603-e0"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_f34-e2f9-c98e-1916",
-    "Name": "Inner Circle Companions",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "INFANTRY",
-        "IMPERIUM",
-        "TACTICUS",
-        "INNER CIRCLE COMPANIONS",
-        "DEATHWING"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_7b20-3d1f-c252-30c5"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_a2b6-e35-67a8-d76e",
-    "Name": "Ravenwing Talonmaster [Legends]",
-    "Attributes": {
-      "category": "Character",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "VEHICLE",
-        "CHARACTER",
-        "FLY",
-        "RAVENWING",
-        "RAVENWING TALONMASTER",
-        "IMPERIUM"
+        "TERMINATOR SQUAD"
       ],
       "Faction Keywords": [
         "ADEPTUS ASTARTES",
-        "DARK ANGELS"
+        "BLACK TEMPLARS"
       ],
       "FullOptions": []
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_b1c3-7c62-ba9d-ca21"
+      "profile_cfe6-3327-a0eb-b81b"
     ],
     "OptionListIds": []
   },
   {
-    "Id": "unit_ebd0-6939-6305-6d16",
-    "Name": "Deathwing Strikemaster [Legends]",
+    "Id": "unit_85b9-b304-a55c-30ef",
+    "Name": "Emperor's Champion (Anointed)",
     "Attributes": {
       "category": "Character",
-      "army": "Dark Angels",
+      "army": "Black Templars",
       "height": "",
       "type": "",
       "defaultFront": "1"
@@ -551,51 +591,20 @@
       "Keywords": [
         "CHARACTER",
         "INFANTRY",
+        "GRENADES",
         "IMPERIUM",
-        "DEATHWING",
-        "DEATHWING STRIKEMASTER",
-        "TERMINATOR",
-        "LIEUTENANT"
+        "TACTICUS",
+        "EMPEROR'S CHAMPION"
       ],
       "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
+        "ADEPTUS ASTARTES",
+        "BLACK TEMPLARS"
       ],
       "FullOptions": []
     },
     "RuleIds": {},
     "ProfileIds": [
-      "profile_a088-7788-c1aa-c33a"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_48fb-ebd6-dd17-729b",
-    "Name": "Deathwing Command Squad [Legends]",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Dark Angels",
-      "height": "",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "INFANTRY",
-        "IMPERIUM",
-        "DEATHWING",
-        "DEATHWING COMMAND SQUAD",
-        "TERMINATOR"
-      ],
-      "Faction Keywords": [
-        "DARK ANGELS",
-        "ADEPTUS ASTARTES"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_3e84-a6d-dad3-b13e"
+      "profile_a82d-7fe9-3faa-8279"
     ],
     "OptionListIds": []
   }
