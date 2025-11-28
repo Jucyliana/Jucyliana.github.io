@@ -134,7 +134,8 @@
           "D": "2"
         },
         "RuleIds": {
-          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "4111-82e3-9444-e942": "Anti-"
         }
       }
     ]
@@ -261,7 +262,9 @@
           "AP": "-1",
           "D": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -302,7 +305,8 @@
           "D": "3"
         },
         "RuleIds": {
-          "9143-31ae-e0a6-6007": "PRECISION"
+          "9143-31ae-e0a6-6007": "PRECISION",
+          "4111-82e3-9444-e942": "Anti-"
         }
       }
     ]
@@ -485,7 +489,10 @@
           "AP": "0",
           "D": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-",
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -563,7 +570,9 @@
           "AP": "-1",
           "D": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -668,7 +677,9 @@
           "D": "1"
         },
         "RuleIds": {
-          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "4111-82e3-9444-e942": "Anti-",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
         }
       }
     ]
@@ -850,6 +861,743 @@
           "D": "1"
         },
         "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764333232768",
+    "Name": "Bolt pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Bolt pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "Pistol"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764333385769",
+    "Name": "Absolvor bolt pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Absolvor bolt pistol",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "Pistol"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764333473891",
+    "Name": "Crozius arcanum",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Crozius arcanum",
+        "Values": {
+          "Range": "Melee",
+          "A": "5",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764333690663",
+    "Name": "Bolt rifle",
+    "Statlines": [
+      {
+        "Name": "Bolt rifle",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "Assault",
+          "1202-10a8-78e9-4c67": "Heavy"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764333773012",
+    "Name": "Pyreblaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pyreblaster",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "WS": "N/A",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "Ignores Cover",
+          "5edf-d619-23e0-9b56": "Torrent"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764333978350",
+    "Name": "➤ Bellicatus missile array – frag",
+    "Type": "Ranged weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Bellicatus missile array – frag",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334028004",
+    "Name": "➤ Bellicatus missile array – Icarus",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Bellicatus missile array – Icarus",
+        "Values": {
+          "Range": "48\"",
+          "A": "D3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334069072",
+    "Name": "➤ Bellicatus missile array – krak",
+    "Statlines": [
+      {
+        "Name": "➤ Bellicatus missile array – krak",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334129107",
+    "Name": "Fragstorm grenade launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fragstorm grenade launcher",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334196569",
+    "Name": "Storm bolter",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Storm bolter",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334241909",
+    "Name": "Multi-melta",
+    "Type": "Ranged weapon",
+    "Statlines": [
+      {
+        "Name": "Multi-melta",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "7cdb-fb99-44a9-8849": "Melta"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334285177",
+    "Name": "Armoured hull",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured hull",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334340151",
+    "Name": "Ironhail heavy stubber ",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Ironhail heavy stubber ",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334467135",
+    "Name": "Icarus rocket pod",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Icarus rocket pod",
+        "Values": {
+          "Range": "24\"",
+          "A": "D3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334784756",
+    "Name": "Hunter-killer missile",
+    "Statlines": [
+      {
+        "Name": "Hunter-killer missile",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "WS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "cd26-1611-860a-91e4": "One Shot"
+        }
+      }
+    ],
+    "Type": "Ranged Weapon"
+  },
+  {
+    "Id": "equipment_1764334842347",
+    "Name": "Hurricane bolter",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Hurricane bolter",
+        "Values": {
+          "Range": "24\"",
+          "A": "6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "c5c8-8b58-b8b6-7786": "Rapid Fire",
+          "cf93-ad4d-2f08-a79d": "Twin-linked"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334891325",
+    "Name": "Twin assault cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin assault cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "cf93-ad4d-2f08-a79d": "Twin-linked"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764334941890",
+    "Name": "Armoured tracks",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Armoured tracks",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "4+",
+          "S": "8",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335045455",
+    "Name": "Heavy onslaught gatling cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy onslaught gatling cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "12",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335081371",
+    "Name": "Hunter-slayer missile",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Hunter-slayer missile",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "WS": "2+",
+          "S": "14",
+          "AP": "-3",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "4ddd-4e29-acdd-5e6d": "Indirect Fire",
+          "cd26-1611-860a-91e4": "One Shot"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335132398",
+    "Name": "Repulsor defensive array",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Repulsor defensive array",
+        "Values": {
+          "Range": "24\"",
+          "A": "18",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335169793",
+    "Name": "Twin heavy bolter",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin heavy bolter",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "WS": "3+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits",
+          "cf93-ad4d-2f08-a79d": "Twin-linked"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335278242",
+    "Name": "Twin lascannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin lascannon",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "WS": "3+",
+          "S": "12",
+          "AP": "-3",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "cf93-ad4d-2f08-a79d": "Twin-linked"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335456987",
+    "Name": "➤ Macro plasma incinerator – standard",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Macro plasma incinerator – standard",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+1",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335497380",
+    "Name": "➤ Macro plasma incinerator – supercharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Macro plasma incinerator – supercharge",
+        "Values": {
+          "Range": "36\"",
+          "A": "D6+1",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "3"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "8367-374c-f87-c627": "Hazardous"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335565895",
+    "Name": "Twin Icarus ironhail heavy stubber",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Twin Icarus ironhail heavy stubber",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire",
+          "cf93-ad4d-2f08-a79d": "Twin-linked"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335810633",
+    "Name": "Pyrecannon",
+    "Statlines": [
+      {
+        "Name": "Pyrecannon",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6+1",
+          "WS": "N/A",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "Ignores Cover",
+          "5edf-d619-23e0-9b56": "Torrent"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335886167",
+    "Name": "Sternguard bolt pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Sternguard bolt pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "8bf7-8812-923d-29e4": "Pistol"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764335934881",
+    "Name": "Sternguard bolt rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Sternguard bolt rifle",
+        "Values": {
+          "Range": "24\"",
+          "A": "2",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "fc8a-8c24-bae9-cc1c": "Assault",
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "1202-10a8-78e9-4c67": "Heavy",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764336004493",
+    "Name": "Sternguard heavy bolter",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Sternguard heavy bolter",
+        "Values": {
+          "Range": "36\"",
+          "A": "3",
+          "WS": "4+",
+          "S": "5",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds",
+          "1202-10a8-78e9-4c67": "Heavy",
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764336207317",
+    "Name": "Chainfist",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Chainfist",
+        "Values": {
+          "Range": "Melee",
+          "A": "3",
+          "WS": "4+",
+          "S": "8",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764336264468",
+    "Name": "➤ Cyclone missile launcher – frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclone missile launcher – frag",
+        "Values": {
+          "Range": "36\"",
+          "A": "2D6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764336304452",
+    "Name": "➤ Cyclone missile launcher – krak",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclone missile launcher – krak",
+        "Values": {
+          "Range": "36\"",
+          "A": "2",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764336345784",
+    "Name": "Heavy flamer ",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy flamer ",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "WS": "N/A",
+          "S": "5",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "Ignores Cover",
+          "5edf-d619-23e0-9b56": "Torrent"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764336431916",
+    "Name": "Assault cannon",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Assault cannon",
+        "Values": {
+          "Range": "24\"",
+          "A": "6",
+          "WS": "3+",
+          "S": "6",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "be1e-ac8e-1e2c-3528": "Devastating Wounds"
+        }
       }
     ]
   }
