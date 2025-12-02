@@ -1,5 +1,113 @@
 [
   {
+    "Id": "unit_1764674845122",
+    "Name": "Voidweaver",
+    "Attributes": {
+      "category": "Vehicle",
+      "army": "Drukhari",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": [],
+      "Keywords": [
+        "VEHICLE",
+        "AELDARI",
+        "FLY",
+        "VOIDWEAVER"
+      ],
+      "Keywords2": []
+    },
+    "ProfileIds": [
+      "profile_1764674703173"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_1764674239682",
+    "Name": "Scourges with Shardcarbines",
+    "Attributes": {
+      "category": "Infantry",
+      "army": "Drukhari",
+      "height": "",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [],
+      "Keywords": [
+        "INFANTRY",
+        "FLY",
+        "GRENADES",
+        "JUMP PACK",
+        "AELDARI",
+        "BLADES FOR HIRE",
+        "SCOURGES",
+        "SCOURGES WITH SHARDCARBINES"
+      ],
+      "Keywords2": []
+    },
+    "ProfileIds": [
+      "profile_1764674064878"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_1764673973289",
+    "Name": "Scourges with Heavy Weapons",
+    "Attributes": {
+      "category": "Infantry",
+      "army": "Drukhari",
+      "height": "",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [],
+      "Keywords": [
+        "INFANTRY",
+        "FLY",
+        "GRENADES",
+        "JUMP PACK",
+        "AELDARI",
+        "BLADES FOR HIRE",
+        "SCOURGES",
+        "SCOURGES WITH HEAVY WEAPONS"
+      ],
+      "Keywords2": []
+    },
+    "ProfileIds": [
+      "profile_1764673685264"
+    ],
+    "OptionListIds": []
+  },
+  {
+    "Id": "unit_1764670217437",
+    "Name": "Death Jester",
+    "Attributes": {
+      "category": "Character",
+      "army": "Drukhari",
+      "height": "",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": [],
+      "Keywords": [
+        "INFANTRY",
+        "CHARACTER",
+        "AELDARI",
+        "DEATH JESTER"
+      ],
+      "Keywords2": []
+    },
+    "ProfileIds": [
+      "profile_1764669965156"
+    ],
+    "OptionListIds": []
+  },
+  {
     "Id": "unit_1761815633929",
     "Name": "Hand of the Archon",
     "Attributes": {
@@ -110,33 +218,6 @@
     "OptionListIds": []
   },
   {
-    "Id": "unit_f99a-af49-64c0-9bed",
-    "Name": "Beastmaster",
-    "Attributes": {
-      "category": "Character",
-      "army": "Drukhari",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "AELDARI",
-        "BEAST",
-        "CHARACTER"
-      ],
-      "Faction Keywords": [
-        "DRUKHARI"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_bbc5-ca6d-1927-86e7"
-    ],
-    "OptionListIds": []
-  },
-  {
     "Id": "unit_a5d3-e21b-bf13-a952",
     "Name": "Cronos",
     "Attributes": {
@@ -191,34 +272,6 @@
     "RuleIds": {},
     "ProfileIds": [
       "profile_bb4b-1104-1315-34b4"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_d729-7e1f-93a9-b1c5",
-    "Name": "Grotesques",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Drukhari",
-      "height": "",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "GROTESQUES",
-        "AELDARI",
-        "HAEMONCULUS COVENS",
-        "INFANTRY"
-      ],
-      "Faction Keywords": [
-        "DRUKHARI"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_b9a6-3a73-479-c19e"
     ],
     "OptionListIds": []
   },
@@ -512,36 +565,6 @@
     "OptionListIds": []
   },
   {
-    "Id": "unit_7c93-baac-e65f-58bd",
-    "Name": "Scourges",
-    "Attributes": {
-      "category": "Infantry",
-      "army": "Drukhari",
-      "height": "",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "SCOURGES",
-        "AELDARI",
-        "FLY",
-        "GRENADES",
-        "INFANTRY",
-        "JUMP PACK"
-      ],
-      "Faction Keywords": [
-        "DRUKHARI"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_d335-77-e81a-3057"
-    ],
-    "OptionListIds": []
-  },
-  {
     "Id": "unit_b5a9-c802-10f0-6768",
     "Name": "Succubus",
     "Attributes": {
@@ -596,37 +619,6 @@
     "RuleIds": {},
     "ProfileIds": [
       "profile_5755-2654-989f-7711"
-    ],
-    "OptionListIds": []
-  },
-  {
-    "Id": "unit_76c4-e2ba-e247-560e",
-    "Name": "Urien Rakarth",
-    "Attributes": {
-      "category": "Epic Hero",
-      "army": "Drukhari",
-      "height": "",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "Keywords": [
-        "URIEN RAKARTH",
-        "HAEMONCULUS COVENS",
-        "AELDARI",
-        "HAEMONCULUS",
-        "CHARACTER",
-        "EPIC HERO",
-        "INFANTRY"
-      ],
-      "Faction Keywords": [
-        "DRUKHARI"
-      ],
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "ProfileIds": [
-      "profile_94f6-6c60-9b1f-9437"
     ],
     "OptionListIds": []
   },
