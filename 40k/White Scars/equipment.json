@@ -58,7 +58,8 @@
           "D": "2"
         },
         "RuleIds": {
-          "2ebc-abdf-8129-6c57": "LANCE"
+          "2ebc-abdf-8129-6c57": "LANCE",
+          "4111-82e3-9444-e942": "Anti-"
         }
       }
     ]
@@ -79,6 +80,48 @@
           "D": "1"
         },
         "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764763557376",
+    "Name": "Bolt pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Bolt pistol",
+        "Values": {
+          "Range": "12\"",
+          "A": "1",
+          "WS": "2+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "Pistol"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1764763653952",
+    "Name": "Heavy bolt pistol",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Heavy bolt pistol",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "WS": "2+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "8bf7-8812-923d-29e4": "Pistol"
+        }
       }
     ]
   }
