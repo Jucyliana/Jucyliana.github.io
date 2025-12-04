@@ -1,41 +1,5 @@
 [
   {
-    "Id": "profile_477-2ff3-4bba-5a09",
-    "Name": "Aegis Defence Line",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "fa4e-5ac8-11a6-78d2": "Fortification",
-      "2a04-449d-87ed-e7b4": "Emplacement Platform",
-      "a11b-d88f-224b-7bd7": "Reinforced Cover",
-      "6d15-ae73-bc60-165b": "Defence Line",
-      "c620-2ef7-d09d-1ed3": "Deployment"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Aegis Defence Line",
-        "Values": {
-          "M": "-",
-          "T": "12",
-          "SV": "2+",
-          "W": "10",
-          "LD": "7+",
-          "OC": "0"
-        },
-        "RuleIds": {}
-      }
-    ],
-    "Base": {
-      "Shape": "round",
-      "Size": {
-        "width": "0",
-        "length": "0"
-      }
-    }
-  },
-  {
     "Id": "profile_f691-d40a-5518-82bc",
     "Name": "Armoured Sentinels",
     "Attributes": {},
@@ -2733,6 +2697,53 @@
       "Size": {
         "width": "0",
         "length": "0"
+      }
+    }
+  },
+  {
+    "Id": "profile_1764850127531",
+    "Name": "Tempestus Scions",
+    "RuleIds": {
+      "7cb5-dd6b-dd87-ad3b": "Deep Strike",
+      "ee87-b3c6-eb20-4d7": "Storm Troopers"
+    },
+    "EquipmentIds": [
+      "3ef3-1763-2156-5a1a",
+      "70c9-9a83-2af8-db7f",
+      "bd0f-b111-e732-a96a",
+      "2cf8-3625-67ba-d5f4",
+      "11ac-148e-401a-f44a",
+      "d1c6-270-1737-1ba9",
+      "e019-8167-2b5-931e",
+      "1ee9-5cc2-1ea4-ce6",
+      "8197-5399-9130-13f2",
+      "df1b-6c7b-70a8-c492",
+      "b5f3-b2a8-e663-a253",
+      "e365-f24d-e4cd-74dd",
+      "66e4-5cb3-848b-114b",
+      "270f-e247-55f9-c650",
+      "0fbb-eb71-5dc3-e604",
+      "3032-3f4c-f0f4-772e"
+    ],
+    "Statlines": [
+      {
+        "Name": "Tempestus Scions",
+        "Values": {
+          "M": "6\"",
+          "T": "3",
+          "SV": "4+",
+          "W": "1",
+          "LD": "7+",
+          "OC": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "25",
+        "length": "25"
       }
     }
   }
