@@ -606,7 +606,8 @@
       "bec5-4288-34a6-ccfa": "Stealth",
       "ac1b-7bc9-3778-09a1": "Prioritised Efficiency",
       "rule_1762422608355": "Grudge-fuelled Fortitude",
-      "rule_1762422623740": "Unhinged Vengeance"
+      "rule_1762422623740": "Unhinged Vengeance",
+      "a1d2-31fe-75da-858c": "Invulnerable save"
     },
     "EquipmentIds": [
       "aa24-6c5a-3215-963a",
@@ -748,6 +749,78 @@
       "Size": {
         "width": "40",
         "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "profile_1765530787724",
+    "Name": "Cthonian Earthshakers",
+    "RuleIds": {
+      "ac1b-7bc9-3778-09a1": "Prioritised Efficiency",
+      "rule_1765530821764": "Destabilising Quakes",
+      "rule_1765530840715": "Geomantic Hunters"
+    },
+    "EquipmentIds": [
+      "aa24-6c5a-3215-963a",
+      "equipment_1762427984406",
+      "equipment_1762428039138",
+      "equipment_1762428179556"
+    ],
+    "Statlines": [
+      {
+        "Name": "Cthonian Earthshakers",
+        "Values": {
+          "M": "4\"",
+          "T": "6",
+          "SV": "4+",
+          "W": "6",
+          "LD": "7+",
+          "OC": "2"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "80",
+        "length": "80"
+      }
+    }
+  },
+  {
+    "Id": "profile_1765531236892",
+    "Name": "Memnyr Strategist",
+    "RuleIds": {
+      "b4dd-3e1f-41cb-218f": "Leader",
+      "a1d2-31fe-75da-858c": "Invulnerable save",
+      "ac1b-7bc9-3778-09a1": "Prioritised Efficiency",
+      "rule_1765531284171": "Computational Mastermind",
+      "rule_1765531298858": "Predictive Guidance"
+    },
+    "EquipmentIds": [
+      "aa24-6c5a-3215-963a",
+      "71e0-9c15-455b-6196"
+    ],
+    "Statlines": [
+      {
+        "Name": "Memnyr Strategist",
+        "Values": {
+          "M": "5\"",
+          "T": "5",
+          "SV": "4+",
+          "W": "4",
+          "LD": "7+",
+          "OC": "1"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "32",
+        "length": "32"
       }
     }
   }
