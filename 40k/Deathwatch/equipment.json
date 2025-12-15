@@ -92,7 +92,8 @@
         },
         "RuleIds": {
           "6c1f-1cf7-ff25-c99e": "BLAST",
-          "1202-10a8-78e9-4c67": "HEAVY"
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
         }
       }
     ]
@@ -198,7 +199,8 @@
         "RuleIds": {
           "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
           "4640-43e7-30b-215a": "IGNORES COVER",
-          "5edf-d619-23e0-9b56": "TORRENT"
+          "5edf-d619-23e0-9b56": "TORRENT",
+          "4111-82e3-9444-e942": "Anti-"
         }
       }
     ]
@@ -281,7 +283,8 @@
           "D": "2"
         },
         "RuleIds": {
-          "1202-10a8-78e9-4c67": "HEAVY"
+          "1202-10a8-78e9-4c67": "HEAVY",
+          "1897-c22c-9597-12b1": "Sustained Hits"
         }
       }
     ]
@@ -407,7 +410,8 @@
           "D": "1"
         },
         "RuleIds": {
-          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
         }
       }
     ]
@@ -809,7 +813,9 @@
           "AP": "-2",
           "D": "2"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
       }
     ]
   },
@@ -1082,7 +1088,8 @@
         "RuleIds": {
           "fc8a-8c24-bae9-cc1c": "ASSAULT",
           "1202-10a8-78e9-4c67": "HEAVY",
-          "d1d1-611e-5191-1095": "LETHAL HITS"
+          "d1d1-611e-5191-1095": "LETHAL HITS",
+          "1897-c22c-9597-12b1": "Sustained Hits"
         }
       }
     ]
@@ -1551,7 +1558,9 @@
           "D": "1"
         },
         "RuleIds": {
-          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS"
+          "be1e-ac8e-1e2c-3528": "DEVASTATING WOUNDS",
+          "4111-82e3-9444-e942": "Anti-",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
         }
       }
     ]
@@ -1574,7 +1583,8 @@
         "RuleIds": {
           "fc8a-8c24-bae9-cc1c": "ASSAULT",
           "8bf7-8812-923d-29e4": "PISTOL",
-          "cf93-ad4d-2f08-a79d": "TWIN-LINKED"
+          "cf93-ad4d-2f08-a79d": "TWIN-LINKED",
+          "1897-c22c-9597-12b1": "Sustained Hits"
         }
       }
     ]
@@ -1817,7 +1827,8 @@
         "RuleIds": {
           "6c1f-1cf7-ff25-c99e": "BLAST",
           "1202-10a8-78e9-4c67": "HEAVY",
-          "d1d1-611e-5191-1095": "LETHAL HITS"
+          "d1d1-611e-5191-1095": "LETHAL HITS",
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
         }
       }
     ]
@@ -1982,7 +1993,327 @@
           "AP": "0",
           "D": "1"
         },
+        "RuleIds": {
+          "c5c8-8b58-b8b6-7786": "Rapid Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795244502",
+    "Name": "➤ Cyclone missile launcher – frag",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclone missile launcher – frag",
+        "Values": {
+          "Range": "36",
+          "A": "2D6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
         "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795300311",
+    "Name": "➤ Cyclone missile launcher – krak",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Cyclone missile launcher – krak",
+        "Values": {
+          "Range": "36\"",
+          "A": "2",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-2",
+          "D": "D6"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795364772",
+    "Name": "➤ Plasma cannon – standard ",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Plasma cannon – standard ",
+        "Values": {
+          "Range": "36\"",
+          "A": "D3",
+          "WS": "3+",
+          "S": "7",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795411139",
+    "Name": "➤ Plasma cannon – supercharge",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Plasma cannon – supercharge",
+        "Values": {
+          "Range": "36\"",
+          "A": "D3",
+          "WS": "3+",
+          "S": "8",
+          "AP": "-3",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "8367-374c-f87-c627": "Hazardous"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795596265",
+    "Name": "Castellan launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Castellan launcher",
+        "Values": {
+          "Range": "36\"!",
+          "A": "D3",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "4ddd-4e29-acdd-5e6d": "Indirect Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795693016",
+    "Name": "Hand flamer",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Hand flamer",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "WS": "N/A",
+          "S": "3",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "Ignores Cover",
+          "8bf7-8812-923d-29e4": "Pistol",
+          "5edf-d619-23e0-9b56": "Torrent"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795834878",
+    "Name": "Pyreblaster",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Pyreblaster",
+        "Values": {
+          "Range": "12\"",
+          "A": "D6",
+          "WS": "N/A",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "Ignores Cover",
+          "5edf-d619-23e0-9b56": "Torrent"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795911724",
+    "Name": "➤ Superfrag rocket launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Superfrag rocket launcher",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6+1",
+          "WS": "4+",
+          "S": "5",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "1202-10a8-78e9-4c67": "Heavy"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765795961966",
+    "Name": "➤ Superfrag rocket launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "➤ Superfrag rocket launcher",
+        "Values": {
+          "Range": "48\"",
+          "A": "1",
+          "WS": "4+",
+          "S": "10",
+          "AP": "-2",
+          "D": "D6+1"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "Heavy"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765796015550",
+    "Name": "Vengor launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Vengor launcher",
+        "Values": {
+          "Range": "48\"",
+          "A": "D6",
+          "WS": "2+",
+          "S": "7",
+          "AP": "-1",
+          "D": "2"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast",
+          "4ddd-4e29-acdd-5e6d": "Indirect Fire"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765796092924",
+    "Name": "Astartes chainsword",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Astartes chainsword",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "3+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765796492001",
+    "Name": "Fragstorm grenade launcher",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Fragstorm grenade launcher",
+        "Values": {
+          "Range": "18\"",
+          "A": "D6",
+          "WS": "3+",
+          "S": "4",
+          "AP": "0",
+          "D": "1"
+        },
+        "RuleIds": {
+          "6c1f-1cf7-ff25-c99e": "Blast"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765796655510",
+    "Name": "Melta rifle",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Melta rifle",
+        "Values": {
+          "Range": "18\"",
+          "A": "1",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "Heavy",
+          "7cdb-fb99-44a9-8849": "Melta"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765796704563",
+    "Name": "Multi-melta",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Multi-melta",
+        "Values": {
+          "Range": "18\"",
+          "A": "2",
+          "WS": "4+",
+          "S": "9",
+          "AP": "-4",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "Heavy",
+          "7cdb-fb99-44a9-8849": "Melta"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1765796954538",
+    "Name": "Las fusil",
+    "Type": "Ranged Weapon",
+    "Statlines": [
+      {
+        "Name": "Las fusil",
+        "Values": {
+          "Range": "36\"",
+          "A": "1",
+          "WS": "3+",
+          "S": "9",
+          "AP": "-3",
+          "D": "D6"
+        },
+        "RuleIds": {
+          "1202-10a8-78e9-4c67": "Heavy"
+        }
       }
     ]
   }
