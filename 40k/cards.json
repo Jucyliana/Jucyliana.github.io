@@ -3776,16 +3776,549 @@
     }
   },
   {
-    "Id": "coordinated action/combined arms",
+    "Id": "coordinated-action/astra-militarum - combined arms",
     "Name": "Coordinated Action",
     "Description": "WHEN: Start of any phase.\n\nTARGET: One REGIMENT unit from your army and one SQUADRON unit from your army within 6\" of and visible to that REGIMENT unit.\n\nEFFECT: Until the end of the phase, Orders affecting one of your units affect the other, and vice versa.",
     "CastingValue": "1CP",
-    "Range": "6\"",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Combined Arms",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "reinforcements!/astra-militarum - combined arms",
+    "Name": "Reinforcements!",
+    "Description": "WHEN: Any phase.\n\nTARGET: One INFANTRY REGIMENT unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.\n\nEFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.\n\nRESTRICTIONS: This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle.",
+    "CastingValue": "2CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Combined Arms",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "flexible-command/astra-militarum - combined arms",
+    "Name": "Flexible Command",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: Any number of ASTRA MILITARUM OFFICER units from your army.\n\nEFFECT: Until the end of the phase, your Officers can issue Orders to REGIMENT units and SQUADRON units.",
+    "CastingValue": "2CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Combined Arms",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "fields-of-fire/astra-militarum - combined arms",
+    "Name": "Fields of Fire",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One REGIMENT unit and one SQUADRON unit from your army that have not been selected to shoot this phase.\n\nEFFECT: Select one enemy unit. Until the end of the phase, each time your selected REGIMENT and SQUADRON units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Combined Arms",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "inspired-command/astra-militarum - combined arms",
+    "Name": "Inspired Command",
+    "Description": "WHEN: Your opponent’s Command phase.\n\nTARGET: One ASTRA MILITARUM OFFICER unit from your army.\n\nEFFECT: Your OFFICER can issue one Order as if it were your Command phase.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Combined Arms",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "stalwart-protector/astra-militarum - combined arms",
+    "Name": "Stalwart Protector",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ASTRA MILITARUM VEHICLE unit from your army.\n\nEFFECT: Until the end of the phase, each time a ranged attack is allocated to an INFANTRY model from your army, if that model is not fully visible to every model in the attacking unit because of your VEHICLE, that model has the Benefit of Cover against that attack.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Combined Arms",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "trench-fighters/astra-militarum - siege regiment",
+    "Name": "Trench Fighters",
+    "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ASTRA MILITARUM INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if it is a REGIMENT model. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Siege Regiment",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "over-the-top/astra-militarum - siege regiment",
+    "Name": "Over the Top",
+    "Description": "WHEN: Start of your Command phase.\n\nTARGET: One INFANTRY OFFICER model from your army.\n\nEFFECT: Until the end of the phase, when your model issues the Move! Move! Move! Order, it can issue that Order to any number of eligible friendly INFANTRY REGIMENT units, regardless of range to your model.",
+    "CastingValue": "2CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Siege Regiment",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "flare-burst/astra-militarum - siege regiment",
+    "Name": "Flare Burst",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ASTRA MILITARUM CHARACTER unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, each time your unit makes an attack that targets a visible enemy unit within 12\", you can re-roll the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Siege Regiment",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "callous-sacrifice/astra-militarum - siege regiment",
+    "Name": "Callous Sacrifice",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One PLATOON unit from your army that is within Engagement Range of one or more enemy units.\n\nEFFECT: Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model’s unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Siege Regiment",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "furious-fusillade/astra-militarum - siege regiment",
+    "Name": "Furious Fusillade",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One PLATOON unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in your unit while targeting an enemy unit within half range.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Siege Regiment",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "minefield/astra-militarum - siege regiment",
+    "Name": "Minefield",
+    "Description": "WHEN: Start of your opponent’s Charge phase.\n\nTARGET: One PLATOON unit from your army.\n\nEFFECT: Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Siege Regiment",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "vox-relay/astra-militarum - mechanised assault",
+    "Name": "Vox-Relay",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One INFANTRY OFFICER unit from your army embarked within a TRANSPORT. You can use this Stratagem on that unit even though it is embarked within a TRANSPORT.\n\nEFFECT: Until the end of the phase, your unit can issue Orders even though it is not on the battlefield, and it can issue Orders to ASTRA MILITARUM TRANSPORT units from your army [excluding TITANIC units] regardless of the distance to and from your unit’s TRANSPORT.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Mechanised Assault",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "rapid-dispersal/astra-militarum - mechanised assault",
+    "Name": "Rapid Dispersal",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One ASTRA MILITARUM INFANTRY unit from your army that disembarked from a TRANSPORT this phase.\n\nEFFECT: Your INFANTRY unit can make a Normal move of up to D6\".",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Mechanised Assault",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "clear-and-secure/astra-militarum - mechanised assault",
+    "Name": "Clear and Secure",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ASTRA MILITARUM unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Mechanised Assault",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "swift-interception/astra-militarum - mechanised assault",
+    "Name": "Swift Interception",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One TRANSPORT unit from your army (excluding TITANIC units) that is not within Engagement Range of one or more enemy units, and is within 9\" of the enemy unit that just ended that move.\n\nEFFECT: Your TRANSPORT can make a Normal move of up to 6\".",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Mechanised Assault",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "hasty-extraction/astra-militarum - mechanised assault",
+    "Name": "Hasty Extraction",
+    "Description": "WHEN: Your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move.\n\nTARGET: One ASTRA MILITARUM INFANTRY unit from your army that was selected as a target of that charge.\n\nEFFECT: Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an ASTRA MILITARUM TRANSPORT from your army, it can embark within that TRANSPORT.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Mechanised Assault",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "move-out/astra-militarum - mechanised assault",
+    "Name": "Move Out",
+    "Description": "WHEN: End of your opponent’s turn.\n\nTARGET: One ASTRA MILITARUM unit from your army.\n\nEFFECT: Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an ASTRA MILITARUM TRANSPORT from your army, it can embark within that TRANSPORT.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Astra Militarum - Mechanised Assault",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "final-hour/astra-militarum - hammer of the emperor",
+    "Name": "Final Hour",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One SQUADRON unit from your army that is Below Half-strength (excluding OFFICER units).\n\nEFFECT: Until the end of the battle round, ranged weapons equipped by models in your unit (excluding [ONE SHOT] weapons) have the [HAZARDOUS] ability, and each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and to the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the battle round",
+    "Level": "",
+    "PathName": "Astra Militarum - Hammer of the Emperor",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "blazing-advance/astra-militarum - hammer of the emperor",
+    "Name": "Blazing Advance",
+    "Description": "WHEN: Your Movement phase, just after a SQUADRON unit from your army Advances.\n\nTARGET: That SQUADRON unit.\n\nEFFECT: Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Astra Militarum - Hammer of the Emperor",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "tactical-withdrawal/astra-militarum - hammer of the emperor",
+    "Name": "Tactical Withdrawal",
+    "Description": "WHEN: Your Movement phase, just after a SQUADRON unit from your army Falls Back.\n\nTARGET: That SQUADRON unit.\n\nEFFECT: Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Astra Militarum - Hammer of the Emperor",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "crash-through/astra-militarum - hammer of the emperor",
+    "Name": "Crash Through",
+    "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One ASTRA MILITARUM VEHICLE unit from your army that has not been selected to move or charge this phase.\n\nEFFECT: Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there.",
+    "CastingValue": "1CP",
+    "Range": "",
     "Duration": "Until the end of the phase",
     "Level": "",
-    "PathName": "Combined Arms",
+    "PathName": "Astra Militarum - Hammer of the Emperor",
     "Attributes": {
-      "Color": "0.698, 0.949, 0.388,1.0"
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "furious-cannonade/astra-militarum - hammer of the emperor",
+    "Name": "Furious Cannonade",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One SQUADRON unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a unit within 12\", improve the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "12\"",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Hammer of the Emperor",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "ablative-plating/astra-militarum - hammer of the emperor",
+    "Name": "Ablative Plating",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ASTRA MILITARUM VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack.",
+    "CastingValue": "2CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Hammer of the Emperor",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "crack-shots/astra-militarum - recon element",
+    "Name": "Crack Shots",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One PLATOON unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PRECISION] ability.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Recon Element",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "draw-them-out/astra-militarum - recon element",
+    "Name": "Draw Them Out",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One PLATOON unit from your army that is within 9\" of that enemy unit, and is not within Engagement Range of one or more enemy units.\n\nEFFECT: Your unit can make a Normal move of up to 6\".",
+    "CastingValue": "1CP",
+    "Range": "9\"",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Recon Element",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "scramble-field/astra-militarum - recon element",
+    "Name": "Scramble Field",
+    "Description": "WHEN: Start of your opponent’s Reinforcements step.\n\nTARGET: One ASTRA MILITARUM INFANTRY unit from your army.\n\nEFFECT: Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of your unit.",
+    "CastingValue": "1CP",
+    "Range": "12\"",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Recon Element",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "courageous-diversion/astra-militarum - recon element",
+    "Name": "Courageous Diversion",
+    "Description": "WHEN: Start of your opponent’s Shooting phase.\n\nTARGET: One ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit from your army.\n\nEFFECT: Until the end of the phase, your unit has the Feel No Pain 6+ ability, and each time an enemy model makes an attack, if your unit is the closest eligible target, subtract 1 from the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Recon Element",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "tanglefoot-grenades/astra-militarum - recon element",
+    "Name": "Tanglefoot Grenades",
+    "Description": "WHEN: Start of your opponent’s Charge phase.\n\nTARGET: One ASTRA MILITARUM GRENADES unit from your army.\n\nEFFECT: Until the end of the phase, each time an enemy unit selects your unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Recon Element",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "scouting-outriders/astra-militarum - hammer of the emperor",
+    "Name": "Scouting Outriders",
+    "Description": "WHEN: End of your opponent’s turn.\n\nTARGET: One ASTRA MILITARUM MOUNTED or ASTRA MILITARUM WALKER unit from your army that is wholly within 10\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until removed to Strategic Reserves",
+    "Level": "",
+    "PathName": "Astra Militarum - Hammer of the Emperor",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "bellicosa-drop/astra-militarum - bridgehead strike",
+    "Name": "Bellicosa Drop",
+    "Description": "WHEN: The Reinforcements step of your Movement phase.\n\nTARGET: One ASTRA MILITARUM INFANTRY unit from your army that is in Reserves and has the Deep Strike ability.\n\nEFFECT: Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n\nRESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Bridgehead Strike",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "firing-hot/astra-militarum - bridgehead strike",
+    "Name": "Firing Hot",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One MILITARUM TEMPESTUS or KASRKIN unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, when targeting an enemy unit within 12\", improve the Strength and Armour Penetration characteristics of hot-shot lascarbines, hot-shot lasguns, hot-shot laspistols, hot-shot marksman rifles, hot-shot volley guns and sentry hot-shot volley guns equipped by models in your unit by 1.",
+    "CastingValue": "2CP",
+    "Range": "12\"",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Bridgehead Strike",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "fire-and-relocate/astra-militarum - bridgehead strike",
+    "Name": "Fire and Relocate",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ASTRA MILITARUM unit (excluding TITANIC units) from your army.\n\nEFFECT: Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Bridgehead Strike",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "servo-designators/astra-militarum - bridgehead strike",
+    "Name": "Servo‑Designators",
+    "Description": "WHEN: Your Shooting phase, just after an ASTRA MILITARUM INFANTRY unit from your army has shot.\n\nTARGET: That ASTRA MILITARUM INFANTRY unit.\n\nEFFECT: Select one enemy unit hit by one or more of those attacks that is visible to your unit. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Bridgehead Strike",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "aerial-extraction/astra-militarum - bridgehead strike",
+    "Name": "Aerial Extraction",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One ASTRA MILITARUM unit from your army that is not within Engagement Range of one or more enemy units, if all of its models have the Deep Strike ability, or one VALKYRIE unit from your army that is not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the unit is redeployed from Strategic Reserves",
+    "Level": "",
+    "PathName": "Astra Militarum - Bridgehead Strike",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "on-my-position/astra-militarum - bridgehead strike",
+    "Name": "On My Position",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One REGIMENT INFANTRY unit from your army that is within Engagement Range of one or more enemy units.\n\nEFFECT: Roll one D6 for each enemy unit within Engagement Range of your unit: on a 2+, that enemy unit suffers D6 mortal wounds. Then, your unit suffers 3D3 mortal wounds.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Instant",
+    "Level": "",
+    "PathName": "Astra Militarum - Bridgehead Strike",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "snap-to-it/astra-militarum - grizzled company",
+    "Name": "Snap to It",
+    "Description": "WHEN: Start of any phase.\n\nTARGET: One ASTRA MILITARUM OFFICER unit from your army.\n\nEFFECT: Your unit’s OFFICER model can issue 1 Order as if it were your Command phase.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until end of phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Grizzled Company",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "no-retreat/astra-militarum - grizzled company",
+    "Name": "No Retreat!",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One ASTRA MILITARUM unit from your army affected by the Duty and Honour! Order.\n\nEFFECT: If your unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of a phase.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until opponent controls the objective",
+    "Level": "",
+    "PathName": "Astra Militarum - Grizzled Company",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "veteran-sharpshooters/astra-militarum - grizzled company",
+    "Name": "Veteran Sharpshooters",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ASTRA MILITARUM unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Grizzled Company",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "purging-fire/astra-militarum - grizzled company",
+    "Name": "Purging Fire",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ASTRA MILITARUM unit from your army affected by an Order that has not been selected to shoot this phase.\n\nEFFECT: If your unit is within range of an objective marker, until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Grizzled Company",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "mordian-minute/astra-militarum - grizzled company",
+    "Name": "Mordian Minute",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ASTRA MILITARUM INFANTRY unit from your army affected by the First Rank, Fire! Second Rank, Fire! Order.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, improve the Strength characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Astra Militarum - Grizzled Company",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
+    }
+  },
+  {
+    "Id": "additional-armour/astra-militarum - grizzled company",
+    "Name": "Additional Armour",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ASTRA MILITARUM unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "",
+    "Duration": "Until the attacking unit has finished making its attacks",
+    "Level": "",
+    "PathName": "Astra Militarum - Grizzled Company",
+    "Attributes": {
+      "Color": "0.506, 0.612, 0.353, 1.0"
     }
   }
 ]
