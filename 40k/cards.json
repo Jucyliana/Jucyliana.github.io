@@ -5983,7 +5983,7 @@
     "Description": "WHEN: Any phase.\n\nTARGET: One DEATH COMPANY unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until your opponent controls it at the start or end of any turn.",
     "Level": "",
     "PathName": "Blood Angels - The Lost Brethren",
     "Attributes": {
@@ -5996,7 +5996,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Blood Angels - The Lost Brethren",
     "Attributes": {
@@ -6009,7 +6009,7 @@
     "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One DEATH COMPANY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is within 12 of one or more friendly CHAPLAIN models; on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - The Lost Brethren",
     "Attributes": {
@@ -6022,7 +6022,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One DEATH COMPANY unit from your army, just before that unit Piles-in.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in move, it can move up to D3+3 instead of up to 3. If your unit is within 12 of one or more friendly CHAPLAIN models, or if it is below Starting Strength, it can move up to 6 instead. In either case, it can only do so provided your unit ends that Pile-in move in Unit Coherency and within Engagement Range of one or more enemy units.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - The Lost Brethren",
     "Attributes": {
@@ -6035,7 +6035,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One DEATH COMPANY unit from your army that is below Starting Strength and has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, improve the Attacks, Stength and Armour Penetration characteristics of melee weapons equipped by models in your unit by 1 and, unless your unit is within 12 of one or more friendly CHAPLAIN models, until the end of the phase, those weapons have the [HAZARDOUS] ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - The Lost Brethren",
     "Attributes": {
@@ -6061,7 +6061,7 @@
     "Description": "WHEN: Any phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: Until the end of the battle, each time a friendly SANGUINARY GUARD unit makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the battle",
     "Level": "",
     "PathName": "Blood Angels - The Angelic Host",
     "Attributes": {
@@ -6074,7 +6074,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Blood Angels - The Angelic Host",
     "Attributes": {
@@ -6087,7 +6087,7 @@
     "Description": "WHEN: Start of the Fight phase.\n\nTARGET: One ADEPTUS ASTARTES JUMP PACK unit from your army.\n\nEFFECT: Until the end of the phase, each time an enemy model within Engagement Range of your unit selects its targets, it must select your unit as the target of all of its attacks.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - The Angelic Host",
     "Attributes": {
@@ -6100,7 +6100,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One ADEPTUS ASTARTES JUMP PACK unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] and [PRECISION] abilities.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - The Angelic Host",
     "Attributes": {
@@ -6113,7 +6113,7 @@
     "Description": "WHEN: Your Movement phase.\n\nTARGET: One ADEPTUS ASTARTES JUMP PACK unit from your army that is arriving using the Deep Strike ability this phase.\n\nEFFECT: Your unit can be set up anywhere on the battlefield that is more than 6 horizontally away from all enemy units.\n\nRESTRICTIONS:A unit targeted by this Stratagem is not eligible to declare a charge in the same turn.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Blood Angels - The Angelic Host",
     "Attributes": {
@@ -6139,7 +6139,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Blood Angels - Angelic Inheritors",
     "Attributes": {
@@ -6152,7 +6152,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a CHARACTER unit, until the end of the phase, those weapons have the [LANCE] ability as well.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - Angelic Inheritors",
     "Attributes": {
@@ -6165,7 +6165,7 @@
     "Description": "WHEN: Your Command phase.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY unit from your army.\n\nEFFECT: Select one non-CHARACTER model in your unit. Until the start of your next Command phase, your model has the CHARACTER keyword.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the start of your next Command phase",
     "Level": "",
     "PathName": "Blood Angels - Angelic Inheritors",
     "Attributes": {
@@ -6178,7 +6178,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - Angelic Inheritors",
     "Attributes": {
@@ -6191,7 +6191,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES CHARACTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - Angelic Inheritors",
     "Attributes": {
@@ -6204,7 +6204,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One ADEPTUS ASTARTES JUMP PACK unit from your army. You cannot target a unit that is within Engagement Range of one or more enemy units, unless it is THE SANGUINOR.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Blood Angels - Angelic Inheritors",
     "Attributes": {
@@ -6217,7 +6217,7 @@
     "Description": "WHEN: Any phase.\n\nTARGET: One BLOOD ANGELS unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: Select one of those objective markers. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase",
     "Level": "",
     "PathName": "Blood Angels - Rage-cursed Onslaught",
     "Attributes": {
@@ -6230,7 +6230,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Blood Angels - Rage-cursed Onslaught",
     "Attributes": {
@@ -6243,7 +6243,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One DEATH COMPANY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - Rage-cursed Onslaught",
     "Attributes": {
@@ -6256,7 +6256,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that made a Charge move this turn.\n\nEFFECT: Select either the Strength or Armour Penetration characteristic of melee weapons equipped by models in your unit. Until the end of the phase, add 1 to the selected characteristic. You can instead choose for your unit to give in to the Red Thirst; if it does, it becomes Battle-shocked (but the effects of this Stratagem still apply to it), and until the end of the phase, add 1 to the Strength and Armour Penetration characteristics of melee weapons equipped by models in your unit.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - Rage-cursed Onslaught",
     "Attributes": {
@@ -6269,7 +6269,7 @@
     "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One DEATH COMPANY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
     "CastingValue": "2CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Blood Angels - Rage-cursed Onslaught",
     "Attributes": {
@@ -6295,7 +6295,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Dark Angels - Unforgiven Task Force",
     "Attributes": {
@@ -6308,7 +6308,7 @@
     "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, weapons equipped by models in your unit have the [LETHAL HITS] ability. In addition, if one or more ADEPTUS ASTARTES units from your army are currently Battle-shocked, until the end of the phase, each time a model in your unit makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Unforgiven Task Force",
     "Attributes": {
@@ -6334,7 +6334,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in that unit have the [ASSAULT], [HEAVY] and [IGNORES COVER] abilities.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Unforgiven Task Force",
     "Attributes": {
@@ -6347,7 +6347,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot..\n\nTARGET: One ADEPTUS ASTARTES unit from your army that had one or more models destroyed as a result of the attacking unit’s attacks.\n\nEFFECT: Your unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Unforgiven Task Force",
     "Attributes": {
@@ -6373,7 +6373,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Dark Angels - Inner Circle Task Force",
     "Attributes": {
@@ -6386,7 +6386,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One DEATHWING INFANTRY unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit is within range of your Vowed objective marker, you can re-roll the Wound roll instead.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Inner Circle Task Force",
     "Attributes": {
@@ -6399,7 +6399,7 @@
     "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One DEATHWING unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if your unit is within range of your Vowed objective marker. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Inner Circle Task Force",
     "Attributes": {
@@ -6412,7 +6412,7 @@
     "Description": "WHEN: Your Movement phase.\n\nTARGET: One DEATHWING unit from your army that is arriving using the Deep Strike ability this phase.\n\nEFFECT: Your unit can be set up anywhere on the battlefield that is more than 6 horizontally away from all enemy models.\n\nRESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Inner Circle Task Force",
     "Attributes": {
@@ -6425,7 +6425,7 @@
     "Description": "WHEN: Your Charge phase.\n\nTARGET: One DEATHWING INFANTRY unit from your army that just ended a Charge move.\n\nEFFECT: Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit, adding 1 to the result if that enemy unit is within range of your Vowed objective marker: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 3 mortal wounds).",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Inner Circle Task Force",
     "Attributes": {
@@ -6438,7 +6438,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One DEATHWING INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than your unit’s Toughness characteristic, subtract 1 from the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Inner Circle Task Force",
     "Attributes": {
@@ -6451,7 +6451,7 @@
     "Description": "WHEN: Command phase.\n\nTARGET: One RAVENWING MOUNTED unit from your army that is within range of an objective marker you control.\n\nEFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until your opponent controls it at the start or end of any turn",
     "Level": "",
     "PathName": "Dark Angels - Company of Hunters",
     "Attributes": {
@@ -6464,7 +6464,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Dark Angels - Company of Hunters",
     "Attributes": {
@@ -6477,7 +6477,7 @@
     "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One RAVENWING MOUNTED unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets an INFANTRY CHARACTER or MOUNTED CHARACTER unit, add 1 to the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Company of Hunters",
     "Attributes": {
@@ -6490,7 +6490,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One RAVENWING unit from your army that has just shot.\n\nEFFECT: Select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test. When doing so, if one or more RAVENWING units from your army are within 6 of that enemy unit, subtract 1 from the test.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Company of Hunters",
     "Attributes": {
@@ -6503,7 +6503,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One RAVENWING unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Company of Hunters",
     "Attributes": {
@@ -6516,7 +6516,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One RAVENWING unit from your army that is not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Company of Hunters",
     "Attributes": {
@@ -6529,7 +6529,7 @@
     "Description": "WHEN: Any phase, just after your Oath of Moment target is destroyed..\n\nTARGET: One ADEPTUS ASTARTES CHARACTER unit that is on the battlefield.\n\nEFFECT: Select one enemy unit within 12 and visible to your unit. That enemy unit becomes your Oath of Moment target until the start of your next Command phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the start of your next Command phase",
     "Level": "",
     "PathName": "Dark Angels - Wrath of The Rock",
     "Attributes": {
@@ -6542,7 +6542,7 @@
     "Description": "WHEN: Command phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that is within Engagement Range of one or more enemy units.\n\nEFFECT: Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, until the end of the turn, if your unit does not have the DEATHWING, RAVENWING or VEHICLE keyword, each time a model in your unit makes an attack, add 1 to the Hit roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the start of your next Command phase",
     "Level": "",
     "PathName": "Dark Angels - Wrath of The Rock",
     "Attributes": {
@@ -6555,7 +6555,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Dark Angels - Wrath of The Rock",
     "Attributes": {
@@ -6581,7 +6581,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Wrath of The Rock",
     "Attributes": {
@@ -6594,7 +6594,7 @@
     "Description": "WHEN: End of your opponent’s Charge phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army within 3 of one or more enemy units, or one DEATHWING unit from your army within 6 of one or more enemy units.\n\nEFFECT: Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.\n\nRESTRICTIONS:Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Wrath of The Rock",
     "Attributes": {
@@ -6607,7 +6607,7 @@
     "Description": "WHEN: Command phase or the start of the Fight phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army.\n\nEFFECT: Select one enemy unit within Engagement Range of your unit. That enemy unit must take a Battle-shock test. When doing so, if your unit has the DEATHWING or RAVENWING keyword, subtract 1 from the result.\n\nRESTRICTIONS:You can only use this Stratagem once per battle round.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Lion´s Blade Task Force",
     "Attributes": {
@@ -6620,7 +6620,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Dark Angels - Lion´s Blade Task Force",
     "Attributes": {
@@ -6633,7 +6633,7 @@
     "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: If that enemy unit is within Engagement Range of one or more RAVENWING units from your army, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll. If that enemy unit is within Engagement Range of one or more DEATHWING units from your army, until the end of the phase, each time a model in that enemy unit makes an attack, if the Strength characteristic of that attack is greater than the Toughness characteristic of the target, subtract 1 from the Wound roll.\n\nRESTRICTIONS:A unit cannot be targeted by this and the Armour of Contempt Stratagem in the same phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Lion´s Blade Task Force",
     "Attributes": {
@@ -6646,7 +6646,7 @@
     "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One RAVENWING unit from your army.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Lion´s Blade Task Force",
     "Attributes": {
@@ -6659,7 +6659,7 @@
     "Description": "WHEN: Your Shooting phase, just after a RAVENWING unit from your army has selected its targets.\n\nTARGET: That RAVENWING unit.\n\nEFFECT: Select one enemy unit within 12 of your unit that was selected as the target of one or more of the attacking unit’s attacks. Until the end of the phase, each time a friendly DEATHWING unit makes an attack that targets that enemy unit, add 1 to the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Dark Angels - Lion´s Blade Task Force",
     "Attributes": {
@@ -6672,7 +6672,7 @@
     "Description": "WHEN: End of your opponent’s Charge phase.\n\nTARGET: One DEATHWING INFANTRY or DEATHWING WALKER unit from your army that is within 6 of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.\n\nEFFECT: Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.\n\nRESTRICTIONS:Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
     "CastingValue": "2CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Dark Angels - Lion´s Blade Task Force",
     "Attributes": {
@@ -6685,7 +6685,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Deathwatch - Black Spear Task Force",
     "Attributes": {
@@ -6698,7 +6698,7 @@
     "Description": "WHEN: Your Command phase.\n\nTARGET: Up to two KILL TEAM units from your army, or one other ADEPTUS ASTARTES unit from your army.\n\nEFFECT: For each unit targeted, select Furor Tactics, Malleus Tactics or Purgatus Tactics. Until the start of your next Command phase, that Mission Tactic is active for that unit instead of any Mission Tactic that is active for your army.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the start of your next Command phase",
     "Level": "",
     "PathName": "Deathwatch - Black Spear Task Force",
     "Attributes": {
@@ -6711,7 +6711,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One KILL TEAM unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.\n\nRESTRICTIONS:You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Deathwatch - Black Spear Task Force",
     "Attributes": {
@@ -6724,7 +6724,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One KILL TEAM unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6.\n\nRESTRICTIONS:You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Deathwatch - Black Spear Task Force",
     "Attributes": {
@@ -6737,7 +6737,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One KILL TEAM unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.\n\nRESTRICTIONS:You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Deathwatch - Black Spear Task Force",
     "Attributes": {
@@ -6750,7 +6750,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: Up to two KILL TEAM units from your army, or one other ADEPTUS ASTARTES INFANTRY unit from your army, if those units are not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove those units from the battlefield and place them into Strategic Reserves. Until the end of your next Movement phase, models in those units that do not have the Deep Strike ability have the Deep Strike ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of your next Movement phase",
     "Level": "",
     "PathName": "Deathwatch - Black Spear Task Force",
     "Attributes": {
@@ -6763,7 +6763,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Imperial Fists - Emperor´s Shield",
     "Attributes": {
@@ -6776,7 +6776,7 @@
     "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your unit is below its Starting Strength, add 1 to the Wound roll as well.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Imperial Fists - Emperor´s Shield",
     "Attributes": {
@@ -6789,7 +6789,7 @@
     "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 3+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Imperial Fists - Emperor´s Shield",
     "Attributes": {
@@ -6802,7 +6802,7 @@
     "Description": "WHEN: Your Movement phase.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within range of an objective marker you control.\n\nEFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until your opponent controls it at the start or end of any phase",
     "Level": "",
     "PathName": "Imperial Fists - Emperor´s Shield",
     "Attributes": {
@@ -6815,7 +6815,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and improve the Armour Penetration characteristic of such weapons by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Imperial Fists - Emperor´s Shield",
     "Attributes": {
@@ -6823,12 +6823,12 @@
     }
   },
   {
-    "Id": "armour of contempt/imperial fists - emperor´s shield",
-    "Name": "Armour of Contempt",
+    "Id": "dropship extraction/imperial fists - emperor´s shield",
+    "Name": "Dropship Extraction",
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR unit from your army. You cannot target a unit that is within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Imperial Fists - Emperor´s Shield",
     "Attributes": {
@@ -6841,7 +6841,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Iron Hands - Hammer of Avernii",
     "Attributes": {
@@ -6854,7 +6854,7 @@
     "Description": "WHEN: Your Shooting phase or the Fight phase..\n\nTARGET: One ADEPTUS ASTARTES DREADNOUGHT, TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your unit is below Starting Strength, add 1 to the Wound roll as well.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Iron Hands - Hammer of Avernii",
     "Attributes": {
@@ -6867,7 +6867,7 @@
     "Description": "WHEN: Your Movement phase.\n\nTARGET: One ADEPTUS ASTARTES DREADNOUGHT, TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within range of an objective marker you control.\n\nEFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the end of a phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until your opponent controls it at the end of a phase",
     "Level": "",
     "PathName": "Iron Hands - Hammer of Avernii",
     "Attributes": {
@@ -6880,7 +6880,7 @@
     "Description": "WHEN:  Your Fight phase.\n\nTARGET: One ADEPTUS ASTARTES DREADNOUGHT, TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to fight this phase.\n\nEFFECT: Select either the [SUSTAINED HITS 1] or [LETHAL HITS] abilities. Until the end of the phase, melee weapons equipped by models in your unit have the selected ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Iron Hands - Hammer of Avernii",
     "Attributes": {
@@ -6906,7 +6906,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR unit from your army. You cannot target a unit that is within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Iron Hands - Hammer of Avernii",
     "Attributes": {
@@ -6919,7 +6919,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Raven Guard - Shadowmark Talon",
     "Attributes": {
@@ -6932,7 +6932,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Raven Guard - Shadowmark Talon",
     "Attributes": {
@@ -6958,7 +6958,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit that is more than 12 away, improve the Ballistic Skill and Armour Penetration characteristics of that attack by 1. If one or more enemy models are destroyed as a result of those attacks, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Raven Guard - Shadowmark Talon",
     "Attributes": {
@@ -6971,7 +6971,7 @@
     "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that is within 9 of the enemy unit that just ended that move. You cannot target a unit that is within Engagement Range of one or more enemy units.\n\nEFFECT: Your unit can make a Normal move of up to D6, or up to 6 instead if it is a PHOBOS or SCOUT SQUAD unit.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Raven Guard - Shadowmark Talon",
     "Attributes": {
@@ -6984,7 +6984,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: Up to two PHOBOS and/or SCOUT SQUAD units from your army, or one other ADEPTUS ASTARTES INFANTRY unit from your army. You cannot target a unit that is within Engagement Range of one or more enemy units.\n\nEFFECT: Remove those units from the battlefield and place them into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Raven Guard - Shadowmark Talon",
     "Attributes": {
@@ -6997,7 +6997,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Salamandes - Forgefather´s Seekers",
     "Attributes": {
@@ -7010,7 +7010,7 @@
     "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets the closest eligible target within 6, add 1 to the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Salamandes - Forgefather´s Seekers",
     "Attributes": {
@@ -7036,7 +7036,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, Torrent weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability.",
     "CastingValue": "2CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Salamandes - Forgefather´s Seekers",
     "Attributes": {
@@ -7049,7 +7049,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.\n\nTARGET: One ADEPTUS ASTARTES TRANSPORT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: One unit embarked within that TRANSPORT can disembark as if it were your Movement phase, and can then shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Salamandes - Forgefather´s Seekers",
     "Attributes": {
@@ -7062,7 +7062,7 @@
     "Description": "WHEN: Start of your opponent’s Charge phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army equipped with one or more Torrent weapons.\n\nEFFECT: Select one enemy unit (excluding MONSTERS and VEHICLES and units with the FLY keyword) within 12 of and visible to your unit. Until the end of the phase, each time that enemy unit declares a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Salamandes - Forgefather´s Seekers",
     "Attributes": {
@@ -7075,7 +7075,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Ultramarines - Blade of Ultramar",
     "Attributes": {
@@ -7084,11 +7084,11 @@
   },
   {
     "Id": "tactical foresight/ultramarines - blade of ultramar",
-    "Name": "Tactical Foresightt",
+    "Name": "Tactical Foresight",
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Ultramarines - Blade of Ultramar",
     "Attributes": {
@@ -7101,7 +7101,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit is under the effects of the Assault Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Ultramarines - Blade of Ultramar",
     "Attributes": {
@@ -7114,7 +7114,7 @@
     "Description": "WHEN: Your Command phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army.\n\nEFFECT: Select the Devastator Doctrine, Tactical Doctrine or Assault Doctrine. Until the start of your next Command phase, that Combat Doctrine is active for your unit instead of any other Combat Doctrine that is active for your army, even if you have already selected that Combat Doctrine this battle.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the start of your next Command phase",
     "Level": "",
     "PathName": "Ultramarines - Blade of Ultramar",
     "Attributes": {
@@ -7127,7 +7127,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. If your unit is under the effects of the Devastator Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Ultramarines - Blade of Ultramar",
     "Attributes": {
@@ -7140,7 +7140,7 @@
     "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that is not within Engagement Range of one or more enemy units and is within 9 of the enemy unit that just ended that move.\n\nEFFECT: Your unit can make a Normal move of up to D6, or a Normal move of up to 6 instead if it is under the effects of the Tactical Doctrine.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Ultramarines - Blade of Ultramar",
     "Attributes": {
@@ -7153,7 +7153,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "White Scars - Spearpoint Task Force",
     "Attributes": {
@@ -7166,7 +7166,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.\n\nEFFECT: Select either the [LANCE] or [LETHAL HITS] ability. Until the end of the phase, melee weapons equipped by models in your unit have the selected ability. If it is a MOUNTED unit, until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] and [LETHAL HITS] abilities instead.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "White Scars - Spearpoint Task Force",
     "Attributes": {
@@ -7192,7 +7192,7 @@
     "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY unit or ADEPTUS ASTARTES MOUNTED unit from your army that is within 9 of that enemy unit. You cannot target a unit that is within Engagement Range of one or more enemy units.\n\nEFFECT: Your unit can make a Normal move of up to 6.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "White Scars - Spearpoint Task Force",
     "Attributes": {
@@ -7205,7 +7205,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES FLY VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "White Scars - Spearpoint Task Force",
     "Attributes": {
@@ -7218,7 +7218,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES FLY VEHICLE unit from your army that is not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "White Scars - Spearpoint Task Force",
     "Attributes": {
@@ -7231,7 +7231,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One SPACE WOLVES unit (excluding MONSTERS and VEHICLES) from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6 instead of up to 3. When doing so, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Hunter",
     "Attributes": {
@@ -7244,7 +7244,7 @@
     "Description": "WHEN: Fight phase, just after an enemy unit is destroyed by an ADEPTUS ASTARTES unit from your army.\n\nTARGET: That ADEPTUS ASTARTES unit.\n\nEFFECT: Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Hunter",
     "Attributes": {
@@ -7257,7 +7257,7 @@
     "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: Two ADEPTUS ASTARTES units from your army within Engagement Range of that enemy unit, or one SPACE WOLVES BEASTS unit from your army within Engagement Range of that enemy unit.\n\nEFFECT: Until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Hunter",
     "Attributes": {
@@ -7283,7 +7283,7 @@
     "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One SPACE WOLVES INFANTRY or SPACE WOLVES BEASTS unit from your army that has not been selected to move or declared a charge this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through models (excluding TITANIC models). When doing so, it can move within Engagement Range of enemy models, but unless it is making a Charge move, it cannot end that move within Engagement Range of them.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Hunter",
     "Attributes": {
@@ -7296,7 +7296,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: Two ADEPTUS ASTARTES units from your army (excluding BEASTS) that have not been selected to shoot this phase.\n\nEFFECT: Select one enemy unit visible to both of your units. Until the end of the phase, models in your units can only target that enemy unit (and only if it is an eligible target) and each time a model in one of your units makes an attack, re-roll a Wound roll of 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Hunter",
     "Attributes": {
@@ -7309,7 +7309,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One ADEPTUS ASTARTES CHARACTER unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Bold",
     "Attributes": {
@@ -7322,7 +7322,7 @@
     "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One SPACE WOLVES CHARACTER unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Bold",
     "Attributes": {
@@ -7335,7 +7335,7 @@
     "Description": "WHEN: Your Command phase.\n\nTARGET: One Wolf Guard Headtaker or Wolf Guard Terminator Pack Leader model from your army.\n\nEFFECT: Until the start of your next Command phase, your model has the CHARACTER keyword.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the start of your next Command phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Bold",
     "Attributes": {
@@ -7348,7 +7348,7 @@
     "Description": "WHEN: Your Charge phase.\n\nTARGET: One ADEPTUS ASTARTES CHARACTER unit from your army.\n\nEFFECT: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Bold",
     "Attributes": {
@@ -7361,7 +7361,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One SPACE WOLVES CHARACTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
     "CastingValue": "2CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Bold",
     "Attributes": {
@@ -7374,7 +7374,7 @@
     "Description": "WHEN: End of your opponent’s Charge phase.\n\nTARGET: One ADEPTUS ASTARTES CHARACTER unit from your army that is within 6 of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.\n\nEFFECT: Your unit now declares a charge that targets only one or more of those enemy units, and you resolve that charge as if it were your Charge phase. Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
     "CastingValue": "2CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Bold",
     "Attributes": {
@@ -7387,7 +7387,7 @@
     "Description": "WHEN: Fight phase.\n\nTARGET: One SPACE WOLVES unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Beastslayer",
     "Attributes": {
@@ -7400,7 +7400,7 @@
     "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One THUNDERWOLF CAVALRY unit from your army that has not been selected to move or declared a charge this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4 or less in height. When doing so, it can move within Engagement Range of enemy models, but unless it is making a Charge move, it cannot end that move within Engagement Range of them.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Beastslayer",
     "Attributes": {
@@ -7413,7 +7413,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, after your unit has shot, select one enemy CHARACTER, MONSTER, or VEHICLE unit hit by one or more of those attacks. Until the start of your next Shooting phase, that unit is pinned. While a unit is pinned, subtract 2 from its Move characteristic and subtract 2 from Charge rolls made for it.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Beastslayer",
     "Attributes": {
@@ -7426,7 +7426,7 @@
     "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that is within 9 of that enemy unit and not within Engagement Range of one or more enemy units.\n\nEFFECT: Your unit can make a Normal move of up to D6. If your unit has the SPACE WOLVES INFANTRY or THUNDERWOLF CAVALRY keywords, it can make a Normal move of up to 6 instead.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Beastslayer",
     "Attributes": {
@@ -7439,7 +7439,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One WULFEN INFANTRY or BLOOD CLAWS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, after that enemy unit has shot, if one or more models in your unit were destroyed as a result of those attacks, your unit can make an Impetuous move. To do so, roll one D6: your unit can be moved a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Beastslayer",
     "Attributes": {
@@ -7452,7 +7452,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One SPACE WOLVES unit from your army that is wholly within 9 of one or more battlefield edges and not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Beastslayer",
     "Attributes": {
@@ -7465,7 +7465,7 @@
     "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Select either the [LETHAL HITS] or [SUSTAINED HITS 1] abilities. Until the end of the phase, weapons equipped by models in your unit have that ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Champions of Fenris",
     "Attributes": {
@@ -7478,7 +7478,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Space Wolves - Champions of Fenris",
     "Attributes": {
@@ -7491,7 +7491,7 @@
     "Description": "WHEN: End of your Command phase.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES WALKER unit from your army.\n\nEFFECT: Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase",
     "Level": "",
     "PathName": "Space Wolves - Champions of Fenris",
     "Attributes": {
@@ -7504,7 +7504,7 @@
     "Description": "WHEN: Your opponent’s Command phase.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR unit from your army.\n\nEFFECT: Each enemy unit within 6 of your unit must take a Battle-shock test, subtracting 1 from that test if that unit is Below Half-strength.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Space Wolves - Champions of Fenris",
     "Attributes": {
@@ -7517,7 +7517,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have the Stealth ability.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Champions of Fenris",
     "Attributes": {
@@ -7530,7 +7530,7 @@
     "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One ADEPTUS ASTARTES TERMINATOR unit from your army that is not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "",
     "Level": "",
     "PathName": "Space Wolves - Champions of Fenris",
     "Attributes": {
@@ -7543,7 +7543,7 @@
     "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the attacking unit has finished making its attacks",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Great Wolf",
     "Attributes": {
@@ -7556,7 +7556,7 @@
     "Description": "WHEN: Your Command phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army.\n\nEFFECT: Select one Hunting Pack from the Master of Wolves Detachment rule. Until the start of your next Command phase, that Hunting Pack is active for your unit instead of any other Hunting Pack that is active, even if you have already selected that Hunting Pack this battle.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the start of your next Command phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Great Wolf",
     "Attributes": {
@@ -7569,7 +7569,7 @@
     "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES WALKER unit from your army that has not been selected to move or charge this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end a Normal, Advance or Fall Back move within Engagement Range of them.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Great Wolf",
     "Attributes": {
@@ -7595,7 +7595,7 @@
     "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can add 1 to the Wound roll.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Great Wolf",
     "Attributes": {
@@ -7608,11 +7608,947 @@
     "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.\n\nTARGET: One SPACE WOLVES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Your unit can make a Normal move of up to D6.",
     "CastingValue": "1CP",
     "Range": "N/A",
-    "Duration": "Until the end of the turn",
+    "Duration": "Until the end of the phase",
     "Level": "",
     "PathName": "Space Wolves - Saga of the Great Wolf",
     "Attributes": {
       "Color": "0.5, 0.6, 0.7,1.0"
+    }
+  },
+  {
+    "Id": "truesilver channelling/grey knights - brotherhood strike",
+    "Name": "Truesilver Channelling",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, Psychic weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Brotherhood Strike",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "combat manifestation/grey knights - brotherhood strike",
+    "Name": "Combat Manifestation",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One GREY KNIGHTS unit from your army that is arriving using the Deep Strike ability this phase.\n\nEFFECT: Set your unit up anywhere on the battlefield that is more than 6 horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Brotherhood Strike",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "purgation pattern/grey knights - brotherhood strike",
+    "Name": "Purgation Pattern",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One GREY KNIGHTS unit from your army that was set up using the Deep Strike ability this turn and has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Brotherhood Strike",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "duty unending/grey knights - brotherhood strike",
+    "Name": "Duty Unending",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit within Engagement Range of one or more GREY KNIGHTS units from your army Falls Back.\n\nTARGET: One of those GREY KNIGHTS units that is not within Engagement Range of one or more enemy units.\n\nEFFECT: If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Brotherhood Strike",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "shining veil/grey knights - brotherhood strike",
+    "Name": "Shining Veil",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS unit that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, your unit has the Stealth ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Brotherhood Strike",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "expeditious exit/grey knights - brotherhood strike",
+    "Name": "Expeditious Exit",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One GREY KNIGHTS PSYKER INFANTRY unit from your army.\n\nEFFECT: If every model in your unit has the Deep Strike ability, remove your unit from the battlefield and place it into Strategic Reserves.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Brotherhood Strike",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "giants of the battlefield/grey knights - hallowed conclave",
+    "Name": "Giants of the Battlefield",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One GREY KNIGHTS TERMINATOR unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in your unit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Hallowed Conclave",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "unending fidelity/grey knights - hallowed conclave",
+    "Name": "Unending Fidelity",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Hallowed Conclave",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "point-blank purgation/grey knights - hallowed conclave",
+    "Name": "Point-blank Purgation",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, storm bolter weapons equipped by models in your unit have the [PISTOL] and [TWIN-LINKED] abilities.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Hallowed Conclave",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "grind them underfoot/grey knights - hallowed conclave",
+    "Name": "Grind Them Underfoot",
+    "Description": "WHEN: Your Charge phase, just after a GREY KNIGHTS TERMINATOR unit from your army ends a Charge move.\n\nTARGET: That GREY KNIGHTS unit.\n\nEFFECT: Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Hallowed Conclave",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "precognitive strategies/grey knights - hallowed conclave",
+    "Name": "Precognitive Strategies",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army that is within 9 of that enemy unit and not within Engagement Range of one or more enemy units.\n\nEFFECT: Your unit can make a Normal move of up to D6.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Hallowed Conclave",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "shining resolve/grey knights - hallowed conclave",
+    "Name": "Shining Resolve",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Hallowed Conclave",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "hexwrought reprisal/grey knights - banishers",
+    "Name": "Hexwrought Reprisal",
+    "Description": "WHEN: End of any phase.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that is on the battlefield and suffered one or more mortal wounds this phase.\n\nEFFECT: Select one enemy unit which inflicted one or more mortal wounds on your unit this phase, then roll a number of dice equal to the number of mortal wounds your unit suffered this phase: for each 2+, that enemy unit suffers one mortal wound (to a maximum of 6 mortal wounds). These mortal wounds are Psychic Attacks.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Banishers",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "warding chant/grey knights - banishers",
+    "Name": "Warding Chant",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against attacks with an unmodified Damage characteristic of 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Banishers",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "chaos bane/grey knights - banishers",
+    "Name": "Chaos Bane",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [ANTI-CHAOS 4+] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Banishers",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "celerity/grey knights - banishers",
+    "Name": "Celerity",
+    "Description": "WHEN: Your Charge phase.\n\nTARGET: One GREY KNIGHTS PSYKER INFANTRY unit from your army.\n\nEFFECT: Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Grey Knights - Banishers",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "circle of sanctuary/grey knights - banishers",
+    "Name": "Circle of Sanctuary",
+    "Description": "WHEN: Start of your opponent’s Movement phase.\n\nTARGET: One GREY KNIGHTS CHARACTER model from your army.\n\nEFFECT: Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12 horizontally of your model.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Banishers",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "shadow of anarch/grey knights - banishers",
+    "Name": "Shadow of Anarch",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that is within 9 of that enemy unit and is not within Engagement Range of one or more enemy units.\n\nEFFECT: Your unit can make a Normal move of up to 6 or, if it has the Deep Strike ability, it can be placed into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Banishers",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "truesilver will/grey knights - sanctic spearhead",
+    "Name": "Truesilver Will",
+    "Description": "WHEN: Any phase, just after a GREY KNIGHTS PSYKER VEHICLE unit from your army suffers a mortal wound.\n\nTARGET: That GREY KNIGHTS PSYKER VEHICLE unit.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Sanctic Spearhead",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "abominus-class targets/grey knights - sanctic spearhead",
+    "Name": "Abominus-class Targets",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One GREY KNIGHTS unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Sanctic Spearhead",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "armoured aegis/grey knights - sanctic spearhead",
+    "Name": "Armoured Aegis",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One GREY KNIGHTS PSYKER VEHICLE unit from your army.\n\nEFFECT: One model in your unit regains up to 3 lost wounds.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Sanctic Spearhead",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "redoubled assault/grey knights - sanctic spearhead",
+    "Name": "Redoubled Assault",
+    "Description": "WHEN: Your Movement phase, just after a GREY KNIGHTS VEHICLE unit from your army Falls Back.\n\nTARGET: That GREY KNIGHTS VEHICLE unit.\n\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Grey Knights - Sanctic Spearhead",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "force wave/grey knights - sanctic spearhead",
+    "Name": "Force Wave",
+    "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One GREY KNIGHTS VEHICLE unit from your army that has not been selected to move or charge this phase.\n\nEFFECT: Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Sanctic Spearhead",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "argent wrath/grey knights - sanctic spearhead",
+    "Name": "Argent Wrath",
+    "Description": "WHEN: Your Charge phase, just after a GREY KNIGHTS VEHICLE unit from your army ends a Charge move.\n\nTARGET: That GREY KNIGHTS VEHICLE unit.\n\nEFFECT: Each enemy unit within 3 of your unit must take a Battle-shock test, subtracting 1 from that test.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Sanctic Spearhead",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "aggressive anticipation/grey knights - augurium task force",
+    "Name": "Aggressive Anticipation",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack’s Weapon Skill or Ballistic Skill characteristics and/or any or all modifiers to the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Augurium Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "appointed hour/grey knights - augurium task force",
+    "Name": "Appointed Hour",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Augurium Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "forewarned evasion/grey knights - augurium task force",
+    "Name": "Forewarned Evasion",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS WALKER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Augurium Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "necessary end/grey knights - augurium task force",
+    "Name": "Necessary End",
+    "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. If the result is greater than the current battle round number, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Augurium Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "redirected strike/grey knights - augurium task force",
+    "Name": "Redirected Strike",
+    "Description": "WHEN: End of your Command phase.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that is not within Engagement Range of one or more enemy units.\n\nEFFECT: If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Augurium Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "mirage of echoes/grey knights - augurium task force",
+    "Name": "Mirage of Echoes",
+    "Description": "WHEN: The Reinforcements step of your opponent’s Movement phase, just after an enemy unit is set up.\n\nTARGET: One GREY KNIGHTS PSYKER unit from your army that is within 12 of that enemy unit and is not within Engagement Range of one or more enemy units.\n\nEFFECT: If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Augurium Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "sanctified kill zone/grey knights - warpbane task force",
+    "Name": "Sanctified Kill Zone",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One GREY KNIGHTS unit from your army that has not been selected to shoot or fight this phase and that is wholly within your army’s Hallowed Ground.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1, or, re-roll the Wound roll instead if your unit is a PURIFIER SQUAD.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Warpbane Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "flames of sanctity/grey knights - warpbane task force",
+    "Name": "Flames of Sanctity",
+    "Description": "WHEN: End of the Fight phase.\n\nTARGET: One PURIFIER SQUAD unit from your army that was eligible to fight this phase.\n\nEFFECT: Roll one D6 for each enemy unit within 6 of your unit, adding 1 to the result if your unit includes CASTELLAN CROWE: on a 4+, that enemy unit suffers D3 mortal wounds.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Grey Knights - Warpbane Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "hallowed beacon/grey knights - warpbane task force",
+    "Name": "Hallowed Beacon",
+    "Description": "WHEN: Reinforcements step of your Movement phase.\n\nTARGET: One GREY KNIGHTS INFANTRY unit (excluding TERMINATOR units) that is arriving using the Deep Strike ability this phase.\n\nEFFECT: Set up your unit wholly within your army’s Hallowed Ground and more than 6 horizontally away from all enemy units.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Grey Knights - Warpbane Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "fires of covenant/grey knights - warpbane task force",
+    "Name": "Fires of Covenant",
+    "Description": "WHEN: Start of your opponent’s Movement phase.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army.\n\nEFFECT: Until the end of the phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 6 of your unit, roll one D6, adding 2 to the result if your unit is wholly within your army’s Hallowed Ground: on a 4+, that enemy unit suffers D3 mortal wounds.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Warpbane Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "aegis eternal/grey knights - warpbane task force",
+    "Name": "Aegis Eternal",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit that are wholly within your Hallowed Ground have a 4+ invulnerable save.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Warpbane Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "repelling sphere/grey knights - warpbane task force",
+    "Name": "Repelling Sphere",
+    "Description": "WHEN: Start of your opponent’s Charge phase.\n\nTARGET: One GREY KNIGHTS INFANTRY unit from your army.\n\nEFFECT: Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Grey Knights - Warpbane Task Force",
+    "Attributes": {
+      "Color": "0.6, 0.6, 0.6,1.0"
+    }
+  },
+  {
+    "Id": "corrupt realspace/chaos daemons - demonic incursion",
+    "Name": "Corrupt Realspace",
+    "Description": "WHEN: Start of any Command phase.\n\nTARGET: One LEGIONES DAEMONICA unit from your army that is within range of an objective marker you control.\n\nEFFECT: That objective marker is said to be Corrupted and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. In addition, while an objective marker is Corrupted and under your control, the area of the battlefield within 6 of that objective marker is considered to be within your army’s Shadow of Chaos.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until your opponent controls it at the start or end of any turn.",
+    "Level": "",
+    "PathName": "Chaos Daemons - Demonic Incursion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "warp surge/chaos daemons - demonic incursion",
+    "Name": "Warp Surge",
+    "Description": "WHEN: Your Charge phase.\n\nTARGET: One LEGIONES DAEMONICA unit from your army that is within your army’s Shadow of Chaos.\n\nEFFECT: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Demonic Incursion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "draught of terror/chaos daemons - demonic incursion",
+    "Name": "Draught of Terror",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One LEGIONES DAEMONICA unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in that unit by 1. In addition, until the end of the phase, each time such a weapon targets a unit that is Battle-shocked, you can re-roll the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Demonic Incursion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "denizens of the warp/chaos daemons - demonic incursion",
+    "Name": "Denizens of the Warp",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One LEGIONES DAEMONICA unit from your army that is arriving using the Deep Strike ability this phase.\n\nEFFECT: Your unit can be set up anywhere on the battlefield that is more than 6 horizontally away from all enemy models.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Demonic Incursion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "the realm of chaos/chaos daemons - demonic incursion",
+    "Name": "The Realm of Chaos",
+    "Description": "WHEN: End of your opponent’s turn.\n\nTARGET: Up to two LEGIONES DAEMONICA units from your army that are within your army’s Shadow of Chaos, or one other LEGIONES DAEMONICA unit from your army.\n\nEFFECT: Remove the targeted units from the battlefield and place them into Strategic Reserves. They will arrive back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability.\n\nRESTRICTIONS:You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Demonic Incursion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "daemonic invulnerability/chaos daemons - demonic incursion",
+    "Name": "Daemonic Invulnerability",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One LEGIONES DAEMONICA unit from your army that was selected as the target of one or more of that enemy unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an invulnerable saving throw is made for a model in your unit, re-roll a saving throw of 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Demonic Incursion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "spiteful demise/chaos daemons - shadow legion",
+    "Name": "Spiteful Demise",
+    "Description": "WHEN: Any phase, just after a SHADOW LEGION unit from your army is destroyed, before removing the last model in that unit from the battlefield and before rolling any dice for the Deadly Demise ability.\n\nTARGET: That SHADOW LEGION unit. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: Roll one D6 for each enemy unit that is within Engagement Range of the last model in your unit, adding 2 to the result if your unit has the SLAANESH keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Shadow Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "channelled wrath/chaos daemons - shadow legion",
+    "Name": "Channelled Wrath",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One SHADOW LEGION unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If your unit has the KHORNE keyword, until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1 as well.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Shadow Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "death denied/chaos daemons - shadow legion",
+    "Name": "Death Denied",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One SHADOW LEGION unit from your army.\n\nEFFECT: One model in your unit regains up to 3 lost wounds. In addition, If your unit has the TZEENTCH keyword, return up to one destroyed model (excluding CHARACTER models) to your unit with its full wounds remaining.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Shadow Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "encroaching darkness/chaos daemons - shadow legion",
+    "Name": "Encroaching Darkness",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that arrived from Reserves this turn.\n\nEFFECT: Until the end of the phase, weapons equipped by models in your selected units have the [IGNORES COVER] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Shadow Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "shade path/chaos daemons - shadow legion",
+    "Name": "Shade Path",
+    "Description": "WHEN: Your opponent’s Charge phase, just after an enemy unit declares a charge.\n\nTARGET: One SHADOW LEGION unit from your army that was selected as a target of that charge.\n\nEFFECT: Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit. In addition, if your unit has the NURGLE keyword, that enemy unit must take a Battle-shock test.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Shadow Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "binding shadow/chaos daemons - shadow legion",
+    "Name": "Binding Shadow",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that are not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove those selected units from the battlefield and place them into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Shadow Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "thieves of pain/chaos daemons - legion of excess",
+    "Name": "Thieves of Pain",
+    "Description": "WHEN: Any phase, just after an attack or mortal wound is allocated to a model in a LEGIONES DAEMONICA SLAANESH unit from your army (excluding MONSTERS and VEHICLES).\n\nTARGET: That LEGIONES DAEMONICA SLAANESH unit.\n\nEFFECT: Select one other friendly LEGIONES DAEMONICA SLAANESH unit that is within 9 of and visible to your unit. Until the end of the phase, while the selected unit is on the battlefield, each time a model in your unit would lose a wound, inflict 1 mortal wound on the selected unit instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Legion of Excess",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "archagonists/chaos daemons - legion of excess",
+    "Name": "Archagonists",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One LEGIONES DAEMONICA SLAANESH MONSTER unit or up to two LEGIONES DAEMONICA SLAANESH units (excluding MONSTERS) from your army that have not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in one of those units makes an attack, add 1 to the Wound roll.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Legion of Excess",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "sensory excruciation/chaos daemons - legion of excess",
+    "Name": "Sensory Excruciation",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One LEGIONES DAEMONICA SLAANESH MONSTER unit from your army that is on the battlefield.\n\nEFFECT: Each unit on the battlefield that is within your army’s Shadow of Chaos must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Chaos Daemons - Legion of Excess",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "phantasmal longing/chaos daemons - legion of excess",
+    "Name": "Phantasmal Longing",
+    "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One LEGIONES DAEMONICA SLAANESH unit from your army.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Legion of Excess",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "cavalcade of blades/chaos daemons - legion of excess",
+    "Name": "Cavalcade of Blades",
+    "Description": "WHEN: Your Charge phase, just after a LEGIONES DAEMONICA SLAANESH unit from your army ends a Charge move.\n\nTARGET: That LEGIONES DAEMONICA SLAANESH unit.\n\nEFFECT: Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit, or roll six D6 instead if your unit is a MONSTER unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Legion of Excess",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "overwhelming excess/chaos daemons - legion of excess",
+    "Name": "Overwhelming Excess",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One LEGIONES DAEMONICA SLAANESH unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Legion of Excess",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "impossible eclipse/chaos daemons - scintillating legion",
+    "Name": "Impossible Eclipse",
+    "Description": "WHEN: Any phase.\n\nTARGET: One LEGIONES DAEMONICA TZEENTCH MONSTER unit from your army that is on the battlefield.\n\nEFFECT: Select No Man’s Land or your opponent’s deployment zone, or spend one Flux token and select both. Until the end of the phase, the selected areas of the battlefield are within your army’s Shadow of Chaos.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Scintillating Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "pyrosenesis/chaos daemons - scintillating legion",
+    "Name": "Pyrosenesis",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One LEGIONES DAEMONICA TZEENTCH unit from your army that has not been selected to shoot or fight that phase.\n\nEFFECT:  Until the end of the phase, add 2 to the Strength characteristic of weapons equipped by models in your unit, or spend one Flux token and add 3 to the Strength characteristic of those weapons and improve the Armour Penetration characteristic of those weapons by 1 instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Scintillating Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "flickering reality/chaos daemons - scintillating legion",
+    "Name": "Flickering Reality",
+    "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One LEGIONES DAEMONICA TZEENTCH unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Roll one D6, then you can spend one Flux token to re-roll the result: until the end of the phase, each time an attack targets your unit, on an unmodified Hit roll (after any re-roll) of that result, the attack sequence ends, even if the original Hit roll would have been a Critical Hit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Chaos Daemons - Scintillating Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "fateborne nightmares/chaos daemons - scintillating legion",
+    "Name": "Fateborne Nightmares",
+    "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One LEGIONES DAEMONICA TZEENTCH unit from your army.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Scintillating Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "ficklefire/chaos daemons - scintillating legion",
+    "Name": "Ficklefire",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One LEGIONES DAEMONICA TZEENTCH unit from your army that is within Engagement Range of one or more enemy units.\n\nEFFECT: Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets for, and resolving attacks with, ranged weapons. Until the end of the phase, each time an enemy model is destroyed while its unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Scintillating Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "delirium unmade/chaos daemons - scintillating legion",
+    "Name": "Delirium Unmade",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One LEGIONES DAEMONICA TZEENTCH unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend one Flux token when you use this Stratagem and target up to two LEGIONES DAEMONICA TZEENTCH units from your army instead (including those within Engagement Range of one or more enemy units).\n\nEFFECT: Remove your units from the battlefield and place them into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Scintillating Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "wrath undeniable/chaos daemons - blood legion",
+    "Name": "Wrath Undeniable",
+    "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One LEGIONES DAEMONICA KHORNE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Blood Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "gore-hungry onslaught/chaos daemons - blood legion",
+    "Name": "Gore-hungry Onslaught",
+    "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One LEGIONES DAEMONICA KHORNE unit from your army.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Blood Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "skulls beget blood/chaos daemons - blood legion",
+    "Name": "Skulls Beget Blood",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One LEGIONES DAEMONICA KHORNE INFANTRY or LEGIONES DAEMONICA KHORNE MOUNTED unit from your army (excluding units that Fell Back this turn) that is not within Engagement Range of one or more enemy units.\n\nEFFECT: Select one enemy unit that is not within Engagement Range of one or more units from your army and is within 8 of and visible to your unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Chaos Daemons - Blood Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "blood begets skulls/chaos daemons - blood legion",
+    "Name": "Blood Begets Skulls",
+    "Description": "WHEN: Your Charge phase.\n\nTARGET: One LEGIONES DAEMONICA KHORNE unit from your army that has not been selected to charge this phase.\n\nEFFECT: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Chaos Daemons - Blood Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "fools´ flight/chaos daemons - blood legion",
+    "Name": "Fools´ Flight",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit Falls Back.\n\nTARGET: One LEGIONES DAEMONICA KHORNE unit from your army that is within 6 of that enemy unit and would be eligible to declare a charge against that enemy unit.\n\nEFFECT: Your unit now declares a charge that targets only that enemy unit, and you resolve that charge. Note that even if that charge is successful, your unit does not receive any Charge bonus this turn.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Chaos Daemons - Blood Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "sheathed in brass/chaos daemons - blood legion",
+    "Name": "Sheathed in Brass",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One LEGIONES DAEMONICA KHORNE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have a Save characteristic of 3+.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Chaos Daemons - Blood Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "seeping virulence/chaos daemons - plague legion",
+    "Name": "Giants of the Battlefield",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One LEGIONES DAEMONICA NURGLE unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in that unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Plague Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "fever visions/chaos daemons - plague legion",
+    "Name": "Fever Visions",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One LEGIONES DAEMONICA NURGLE unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. After your unit has finished making its attacks, select one enemy unit hit by one or more of those attacks; that enemy unit must take a Battle-shock test.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Plague Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "foetid resurgence/chaos daemons - plague legion",
+    "Name": "Foetid Resurgence",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One LEGIONES DAEMONICA NURGLE unit from your army that is on the battlefield.\n\nEFFECT: Return up to 1 destroyed model to your unit, or up to D3 destroyed models instead if your unit is a BATTLELINE unit, with their full wounds remaining. If it is a MONSTER unit, one model in your unit regains up to D3+1 lost wounds instead.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Chaos Daemons - Plague Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "rot and renewal/chaos daemons - plague legion",
+    "Name": "Rot and Renewal",
+    "Description": "WHEN: Your Movement phase or your Charge phase.\n\nTARGET: One LEGIONES DAEMONICA NURGLE unit from your army.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Plague Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "murkshadows/chaos daemons - plague legion",
+    "Name": "Murkshadows",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One LEGIONES DAEMONICA NURGLE INFANTRY unit from your army.\n\nEFFECT: Until the end of the phase, each time your unit makes a Normal move, add 5 to the Move characteristic of models in your unit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Plague Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
+    }
+  },
+  {
+    "Id": "plague of woes/chaos daemons - plague legion",
+    "Name": "Plague of Woes",
+    "Description": "WHEN: Your opponent’s Command phase, before selecting any targets for the Melancholic Miasma Detachment rule.\n\nTARGET: One LEGIONES DAEMONICA NURGLE unit from your army.\n\nEFFECT: Until the end of the phase, after an enemy unit takes a Battle-shock test as a result of the Melancholic Miasma Detachment rule, select one other enemy unit within 9 of your unit; that enemy unit must take a Battle-shock test.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Chaos Daemons - Plague Legion",
+    "Attributes": {
+      "Color": "0.6, 0.0, 0.3,1.0"
     }
   }
 ]
