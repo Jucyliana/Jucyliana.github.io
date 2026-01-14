@@ -8550,5 +8550,1422 @@
     "Attributes": {
       "Color": "0.6, 0.0, 0.3,1.0"
     }
+  },
+  {
+    "Id": "run them through/imperial knights - valourstrike lance",
+    "Name": "Run Them Through",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by your models have the [LANCE] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Valourstrike Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "thunderstomp/imperial knights - valourstrike lance",
+    "Name": "Thunderstomp",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One IMPERIAL KNIGHTS model from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, the Attacks characteristic of any armoured Feet melee weapons equipped by your model is 8, the Attacks characteristic of any titanic Feet melee weapons equipped by your model is 12, and improve the Armour Penetration characteristic of those weapons by 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Valourstrike Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "full tilt/imperial knights - valourstrike lance",
+    "Name": "Full Tilt",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to move this phase.\n\nEFFECT: Until the end of the phase, add 2 to the Move characteristic of your models and add 2 to Advance rolls made for those model’s units.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Valourstrike Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "vow of retribution/imperial knights - valourstrike lance",
+    "Name": "Vow of Retribution",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by your models have the [LETHAL HITS] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Valourstrike Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "tactical foil/imperial knights - valourstrike lance",
+    "Name": "Tactical Foil",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: One IMPERIAL KNIGHTS model from your army that is within 9 of that unit.\n\nEFFECT: Your model can make a Normal move of up to D6.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Imperial Knights - Valourstrike Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "rotate ion shields/imperial knights - valourstrike lance",
+    "Name": "Rotate Ion Shields",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Valourstrike Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "drive them out/imperial knights - gate warden lance",
+    "Name": "Drive Them Out",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit on your defensive line, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Gate Warden Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "lancebreaker/imperial knights - gate warden lance",
+    "Name": "Lancebreaker",
+    "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks and is on your defensive line.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greaterthan the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Gate Warden Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "steadfast superiority/imperial knights - gate warden lance",
+    "Name": "Steadfast Superiority",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that is within Engagement Range of one or more enemy units, that is on your defensive line and that has not already been selected to fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Gate Warden Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "marshal the defence/imperial knights - gate warden lance",
+    "Name": "Marshal the Defence",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: Up to two IMPERIAL KNIGHTS units from your army that have not been selected to move this phase.\n\nEFFECT: Until the end of the phase, add 3 to the Move characteristic of models in your units.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Gate Warden Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "titanic bombardment/imperial knights - gate warden lance",
+    "Name": "Titanic Bombardment",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that Remained Stationary this turn, that is on your defensive line and that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 2] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Gate Warden Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "fortress of intimidation/imperial knights - gate warden lance",
+    "Name": "Fortress of Intimidation",
+    "Description": "WHEN: Start of your opponent’s Charge phase.\n\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that is on your defensive line.\n\nEFFECT: Until the end of the phase, each time an enemy unit selects your unit as a target of a charge, that unit must take a Battle-shock test, subtracting 1 from the result.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Gate Warden Lance",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "courageous stand/imperial knights - questoris companions",
+    "Name": "Courageous Stand",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Questoris Companions",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "titanic duel/imperial knights - questoris companions",
+    "Name": "Plague of Woes",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One IMPERIAL KNIGHTS TITANIC model from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time your model makes an attack that targets a MONSTER, TITANIC or WALKER unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Questoris Companions",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "moment of glory/imperial knights - questoris companions",
+    "Name": "Moment of Glory",
+    "Description": "WHEN: Fight phase, just before an IMPERIAL KNIGHTS TITANIC unit from your army Consolidates.\n\nTARGET: That IMPERIAL KNIGHTS TITANIC unit.\n\nEFFECT: Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3 provided your unit can end that move within Engagement Range of one or more enemy units.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Questoris Companions",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "hero´s tread/imperial knights - questoris companions",
+    "Name": "Hero´s Tread",
+    "Description": "WHEN: End of your Command phase.\n\nTARGET: One IMPERIAL KNIGHTS TITANIC model from your army that is within range of an objective marker you control.\n\nEFFECT: Your Level of Control over that objective marker is 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "Level": "",
+    "PathName": "Imperial Knights - Questoris Companions",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "unstoppable warrior/imperial knights - questoris companions",
+    "Name": "Unstoppable Warrior",
+    "Description": "WHEN: Your Movement phase, just after an IMPERIAL KNIGHTS TITANIC unit from your army Falls Back.\n\nTARGET: That IMPERIAL KNIGHTS TITANIC unit.\n\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Imperial Knights - Questoris Companions",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "driven by the past/imperial knights - questoris companions",
+    "Name": "Driven by the Past",
+    "Description": "WHEN: Your Charge phase.\n\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army.\n\nEFFECT: Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Imperial Knights - Questoris Companions",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "virtue of courage/imperial knights - spearhead-at-arms",
+    "Name": "Virtue of Courage",
+    "Description": "WHEN: Start of the Fight phase.\n\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\n\nEFFECT: Select one enemy unit. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, add 1 to the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Spearhead-at-arms",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "exemplar´s wisdom/imperial knights - spearhead-at-arms",
+    "Name": "Exemplar´s Wisdom",
+    "Description": "WHEN: Your Shooting phase, just after an IMPERIAL KNIGHTS TITANIC model from your army has shot.\n\nTARGET: That IMPERIAL KNIGHTS TITANIC model, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\n\nEFFECT: Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Spearhead-at-arms",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "mantle of the mentor/imperial knights - spearhead-at-arms",
+    "Name": "Mantle of the Mentor",
+    "Description": "WHEN: Start of your Shooting phase.\n\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\n\nEFFECT: Until the end of the phase, your ARMIGER models are eligible to shoot in a turn in which they Fell Back.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Spearhead-at-arms",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "thin their ranks/imperial knights - spearhead-at-arms",
+    "Name": "Thin Their Ranks",
+    "Description": "WHEN: Start of your Shooting phase.\n\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by your ARMIGER models have the [RAPID FIRE 1] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Spearhead-at-arms",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "let duty be your shield/imperial knights - spearhead-at-arms",
+    "Name": "Let Duty be Your Shield",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ARMIGER unit from your army that was selected as the target of one or more of the attacking units attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the attacking unit has finished making its attacks",
+    "Level": "",
+    "PathName": "Imperial Knights - Spearhead-at-arms",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "squires of the hunt/imperial knights - spearhead-at-arms",
+    "Name": "Squires of the Hunt",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\n\nEFFECT: For each of your ARMIGER models that is within 9 of one or more battlefield edges and not within Engagement Range of one or more enemy units, remove that ARMIGER model from the battlefield and place it into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Imperial Knights - Spearhead-at-arms",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "omnissiah´s grace/imperial knights - questor forgepact",
+    "Name": "Omnissiah´s Grace",
+    "Description": "WHEN: Any phase, just after a mortal wound is allocated to an IMPERIAL KNIGHTS or ADEPTUS MECHANICUS unit from your army.\n\nTARGET: That IMPERIAL KNIGHTS or ADEPTUS MECHANICUS unit.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Questor Forgepact",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "vengeance of the machine cult/imperial knights - questor forgepact",
+    "Name": "Vengeance of the Machine Cult",
+    "Description": "WHEN: Any phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time an ADEPTUS MECHANICUS model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the battle",
+    "Level": "",
+    "PathName": "Imperial Knights - Questor Forgepact",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "bonded imperative/imperial knights - questor forgepact",
+    "Name": "Bonded Imperative",
+    "Description": "WHEN: Your Command phase, just before an IMPERIAL KNIGHTS CHARACTER unit from your army uses a Bondsman ability.\n\nTARGET: That IMPERIAL KNIGHTS CHARACTER unit.\n\nEFFECT: When selecting targets for that use of that Bondsman ability, you can select one friendly ADEPTUS MECHANICUS unit within 12 of your unit in addition, or instead of selecting one ARMIGER model. Until the start of your next Command phase, every model in that ADEPTUS MECHANICUS unit is affected by that Bondsman ability.\n\nRESTRICTIONS:You cannot target a KNIGHT PRECEPTOR with this Stratagem",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the start of your next Command phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Questor Forgepact",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "machine focus/imperial knights - questor forgepact",
+    "Name": "Machine Focus",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army.\n\nEFFECT: Until the start of your next turn, your unit can ignore any or all modifiers to the following: the Weapon Skill or Ballistic Skill characteristics of weapons equipped by its models; any Hit roll or Wound roll made for it.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the start of your next turn",
+    "Level": "",
+    "PathName": "Imperial Knights - Questor Forgepact",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "aggression begets aggresion/imperial knights - questor forgepact",
+    "Name": "Aggression Begets Aggresion",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One IMPERIAL KNIGHTS unit from your army or one IMPERIAL KNIGHTS CHARACTER unit from your army and one friendly ADEPTUS MECHANICUS unit that is within 6 of that unit.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your units have the [ASSAULT] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Knights - Questor Forgepact",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "thronegheist fury/imperial knights - questor forgepact",
+    "Name": "Thronegheist Fury",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit is set up or ends a Normal, Advance, or Fall Back move.\n\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that is within 24 of and visible to that enemy unit.\n\nEFFECT: Select one ranged weapon equipped by a model in your unit. That model can shoot at that enemy unit (and only if it is an eligible target). When doing so, that model can only make attacks with that weapon and each time it makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Imperial Knights - Questor Forgepact",
+    "Attributes": {
+      "Color": "0.05, 0.7, 0.8,1.0"
+    }
+  },
+  {
+    "Id": "armour of contempt/imperial agents - alien hunters",
+    "Name": "Armour of Contempt",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One DEATHWATCH unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the attacking unit has finished making its attacks",
+    "Level": "",
+    "PathName": "Imperial Agents - Alien Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "adaptive tactics/imperial agents - oalien hunters",
+    "Name": "Adaptive Tactics",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One DEATHWATCH unit from your army.\n\nEFFECT: Select the Furor Tactics, Malleus Tactics or Purgatus Tactics. Until the start of your next Command phase, that Deathwatch Mission Tactic is active for your unit instead of any other Deathwatch Mission Tactic that is active for your army, even if you have already selected that Deathwatch Mission Tactic this battle.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the start of your next Command phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Alien Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "hellfire rounds/imperial agents - alien hunters",
+    "Name": "Hellfire Rounds",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One DEATHWATCH INFANTRY unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.\n\nRESTRICTIONS: You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Alien Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "dragonfire rounds/imperial agents - alien hunters",
+    "Name": "Dragonfire Rounds",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One DEATHWATCH INFANTRY unit from your army that has not been selected to shoot this phase.\n\nEFFECT:  Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.\n\nRESTRICTIONS: You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Alien Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "kraken rounds/imperial agents - alien hunters",
+    "Name": "Plague of Woes",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One DEATHWATCH INFANTRY unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6.\n\nRESTRICTIONS: You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Ordo Xenos Alien Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "rapid tactical relocation/imperial agents - alien hunters",
+    "Name": "Rapid Tactical Relocation",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One INQUISITOR or DEATHWATCH INFANTRY unit from your army.\n\nEFFECT: Remove your unit from the battlefield. In the Reinforcements step of your next Movement phase, set your unit up anywhere on the battlefield that is more than 9” horizontally away from all enemy models.\n\nRESTRICTIONS: You cannot select a unit that is within Engagement Range of one or more enemy units",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Imperial Agents - Alien Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "stun grenades/imperial agents - purgation force",
+    "Name": "Stun Grenades",
+    "Description": "WHEN: Start of any phase (excluding the Command phase).\n\nTARGET: One ADEPTUS ARBITES, INQUISITORIAL AGENTS or ORDO HERETICUS GRENADES unit from your army that is not within Engagement Range of one or more enemy units.\n\nEFFECT: Select one enemy unit (excluding MONSTERS or VEHICLES) within 8 of and visible to your unit. That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Purgation Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "dispense justice/imperial agents - purgation force",
+    "Name": "Dispense Justice",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One ADEPTUS ARBITES, INQUISITORIAL AGENTS or ORDO HERETICUS unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, weapons equipped by models in your unit have the [LETHAL HITS] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Purgation Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "inviolate jurisdiction/imperial agents - purgation force",
+    "Name": "Inviolate Jurisdiction",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ADEPTUS ARBITES, INQUISITORIAL AGENTS or ORDO HERETICUS INFANTRY unit from your army within range of an objective marker and that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Purgation Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "execution order/imperial agents - purgation force",
+    "Name": "Execution Order",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One ADEPTUS ARBITES, INQUISITORIAL AGENTS or ORDO HERETICUS INFANTRY unit from your army.\n\nEFFECT: Select one enemy CHARACTER unit on the battlefield. Until the start of your next Command phase, each time a model in your unit targets that CHARACTER unit, its weapons have the [PRECISION] ability.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the start of your next Command phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Purgation Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "line of fire/imperial agents - purgation force",
+    "Name": "Line of Fire",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One ADEPTUS ARBITES, INQUISITORIAL AGENTS or ORDO HERETICUS unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, models in your unit can target enemy units that are within Engagement Range of one or more friendly units with ranged weapons (excluding Blast weapons), provided the target is within 12.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Purgation Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "exact punishment/imperial agents - purgation force",
+    "Name": "Exact Punishment",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an AGENTS OF THE IMPERIUM unit from your army is destroyed as the result of an enemy unit's attacks.\n\nTARGET: One ADEPTUS ARBITES, INQUISITORIAL AGENTS or ORDO HERETICUS unit from your army that was within 6 of the destroyed unit (you cannot target the destroyed unit with the Stratagem).\n\nEFFECT: After the attacking unit has shot, your unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Imperial Agents - Purgation Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "ritual of warding/imperial agents - daemon hunters",
+    "Name": "Ritual of Warding",
+    "Description": "WHEN: Start of any Command phase.\n\nTARGET: One INQUISITOR, INQUISITORIAL AGENTS or ORDO MALLEUS unit from your army that is within range of an objective marker you contro.\n\nEFFECT: That objective marker is said to be Warded and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. While an objective marker is Warded and under your control, enemy DAEMON units cannot be set up on the battlefield within 6 of it.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until your opponent controls it at the start or end of any turn.",
+    "Level": "",
+    "PathName": "Imperial Agents - Daemon Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "rites of exorcism/imperial agents - daemon hunters",
+    "Name": "Rites of Exorcism",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One INQUISITOR, INQUISITORIAL AGENTS or ORDO MALLEUS unit from your army.\n\nEFFECT: Select one enemy DAEMON unit within 12 and visible to your unit. That unit must take a Battle-shock test. If that test is failed, then until the end of the phase, each time a friendly AGENTS OF THE IMPERIUM unit makes an attack that targets that DAEMON unit, that attack has the [DEVASTATING WOUNDS] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Imperial Agents - Daemon Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "steel heart/imperial agents - daemon hunters",
+    "Name": "Steel Heart",
+    "Description": "WHEN: Your Movement phase, just after a GREY KNIGHTS TERMINATOR SQUAD unit from your army Falls Back.\n\nTARGET: That GREY KNIGHTS TERMINATOR SQUAD uni.\n\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Imperial Agents - Daemon Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "truesilver armor/imperial agents - daemon hunters",
+    "Name": "Truesilver Armor",
+    "Description": "WHEN: Your opponent’s Shooting phase orthe Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One GREY KNIGHTS TERMINATOR SQUAD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the attacking unit has finished making its attacks",
+    "Level": "",
+    "PathName": "Imperial Agents - Daemon Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "hexagrammic wards/imperial agents - daemon hunters",
+    "Name": "Hexagrammic Wards",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ORDO MALLEUS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, all Psychic weapons equipped by models in the attacking unit have the [HAZARDOUS] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Daemon Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "psybolt ammunition/imperial agents - daemon hunters",
+    "Name": "Psybolt Ammunition",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One GREY KNIGHTS TERMINATOR SQUAD unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] and [PSYCHIC] abilities.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Daemon Hunters",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "violent acquisition/imperial agents - imperialis fleet",
+    "Name": "Violent Acquisition",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One AGENTS OF THE IMPERIUM unit from your army.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, that attack has the [SUSTAINED HITS 1], [LANCE] and [IGNORES COVER] abilities.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Imperialis Fleet",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "masters of the void/imperial agents - imperialis fleet",
+    "Name": "Masters of the Void",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One VOIDFARERS CHARACTER unit from your army.\n\nEFFECT: Until the end of the phase, each AGENTS OF THE IMPERIUM unit from your army that is arriving from Strategic Reserves this turn can be set up within your opponent’s deployment zone (all other restrictions still apply).",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Imperialis Fleet",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "close-quarters barrage/imperial agents - imperialis fleet",
+    "Name": "Close-quarters Barrage",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One VOIDFARERS unit from your army.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a ranged attack that targets a unit within 12, improve the Strength and Armour Penetration characteristics of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Imperialis Fleet",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "emperor´s will/imperial agents - imperialis fleet",
+    "Name": "Emperor´s Will",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One AGENTS OF THE IMPERIUM unit from your army.\n\nEFFECT: Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced or Fell Back.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Imperialis Fleet",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "displacer field/imperial agents - imperialis fleet",
+    "Name": "Displacer Field",
+    "Description": "WHEN: Your opponent's Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One AGENTS OF THE IMPERIUM CHARACTER unit from your army (excluding OFFICIO ASSASSINORUM units) that was selected as the target of one or more of the attacking unit's attacks.\n\nEFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save and, after the attacking unit has resolved its attacks, unless your unit is within Engagement Range of one or more enemy units, it can make a Normal move of up to 6 (when doing so, models in this unit move as if they have the Fly keyword).",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Imperialis Fleet",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "selfless bodyguard/imperial agents - imperialis fleet",
+    "Name": "Selfless Bodyguard",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its target.\n\nTARGET: One AGENTS OF THE IMPERIUM Attached unit that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack with the [PRECISION] ability is allocated to a CHARACTER model in your unit, if there are one or more Bodyguard models in your unit, roll one D6: on a 2+, that attack is allocated to a Bodyguard model of your choice in your unit instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Imperialis Fleet",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "prime target/imperial agents - veiled blade elimination force",
+    "Name": "Prime Target",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One AGENTS OF THE IMPERIUM unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER unit, re-roll a Wound roll of 1. If that attack is made by an OFFICIO ASSASSINORUM model and it targets the enemy WARLORD, you can re-roll the Wound roll instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Veiled Blade Elimination Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "hyperstimms/imperial agents - veiled blade elimination force",
+    "Name": "Hyperstimms",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One AGENTS OF THE IMPERIUM CHARACTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, add 1 to the Toughness characteristic of models in your unit. In addition, if it is an EVERSOR ASSASSIN unit, until the end of the phase, it has the Feel No Pain 4+ ability.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Veiled Blade Elimination Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "will-sapping salvo/imperial agents - veiled blade elimination force",
+    "Name": "Will-sapping Salvo",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One AGENTS OF THE IMPERIUM INFANTRY unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, if it is a CULEXUS ASSASSIN unit, until the end of the phase, change the Damage characteristic of ranged weapons equipped by models in your unit to 3.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Veiled Blade Elimination Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "orbital oversight/imperial agents - veiled blade elimination force",
+    "Name": "Orbital Oversight",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One AGENTS OF THE IMPERIUM INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18, or, if your unit has the Lone Operative ability, if the attacking model is within 6.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Veiled Blade Elimination Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "blind grenades/imperial agents - veiled blade elimination force",
+    "Name": "Blind Grenades",
+    "Description": "WHEN: Your opponent’s Charge phase, just after an enemy unit has declared a charge.\n\nTARGET: One AGENTS OF THE IMPERIUM GRENADES or VINDICARE ASSASSIN unit from your army that was selected as one of the targets of that charge and is not within Engagement Range of one or more enemy units.\n\nEFFECT: Until the end of the phase, subtract 1 from Charge rolls made for that enemy unit, or, if your unit is a VINDICARE ASSASSIN, subtract 2 from Charge rolls made for that enemy unit instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Imperial Agents - Veiled Blade Elimination Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "ensnaring trap/imperial agents - veiled blade elimination force",
+    "Name": "Ensnaring Trap",
+    "Description": "WHEN: End of your opponent’s Charge phase.\n\nTARGET: One AGENTS OF THE IMPERIUM INFANTRY unit from your army that is within 6 of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units.\n\nEFFECT: Your unit can declare a charge. When doing so, you must select one or more of those enemy units as the targets of that charge, and your unit does not receive a Charge bonus this turn. In addition, if it is a CALLIDUS ASSASSIN unit and it makes a Charge move as a result of this Stratagem, until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Imperial Agents - Veiled Blade Elimination Force",
+    "Attributes": {
+      "Color": "1.0, 0.9, 0.5,1.0"
+    }
+  },
+  {
+    "Id": "rapid regeneration/tyranids - invasion fleet",
+    "Name": "Rapid Regeneration",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Invasion Fleet",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "adrenal surge/tyranids - invasion fleet",
+    "Name": "Adrenal Surge",
+    "Description": "WHEN: Fight phase.\n\nTARGET: Up to two TYRANIDS units from your army that are within Synapse Range of your army and are eligible to fight, or one other TYRANIDS unit from your army that is eligible to fight.\n\nEFFECT: Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Invasion Fleet",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "death frenzy/tyranids - invasion fleet",
+    "Name": "Death Frenzy",
+    "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Invasion Fleet",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "overrun/tyranids - invasion fleet",
+    "Name": "Overrun",
+    "Description": "WHEN: Fight phase, just before a TYRANIDS unit from your army Consolidates.\n\nTARGET: That TYRANIDS uni.\n\nEFFECT: Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3 as long as your unit can end that move within Engagement Range of one or more enemy units. If your unit is within Synapse Range of your army and not within Engagement Range of any enemy units, instead of making that Consolidation move, it can make a Normal move of up to 6.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Invasion Fleet",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "predatory imperative/tyranids - invasion fleet",
+    "Name": "Predatory Imperative",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.\n\nEFFECT: Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.\n\nRESTRICTIONS: You cannot select the same Hyper-adaptation you selected at the start of the first battle round.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the start of your next Command phase",
+    "Level": "",
+    "PathName": "Tyranids - Invasion Fleet",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "endless swarm/tyranids - invasion fleet",
+    "Name": "Endless Swarm",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: Up to two ENDLESS MULTITUDE units from your army that are within Synapse Range of your army, or one other ENDLESS MULTITUDE unit from your army.\n\nEFFECT: You can return up to D3+3 destroyed models to each of the selected units.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Invasion Fleet",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "corrosive viscera/tyranids - crusher stampede",
+    "Name": "Corrosive Viscera",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after a TYRANIDS MONSTER model from your army with the Deadly Demise ability that cannot FLY is destroyed.\n\nTARGET: That TYRANIDS MONSTER model. You can use this Stratagem on that model even though it was just destroyed.\n\nEFFECT: Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicte.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Crusher Stampede",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "rampaging monstrosities/tyranids - crusher stampede",
+    "Name": "Rampaging Monstrosities",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One TYRANIDS MONSTER unit from your army that has not been selected to fight this phas.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Crusher Stampede",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "savage roar/tyranids - crusher stampede",
+    "Name": "Savage Roar",
+    "Description": "WHEN: Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Crusher Stampede",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "euntrammelled ferocity/tyranids - crusher stampede",
+    "Name": "Euntrammelled Ferocity",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One TYRANIDS MONSTER unit from your army that has not been selected to move this phase.\n\nEFFECT: Until the end of the phase, each time a model in your unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4 or less in height. When doing so: -It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. -It can also move through sections of terrain features that are more than 4 in height, but if it does, after its unit has moved, roll one D6: on a 1, your unit is Battle-shocked.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Crusher Stampede",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "swarm-guided salvoes/tyranids - crusher stampede",
+    "Name": "Swarm-guided Salvoes",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Crusher Stampede",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "massive impact/tyranids - crusher stampede",
+    "Name": "Massive Impact",
+    "Description": "WHEN: Your Charge phase, just after a TYRANIDS MONSTER model from your army ends a Charge move.\n\nTARGET: That TYRANIDS MONSTER model.\n\nEFFECT: Select one enemy unit within Engagement Range of your model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Crusher Stampede",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "synaptic goading/tyranids - unending swarm",
+    "Name": "Synaptic Goading",
+    "Description": "WHEN: Any phase, just before an ENDLESS MULTITUDE unit from your army that is within Synapse Range of your army makes a Surge move.\n\nTARGET: That ENDLESS MULTITUDE unit.\n\nEFFECT: When making that Surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest objective marker (instead of as close as possible to the closest enemy unit]. All other rules for making Surge moves still apply.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Unending Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "unending waves/tyranids - unending swarm",
+    "Name": "Unending Waves",
+    "Description": "WHEN: Any phase.\n\nTARGET: One ENDLESS MULTITUDE unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.\n\nRESTRICTIONS: Any destroyed CHARACTER units that were attached to your unit are not returned. You can only use this Stratagem once per battle",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Unending Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "teeming masses/tyranids - unending swarm",
+    "Name": "Teeming Masses",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Unending Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "swarming masses/tyranids - unending swarm",
+    "Name": "Swarming Masses",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One ENDLESS MULTITUDE unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability, and If your unit contains 15 or more models, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Unending Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "bounding advance/tyranids - unending swarm",
+    "Name": "Bounding Advance",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One ENDLESS MULTITUDE unit from your army.\n\nEFFECT: Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6 to the Move characteristic of models in your unit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Unending Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "preservation imperative/tyranids - unending swarm",
+    "Name": "Preservation Imperative",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Unending Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "broodguard impulse/tyranids - assimilation swarm",
+    "Name": "Broodguard Impulse",
+    "Description": "WHEN: Any phase.\n\nTARGET: One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\n\nEFFECT: Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the battle",
+    "Level": "",
+    "PathName": "Tyranids - Assimilation Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "reclaim biomass/tyranids - assimilation swarm",
+    "Name": "Reclaim Biomass",
+    "Description": "WHEN: Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.\n\nTARGET: One HARVESTER unit from your army that is within 6 of that destroyed unit.\n\nEFFECT: Regenerate one friendly TYRANIDS unit within 6 of your HARVESTER unit (See Feed the Swarm).",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Assimilation Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "tyrannoformed/tyranids - assimilation swarm",
+    "Name": "Tyrannoformed",
+    "Description": "WHEN: Command phase.\n\nTARGET: One HARVESTER unit from your army that is within range of an objective marker you control.\n\nEFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until your opponent controls it at the start or end of any turn",
+    "Level": "",
+    "PathName": "Tyranids - Assimilation Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "ablative carapace/tyranids - assimilation swarm",
+    "Name": "Ablative Carapace",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Assimilation Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "secure biomass/tyranids - assimilation swarm",
+    "Name": "Secure Biomass",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One TYRANIDS unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Assimilation Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "rapacious hunger/tyranids - assimilation swarm",
+    "Name": "Rapacious Hunger",
+    "Description": "WHEN: Your Fight phase.\n\nTARGET: One TYRANIDS unit from your army that just destroyed an enemy unit.\n\nEFFECT: Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Assimilation Swarm",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "surprise assault/tyranids - vanguard onslaught",
+    "Name": "Surprise Assault",
+    "Description": "WHEN: Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.\n\nTARGET: That VANGUARD INVADER unit.\n\nEFFECT: Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Vanguard Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "assassin beasts/tyranids - vanguard onslaught",
+    "Name": "Assassin Beasts",
+    "Description": "WHEN: Fight phase.\n\nTARGET: One VANGUARD INVADER INFANTRY unit from your army that has not been selected to fight this phase.\n\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Vanguard Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "seeded broods/tyranids - vanguard onslaught",
+    "Name": "Seeded Broods",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One TYRANIDS unit from your army that is in Reserves, or up to two VANGUARD INVADER units from your army that are in Reserves.\n\nEFFECT: Until the end of the phase, for the purposes of setting up those selected units on the battlefield, treat the current battle round number as being one higher than it actually is.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Vanguard Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "hypersensory scillia/tyranids - vanguard onslaught",
+    "Name": "Hypersensory Scillia",
+    "Description": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\n\nTARGET: Up to two VANGUARD INVADER units from your army that are within 9 of that enemy unit, or one other TYRANIDS INFANTRY unit from your army that is within 9 of that enemy unit.\n\nEFFECT: Those selected units can each make a Normal move of up to 6.\n\nRESTRICTIONS: You cannot target units that are within Engagement Range of one or more enemy units",
+    "CastingValue": "2CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Vanguard Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "unseen lurkers/tyranids - vanguard onslaught",
+    "Name": "Unseen Lurkers",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18 or, if your unit has the Lone Operative ability, if the attacking model is within 6. Your opponent can select new targets for the attacking unit’s attacks.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Vanguard Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "invisible hunter/tyranids - vanguard onslaught",
+    "Name": "Invisible Hunter",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.\n\nEFFECT: Remove the targeted units from the battlefield and place them into Strategic Reserves.\n\nRESTRICTIONS:The targeted units must be more than 3 away from all enemy units",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Vanguard Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "the smothering shadow/tyranids - synaptic nexus",
+    "Name": "The Smothering Shadow",
+    "Description": "WHEN: Any phase, just after an enemy unit fails a Battle-shock test.\n\nTARGET: One SYNAPSE unit from your army within 12 of that enemy unit.\n\nEFFECT: Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Synaptic Nexus",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "synaptic channelling/tyranids - synaptic nexus",
+    "Name": "Synaptic Channelling",
+    "Description": "WHEN: Command phase.\n\nTARGET: One SYNAPSE unit from your army.\n\nEFFECT: Until the end of the turn, while a friendly TYRANIDS unit is within 9 of the selected unit, that unit is within Synapse Range of your army.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the turn",
+    "Level": "",
+    "PathName": "Tyranids - Synaptic Nexus",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "irresistible will/tyranids - synaptic nexus",
+    "Name": "Irresistible Will",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One SYNAPSE unit from your army that has not been selected to shoot or fight this phase, and one enemy unit within 24 of and visible to the SYNAPSE unit.\n\nEFFECT: Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that enemy unit, if the attacking model’s unit is within 6 of your SYNAPSE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Synaptic Nexus",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "reinforced hive node/tyranids - synaptic nexus",
+    "Name": "Reinforced Hive Node",
+    "Description": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n\nTARGET: One SYNAPSE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the attacking unit has finished making its attacks",
+    "Level": "",
+    "PathName": "Tyranids - Synaptic Nexus",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "imperative dominance/tyranids - synaptic nexus",
+    "Name": "Imperative Dominance",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One TYRANIDS unit from your army that is within Synapse Range of your army.\n\nEFFECT: Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the start of your next Command phase",
+    "Level": "",
+    "PathName": "Tyranids - Synaptic Nexus",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "override instincts/tyranids - synaptic nexus",
+    "Name": "Override Instincts",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One TYRANIDS unit from your army that is within Synapse Range of your army and made a Fall Back move this phase.\n\nEFFECT: Your unit is eligible to shoot and declare a charge this turn.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Synaptic Nexus",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "synaptic amplification/tyranids - warrior bioform onslaught",
+    "Name": "Synaptic Amplification",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One TYRANIDS unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6 of it. Until the end of the phase, each time a model in those units makes an attack, re-roll a Wound roll of 1, and, if it is a TYRANID WARRIORS unit, re-roll a Hit roll of 1 as well.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Warrior Bioform Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "spontaneous hypercorrosion/tyranids - warrior bioform onslaught",
+    "Name": "Spontaneous Hypercorrosion",
+    "Description": "WHEN: Your Shooting phase or the Fight phase.\n\nTARGET: One TYRANIDS unit from your army that has not been selected to shoot or fight this phase.\n\nEFFECT: Until the end of the phase, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit and add 1 to the Strength characteristic of melee weapons equipped by TYRANID WARRIORS and WINGED TYRANID PRIME models in your unit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Warrior Bioform Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "restorative impulse/tyranids - warrior bioform onslaught",
+    "Name": "Restorative Impulse",
+    "Description": "WHEN: Your Command phase.\n\nTARGET: One TYRANID WARRIORS unit from your army that is below its Starting Strength.\n\nEFFECT: Return 1 destroyed model (excluding CHARACTER models) to your unit.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Warrior Bioform Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "synaptic micronodes/tyranids - warrior bioform onslaught",
+    "Name": "Synaptic Micronodes",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One TYRANID WARRIORS unit from your army.\n\nEFFECT: Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase",
+    "Level": "",
+    "PathName": "Tyranids - Warrior Bioform Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "parasitic payload/tyranids - warrior bioform onslaught",
+    "Name": "Parasitic Payload",
+    "Description": "WHEN: Your Shooting phase.\n\nTARGET: One TYRANID WARRIORS WITH RANGED BIO-WEAPONS unit from your army that has not been selected to shoot this phase.\n\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. After your unit has resolved its shooting attacks this phase, select one enemy unit hit by one or more of those attacks. Until the end of the turn, models in that unit cannot have the Benefit of Cover.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Warrior Bioform Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "synaptic shield/tyranids - warrior bioform onslaught",
+    "Name": "Synaptic Shield",
+    "Description": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\n\nTARGET: One TYRANID WARRIORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\n\nEFFECT: If that unit is a TYRANID WARRIORS unit, select up to one ENDLESS MULTITUDE unit from your army, that is not Battle-shocked, within 6 of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Warrior Bioform Onslaught",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "adaptative optimisation/tyranids - subterranean assault",
+    "Name": "Adaptative Optimisation",
+    "Description": "WHEN: Command phase.\n\nTARGET: One MAWLOC or TRYGON unit from your army.\n\nEFFECT: Until the start of your next Command phase, your unit has the SYNAPSE keyword.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the start of your next Command phase",
+    "Level": "",
+    "PathName": "Tyranids - Subterranean Assault",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "repelenishing swarms/tyranids - subterranean assault",
+    "Name": "Repelenishing Swarms",
+    "Description": "WHEN: Your Movement phase.\n\nTARGET: One TYRANIDS unit from your army, wholly within 9 of one or more Tunnel Markers you placed.\n\nEFFECT:One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Subterranean Assault",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "enfilading emergence/tyranids - subterranean assault",
+    "Name": "Enfilading Emergence",
+    "Description": "WHEN: End of your Movement phase.\n\nTARGET: One TYRANIDS unit from your army that was set up as Reinforcements this turn.\n\nEFFECT: Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of your next Fight phase",
+    "Level": "",
+    "PathName": "Tyranids - Subterranean Assault",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "endless swarm/tyranids - subterranean assault",
+    "Name": "Endless Swarm",
+    "Description": "WHEN: .\n\nTARGET: .\n\nEFFECT: .",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Subterranean Assault",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "tunnel network/tyranids - subterranean assault",
+    "Name": "Tunnel Network",
+    "Description": "WHEN: End of your Movement phase.\n\nTARGET: One TYRANIDS unit from your army that is wholly within 9 of one or more of your Tunnel Markers and not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and set it up again, wholly within 9 of another Tunnel Marker you placed, and more than 6 horizontally away from all enemy units.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Subterranean Assault",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "swarming assault/tyranids - subterranean assault",
+    "Name": "Swarming Assault",
+    "Description": "WHEN: Your Charge phase.\n\nTARGET: One TYRANIDS MONSTER unit from your army that was set up as Reinforcements this turn.\n\nEFFECT: Until the end of the phase, friendly TYRANIDS units within 6 of your unit can re-roll Charge rolls.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "Until the end of the phase",
+    "Level": "",
+    "PathName": "Tyranids - Subterranean Assault",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
+  },
+  {
+    "Id": "retreat below/tyranids - subterranean assault",
+    "Name": "Retreat Below",
+    "Description": "WHEN: End of your opponent’s Fight phase.\n\nTARGET: One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.\n\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "CastingValue": "1CP",
+    "Range": "N/A",
+    "Duration": "",
+    "Level": "",
+    "PathName": "Tyranids - Subterranean Assault",
+    "Attributes": {
+      "Color": "0.8, 0.5, 1.0,1.0"
+    }
   }
 ]
