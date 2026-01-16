@@ -904,10 +904,10 @@
       "b68a-5ded-65ac-98c": "Deadly Demise",
       "bec5-4288-34a6-ccfa": "Stealth",
       "61c9-1b37-b067-44ba": "Necrodermis",
-      "3eeb-1140-c828-a4c5": "Enslaved Star God",
       "9bf4-280f-bbe2-6fbb": "Feel No Pain",
       "c14c-12b1-1df9-d9f": "Invulnerable Save",
-      "eb12-6f85-4791-9a9e": "Grand Illusion"
+      "eb12-6f85-4791-9a9e": "Grand Illusion",
+      "3eeb-1140-c828-a4c5": "Enslaved Star God"
     },
     "EquipmentIds": [
       "e706-6d5a-296e-2900",
@@ -945,10 +945,10 @@
       "a511-d9ca-17d0-42c5": "Reanimation Protocols",
       "b68a-5ded-65ac-98c": "Deadly Demise",
       "61c9-1b37-b067-44ba": "Necrodermis",
-      "3eeb-1140-c828-a4c5": "Enslaved Star God",
       "9bf4-280f-bbe2-6fbb": "Feel No Pain",
       "7e93-58b3-238-f2e1": "Invulnerable Save",
-      "dfac-c392-eb70-34b8": "Drain Life"
+      "dfac-c392-eb70-34b8": "Drain Life",
+      "3eeb-1140-c828-a4c5": "Enslaved Star God"
     },
     "EquipmentIds": [
       "ed19-391a-6463-ac3b",
@@ -960,10 +960,10 @@
       {
         "Name": "C'tan Shard of the Nightbringer",
         "Values": {
-          "M": "6\"",
+          "M": "10\"",
           "T": "11",
-          "SV": "4+",
-          "W": "12",
+          "SV": "3+",
+          "W": "16",
           "LD": "6+",
           "OC": "4"
         },
@@ -973,8 +973,8 @@
     "Base": {
       "Shape": "round",
       "Size": {
-        "width": "40",
-        "length": "40"
+        "width": "90",
+        "length": "90"
       }
     }
   },
@@ -987,10 +987,10 @@
       "a511-d9ca-17d0-42c5": "Reanimation Protocols",
       "b68a-5ded-65ac-98c": "Deadly Demise",
       "61c9-1b37-b067-44ba": "Necrodermis",
-      "3eeb-1140-c828-a4c5": "Enslaved Star God",
       "9bf4-280f-bbe2-6fbb": "Feel No Pain",
       "efb8-d673-a67a-4c99": "Invulnerable Save",
-      "2d35-82e1-a1b4-850b": "Matter Absorption"
+      "2d35-82e1-a1b4-850b": "Matter Absorption",
+      "3eeb-1140-c828-a4c5": "Enslaved Star God"
     },
     "EquipmentIds": [
       "9107-e2b3-80b7-561",
@@ -1004,10 +1004,10 @@
       {
         "Name": "C'tan Shard of the Void Dragon",
         "Values": {
-          "M": "6\"",
+          "M": "10\"",
           "T": "11",
-          "SV": "4+",
-          "W": "12",
+          "SV": "3+",
+          "W": "16",
           "LD": "6+",
           "OC": "4"
         },
@@ -1047,10 +1047,10 @@
       {
         "Name": "Transcendent C'tan",
         "Values": {
-          "M": "6\"",
+          "M": "8\"",
           "T": "11",
-          "SV": "4+",
-          "W": "12",
+          "SV": "3+",
+          "W": "16",
           "LD": "6+",
           "OC": "4"
         },
@@ -1880,6 +1880,46 @@
       "Size": {
         "width": "40",
         "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "profile_1768559017291",
+    "Name": "Nekrosor Ammentar",
+    "RuleIds": {
+      "a1d2-31fe-75da-858c": "Invulnerable save",
+      "a511-d9ca-17d0-42c5": "Reanimation Protocols",
+      "7cb5-dd6b-dd87-ad3b": "Deep Strike",
+      "24-c886-e8ba-5a89": "Fights First",
+      "rule_1768559156095": "Protective Disciples",
+      "rule_1768559173654": "Infectious Murder-madness (Aura)",
+      "rule_1768559190994": "Prophet of Destruction",
+      "rule_1768559206223": "Nullstone Field Generator (Aura)"
+    },
+    "EquipmentIds": [
+      "equipment_1768559283053",
+      "equipment_1768559336330",
+      "equipment_1768559374531"
+    ],
+    "Statlines": [
+      {
+        "Name": "Nekrosor Ammentar",
+        "Values": {
+          "M": "10\"",
+          "T": "8",
+          "SV": "3+",
+          "W": "9",
+          "LD": "6+",
+          "OC": "3"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "round",
+      "Size": {
+        "width": "80",
+        "length": "80"
       }
     }
   }

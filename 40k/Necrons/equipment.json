@@ -1371,7 +1371,9 @@
           "AP": "-3",
           "D": "D6+2"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
       }
     ]
   },
@@ -1390,7 +1392,9 @@
           "AP": "-3",
           "D": "D6+2"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "4111-82e3-9444-e942": "Anti-"
+        }
       }
     ]
   },
@@ -1429,7 +1433,8 @@
           "D": "2"
         },
         "RuleIds": {
-          "6c1f-1cf7-ff25-c99e": "BLAST"
+          "6c1f-1cf7-ff25-c99e": "BLAST",
+          "1897-c22c-9597-12b1": "Sustained Hits"
         }
       }
     ]
@@ -1470,7 +1475,9 @@
           "AP": "-3",
           "D": "D6"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
       }
     ]
   },
@@ -1490,7 +1497,8 @@
           "D": "D3"
         },
         "RuleIds": {
-          "fc8a-8c24-bae9-cc1c": "ASSAULT"
+          "fc8a-8c24-bae9-cc1c": "ASSAULT",
+          "1897-c22c-9597-12b1": "Sustained Hits"
         }
       }
     ]
@@ -2986,6 +2994,69 @@
           "be1e-ac8e-1e2c-3528": "Devastating Wounds",
           "9143-31ae-e0a6-6007": "Precision"
         }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1768559283053",
+    "Name": "Enmitic disintegrators",
+    "Type": "Ranged Weapons",
+    "Statlines": [
+      {
+        "Name": "Enmitic disintegrators",
+        "Values": {
+          "Range": "18\"",
+          "A": "4",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-2",
+          "D": "1"
+        },
+        "RuleIds": {
+          "4640-43e7-30b-215a": "Ignores Cover",
+          "8bf7-8812-923d-29e4": "Pistol",
+          "1897-c22c-9597-12b1": "Sustained Hits"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1768559336330",
+    "Name": "Blade tail and whip coils",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Blade tail and whip coils",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "115b-79dc-f723-d761": "Extra Attacks"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1768559374531",
+    "Name": "Unmaker Gauntlet",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Unmaker Gauntlet",
+        "Values": {
+          "Range": "Melee",
+          "A": "6",
+          "WS": "2+",
+          "S": "10",
+          "AP": "-3",
+          "D": "3"
+        },
+        "RuleIds": {}
       }
     ]
   }
