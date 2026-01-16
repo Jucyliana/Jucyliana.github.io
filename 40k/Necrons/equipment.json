@@ -3059,5 +3059,65 @@
         "RuleIds": {}
       }
     ]
+  },
+  {
+    "Id": "equipment_1768567262529",
+    "Name": "Transdimensional isolator",
+    "Type": "Ranged Weapons",
+    "Statlines": [
+      {
+        "Name": "Transdimensional isolator",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-2",
+          "D": "2"
+        },
+        "RuleIds": {}
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1768567307734",
+    "Name": "Twin gauss reaper",
+    "Type": "Ranged Weapons",
+    "Statlines": [
+      {
+        "Name": "Twin gauss reaper",
+        "Values": {
+          "Range": "12\"",
+          "A": "2",
+          "WS": "4+",
+          "S": "4",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {
+          "d1d1-611e-5191-1095": "Lethal Hits",
+          "cf93-ad4d-2f08-a79d": "Twin-linked"
+        }
+      }
+    ]
+  },
+  {
+    "Id": "equipment_1768567359209",
+    "Name": "Claws",
+    "Type": "Melee Weapon",
+    "Statlines": [
+      {
+        "Name": "Claws",
+        "Values": {
+          "Range": "Melee",
+          "A": "4",
+          "WS": "4+",
+          "S": "6",
+          "AP": "-1",
+          "D": "1"
+        },
+        "RuleIds": {}
+      }
+    ]
   }
 ]
