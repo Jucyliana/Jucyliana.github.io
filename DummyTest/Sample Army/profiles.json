@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "prof_foot_soldier",
+    "Name": "Foot Soldier",
+    "Type": "Profile",
+    "BaseId": "base_infantry",
+    "Children": [
+      { "Id": "stat_foot_soldier" },
+      { "Id": "equip_sword" },
+      { "Id": "rule_stubborn" }
+    ]
+  },
+  {
+    "Id": "prof_veteran_soldier",
+    "Name": "Veteran Foot Soldier",
+    "Type": "Profile",
+    "BaseId": "base_infantry",
+    "Children": [
+      { "Id": "stat_veteran_soldier" },
+      { "Id": "equip_sword" },
+      { "Id": "rule_stubborn" }
+    ]
+  },
+  {
+    "Id": "prof_knight",
+    "Name": "Knight",
+    "Type": "Profile",
+    "BaseId": "base_cavalry",
+    "Children": [
+      { "Id": "stat_knight" },
+      { "Id": "equip_lance" },
+      { "Id": "equip_heavy_armor" }
+    ]
+  },
+  {
+    "Id": "prof_hero",
+    "Name": "Hero",
+    "Type": "Profile",
+    "BaseId": "base_infantry",
+    "Children": [
+      { "Id": "stat_hero" },
+      { "Id": "equip_sword" },
+      { "Id": "equip_banner_of_valor" },
+      { "Id": "rule_magical_aura" }
+    ]
+  }
+]
