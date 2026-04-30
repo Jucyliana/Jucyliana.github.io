@@ -1,0 +1,65 @@
+{
+  "BattlegroundWidth": 12,
+  "BattlegroundHeight": 12,
+  "WoundsAttribute": "W",
+  "AvailableDice": [
+    "D6",
+    "D3",
+    "RandomDirection",
+    "Scatter",
+    "Artillery"
+  ],
+  "PivotDistanceMeasurement": "Straight",
+  "Formations": [
+    {
+      "Index": 0,
+      "Type": "RankAndFile"
+    },
+    {
+      "Index": 1,
+      "Type": "Lance"
+    }
+  ],
+  "DefaultFormation": "RankAndFile",
+  "FormationChangingRules": [
+    {
+      "Rule": "Frenzy",
+      "FormationType": "Lance"
+    }
+  ],
+  "MaxCloudSeparation": 1,
+  "DefaultSoldierSelectionMode": false,
+  "DefaultCardConfig": {
+    "Width": 50,
+    "Length": 50,
+    "IsRound": false,
+    "ShowInitials": true,
+    "TextColor": "#000000",
+    "Color": "rgb(163, 163, 163)",
+    "Border": true,
+    "BorderColor": "#000000"
+  },
+  "ResultCalculatorAlgorithm": 0,
+  "ListParsingAlgorithm": 0,
+  "PointCounting": "Disabled",
+  "PointCountingStatusNames": [],
+  "UseTurnController": false,
+  "DefaultZenithLight": true,
+  "ShownButtons": [
+    "Delete",
+    "Radius",
+    "Remove wounds",
+    "Add wounds",
+    "Magnet",
+    "Concentric lines",
+    "Base Size",
+    "Base Color",
+    "Reset Card Stack",
+    "Draw Card Stack",
+    "Shuffle Card Stack",
+    "Flip Card",
+    "Return Card",
+    "Line of Sight",
+    "Duplicate"
+  ]
+}
