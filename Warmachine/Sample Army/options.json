@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "opt_add_shield",
+    "Name": "Add Shield",
+    "Type": 1,
+    "Description": "Type 1 = ModifyItemOnAll. Adds the item to every profile in the unit. Used to give shields to the whole Foot Soldier unit.",
+    "ItemsToAdd": [
+      { "Id": "equip_shield" }
+    ]
+  },
+  {
+    "Id": "opt_upgrade_veterans",
+    "Name": "Upgrade to Veterans",
+    "Type": 0,
+    "Description": "Type 0 = SwapUnit. Replaces the entire unit with a different unit entry. See modifiedunit.json for the unit mapping."
+  },
+  {
+    "Id": "opt_add_lance",
+    "Name": "Replace Sword with Lance",
+    "Type": 1,
+    "Description": "Type 1 = ModifyItemOnAll. Adds a lance to every model in the Knights unit.",
+    "ItemsToAdd": [
+      { "Id": "equip_lance" }
+    ]
+  },
+  {
+    "Id": "opt_hero_swap_staff",
+    "Name": "Swap Sword for Magic Staff",
+    "Type": 4,
+    "Description": "Type 4 = ModifyItemOnSingle. Modifies one specific profile instead of the whole unit. The actual items to remove/add are defined in modifiedprofile.json, keyed by this option's Id."
+  }
+]
