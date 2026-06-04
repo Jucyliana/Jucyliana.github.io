@@ -108,11 +108,6 @@
     "Description": "A warrior model hit by this attack suffers -2 DEF and cannot advance while within this model's melee range for one round."
   },
   {
-    "Id": "rules_1780561082769",
-    "Name": "New rules",
-    "Type": "Rule"
-  },
-  {
     "Id": "rules_1780563253235",
     "Name": "Tough",
     "Type": "Rule",
@@ -155,11 +150,6 @@
     "Description": "Enemy models hit are pushed d3\" directly away from the attacking model. On a critical hit, the enemy model becomes knocked down after being pushed."
   },
   {
-    "Id": "rules_1780566760182",
-    "Name": "New rules",
-    "Type": "Rule"
-  },
-  {
     "Id": "rules_1780569481874",
     "Name": "Flight",
     "Type": "Rule",
@@ -200,5 +190,41 @@
     "Name": "Sky-Dropped",
     "Type": "Rule",
     "Description": "Attacks with this weapon ignore cover. Models with Flight do not suffer blast damage from this attack."
+  },
+  {
+    "Id": "rules_1780584412637",
+    "Name": "Assault",
+    "Type": "Rule",
+    "Description": "This model can make an Assault ranged attack.\n\nAn independent model with the Assault advantage can make one ranged attack as part of a successful charge during its activation. The model with Assault makes this ranged attack after the model ends its movement but before it begins its Combat Action. This attack must target the model charged.\n\nWhen a unit charges during its activation, on a successful charge after resolving its Normal Movement but before beginning the unit’s Combat Actions, each trooper model in the unit with the Assault advantage that did not forfeit its Combat Action can make one ranged attack targeting an enemy model it is engaging.\n\nWhen resolving an Assault ranged attack, ignore the target in melee penalty."
+  },
+  {
+    "Id": "rules_1780584433899",
+    "Name": "Brutal Charge",
+    "Type": "Rule",
+    "Description": "This model gains +2 to charge attack damage rolls with this weapon."
+  },
+  {
+    "Id": "rules_1780584491894",
+    "Name": "Sanguine Bond",
+    "Type": "Rule",
+    "Description": "When this model would suffer damage from an enemy attack, you can choose one or more models in its unit to suffer any amount of that damage instead, divided as you choose. If you do, this model does not suffer that damage. A model cannot suffer more damage as a result of Sanguine Bond than it has unmarked damage boxes."
+  },
+  {
+    "Id": "rules_1780584518366",
+    "Name": "Set Defense",
+    "Type": "Rule",
+    "Description": "Models suffer -2 on charge and slam power attack rolls against this model."
+  },
+  {
+    "Id": "rules_1780584531179",
+    "Name": "Unbreakable Wall",
+    "Type": "Rule",
+    "Description": "This model gains a cumulative +3 ARM for each other model in this unit it is currently B2B with. Additionally, while B2B with another model in its unit, this model cannot become knocked down, cannot be placed outside Normal Movement, and cannot be moved by a push, slam, or throw."
+  },
+  {
+    "Id": "rules_1780584687165",
+    "Name": "Snap Fire",
+    "Type": "Rule",
+    "Description": "When this model destroys one or more enemy models with a ranged attack with this weapon during its Combat Action, immediately after that attack is resolved this model can make one basic ranged attack with this weapon. Attacks gained from Snap Fire cannot generate additional attacks from Snap Fire."
   }
 ]
