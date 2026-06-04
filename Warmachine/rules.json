@@ -158,5 +158,47 @@
     "Id": "rules_1780566760182",
     "Name": "New rules",
     "Type": "Rule"
+  },
+  {
+    "Id": "rules_1780569481874",
+    "Name": "Flight",
+    "Type": "Rule",
+    "Description": "This model can fly. A flying model treats all non-impassable terrain as open terrain while advancing. It can move through obstructions and other models if it has enough movement to move completely past them.\n\nWhile charging, slam power attacking, or trample power attacking, this model does not stop its movement when it contacts an obstacle, an obstruction, or another model. This model ignores intervening models when declaring a charge target.\n\nWhile knocked down or stationary, a model loses flight.\n"
+  },
+  {
+    "Id": "rules_1780569511053",
+    "Name": "Advance Deployment",
+    "Type": "Rule",
+    "Description": "This model can be deployed after normal deployment, up to 3˝ beyond the established deployment zone."
+  },
+  {
+    "Id": "rules_1780569536538",
+    "Name": "Albatross",
+    "Type": "Rule",
+    "Description": "If this model is destroyed by an enemy attack, for the rest of this turn enemy models suffer -1 to their attack and damage rolls."
+  },
+  {
+    "Id": "rules_1780569585209",
+    "Name": "Annoyance",
+    "Type": "Rule",
+    "Description": "Living enemy models within 1\" of this model suffer -1 to attack rolls."
+  },
+  {
+    "Id": "rules_1780569597810",
+    "Name": "Fiery Blast",
+    "Type": "Rule",
+    "Description": "When this model is destroyed, models within 2\" of it suffer a POW 14 blast fire damage roll."
+  },
+  {
+    "Id": "rules_1780569608989",
+    "Name": "Flying High",
+    "Type": "Rule",
+    "Description": "Ranged attacks targeting this model suffer -3 RNG. Friendly models can advance through this model if they have enough movement to move completely past its base. This model loses Flying High if it loses Flight."
+  },
+  {
+    "Id": "rules_1780569646719",
+    "Name": "Sky-Dropped",
+    "Type": "Rule",
+    "Description": "Attacks with this weapon ignore cover. Models with Flight do not suffer blast damage from this attack."
   }
 ]
