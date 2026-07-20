@@ -60,7 +60,13 @@
       "ImageURL": "",
       "ImageURLBack": "",
       "Color": "#ff7575"
-    }
+    },
+    "Children": [
+      {
+        "Id": "statlines_1784542247220",
+        "Info": ""
+      }
+    ]
   },
   {
     "Id": "cards_1780569228183",
@@ -76,7 +82,13 @@
       "ImageURL": "",
       "ImageURLBack": "",
       "Color": "#ff7575"
-    }
+    },
+    "Children": [
+      {
+        "Id": "statlines_1784542265456",
+        "Info": ""
+      }
+    ]
   },
   {
     "Id": "cards_1780569251298",
@@ -92,7 +104,13 @@
       "ImageURL": "",
       "ImageURLBack": "",
       "Color": "#ff7575"
-    }
+    },
+    "Children": [
+      {
+        "Id": "statlines_1784542284265",
+        "Info": ""
+      }
+    ]
   },
   {
     "Id": "cards_1780569263580",
@@ -108,7 +126,13 @@
       "ImageURL": "",
       "ImageURLBack": "",
       "Color": "#ff7575"
-    }
+    },
+    "Children": [
+      {
+        "Id": "statlines_1784542317763",
+        "Info": ""
+      }
+    ]
   },
   {
     "Id": "cards_1784538138693",
@@ -139,5 +163,65 @@
     "Name": "Blessings of the Gods",
     "Type": "Card",
     "Description": "Play this card at the start of the activation of one of your models. They gain one of the following effects:\n- That model's weapons gain Blessed and Damage Type: Magical this activation.\n- That model gains one essence, focus, or fury point, or one corpse, rage, or soul token."
+  },
+  {
+    "Id": "cards_1784542927860",
+    "Name": "Avenging Force",
+    "Type": "Card",
+    "Description": "If one or more friendly Faction warrior models were damaged by enemy attacks while in the spellcaster's control range during your opponent's last turn, during your Maintenance Phase one model in the spellcaster's battlegroup in its control range can make a Vengeance Move. A model making a Vengeance Move can advance 3\" and make one basic melee attack. A model can only make one Vengeance Move each turn.",
+    "Children": [
+      {
+        "Id": "statlines_1784542973369",
+        "Info": ""
+      }
+    ]
+  },
+  {
+    "Id": "cards_1784543127103",
+    "Name": "Dauntless Resolve",
+    "Type": "Card",
+    "Description": "Target friendly Faction warrior model/unit gains +3 ARM and Tough.",
+    "Children": [
+      {
+        "Id": "statlines_1784542998204",
+        "Info": ""
+      }
+    ]
+  },
+  {
+    "Id": "cards_1784543186974",
+    "Name": "Frostbite",
+    "Type": "Card",
+    "Description": "Frostbite causes cold damage. On a critical hit, the model hit becomes stationary for one round unless it has Resistance: Cold.",
+    "Children": [
+      {
+        "Id": "statlines_1784543248809",
+        "Info": ""
+      }
+    ]
+  },
+  {
+    "Id": "cards_1784543292135",
+    "Name": "Positive Charge",
+    "Type": "Card",
+    "Description": "\nTarget friendly Faction Cohort model gains +2 to melee attack and melee damage rolls. While within 3\" of the affected Cohort model, other friendly Faction models gain +2 on melee attack and melee damage rolls. Positive Charge lasts for one turn.",
+    "Children": [
+      {
+        "Id": "statlines_1784543048215",
+        "Info": ""
+      }
+    ]
+  },
+  {
+    "Id": "cards_1784543362283",
+    "Name": "Tactical Supremacy",
+    "Type": "Card",
+    "Description": "Target friendly Faction model/unit gains Reposition [3\"]. (At the end of a model/unit with Reposition [3\"]'s activation in which it did not run or fail a charge, it can advance up to 3\", then its activation ends.)",
+    "Children": [
+      {
+        "Id": "statlines_1784543065700",
+        "Info": ""
+      }
+    ]
   }
 ]
