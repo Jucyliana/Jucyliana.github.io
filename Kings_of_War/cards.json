@@ -106,5 +106,235 @@
     "Attributes": {
       "Target": "5+"
     }
+  },
+  {
+    "Id": "cards_1786289993831",
+    "Name": "Alchemist’s Curse",
+    "Type": "Card",
+    "Description": "Add the target’s Defence value to the (n) value of this spell (e.g. Casting Alchemist’s Curse (2) against a Defence 4+ unit, will result in Alchemist’s Curse (6), rolling 6 dice for the spell). Piercing (4). Roll to damage as normal.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Magical Missile"
+    }
+  },
+  {
+    "Id": "cards_1786290080597",
+    "Name": "Bane Chant",
+    "Type": "Card",
+    "Description": "\tIf any hits are scored, instead of causing damage, for the rest of the Turn the unit gains Crushing Strength (+1). This effect only applies once – multiple castings on the same target have no additional effect.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Friendly, CC"
+    }
+  },
+  {
+    "Id": "cards_1786290117319",
+    "Name": "Barkskin",
+    "Type": "Card",
+    "Description": "Instead of hitting on 4+, this spell rolls to hit on a result equal to the target’s Defence value (e.g. when targeting a Defence 5+ unit, the spell will hit on a 5+ before any other modifiers are applied). For each hit scored, instead of causing damage, place a Barkskin token on the target unit (use a different coloured die or suitable markers). Whenever a unit with one or more Barkskin tokens would suffer damage, it instead removes one Barkskin token per point of damage taken. Once all Barkskin tokens have been removed, excess damage is suffered by the unit as normal. Removing a Barkskin token does not count as taking damage for the purposes of requiring a Nerve test or other special rules. At the start of the caster’s following Turn, all remaining Barkskin tokens on the target unit are removed from play.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Friendly, Self, CC"
+    }
+  },
+  {
+    "Id": "cards_1786290159874",
+    "Name": "Bastion",
+    "Type": "Card",
+    "Description": "If any hits are scored, instead of causing damage, until the start of its next Turn, the target increases its Nerve stat value by 1 and gains the Rallying special rule.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Friendly, Self, CC"
+    }
+  },
+  {
+    "Id": "cards_1786290195174",
+    "Name": "Blizzard",
+    "Type": "Card",
+    "Description": "Blast (D3), Frostbite, Piercing (1).",
+    "Attributes": {
+      "Range": "30\"",
+      "Targets": "Magical Missile"
+    }
+  },
+  {
+    "Id": "cards_1786290230670",
+    "Name": "Bloodboil",
+    "Type": "Card",
+    "Description": "When rolling to hit, roll a number of dice equal to the amount of damage on the target unit. Then roll to damage as normal. Piercing (1).",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Madical Missile"
+    }
+  },
+  {
+    "Id": "cards_1786290262484",
+    "Name": "Celestial Restoration",
+    "Type": "Card",
+    "Description": "Blast (D3). Instead of causing damage, the total number of hits is the number of points of damage that are immediately removed from the target unit. Dice rolled to hit with this spell cannot be re-rolled for any reason.",
+    "Attributes": {
+      "Range": "36\"",
+      "Targets": "Friendly, CC, Indirect"
+    }
+  },
+  {
+    "Id": "cards_1786290308677",
+    "Name": "Drain Life",
+    "Type": "Card",
+    "Description": "Piercing (1). Roll to damage as normal. If this is cast into Combat, the target will not take a Nerve test at the end of the Ranged Phase. In addition, if any points of damage are scored, choose either the caster or a single Friendly unit within 6” of the caster. Remove one point of damage from the chosen unit for each point of damage dealt to the target.",
+    "Attributes": {
+      "Range": "6\"",
+      "Targets": "CC"
+    }
+  },
+  {
+    "Id": "cards_1786290342528",
+    "Name": "Enthral",
+    "Type": "Card",
+    "Description": "For each hit scored, instead of causing damage, the target enemy unit is pulled 1” directly forward if the spellcaster is in the target unit’s front arc, directly sideways (on the side of the spellcaster) if the spellcaster is in either of the target unit’s flank arcs, or directly backward if the spellcaster is in the target unit’s rear arc. The target stops 1mm away from enemy units (so it is not Engaged) or just in contact with Blocking Terrain and friendly units. This spell has no effect on units with Speed 0.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Target"
+    }
+  },
+  {
+    "Id": "cards_1786290397044",
+    "Name": "Fireball",
+    "Type": "Card",
+    "Description": "Blast (D3), Shattering (1).",
+    "Attributes": {
+      "Range": "12\"",
+      "Target": "Magic Missile"
+    }
+  },
+  {
+    "Id": "cards_1786290434655",
+    "Name": "Heal",
+    "Type": "Card",
+    "Description": "For each hit scored, instead of causing damage, remove a point of damage from the target unit.",
+    "Attributes": {
+      "Range": "12\"",
+      "Target": "Friendly, Self, CC"
+    }
+  },
+  {
+    "Id": "cards_1786290475315",
+    "Name": "Hex",
+    "Type": "Card",
+    "Description": "If any hits are scored, instead of causing damage, the target enemy unit is Hexed until the end of its next Turn. Hexed units receive two points of damage for each hit they score with a spell. A Nerve test is not required for damage caused by this spell.",
+    "Attributes": {
+      "Range": "30\"",
+      "Targets": "Target"
+    }
+  },
+  {
+    "Id": "cards_1786290534710",
+    "Name": "Host Shadowbeast",
+    "Type": "Card",
+    "Description": "This spell can be used even if the model is Engaged. For each hit scored, instead of causing damage, until the start of its following Turn, the target may make an additional attack when attacking in Combat. These attacks are rolled separately from their normal attacks and always hit on a 3+, with the Crushing Strength (3) special rule. These attacks are never doubled or trebled or affected by artefacts, spells or any other special rules (including additional Crushing Strength above 3). A spellcaster may cast Host Shadowbeast onto themselves and can do so even when Engaged with an enemy unit. Multiple castings on the same target have no additional effect.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "CC, Self, Friendly Hero/Inf, Hero/Cav only"
+    }
+  },
+  {
+    "Id": "cards_1786290564356",
+    "Name": "Icy Breath",
+    "Type": "Card",
+    "Description": "Frostbite",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Magical Missile"
+    }
+  },
+  {
+    "Id": "cards_1786290602342",
+    "Name": "Lightning Bolt",
+    "Type": "Card",
+    "Description": "Piercing (1)",
+    "Attributes": {
+      "Range": "24\"",
+      "Targets": "Magical Missile"
+    }
+  },
+  {
+    "Id": "cards_1786290637951",
+    "Name": "Martyr’s Prayer",
+    "Type": "Card",
+    "Description": "For each hit scored, instead of causing damage, remove one point of damage from the target and transfer it to the spellcaster. The spellcaster will not take a Nerve test for damage taken in this way.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Friendly, CC"
+    }
+  },
+  {
+    "Id": "cards_1786290675317",
+    "Name": "Mind Fog",
+    "Type": "Card",
+    "Description": "If any hits are scored, instead of causing damage, make a Nerve test for the target at the end of the Ranged Phase. Shattering (D3).",
+    "Attributes": {
+      "Range": "36\"",
+      "Targets": "Target"
+    }
+  },
+  {
+    "Id": "cards_1786290713779",
+    "Name": "Scorched Earth",
+    "Type": "Card",
+    "Description": "If any hits are scored, instead of causing damage, for the duration of its next Turn any charges made by the target unit will be Hindered and the target will not be able to use the Strider and Pathfinder special rules.",
+    "Attributes": {
+      "Range": "18\"",
+      "Targets": "Target"
+    }
+  },
+  {
+    "Id": "cards_1786290748459",
+    "Name": "Surge",
+    "Type": "Card",
+    "Description": "For each hit scored, instead of causing damage, the friendly Shambling unit moves straight forward a full inch (stopping in contact with friendly units and Blocking Terrain). If applicable, the Fly special rule is not in effect for this movement. This spell has no effect on units with Speed 0. If this movement brings the target unit into contact with an enemy unit treat this as a successful Charge against the enemy facing that the unit contacted. If a corner is contacted, use the arc that the unit was in before it started its Surge move. If there is not enough space for your unit to physically move into contact with the enemy unit contacted by moving as described in the Moving Chargers section on page 18 then the target unit stops in contact with, but not Engaged with, the enemy unit. If it brings the target unit into contact with more than one enemy unit simultaneously then the player whose turn it is chooses which unit is being charged. If it turns out there is not enough space to physically move into contact as described above you can choose a different target from the enemy units you made contact with. If it turns out you cannot physically move into contact with any of the enemy units then the target unit stops in contact with, but not Engaged with, the enemy units. If the Surge move took the target unit over an Obstacle or through Difficult Terrain, then it will be Hindered in the following Combat phase.. Note that the charged unit will not take any Nerve tests for any damage it might have taken in this Ranged Phase. Note that a unit cannot be the target of a Surge in the same Turn in which it has been ordered to Withdraw!",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Friendly, Shambling only"
+    }
+  },
+  {
+    "Id": "cards_1786290772763",
+    "Name": "Weakness",
+    "Type": "Card",
+    "Description": "If any hits are scored, instead of causing damage, the target unit is Weakened until the end of its next Turn. Weakened units have a -1 modifier when rolling to damage enemy units (any rolls the unit makes of natural six will still cause damage, however). This effect only applies once – multiple castings on the same target have no effect.",
+    "Attributes": {
+      "Range": "24\"",
+      "Targets": "CC"
+    }
+  },
+  {
+    "Id": "cards_1786290815234",
+    "Name": "Veil of Shadows",
+    "Type": "Card",
+    "Description": "If any hits are scored, instead of causing damage, the spellcaster gains the Aura (Stealthy) special rule until the start of the player’s next Turn.",
+    "Attributes": {
+      "Range": "0\"",
+      "Targets": "Self"
+    }
+  },
+  {
+    "Id": "cards_1786290849912",
+    "Name": "Wind Blast",
+    "Type": "Card",
+    "Description": "For each hit scored, instead of causing damage, the target enemy unit is pushed 1” directly backward if the spellcaster is in the target unit’s front arc, directly sideways (on the side opposite the spellcaster) if the spellcaster is in either of the target unit’s flank arcs, or directly forward if the spellcaster is in the target unit’s rear arc. The target stops just out of contact with enemy units (so it is not Engaged) or just in contact with Blocking Terrain and friendly units. This spell has no effect on Speed 0 units.",
+    "Attributes": {
+      "Range": "18\"",
+      "Targets": "Target"
+    }
+  },
+  {
+    "Id": "cards_1786290882329",
+    "Name": "Wither and Perish",
+    "Type": "Card",
+    "Description": "Blast (D3). Roll to damage as normal. If this is cast into Combat, the target will not take a Nerve test at the end of the Ranged Phase. In addition, if any hits are scored, the target unit has a -1 modifier when rolling to damage enemy units until the end of their next Turn (any rolls the unit makes of a natural 6 will still cause damage, however). Multiple castings of this spell, or combining it with Weakness, do not cause additional modifiers.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "CC"
+    }
   }
 ]
