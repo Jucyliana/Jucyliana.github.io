@@ -1,7 +1,7 @@
 [
   {
     "Id": "units_1786214592569",
-    "Name": "Depth Horrors",
+    "Name": "Depth Horrors Troop",
     "Type": "Unit",
     "DefaultFront": 1,
     "Formation": 0,
@@ -13,7 +13,7 @@
   },
   {
     "Id": "units_1786262358952",
-    "Name": "Placoderm",
+    "Name": "Placoderm Troop",
     "Type": "Unit",
     "DefaultFront": 1,
     "Formation": 0,
@@ -35,12 +35,48 @@
   },
   {
     "Id": "units_1786289641464",
-    "Name": "Riverguard",
+    "Name": "Riverguard Troop",
     "Type": "Unit",
     "DefaultFront": 1,
     "Formation": 0,
     "BasicProfileIds": [
       "profiles_1786289492047"
+    ],
+    "ModelsPerBaseX": 5,
+    "ModelsPerBaseY": 2
+  },
+  {
+    "Id": "msov1ybn5afk0",
+    "Name": "Depth Horrors Regimen",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "mskq17vt28fh2"
+    ],
+    "ModelsPerBaseX": 3,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "msov4sbxal5dd",
+    "Name": "Placoderm Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_1786262246764"
+    ],
+    "ModelsPerBaseX": 4,
+    "ModelsPerBaseY": 2
+  },
+  {
+    "Id": "msov5083dm38t",
+    "Name": "Riverguard Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "mslyoordl6p50"
     ],
     "ModelsPerBaseX": 5,
     "ModelsPerBaseY": 2
