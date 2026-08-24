@@ -28,5 +28,23 @@
     "Name": "No Cover",
     "Type": "Rule",
     "Description": "Troopers with this Special Skill do not benefit from Partial Cover MODs."
+  },
+  {
+    "Id": "rules_1787558511487",
+    "Name": "Camouflage",
+    "Type": "Rule",
+    "Description": "During the Deployment Phase, it allows the user to deploy in Camouflaged State.\nIn game, it allows the user to enter Camouflaged State."
+  },
+  {
+    "Id": "rules_1787558540542",
+    "Name": "Mnemonica",
+    "Type": "Rule",
+    "Description": "The user may transfer his own WIP Attribute value and the Mnemonica Special Skill to another Trooper in the same army. That Trooper must be on the battlefield in the form of a Model or Marker and have either a Cube or the REM Troop Type. If the user has the Lieutenant Special Skill this is also transferred, including any additional abilities and MODs such as (+1 Order).\nThe new WIP value replaces the host's original WIP value.\nIf the Mnemonica Trooper was also the army's Lieutenant, the host will become the new Lieutenant.\nOnce activated, this transfer is automatic at the end of the Order in which the user entered the Null State.\nYou must identify the Model or Marker that is the new host, but not whether the Lieutenant Special Skill has been transferred, as that is Private Information.\nAfter the transfer is complete, the original user, now in Dead State, is removed from the game table.\nIf the new host enters a Null State, the original user's WIP value, Mnemonica Special Skill and Lieutenant Special Skill may be transferred again to another ally who fulfills the same requirements.\nIn addition, Troopers with Mnemonica are never considered to have a Cube."
+  },
+  {
+    "Id": "rules_1787558560170",
+    "Name": "Surprise Attack",
+    "Type": "Rule",
+    "Description": "This Attack imposes an additional negative MOD, as shown in round brackets in the Unit Profile [Surprise Attack (-3), Surprise Attack (-6)...]. This MOD only applies to targets of the Attack and applies to any Face to Face Roll that those targets perform in ARO.\nIf a specific Attribute is listed between brackets in the Unit Profile, such as Surprise Attack (CC-6), the negative MOD only applies to that Attribute of the targets of the Attack. This MOD is not cumulative with other MODs imposed by Surprise Attack, for example if the Trooper has both Surprise Attack (-3) and Surprise Attack (CC-6).\nRestriction: This Skill cannot be used again until the Trooper returns to Marker form."
   }
 ]
