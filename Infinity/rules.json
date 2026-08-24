@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "Id": "rules_1787554389268",
+    "Name": "BS Attack",
+    "Type": "Rule",
+    "Description": "The user employs his BS Attribute (or Attribute specified by the weapon) to fire upon one or more enemies.\nWhen declaring a BS Attack, the user must choose which of his BS Weapons, Special Skills or pieces of Equipment to use, from those available in his Unit Profile.\nIf the attacker has more than one target and a BS Weapon, Special Skill or piece of Equipment with a Burst value higher than 1, they must distribute their attacks as part of the BS Attack declaration.\nAll shots must be declared from the same point.\nIf the chosen weapon has more than one Type of Ammunition available, you must choose one for the entire Burst, as part of the BS Attack declaration."
+  },
+  {
+    "Id": "rules_1787554437569",
+    "Name": "Frenzy",
+    "Type": "Rule",
+    "Description": "In the States Phase of the Player Turn where the Requirements have been met, the Trooper gains the following Special Skills and retains them for the remainder of the game:\nImpetuous\nLimited Cover\nWhen Frenzy Troopers gain the Impetuous Special Skill, they cancel any Marker State they are in (Camouflaged, Impersonation...), and any other States that say so. These Troopers cannot re-enter those States."
+  },
+  {
+    "Id": "rules_1787554467626",
+    "Name": "Martial Arts",
+    "Type": "Rule",
+    "Description": "Each Level of Martial Arts gives a series of specific MODs and advantages in CC, as shown in the Martial Arts Chart.\nThe Trooper's Unit Profile will list which Level of Martial Arts the Trooper has. They may only use the Level listed in their Unit Profile."
+  },
+  {
+    "Id": "rules_1787554549886",
+    "Name": "Stealth",
+    "Type": "Rule",
+    "Description": "The user can declare Cautious Movement inside the Zone of Control and Hacking Areas of enemy Models and Markers.\nIf the user declares Cautious Movement, Idle, or a Basic Short Skill with the Movement Label, they only grant AROs to enemies that have LoF to them.\nIf any other Skill is declared, AROs are granted normally.\nIf the user enters Silhouette contact with an enemy without entering their LoF, and declares any of those other Skills, that enemy can only declare CC Attack, Dodge, Reset, or those Skills that can be used in Engaged State."
+  }
+]
