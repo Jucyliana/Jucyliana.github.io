@@ -1,0 +1,64 @@
+{
+  "BattlegroundWidth": 48,
+  "BattlegroundHeight": 48,
+  "WoundsAttribute": "W",
+  "AvailableDice": [
+    "D10",
+    "D6"
+  ],
+  "PivotDistanceMeasurement": "Straight",
+  "Formations": [
+    {
+      "Index": 0,
+      "Type": "Cloud"
+    }
+  ],
+  "DefaultFormation": "Cloud",
+  "FormationChangingRules": [],
+  "MaxCloudSeparation": 2,
+  "DefaultSoldierSelectionMode": false,
+  "DefaultCardConfig": {
+    "Width": 50,
+    "Length": 50,
+    "IsRound": true,
+    "ShowInitials": true,
+    "TextColor": "#000000",
+    "Color": "rgb(163, 163, 163)",
+    "Border": true,
+    "BorderColor": "#000000"
+  },
+  "ResultCalculatorAlgorithm": 4,
+  "ListParsingAlgorithm": 4,
+  "PointCounting": "FullOrNone",
+  "PointCountingStatusNames": [
+    {
+      "Status": 0,
+      "Name": "Alive"
+    },
+    {
+      "Status": 1,
+      "Name": "Dead"
+    }
+  ],
+  "DefaultZenithLight": false,
+  "BattleReportScreenshotTiming": "AtEndOfTurn",
+  "BattleReportScreenshotCardStackId": null,
+  "BattleReportScreenshotAtDeployment": true,
+  "ShownButtons": [
+    "Delete",
+    "Radius",
+    "Remove wounds",
+    "Add wounds",
+    "Magnet",
+    "Concentric lines",
+    "Base Size",
+    "Base Color",
+    "Reform",
+    "Duplicate",
+    "Reset Card Stack",
+    "Draw Card Stack",
+    "Shuffle Card Stack",
+    "Flip Card",
+    "Return Card"
+  ]
+}
