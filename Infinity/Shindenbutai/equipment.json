@@ -1,16 +1,1683 @@
 [
-  { "Id": "equipment_cb_w28", "Name": "Light Shotgun", "Type": "Equipment",
-    "Children": [ { "Id": "statlines_cb_w28" } ] },
-  { "Id": "equipment_cb_w69", "Name": "Pistol", "Type": "Equipment",
-    "Children": [ { "Id": "statlines_cb_w69" } ] },
-  { "Id": "equipment_cb_w11", "Name": "DA CC Weapon", "Type": "Equipment",
-    "Children": [ { "Id": "statlines_cb_w11" }, { "Id": "rules_cb_anti_materiel" }, { "Id": "rules_cb_cc" } ] },
-  { "Id": "equipment_cb_w7", "Name": "E/M CC Weapon", "Type": "Equipment",
-    "Children": [ { "Id": "statlines_cb_w7" }, { "Id": "rules_cb_cc" } ] },
-  { "Id": "equipment_cb_w25", "Name": "E/Mitter", "Type": "Equipment",
-    "Children": [ { "Id": "statlines_cb_w25" }, { "Id": "rules_cb_non_lethal" } ] },
-  { "Id": "equipment_cb_w207", "Name": "Thunderbolt", "Type": "Equipment",
-    "Children": [ { "Id": "statlines_cb_w207" } ] },
-  { "Id": "equipment_cb_w77", "Name": "Submachine Gun", "Type": "Equipment",
-    "Children": [ { "Id": "statlines_cb_w77" }, { "Id": "rules_cb_suppressive_fire" } ] }
+  {
+    "Id": "equipment_cb_w33",
+    "Name": "Combi Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w33"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w69",
+    "Name": "Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w69"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w5",
+    "Name": "CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w5"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e106",
+    "Name": "MediKit",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w17",
+    "Name": "D-Charges",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w17"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_cc"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_improvised"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e238",
+    "Name": "Deactivator",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_e237",
+    "Name": "GizmoKit",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_e245",
+    "Name": "Deployable Cover",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w209",
+    "Name": "Armed Turret (Combi R.)",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w209"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w2",
+    "Name": "Heavy Machine Gun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w2"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w155",
+    "Name": "Shock Marksman Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w155"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w72",
+    "Name": "Flash Pulse",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w72"
+      },
+      {
+        "Id": "rules_cb_bs_weapon_wip"
+      },
+      {
+        "Id": "rules_cb_state_stunned"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e114",
+    "Name": "Multispectral Visor L1",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w169",
+    "Name": "MULTI Marksman Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w169"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w211",
+    "Name": "Silenced Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w211"
+      },
+      {
+        "Id": "rules_cb_silent_6"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w10",
+    "Name": "Shock CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w10"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w77",
+    "Name": "Submachine Gun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w77"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w196",
+    "Name": "Shock Mine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w196"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_concealed"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e145",
+    "Name": "Killer Hacking Device",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_e24",
+    "Name": "Holomask",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_e117",
+    "Name": "X Visor",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w41",
+    "Name": "MULTI Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w41"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w65",
+    "Name": "Nanopulser",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w65"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w13",
+    "Name": "Viral CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w13"
+      },
+      {
+        "Id": "rules_cb_cc"
+      },
+      {
+        "Id": "rules_cb_bioweapon_da_shock"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e246",
+    "Name": "Bangbomb",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w63",
+    "Name": "Viral Mine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w63"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_bioweapon_da_shock"
+      },
+      {
+        "Id": "rules_cb_concealed"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w11",
+    "Name": "DA CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w11"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w28",
+    "Name": "Light Shotgun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w28"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e100",
+    "Name": "Hacking Device",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_e239",
+    "Name": "ECM: Guided",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w3",
+    "Name": "AP Heavy Machine Gun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w3"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w145",
+    "Name": "Pulzar",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w145"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_direct_template_large_teardrop"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w68",
+    "Name": "Panzerfaust",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w68"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w8",
+    "Name": "EXP CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w8"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w217",
+    "Name": "Spitfire MULTI",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w217"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e63",
+    "Name": "Repeater",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w71",
+    "Name": "PARA CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w71"
+      },
+      {
+        "Id": "rules_cb_cc"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_state_imm_a"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e108",
+    "Name": "Nanoscreen",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w111",
+    "Name": "Deployable Repeater",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w111"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w107",
+    "Name": "Heavy Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w107"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w9",
+    "Name": "Monofilament CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w9"
+      },
+      {
+        "Id": "rules_cb_cc"
+      },
+      {
+        "Id": "rules_cb_state_dead"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w7",
+    "Name": "E/M CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w7"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w152",
+    "Name": "Red Fury",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w152"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w74",
+    "Name": "Spitfire",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w74"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w92",
+    "Name": "Stun Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w92"
+      },
+      {
+        "Id": "rules_cb_state_stunned"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e113",
+    "Name": "360º Visor",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w36",
+    "Name": "MULTI Sniper Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w36"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w214",
+    "Name": "AP Submachine Gun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w214"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w157",
+    "Name": "AP Spitfire",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w157"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w64",
+    "Name": "Mk12",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w64"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w57",
+    "Name": "Heavy Flamethrower",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w57"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_direct_template_large_teardrop"
+      },
+      {
+        "Id": "rules_cb_continous_damage"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w176",
+    "Name": "Mine Dispenser",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w176"
+      },
+      {
+        "Id": "rules_cb_double_shot"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_targetless"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e104",
+    "Name": "Holoprojector",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_e115",
+    "Name": "Multispectral Visor L2",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w26",
+    "Name": "Boarding Shotgun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w26"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w216",
+    "Name": "Adhesive Launcher Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w216"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w47",
+    "Name": "E/M Grenades",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w47"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_bs_weapon_ph"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w18",
+    "Name": "Chain Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w18"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_direct_template_large_teardrop"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w96",
+    "Name": "Drop Bears",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w96"
+      },
+      {
+        "Id": "rules_cb_bs_weapon_ph"
+      },
+      {
+        "Id": "rules_cb_throwing_weapon"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_targetless"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w219",
+    "Name": "Armed Turret (AP Rifle)",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w219"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w31",
+    "Name": "Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w31"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w1",
+    "Name": "Akrylat-Kanone",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w1"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_state_imm_a"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w58",
+    "Name": "Missile Launcher",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w58"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w193",
+    "Name": "Tactical Bow",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w193"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_silent_6"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w78",
+    "Name": "AP + DA CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w78"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w89",
+    "Name": "Heavy Rocket Launcher",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w89"
+      },
+      {
+        "Id": "rules_cb_continous_damage"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w70",
+    "Name": "Assault Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w70"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w25",
+    "Name": "E/Mitter",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w25"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e107",
+    "Name": "Motorcycle",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w19",
+    "Name": "Contender",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w19"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w45",
+    "Name": "Smoke Grenades",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w45"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_bs_weapon_ph"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_targetless"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w195",
+    "Name": "Smoke Grenade Launcher",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w195"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      },
+      {
+        "Id": "rules_cb_targetless"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w20",
+    "Name": "Crazykoala",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w20"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_boost"
+      },
+      {
+        "Id": "rules_cb_perimeter"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w27",
+    "Name": "T2 Boarding Shotgun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w27"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w207",
+    "Name": "Thunderbolt",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w207"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w6",
+    "Name": "AP CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w6"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w80",
+    "Name": "Chain-colt",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w80"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w29",
+    "Name": "Heavy Shotgun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w29"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w197",
+    "Name": "E/M Mine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w197"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_concealed"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w213",
+    "Name": "E/M Carbine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w213"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w156",
+    "Name": "Viral Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w156"
+      },
+      {
+        "Id": "rules_cb_bioweapon_da_shock"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w154",
+    "Name": "Pitcher",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w154"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_indiscriminate"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_targetless"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w208",
+    "Name": "Disco Baller",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w208"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_double_shot"
+      },
+      {
+        "Id": "rules_cb_targetless"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e91",
+    "Name": "Baggage",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_e182",
+    "Name": "EVO Hacking Device",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w56",
+    "Name": "Light Flamethrower",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w56"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_continous_damage"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w82",
+    "Name": "Flammenspeer",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w82"
+      },
+      {
+        "Id": "rules_cb_continous_damage"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w98",
+    "Name": "Breaker Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w98"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w179",
+    "Name": "Viral Tactical Bow",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w179"
+      },
+      {
+        "Id": "rules_cb_bioweapon_da_shock"
+      },
+      {
+        "Id": "rules_cb_silent_6"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w44",
+    "Name": "Grenades",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w44"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_bs_weapon_ph"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w100",
+    "Name": "AP Heavy Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w100"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w224",
+    "Name": "AP + T2 CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w224"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w220",
+    "Name": "PARA Mine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w220"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_concealed"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w227",
+    "Name": "AP + EXP CC Weapon",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w227"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_cc"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w81",
+    "Name": "Vulkan Shotgun",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w81"
+      },
+      {
+        "Id": "rules_cb_continous_damage"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w110",
+    "Name": "K1 Sniper Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w110"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w189",
+    "Name": "MULTI Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w189"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_wNone",
+    "Name": "Weapon None",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_wNone"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w103",
+    "Name": "Breaker Combi Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w103"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w194",
+    "Name": "Grenade Launcher",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w194"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w201",
+    "Name": "E/M Grenade Launcher",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w201"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e101",
+    "Name": "Hacking Device Plus",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w174",
+    "Name": "Cybermine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w174"
+      },
+      {
+        "Id": "rules_cb_comms_attack"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_concealed"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      },
+      {
+        "Id": "rules_cb_state_stunned_immbolized_b"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w212",
+    "Name": "Boarding Pistol",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w212"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w46",
+    "Name": "Eclipse Grenades",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w46"
+      },
+      {
+        "Id": "rules_cb_speculative_attack"
+      },
+      {
+        "Id": "rules_cb_bs_weapon_ph"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_reflective"
+      },
+      {
+        "Id": "rules_cb_targetless"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w199",
+    "Name": "AP Mine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w199"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_concealed"
+      },
+      {
+        "Id": "rules_cb_disposable_3"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_deployable"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w109",
+    "Name": "Breaker Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w109"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e241",
+    "Name": "ECM: Hacker",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w147",
+    "Name": "Chest Mine",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w147"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      },
+      {
+        "Id": "rules_cb_double_shot"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w188",
+    "Name": "Heavy Riotstopper",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w188"
+      },
+      {
+        "Id": "rules_cb_state_imm_a"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_direct_template_large_teardrop"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w38",
+    "Name": "T2 Sniper Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w38"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w35",
+    "Name": "AP Sniper Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w35"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w43",
+    "Name": "Viral Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w43"
+      },
+      {
+        "Id": "rules_cb_bioweapon_da_shock"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_e183",
+    "Name": "Albedo",
+    "Type": "Equipment"
+  },
+  {
+    "Id": "equipment_cb_w175",
+    "Name": "Zapper",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w175"
+      },
+      {
+        "Id": "rules_cb_intuitive_attack"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      },
+      {
+        "Id": "rules_cb_direct_template_small_teardrop"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w40",
+    "Name": "Plasma Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w40"
+      },
+      {
+        "Id": "rules_cb_suppressive_fire"
+      },
+      {
+        "Id": "rules_cb_impact_template_circular"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w14",
+    "Name": "Blitzen",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w14"
+      },
+      {
+        "Id": "rules_cb_disposable_2"
+      },
+      {
+        "Id": "rules_cb_non_lethal"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w34",
+    "Name": "Sniper Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w34"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w177",
+    "Name": "Trench-Hammer",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w177"
+      },
+      {
+        "Id": "rules_cb_anti_materiel"
+      },
+      {
+        "Id": "rules_cb_bs_weapon_ph"
+      }
+    ]
+  },
+  {
+    "Id": "equipment_cb_w39",
+    "Name": "VIRAL Sniper Rifle",
+    "Type": "Equipment",
+    "Children": [
+      {
+        "Id": "statlines_cb_w39"
+      },
+      {
+        "Id": "rules_cb_bioweapon_da_shock"
+      }
+    ]
+  }
 ]
