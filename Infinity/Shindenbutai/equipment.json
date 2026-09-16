@@ -1,16 +1,16 @@
 [
   { "Id": "equipment_cb_w28", "Name": "Light Shotgun", "Type": "Equipment",
-    "Attributes": { "Ammo": "N", "B": "2", "Dam": "7", "Save": "ARM", "Range": "20/+6 40/0 60/-3" } },
+    "Children": [ { "Id": "statlines_cb_w28" } ] },
   { "Id": "equipment_cb_w69", "Name": "Pistol", "Type": "Equipment",
-    "Attributes": { "Ammo": "N", "B": "2", "Dam": "9", "Save": "ARM", "Range": "20/+3 40/0 60/-6" } },
+    "Children": [ { "Id": "statlines_cb_w69" } ] },
   { "Id": "equipment_cb_w11", "Name": "DA CC Weapon", "Type": "Equipment",
-    "Attributes": { "Ammo": "DA", "B": "1", "Dam": "8", "Save": "ARM", "Properties": "Anti-materiel, CC" } },
+    "Children": [ { "Id": "statlines_cb_w11" }, { "Id": "rules_cb_anti_materiel" }, { "Id": "rules_cb_cc" } ] },
   { "Id": "equipment_cb_w7", "Name": "E/M CC Weapon", "Type": "Equipment",
-    "Attributes": { "Ammo": "N+E/M", "B": "1", "Dam": "8", "Save": "BTS/2", "Properties": "CC" } },
+    "Children": [ { "Id": "statlines_cb_w7" }, { "Id": "rules_cb_cc" } ] },
   { "Id": "equipment_cb_w25", "Name": "E/Mitter", "Type": "Equipment",
-    "Attributes": { "Ammo": "E/M", "B": "2", "Dam": "7", "Save": "BTS/2", "Range": "20/-3 40/0 80/+3 120/0", "Properties": "Non-lethal" } },
+    "Children": [ { "Id": "statlines_cb_w25" }, { "Id": "rules_cb_non_lethal" } ] },
   { "Id": "equipment_cb_w207", "Name": "Thunderbolt", "Type": "Equipment",
-    "Attributes": { "Ammo": "N", "B": "2", "Dam": "6", "Save": "ARM", "Range": "20/-3 40/0 80/+3 120/0" } },
+    "Children": [ { "Id": "statlines_cb_w207" } ] },
   { "Id": "equipment_cb_w77", "Name": "Submachine Gun", "Type": "Equipment",
-    "Attributes": { "Ammo": "N", "B": "3", "Dam": "7", "Save": "ARM", "Range": "20/+3 40/0 60/-3 80/-6", "Properties": "Suppressive Fire" } }
+    "Children": [ { "Id": "statlines_cb_w77" }, { "Id": "rules_cb_suppressive_fire" } ] }
 ]
