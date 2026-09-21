@@ -100,5 +100,33 @@
     "UnitId": "units_3206",
     "NewUnitId": "units_3206_2",
     "NewProfileId": "profiles_3206_2"
+  },
+  {
+    "OptionId": "options_opt_120",
+    "UnitId": "units_3208",
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "rules_40"
+      }
+    ]
+  },
+  {
+    "OptionId": "options_opt_121",
+    "UnitId": "units_3217",
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "rules_42",
+        "Info": "Combat"
+      },
+      {
+        "Id": "rules_40",
+        "Info": "1"
+      }
+    ],
+    "ReferencedItemsToRemove": [
+      {
+        "Id": "rules_18"
+      }
+    ]
   }
 ]
