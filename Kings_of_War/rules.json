@@ -1,56 +1,386 @@
 [
   {
-    "Id": "rules_1786101541588",
+    "Id": "rules_1",
+    "Name": "Aura",
+    "Type": "Rule",
+    "Description": "(n) is a special rule or bonus that the Aura grants to the unit itself and all friendly units while they are within 6” of the unit. An Aura may have a further qualifier, in which case the Aura will only grant the special rule to the unit with that name or Trait in addition to the unit with the Aura itself. For example, Aura (Wild Charge (1) Herd Trait only) would confer the Wild Charge (1) special rule to all friendly units within 6” with the Herd Trait. Occasionally an Aura may have a longer range, which will be specified before the listed bonus. Effects of Auras of the same type are not cumulative. So, for instance, a unit covered by two Auras (Thunderous Charge (+1)) do not gain Thunderous Charge (+2). Units only gain special rules that affect Combat or Ranged attacks (such as +n Att, +n Me, Brutal, Elite, Crushing Strength etc.) if they are within the Aura when the attacks are being resolved. Extra attacks granted in this way are applied to the unit’s profile before any potential doubling for Flank or Rear bonuses. If an Aura increases the stats of the units within range, the bonus is assumed to have already been applied to the unit with the Aura (you can’t add it again!). Units only gain special rules that affect movement (such as Pathfinder, Strider, Wild Charge etc.) if they are within the Aura at the beginning of their movement."
+  },
+  {
+    "Id": "rules_2",
+    "Name": "Big Shield",
+    "Type": "Rule",
+    "Description": "All attacks (Ranged and Combat) against the target unit’s front facing treat its defence as 6+."
+  },
+  {
+    "Id": "rules_3",
+    "Name": "Blast",
+    "Type": "Rule",
+    "Description": "For each of the unit’s attacks that hit the target, the target suffers a number of hits equal to the number in brackets, rather than a single hit. For example, if a unit suffers a single hit from a Blast (D6+3) attack, it will suffer from four to nine hits rather than a single one. If a unit suffers four hits from a Blast (D3) attack, it will suffer from four to twelve hits rather than a single one. Once this is done, roll for damage as normal for all of the hits caused"
+  },
+  {
+    "Id": "rules_4",
+    "Name": "Brutal",
+    "Type": "Rule",
+    "Description": "When testing the Nerve of an enemy unit in Combat with one or more of your units with this rule, add the highest Brutal (n) value to the total rolled. If an enemy unit is subject to both the Brutal and Dread special rules, the attacking player must choose which to use. Both cannot be applied against the same unit at the same time."
+  },
+  {
+    "Id": "rules_5",
+    "Name": "Cloak of Death",
+    "Type": "Rule",
+    "Description": "In the Movement Phase, after this unit has completed its order, all enemy units within 6” of this unit take an immediate point of damage. Units can only be damaged by a single source of Cloak of Death per Turn. No Nerve test is required for damage taken from a Cloak of Death."
+  },
+  {
+    "Id": "rules_6",
     "Name": "Crushing Strength",
     "Type": "Rule",
     "Description": "All hits caused by attacks from this unit in Combat have a (+n) modifier when rolling to damage. For example: when rolling to damage in Combat with an attack that has Crushing Strength (1), a roll of 4 would become a roll of 5."
   },
   {
-    "Id": "rules_1786214529467",
-    "Name": "Rampage",
+    "Id": "rules_7",
+    "Name": "Dread",
     "Type": "Rule",
-    "Description": "When attacking an enemy unit with the Infantry, Heavy Infantry, Cavalry or War Engine unit type, a unit with this special rule gains (n) additional attacks. If Engaged with several qualifying units, choose which one unit the bonus attacks are allocated to."
+    "Description": "While within 6” of this unit, enemy units have -1 to their Nerve value, in addition to any other modifiers that may apply. A unit can only be affected by a single source of Dread – multiple sources are not cumulative. If an enemy unit is subject to both the Brutal and Dread special rules or the Shattering and Dread special rules, the attacking player must choose to use either the Brutal/Shattering or the Dread modifiers. Both cannot be applied against the same unit."
   },
   {
-    "Id": "rules_1786262210252",
-    "Name": "Headstrong",
+    "Id": "rules_8",
+    "Name": "Duellist",
     "Type": "Rule",
-    "Description": "If a unit with this rule begins its Turn Wavering, roll a die before declaring a Movement order (including Halt!) for this unit. On a 4+ it shrugs off the effects of Wavering – remove the Wavering status from the unit."
+    "Description": "When attacking an enemy Hero in Combat, a unit with this special rule gains (n) additional attacks. If Engaged with several qualifying units, choose which one unit the bonus attacks are allocated to. If the allocated target also has the Duellist special rule, no additional attacks are granted."
   },
   {
-    "Id": "rules_1786262230228",
-    "Name": "Phalanx",
+    "Id": "rules_9",
+    "Name": "Elite",
     "Type": "Rule",
-    "Description": "Cavalry, Large Cavalry, and units with the Fly special rule that Charge this unit’s front are Hindered."
+    "Description": "Whenever the unit rolls to hit, it re-rolls all dice that score a natural, unmodified 1. Elite may specify which phase it is limited to: e.g. Elite (Ranged) means the rule applies only in the Ranged Phase."
   },
   {
-    "Id": "rules_1786262450155",
+    "Id": "rules_10",
+    "Name": "Ensnare",
+    "Type": "Rule",
+    "Description": "In Combat, attacks against this unit’s front suffer an additional -1 to hit."
+  },
+  {
+    "Id": "rules_11",
+    "Name": "Fearless",
+    "Type": "Rule",
+    "Description": "When taking Nerve tests, this unit treats Wavering as Steady."
+  },
+  {
+    "Id": "rules_12",
     "Name": "Feint",
     "Type": "Rule",
     "Description": "If this unit decides to Withdraw! from Combat, it does so automatically, without taking a Nerve test. If a unit with Feint is not Wavering after its Withdraw! move, it may then perform a Change Facing! order."
   },
   {
-    "Id": "rules_1786262463108",
+    "Id": "rules_13",
     "Name": "Fly",
     "Type": "Rule",
     "Description": "When executing an order other than Withdraw!, the unit can move and pivot over anything (Blocking Terrain, enemy units, friendly units when charging, etc.), as long as the flying unit’s entire Movement Order ends clear of any units or Blocking Terrain. The unit does not suffer Hindered charges for moving over Difficult Terrain or Obstacles, unless it starts or ends the move within or touching them."
   },
   {
-    "Id": "rules_1786262488122",
+    "Id": "rules_14",
+    "Name": "Frostbite",
+    "Type": "Rule",
+    "Description": "If one or more points of damage are scored with this unit’s attack, the target enemy unit is given the Frozen status (see page 47)."
+  },
+  {
+    "Id": "rules_15",
+    "Name": "Headstrong",
+    "Type": "Rule",
+    "Description": "If a unit with this rule begins its Turn Wavering, roll a die before declaring a Movement order (including Halt!) for this unit. On a 4+ it shrugs off the effects of Wavering – remove the Wavering status from the unit."
+  },
+  {
+    "Id": "rules_16",
+    "Name": "Height",
+    "Type": "Rule",
+    "Description": "If a unit is a different height from the standard of its unit type (see chart on page 12), its height is the number given in this special rule as (n)."
+  },
+  {
+    "Id": "rules_17",
+    "Name": "Indirect",
+    "Type": "Rule",
+    "Description": "A unit or weapon with this rule cannot make Ranged attacks on targets that are within 12”, but does not suffer the -1 to-hit modifier for enemy targets being in cover."
+  },
+  {
+    "Id": "rules_18",
+    "Name": "Individual",
+    "Type": "Rule",
+    "Description": "This rule is explained on page 42."
+  },
+  {
+    "Id": "rules_19",
+    "Name": "Inspiring",
+    "Type": "Rule",
+    "Description": "If this unit, or any friendly unit within 6” of this unit, suffers a Wavering or Rout result (including when attempting to Withdraw!), that Nerve test must be rerolled. The second result stands. Note that a unit may also have a qualifier for its Inspiring rule. In this case the unit will only Inspire itself and the unit(s) specified."
+  },
+  {
+    "Id": "rules_20",
+    "Name": "Iron Resolve",
+    "Type": "Rule",
+    "Description": "If this unit is Steady as a result of a Nerve test, it regains (n) points of damage previously suffered to a maximum of 3."
+  },
+  {
+    "Id": "rules_21",
     "Name": "Leaper",
     "Type": "Rule",
     "Description": "When drawing Line of Sight from this unit, treat it as 1 point of Height higher than normal (modified by terrain as normal)."
   },
   {
-    "Id": "rules_1786262504884",
+    "Id": "rules_22",
+    "Name": "Lifeleech",
+    "Type": "Rule",
+    "Description": "When this unit completes its to-hit and to-damage rolls in Combat, it regains one point of damage it has previously suffered for every point of damage it causes on the enemy unit, up to a maximum of (n)."
+  },
+  {
+    "Id": "rules_23",
+    "Name": "Nimble",
+    "Type": "Rule",
+    "Description": "The unit can make a single extra pivot of up to 90 degrees around its centre-point while executing a Charge! order."
+  },
+  {
+    "Id": "rules_24",
     "Name": "Pathfinder",
     "Type": "Rule",
     "Description": "The unit may move At The Double! through Difficult Terrain as though it were Open Terrain."
   },
   {
-    "Id": "rules_1786282212677",
-    "Name": "Inspiring",
+    "Id": "rules_25",
+    "Name": "Phalanx",
     "Type": "Rule",
-    "Description": "If this unit, or any friendly unit within 6” of this unit, suffers a Wavering or Rout result (including when attempting to Withdraw!), that Nerve test must be rerolled. The second result stands. Note that a unit may also have a qualifier for its Inspiring rule. In this case the unit will only Inspire itself and the unit(s) specified."
+    "Description": "Cavalry, Large Cavalry, and units with the Fly special rule that Charge this unit’s front are Hindered."
+  },
+  {
+    "Id": "rules_26",
+    "Name": "Piercing",
+    "Type": "Rule",
+    "Description": "All hits caused by Ranged attacks from a unit or weapon with this special rule have a (+n) modifier when rolling to damage. For example: when rolling to damage with a Ranged attack that has Piercing (1), a roll of 4 would become a roll of 5."
+  },
+  {
+    "Id": "rules_27",
+    "Name": "Radiance of Life",
+    "Type": "Rule",
+    "Description": "In the Movement Phase, after this unit has completed its order, this unit (regardless of any qualifier) and all friendly units within 6” of this unit remove one point of damage previously suffered. Units can only be affected by a single source of Radiance of Life per Turn."
+  },
+  {
+    "Id": "rules_28",
+    "Name": "Rallying",
+    "Type": "Rule",
+    "Description": "Friendly units within 6” of this unit have +1 to their Nerve value. This is not cumulative if multiple units with Rallying are in range."
+  },
+  {
+    "Id": "rules_29",
+    "Name": "Rampage",
+    "Type": "Rule",
+    "Description": "When attacking an enemy unit with the Infantry, Heavy Infantry, Cavalry or War Engine unit type, a unit with this special rule gains (n) additional attacks. If Engaged with several qualifying units, choose which one unit the bonus attacks are allocated to."
+  },
+  {
+    "Id": "rules_30",
+    "Name": "Regeneration",
+    "Type": "Rule",
+    "Description": "Once per Turn, immediately before resolving the unit’s Movement order, roll a number of dice equal to the amount of damage currently on the unit. For every result of (n) or higher, the unit recovers one point of damage previously suffered."
+  },
+  {
+    "Id": "rules_31",
+    "Name": "Reload",
+    "Type": "Rule",
+    "Description": "The unit can only make ranged attacks if it received a Halt! order in its previous Movement Phase."
+  },
+  {
+    "Id": "rules_32",
+    "Name": "Retaliate!",
+    "Type": "Rule",
+    "Description": "If a unit starts its Turn Engaged with two or more enemy units, in the Combat Phase, it gains Crushing Strength (+1) on any attacks it allocates to one of those enemy units. A unit with this special rule can never be ordered to Withdraw!"
+  },
+  {
+    "Id": "rules_33",
+    "Name": "Scout",
+    "Type": "Rule",
+    "Description": "The unit can make a single Advance! order after set-up is finished but before the first Turn of the game begins. If both armies have units with this rule, both players roll a single die. The highest scorer decides who begins to move one of their Scout units first, then the players alternate until all Scout units have been moved. Players then roll to determine who takes the first Turn as normal."
+  },
+  {
+    "Id": "rules_34",
+    "Name": "Shambling",
+    "Type": "Rule",
+    "Description": "The unit cannot be given an At the Double! movement order. In addition, it can only make a single pivot as part of an Advance! movement order instead of two."
+  },
+  {
+    "Id": "rules_35",
+    "Name": "Shattering",
+    "Type": "Rule",
+    "Description": "If a unit is damaged by the ranged attacks of one or more units with this rule, add (n) to the subsequent Nerve test at the end of the Ranged Phase. If an enemy unit is subject to both the Shattering and Dread special rules, the attacking player must choose to use either the Shattering or the Dread modifiers. Both cannot be applied against the same unit."
+  },
+  {
+    "Id": "rules_36",
+    "Name": "Slayer",
+    "Type": "Rule",
+    "Description": "When attacking an enemy unit with the Large Infantry, Large Cavalry, or Monster unit types, a unit with this special rule gains (n) additional attacks. If Engaged with several qualifying units, choose which one unit the bonus attacks are allocated to."
+  },
+  {
+    "Id": "rules_37",
+    "Name": "Spellward",
+    "Type": "Rule",
+    "Description": "All spells, both friendly and enemy, targeting this unit suffer a -1 to hit modifier. Note that rolls of natural unmodified 6s still always hit."
+  },
+  {
+    "Id": "rules_38",
+    "Name": "Stealthy",
+    "Type": "Rule",
+    "Description": "Enemy units making Ranged attacks against this unit suffer an additional -1 to hit modifier."
+  },
+  {
+    "Id": "rules_39",
+    "Name": "Strider",
+    "Type": "Rule",
+    "Description": "This unit’s Charge is not Hindered when charging through, or ending its Charge on, Difficult Terrain or Obstacles."
+  },
+  {
+    "Id": "rules_40",
+    "Name": "Thunderous Charge",
+    "Type": "Rule",
+    "Description": "If the unit has made a Charge! into Combat this Turn, all hits inflicted in Combat by this unit have a (+n) modifier when rolling to damage. This bonus is in addition to the unit’s Crushing Strength (if any). However, the unit loses this bonus when Hindered."
+  },
+  {
+    "Id": "rules_41",
+    "Name": "Very Inspiring",
+    "Type": "Rule",
+    "Description": "This is the same as the Inspiring special rule, except that it has a range of 9”. Any rule that affects Inspiring also affects Very Inspiring."
+  },
+  {
+    "Id": "rules_42",
+    "Name": "Vicious",
+    "Type": "Rule",
+    "Description": "Whenever the unit rolls to damage, it re-rolls all dice that score a natural, unmodified 1. Vicious may specify which phase it is limited to: e.g. Vicious (Combat) means the rule applies only in the Combat Phase."
+  },
+  {
+    "Id": "rules_43",
+    "Name": "Yielding",
+    "Type": "Rule",
+    "Description": "Both friendly and enemy units can always choose to ignore this unit, just as if it was not there, when moving and shooting (even if Engaged with it). They must however still end their Movement Order clear of this unit. It is assumed that the Yielding unit moves aside and lets the enemy pass by before returning to its position. If your unit(s) Routs a Yielding unit and chooses to move Forward!, and this random movement would bring them into contact with another enemy unit, treat this as a successful Charge against the facing that your unit(s) started its Forward! move in (if possible, otherwise against the facing contacted). If the Forward! move took your unit(s) over an Obstacle or through Difficult Terrain, then it will be Hindered in the ensuing Combat as normal."
+  },
+  {
+    "Id": "rules_44",
+    "Name": "Wild Charge",
+    "Type": "Rule",
+    "Description": "Units with this special rule add (n) to their charge range. This is added after Sp is doubled. For example, a unit with a Sp stat of 4 and Wild Charge (2) can Charge units up to 10” away. In some instances, the (n) value may be a variable die roll (e.g. Wild Charge (D3)). In these cases, roll a separate D3 for the unit after issuing a Charge order to it. If the number rolled means that the target unit is not in range to complete the charge, your unit must be given a different order, but cannot select an alternative unit to Charge!"
+  },
+  {
+    "Id": "rules_45",
+    "Name": "Frozen",
+    "Type": "Rule",
+    "Description": "Frozen is a status, rather than a special rule, but we present it here for completeness, as it is often a result of the Frostbite special rule. A unit that is Frozen is given a token and has -1 Sp until the end of its next Turn, at which point the token is removed from the unit. Units may not have more than one Frozen token at a time. Frozen has no effect if the unit’s Sp is already 4 or below."
+  },
+  {
+    "Id": "rules_46",
+    "Name": "Fuel for the Fire",
+    "Type": "Rule",
+    "Description": "While within 6\" of a friendly unit with the Flamebound Trait, Z'akke has the Elite (Ranged) special rule for any non-Arcane Library spells he casts."
+  },
+  {
+    "Id": "rules_47",
+    "Name": "Unit Strength",
+    "Type": "Rule",
+    "Description": "The unit's strength is (n)"
+  },
+  {
+    "Id": "rules_48",
+    "Name": "Enhance",
+    "Type": "Rule",
+    "Description": "The Heal Spell has the Elite special rule when targeting units with the Elemental Trait."
+  },
+  {
+    "Id": "rules_49",
+    "Name": "Base",
+    "Type": "Rule",
+    "Description": "This unit must be on the base size specified by n."
+  },
+  {
+    "Id": "rules_50",
+    "Name": "Mindthirst",
+    "Type": "Rule",
+    "Description": "If this unit is within 12” of an enemy unit with the Inspiring or Very Inspiring special rule and it is Wavered or Routed, the opponent must re-roll that Nerve test. The second result stands."
+  },
+  {
+    "Id": "rules_51",
+    "Name": "Chilling Accuracy",
+    "Type": "Rule",
+    "Description": "The Ice Queen has the Elite (Ranged) special rule while targeting enemy units with the Frozen status, or friendly units, with any spells."
+  },
+  {
+    "Id": "rules_52",
+    "Name": "Broadside",
+    "Type": "Rule",
+    "Description": "When using a ranged attack that has this special rule, this unit uses its left or right flank arcs in place of its front arc (depending on where the target is)."
+  },
+  {
+    "Id": "rules_53",
+    "Name": "Savage",
+    "Type": "Rule",
+    "Description": "In the Movement Phase, choose a friendly unit with the Dark Kin Trait within 12\" of this unit. It gains the Vicious (Combat) special rule until the end of the Turn."
+  },
+  {
+    "Id": "rules_54",
+    "Name": "Pack Leader",
+    "Type": "Rule",
+    "Description": "This unit may issue Command Orders up to 18\"."
+  },
+  {
+    "Id": "rules_trait_amphibian",
+    "Name": "Amphibian",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_beast",
+    "Name": "Beast",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_hemicyon",
+    "Name": "Hemicyon",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_hemicyon",
+    "Name": "Hemicyon,",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_hunter",
+    "Name": "Hunter",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_monster",
+    "Name": "Monster",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_oceanspawn",
+    "Name": "Oceanspawn",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_sea",
+    "Name": "Sea",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_spellcaster",
+    "Name": "Spellcaster",
+    "Type": "Rule",
+    "Description": ""
+  },
+  {
+    "Id": "rules_trait_yan",
+    "Name": "Yan",
+    "Type": "Rule",
+    "Description": ""
   }
 ]

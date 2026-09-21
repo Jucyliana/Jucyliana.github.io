@@ -1,82 +1,528 @@
 [
   {
-    "Id": "units_1786214592569",
-    "Name": "Depth Horrors Troop",
+    "Id": "units_3145",
+    "Name": "Naiad Ensnarers Troop",
     "Type": "Unit",
     "DefaultFront": 1,
     "Formation": 0,
     "BasicProfileIds": [
-      "profiles_1786214474853"
+      "profiles_3145_1"
     ],
     "ModelsPerBaseX": 1,
     "ModelsPerBaseY": 1
   },
   {
-    "Id": "units_1786262358952",
-    "Name": "Placoderm Troop",
+    "Id": "units_3145_2",
+    "Name": "Naiad Ensnarers Regiment",
     "Type": "Unit",
-    "DefaultFront": 1,
+    "DefaultFront": 2,
     "Formation": 0,
     "BasicProfileIds": [
-      "mslig45xrrc3a"
+      "profiles_3145_2"
     ],
     "ModelsPerBaseX": 1,
     "ModelsPerBaseY": 1
   },
   {
-    "Id": "units_1786282261025",
-    "Name": "Depth Horror Eternal",
+    "Id": "units_3145_3",
+    "Name": "Naiad Ensnarers Horde",
     "Type": "Unit",
-    "DefaultFront": 1,
+    "DefaultFront": 3,
     "Formation": 0,
     "BasicProfileIds": [
-      "profiles_1786282096623"
-    ]
+      "profiles_3145_3"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
   },
   {
-    "Id": "units_1786289641464",
+    "Id": "units_3148",
     "Name": "Riverguard Troop",
     "Type": "Unit",
     "DefaultFront": 1,
     "Formation": 0,
     "BasicProfileIds": [
-      "profiles_1786289492047"
+      "profiles_3148_1"
     ],
     "ModelsPerBaseX": 1,
     "ModelsPerBaseY": 1
   },
   {
-    "Id": "msov1ybn5afk0",
-    "Name": "Depth Horrors Regiment",
-    "Type": "Unit",
-    "DefaultFront": 2,
-    "Formation": 0,
-    "BasicProfileIds": [
-      "mskq17vt28fh2"
-    ],
-    "ModelsPerBaseX": 1,
-    "ModelsPerBaseY": 1
-  },
-  {
-    "Id": "msov4sbxal5dd",
-    "Name": "Placoderm Regiment",
-    "Type": "Unit",
-    "DefaultFront": 2,
-    "Formation": 0,
-    "BasicProfileIds": [
-      "profiles_1786262246764"
-    ],
-    "ModelsPerBaseX": 1,
-    "ModelsPerBaseY": 1
-  },
-  {
-    "Id": "msov5083dm38t",
+    "Id": "units_3148_2",
     "Name": "Riverguard Regiment",
     "Type": "Unit",
     "DefaultFront": 2,
     "Formation": 0,
     "BasicProfileIds": [
-      "mslyoordl6p50"
+      "profiles_3148_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3151",
+    "Name": "Thuul Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3151_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3151_2",
+    "Name": "Thuul Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3151_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3152",
+    "Name": "Naiad Heartpiercers Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3152_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3152_2",
+    "Name": "Naiad Heartpiercers Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3152_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3146",
+    "Name": "Placoderm Defenders Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3146_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3146_2",
+    "Name": "Placoderm Defenders Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3146_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3147",
+    "Name": "Placoderm Razorswords Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3147_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3147_2",
+    "Name": "Placoderm Razorswords Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3147_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3150",
+    "Name": "Tidal Swarm",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3150_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3153",
+    "Name": "Water Elementals Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3153_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3153_2",
+    "Name": "Water Elementals Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3153_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3149",
+    "Name": "Depth Horrors Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3149_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3149_2",
+    "Name": "Depth Horrors Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3149_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3156",
+    "Name": "Gigas Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3156_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3156_2",
+    "Name": "Gigas Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3156_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3154",
+    "Name": "Naiad Wyrmriders Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3154_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3154_2",
+    "Name": "Naiad Wyrmriders Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3154_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3155",
+    "Name": "Riverguard Dambusters Troop",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3155_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3155_2",
+    "Name": "Riverguard Dambusters Regiment",
+    "Type": "Unit",
+    "DefaultFront": 2,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3155_2"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3157",
+    "Name": "Treeleaper Dambusters",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3157_1"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3165",
+    "Name": "Thuul Aquamage",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3165_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3166",
+    "Name": "Siren",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3166_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3167",
+    "Name": "Placoderm Tidewarden",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3167_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3168",
+    "Name": "Naiad Envoy",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3168_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3169",
+    "Name": "Riverguard Dambuster Sentinel",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3169_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3170",
+    "Name": "Riverguard Sentinel",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3170_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3171",
+    "Name": "Axel Tricklebrook",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3171_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3172",
+    "Name": "Pond Warden",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3172_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3173",
+    "Name": "Naiad Centurion",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3173_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3174",
+    "Name": "Naiad Wyrmrider Centurion",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3174_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3175",
+    "Name": "Depth Horror Eternal",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3175_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3176",
+    "Name": "Eckter",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3176_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3177",
+    "Name": "Trident King",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3177_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3158",
+    "Name": "Knucker",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3158_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3159",
+    "Name": "Greater Water Elemental",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3159_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3160",
+    "Name": "Riverguard Arbalest",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3160_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3162",
+    "Name": "Coral Giant",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3162_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3163",
+    "Name": "Kraken",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3163_4"
+    ],
+    "ModelsPerBaseX": 1,
+    "ModelsPerBaseY": 1
+  },
+  {
+    "Id": "units_3161",
+    "Name": "Leviathan's Bane",
+    "Type": "Unit",
+    "DefaultFront": 1,
+    "Formation": 0,
+    "BasicProfileIds": [
+      "profiles_3161_4"
     ],
     "ModelsPerBaseX": 1,
     "ModelsPerBaseY": 1

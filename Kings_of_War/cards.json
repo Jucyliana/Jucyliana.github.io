@@ -1,114 +1,681 @@
 [
   {
-    "Id": "cards_1786101569546",
-    "Name": "Tenacity!",
+    "Id": "cards_cmd_1",
+    "Name": "Cleansing Flame",
     "Type": "Card",
-    "Description": "The unit may re-roll a single failed to hit roll in Combat this Turn. It cannot be used to re-roll a dice for an attack that has the Blast special rule.",
+    "Description": "Units with the Flamebound Trait only. The unit gains the Fireball (n+2) ranged spell attack this turn, where n is the number of successful dice rolled to issue this order.",
     "Attributes": {
-      "Target": "3+"
+      "Target": "4"
     }
   },
   {
-    "Id": "cards_1786101606631",
-    "Name": "Tactical Retreat!",
+    "Id": "cards_cmd_2",
+    "Name": "Shield of Kthorlaq",
     "Type": "Card",
-    "Description": "If the unit performs a Back! order, it may move up to its Sp value, but may not make any pivots. This order may not be issued to a unit carrying a Loot Counter.",
+    "Description": "This order requires two dice to be successful to be issued. The unit gains +1 De to a maximum of 6+ until the start of its next Turn.",
     "Attributes": {
-      "Target": "4+"
+      "Target": "4"
     }
   },
   {
-    "Id": "cards_1786101665682",
-    "Name": "Fight on with Honour!",
+    "Id": "cards_cmd_3",
+    "Name": "Will of the Ancients",
     "Type": "Card",
-    "Description": "Units with the Hemicyon Trait only. For each successful result on the dice rolled to issue this order, the unit removes one damage it previously suffered.",
+    "Description": "The unit cannot Charge this Turn, but gains +1 Sp.",
     "Attributes": {
-      "Target": "4+"
+      "Target": "4"
     }
   },
   {
-    "Id": "cards_1786101694936",
-    "Name": "Pack Attack",
+    "Id": "cards_cmd_4",
+    "Name": "Rekindle",
     "Type": "Card",
-    "Description": "Units involved in a Combat with multiple Engaged friendly units only. The unit gains the Brutal (2) special rule.",
+    "Description": "Units with the Flamebound Trait only. The unit gains Lifeleech (+n), where n is the number of successful dice rolled to issue this order.",
     "Attributes": {
-      "Target": "4+"
+      "Target": "3"
     }
   },
   {
-    "Id": "cards_1786101713145",
-    "Name": "Bloodhound",
+    "Id": "cards_cmd_5",
+    "Name": "Aegis of Kolosu",
     "Type": "Card",
-    "Description": "Units with the Hunter Trait only. The unit gains the Slayer (+nD3 - Combat) special rule until the end of the Turn, where n is the number of successful results on the dice rolled to issue this order.",
+    "Description": "Units with the Faithful Trait only. For each successful result on the dice rolled to issue this order, the unit removes one damage it previously suffered.",
     "Attributes": {
-      "Target": "4+"
+      "Target": "4"
     }
   },
   {
-    "Id": "cards_1786101733140",
-    "Name": "Sic 'em!",
+    "Id": "cards_cmd_6",
+    "Name": "For the Glory of the Hegemon",
     "Type": "Card",
-    "Description": "Units with the Hemicyon Trait only. The unit gains the Thunderous Charge (+1) special rule.",
+    "Description": "Infantry, Heavy Infantry, and Cavalry units only. The unit gains the Elite (Combat) special rule until the end of the Turn.",
     "Attributes": {
-      "Target": "4+"
+      "Target": "5"
     }
   },
   {
-    "Id": "cards_1786101752139",
-    "Name": "For the Greater Good",
+    "Id": "cards_cmd_7",
+    "Name": "Throwing Mastiff",
     "Type": "Card",
-    "Description": "Units with the Yan Trait only. For each successful result on the dice rolled to issue this order, the unit gains one damage but also increases is Sp by +1. No Nerve test is taken for damage suffered this way.",
+    "Description": "Units with the Holdfast Trait only. The unit may make a ranged attack with the following profile (12\", Att: 6, Piercing (1)) and this hits on a 4+ regardless of modifiers.",
     "Attributes": {
-      "Target": "4+"
+      "Target": "4"
     }
   },
   {
-    "Id": "cards_1786283048654",
+    "Id": "cards_cmd_8",
+    "Name": "Fury of the Ancients",
+    "Type": "Card",
+    "Description": "Units with the Holdfast or Berserker Trait only. If the unit started its Turn Engaged, in the Combat Phase, it gains Crushing Strength (+1) on any attacks it allocates to one enemy unit.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_9",
+    "Name": "Mutated Throwing Mastiff",
+    "Type": "Card",
+    "Description": "Units with the Ironborn or Slave Trait only. The unit may make a ranged attack with the following profile (Range 15\", Att 8) and this hits on a 4+ regardless of modifiers.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_10",
+    "Name": "Last Breath",
+    "Type": "Card",
+    "Description": "Units with the Slave or Mutant Trait only. Until the end of the following enemy Turn, if this unit is Routed, any units that were Engaged with it suffer 2D3 hits (4D3 if the unit given the order is a Horde) with Crushing Strength (2) as if it had been attacked in Combat. These hits are resolved by the player that Routed the unit with The Last Breath order. No Nerve tests are taken as a result of this damage and units can proceed to post-Combat Outcomes as normal. The player issuing this Command may choose to immediately Rout and remove this unit from the board.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_11",
+    "Name": "Hunting Cat",
+    "Type": "Card",
+    "Description": "Units with the Kindred Trait only. The unit may make a ranged attack with the following profile (12\", Att: 6) and this hits on a 3+ regardless of modifiers.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_12",
+    "Name": "Rodinar's Presence",
+    "Type": "Card",
+    "Description": "The unit gains the Headstrong and Inspiring (Self) special rules until the start of its next Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_13",
+    "Name": "Casket of the Damned",
+    "Type": "Card",
+    "Description": "If the unit receiving this order is subsequently targeted by a Surge spell this turn, add an additional six dice to the n value of the Surge spell. This only applies to the first Surge spell targeting this unit this Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_14",
+    "Name": "Sandstorm",
+    "Type": "Card",
+    "Description": "The unit gains Icy Breath (6).",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_15",
+    "Name": "Blessing of the Lady",
+    "Type": "Card",
+    "Description": "For each successful result on the dice rolled to issue this order, the unit removes one damage it previously suffered.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_16",
+    "Name": "Nature Trails",
+    "Type": "Card",
+    "Description": "Infantry and Large Infantry only. The unit gains the Strider special rule.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_17",
+    "Name": "Unholy Shield",
+    "Type": "Card",
+    "Description": "Units with the Upper Circle Trait only. Until the start of its next Turn, the unit increases its De by one (e.g. 4+ becomes 5+) while being targeting by ranged attacks in its front facing.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_18",
+    "Name": "Burn the sinners",
+    "Type": "Card",
+    "Description": "The unit gains the Fireball (n+2) ranged spell attack this turn, where n is the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_19",
+    "Name": "Unleash the Mawpups",
+    "Type": "Card",
+    "Description": "Units with the Green Horde Trait only. When the unit attacks in a Combat, separately roll 6 more attacks for the Mawpups, always hitting on 4+ and with Crushing Strength (1) - no other special rules from the unit have any effect. These attacks do not receive any bonus for rear/flank attacks and must be allocated to a single enemy unit.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_20",
+    "Name": "The Green Wave",
+    "Type": "Card",
+    "Description": "Infantry, Large Infantry units only. When the unit receives a Movement order, it gains either the Nimble or Pathfinder special rules.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_21",
+    "Name": "Indomitable Will",
+    "Type": "Card",
+    "Description": "The unit gains the Headstrong and Inspiring (Self) special rules until the start of its next turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_22",
+    "Name": "Brace for Impact",
+    "Type": "Card",
+    "Description": "Unengaged units with the Stoic Trait only. Unless the unit moves At the Double! or Charges this Turn, until the start of its next Turn, the unit increases its De by one (e.g. 4+ becomes 5+) while being targeting by any attacks in its front facing.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_23",
+    "Name": "Screamshard",
+    "Type": "Card",
+    "Description": "Units without the Regeneration special rule. The unit gains Lifeleech (n+1), where n is the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "3"
+    }
+  },
+  {
+    "Id": "cards_cmd_24",
+    "Name": "Planeshifter",
+    "Type": "Card",
+    "Description": "The unit gains the Pathfinder special rule until the start of its next Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_25",
+    "Name": "For Talanaar!",
+    "Type": "Card",
+    "Description": "Infantry and Heavy Infantry units only. The unit gains the Vicious (Combat) special rule.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_26",
+    "Name": "Chilling Presence",
+    "Type": "Card",
+    "Description": "Units with the Frostbeast Trait only. This order requires two dice to be successful to be issued. This unit gains Cloak of Death until the end of the Turn. Any enemy units that take damage from this Cloak of Death are given the Frozen status.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_27",
+    "Name": "Snapping Crocodog",
+    "Type": "Card",
+    "Description": "Units with the Tribal Strength Trait only. The unit gains the Elite (Combat) special rule.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_28",
+    "Name": "Smoke Bombs",
+    "Type": "Card",
+    "Description": "Units with the Tribal Strength or Goblin Trait only. The unit gains the Stealthy special rule until the start of its next Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_29",
+    "Name": "Green Rage",
+    "Type": "Card",
+    "Description": "Units with the Orc or Forged Traits only. When this unit attacks in a Combat this Turn, for each successful hit that rolls a natural 6, those hits are doubled, before rolling to damage (in effect they have Blast (2)).",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_30",
+    "Name": "Up and at 'em",
+    "Type": "Card",
+    "Description": "Units with the Orc Trait only. The unit gains the Wild Charge (n) special rule where n is the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_31",
+    "Name": "Plague Pots",
+    "Type": "Card",
+    "Description": "Units with the Ratpack Trait only. The unit gains the Ensnare special rule until start of its next Turn.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_32",
+    "Name": "Scurrying Claws",
+    "Type": "Card",
+    "Description": "Units with the Ratpack Trait only. The unit gains the Strider special rule.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_33",
+    "Name": "Fear the Darkness",
+    "Type": "Card",
+    "Description": "The unit gains the Dread special rule.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_34",
+    "Name": "Flesh Hooks",
+    "Type": "Card",
+    "Description": "Units with the Dark Kin Trait only. Enemy units Engaged to the front facing of this unit, cannot Withdraw! and lose 3 Attacks to a minimum of 1. This lasts until the start of this unit's (with the order) next Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_35",
+    "Name": "Raise the Dead",
+    "Type": "Card",
+    "Description": "Units with the Decaying Horde Trait only. The unit gains Lifeleech (+n+1), where n is the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "3"
+    }
+  },
+  {
+    "Id": "cards_cmd_36",
+    "Name": "Dance of Death",
+    "Type": "Card",
+    "Description": "The unit loses the Shambling rule for this Turn. Infantry units also gain the Pathfinder rule this Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_37",
+    "Name": "Nimble Feet",
+    "Type": "Card",
+    "Description": "Units with the Muster Trait only. The unit cannot be issued a Charge! order this Turn, but gains +n Sp, where n is the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_38",
+    "Name": "Camouflage",
+    "Type": "Card",
+    "Description": "Infantry units only. The unit gains the Stealthy special rule.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_39",
+    "Name": "Bear Traps",
+    "Type": "Card",
+    "Description": "Units with the Muster Trait only. The target unit must have received or be given a Halt! order this Turn and cannot already be Engaged. Until its next Turn, enemy units charging this unit each suffer D6 damage after making contact and moved to their final position. Damage taken this way does not trigger a Nerve test.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_40",
+    "Name": "Running Repair",
+    "Type": "Card",
+    "Description": "TinkerTech units only. For each successful result on the dice rolled to issue this order, the unit removes one damage it previously suffered.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_41",
+    "Name": "Butcher's Block",
+    "Type": "Card",
+    "Description": "Units with the Pride of the Shires Traits only. The unit gains the Slayer (n+2) special rule, where n is equal to the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_42",
+    "Name": "Ej Stomping Juice",
+    "Type": "Card",
+    "Description": "Units with the Muster Trait only. The unit gains the Wild Charge (+n) special rule, where n is the number of successful dice rolled to issue this order. This Command Order can only be issued by units with the Gastromancy Trait",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_43",
+    "Name": "Ferocious Fuel",
+    "Type": "Card",
+    "Description": "The unit gains the Brutal (n) special rule, where n is the number of successful dice rolled to issue this order. This Command Order can only be issued by units with the Gastromancy Trait.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_44",
+    "Name": "Shireberry Tonic",
+    "Type": "Card",
+    "Description": "The unit gains the Lifeleech (+n) special rule, where n is the number of successful dice rolled to issue this order. This Command Order can only be issued by units with the Gastromancy Trait",
+    "Attributes": {
+      "Target": "3"
+    }
+  },
+  {
+    "Id": "cards_cmd_45",
     "Name": "Trawling",
     "Type": "Card",
     "Description": "The unit gains the Enthral (5) spell.",
     "Attributes": {
-      "Target": "5+"
+      "Target": "5"
     }
   },
   {
-    "Id": "cards_1786283077399",
+    "Id": "cards_cmd_46",
     "Name": "Hardened Shell",
     "Type": "Card",
     "Description": "Units with the Sea Monster Traits only. The unit gains n Barkskin Tokens (see the Barkskin Spell), where n is the number of successful dice rolled to issue this order. The tokens are removed at the start of the unit's next Turn if still present.",
     "Attributes": {
-      "Target": "4+"
+      "Target": "4"
     }
   },
   {
-    "Id": "cards_1786283107497",
+    "Id": "cards_cmd_47",
     "Name": "Aqua-venom",
     "Type": "Card",
     "Description": "Units with the Oceanspawn or Amphibian Trait only. This unit damages the enemy on a 4+ with both Combat and Ranged attacks, regardless of modifiers.",
     "Attributes": {
-      "Target": "5+"
+      "Target": "5"
     }
   },
   {
-    "Id": "cards_1786283137919",
-    "Name": "Blood in the water",
+    "Id": "cards_cmd_48",
+    "Name": "Blood in the Water",
     "Type": "Card",
     "Description": "This unit gains Vicious (Combat) on any attacks it allocates in Combat to an enemy unit that currently has one or more points of damage on it.",
     "Attributes": {
-      "Taget": "5+"
+      "Target": "5"
     }
   },
   {
-    "Id": "cards_1786283159730",
+    "Id": "cards_cmd_49",
     "Name": "The Healing Tide",
     "Type": "Card",
     "Description": "For each successful result on the dice rolled to issue this order, the unit removes one damage it previously suffered.",
     "Attributes": {
-      "Target": "5+"
+      "Target": "4"
     }
   },
   {
-    "Id": "cards_1786289993831",
+    "Id": "cards_cmd_50",
+    "Name": "Fight on with Honour!",
+    "Type": "Card",
+    "Description": "Units with the Hemicyon Trait only. For each successful result on the dice rolled to issue this order, the unit removes one damage it previously suffered.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_51",
+    "Name": "Pack Attack",
+    "Type": "Card",
+    "Description": "Units involved in a Combat with multiple Engaged friendly units only. The unit gains the Brutal (2) special rule.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_52",
+    "Name": "Bloodhound",
+    "Type": "Card",
+    "Description": "Units with the Hunter Trait only. The unit gains the Slayer (+nD3 - Combat) special rule until the end of the Turn, where n is the number of successful results on the dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_53",
+    "Name": "Sic 'em!",
+    "Type": "Card",
+    "Description": "Units with the Hemicyon Trait only. The unit gains the Thunderous Charge (+1) special rule.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_54",
+    "Name": "For the Greater Good",
+    "Type": "Card",
+    "Description": "Units with the Yan Trait only. For each successful result on the dice rolled to issue this order, the unit gains one damage but also increases is Sp by +1. No Nerve test is taken for damage suffered this way.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_56",
+    "Name": "For the Glory of the Hegemon",
+    "Type": "Card",
+    "Description": "Units charging this Turn only. The unit gains the Elite (Combat) special rule.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_57",
+    "Name": "Cleanse",
+    "Type": "Card",
+    "Description": "The unit gains Iron Resolve (+1) until the start of its next Turn, and any ongoing effects from spells, and the Frozen status, currently affecting this unit are removed.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_58",
+    "Name": "Aegis of Kolosu",
+    "Type": "Card",
+    "Description": "Units with the Faithful Trait only. Until the start of its next Turn, the unit increases its De by one (e.g. 4+ becomes 5+) while being targeted by ranged attacks in its front facing.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_59",
+    "Name": "Borne by Angels",
+    "Type": "Card",
+    "Description": "Infantry and Large Infantry units only. The unit gains the Fly special rule while executing an Advance! or At the Double! movement order.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_60",
+    "Name": "Fell the Beast",
+    "Type": "Card",
+    "Description": "Infantry and Cavalry units only. The unit gains the Slayer (+nD3 – Combat) special rule, where n is the number of successful results on the dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_61",
+    "Name": "Blessing of the Lady",
+    "Type": "Card",
+    "Description": "The unit gains n Barkskin Tokens (see the Barkskin Spell), where n is the number of successful dice rolled to issue this order. A unit with Barkskin tokens granted by this Command, cannot receive them by any other means this Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_62",
+    "Name": "Nature Trails",
+    "Type": "Card",
+    "Description": "Units with the Herd or Elemental Trait only. The unit gains the Strider special rule.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_63",
+    "Name": "Stampede",
+    "Type": "Card",
+    "Description": "Units with the Herd Trait only. An enemy unit that is Charged by this unit in this Movement Phase and Routed in Combat this Turn is treated by this unit as though it had the Yielding special rule. This unit with Stampede must then choose to go Forward! as its post-Combat Outcome, and if it contacts another unit, it will be Hindered.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_64",
+    "Name": "Elemental Force",
+    "Type": "Card",
+    "Description": "Units with the Elemental Trait only. The unit gains the Rampage (n+2 - Combat) special rule where n is the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_65",
+    "Name": "Entanglement of Thorns",
+    "Type": "Card",
+    "Description": "If this unit is Routed in Combat this Round, any units it was Engaged with can only be given a Hold! post-Combat order.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_66",
+    "Name": "Fleshknit",
+    "Type": "Card",
+    "Description": "Units with the Regeneration special rule only. The unit gains Regeneration (+1).",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_67",
+    "Name": "Hellfire",
+    "Type": "Card",
+    "Description": "The unit gains the Fireball (n+2) ranged spell attack this Turn, where n is the number of successful dice rolled to issue this order.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_68",
+    "Name": "Blessing of the Dark Gods",
+    "Type": "Card",
+    "Description": "Units charging this Turn only. The unit gains the Elite (Combat) and Vicious (Combat) special rules. However, if the unit attacks in Combat this Turn, before it rolls any dice, it takes (nD3)+2 damage, where n is the number of successful dice rolled to issue this order. Damage suffered in this way does not cause a Nerve test.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_69",
+    "Name": "Ultimate Betrayal",
+    "Type": "Card",
+    "Description": "Units with the Upper Circle Trait only. Until the start of its next Turn, an enemy unit that attacks this unit in Combat, uses the Me, and Crushing Strength values of this unit. Any magical artefacts the enemy unit has are still applied after the stats are changed. Only one enemy unit can be affected in this way, with the attacking player choosing which unit before any dice are rolled for the Combat.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_70",
+    "Name": "Protect the Tribe",
+    "Type": "Card",
+    "Description": "Unengaged units, or units that have received a Charge! order this Turn only. The unit gains the Vicious (Combat) special rule. If the target unit is Engaged in a Combat involving another friendly unit with the Goblin Trait, add +1 to the dice results when issuing this order.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_71",
+    "Name": "Smoke Bombs",
+    "Type": "Card",
+    "Description": "Units with the Tribal Strength or Goblin Trait only. The unit gains the Stealthy special rule until the start of its next Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_72",
+    "Name": "That's our Stash",
+    "Type": "Card",
+    "Description": "The unit gains +1 Unit Strength until the start of its next Turn.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_73",
+    "Name": "Goblin Explosives",
+    "Type": "Card",
+    "Description": "When this unit makes a non-spell ranged attack in the Ranged Phase this Turn, each successful roll to damage that scores a natural 6, causes 2 damage instead of one.",
+    "Attributes": {
+      "Target": "5"
+    }
+  },
+  {
+    "Id": "cards_cmd_74",
+    "Name": "Marching Orders",
+    "Type": "Card",
+    "Description": "Large Infantry only. When this unit is issued an At the Double! order, it can make one additional pivot during the move.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_cmd_75",
+    "Name": "Tenacity!",
+    "Type": "Card",
+    "Description": "The unit may re-roll a single failed to hit roll in Combat this Turn. It cannot be used to re-roll a dice for an attack that has the Blast special rule.",
+    "Attributes": {
+      "Target": "3"
+    }
+  },
+  {
+    "Id": "cards_cmd_76",
+    "Name": "Tactical Retreat!",
+    "Type": "Card",
+    "Description": "If the unit performs a Back! order, it may move up to its Sp value, but may not make any pivots. This order may not be issued to a unit carrying a Loot Counter.",
+    "Attributes": {
+      "Target": "4"
+    }
+  },
+  {
+    "Id": "cards_spell_1",
     "Name": "Alchemist’s Curse",
     "Type": "Card",
     "Description": "Add the target’s Defence value to the (n) value of this spell (e.g. Casting Alchemist’s Curse (2) against a Defence 4+ unit, will result in Alchemist’s Curse (6), rolling 6 dice for the spell). Piercing (4). Roll to damage as normal.",
@@ -118,17 +685,17 @@
     }
   },
   {
-    "Id": "cards_1786290080597",
+    "Id": "cards_spell_2",
     "Name": "Bane Chant",
     "Type": "Card",
-    "Description": "\tIf any hits are scored, instead of causing damage, for the rest of the Turn the unit gains Crushing Strength (+1). This effect only applies once – multiple castings on the same target have no additional effect.",
+    "Description": "If any hits are scored, instead of causing damage, for the rest of the Turn the unit gains Crushing Strength (+1). This effect only applies once – multiple castings on the same target have no additional effect.",
     "Attributes": {
       "Range": "12\"",
       "Targets": "Friendly, CC"
     }
   },
   {
-    "Id": "cards_1786290117319",
+    "Id": "cards_spell_3",
     "Name": "Barkskin",
     "Type": "Card",
     "Description": "Instead of hitting on 4+, this spell rolls to hit on a result equal to the target’s Defence value (e.g. when targeting a Defence 5+ unit, the spell will hit on a 5+ before any other modifiers are applied). For each hit scored, instead of causing damage, place a Barkskin token on the target unit (use a different coloured die or suitable markers). Whenever a unit with one or more Barkskin tokens would suffer damage, it instead removes one Barkskin token per point of damage taken. Once all Barkskin tokens have been removed, excess damage is suffered by the unit as normal. Removing a Barkskin token does not count as taking damage for the purposes of requiring a Nerve test or other special rules. At the start of the caster’s following Turn, all remaining Barkskin tokens on the target unit are removed from play.",
@@ -138,7 +705,7 @@
     }
   },
   {
-    "Id": "cards_1786290159874",
+    "Id": "cards_spell_4",
     "Name": "Bastion",
     "Type": "Card",
     "Description": "If any hits are scored, instead of causing damage, until the start of its next Turn, the target increases its Nerve stat value by 1 and gains the Rallying special rule.",
@@ -148,7 +715,7 @@
     }
   },
   {
-    "Id": "cards_1786290195174",
+    "Id": "cards_spell_5",
     "Name": "Blizzard",
     "Type": "Card",
     "Description": "Blast (D3), Frostbite, Piercing (1).",
@@ -158,17 +725,17 @@
     }
   },
   {
-    "Id": "cards_1786290230670",
+    "Id": "cards_spell_6",
     "Name": "Bloodboil",
     "Type": "Card",
     "Description": "When rolling to hit, roll a number of dice equal to the amount of damage on the target unit. Then roll to damage as normal. Piercing (1).",
     "Attributes": {
       "Range": "12\"",
-      "Targets": "Madical Missile"
+      "Targets": "Magical Missile"
     }
   },
   {
-    "Id": "cards_1786290262484",
+    "Id": "cards_spell_7",
     "Name": "Celestial Restoration",
     "Type": "Card",
     "Description": "Blast (D3). Instead of causing damage, the total number of hits is the number of points of damage that are immediately removed from the target unit. Dice rolled to hit with this spell cannot be re-rolled for any reason.",
@@ -178,7 +745,7 @@
     }
   },
   {
-    "Id": "cards_1786290308677",
+    "Id": "cards_spell_8",
     "Name": "Drain Life",
     "Type": "Card",
     "Description": "Piercing (1). Roll to damage as normal. If this is cast into Combat, the target will not take a Nerve test at the end of the Ranged Phase. In addition, if any points of damage are scored, choose either the caster or a single Friendly unit within 6” of the caster. Remove one point of damage from the chosen unit for each point of damage dealt to the target.",
@@ -188,37 +755,37 @@
     }
   },
   {
-    "Id": "cards_1786290342528",
+    "Id": "cards_spell_9",
     "Name": "Enthral",
     "Type": "Card",
     "Description": "For each hit scored, instead of causing damage, the target enemy unit is pulled 1” directly forward if the spellcaster is in the target unit’s front arc, directly sideways (on the side of the spellcaster) if the spellcaster is in either of the target unit’s flank arcs, or directly backward if the spellcaster is in the target unit’s rear arc. The target stops 1mm away from enemy units (so it is not Engaged) or just in contact with Blocking Terrain and friendly units. This spell has no effect on units with Speed 0.",
     "Attributes": {
-      "Range": "12\"",
+      "Range": "18\"",
       "Targets": "Target"
     }
   },
   {
-    "Id": "cards_1786290397044",
+    "Id": "cards_spell_10",
     "Name": "Fireball",
     "Type": "Card",
     "Description": "Blast (D3), Shattering (1).",
     "Attributes": {
       "Range": "12\"",
-      "Target": "Magic Missile"
+      "Targets": "Magical Missile"
     }
   },
   {
-    "Id": "cards_1786290434655",
+    "Id": "cards_spell_11",
     "Name": "Heal",
     "Type": "Card",
     "Description": "For each hit scored, instead of causing damage, remove a point of damage from the target unit.",
     "Attributes": {
       "Range": "12\"",
-      "Target": "Friendly, Self, CC"
+      "Targets": "Friendly, Self, CC"
     }
   },
   {
-    "Id": "cards_1786290475315",
+    "Id": "cards_spell_12",
     "Name": "Hex",
     "Type": "Card",
     "Description": "If any hits are scored, instead of causing damage, the target enemy unit is Hexed until the end of its next Turn. Hexed units receive two points of damage for each hit they score with a spell. A Nerve test is not required for damage caused by this spell.",
@@ -228,7 +795,7 @@
     }
   },
   {
-    "Id": "cards_1786290534710",
+    "Id": "cards_spell_13",
     "Name": "Host Shadowbeast",
     "Type": "Card",
     "Description": "This spell can be used even if the model is Engaged. For each hit scored, instead of causing damage, until the start of its following Turn, the target may make an additional attack when attacking in Combat. These attacks are rolled separately from their normal attacks and always hit on a 3+, with the Crushing Strength (3) special rule. These attacks are never doubled or trebled or affected by artefacts, spells or any other special rules (including additional Crushing Strength above 3). A spellcaster may cast Host Shadowbeast onto themselves and can do so even when Engaged with an enemy unit. Multiple castings on the same target have no additional effect.",
@@ -238,7 +805,7 @@
     }
   },
   {
-    "Id": "cards_1786290564356",
+    "Id": "cards_spell_14",
     "Name": "Icy Breath",
     "Type": "Card",
     "Description": "Frostbite",
@@ -248,7 +815,7 @@
     }
   },
   {
-    "Id": "cards_1786290602342",
+    "Id": "cards_spell_15",
     "Name": "Lightning Bolt",
     "Type": "Card",
     "Description": "Piercing (1)",
@@ -258,7 +825,7 @@
     }
   },
   {
-    "Id": "cards_1786290637951",
+    "Id": "cards_spell_16",
     "Name": "Martyr’s Prayer",
     "Type": "Card",
     "Description": "For each hit scored, instead of causing damage, remove one point of damage from the target and transfer it to the spellcaster. The spellcaster will not take a Nerve test for damage taken in this way.",
@@ -268,7 +835,7 @@
     }
   },
   {
-    "Id": "cards_1786290675317",
+    "Id": "cards_spell_17",
     "Name": "Mind Fog",
     "Type": "Card",
     "Description": "If any hits are scored, instead of causing damage, make a Nerve test for the target at the end of the Ranged Phase. Shattering (D3).",
@@ -278,7 +845,7 @@
     }
   },
   {
-    "Id": "cards_1786290713779",
+    "Id": "cards_spell_18",
     "Name": "Scorched Earth",
     "Type": "Card",
     "Description": "If any hits are scored, instead of causing damage, for the duration of its next Turn any charges made by the target unit will be Hindered and the target will not be able to use the Strider and Pathfinder special rules.",
@@ -288,7 +855,7 @@
     }
   },
   {
-    "Id": "cards_1786290748459",
+    "Id": "cards_spell_19",
     "Name": "Surge",
     "Type": "Card",
     "Description": "For each hit scored, instead of causing damage, the friendly Shambling unit moves straight forward a full inch (stopping in contact with friendly units and Blocking Terrain). If applicable, the Fly special rule is not in effect for this movement. This spell has no effect on units with Speed 0. If this movement brings the target unit into contact with an enemy unit treat this as a successful Charge against the enemy facing that the unit contacted. If a corner is contacted, use the arc that the unit was in before it started its Surge move. If there is not enough space for your unit to physically move into contact with the enemy unit contacted by moving as described in the Moving Chargers section on page 18 then the target unit stops in contact with, but not Engaged with, the enemy unit. If it brings the target unit into contact with more than one enemy unit simultaneously then the player whose turn it is chooses which unit is being charged. If it turns out there is not enough space to physically move into contact as described above you can choose a different target from the enemy units you made contact with. If it turns out you cannot physically move into contact with any of the enemy units then the target unit stops in contact with, but not Engaged with, the enemy units. If the Surge move took the target unit over an Obstacle or through Difficult Terrain, then it will be Hindered in the following Combat phase.. Note that the charged unit will not take any Nerve tests for any damage it might have taken in this Ranged Phase. Note that a unit cannot be the target of a Surge in the same Turn in which it has been ordered to Withdraw!",
@@ -298,7 +865,7 @@
     }
   },
   {
-    "Id": "cards_1786290772763",
+    "Id": "cards_spell_20",
     "Name": "Weakness",
     "Type": "Card",
     "Description": "If any hits are scored, instead of causing damage, the target unit is Weakened until the end of its next Turn. Weakened units have a -1 modifier when rolling to damage enemy units (any rolls the unit makes of natural six will still cause damage, however). This effect only applies once – multiple castings on the same target have no effect.",
@@ -308,17 +875,17 @@
     }
   },
   {
-    "Id": "cards_1786290815234",
+    "Id": "cards_spell_21",
     "Name": "Veil of Shadows",
     "Type": "Card",
     "Description": "If any hits are scored, instead of causing damage, the spellcaster gains the Aura (Stealthy) special rule until the start of the player’s next Turn.",
     "Attributes": {
-      "Range": "0\"",
+      "Range": "",
       "Targets": "Self"
     }
   },
   {
-    "Id": "cards_1786290849912",
+    "Id": "cards_spell_22",
     "Name": "Wind Blast",
     "Type": "Card",
     "Description": "For each hit scored, instead of causing damage, the target enemy unit is pushed 1” directly backward if the spellcaster is in the target unit’s front arc, directly sideways (on the side opposite the spellcaster) if the spellcaster is in either of the target unit’s flank arcs, or directly forward if the spellcaster is in the target unit’s rear arc. The target stops just out of contact with enemy units (so it is not Engaged) or just in contact with Blocking Terrain and friendly units. This spell has no effect on Speed 0 units.",
@@ -328,13 +895,479 @@
     }
   },
   {
-    "Id": "cards_1786290882329",
+    "Id": "cards_spell_23",
     "Name": "Wither and Perish",
     "Type": "Card",
     "Description": "Blast (D3). Roll to damage as normal. If this is cast into Combat, the target will not take a Nerve test at the end of the Ranged Phase. In addition, if any hits are scored, the target unit has a -1 modifier when rolling to damage enemy units until the end of their next Turn (any rolls the unit makes of a natural 6 will still cause damage, however). Multiple castings of this spell, or combining it with Weakness, do not cause additional modifiers.",
     "Attributes": {
       "Range": "12\"",
       "Targets": "CC"
+    }
+  },
+  {
+    "Id": "cards_spell_24",
+    "Name": "Smoulder",
+    "Type": "Card",
+    "Description": "If any hits are scored, instead of causing damage, put a Smoulder marker next to the target unit. In its next Turn, if the unit start its Turn Engaged or receives a Charge! order, any Smoulder marker on it is removed. At the end of that Turn, if the unit still has a Smoulder marker on it, the marker is removed and the unit immediately suffers D6 damage. No Nerve test is taken for damage caused this way.",
+    "Attributes": {
+      "Range": "18\"",
+      "Targets": "Magic Missile"
+    }
+  },
+  {
+    "Id": "cards_spell_25",
+    "Name": "Slime them!",
+    "Type": "Card",
+    "Description": "Instead of causing damage, a successful hit causes the target unit to reduce its Sp by 1 for each hit scored, to a minimum of 3, and unable to use the Fly special rule if it has it, until the end of its next Turn. This unit cannot also be affected by Frostbite at the same time.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Magic Missile"
+    }
+  },
+  {
+    "Id": "cards_spell_26",
+    "Name": "Holy Lance",
+    "Type": "Card",
+    "Description": "Piercing (1), Shattering (1). For targets up to 12” this spell rolls 9 dice, up to 24” it rolls 7 dice, and over 24” it rolls 5 dice.",
+    "Attributes": {
+      "Range": "36\"",
+      "Targets": "Target"
+    }
+  },
+  {
+    "Id": "cards_spell_27",
+    "Name": "Life Awakening",
+    "Type": "Card",
+    "Description": "Friendly units in or touching the target receive one Barkskin token (see the Barkskin Spell). In addition, for each successful hit, all enemy units in or touching the target (even if Engaged) immediately take a Piercing (2) hit (which is not against their front facing). Engaged enemy units do not take a Nerve test at the end of the Ranged Phase.",
+    "Attributes": {
+      "Range": "18\"",
+      "Targets": "Difficult Terrain only"
+    }
+  },
+  {
+    "Id": "cards_spell_28",
+    "Name": "The Dark Pit",
+    "Type": "Card",
+    "Description": "If any hits are scored, place a 40mm round marker on the table, anywhere within 12” of the caster and clear of any units. It may be placed in terrain. While the Dark Pit Marker is in play, it has the Dread and Cloak of Death special rules (affecting enemy units immediately after the Dark Pit Marker is placed). The Dark Pit Marker is open terrain and does not block LOS. Remove the marker at the start of your next Turn.",
+    "Attributes": {
+      "Range": "12\"",
+      "Targets": "Target"
+    }
+  },
+  {
+    "Id": "cards_spell_29",
+    "Name": "Whispers of Wickedness",
+    "Type": "Card",
+    "Description": "If any hits are scored, until the beginning of the caster’s next Turn, any unit issuing a Command Order to the affected unit must subtract 1 from each of their Command dice rolls.",
+    "Attributes": {
+      "Range": "24\"",
+      "Targets": "CC"
+    }
+  },
+  {
+    "Id": "cards_spell_30",
+    "Name": "Steppe Storm",
+    "Type": "Card",
+    "Description": "Instead of causing damage, if any hits are scored, until the end of its next Turn, the target unit rerolls any natural to-hit rolls of 6 for both Ranged and Combat attacks. The second result stands.",
+    "Attributes": {
+      "Range": "18\"",
+      "Targets": "CC"
+    }
+  },
+  {
+    "Id": "cards_art_1",
+    "Name": "Blade of Slashing",
+    "Type": "Card",
+    "Description": "Whenever the unit rolls to hit in Combat, it can re-roll one of the dice that failed to hit.",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_2",
+    "Name": "Fire-Oil",
+    "Type": "Card",
+    "Description": "The unit gains both the Crushing Strength special rule (+1 vs. units with Regeneration) and the Piercing special rule (+1 vs. units with Regeneration).",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_3",
+    "Name": "Healing Brew",
+    "Type": "Card",
+    "Description": "Once per game, when given a Movement order, the unit may roll a single die. On a 1-3 it regains one point of damage it previously suffered. On a result of 4-6 it regains two points of damage it previously suffered.",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_4",
+    "Name": "Liliana’s Tear",
+    "Type": "Card",
+    "Description": "The unit is not affected by the Dread, Shattering, or Brutal special rules.",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_5",
+    "Name": "Mace of Crushing",
+    "Type": "Card",
+    "Description": "Whenever the unit rolls to damage in Combat, it can reroll one of the dice that failed to damage.",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_6",
+    "Name": "War-Bow of Kaba",
+    "Type": "Card",
+    "Description": "The unit gains the following Ranged attack: War-Bow of Kaba: 24”, Att: 1, Sh: 4+, Piercing (1)",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_7",
+    "Name": "Dwarfen Ale",
+    "Type": "Card",
+    "Description": "The unit gains the Headstrong special rule.",
+    "Attributes": {
+      "Points": "10"
+    }
+  },
+  {
+    "Id": "cards_art_8",
+    "Name": "Hann’s Sanguinary Scripture",
+    "Type": "Card",
+    "Description": "The unit gains the Lifeleech (+1) special rule.",
+    "Attributes": {
+      "Points": "10"
+    }
+  },
+  {
+    "Id": "cards_art_9",
+    "Name": "Aegis of the Elohi",
+    "Type": "Card",
+    "Description": "The unit gains the Iron Resolve (+1) special rule.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_10",
+    "Name": "Chalice of Wrath",
+    "Type": "Card",
+    "Description": "The unit gains the Retaliate! special rule.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_11",
+    "Name": "Helm of Confidence",
+    "Type": "Card",
+    "Description": "The unit gains the Inspiring (Self) special rule.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_12",
+    "Name": "Mead of Madness",
+    "Type": "Card",
+    "Description": "The unit gains the Wild Charge (+1) special rule.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_13",
+    "Name": "Orb of Towering Presence",
+    "Type": "Card",
+    "Description": "May not be taken by units with the Individual or Fly special rules. Increase the unit's Unit Strength (see page 67) by +1.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_14",
+    "Name": "Sir Jesse’s Boots of Striding",
+    "Type": "Card",
+    "Description": "Once per game, this unit gains both the Pathfinder and Strider special rules until the end of the Turn.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_15",
+    "Name": "Staying Stone",
+    "Type": "Card",
+    "Description": "The unit gains +1 to its Nerve stat value.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_16",
+    "Name": "Brew of Haste",
+    "Type": "Card",
+    "Description": "This unit increases its Speed stat by +1.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_17",
+    "Name": "Pipes of Terror",
+    "Type": "Card",
+    "Description": "This unit gains the Brutal (+1) special rule.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_18",
+    "Name": "Hammer of Measured Force",
+    "Type": "Card",
+    "Description": "In Combat, this unit will always damage the enemy on a 4+ regardless of any other modifiers.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_19",
+    "Name": "Sacred Horn",
+    "Type": "Card",
+    "Description": "The range of the unit’s Aura is increased to 9”.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_20",
+    "Name": "Blessing of the Gods",
+    "Type": "Card",
+    "Description": "The unit gains the Elite special rule.",
+    "Attributes": {
+      "Points": "25"
+    }
+  },
+  {
+    "Id": "cards_art_21",
+    "Name": "Chant of Hate",
+    "Type": "Card",
+    "Description": "The unit gains the Vicious special rule.",
+    "Attributes": {
+      "Points": "25"
+    }
+  },
+  {
+    "Id": "cards_art_22",
+    "Name": "The Scrying Gem",
+    "Type": "Card",
+    "Description": "When starting to deploy their units, your opponent must deploy D3+1 units instead of a single one.",
+    "Attributes": {
+      "Points": "25"
+    }
+  },
+  {
+    "Id": "cards_art_23",
+    "Name": "Diadem of Dragonkind",
+    "Type": "Card",
+    "Description": "The unit gains the Fireball (4) spell, or if the unit already has a Fireball spell, its value is increased by 2.",
+    "Attributes": {
+      "Points": "30"
+    }
+  },
+  {
+    "Id": "cards_art_24",
+    "Name": "Crystal Pendant of Retribution",
+    "Type": "Card",
+    "Description": "May not be taken by units with the Individual special rule. When the unit suffers a Rout result, all units in base contact with it suffer 2D6 hits with Piercing (3). These hits are resolved by the player that Routed the unit with the Crystal, which now has to (grudgingly, we’re sure) resolve the hits against their own unit(s). After the damage has been resolved, no Nerve test is taken by the damaged units.",
+    "Attributes": {
+      "Points": "35"
+    }
+  },
+  {
+    "Id": "cards_art_25",
+    "Name": "Brew of Strength",
+    "Type": "Card",
+    "Description": "The unit gains the Crushing Strength (+1) special rule.",
+    "Attributes": {
+      "Points": "40"
+    }
+  },
+  {
+    "Id": "cards_art_26",
+    "Name": "Brew of Sharpness",
+    "Type": "Card",
+    "Description": "The unit has a +1 to hit modifier with Combat attacks.",
+    "Attributes": {
+      "Points": "45"
+    }
+  },
+  {
+    "Id": "cards_art_27",
+    "Name": "Darklord’s Onyx Ring",
+    "Type": "Card",
+    "Description": "Infantry and Cavalry only. Once per game, the hero gains the Regeneration (4+) special rule. This must be used the first time the unit has any damage on it at the beginning of the hero’s Turn.",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_28",
+    "Name": "Ej Periscope",
+    "Type": "Card",
+    "Description": "Infantry only. The hero gains the Leaper special rule.",
+    "Attributes": {
+      "Points": "5"
+    }
+  },
+  {
+    "Id": "cards_art_29",
+    "Name": "Amulet of the Fireheart",
+    "Type": "Card",
+    "Description": "Once per game, immediately after casting a spell, the hero may cast a second, different, spell. The hero cannot use this artefact to cast more than two spells in a single Turn.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_30",
+    "Name": "Axe of the Giant Slayer",
+    "Type": "Card",
+    "Description": "Infantry and Cavalry only. The hero gains the Slayer (D3) special rule in Combat.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_31",
+    "Name": "Crown of the Wizard King",
+    "Type": "Card",
+    "Description": "The hero gains an additional 6” range on all of its spells that target friendly units.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_32",
+    "Name": "Mournful Blade",
+    "Type": "Card",
+    "Description": "Infantry and Cavalry only. The hero gains the Duellist (D3) special rule.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_33",
+    "Name": "Scythe of the Harvester",
+    "Type": "Card",
+    "Description": "Infantry and Cavalry only. The hero gains the Rampage (D3) special rule in Combat.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_34",
+    "Name": "Torc of Command",
+    "Type": "Card",
+    "Description": "Command Orders attempted by this unit can be issued to units within 18” instead of the normal 12”.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_35",
+    "Name": "Trickster’s Wand",
+    "Type": "Card",
+    "Description": "The hero gains the Hex (2) spell.",
+    "Attributes": {
+      "Points": "15"
+    }
+  },
+  {
+    "Id": "cards_art_36",
+    "Name": "Banner of Command",
+    "Type": "Card",
+    "Description": "When rolling to issue a Command Order with this unit, add an additional die to the attempt.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_37",
+    "Name": "Blade of the Beast Slayer",
+    "Type": "Card",
+    "Description": "The unit gains the Crushing Strength (+1 – vs Large Infantry, Large Cavalry, and Monsters) special rule.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_38",
+    "Name": "Boots of the Seven Leagues",
+    "Type": "Card",
+    "Description": "Infantry and Cavalry only. The hero gains the Scout special rule.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_39",
+    "Name": "Tome of Darkness",
+    "Type": "Card",
+    "Description": "The hero gains the Surge (5) spell, or if the hero already has a Surge spell, its value is increased by 3.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_40",
+    "Name": "Zephyr Crown",
+    "Type": "Card",
+    "Description": "The unit gains the Wind Blast (5) spell, or if the unit already has a Wind Blast spell, its value is increased by 3.",
+    "Attributes": {
+      "Points": "20"
+    }
+  },
+  {
+    "Id": "cards_art_41",
+    "Name": "Shroud of the Saint",
+    "Type": "Card",
+    "Description": "The hero gains the Heal (3) spell, or if the hero already has a Heal spell, its value is increased by 2.",
+    "Attributes": {
+      "Points": "25"
+    }
+  },
+  {
+    "Id": "cards_art_42",
+    "Name": "Wings of Honeymaze",
+    "Type": "Card",
+    "Description": "Infantry only. The hero gains the Fly special rule, but decreases its Defence stat by -1 to a minimum of 2+.",
+    "Attributes": {
+      "Points": "25"
+    }
+  },
+  {
+    "Id": "cards_art_43",
+    "Name": "The Boomstick",
+    "Type": "Card",
+    "Description": "The hero gains the Lighting Bolt (3) spell, or if the hero already has a Lightning Bolt spell, its value is increased by 2.",
+    "Attributes": {
+      "Points": "30"
+    }
+  },
+  {
+    "Id": "cards_art_44",
+    "Name": "Inspiring Talisman",
+    "Type": "Card",
+    "Description": "The hero gains the Inspiring special rule.",
+    "Attributes": {
+      "Points": "30"
     }
   }
 ]
