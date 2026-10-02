@@ -13,7 +13,6 @@
       "Type": "RankAndFile"
     }
   ],
-  "DefaultFrontTargetsRows": true,
   "DefaultFormation": "RankAndFile",
   "FormationChangingRules": [],
   "MaxCloudSeparation": 1,
@@ -30,10 +29,21 @@
   },
   "ResultCalculatorAlgorithm": 0,
   "ListParsingAlgorithm": 6,
-  "PointCounting": "Disabled",
-  "PointCountingStatusNames": [],
-  "UseTurnController": false,
+  "PointCounting": "FullOrNone",
+  "PointCountingStatusNames": [
+    {
+      "Status": 0,
+      "Name": "Alive"
+    },
+    {
+      "Status": 1,
+      "Name": "Dead"
+    }
+  ],
   "DefaultZenithLight": false,
+  "BattleReportScreenshotTiming": "AtEndOfTurn",
+  "BattleReportScreenshotCardStackId": null,
+  "BattleReportScreenshotAtDeployment": true,
   "ShownButtons": [
     "Delete",
     "Radius",
